@@ -440,6 +440,25 @@
       background: var(--gold);
     }
 
+    .region-button.locked {
+      color: rgba(49, 66, 88, 0.58);
+      background: rgba(246, 239, 228, 0.82);
+      border-color: rgba(183, 143, 91, 0.32);
+      box-shadow: 0 5px 12px rgba(83, 57, 32, 0.12);
+      cursor: not-allowed;
+      filter: grayscale(0.35);
+    }
+
+    .region-button.locked::after {
+      background: #b8aa98;
+    }
+
+    .region-status {
+      font-size: clamp(0.48rem, 1.8vw, 0.58rem);
+      font-weight: 900;
+      color: inherit;
+    }
+
     @media (max-width: 520px) {
       .region-row {
         aspect-ratio: 941 / 1672;
@@ -1071,6 +1090,7 @@
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
+      const OPEN_LEVELS = new Set(["N5"]);
       const LEVEL_SETTINGS = {
         N5: { boardSize: 4, wordsPerStation: 10 },
         N4: { boardSize: 5, wordsPerStation: 10 },
@@ -1771,7 +1791,8 @@
       }
 
       function enterRegion(regionId) {
-        if (!REGION_BY_ID.has(regionId)) return;
+        const region = REGION_BY_ID.get(regionId);
+        if (!region || !isRegionOpen(region)) return;
         const changedRegion = regionId !== currentRegion().id;
         if (changedRegion) {
           persistSave();
@@ -1793,6 +1814,10 @@
 
       function currentRegion() {
         return REGION_BY_ID.get(rootSave.currentRegionId) || REGIONS[0];
+      }
+
+      function isRegionOpen(region) {
+        return OPEN_LEVELS.has(region.level);
       }
 
       function currentLevel() {
@@ -1827,8 +1852,9 @@
           const raw = localStorage.getItem(ROOT_SAVE_KEY);
           if (!raw) return createInitialRootSave();
           const parsed = JSON.parse(raw);
+          const savedRegion = REGION_BY_ID.get(parsed.currentRegionId);
           return {
-            currentRegionId: REGION_BY_ID.has(parsed.currentRegionId) ? parsed.currentRegionId : REGIONS[0].id,
+            currentRegionId: savedRegion && isRegionOpen(savedRegion) ? savedRegion.id : REGIONS[0].id,
             playMode: parsed.playMode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE
           };
         } catch (error) {
@@ -2146,10 +2172,13 @@
       function renderRegions() {
         els.regionRow.innerHTML = "";
         for (const region of REGIONS) {
+          const isOpen = isRegionOpen(region);
           const button = document.createElement("button");
           button.type = "button";
           button.className = "region-button";
-          button.classList.toggle("active", region.id === currentRegion().id);
+          button.classList.toggle("active", isOpen && region.id === currentRegion().id);
+          button.classList.toggle("locked", !isOpen);
+          button.disabled = !isOpen;
           button.style.setProperty("--map-x", region.mapX);
           button.style.setProperty("--map-y", region.mapY);
           button.style.setProperty("--mobile-map-x", region.mobileMapX);
@@ -2160,10 +2189,15 @@
           const name = document.createElement("span");
           name.className = "region-name";
           name.textContent = region.name;
-          button.append(level, name);
-          button.setAttribute("aria-pressed", String(region.id === currentRegion().id));
-          button.setAttribute("aria-label", `進入 ${region.subtitle}`);
-          button.addEventListener("click", () => enterRegion(region.id));
+          const status = document.createElement("span");
+          status.className = "region-status";
+          status.textContent = isOpen ? "開放中" : "製作中";
+          button.append(level, name, status);
+          button.setAttribute("aria-pressed", String(isOpen && region.id === currentRegion().id));
+          button.setAttribute("aria-label", isOpen ? `進入 ${region.subtitle}` : `${region.subtitle} 製作中`);
+          if (isOpen) {
+            button.addEventListener("click", () => enterRegion(region.id));
+          }
           els.regionRow.appendChild(button);
         }
       }
