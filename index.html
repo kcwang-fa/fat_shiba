@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>呷胖環遊日本 Phase 2</title>
   <link rel="preload" as="image" href="assets/home-journey.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Noto+Serif+TC:wght@500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
   <style>
     :root {
       color-scheme: light;
@@ -23,7 +26,11 @@
       --shadow: 0 16px 36px rgba(79, 55, 31, 0.14);
       --radius: 8px;
       --tap: 56px;
-      font-family: ui-rounded, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+      --font-ui: "Zen Maru Gothic", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+      --font-display: "Klee One", "Noto Serif TC", "PingFang TC", serif;
+      --font-travel: "Noto Serif TC", "Klee One", "PingFang TC", serif;
+      --font-kana: "Klee One", "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+      font-family: var(--font-ui);
     }
 
     * {
@@ -190,7 +197,9 @@
     }
 
     h1 {
+      font-family: var(--font-display);
       font-size: 1.15rem;
+      font-weight: 600;
       line-height: 1.2;
       letter-spacing: 0;
     }
@@ -303,14 +312,17 @@
     }
 
     .station-title h2 {
+      font-family: var(--font-display);
       font-size: 1.25rem;
+      font-weight: 600;
       line-height: 1.2;
       letter-spacing: 0;
     }
 
     .food-line {
+      font-family: var(--font-travel);
       color: var(--teal-dark);
-      font-weight: 800;
+      font-weight: 700;
       overflow-wrap: anywhere;
     }
 
@@ -515,9 +527,10 @@
     }
 
     .clue-text {
+      font-family: var(--font-display);
       font-size: 1.1rem;
       line-height: 1.25;
-      font-weight: 900;
+      font-weight: 600;
       overflow-wrap: anywhere;
     }
 
@@ -545,6 +558,7 @@
       min-width: 0;
       min-height: 0;
       border-radius: var(--radius);
+      font-family: var(--font-kana);
       color: var(--ink);
       background:
         linear-gradient(160deg, rgba(255, 255, 255, 0.94), rgba(255, 247, 235, 0.86));
@@ -595,9 +609,10 @@
 
     .spell-text {
       min-width: 0;
+      font-family: var(--font-kana);
       font-size: 1.35rem;
       line-height: 1.2;
-      font-weight: 900;
+      font-weight: 600;
       overflow-wrap: anywhere;
     }
 
@@ -645,8 +660,9 @@
     }
 
     .word-main {
+      font-family: var(--font-travel);
       font-size: 1.18rem;
-      font-weight: 900;
+      font-weight: 700;
       overflow-wrap: anywhere;
     }
 
@@ -708,6 +724,126 @@
       display: grid;
     }
 
+    .album-backdrop {
+      position: fixed;
+      inset: 0;
+      display: none;
+      place-items: center;
+      padding: max(18px, env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) max(18px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
+      background:
+        radial-gradient(circle at 50% 12%, rgba(255, 253, 248, 0.18), transparent 28%),
+        rgba(37, 48, 66, 0.48);
+      z-index: 18;
+      overflow: auto;
+      perspective: 1200px;
+    }
+
+    .album-backdrop.open {
+      display: grid;
+    }
+
+    body.album-open {
+      overflow: hidden;
+    }
+
+    .album-book {
+      width: min(100%, 900px);
+      max-height: calc(100svh - 36px);
+      display: grid;
+      position: relative;
+      transform-origin: center left;
+      filter: drop-shadow(0 30px 42px rgba(26, 32, 44, 0.28));
+    }
+
+    .album-book::before {
+      content: "";
+      position: absolute;
+      inset: 10px auto 10px -10px;
+      width: 30px;
+      border-radius: 8px 0 0 8px;
+      background:
+        linear-gradient(90deg, #af5b46, #d98c66 45%, #7f4639);
+      box-shadow: inset -8px 0 14px rgba(37, 48, 66, 0.24);
+      z-index: 0;
+    }
+
+    .album-book::after {
+      content: "";
+      position: absolute;
+      inset: 16px 50% 16px auto;
+      width: 1px;
+      background: linear-gradient(180deg, transparent, rgba(123, 91, 54, 0.32), transparent);
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .album-backdrop.open .album-book {
+      animation: albumBookOpen 0.42s cubic-bezier(0.2, 0.82, 0.2, 1) both;
+    }
+
+    .album-backdrop.open .postcard-panel {
+      animation: albumPageSettle 0.5s cubic-bezier(0.2, 0.82, 0.2, 1) both;
+    }
+
+    .album-book .postcard-panel {
+      max-height: calc(100svh - 36px);
+      overflow: auto;
+      padding: clamp(14px, 3vw, 22px);
+      transform-origin: left center;
+      z-index: 1;
+    }
+
+    .album-close-button {
+      position: absolute;
+      top: -12px;
+      right: -10px;
+      width: 42px;
+      min-height: 42px;
+      padding: 0;
+      border-radius: 50%;
+      color: var(--ink);
+      background: rgba(255, 253, 248, 0.9);
+      border: 1px solid rgba(214, 194, 159, 0.9);
+      box-shadow: 0 10px 22px rgba(79, 55, 31, 0.14);
+      font-size: 1.35rem;
+      font-weight: 900;
+      line-height: 1;
+      z-index: 4;
+    }
+
+    .album-close-button:hover {
+      background: #fffdf8;
+    }
+
+    @keyframes albumBookOpen {
+      from {
+        opacity: 0;
+        transform: translateY(22px) rotateX(9deg) rotateY(-14deg) scale(0.92);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) rotateX(0) rotateY(0) scale(1);
+      }
+    }
+
+    @keyframes albumPageSettle {
+      from {
+        clip-path: inset(0 48% 0 48% round 8px);
+        transform: rotateY(-7deg);
+      }
+      to {
+        clip-path: inset(0 0 0 0 round 8px);
+        transform: rotateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .album-backdrop.open .album-book,
+      .album-backdrop.open .postcard-panel {
+        animation: none;
+      }
+    }
+
     .postcard-panel::before {
       content: "";
       position: absolute;
@@ -754,16 +890,19 @@
     }
 
     .postcard-album-title h2 {
+      font-family: var(--font-display);
       font-size: 1.24rem;
+      font-weight: 600;
       line-height: 1.18;
       letter-spacing: 0;
     }
 
     .postcard-album-title p {
+      font-family: var(--font-travel);
       color: var(--muted);
       font-size: 0.86rem;
       line-height: 1.35;
-      font-weight: 800;
+      font-weight: 700;
     }
 
     .album-stamp {
@@ -772,13 +911,14 @@
       border-radius: 50%;
       display: grid;
       place-items: center;
+      font-family: var(--font-display);
       color: var(--coral-dark);
       background:
         radial-gradient(circle, rgba(255, 253, 248, 0.86) 0 50%, transparent 51%),
         repeating-radial-gradient(circle, rgba(189, 75, 54, 0.42) 0 2px, transparent 2px 5px);
       border: 2px dashed rgba(189, 75, 54, 0.58);
       transform: rotate(5deg);
-      font-weight: 900;
+      font-weight: 600;
       box-shadow: 0 8px 18px rgba(79, 55, 31, 0.12);
     }
 
@@ -818,6 +958,12 @@
       gap: 10px;
     }
 
+    .postcard-entry {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+
     .postcard {
       min-height: 132px;
       aspect-ratio: 3 / 2;
@@ -828,19 +974,15 @@
         linear-gradient(180deg, #fffdf7, #f4eadc);
       overflow: hidden;
       position: relative;
-      padding: 10px;
-      display: grid;
-      align-content: end;
-      gap: 2px;
       box-shadow: 0 10px 22px rgba(79, 55, 31, 0.12);
       transition: transform 0.16s ease, box-shadow 0.16s ease, filter 0.16s ease;
     }
 
-    .postcard.unlocked {
+    .postcard-entry.unlocked .postcard {
       cursor: pointer;
     }
 
-    .postcard.unlocked:hover {
+    .postcard-entry.unlocked:hover .postcard {
       transform: translateY(-2px) rotate(-0.4deg);
       box-shadow: 0 14px 28px rgba(79, 55, 31, 0.17);
     }
@@ -890,40 +1032,36 @@
       z-index: 2;
     }
 
-    .postcard::after {
-      content: "POSTCARD";
-      position: absolute;
-      top: 12px;
-      right: 12px;
-      z-index: 2;
-      color: rgba(37, 48, 66, 0.26);
-      font-size: 0.68rem;
-      font-weight: 900;
-      letter-spacing: 0.08em;
+    .postcard-caption {
+      min-height: 72px;
+      display: grid;
+      align-content: start;
+      gap: 2px;
+      padding: 8px 9px;
+      border-radius: 7px;
+      background: rgba(255, 253, 248, 0.82);
+      border: 1px dashed rgba(183, 143, 91, 0.42);
     }
 
     .postcard-title,
     .postcard-food,
     .postcard-note {
-      position: relative;
-      z-index: 3;
-      width: fit-content;
+      width: 100%;
       max-width: 100%;
-      border-radius: 999px;
-      padding: 2px 7px;
-      background: rgba(255, 253, 248, 0.82);
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+      font-family: var(--font-travel);
+      background: transparent;
+      box-shadow: none;
     }
 
     .postcard-title {
-      font-weight: 900;
+      font-weight: 700;
     }
 
     .postcard-food,
     .postcard-note {
       font-size: 0.82rem;
       color: var(--muted);
-      font-weight: 800;
+      font-weight: 700;
     }
 
     .postcard-slot {
@@ -932,11 +1070,12 @@
       display: grid;
       place-items: center;
       z-index: 1;
+      font-family: var(--font-display);
       color: rgba(37, 48, 66, 0.22);
       border: 1px dashed rgba(123, 91, 54, 0.26);
       border-radius: 6px;
-      font-size: clamp(1.8rem, 8vw, 2.6rem);
-      font-weight: 900;
+      font-size: 0;
+      font-weight: 600;
     }
 
     .modal-backdrop {
@@ -965,7 +1104,9 @@
     }
 
     .modal h2 {
+      font-family: var(--font-display);
       font-size: 1.35rem;
+      font-weight: 600;
       line-height: 1.25;
     }
 
@@ -996,19 +1137,6 @@
       z-index: 2;
     }
 
-    .modal-postcard::after {
-      content: "明信片";
-      position: absolute;
-      top: 18px;
-      right: 18px;
-      z-index: 1;
-      color: rgba(37, 48, 66, 0.18);
-      font-size: 1.8rem;
-      font-weight: 900;
-      letter-spacing: 0;
-      writing-mode: vertical-rl;
-    }
-
     .modal-postcard .postcard-shiba {
       right: var(--shiba-modal-right, 7%);
       bottom: var(--shiba-modal-bottom, 18%);
@@ -1021,15 +1149,21 @@
       display: none;
     }
 
+    .modal-postcard-info {
+      display: grid;
+      gap: 5px;
+      padding: 10px 12px;
+      border-radius: var(--radius);
+      background: #fffdf7;
+      border: 1px dashed rgba(183, 143, 91, 0.48);
+    }
+
     .modal-postcard-badge,
     .modal-postcard-title,
     .modal-postcard-meta,
     .modal-postcard-note {
-      position: relative;
-      z-index: 3;
       width: fit-content;
       max-width: 100%;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.78);
     }
 
     .modal-postcard-badge {
@@ -1043,16 +1177,41 @@
     }
 
     .modal-postcard-title {
+      font-family: var(--font-travel);
       font-size: 1.16rem;
       line-height: 1.22;
-      font-weight: 900;
+      font-weight: 700;
     }
 
     .modal-postcard-meta,
     .modal-postcard-note {
+      font-family: var(--font-travel);
       color: var(--muted);
       font-size: 0.86rem;
-      font-weight: 800;
+      font-weight: 700;
+    }
+
+    .modal-travel-log {
+      margin: 0;
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      color: #3b4657;
+      background: rgba(238, 247, 243, 0.72);
+      border: 1px solid rgba(45, 155, 159, 0.22);
+      font-family: var(--font-travel);
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+    }
+
+    .modal-travel-log-label {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--teal-dark);
+      font-family: var(--font-ui);
+      font-size: 0.76rem;
+      font-weight: 900;
     }
 
     .modal-actions {
@@ -1094,12 +1253,12 @@
 
     @media (min-width: 900px) {
       .app {
-        width: min(100%, 920px);
+        width: min(100%, 1120px);
         padding-inline: 24px;
       }
 
       .map-select-panel {
-        padding: 16px;
+        padding: 12px;
       }
 
       .region-button {
@@ -1212,23 +1371,28 @@
       </div>
     </section>
 
-    <section class="postcard-panel" id="postcardPanel" aria-label="明信片收集本">
-      <div class="postcard-album-head">
-        <div class="postcard-album-title">
-          <span class="album-eyebrow">旅の記録</span>
-          <h2>明信片收集本</h2>
-          <p id="postcardAlbumHint">完成每一站就能把水彩明信片收進來。</p>
-        </div>
-        <strong class="album-stamp" id="postcardAlbumStamp">0 / 10</strong>
+    <div class="album-backdrop" id="postcardAlbumBackdrop" role="dialog" aria-modal="true" aria-labelledby="postcardAlbumTitle">
+      <div class="album-book">
+        <button class="album-close-button" type="button" id="postcardAlbumCloseButton" aria-label="關閉明信片收集本">×</button>
+        <section class="postcard-panel" id="postcardPanel" aria-label="明信片收集本">
+          <div class="postcard-album-head">
+            <div class="postcard-album-title">
+              <span class="album-eyebrow">旅の記録</span>
+              <h2 id="postcardAlbumTitle">明信片收集本</h2>
+              <p id="postcardAlbumHint">完成每一站就能把水彩明信片收進來。</p>
+            </div>
+            <strong class="album-stamp" id="postcardAlbumStamp">0 / 10</strong>
+          </div>
+          <div class="postcard-album-progress" aria-label="明信片收集進度">
+            <div class="album-progress-track" aria-hidden="true">
+              <div class="album-progress-fill" id="postcardAlbumFill"></div>
+            </div>
+            <span class="album-progress-text" id="postcardAlbumText">尚未收集</span>
+          </div>
+          <div class="postcard-grid" id="postcardGrid"></div>
+        </section>
       </div>
-      <div class="postcard-album-progress" aria-label="明信片收集進度">
-        <div class="album-progress-track" aria-hidden="true">
-          <div class="album-progress-fill" id="postcardAlbumFill"></div>
-        </div>
-        <span class="album-progress-text" id="postcardAlbumText">尚未收集</span>
-      </div>
-      <div class="postcard-grid" id="postcardGrid"></div>
-    </section>
+    </div>
   </main>
 
   <div class="modal-backdrop" id="stationModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
@@ -1238,11 +1402,15 @@
       <article class="modal-postcard" id="modalPostcard" aria-label="取得的明信片">
         <img class="postcard-scene" id="modalPostcardImage" alt="">
         <img class="postcard-shiba" id="modalPostcardShiba" alt="">
+      </article>
+      <div class="modal-postcard-info" aria-label="明信片說明欄">
         <span class="modal-postcard-badge" id="modalPostcardBadge">新明信片</span>
         <strong class="modal-postcard-title" id="modalPostcardTitle"></strong>
         <span class="modal-postcard-meta" id="modalPostcardMeta"></span>
         <span class="modal-postcard-note" id="modalPostcardNote"></span>
-      </article>
+        <span class="modal-travel-log-label">呷胖旅遊紀錄</span>
+        <span id="modalTravelLogText">今天也有好好吃飯。</span>
+      </div>
       <div class="modal-actions">
         <button class="primary-button" type="button" id="modalNextButton">前往下一站</button>
         <button class="ghost-button" type="button" id="modalCloseButton">留在這裡</button>
@@ -1305,6 +1473,7 @@
               foodZh: "沖繩麵",
               foodJa: "沖縄そば",
               scenePrompt: "沖繩鄉間的一間小狗屋作為旅程起點，紅瓦屋頂、白色石牆、扶桑花與熱帶植物，遠方可見藍色海洋，一隻旅行小狗背著行李準備出發",
+              travelLog: "今天從紅瓦小狗屋出發，風裡有海的味道，也有沖繩麵湯頭的味道。紅瓦屋頂旁邊開著扶桑花，遠遠還看得到一點藍色海面。呷胖先把麵吃完，才想起自己本來是要旅行。合理，餓著走路很不科學。",
               postcard: "assets/okinawa-01-dog-house.png"
             },
             {
@@ -1314,6 +1483,7 @@
               foodZh: "沙翁甜甜圈",
               foodJa: "サーターアンダギー",
               scenePrompt: "沖縄県那覇市の国際通り，從街道中央觀看，兩側是沖繩土產店、餐廳、紅瓦裝飾、招牌與棕櫚樹，街上有少量行人",
+              travelLog: "國際通的招牌一個比一個會發光，呷胖的注意力一個比一個不可靠。土產店、餐廳和紅瓦裝飾排在街邊，看起來每一家都在招手。沙翁甜甜圈外面酥酥、裡面紮實，咬下去很有存在感。吃完以後決定慢慢逛，反正肚子已經很有行程表。",
               postcard: "assets/okinawa-02-kokusai-dori.png"
             },
             {
@@ -1323,6 +1493,7 @@
               foodZh: "金楚糕",
               foodJa: "ちんすこう",
               scenePrompt: "沖縄県那覇市の首里城，正面觀看鮮紅色琉球式宮殿、中央石階、紅色木造建築與左右對稱的城郭",
+              travelLog: "首里城的紅色很端正，讓呷胖難得把背包揹好。石階一路往上，宮殿站在前面，很有一種請大家安靜參觀的氣勢。金楚糕一入口就碎成小小的甜香，連點心屑都很努力。呷胖嚴肅地記下：歷史很重要，點心屑也要接好。",
               postcard: "assets/okinawa-03-shuri-castle.png"
             },
             {
@@ -1332,6 +1503,7 @@
               foodZh: "海葡萄小碗",
               foodJa: "海ぶどう",
               scenePrompt: "沖縄県那覇市の波の上ビーチ，碧藍海水、白色沙灘與岩石海岸，岩崖上方可見朱紅色波上宮",
+              travelLog: "朱紅色的波上宮立在海邊，像替這片藍色海景蓋上一枚小印章。白色沙灘和岩石海岸在旁邊展開，浪花一直很忙，沒有下班的意思。呷胖坐在沙灘旁吃海葡萄，噗滋噗滋的口感很像海把小驚喜藏進碗裡。咬下去才肯交出來，這個設計很會。",
               postcard: "assets/okinawa-04-naminoue-beach.png"
             },
             {
@@ -1341,6 +1513,7 @@
               foodZh: "海鹽冰淇淋",
               foodJa: "海塩アイス",
               scenePrompt: "沖縄美ら海水族館の黒潮の海水槽，巨大鯨鯊游過深藍色水槽，周圍有鬼蝠魟與魚群",
+              travelLog: "美麗海水族館的水槽大到像另一個天空，只是天空裡有鯨鯊慢慢游過。魚群在深藍色裡轉來轉去，呷胖看得很安靜，難得沒有先找出口和小吃。海鹽冰淇淋帶一點鹹味，甜甜涼涼，很適合配這片藍。呷胖覺得自己也有在變優雅，至少冰淇淋融化以前是。",
               postcard: "assets/okinawa-05-churaumi-aquarium.png"
             },
             {
@@ -1350,6 +1523,7 @@
               foodZh: "苦瓜炒蛋",
               foodJa: "ゴーヤーチャンプルー",
               scenePrompt: "沖縄県恩納村の万座毛，象鼻形琉球石灰岩海崖、綠色草地、藍綠色海水與白色浪花",
+              travelLog: "萬座毛的海風把呷胖的耳朵吹得很有存在感。象鼻岩在浪邊安靜站著，草地、海水和白色浪花排得很乾淨。苦瓜炒蛋有一點苦，也有很多香，吃第一口會停一下，第二口就懂了。旅行好像也是這樣，不全是甜的才記得住。",
               postcard: "assets/okinawa-06-cape-manzamo.png"
             },
             {
@@ -1359,6 +1533,7 @@
               foodZh: "紅芋塔",
               foodJa: "紅芋タルト",
               scenePrompt: "沖縄県今帰仁村の古宇利大橋，從高處俯瞰筆直長橋跨越藍綠色海水，遠方是古宇利島",
+              travelLog: "古宇利大橋像一條筆直的路，直接把藍綠色的海切成兩邊。橋的另一端是古宇利島，遠遠看起來像浮在海上的小目標。呷胖吃著紅芋塔過橋，甜甜的紫色餡讓牠心情很穩。只要甜點還在手上，今天的方向感應該還算正常。",
               postcard: "assets/okinawa-07-kouri-bridge.png"
             },
             {
@@ -1368,6 +1543,7 @@
               foodZh: "八重山黑糖冰",
               foodJa: "八重山黒糖かき氷",
               scenePrompt: "沖縄県竹富島の伝統集落，白砂道路、紅瓦屋頂、石牆、扶桑花與緩慢行走的水牛車",
+              travelLog: "竹富島的白砂路走起來慢慢的，連時間都像被水牛車牽著散步。紅瓦屋頂、石牆和扶桑花排在路邊，每一個角落都很適合停下來看一下。呷胖吃八重山黑糖冰，糖香從冰裡冒出來，跟熱天氣正面交涉。吃到最後，熱天氣終於安靜了一點。",
               postcard: "assets/okinawa-08-taketomi-island.png"
             },
             {
@@ -1377,6 +1553,7 @@
               foodZh: "石垣牛漢堡",
               foodJa: "石垣牛バーガー",
               scenePrompt: "沖縄県石垣島の川平湾，從高處眺望翠綠島嶼、白色沙灘與清澈的藍綠色海灣",
+              travelLog: "川平灣的海藍得很不講道理，呷胖看一眼就覺得相機記憶體可能不夠。白色沙灘、翠綠島嶼和透明海水放在一起，漂亮得有點犯規。石垣牛漢堡很厚，拿在手上很有重量感，也很有說服力。咬下去以後，風景跟午餐暫時打成平手。",
               postcard: "assets/okinawa-09-ishigaki-kabira-bay.png"
             },
             {
@@ -1386,6 +1563,7 @@
               foodZh: "扁實檸檬果汁",
               foodJa: "シークヮーサージュース",
               scenePrompt: "沖縄県南城市のおきなわワールド玉泉洞，巨大鐘乳石、石筍、地下水面與洞穴步道，神秘但明亮安全",
+              travelLog: "玉泉洞裡涼涼的，和外面的太陽完全是兩個部門。鐘乳石像把很久很久的時間一滴一滴存起來，地下水面也安靜得很有耐心。呷胖喝著扁實檸檬果汁，酸得眼睛亮一下，精神直接回來上班。沖繩十站就這樣被收進行李，明信片也乖乖排好隊了。",
               postcard: "assets/okinawa-10-gyokusendo-cave.png"
             }
           ]
@@ -1895,6 +2073,8 @@
         resetButton: document.getElementById("resetButton"),
         nextStationButton: document.getElementById("nextStationButton"),
         postcardToggleButton: document.getElementById("postcardToggleButton"),
+        postcardAlbumBackdrop: document.getElementById("postcardAlbumBackdrop"),
+        postcardAlbumCloseButton: document.getElementById("postcardAlbumCloseButton"),
         postcardPanel: document.getElementById("postcardPanel"),
         postcardAlbumHint: document.getElementById("postcardAlbumHint"),
         postcardAlbumStamp: document.getElementById("postcardAlbumStamp"),
@@ -1909,6 +2089,7 @@
         modalPostcardTitle: document.getElementById("modalPostcardTitle"),
         modalPostcardMeta: document.getElementById("modalPostcardMeta"),
         modalPostcardNote: document.getElementById("modalPostcardNote"),
+        modalTravelLogText: document.getElementById("modalTravelLogText"),
         modalTitle: document.getElementById("modalTitle"),
         modalText: document.getElementById("modalText"),
         modalNextButton: document.getElementById("modalNextButton"),
@@ -1951,7 +2132,7 @@
         els.newRoundButton.hidden = isMapView;
         els.regionSubtitle.textContent = isMapView ? "選擇 JLPT 關卡" : currentRegion().subtitle;
         if (isMapView) {
-          els.postcardPanel.classList.remove("open");
+          closePostcardAlbum();
         }
       }
 
@@ -1973,11 +2154,26 @@
           save = loadRegionSave(regionId);
         }
         appView = APP_VIEW_GAME;
-        els.postcardPanel.classList.remove("open");
+        closePostcardAlbum();
         renderAll();
         generateRound();
         updateAppView();
         setMessage(`進入${currentRegion().subtitle}，繼續拼 ${currentWordsPerStation()} 個 ${currentLevel()} 單字。`);
+      }
+
+      function openPostcardAlbum() {
+        renderPostcards();
+        els.postcardPanel.hidden = false;
+        els.postcardPanel.classList.add("open");
+        els.postcardAlbumBackdrop.classList.add("open");
+        document.body.classList.add("album-open");
+        els.postcardAlbumCloseButton.focus({ preventScroll: true });
+      }
+
+      function closePostcardAlbum() {
+        els.postcardAlbumBackdrop.classList.remove("open");
+        els.postcardPanel.classList.remove("open");
+        document.body.classList.remove("album-open");
       }
 
       function regionSaveKey(regionId) {
@@ -2498,6 +2694,7 @@
         els.modalPostcardTitle.textContent = station.placeZh;
         els.modalPostcardMeta.textContent = `${station.placeJa}｜${station.foodJa}`;
         els.modalPostcardNote.textContent = `呷胖吃到 ${station.foodZh}，把這一站收進行李。`;
+        els.modalTravelLogText.textContent = station.travelLog || `呷胖在${station.placeZh}吃到${station.foodZh}，今天也有好好把旅程記下來。`;
       }
 
       function openCollectedPostcard(station) {
@@ -2527,12 +2724,14 @@
           const isCollected = collected.has(station.id);
           const stationNumber = currentStations().indexOf(station) + 1;
           const item = document.createElement("article");
-          item.className = `postcard ${isCollected ? "unlocked" : "locked"}`;
+          item.className = `postcard-entry ${isCollected ? "unlocked" : "locked"}`;
+          const card = document.createElement("div");
+          card.className = `postcard ${isCollected ? "" : "locked"}`.trim();
 
           if (isCollected) {
             const visual = postcardVisual(station);
-            applyPostcardLayout(item, visual.layout);
-            item.append(
+            applyPostcardLayout(card, visual.layout);
+            card.append(
               createPostcardImage("postcard-scene", visual.scene, `${station.placeZh}明信片底圖`),
               createPostcardImage("postcard-shiba", visual.shiba, "呷胖明信片貼圖")
             );
@@ -2548,12 +2747,13 @@
           } else {
             const slot = document.createElement("span");
             slot.className = "postcard-slot";
-            slot.textContent = String(stationNumber).padStart(2, "0");
             slot.setAttribute("aria-hidden", "true");
-            item.append(slot);
+            card.append(slot);
             item.setAttribute("aria-label", `第 ${stationNumber} 站明信片尚未取得`);
           }
 
+          const caption = document.createElement("div");
+          caption.className = "postcard-caption";
           const title = document.createElement("strong");
           title.className = "postcard-title";
           title.textContent = isCollected ? station.placeZh : "尚未取得";
@@ -2563,7 +2763,8 @@
           const note = document.createElement("span");
           note.className = "postcard-note";
           note.textContent = isCollected ? station.foodZh : `拼滿 ${currentWordsPerStation()} 詞解鎖`;
-          item.append(title, food, note);
+          caption.append(title, food, note);
+          item.append(card, caption);
           els.postcardGrid.appendChild(item);
         }
       }
@@ -2811,7 +3012,7 @@
         save = createInitialRegionSave(currentRegion());
         persistSave();
         els.resetButton.textContent = "重置進度";
-        els.postcardPanel.classList.remove("open");
+        closePostcardAlbum();
         renderAll();
         generateRound();
         setMessage(`${currentRegion().name}區進度已重置，其他區不受影響。`);
@@ -2851,8 +3052,10 @@
       els.backToMapButton.addEventListener("click", showMapSelect);
       els.resetButton.addEventListener("click", armReset);
       els.nextStationButton.addEventListener("click", goNextStation);
-      els.postcardToggleButton.addEventListener("click", () => {
-        els.postcardPanel.classList.toggle("open");
+      els.postcardToggleButton.addEventListener("click", openPostcardAlbum);
+      els.postcardAlbumCloseButton.addEventListener("click", closePostcardAlbum);
+      els.postcardAlbumBackdrop.addEventListener("click", (event) => {
+        if (event.target === els.postcardAlbumBackdrop) closePostcardAlbum();
       });
       els.modalNextButton.addEventListener("click", () => {
         if (els.modalNextButton.dataset.action === "close") {
@@ -2863,6 +3066,14 @@
       });
       els.modalCloseButton.addEventListener("click", () => {
         els.stationModal.classList.remove("open");
+      });
+      window.addEventListener("keydown", (event) => {
+        if (event.key !== "Escape") return;
+        if (els.stationModal.classList.contains("open")) {
+          els.stationModal.classList.remove("open");
+          return;
+        }
+        if (els.postcardAlbumBackdrop.classList.contains("open")) closePostcardAlbum();
       });
       els.startJourneyButton.addEventListener("click", startJourney);
 
