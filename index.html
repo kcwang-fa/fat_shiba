@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>呷胖環遊日本 Phase 2</title>
+  <link rel="preload" as="image" href="assets/home-journey.webp" type="image/webp">
   <style>
     :root {
       color-scheme: light;
@@ -73,6 +74,12 @@
       background:
         linear-gradient(90deg, rgba(255, 248, 239, 0.08), rgba(255, 248, 239, 0.44)),
         url("assets/home-journey.png") center / cover no-repeat;
+      background-image:
+        linear-gradient(90deg, rgba(255, 248, 239, 0.08), rgba(255, 248, 239, 0.44)),
+        image-set(
+          url("assets/home-journey.webp") type("image/webp"),
+          url("assets/home-journey.png") type("image/png")
+        );
       overflow: hidden;
     }
 
@@ -362,6 +369,12 @@
       background:
         linear-gradient(180deg, rgba(255, 253, 248, 0.22), rgba(255, 253, 248, 0.03)),
         url("assets/jlpt-map-entrance.png") center / cover no-repeat;
+      background-image:
+        linear-gradient(180deg, rgba(255, 253, 248, 0.22), rgba(255, 253, 248, 0.03)),
+        image-set(
+          url("assets/jlpt-map-entrance.webp") type("image/webp"),
+          url("assets/jlpt-map-entrance.png") type("image/png")
+        );
       box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 10px 24px rgba(79, 55, 31, 0.12);
       overflow: hidden;
       isolation: isolate;
@@ -465,6 +478,12 @@
         background:
           linear-gradient(180deg, rgba(255, 253, 248, 0.18), rgba(255, 253, 248, 0.02)),
           url("assets/jlpt-map-entrance-mobile.png") center / cover no-repeat;
+        background-image:
+          linear-gradient(180deg, rgba(255, 253, 248, 0.18), rgba(255, 253, 248, 0.02)),
+          image-set(
+            url("assets/jlpt-map-entrance-mobile.webp") type("image/webp"),
+            url("assets/jlpt-map-entrance-mobile.png") type("image/png")
+          );
       }
 
       .region-button {
@@ -674,18 +693,129 @@
 
     .postcard-panel {
       display: none;
-      padding: 12px;
-      gap: 10px;
+      padding: 14px;
+      gap: 12px;
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(189, 75, 54, 0.06) 0 9px, transparent 9px 100%),
+        radial-gradient(circle at 13% 18%, rgba(227, 167, 47, 0.18), transparent 24%),
+        radial-gradient(circle at 84% 4%, rgba(45, 155, 159, 0.14), transparent 27%),
+        linear-gradient(180deg, rgba(255, 253, 248, 0.92), rgba(255, 248, 239, 0.88));
     }
 
     .postcard-panel.open {
       display: grid;
     }
 
+    .postcard-panel::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background:
+        linear-gradient(90deg, rgba(123, 91, 54, 0.08) 0 1px, transparent 1px 100%) 34px 0 / 18px 100%,
+        radial-gradient(circle at 22% 38%, rgba(37, 48, 66, 0.04) 0 1px, transparent 2px) 0 0 / 18px 18px;
+      mix-blend-mode: multiply;
+      opacity: 0.7;
+    }
+
+    .postcard-album-head,
+    .postcard-album-progress,
+    .postcard-grid {
+      position: relative;
+      z-index: 1;
+    }
+
+    .postcard-album-head {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: start;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed rgba(183, 143, 91, 0.52);
+    }
+
+    .postcard-album-title {
+      display: grid;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .album-eyebrow {
+      width: fit-content;
+      border-radius: 999px;
+      padding: 3px 8px;
+      color: var(--teal-dark);
+      background: rgba(238, 247, 243, 0.78);
+      border: 1px solid rgba(45, 155, 159, 0.22);
+      font-size: 0.72rem;
+      font-weight: 900;
+    }
+
+    .postcard-album-title h2 {
+      font-size: 1.24rem;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .postcard-album-title p {
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.35;
+      font-weight: 800;
+    }
+
+    .album-stamp {
+      width: 62px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--coral-dark);
+      background:
+        radial-gradient(circle, rgba(255, 253, 248, 0.86) 0 50%, transparent 51%),
+        repeating-radial-gradient(circle, rgba(189, 75, 54, 0.42) 0 2px, transparent 2px 5px);
+      border: 2px dashed rgba(189, 75, 54, 0.58);
+      transform: rotate(5deg);
+      font-weight: 900;
+      box-shadow: 0 8px 18px rgba(79, 55, 31, 0.12);
+    }
+
+    .postcard-album-progress {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px 10px;
+      align-items: center;
+    }
+
+    .album-progress-track {
+      height: 10px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: rgba(220, 204, 182, 0.72);
+      border: 1px solid rgba(214, 194, 159, 0.78);
+    }
+
+    .album-progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--gold), var(--coral), var(--teal));
+      transition: width 0.25s ease;
+    }
+
+    .album-progress-text {
+      color: var(--teal-dark);
+      font-size: 0.82rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
     .postcard-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 8px;
+      gap: 10px;
     }
 
     .postcard {
@@ -702,6 +832,17 @@
       display: grid;
       align-content: end;
       gap: 2px;
+      box-shadow: 0 10px 22px rgba(79, 55, 31, 0.12);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, filter 0.16s ease;
+    }
+
+    .postcard.unlocked {
+      cursor: pointer;
+    }
+
+    .postcard.unlocked:hover {
+      transform: translateY(-2px) rotate(-0.4deg);
+      box-shadow: 0 14px 28px rgba(79, 55, 31, 0.17);
     }
 
     .postcard.locked {
@@ -783,6 +924,19 @@
       font-size: 0.82rem;
       color: var(--muted);
       font-weight: 800;
+    }
+
+    .postcard-slot {
+      position: absolute;
+      inset: 12px;
+      display: grid;
+      place-items: center;
+      z-index: 1;
+      color: rgba(37, 48, 66, 0.22);
+      border: 1px dashed rgba(123, 91, 54, 0.26);
+      border-radius: 6px;
+      font-size: clamp(1.8rem, 8vw, 2.6rem);
+      font-weight: 900;
     }
 
     .modal-backdrop {
@@ -1058,8 +1212,21 @@
       </div>
     </section>
 
-    <section class="postcard-panel" id="postcardPanel" aria-label="明信片收藏">
-      <h2>明信片收藏</h2>
+    <section class="postcard-panel" id="postcardPanel" aria-label="明信片收集本">
+      <div class="postcard-album-head">
+        <div class="postcard-album-title">
+          <span class="album-eyebrow">旅の記録</span>
+          <h2>明信片收集本</h2>
+          <p id="postcardAlbumHint">完成每一站就能把水彩明信片收進來。</p>
+        </div>
+        <strong class="album-stamp" id="postcardAlbumStamp">0 / 10</strong>
+      </div>
+      <div class="postcard-album-progress" aria-label="明信片收集進度">
+        <div class="album-progress-track" aria-hidden="true">
+          <div class="album-progress-fill" id="postcardAlbumFill"></div>
+        </div>
+        <span class="album-progress-text" id="postcardAlbumText">尚未收集</span>
+      </div>
       <div class="postcard-grid" id="postcardGrid"></div>
     </section>
   </main>
@@ -1099,6 +1266,7 @@
         N1: { boardSize: 6, wordsPerStation: 15 }
       };
       const HINTS_PER_ROUND = 3;
+      const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
       const PLAY_MODE_SIMPLE = "simple";
       const PLAY_MODE_ADVANCED = "advanced";
       const APP_VIEW_MAP = "map";
@@ -1728,6 +1896,10 @@
         nextStationButton: document.getElementById("nextStationButton"),
         postcardToggleButton: document.getElementById("postcardToggleButton"),
         postcardPanel: document.getElementById("postcardPanel"),
+        postcardAlbumHint: document.getElementById("postcardAlbumHint"),
+        postcardAlbumStamp: document.getElementById("postcardAlbumStamp"),
+        postcardAlbumFill: document.getElementById("postcardAlbumFill"),
+        postcardAlbumText: document.getElementById("postcardAlbumText"),
         postcardGrid: document.getElementById("postcardGrid"),
         stationModal: document.getElementById("stationModal"),
         modalPostcard: document.getElementById("modalPostcard"),
@@ -2278,58 +2450,119 @@
         card.style.setProperty("--shiba-modal-bottom", layout.modalBottom);
       }
 
+      function optimizedImageSrc(src) {
+        return WEBP_CANDIDATE_RE.test(src) ? src.replace(/\.png$/i, ".webp") : src;
+      }
+
+      function setImageSource(img, src) {
+        const optimizedSrc = optimizedImageSrc(src);
+        img.dataset.fallbackSrc = optimizedSrc === src ? "" : src;
+        img.onerror = () => {
+          const fallbackSrc = img.dataset.fallbackSrc;
+          if (fallbackSrc) {
+            img.dataset.fallbackSrc = "";
+            img.src = fallbackSrc;
+            return;
+          }
+          img.classList.add("hidden");
+        };
+        img.src = optimizedSrc;
+      }
+
       function createPostcardImage(className, src, alt) {
         const img = document.createElement("img");
         img.className = className;
-        img.src = src;
         img.alt = alt;
-        img.addEventListener("error", () => img.classList.add("hidden"), { once: true });
+        img.loading = "lazy";
+        img.decoding = "async";
+        img.fetchPriority = "low";
+        setImageSource(img, src);
         return img;
       }
 
       function updatePostcardImage(img, src, alt) {
         img.classList.remove("hidden");
         img.alt = alt;
-        img.onerror = () => img.classList.add("hidden");
-        img.src = src;
+        img.decoding = "async";
+        img.fetchPriority = "high";
+        setImageSource(img, src);
       }
 
-      function renderModalPostcard(station) {
+      function renderModalPostcard(station, options = {}) {
         const visual = postcardVisual(station);
+        const badgeText = options.badgeText || "新明信片";
         applyPostcardLayout(els.modalPostcard, visual.layout);
         updatePostcardImage(els.modalPostcardImage, visual.scene, `${station.placeZh}明信片底圖`);
         updatePostcardImage(els.modalPostcardShiba, visual.shiba, "呷胖明信片貼圖");
-        els.modalPostcardBadge.textContent = "新明信片";
+        els.modalPostcardBadge.textContent = badgeText;
         els.modalPostcardTitle.textContent = station.placeZh;
         els.modalPostcardMeta.textContent = `${station.placeJa}｜${station.foodJa}`;
         els.modalPostcardNote.textContent = `呷胖吃到 ${station.foodZh}，把這一站收進行李。`;
       }
 
+      function openCollectedPostcard(station) {
+        els.modalTitle.textContent = `${station.placeZh}明信片`;
+        els.modalText.textContent = `${currentRegion().name}區旅行收集本第 ${currentStations().indexOf(station) + 1} 張。`;
+        els.modalNextButton.textContent = "關閉";
+        els.modalNextButton.dataset.action = "close";
+        renderModalPostcard(station, { badgeText: "已收藏" });
+        els.stationModal.classList.add("open");
+      }
+
       function renderPostcards() {
         const collected = new Set(save.collectedPostcardIds);
+        const collectedCount = currentStations().filter((station) => collected.has(station.id)).length;
+        const totalCount = currentStations().length;
+        const progress = totalCount ? (collectedCount / totalCount) * 100 : 0;
+        els.postcardAlbumStamp.textContent = `${collectedCount} / ${totalCount}`;
+        els.postcardAlbumFill.style.width = `${progress}%`;
+        els.postcardAlbumText.textContent = collectedCount === totalCount
+          ? `${currentRegion().name}區已收齊`
+          : `已收集 ${collectedCount} 張，還差 ${totalCount - collectedCount} 張`;
+        els.postcardAlbumHint.textContent = collectedCount
+          ? "點開已收藏的明信片，可以重新看呷胖的旅行紀錄。"
+          : "完成每一站就能把水彩明信片收進來。";
         els.postcardGrid.innerHTML = "";
         for (const station of currentStations()) {
+          const isCollected = collected.has(station.id);
+          const stationNumber = currentStations().indexOf(station) + 1;
           const item = document.createElement("article");
-          item.className = `postcard ${collected.has(station.id) ? "" : "locked"}`.trim();
+          item.className = `postcard ${isCollected ? "unlocked" : "locked"}`;
 
-          if (collected.has(station.id)) {
+          if (isCollected) {
             const visual = postcardVisual(station);
             applyPostcardLayout(item, visual.layout);
             item.append(
               createPostcardImage("postcard-scene", visual.scene, `${station.placeZh}明信片底圖`),
               createPostcardImage("postcard-shiba", visual.shiba, "呷胖明信片貼圖")
             );
+            item.tabIndex = 0;
+            item.setAttribute("role", "button");
+            item.setAttribute("aria-label", `查看${station.placeZh}明信片`);
+            item.addEventListener("click", () => openCollectedPostcard(station));
+            item.addEventListener("keydown", (event) => {
+              if (event.key !== "Enter" && event.key !== " ") return;
+              event.preventDefault();
+              openCollectedPostcard(station);
+            });
+          } else {
+            const slot = document.createElement("span");
+            slot.className = "postcard-slot";
+            slot.textContent = String(stationNumber).padStart(2, "0");
+            slot.setAttribute("aria-hidden", "true");
+            item.append(slot);
+            item.setAttribute("aria-label", `第 ${stationNumber} 站明信片尚未取得`);
           }
 
           const title = document.createElement("strong");
           title.className = "postcard-title";
-          title.textContent = collected.has(station.id) ? station.placeZh : "尚未取得";
+          title.textContent = isCollected ? station.placeZh : "尚未取得";
           const food = document.createElement("span");
           food.className = "postcard-food";
-          food.textContent = collected.has(station.id) ? station.foodJa : `第 ${currentStations().indexOf(station) + 1} 站`;
+          food.textContent = isCollected ? station.foodJa : `第 ${stationNumber} 站`;
           const note = document.createElement("span");
           note.className = "postcard-note";
-          note.textContent = collected.has(station.id) ? station.foodZh : `拼滿 ${currentWordsPerStation()} 詞解鎖`;
+          note.textContent = isCollected ? station.foodZh : `拼滿 ${currentWordsPerStation()} 詞解鎖`;
           item.append(title, food, note);
           els.postcardGrid.appendChild(item);
         }
@@ -2506,6 +2739,7 @@
           ? `呷胖吃完 ${station.foodZh}，${currentRegion().name} 10 站明信片收齊。`
           : `呷胖在${station.placeZh}吃到${station.foodZh}，明信片入手。`;
         els.modalNextButton.textContent = isFinal ? `留在${currentRegion().name}回味` : "前往下一站";
+        els.modalNextButton.dataset.action = "next";
         renderModalPostcard(station);
         els.stationModal.classList.add("open");
       }
@@ -2620,7 +2854,13 @@
       els.postcardToggleButton.addEventListener("click", () => {
         els.postcardPanel.classList.toggle("open");
       });
-      els.modalNextButton.addEventListener("click", goNextStation);
+      els.modalNextButton.addEventListener("click", () => {
+        if (els.modalNextButton.dataset.action === "close") {
+          els.stationModal.classList.remove("open");
+          return;
+        }
+        goNextStation();
+      });
       els.modalCloseButton.addEventListener("click", () => {
         els.stationModal.classList.remove("open");
       });
