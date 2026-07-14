@@ -1,0 +1,2588 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>呷胖環遊日本 Phase 2</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fff8ef;
+      --paper-strong: #fffdf8;
+      --ink: #253042;
+      --muted: #697386;
+      --line: #ead9c3;
+      --coral: #e96f57;
+      --coral-dark: #bd4b36;
+      --teal: #2d9b9f;
+      --teal-dark: #1d7076;
+      --leaf: #7f9f4e;
+      --gold: #e3a72f;
+      --blue: #4d6fae;
+      --shadow: 0 16px 36px rgba(79, 55, 31, 0.14);
+      --radius: 8px;
+      --tap: 56px;
+      font-family: ui-rounded, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      min-height: 100%;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 0%, rgba(45, 155, 159, 0.14), transparent 30%),
+        radial-gradient(circle at 88% 10%, rgba(233, 111, 87, 0.12), transparent 28%),
+        linear-gradient(180deg, #f8fbf4 0%, var(--paper) 44%, #f5efe8 100%);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    .home-screen {
+      min-height: 100svh;
+      padding: max(18px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
+      position: relative;
+      display: grid;
+      align-items: end;
+      justify-items: end;
+      background:
+        linear-gradient(90deg, rgba(255, 248, 239, 0.08), rgba(255, 248, 239, 0.44)),
+        url("assets/home-journey.png") center / cover no-repeat;
+      overflow: hidden;
+    }
+
+    .home-screen.hidden {
+      display: none;
+    }
+
+    .start-journey-button {
+      min-height: 58px;
+      min-width: min(62vw, 220px);
+      margin-right: clamp(12px, 9vw, 150px);
+      margin-bottom: clamp(42px, 14vh, 128px);
+      border-radius: 999px;
+      padding: 0 28px;
+      color: #fffdf8;
+      background:
+        linear-gradient(180deg, #f08b5f 0%, #d9573d 100%);
+      border: 2px solid rgba(255, 253, 248, 0.92);
+      box-shadow: 0 14px 30px rgba(137, 71, 34, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.34);
+      font-size: clamp(1.08rem, 3.8vw, 1.32rem);
+      font-weight: 900;
+      letter-spacing: 0;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    }
+
+    .start-journey-button:hover {
+      background:
+        linear-gradient(180deg, #e9744d 0%, #bd4b36 100%);
+      box-shadow: 0 16px 34px rgba(137, 71, 34, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.32);
+    }
+
+    .start-journey-button:active {
+      transform: translateY(1px);
+    }
+
+    .app {
+      width: min(100%, 520px);
+      min-height: 100svh;
+      margin: 0 auto;
+      padding: 14px 14px calc(18px + env(safe-area-inset-bottom));
+      display: grid;
+      gap: 12px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 auto;
+    }
+
+    .shiba-mark {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: relative;
+      flex: 0 0 auto;
+      background:
+        radial-gradient(circle at 34% 43%, #3a2b21 0 4px, transparent 5px),
+        radial-gradient(circle at 66% 43%, #3a2b21 0 4px, transparent 5px),
+        radial-gradient(circle at 50% 61%, #3a2b21 0 4px, transparent 5px),
+        radial-gradient(circle at 50% 70%, #fff4e2 0 18px, transparent 19px),
+        linear-gradient(145deg, #df9f55, #f0c070);
+      box-shadow: 0 8px 18px rgba(111, 70, 32, 0.18);
+    }
+
+    .shiba-mark::before,
+    .shiba-mark::after {
+      content: "";
+      position: absolute;
+      top: -5px;
+      width: 18px;
+      height: 24px;
+      background: #d88f45;
+      border: 3px solid #fff3df;
+      transform: rotate(30deg);
+      z-index: -1;
+    }
+
+    .shiba-mark::before {
+      left: 4px;
+      transform: rotate(-30deg);
+    }
+
+    .shiba-mark::after {
+      right: 4px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 1.15rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .subtitle,
+    .muted {
+      color: var(--muted);
+    }
+
+    .subtitle {
+      font-size: 0.84rem;
+      margin-top: 2px;
+    }
+
+    .icon-button,
+    .primary-button,
+    .secondary-button,
+    .ghost-button {
+      min-height: 44px;
+      border-radius: var(--radius);
+      padding: 0 14px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-weight: 800;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .icon-button:active,
+    .primary-button:active,
+    .secondary-button:active,
+    .ghost-button:active,
+    .kana-cell:active {
+      transform: translateY(1px);
+    }
+
+    .icon-button {
+      width: 44px;
+      padding: 0;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--line);
+    }
+
+    .primary-button {
+      color: #fff;
+      background: var(--coral);
+      box-shadow: 0 10px 20px rgba(189, 75, 54, 0.22);
+    }
+
+    .primary-button:hover {
+      background: var(--coral-dark);
+    }
+
+    .secondary-button {
+      color: #fff;
+      background: var(--teal);
+      box-shadow: 0 10px 20px rgba(29, 112, 118, 0.18);
+    }
+
+    .secondary-button:hover {
+      background: var(--teal-dark);
+    }
+
+    .ghost-button {
+      color: var(--ink);
+      background: var(--paper-strong);
+      border: 1px solid var(--line);
+    }
+
+    .station-panel,
+    .map-select-panel,
+    .play-panel,
+    .status-panel,
+    .postcard-panel {
+      border: 1px solid rgba(234, 217, 195, 0.92);
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, 0.84);
+      box-shadow: var(--shadow);
+    }
+
+    .station-panel {
+      padding: 14px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .station-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .station-index {
+      font-size: 0.78rem;
+      color: #fff;
+      background: var(--blue);
+      padding: 5px 8px;
+      border-radius: 999px;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+
+    .station-title {
+      display: grid;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .station-title h2 {
+      font-size: 1.25rem;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .food-line {
+      color: var(--teal-dark);
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .progress-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .progress-track {
+      height: 12px;
+      border-radius: 999px;
+      overflow: hidden;
+      background: #eadfce;
+    }
+
+    .progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--leaf), var(--teal));
+      transition: width 0.25s ease;
+    }
+
+    .progress-text {
+      font-size: 0.84rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .play-panel {
+      padding: 14px;
+      display: grid;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .map-select-panel {
+      padding: 10px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .mode-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .region-row {
+      position: relative;
+      aspect-ratio: 1717 / 916;
+      border-radius: var(--radius);
+      border: 1px solid rgba(222, 198, 161, 0.95);
+      background:
+        linear-gradient(180deg, rgba(255, 253, 248, 0.22), rgba(255, 253, 248, 0.03)),
+        url("assets/jlpt-map-entrance.png") center / cover no-repeat;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 10px 24px rgba(79, 55, 31, 0.12);
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .mode-button,
+    .region-button {
+      min-height: 38px;
+      border-radius: var(--radius);
+      color: var(--muted);
+      background: #f6efe4;
+      border: 1px solid var(--line);
+      font-weight: 900;
+    }
+
+    .region-button {
+      position: absolute;
+      left: var(--map-x);
+      top: var(--map-y);
+      min-width: 0;
+      width: clamp(48px, 15vw, 82px);
+      min-height: clamp(38px, 9vw, 48px);
+      padding: 5px 6px;
+      display: grid;
+      align-content: center;
+      gap: 1px;
+      color: #314258;
+      background: rgba(255, 253, 248, 0.88);
+      border-color: rgba(183, 143, 91, 0.5);
+      box-shadow: 0 8px 18px rgba(83, 57, 32, 0.18);
+      font-size: clamp(0.62rem, 2.4vw, 0.76rem);
+      line-height: 1.08;
+      transform: translate(-50%, -50%);
+      backdrop-filter: blur(5px);
+      z-index: 1;
+    }
+
+    .region-button::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -9px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: var(--coral);
+      border: 2px solid #fffdf8;
+      box-shadow: 0 3px 8px rgba(79, 55, 31, 0.22);
+      transform: translateX(-50%);
+    }
+
+    .region-level {
+      font-size: clamp(0.76rem, 3vw, 0.9rem);
+      font-weight: 900;
+    }
+
+    .region-name {
+      font-size: clamp(0.54rem, 2.1vw, 0.66rem);
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .mode-button.active,
+    .region-button.active {
+      color: #fff;
+      background: var(--blue);
+      border-color: var(--blue);
+    }
+
+    .region-button.active {
+      box-shadow: 0 10px 22px rgba(77, 111, 174, 0.28);
+      transform: translate(-50%, -52%);
+    }
+
+    .region-button.active::after {
+      background: var(--gold);
+    }
+
+    @media (max-width: 520px) {
+      .region-row {
+        aspect-ratio: 941 / 1672;
+        background:
+          linear-gradient(180deg, rgba(255, 253, 248, 0.18), rgba(255, 253, 248, 0.02)),
+          url("assets/jlpt-map-entrance-mobile.png") center / cover no-repeat;
+      }
+
+      .region-button {
+        left: var(--mobile-map-x);
+        top: var(--mobile-map-y);
+        width: clamp(60px, 19vw, 78px);
+        min-height: 44px;
+      }
+    }
+
+    .clue-panel {
+      min-height: 54px;
+      border-radius: var(--radius);
+      padding: 10px 12px;
+      display: grid;
+      gap: 2px;
+      background: #eef7f3;
+      border: 1px solid rgba(45, 155, 159, 0.28);
+    }
+
+    .clue-panel.hidden {
+      display: none;
+    }
+
+    .clue-label {
+      color: var(--teal-dark);
+      font-size: 0.78rem;
+      font-weight: 900;
+    }
+
+    .clue-text {
+      font-size: 1.1rem;
+      line-height: 1.25;
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .board-wrap {
+      width: 100%;
+      min-width: 0;
+      display: grid;
+      justify-items: center;
+      gap: 10px;
+    }
+
+    .board {
+      width: 100%;
+      max-width: 390px;
+      aspect-ratio: 1;
+      display: grid;
+      grid-template-columns: repeat(var(--board-size, 4), 1fr);
+      grid-template-rows: repeat(var(--board-size, 4), 1fr);
+      gap: clamp(4px, 1.4vw, 8px);
+      touch-action: none;
+      user-select: none;
+    }
+
+    .kana-cell {
+      min-width: 0;
+      min-height: 0;
+      border-radius: var(--radius);
+      color: var(--ink);
+      background:
+        linear-gradient(160deg, rgba(255, 255, 255, 0.94), rgba(255, 247, 235, 0.86));
+      border: 2px solid #ecd9bd;
+      box-shadow: inset 0 -4px 0 rgba(190, 139, 72, 0.12);
+      font-size: clamp(1rem, calc(9vw / var(--board-size, 4) * 4), 2.05rem);
+      font-weight: 900;
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .kana-cell.selected {
+      color: #fff;
+      background: var(--teal);
+      border-color: var(--teal-dark);
+      box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .kana-cell.hint {
+      color: #fff;
+      background: var(--gold);
+      border-color: #bf8120;
+      animation: hintPulse 0.7s ease-in-out infinite alternate;
+    }
+
+    @keyframes hintPulse {
+      from {
+        box-shadow: 0 0 0 0 rgba(227, 167, 47, 0.2);
+      }
+      to {
+        box-shadow: 0 0 0 7px rgba(227, 167, 47, 0.22);
+      }
+    }
+
+    .spell-box {
+      min-height: 52px;
+      border-radius: var(--radius);
+      padding: 10px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: #f6efe4;
+      border: 1px dashed #d8bd96;
+    }
+
+    .spell-text {
+      min-width: 0;
+      font-size: 1.35rem;
+      line-height: 1.2;
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .target-count {
+      white-space: nowrap;
+      color: var(--teal-dark);
+      font-weight: 900;
+      font-size: 0.9rem;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .controls .wide {
+      grid-column: 1 / -1;
+    }
+
+    .status-panel {
+      padding: 12px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .message {
+      min-height: 28px;
+      color: var(--ink);
+      font-weight: 800;
+      line-height: 1.35;
+    }
+
+    .word-card {
+      display: none;
+      border-radius: var(--radius);
+      border: 1px solid #d6c29f;
+      background: #fffdf7;
+      padding: 12px;
+      gap: 4px;
+    }
+
+    .word-card.show {
+      display: grid;
+    }
+
+    .word-main {
+      font-size: 1.18rem;
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .word-zh {
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .tag {
+      width: fit-content;
+      border-radius: 999px;
+      padding: 3px 8px;
+      color: #fff;
+      background: var(--leaf);
+      font-size: 0.75rem;
+      font-weight: 900;
+    }
+
+    .map-strip {
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 5px;
+    }
+
+    .map-dot {
+      height: 10px;
+      border-radius: 999px;
+      background: #dcccb6;
+    }
+
+    .map-dot.done {
+      background: var(--teal);
+    }
+
+    .map-dot.current {
+      background: var(--coral);
+    }
+
+    .footer-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .postcard-panel {
+      display: none;
+      padding: 12px;
+      gap: 10px;
+    }
+
+    .postcard-panel.open {
+      display: grid;
+    }
+
+    .postcard-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .postcard {
+      min-height: 132px;
+      aspect-ratio: 3 / 2;
+      border-radius: var(--radius);
+      border: 1px solid #dbc5a6;
+      background:
+        linear-gradient(140deg, rgba(77, 111, 174, 0.1), transparent 40%),
+        linear-gradient(180deg, #fffdf7, #f4eadc);
+      overflow: hidden;
+      position: relative;
+      padding: 10px;
+      display: grid;
+      align-content: end;
+      gap: 2px;
+    }
+
+    .postcard.locked {
+      filter: grayscale(0.7);
+      opacity: 0.58;
+    }
+
+    .postcard-scene,
+    .postcard-shiba {
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .postcard-scene {
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    .postcard-shiba {
+      right: var(--shiba-right, 4%);
+      bottom: var(--shiba-bottom, 24%);
+      width: var(--shiba-width, 48%);
+      max-height: 68%;
+      object-fit: contain;
+      object-position: center bottom;
+      z-index: 1;
+      filter: drop-shadow(0 8px 10px rgba(61, 40, 22, 0.22));
+    }
+
+    .postcard-scene.hidden,
+    .postcard-shiba.hidden {
+      display: none;
+    }
+
+    .postcard::before {
+      content: "";
+      position: absolute;
+      inset: 8px;
+      border: 1px solid rgba(37, 48, 66, 0.12);
+      border-radius: 6px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .postcard::after {
+      content: "POSTCARD";
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 2;
+      color: rgba(37, 48, 66, 0.26);
+      font-size: 0.68rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+    }
+
+    .postcard-title,
+    .postcard-food,
+    .postcard-note {
+      position: relative;
+      z-index: 3;
+      width: fit-content;
+      max-width: 100%;
+      border-radius: 999px;
+      padding: 2px 7px;
+      background: rgba(255, 253, 248, 0.82);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.55);
+    }
+
+    .postcard-title {
+      font-weight: 900;
+    }
+
+    .postcard-food,
+    .postcard-note {
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      display: none;
+      place-items: center;
+      padding: 18px;
+      background: rgba(37, 48, 66, 0.36);
+      z-index: 20;
+    }
+
+    .modal-backdrop.open {
+      display: grid;
+    }
+
+    .modal {
+      width: min(100%, 440px);
+      border-radius: var(--radius);
+      background: var(--paper-strong);
+      border: 1px solid var(--line);
+      box-shadow: 0 24px 60px rgba(37, 48, 66, 0.28);
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .modal h2 {
+      font-size: 1.35rem;
+      line-height: 1.25;
+    }
+
+    .modal-postcard {
+      min-height: 232px;
+      aspect-ratio: 3 / 2;
+      border-radius: var(--radius);
+      border: 1px solid #dbc5a6;
+      background:
+        linear-gradient(135deg, rgba(233, 111, 87, 0.18), transparent 38%),
+        linear-gradient(315deg, rgba(45, 155, 159, 0.18), transparent 42%),
+        linear-gradient(180deg, #fffdf7, #f4eadc);
+      overflow: hidden;
+      position: relative;
+      padding: 12px;
+      display: grid;
+      align-content: end;
+      gap: 3px;
+    }
+
+    .modal-postcard::before {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border: 1px solid rgba(37, 48, 66, 0.12);
+      border-radius: 6px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .modal-postcard::after {
+      content: "明信片";
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      z-index: 1;
+      color: rgba(37, 48, 66, 0.18);
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: 0;
+      writing-mode: vertical-rl;
+    }
+
+    .modal-postcard .postcard-shiba {
+      right: var(--shiba-modal-right, 7%);
+      bottom: var(--shiba-modal-bottom, 18%);
+      width: var(--shiba-modal-width, 42%);
+      max-height: 72%;
+    }
+
+    .modal-postcard .postcard-scene.hidden,
+    .modal-postcard .postcard-shiba.hidden {
+      display: none;
+    }
+
+    .modal-postcard-badge,
+    .modal-postcard-title,
+    .modal-postcard-meta,
+    .modal-postcard-note {
+      position: relative;
+      z-index: 3;
+      width: fit-content;
+      max-width: 100%;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.78);
+    }
+
+    .modal-postcard-badge {
+      border-radius: 999px;
+      padding: 4px 8px;
+      color: #fff;
+      background: var(--coral);
+      font-size: 0.76rem;
+      font-weight: 900;
+      box-shadow: 0 6px 14px rgba(189, 75, 54, 0.18);
+    }
+
+    .modal-postcard-title {
+      font-size: 1.16rem;
+      line-height: 1.22;
+      font-weight: 900;
+    }
+
+    .modal-postcard-meta,
+    .modal-postcard-note {
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 800;
+    }
+
+    .modal-actions {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (min-width: 700px) {
+      .app {
+        padding-top: 24px;
+      }
+
+      .controls,
+      .footer-actions {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .controls .wide {
+        grid-column: auto;
+      }
+
+      .postcard-grid {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .home-screen {
+        align-items: end;
+        justify-items: center;
+        background-position: 38% center;
+      }
+
+      .start-journey-button {
+        width: min(100%, 240px);
+        margin-right: 0;
+        margin-bottom: clamp(24px, 9vh, 72px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="home-screen" id="homeScreen" aria-label="遊戲首頁">
+    <button class="start-journey-button" type="button" id="startJourneyButton">開始遊戲</button>
+  </section>
+
+  <main class="app" id="gameApp" hidden>
+    <header class="topbar" aria-label="遊戲標題">
+      <div class="brand">
+        <div class="shiba-mark" aria-hidden="true"></div>
+      <div>
+          <h1>呷胖環遊日本</h1>
+          <p class="subtitle" id="regionSubtitle">N5 沖繩區</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button class="ghost-button" type="button" id="backToMapButton" hidden>返回</button>
+        <button class="icon-button" type="button" id="newRoundButton" title="換一盤" aria-label="換一盤">↻</button>
+      </div>
+    </header>
+
+    <section class="map-select-panel" id="mapSelectPanel" aria-label="JLPT 關卡入口">
+      <div class="region-row" id="regionRow" tabindex="-1" aria-label="選擇 N1 到 N5 關卡"></div>
+    </section>
+
+    <section class="station-panel" id="stationPanel" aria-label="目前站點" hidden>
+      <div class="station-head">
+        <div class="station-title">
+          <span class="station-index" id="stationIndex">1 / 10</span>
+          <h2 id="stationName">出發的狗屋</h2>
+          <p class="food-line" id="foodName">沖縄そば｜沖繩麵</p>
+        </div>
+        <p class="muted" id="stationJa">出発の犬小屋</p>
+      </div>
+      <div class="progress-row">
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="stationProgressFill"></div>
+        </div>
+        <span class="progress-text" id="stationProgressText">0 / 10</span>
+      </div>
+    </section>
+
+    <section class="play-panel" id="playPanel" aria-label="拼字棋盤" hidden>
+      <div class="mode-row" aria-label="遊戲模式">
+        <button class="mode-button" type="button" id="simpleModeButton" aria-pressed="true">簡單</button>
+        <button class="mode-button" type="button" id="advancedModeButton" aria-pressed="false">進階</button>
+      </div>
+      <div class="clue-panel" id="cluePanel">
+        <span class="clue-label">中文提示</span>
+        <strong class="clue-text" id="clueText">準備題目中</strong>
+      </div>
+      <div class="board-wrap">
+        <div class="board" id="board" aria-label="平假名棋盤"></div>
+        <div class="spell-box">
+          <strong class="spell-text" id="currentSpell">請連假名</strong>
+          <span class="target-count" id="targetCount">本盤還藏 0 個目標詞</span>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="primary-button wide" type="button" id="submitButton">送出</button>
+        <button class="ghost-button" type="button" id="clearButton">清除</button>
+        <button class="secondary-button" type="button" id="hintButton">提示 3</button>
+        <button class="ghost-button" type="button" id="postcardToggleButton">明信片</button>
+      </div>
+    </section>
+
+    <section class="status-panel" id="statusPanel" aria-live="polite" hidden>
+      <p class="message" id="message">連相鄰格子拼出當前等級單字，低階複習詞會跳卡但不計過站。</p>
+      <div class="word-card" id="wordCard">
+        <strong class="word-main" id="wordMain"></strong>
+        <span class="word-zh" id="wordZh"></span>
+        <span class="tag" id="wordLevel">N5</span>
+      </div>
+      <div class="map-strip" id="mapStrip" aria-label="沖繩站點進度"></div>
+      <div class="footer-actions">
+        <button class="ghost-button" type="button" id="resetButton">重置進度</button>
+        <button class="ghost-button" type="button" id="nextStationButton">下一站</button>
+      </div>
+    </section>
+
+    <section class="postcard-panel" id="postcardPanel" aria-label="明信片收藏">
+      <h2>明信片收藏</h2>
+      <div class="postcard-grid" id="postcardGrid"></div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="stationModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <h2 id="modalTitle">過站成功</h2>
+      <p id="modalText">呷胖吃飽了，明信片也收到了。</p>
+      <article class="modal-postcard" id="modalPostcard" aria-label="取得的明信片">
+        <img class="postcard-scene" id="modalPostcardImage" alt="">
+        <img class="postcard-shiba" id="modalPostcardShiba" alt="">
+        <span class="modal-postcard-badge" id="modalPostcardBadge">新明信片</span>
+        <strong class="modal-postcard-title" id="modalPostcardTitle"></strong>
+        <span class="modal-postcard-meta" id="modalPostcardMeta"></span>
+        <span class="modal-postcard-note" id="modalPostcardNote"></span>
+      </article>
+      <div class="modal-actions">
+        <button class="primary-button" type="button" id="modalNextButton">前往下一站</button>
+        <button class="ghost-button" type="button" id="modalCloseButton">留在這裡</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
+      const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
+      const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
+      const LEVEL_SETTINGS = {
+        N5: { boardSize: 4, wordsPerStation: 10 },
+        N4: { boardSize: 5, wordsPerStation: 10 },
+        N3: { boardSize: 5, wordsPerStation: 12 },
+        N2: { boardSize: 6, wordsPerStation: 15 },
+        N1: { boardSize: 6, wordsPerStation: 15 }
+      };
+      const HINTS_PER_ROUND = 3;
+      const PLAY_MODE_SIMPLE = "simple";
+      const PLAY_MODE_ADVANCED = "advanced";
+      const APP_VIEW_MAP = "map";
+      const APP_VIEW_GAME = "game";
+      const KANA_SMALL = new Set(["ゃ", "ゅ", "ょ", "っ"]);
+      const KANA_VOICED = /[がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ]/;
+      const POSTCARD_SHIBA_IMAGES = Array.from({ length: 10 }, (_, index) => `assets/postcard-shiba/shiba-postcard-${String(index + 1).padStart(2, "0")}.png`);
+      const POSTCARD_SHIBA_LAYOUTS = [
+        { width: "24%", right: "3%", bottom: "20%", modalWidth: "21%", modalRight: "7%", modalBottom: "15%" },
+        { width: "21%", right: "4%", bottom: "20%", modalWidth: "18%", modalRight: "8%", modalBottom: "16%" },
+        { width: "24%", right: "2%", bottom: "23%", modalWidth: "21%", modalRight: "7%", modalBottom: "18%" },
+        { width: "24%", right: "2%", bottom: "24%", modalWidth: "21%", modalRight: "7%", modalBottom: "18%" },
+        { width: "21%", right: "5%", bottom: "20%", modalWidth: "18%", modalRight: "8%", modalBottom: "15%" },
+        { width: "23%", right: "3%", bottom: "20%", modalWidth: "20%", modalRight: "8%", modalBottom: "15%" },
+        { width: "21%", right: "5%", bottom: "20%", modalWidth: "18%", modalRight: "8%", modalBottom: "15%" },
+        { width: "22%", right: "4%", bottom: "20%", modalWidth: "19%", modalRight: "8%", modalBottom: "15%" },
+        { width: "22%", right: "4%", bottom: "20%", modalWidth: "19%", modalRight: "8%", modalBottom: "15%" },
+        { width: "24%", right: "2%", bottom: "22%", modalWidth: "21%", modalRight: "7%", modalBottom: "17%" }
+      ];
+      const REGIONS = [
+        {
+          id: "n5_okinawa",
+          level: "N5",
+          shortLabel: "N5",
+          name: "沖繩",
+          subtitle: "N5 沖繩區",
+          mapX: "12%",
+          mapY: "48%",
+          mobileMapX: "30%",
+          mobileMapY: "88%",
+          stations: [
+            {
+              id: "okinawa_01",
+              placeZh: "出發的狗屋",
+              placeJa: "出発の犬小屋",
+              foodZh: "沖繩麵",
+              foodJa: "沖縄そば",
+              scenePrompt: "沖繩鄉間的一間小狗屋作為旅程起點，紅瓦屋頂、白色石牆、扶桑花與熱帶植物，遠方可見藍色海洋，一隻旅行小狗背著行李準備出發",
+              postcard: "assets/okinawa-01-dog-house.png"
+            },
+            {
+              id: "okinawa_02",
+              placeZh: "那霸國際通",
+              placeJa: "国際通り",
+              foodZh: "沙翁甜甜圈",
+              foodJa: "サーターアンダギー",
+              scenePrompt: "沖縄県那覇市の国際通り，從街道中央觀看，兩側是沖繩土產店、餐廳、紅瓦裝飾、招牌與棕櫚樹，街上有少量行人",
+              postcard: "assets/okinawa-02-kokusai-dori.png"
+            },
+            {
+              id: "okinawa_03",
+              placeZh: "首里城",
+              placeJa: "首里城",
+              foodZh: "金楚糕",
+              foodJa: "ちんすこう",
+              scenePrompt: "沖縄県那覇市の首里城，正面觀看鮮紅色琉球式宮殿、中央石階、紅色木造建築與左右對稱的城郭",
+              postcard: "assets/okinawa-03-shuri-castle.png"
+            },
+            {
+              id: "okinawa_04",
+              placeZh: "波上宮海灘",
+              placeJa: "波上宮・波の上ビーチ",
+              foodZh: "海葡萄小碗",
+              foodJa: "海ぶどう",
+              scenePrompt: "沖縄県那覇市の波の上ビーチ，碧藍海水、白色沙灘與岩石海岸，岩崖上方可見朱紅色波上宮",
+              postcard: "assets/okinawa-04-naminoue-beach.png"
+            },
+            {
+              id: "okinawa_05",
+              placeZh: "美麗海水族館",
+              placeJa: "沖縄美ら海水族館",
+              foodZh: "海鹽冰淇淋",
+              foodJa: "海塩アイス",
+              scenePrompt: "沖縄美ら海水族館の黒潮の海水槽，巨大鯨鯊游過深藍色水槽，周圍有鬼蝠魟與魚群",
+              postcard: "assets/okinawa-05-churaumi-aquarium.png"
+            },
+            {
+              id: "okinawa_06",
+              placeZh: "萬座毛",
+              placeJa: "万座毛",
+              foodZh: "苦瓜炒蛋",
+              foodJa: "ゴーヤーチャンプルー",
+              scenePrompt: "沖縄県恩納村の万座毛，象鼻形琉球石灰岩海崖、綠色草地、藍綠色海水與白色浪花",
+              postcard: "assets/okinawa-06-cape-manzamo.png"
+            },
+            {
+              id: "okinawa_07",
+              placeZh: "古宇利大橋",
+              placeJa: "古宇利大橋",
+              foodZh: "紅芋塔",
+              foodJa: "紅芋タルト",
+              scenePrompt: "沖縄県今帰仁村の古宇利大橋，從高處俯瞰筆直長橋跨越藍綠色海水，遠方是古宇利島",
+              postcard: "assets/okinawa-07-kouri-bridge.png"
+            },
+            {
+              id: "okinawa_08",
+              placeZh: "竹富島",
+              placeJa: "竹富島",
+              foodZh: "八重山黑糖冰",
+              foodJa: "八重山黒糖かき氷",
+              scenePrompt: "沖縄県竹富島の伝統集落，白砂道路、紅瓦屋頂、石牆、扶桑花與緩慢行走的水牛車",
+              postcard: "assets/okinawa-08-taketomi-island.png"
+            },
+            {
+              id: "okinawa_09",
+              placeZh: "石垣島",
+              placeJa: "石垣島・川平湾",
+              foodZh: "石垣牛漢堡",
+              foodJa: "石垣牛バーガー",
+              scenePrompt: "沖縄県石垣島の川平湾，從高處眺望翠綠島嶼、白色沙灘與清澈的藍綠色海灣",
+              postcard: "assets/okinawa-09-ishigaki-kabira-bay.png"
+            },
+            {
+              id: "okinawa_10",
+              placeZh: "玉泉洞",
+              placeJa: "おきなわワールド・玉泉洞",
+              foodZh: "扁實檸檬果汁",
+              foodJa: "シークヮーサージュース",
+              scenePrompt: "沖縄県南城市のおきなわワールド玉泉洞，巨大鐘乳石、石筍、地下水面與洞穴步道，神秘但明亮安全",
+              postcard: "assets/okinawa-10-gyokusendo-cave.png"
+            }
+          ]
+        },
+        {
+          id: "n4_kyushu_shikoku",
+          level: "N4",
+          shortLabel: "N4",
+          name: "九州四國",
+          subtitle: "N4 九州四國區",
+          mapX: "30%",
+          mapY: "67%",
+          mobileMapX: "24%",
+          mobileMapY: "69%",
+          stations: [
+            { id: "kyushu_shikoku_01", placeZh: "鹿兒島櫻島", placeJa: "桜島", foodZh: "黑豚炸豬排", foodJa: "黒豚とんかつ", postcard: "assets/postcard_kyushu_shikoku_01.jpg" },
+            { id: "kyushu_shikoku_02", placeZh: "熊本城", placeJa: "熊本城", foodZh: "馬肉刺身", foodJa: "馬刺し", postcard: "assets/postcard_kyushu_shikoku_02.jpg" },
+            { id: "kyushu_shikoku_03", placeZh: "阿蘇草千里", placeJa: "草千里ヶ浜", foodZh: "高菜飯", foodJa: "高菜めし", postcard: "assets/postcard_kyushu_shikoku_03.jpg" },
+            { id: "kyushu_shikoku_04", placeZh: "別府溫泉", placeJa: "別府温泉", foodZh: "地獄蒸布丁", foodJa: "地獄蒸しプリン", postcard: "assets/postcard_kyushu_shikoku_04.jpg" },
+            { id: "kyushu_shikoku_05", placeZh: "太宰府天滿宮", placeJa: "太宰府天満宮", foodZh: "梅枝餅", foodJa: "梅ヶ枝餅", postcard: "assets/postcard_kyushu_shikoku_05.jpg" },
+            { id: "kyushu_shikoku_06", placeZh: "博多運河城", placeJa: "博多", foodZh: "博多拉麵", foodJa: "博多ラーメン", postcard: "assets/postcard_kyushu_shikoku_06.jpg" },
+            { id: "kyushu_shikoku_07", placeZh: "長崎稻佐山", placeJa: "稲佐山", foodZh: "強棒麵", foodJa: "ちゃんぽん", postcard: "assets/postcard_kyushu_shikoku_07.jpg" },
+            { id: "kyushu_shikoku_08", placeZh: "松山道後溫泉", placeJa: "道後温泉", foodZh: "鯛魚飯", foodJa: "鯛めし", postcard: "assets/postcard_kyushu_shikoku_08.jpg" },
+            { id: "kyushu_shikoku_09", placeZh: "高知桂濱", placeJa: "桂浜", foodZh: "炙燒鰹魚", foodJa: "かつおのたたき", postcard: "assets/postcard_kyushu_shikoku_09.jpg" },
+            { id: "kyushu_shikoku_10", placeZh: "德島鳴門", placeJa: "鳴門", foodZh: "德島拉麵", foodJa: "徳島ラーメン", postcard: "assets/postcard_kyushu_shikoku_10.jpg" }
+          ]
+        },
+        {
+          id: "n3_chugoku_kansai",
+          level: "N3",
+          shortLabel: "N3",
+          name: "中國關西",
+          subtitle: "N3 中國關西區",
+          mapX: "48%",
+          mapY: "66%",
+          mobileMapX: "57%",
+          mobileMapY: "52%",
+          stations: [
+            { id: "chugoku_kansai_01", placeZh: "廣島和平公園", placeJa: "平和記念公園", foodZh: "廣島燒", foodJa: "お好み焼き", postcard: "assets/postcard_chugoku_kansai_01.jpg" },
+            { id: "chugoku_kansai_02", placeZh: "宮島嚴島神社", placeJa: "厳島神社", foodZh: "楓葉饅頭", foodJa: "もみじ饅頭", postcard: "assets/postcard_chugoku_kansai_02.jpg" },
+            { id: "chugoku_kansai_03", placeZh: "岡山後樂園", placeJa: "後楽園", foodZh: "雉雞糰子", foodJa: "きびだんご", postcard: "assets/postcard_chugoku_kansai_03.jpg" },
+            { id: "chugoku_kansai_04", placeZh: "倉敷美觀地區", placeJa: "倉敷美観地区", foodZh: "白桃聖代", foodJa: "白桃パフェ", postcard: "assets/postcard_chugoku_kansai_04.jpg" },
+            { id: "chugoku_kansai_05", placeZh: "鳥取砂丘", placeJa: "鳥取砂丘", foodZh: "梨子冰", foodJa: "梨ソフト", postcard: "assets/postcard_chugoku_kansai_05.jpg" },
+            { id: "chugoku_kansai_06", placeZh: "京都清水寺", placeJa: "清水寺", foodZh: "抹茶蕨餅", foodJa: "抹茶わらび餅", postcard: "assets/postcard_chugoku_kansai_06.jpg" },
+            { id: "chugoku_kansai_07", placeZh: "奈良公園", placeJa: "奈良公園", foodZh: "柿葉壽司", foodJa: "柿の葉寿司", postcard: "assets/postcard_chugoku_kansai_07.jpg" },
+            { id: "chugoku_kansai_08", placeZh: "大阪道頓堀", placeJa: "道頓堀", foodZh: "章魚燒", foodJa: "たこ焼き", postcard: "assets/postcard_chugoku_kansai_08.jpg" },
+            { id: "chugoku_kansai_09", placeZh: "神戶港", placeJa: "神戸港", foodZh: "神戶牛排", foodJa: "神戸ビーフ", postcard: "assets/postcard_chugoku_kansai_09.jpg" },
+            { id: "chugoku_kansai_10", placeZh: "姬路城", placeJa: "姫路城", foodZh: "穴子飯", foodJa: "穴子めし", postcard: "assets/postcard_chugoku_kansai_10.jpg" }
+          ]
+        },
+        {
+          id: "n2_kanto_chubu",
+          level: "N2",
+          shortLabel: "N2",
+          name: "關東中部",
+          subtitle: "N2 關東中部區",
+          mapX: "69%",
+          mapY: "61%",
+          mobileMapX: "62%",
+          mobileMapY: "36%",
+          stations: [
+            { id: "kanto_chubu_01", placeZh: "東京車站", placeJa: "東京駅", foodZh: "車站便當", foodJa: "駅弁", postcard: "assets/postcard_kanto_chubu_01.jpg" },
+            { id: "kanto_chubu_02", placeZh: "淺草雷門", placeJa: "浅草雷門", foodZh: "人形燒", foodJa: "人形焼", postcard: "assets/postcard_kanto_chubu_02.jpg" },
+            { id: "kanto_chubu_03", placeZh: "鎌倉大佛", placeJa: "鎌倉大仏", foodZh: "吻仔魚丼", foodJa: "しらす丼", postcard: "assets/postcard_kanto_chubu_03.jpg" },
+            { id: "kanto_chubu_04", placeZh: "箱根蘆之湖", placeJa: "芦ノ湖", foodZh: "黑蛋", foodJa: "黒たまご", postcard: "assets/postcard_kanto_chubu_04.jpg" },
+            { id: "kanto_chubu_05", placeZh: "富士河口湖", placeJa: "河口湖", foodZh: "餺飥麵", foodJa: "ほうとう", postcard: "assets/postcard_kanto_chubu_05.jpg" },
+            { id: "kanto_chubu_06", placeZh: "松本城", placeJa: "松本城", foodZh: "山賊燒", foodJa: "山賊焼き", postcard: "assets/postcard_kanto_chubu_06.jpg" },
+            { id: "kanto_chubu_07", placeZh: "金澤兼六園", placeJa: "兼六園", foodZh: "金箔冰淇淋", foodJa: "金箔ソフト", postcard: "assets/postcard_kanto_chubu_07.jpg" },
+            { id: "kanto_chubu_08", placeZh: "白川鄉", placeJa: "白川郷", foodZh: "飛驒牛串", foodJa: "飛騨牛串", postcard: "assets/postcard_kanto_chubu_08.jpg" },
+            { id: "kanto_chubu_09", placeZh: "名古屋城", placeJa: "名古屋城", foodZh: "味噌炸豬排", foodJa: "味噌カツ", postcard: "assets/postcard_kanto_chubu_09.jpg" },
+            { id: "kanto_chubu_10", placeZh: "伊勢神宮", placeJa: "伊勢神宮", foodZh: "赤福餅", foodJa: "赤福餅", postcard: "assets/postcard_kanto_chubu_10.jpg" }
+          ]
+        },
+        {
+          id: "n1_tohoku_hokkaido",
+          level: "N1",
+          shortLabel: "N1",
+          name: "東北北海道",
+          subtitle: "N1 東北北海道區",
+          mapX: "78%",
+          mapY: "23%",
+          mobileMapX: "64%",
+          mobileMapY: "18%",
+          stations: [
+            { id: "tohoku_hokkaido_01", placeZh: "仙台城跡", placeJa: "仙台城跡", foodZh: "牛舌定食", foodJa: "牛タン定食", postcard: "assets/postcard_tohoku_hokkaido_01.jpg" },
+            { id: "tohoku_hokkaido_02", placeZh: "松島灣", placeJa: "松島湾", foodZh: "牡蠣飯", foodJa: "牡蠣ご飯", postcard: "assets/postcard_tohoku_hokkaido_02.jpg" },
+            { id: "tohoku_hokkaido_03", placeZh: "山形藏王", placeJa: "蔵王", foodZh: "芋煮", foodJa: "芋煮", postcard: "assets/postcard_tohoku_hokkaido_03.jpg" },
+            { id: "tohoku_hokkaido_04", placeZh: "秋田角館", placeJa: "角館", foodZh: "烤米棒鍋", foodJa: "きりたんぽ鍋", postcard: "assets/postcard_tohoku_hokkaido_04.jpg" },
+            { id: "tohoku_hokkaido_05", placeZh: "青森睡魔之家", placeJa: "ねぶたの家", foodZh: "蘋果派", foodJa: "アップルパイ", postcard: "assets/postcard_tohoku_hokkaido_05.jpg" },
+            { id: "tohoku_hokkaido_06", placeZh: "函館山", placeJa: "函館山", foodZh: "海鮮丼", foodJa: "海鮮丼", postcard: "assets/postcard_tohoku_hokkaido_06.jpg" },
+            { id: "tohoku_hokkaido_07", placeZh: "札幌大通公園", placeJa: "大通公園", foodZh: "湯咖哩", foodJa: "スープカレー", postcard: "assets/postcard_tohoku_hokkaido_07.jpg" },
+            { id: "tohoku_hokkaido_08", placeZh: "小樽運河", placeJa: "小樽運河", foodZh: "起司蛋糕", foodJa: "チーズケーキ", postcard: "assets/postcard_tohoku_hokkaido_08.jpg" },
+            { id: "tohoku_hokkaido_09", placeZh: "旭山動物園", placeJa: "旭山動物園", foodZh: "味噌拉麵", foodJa: "味噌ラーメン", postcard: "assets/postcard_tohoku_hokkaido_09.jpg" },
+            { id: "tohoku_hokkaido_10", placeZh: "知床五湖", placeJa: "知床五湖", foodZh: "鮭魚親子丼", foodJa: "鮭親子丼", postcard: "assets/postcard_tohoku_hokkaido_10.jpg" }
+          ]
+        }
+      ];
+
+      const REGION_BY_ID = new Map(REGIONS.map((region) => [region.id, region]));
+
+      const RAW_WORDS = [
+        ["n5_0001", "バス", "バス", "ばす", "公車", "katakana"],
+        ["n5_0002", "テレビ", "テレビ", "てれび", "電視", "katakana"],
+        ["n5_0003", "パン", "パン", "ぱん", "麵包", "katakana"],
+        ["n5_0004", "ペン", "ペン", "ぺん", "筆", "katakana"],
+        ["n5_0005", "コップ", "コップ", "こっぷ", "杯子", "katakana"],
+        ["n5_0006", "テスト", "テスト", "てすと", "考試", "katakana"],
+        ["n5_0007", "ポスト", "ポスト", "ぽすと", "郵筒", "katakana"],
+        ["n5_0008", "カメラ", "カメラ", "かめら", "相機", "katakana"],
+        ["n5_0009", "シャツ", "シャツ", "しゃつ", "襯衫", "katakana"],
+        ["n5_0010", "レストラン", "レストラン", "れすとらん", "餐廳", "katakana"],
+        ["n5_0011", "がっこう", "学校", "がっこう", "學校", "kanji"],
+        ["n5_0012", "ちょっと", "ちょっと", "ちょっと", "稍微、一點", "hiragana"],
+        ["n5_0013", "きょう", "今日", "きょう", "今天", "kanji"],
+        ["n5_0014", "あした", "明日", "あした", "明天", "kanji"],
+        ["n5_0015", "きのう", "昨日", "きのう", "昨天", "kanji"],
+        ["n5_0016", "あさ", "朝", "あさ", "早上", "kanji"],
+        ["n5_0017", "ひる", "昼", "ひる", "中午", "kanji"],
+        ["n5_0018", "よる", "夜", "よる", "晚上", "kanji"],
+        ["n5_0019", "いま", "今", "いま", "現在", "kanji"],
+        ["n5_0020", "あと", "後", "あと", "之後", "kanji"],
+        ["n5_0021", "まえ", "前", "まえ", "前面、以前", "kanji"],
+        ["n5_0022", "うえ", "上", "うえ", "上面", "kanji"],
+        ["n5_0023", "した", "下", "した", "下面", "kanji"],
+        ["n5_0024", "なか", "中", "なか", "裡面", "kanji"],
+        ["n5_0025", "そと", "外", "そと", "外面", "kanji"],
+        ["n5_0026", "みぎ", "右", "みぎ", "右邊", "kanji"],
+        ["n5_0027", "ひだり", "左", "ひだり", "左邊", "kanji"],
+        ["n5_0028", "ひと", "人", "ひと", "人", "kanji"],
+        ["n5_0029", "こども", "子供", "こども", "小孩", "kanji"],
+        ["n5_0030", "ともだち", "友達", "ともだち", "朋友", "kanji"],
+        ["n5_0031", "せんせい", "先生", "せんせい", "老師", "kanji"],
+        ["n5_0032", "がくせい", "学生", "がくせい", "學生", "kanji"],
+        ["n5_0033", "かいしゃ", "会社", "かいしゃ", "公司", "kanji"],
+        ["n5_0034", "でんしゃ", "電車", "でんしゃ", "電車", "kanji"],
+        ["n5_0035", "くるま", "車", "くるま", "車", "kanji"],
+        ["n5_0036", "じてんしゃ", "自転車", "じてんしゃ", "腳踏車", "kanji"],
+        ["n5_0037", "えき", "駅", "えき", "車站", "kanji"],
+        ["n5_0038", "みせ", "店", "みせ", "店", "kanji"],
+        ["n5_0039", "へや", "部屋", "へや", "房間", "kanji"],
+        ["n5_0040", "いえ", "家", "いえ", "家", "kanji"],
+        ["n5_0041", "ほん", "本", "ほん", "書", "kanji"],
+        ["n5_0042", "つくえ", "机", "つくえ", "書桌", "kanji"],
+        ["n5_0043", "いす", "椅子", "いす", "椅子", "kanji"],
+        ["n5_0044", "とけい", "時計", "とけい", "時鐘", "kanji"],
+        ["n5_0045", "かばん", "鞄", "かばん", "包包", "kanji"],
+        ["n5_0046", "かさ", "傘", "かさ", "傘", "kanji"],
+        ["n5_0047", "くつ", "靴", "くつ", "鞋子", "kanji"],
+        ["n5_0048", "ふく", "服", "ふく", "衣服", "kanji"],
+        ["n5_0049", "みず", "水", "みず", "水", "kanji"],
+        ["n5_0050", "おちゃ", "お茶", "おちゃ", "茶", "kanji"],
+        ["n5_0051", "ごはん", "ご飯", "ごはん", "飯", "kanji"],
+        ["n5_0052", "さかな", "魚", "さかな", "魚", "kanji"],
+        ["n5_0053", "にく", "肉", "にく", "肉", "kanji"],
+        ["n5_0054", "やさい", "野菜", "やさい", "蔬菜", "kanji"],
+        ["n5_0055", "くだもの", "果物", "くだもの", "水果", "kanji"],
+        ["n5_0056", "たまご", "卵", "たまご", "蛋", "kanji"],
+        ["n5_0057", "あめ", "雨", "あめ", "雨", "kanji"],
+        ["n5_0058", "ゆき", "雪", "ゆき", "雪", "kanji"],
+        ["n5_0059", "かぜ", "風", "かぜ", "風", "kanji"],
+        ["n5_0060", "そら", "空", "そら", "天空", "kanji"],
+        ["n5_0061", "やま", "山", "やま", "山", "kanji"],
+        ["n5_0062", "かわ", "川", "かわ", "河川", "kanji"],
+        ["n5_0063", "うみ", "海", "うみ", "海", "kanji"],
+        ["n5_0064", "はな", "花", "はな", "花", "kanji"],
+        ["n5_0065", "ねこ", "猫", "ねこ", "貓", "kanji"],
+        ["n5_0066", "いぬ", "犬", "いぬ", "狗", "kanji"],
+        ["n5_0067", "とり", "鳥", "とり", "鳥", "kanji"],
+        ["n5_0068", "あかい", "赤い", "あかい", "紅色的", "kanji"],
+        ["n5_0069", "あおい", "青い", "あおい", "藍色的", "kanji"],
+        ["n5_0070", "しろい", "白い", "しろい", "白色的", "kanji"],
+        ["n5_0071", "くろい", "黒い", "くろい", "黑色的", "kanji"],
+        ["n5_0072", "おおきい", "大きい", "おおきい", "大的", "kanji"],
+        ["n5_0073", "ちいさい", "小さい", "ちいさい", "小的", "kanji"],
+        ["n5_0074", "あたらしい", "新しい", "あたらしい", "新的", "kanji"],
+        ["n5_0075", "ふるい", "古い", "ふるい", "舊的", "kanji"],
+        ["n5_0076", "たかい", "高い", "たかい", "高的、貴的", "kanji"],
+        ["n5_0077", "やすい", "安い", "やすい", "便宜的", "kanji"],
+        ["n5_0078", "おいしい", "美味しい", "おいしい", "好吃的", "kanji"],
+        ["n5_0079", "あつい", "暑い", "あつい", "熱的", "kanji"],
+        ["n5_0080", "さむい", "寒い", "さむい", "寒冷的", "kanji"],
+        ["n5_0081", "いく", "行く", "いく", "去", "kanji"],
+        ["n5_0082", "くる", "来る", "くる", "來", "kanji"],
+        ["n5_0083", "かえる", "帰る", "かえる", "回去", "kanji"],
+        ["n5_0084", "たべる", "食べる", "たべる", "吃", "kanji"],
+        ["n5_0085", "のむ", "飲む", "のむ", "喝", "kanji"],
+        ["n5_0086", "みる", "見る", "みる", "看", "kanji"],
+        ["n5_0087", "きく", "聞く", "きく", "聽、問", "kanji"],
+        ["n5_0088", "よむ", "読む", "よむ", "讀", "kanji"],
+        ["n5_0089", "かく", "書く", "かく", "寫", "kanji"],
+        ["n5_0090", "はなす", "話す", "はなす", "說話", "kanji"],
+        ["n5_0091", "かう", "買う", "かう", "買", "kanji"],
+        ["n5_0092", "まつ", "待つ", "まつ", "等待", "kanji"],
+        ["n5_0093", "あるく", "歩く", "あるく", "走路", "kanji"],
+        ["n5_0094", "およぐ", "泳ぐ", "およぐ", "游泳", "kanji"],
+        ["n5_0095", "ねる", "寝る", "ねる", "睡覺", "kanji"],
+        ["n5_0096", "おきる", "起きる", "おきる", "起床", "kanji"],
+        ["n5_0097", "つくる", "作る", "つくる", "製作", "kanji"],
+        ["n5_0098", "つかう", "使う", "つかう", "使用", "kanji"],
+        ["n5_0099", "べんきょう", "勉強", "べんきょう", "讀書、學習", "kanji"],
+        ["n5_0100", "しゅくだい", "宿題", "しゅくだい", "作業", "kanji"],
+        ["n5_0101", "りょうり", "料理", "りょうり", "料理", "kanji"],
+        ["n5_0102", "びょういん", "病院", "びょういん", "醫院", "kanji"],
+        ["n5_0103", "ぎんこう", "銀行", "ぎんこう", "銀行", "kanji"],
+        ["n5_0104", "ゆうびんきょく", "郵便局", "ゆうびんきょく", "郵局", "kanji"],
+        ["n5_0105", "としょかん", "図書館", "としょかん", "圖書館", "kanji"],
+        ["n5_0106", "えいが", "映画", "えいが", "電影", "kanji"],
+        ["n5_0107", "しゃしん", "写真", "しゃしん", "照片", "kanji"],
+        ["n5_0108", "でんわ", "電話", "でんわ", "電話", "kanji"]
+      ];
+
+      const RAW_WORDS_BY_LEVEL = {
+        N5: RAW_WORDS,
+        N4: [
+          ["n4_0001", "あいさつ", "挨拶", "あいさつ", "打招呼", "kanji"],
+          ["n4_0002", "あんない", "案内", "あんない", "帶路、介紹", "kanji"],
+          ["n4_0003", "いけん", "意見", "いけん", "意見", "kanji"],
+          ["n4_0004", "いそぐ", "急ぐ", "いそぐ", "趕快", "kanji"],
+          ["n4_0005", "うけつけ", "受付", "うけつけ", "櫃台", "kanji"],
+          ["n4_0006", "うつす", "写す", "うつす", "抄寫、拍照", "kanji"],
+          ["n4_0007", "えらぶ", "選ぶ", "えらぶ", "選擇", "kanji"],
+          ["n4_0008", "おくれる", "遅れる", "おくれる", "遲到、延誤", "kanji"],
+          ["n4_0009", "おどる", "踊る", "おどる", "跳舞", "kanji"],
+          ["n4_0010", "おもいだす", "思い出す", "おもいだす", "想起", "kanji"],
+          ["n4_0011", "かいぎ", "会議", "かいぎ", "會議", "kanji"],
+          ["n4_0012", "かならず", "必ず", "かならず", "一定", "kanji"],
+          ["n4_0013", "かんがえる", "考える", "かんがえる", "思考", "kanji"],
+          ["n4_0014", "きかい", "機会", "きかい", "機會", "kanji"],
+          ["n4_0015", "きけん", "危険", "きけん", "危險", "kanji"],
+          ["n4_0016", "きそく", "規則", "きそく", "規則", "kanji"],
+          ["n4_0017", "きぶん", "気分", "きぶん", "心情、身體狀態", "kanji"],
+          ["n4_0018", "きめる", "決める", "きめる", "決定", "kanji"],
+          ["n4_0019", "きゅうこう", "急行", "きゅうこう", "快車", "kanji"],
+          ["n4_0020", "くらべる", "比べる", "くらべる", "比較", "kanji"],
+          ["n4_0021", "けいけん", "経験", "けいけん", "經驗", "kanji"],
+          ["n4_0022", "けしき", "景色", "けしき", "景色", "kanji"],
+          ["n4_0023", "けっこう", "結構", "けっこう", "相當、可以", "kanji"],
+          ["n4_0024", "こうじょう", "工場", "こうじょう", "工廠", "kanji"],
+          ["n4_0025", "こしょう", "故障", "こしょう", "故障", "kanji"],
+          ["n4_0026", "さがす", "探す", "さがす", "尋找", "kanji"],
+          ["n4_0027", "さげる", "下げる", "さげる", "降低", "kanji"],
+          ["n4_0028", "さわぐ", "騒ぐ", "さわぐ", "吵鬧", "kanji"],
+          ["n4_0029", "したく", "支度", "したく", "準備", "kanji"],
+          ["n4_0030", "しっぱい", "失敗", "しっぱい", "失敗", "kanji"],
+          ["n4_0031", "しゅっぱつ", "出発", "しゅっぱつ", "出發", "kanji"],
+          ["n4_0032", "じゅんび", "準備", "じゅんび", "準備", "kanji"],
+          ["n4_0033", "しょうたい", "招待", "しょうたい", "招待", "kanji"],
+          ["n4_0034", "しらせる", "知らせる", "しらせる", "通知", "kanji"],
+          ["n4_0035", "しんせつ", "親切", "しんせつ", "親切", "kanji"],
+          ["n4_0036", "すてる", "捨てる", "すてる", "丟棄", "kanji"],
+          ["n4_0037", "せつめい", "説明", "せつめい", "說明", "kanji"],
+          ["n4_0038", "そうだん", "相談", "そうだん", "商量", "kanji"],
+          ["n4_0039", "そだてる", "育てる", "そだてる", "養育、培養", "kanji"],
+          ["n4_0040", "たいせつ", "大切", "たいせつ", "重要", "kanji"],
+          ["n4_0041", "たしか", "確か", "たしか", "確實、好像", "kanji"],
+          ["n4_0042", "たずねる", "訪ねる", "たずねる", "拜訪", "kanji"],
+          ["n4_0043", "つごう", "都合", "つごう", "方便、情況", "kanji"],
+          ["n4_0044", "てつだう", "手伝う", "てつだう", "幫忙", "kanji"],
+          ["n4_0045", "とくべつ", "特別", "とくべつ", "特別", "kanji"],
+          ["n4_0046", "なおす", "直す", "なおす", "修理、改正", "kanji"],
+          ["n4_0047", "ならべる", "並べる", "ならべる", "排列", "kanji"],
+          ["n4_0048", "にゅうがく", "入学", "にゅうがく", "入學", "kanji"],
+          ["n4_0049", "はこぶ", "運ぶ", "はこぶ", "搬運", "kanji"],
+          ["n4_0050", "はずかしい", "恥ずかしい", "はずかしい", "害羞", "kanji"],
+          ["n4_0051", "ひつよう", "必要", "ひつよう", "必要", "kanji"],
+          ["n4_0052", "ふくざつ", "複雑", "ふくざつ", "複雜", "kanji"],
+          ["n4_0053", "ふつう", "普通", "ふつう", "普通", "kanji"],
+          ["n4_0054", "へんじ", "返事", "へんじ", "回覆", "kanji"],
+          ["n4_0055", "まにあう", "間に合う", "まにあう", "趕得上", "kanji"],
+          ["n4_0056", "むり", "無理", "むり", "勉強、不合理", "kanji"],
+          ["n4_0057", "やくそく", "約束", "やくそく", "約定", "kanji"],
+          ["n4_0058", "よてい", "予定", "よてい", "預定", "kanji"],
+          ["n4_0059", "りゆう", "理由", "りゆう", "理由", "kanji"],
+          ["n4_0060", "れんらく", "連絡", "れんらく", "聯絡", "kanji"]
+        ],
+        N3: [
+          ["n3_0001", "あいじょう", "愛情", "あいじょう", "愛情", "kanji"],
+          ["n3_0002", "あんぜん", "安全", "あんぜん", "安全", "kanji"],
+          ["n3_0003", "いしき", "意識", "いしき", "意識", "kanji"],
+          ["n3_0004", "いどう", "移動", "いどう", "移動", "kanji"],
+          ["n3_0005", "いんしょう", "印象", "いんしょう", "印象", "kanji"],
+          ["n3_0006", "えいきょう", "影響", "えいきょう", "影響", "kanji"],
+          ["n3_0007", "えんりょ", "遠慮", "えんりょ", "客氣、顧慮", "kanji"],
+          ["n3_0008", "おうえん", "応援", "おうえん", "聲援", "kanji"],
+          ["n3_0009", "おせん", "汚染", "おせん", "污染", "kanji"],
+          ["n3_0010", "かいけつ", "解決", "かいけつ", "解決", "kanji"],
+          ["n3_0011", "かいぜん", "改善", "かいぜん", "改善", "kanji"],
+          ["n3_0012", "かくにん", "確認", "かくにん", "確認", "kanji"],
+          ["n3_0013", "かんきょう", "環境", "かんきょう", "環境", "kanji"],
+          ["n3_0014", "かんけい", "関係", "かんけい", "關係", "kanji"],
+          ["n3_0015", "かんしゃ", "感謝", "かんしゃ", "感謝", "kanji"],
+          ["n3_0016", "かんせい", "完成", "かんせい", "完成", "kanji"],
+          ["n3_0017", "きぎょう", "企業", "きぎょう", "企業", "kanji"],
+          ["n3_0018", "きじゅん", "基準", "きじゅん", "標準", "kanji"],
+          ["n3_0019", "きょうりょく", "協力", "きょうりょく", "合作", "kanji"],
+          ["n3_0020", "きんし", "禁止", "きんし", "禁止", "kanji"],
+          ["n3_0021", "けいかく", "計画", "けいかく", "計畫", "kanji"],
+          ["n3_0022", "けいやく", "契約", "けいやく", "契約", "kanji"],
+          ["n3_0023", "げんいん", "原因", "げんいん", "原因", "kanji"],
+          ["n3_0024", "こうか", "効果", "こうか", "效果", "kanji"],
+          ["n3_0025", "こうどう", "行動", "こうどう", "行動", "kanji"],
+          ["n3_0026", "こくさい", "国際", "こくさい", "國際", "kanji"],
+          ["n3_0027", "さくせい", "作成", "さくせい", "製作", "kanji"],
+          ["n3_0028", "さんか", "参加", "さんか", "參加", "kanji"],
+          ["n3_0029", "しえん", "支援", "しえん", "支援", "kanji"],
+          ["n3_0030", "じっけん", "実験", "じっけん", "實驗", "kanji"],
+          ["n3_0031", "じゅうよう", "重要", "じゅうよう", "重要", "kanji"],
+          ["n3_0032", "じょうきょう", "状況", "じょうきょう", "狀況", "kanji"],
+          ["n3_0033", "しょうひん", "商品", "しょうひん", "商品", "kanji"],
+          ["n3_0034", "しょるい", "書類", "しょるい", "文件", "kanji"],
+          ["n3_0035", "しんこく", "深刻", "しんこく", "嚴重", "kanji"],
+          ["n3_0036", "せいかつ", "生活", "せいかつ", "生活", "kanji"],
+          ["n3_0037", "せいこう", "成功", "せいこう", "成功", "kanji"],
+          ["n3_0038", "せいさん", "生産", "せいさん", "生產", "kanji"],
+          ["n3_0039", "せいど", "制度", "せいど", "制度", "kanji"],
+          ["n3_0040", "せきにん", "責任", "せきにん", "責任", "kanji"],
+          ["n3_0041", "せんもん", "専門", "せんもん", "專門", "kanji"],
+          ["n3_0042", "そうぞう", "想像", "そうぞう", "想像", "kanji"],
+          ["n3_0043", "そんざい", "存在", "そんざい", "存在", "kanji"],
+          ["n3_0044", "たいおう", "対応", "たいおう", "對應", "kanji"],
+          ["n3_0045", "たいど", "態度", "たいど", "態度", "kanji"],
+          ["n3_0046", "たんとう", "担当", "たんとう", "負責", "kanji"],
+          ["n3_0047", "ちょうさ", "調査", "ちょうさ", "調查", "kanji"],
+          ["n3_0048", "つうきん", "通勤", "つうきん", "通勤", "kanji"],
+          ["n3_0049", "ていあん", "提案", "ていあん", "提案", "kanji"],
+          ["n3_0050", "ていど", "程度", "ていど", "程度", "kanji"],
+          ["n3_0051", "とくちょう", "特徴", "とくちょう", "特徵", "kanji"],
+          ["n3_0052", "どりょく", "努力", "どりょく", "努力", "kanji"],
+          ["n3_0053", "にんき", "人気", "にんき", "人氣", "kanji"],
+          ["n3_0054", "はっけん", "発見", "はっけん", "發現", "kanji"],
+          ["n3_0055", "ひかく", "比較", "ひかく", "比較", "kanji"],
+          ["n3_0056", "ひょうか", "評価", "ひょうか", "評價", "kanji"],
+          ["n3_0057", "へんか", "変化", "へんか", "變化", "kanji"],
+          ["n3_0058", "ほうこく", "報告", "ほうこく", "報告", "kanji"],
+          ["n3_0059", "もくてき", "目的", "もくてき", "目的", "kanji"],
+          ["n3_0060", "りかい", "理解", "りかい", "理解", "kanji"]
+        ],
+        N2: [
+          ["n2_0001", "あいまい", "曖昧", "あいまい", "曖昧", "kanji"],
+          ["n2_0002", "あきらか", "明らか", "あきらか", "明顯", "kanji"],
+          ["n2_0003", "あっとう", "圧倒", "あっとう", "壓倒", "kanji"],
+          ["n2_0004", "いじょう", "異常", "いじょう", "異常", "kanji"],
+          ["n2_0005", "いっぽう", "一方", "いっぽう", "另一方面", "kanji"],
+          ["n2_0006", "いらい", "依頼", "いらい", "委託、請求", "kanji"],
+          ["n2_0007", "うんえい", "運営", "うんえい", "營運", "kanji"],
+          ["n2_0008", "えんちょう", "延長", "えんちょう", "延長", "kanji"],
+          ["n2_0009", "おうぼ", "応募", "おうぼ", "報名、應徵", "kanji"],
+          ["n2_0010", "かいご", "介護", "かいご", "照護", "kanji"],
+          ["n2_0011", "かいさい", "開催", "かいさい", "舉辦", "kanji"],
+          ["n2_0012", "かくだい", "拡大", "かくだい", "擴大", "kanji"],
+          ["n2_0013", "かくとく", "獲得", "かくとく", "獲得", "kanji"],
+          ["n2_0014", "かじょう", "過剰", "かじょう", "過剩", "kanji"],
+          ["n2_0015", "かのうせい", "可能性", "かのうせい", "可能性", "kanji"],
+          ["n2_0016", "かんり", "管理", "かんり", "管理", "kanji"],
+          ["n2_0017", "きたい", "期待", "きたい", "期待", "kanji"],
+          ["n2_0018", "きぼ", "規模", "きぼ", "規模", "kanji"],
+          ["n2_0019", "きょうきゅう", "供給", "きょうきゅう", "供給", "kanji"],
+          ["n2_0020", "きょうちょう", "強調", "きょうちょう", "強調", "kanji"],
+          ["n2_0021", "けいこう", "傾向", "けいこう", "傾向", "kanji"],
+          ["n2_0022", "けんとう", "検討", "けんとう", "檢討、研究", "kanji"],
+          ["n2_0023", "こうせい", "構成", "こうせい", "構成", "kanji"],
+          ["n2_0024", "こうりつ", "効率", "こうりつ", "效率", "kanji"],
+          ["n2_0025", "こよう", "雇用", "こよう", "雇用", "kanji"],
+          ["n2_0026", "さいよう", "採用", "さいよう", "採用", "kanji"],
+          ["n2_0027", "さくげん", "削減", "さくげん", "削減", "kanji"],
+          ["n2_0028", "しきゅう", "支給", "しきゅう", "支付、發放", "kanji"],
+          ["n2_0029", "しげん", "資源", "しげん", "資源", "kanji"],
+          ["n2_0030", "しじょう", "市場", "しじょう", "市場", "kanji"],
+          ["n2_0031", "じっし", "実施", "じっし", "實施", "kanji"],
+          ["n2_0032", "じゅよう", "需要", "じゅよう", "需求", "kanji"],
+          ["n2_0033", "しょうめい", "証明", "しょうめい", "證明", "kanji"],
+          ["n2_0034", "じょうしょう", "上昇", "じょうしょう", "上升", "kanji"],
+          ["n2_0035", "すいしん", "推進", "すいしん", "推進", "kanji"],
+          ["n2_0036", "せいげん", "制限", "せいげん", "限制", "kanji"],
+          ["n2_0037", "せいび", "整備", "せいび", "整備", "kanji"],
+          ["n2_0038", "せんたくし", "選択肢", "せんたくし", "選項", "kanji"],
+          ["n2_0039", "そしき", "組織", "そしき", "組織", "kanji"],
+          ["n2_0040", "たいしょう", "対象", "たいしょう", "對象", "kanji"],
+          ["n2_0041", "たっせい", "達成", "たっせい", "達成", "kanji"],
+          ["n2_0042", "ちいき", "地域", "ちいき", "地區", "kanji"],
+          ["n2_0043", "ちょうせい", "調整", "ちょうせい", "調整", "kanji"],
+          ["n2_0044", "てきよう", "適用", "てきよう", "適用", "kanji"],
+          ["n2_0045", "とうし", "投資", "とうし", "投資", "kanji"],
+          ["n2_0046", "どうにゅう", "導入", "どうにゅう", "導入", "kanji"],
+          ["n2_0047", "はんえい", "反映", "はんえい", "反映", "kanji"],
+          ["n2_0048", "ひょうげん", "表現", "ひょうげん", "表現", "kanji"],
+          ["n2_0049", "ふきゅう", "普及", "ふきゅう", "普及", "kanji"],
+          ["n2_0050", "ぶんせき", "分析", "ぶんせき", "分析", "kanji"],
+          ["n2_0051", "へんこう", "変更", "へんこう", "變更", "kanji"],
+          ["n2_0052", "ほしょう", "保証", "ほしょう", "保證", "kanji"],
+          ["n2_0053", "みなおし", "見直し", "みなおし", "重新檢視", "kanji"],
+          ["n2_0054", "ゆうせん", "優先", "ゆうせん", "優先", "kanji"],
+          ["n2_0055", "ようきゅう", "要求", "ようきゅう", "要求", "kanji"],
+          ["n2_0056", "りろん", "理論", "りろん", "理論", "kanji"]
+        ],
+        N1: [
+          ["n1_0001", "あくどい", "悪どい", "あくどい", "惡劣、過分", "kanji"],
+          ["n1_0002", "あざむく", "欺く", "あざむく", "欺騙", "kanji"],
+          ["n1_0003", "いちじるしい", "著しい", "いちじるしい", "顯著的", "kanji"],
+          ["n1_0004", "いとなむ", "営む", "いとなむ", "經營、從事", "kanji"],
+          ["n1_0005", "おごそか", "厳か", "おごそか", "莊嚴", "kanji"],
+          ["n1_0006", "おびただしい", "夥しい", "おびただしい", "大量的", "kanji"],
+          ["n1_0007", "かいしゅう", "回収", "かいしゅう", "回收", "kanji"],
+          ["n1_0008", "かくさ", "格差", "かくさ", "差距", "kanji"],
+          ["n1_0009", "かそ", "過疎", "かそ", "人口稀少", "kanji"],
+          ["n1_0010", "かんげん", "還元", "かんげん", "還原、回饋", "kanji"],
+          ["n1_0011", "きはん", "規範", "きはん", "規範", "kanji"],
+          ["n1_0012", "きゅうさい", "救済", "きゅうさい", "救濟", "kanji"],
+          ["n1_0013", "きょうじる", "興じる", "きょうじる", "沉迷、取樂", "kanji"],
+          ["n1_0014", "くつがえす", "覆す", "くつがえす", "推翻", "kanji"],
+          ["n1_0015", "けんしょう", "検証", "けんしょう", "驗證", "kanji"],
+          ["n1_0016", "こうそく", "拘束", "こうそく", "拘束", "kanji"],
+          ["n1_0017", "こじれる", "拗れる", "こじれる", "惡化、彆扭", "kanji"],
+          ["n1_0018", "さいけん", "再建", "さいけん", "重建", "kanji"],
+          ["n1_0019", "さえぎる", "遮る", "さえぎる", "遮擋、打斷", "kanji"],
+          ["n1_0020", "しさ", "示唆", "しさ", "暗示", "kanji"],
+          ["n1_0021", "じゅんかん", "循環", "じゅんかん", "循環", "kanji"],
+          ["n1_0022", "しょち", "処置", "しょち", "處置", "kanji"],
+          ["n1_0023", "すみやか", "速やか", "すみやか", "迅速", "kanji"],
+          ["n1_0024", "せいさい", "制裁", "せいさい", "制裁", "kanji"],
+          ["n1_0025", "せつじつ", "切実", "せつじつ", "迫切", "kanji"],
+          ["n1_0026", "ぜんてい", "前提", "ぜんてい", "前提", "kanji"],
+          ["n1_0027", "そうさい", "相殺", "そうさい", "抵銷", "kanji"],
+          ["n1_0028", "そくしん", "促進", "そくしん", "促進", "kanji"],
+          ["n1_0029", "たいしょ", "対処", "たいしょ", "應對", "kanji"],
+          ["n1_0030", "たんてき", "端的", "たんてき", "簡明扼要", "kanji"],
+          ["n1_0031", "ちくせき", "蓄積", "ちくせき", "累積", "kanji"],
+          ["n1_0032", "ていけい", "提携", "ていけい", "合作、結盟", "kanji"],
+          ["n1_0033", "てっする", "徹する", "てっする", "徹底、貫徹", "kanji"],
+          ["n1_0034", "どうこう", "動向", "どうこう", "動向", "kanji"],
+          ["n1_0035", "はいりょ", "配慮", "はいりょ", "考量", "kanji"],
+          ["n1_0036", "はあく", "把握", "はあく", "掌握", "kanji"],
+          ["n1_0037", "ばっぽん", "抜本", "ばっぽん", "根本", "kanji"],
+          ["n1_0038", "はんらん", "氾濫", "はんらん", "氾濫", "kanji"],
+          ["n1_0039", "ひんぱん", "頻繁", "ひんぱん", "頻繁", "kanji"],
+          ["n1_0040", "ふまえる", "踏まえる", "ふまえる", "根據、踏上", "kanji"],
+          ["n1_0041", "ほうかつ", "包括", "ほうかつ", "包括", "kanji"],
+          ["n1_0042", "ぼうとう", "冒頭", "ぼうとう", "開頭", "kanji"],
+          ["n1_0043", "みこみ", "見込み", "みこみ", "預期、可能性", "kanji"],
+          ["n1_0044", "もっぱら", "専ら", "もっぱら", "專門、主要", "kanji"],
+          ["n1_0045", "ゆうずう", "融通", "ゆうずう", "靈活調度", "kanji"],
+          ["n1_0046", "ようにん", "容認", "ようにん", "容許", "kanji"],
+          ["n1_0047", "りょういき", "領域", "りょういき", "領域", "kanji"],
+          ["n1_0048", "ろうきゅうか", "老朽化", "ろうきゅうか", "老化、老舊化", "kanji"],
+          ["n1_0049", "わずらわしい", "煩わしい", "わずらわしい", "麻煩、煩人", "kanji"],
+          ["n1_0050", "ひょうじゅんか", "標準化", "ひょうじゅんか", "標準化", "kanji"]
+        ]
+      };
+
+      const ALL_WORDS = LEVEL_ORDER.flatMap((level) =>
+        RAW_WORDS_BY_LEVEL[level].map(([id, reading, writing, normalizedReading, zh, script]) => ({
+          id,
+          reading,
+          writing,
+          normalizedReading,
+          zh,
+          level,
+          script
+        }))
+      ).filter((word) => !word.normalizedReading.includes("ー"));
+
+      const WORDS_BY_LEVEL = LEVEL_ORDER.reduce((map, level) => {
+        map[level] = ALL_WORDS.filter((word) => word.level === level);
+        return map;
+      }, {});
+
+      const WORDS_BY_READING = ALL_WORDS.reduce((map, word) => {
+        if (!map.has(word.normalizedReading)) map.set(word.normalizedReading, []);
+        map.get(word.normalizedReading).push(word);
+        return map;
+      }, new Map());
+
+      const els = {
+        homeScreen: document.getElementById("homeScreen"),
+        gameApp: document.getElementById("gameApp"),
+        startJourneyButton: document.getElementById("startJourneyButton"),
+        mapSelectPanel: document.getElementById("mapSelectPanel"),
+        stationPanel: document.getElementById("stationPanel"),
+        playPanel: document.getElementById("playPanel"),
+        statusPanel: document.getElementById("statusPanel"),
+        backToMapButton: document.getElementById("backToMapButton"),
+        board: document.getElementById("board"),
+        currentSpell: document.getElementById("currentSpell"),
+        targetCount: document.getElementById("targetCount"),
+        cluePanel: document.getElementById("cluePanel"),
+        clueText: document.getElementById("clueText"),
+        simpleModeButton: document.getElementById("simpleModeButton"),
+        advancedModeButton: document.getElementById("advancedModeButton"),
+        submitButton: document.getElementById("submitButton"),
+        clearButton: document.getElementById("clearButton"),
+        hintButton: document.getElementById("hintButton"),
+        newRoundButton: document.getElementById("newRoundButton"),
+        regionSubtitle: document.getElementById("regionSubtitle"),
+        regionRow: document.getElementById("regionRow"),
+        stationIndex: document.getElementById("stationIndex"),
+        stationName: document.getElementById("stationName"),
+        stationJa: document.getElementById("stationJa"),
+        foodName: document.getElementById("foodName"),
+        stationProgressFill: document.getElementById("stationProgressFill"),
+        stationProgressText: document.getElementById("stationProgressText"),
+        message: document.getElementById("message"),
+        wordCard: document.getElementById("wordCard"),
+        wordMain: document.getElementById("wordMain"),
+        wordZh: document.getElementById("wordZh"),
+        wordLevel: document.getElementById("wordLevel"),
+        mapStrip: document.getElementById("mapStrip"),
+        resetButton: document.getElementById("resetButton"),
+        nextStationButton: document.getElementById("nextStationButton"),
+        postcardToggleButton: document.getElementById("postcardToggleButton"),
+        postcardPanel: document.getElementById("postcardPanel"),
+        postcardGrid: document.getElementById("postcardGrid"),
+        stationModal: document.getElementById("stationModal"),
+        modalPostcard: document.getElementById("modalPostcard"),
+        modalPostcardImage: document.getElementById("modalPostcardImage"),
+        modalPostcardShiba: document.getElementById("modalPostcardShiba"),
+        modalPostcardBadge: document.getElementById("modalPostcardBadge"),
+        modalPostcardTitle: document.getElementById("modalPostcardTitle"),
+        modalPostcardMeta: document.getElementById("modalPostcardMeta"),
+        modalPostcardNote: document.getElementById("modalPostcardNote"),
+        modalTitle: document.getElementById("modalTitle"),
+        modalText: document.getElementById("modalText"),
+        modalNextButton: document.getElementById("modalNextButton"),
+        modalCloseButton: document.getElementById("modalCloseButton")
+      };
+
+      let rootSave = loadRootSave();
+      let save = loadRegionSave(currentRegion().id);
+      let board = [];
+      let selectedCells = [];
+      let roundTargets = [];
+      let roundFoundIds = new Set();
+      let hintedTargetIds = new Set();
+      let hintsLeft = HINTS_PER_ROUND;
+      let isPointerSelecting = false;
+      let wordCardTimer = 0;
+      let resetArmed = false;
+      let resetTimer = 0;
+      let appView = APP_VIEW_MAP;
+
+      function showGameApp() {
+        els.homeScreen.classList.add("hidden");
+        els.gameApp.hidden = false;
+        showMapSelect();
+      }
+
+      function startJourney() {
+        showGameApp();
+      }
+
+      function updateAppView() {
+        const isMapView = appView === APP_VIEW_MAP;
+        els.mapSelectPanel.hidden = !isMapView;
+        els.stationPanel.hidden = isMapView;
+        els.playPanel.hidden = isMapView;
+        els.statusPanel.hidden = isMapView;
+        els.postcardPanel.hidden = isMapView;
+        els.backToMapButton.hidden = isMapView;
+        els.newRoundButton.hidden = isMapView;
+        els.regionSubtitle.textContent = isMapView ? "選擇 JLPT 關卡" : currentRegion().subtitle;
+        if (isMapView) {
+          els.postcardPanel.classList.remove("open");
+        }
+      }
+
+      function showMapSelect() {
+        appView = APP_VIEW_MAP;
+        updateAppView();
+        renderRegions();
+        els.regionRow.focus({ preventScroll: true });
+      }
+
+      function enterRegion(regionId) {
+        if (!REGION_BY_ID.has(regionId)) return;
+        const changedRegion = regionId !== currentRegion().id;
+        if (changedRegion) {
+          persistSave();
+          rootSave.currentRegionId = regionId;
+          persistRootSave();
+          save = loadRegionSave(regionId);
+        }
+        appView = APP_VIEW_GAME;
+        els.postcardPanel.classList.remove("open");
+        renderAll();
+        generateRound();
+        updateAppView();
+        setMessage(`進入${currentRegion().subtitle}，繼續拼 ${currentWordsPerStation()} 個 ${currentLevel()} 單字。`);
+      }
+
+      function regionSaveKey(regionId) {
+        return `fatShiba.phase2.region.${regionId}.v1`;
+      }
+
+      function currentRegion() {
+        return REGION_BY_ID.get(rootSave.currentRegionId) || REGIONS[0];
+      }
+
+      function currentLevel() {
+        return currentRegion().level;
+      }
+
+      function currentSettings() {
+        return LEVEL_SETTINGS[currentLevel()];
+      }
+
+      function currentBoardSize() {
+        return currentSettings().boardSize;
+      }
+
+      function currentWordsPerStation() {
+        return currentSettings().wordsPerStation;
+      }
+
+      function currentStations() {
+        return currentRegion().stations;
+      }
+
+      function createInitialRootSave() {
+        return {
+          currentRegionId: REGIONS[0].id,
+          playMode: PLAY_MODE_SIMPLE
+        };
+      }
+
+      function loadRootSave() {
+        try {
+          const raw = localStorage.getItem(ROOT_SAVE_KEY);
+          if (!raw) return createInitialRootSave();
+          const parsed = JSON.parse(raw);
+          return {
+            currentRegionId: REGION_BY_ID.has(parsed.currentRegionId) ? parsed.currentRegionId : REGIONS[0].id,
+            playMode: parsed.playMode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE
+          };
+        } catch (error) {
+          console.warn("Root save is corrupted, starting fresh.", error);
+          return createInitialRootSave();
+        }
+      }
+
+      function persistRootSave() {
+        localStorage.setItem(ROOT_SAVE_KEY, JSON.stringify(rootSave));
+      }
+
+      function createInitialRegionSave(region) {
+        return {
+          currentStationId: region.stations[0].id,
+          completedStationIds: [],
+          collectedPostcardIds: [],
+          foundWordIds: [],
+          stationWordCounts: {},
+          stationFoundWordIds: {}
+        };
+      }
+
+      function migrateLegacyN5Save() {
+        try {
+          const raw = localStorage.getItem(LEGACY_SAVE_KEY);
+          if (!raw) return null;
+          const parsed = JSON.parse(raw);
+          if (!currentStations().some((station) => station.id === parsed.currentStationId)) return null;
+          rootSave.playMode = parsed.playMode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE;
+          persistRootSave();
+          return {
+            currentStationId: parsed.currentStationId,
+            completedStationIds: Array.isArray(parsed.completedStationIds) ? parsed.completedStationIds : [],
+            collectedPostcardIds: Array.isArray(parsed.collectedPostcardIds) ? parsed.collectedPostcardIds : [],
+            foundWordIds: Array.isArray(parsed.foundWordIds) ? parsed.foundWordIds : [],
+            stationWordCounts: parsed.stationWordCounts && typeof parsed.stationWordCounts === "object" ? parsed.stationWordCounts : {},
+            stationFoundWordIds: parsed.stationFoundWordIds && typeof parsed.stationFoundWordIds === "object" ? parsed.stationFoundWordIds : {}
+          };
+        } catch (error) {
+          console.warn("Legacy save migration failed.", error);
+          return null;
+        }
+      }
+
+      function loadRegionSave(regionId) {
+        const region = REGION_BY_ID.get(regionId) || REGIONS[0];
+        try {
+          const raw = localStorage.getItem(regionSaveKey(region.id));
+          if (!raw && region.id === REGIONS[0].id) {
+            const migrated = migrateLegacyN5Save();
+            if (migrated) return migrated;
+          }
+          if (!raw) return createInitialRegionSave(region);
+          const parsed = JSON.parse(raw);
+          const stationExists = region.stations.some((station) => station.id === parsed.currentStationId);
+          if (!stationExists) return createInitialRegionSave(region);
+          return {
+            currentStationId: parsed.currentStationId,
+            completedStationIds: Array.isArray(parsed.completedStationIds) ? parsed.completedStationIds : [],
+            collectedPostcardIds: Array.isArray(parsed.collectedPostcardIds) ? parsed.collectedPostcardIds : [],
+            foundWordIds: Array.isArray(parsed.foundWordIds) ? parsed.foundWordIds : [],
+            stationWordCounts: parsed.stationWordCounts && typeof parsed.stationWordCounts === "object" ? parsed.stationWordCounts : {},
+            stationFoundWordIds: parsed.stationFoundWordIds && typeof parsed.stationFoundWordIds === "object" ? parsed.stationFoundWordIds : {}
+          };
+        } catch (error) {
+          console.warn("Region save is corrupted, starting fresh.", error);
+          return createInitialRegionSave(region);
+        }
+      }
+
+      function persistSave() {
+        localStorage.setItem(regionSaveKey(currentRegion().id), JSON.stringify(save));
+      }
+
+      function currentStation() {
+        return currentStations().find((station) => station.id === save.currentStationId) || currentStations()[0];
+      }
+
+      function currentStationIndex() {
+        return currentStations().findIndex((station) => station.id === currentStation().id);
+      }
+
+      function clampStationCount(stationId) {
+        const count = Number(save.stationWordCounts[stationId] || 0);
+        return Math.max(0, Math.min(currentWordsPerStation(), count));
+      }
+
+      function shuffled(items) {
+        const copy = [...items];
+        for (let index = copy.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+        }
+        return copy;
+      }
+
+      function kanaUnits(text) {
+        return Array.from(text);
+      }
+
+      function levelRank(level) {
+        return LEVEL_ORDER.indexOf(level);
+      }
+
+      function cumulativeWordsForLevel(level) {
+        const rank = levelRank(level);
+        return ALL_WORDS.filter((word) => levelRank(word.level) <= rank);
+      }
+
+      function currentPlayableWords() {
+        return cumulativeWordsForLevel(currentLevel());
+      }
+
+      function currentLevelWords() {
+        return WORDS_BY_LEVEL[currentLevel()] || [];
+      }
+
+      function buildKanaBag(words) {
+        const counts = new Map();
+        for (const word of words) {
+          for (const kana of kanaUnits(word.normalizedReading)) {
+            counts.set(kana, (counts.get(kana) || 0) + 1);
+          }
+        }
+        const bag = [];
+        for (const [kana, count] of counts.entries()) {
+          const isSmall = KANA_SMALL.has(kana);
+          const isVoiced = KANA_VOICED.test(kana);
+          const adjusted = Math.max(1, Math.min(isSmall ? 2 : isVoiced ? 4 : 9, count));
+          for (let i = 0; i < adjusted; i += 1) bag.push(kana);
+        }
+        return bag;
+      }
+
+      function randomKana(currentGrid) {
+        const kanaBag = buildKanaBag(currentPlayableWords());
+        const smallCount = currentGrid.filter((cell) => KANA_SMALL.has(cell)).length;
+        const voicedCount = currentGrid.filter((cell) => KANA_VOICED.test(cell || "")).length;
+        const smallLimit = currentBoardSize() >= 6 ? 6 : currentBoardSize() >= 5 ? 4 : 3;
+        const voicedLimit = currentBoardSize() >= 6 ? 10 : currentBoardSize() >= 5 ? 8 : 6;
+        for (let attempt = 0; attempt < 30; attempt += 1) {
+          const kana = kanaBag[Math.floor(Math.random() * kanaBag.length)];
+          if (kana === "ー") continue;
+          if (KANA_SMALL.has(kana) && smallCount >= smallLimit) continue;
+          if (KANA_VOICED.test(kana) && voicedCount >= voicedLimit) continue;
+          return kana;
+        }
+        return "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわん"[Math.floor(Math.random() * 46)];
+      }
+
+      function chooseTargets() {
+        const foundGlobal = new Set(save.foundWordIds);
+        const maxLength = currentBoardSize() * currentBoardSize();
+        const currentWords = currentLevelWords().filter((word) => kanaUnits(word.normalizedReading).length <= maxLength);
+        const unseen = shuffled(currentWords.filter((word) => !foundGlobal.has(word.id)));
+        const seen = shuffled(currentWords.filter((word) => foundGlobal.has(word.id)));
+        const desiredCount = 3 + Math.floor(Math.random() * 3);
+        const targets = [];
+
+        if (currentLevel() === "N5" && save.currentStationId === currentStations()[0].id && foundGlobal.size === 0) {
+          for (const id of ["n5_0011", "n5_0012", "n5_0001"]) {
+            const word = ALL_WORDS.find((item) => item.id === id);
+            if (word) targets.push(word);
+          }
+        }
+
+        for (const word of [...unseen, ...seen]) {
+          if (targets.length >= desiredCount) break;
+          if (!targets.some((target) => target.id === word.id)) targets.push(word);
+        }
+
+        return targets.slice(0, 5);
+      }
+
+      function neighbors(index) {
+        const size = currentBoardSize();
+        const row = Math.floor(index / size);
+        const col = index % size;
+        const output = [];
+        for (let dr = -1; dr <= 1; dr += 1) {
+          for (let dc = -1; dc <= 1; dc += 1) {
+            if (dr === 0 && dc === 0) continue;
+            const nextRow = row + dr;
+            const nextCol = col + dc;
+            if (nextRow >= 0 && nextRow < size && nextCol >= 0 && nextCol < size) {
+              output.push(nextRow * size + nextCol);
+            }
+          }
+        }
+        return shuffled(output);
+      }
+
+      function tryPlaceWord(grid, word) {
+        const size = currentBoardSize();
+        const units = kanaUnits(word.normalizedReading);
+        const starts = shuffled([...Array(size * size).keys()]);
+
+        function dfs(position, unitIndex, path, localGrid) {
+          const expected = units[unitIndex];
+          if (localGrid[position] && localGrid[position] !== expected) return null;
+
+          const nextGrid = [...localGrid];
+          nextGrid[position] = expected;
+          const nextPath = [...path, position];
+          if (unitIndex === units.length - 1) return { grid: nextGrid, path: nextPath };
+
+          const used = new Set(nextPath);
+          for (const next of neighbors(position)) {
+            if (used.has(next)) continue;
+            const result = dfs(next, unitIndex + 1, nextPath, nextGrid);
+            if (result) return result;
+          }
+          return null;
+        }
+
+        for (const start of starts) {
+          const result = dfs(start, 0, [], grid);
+          if (result) return result;
+        }
+        return null;
+      }
+
+      function generateRound() {
+        const size = currentBoardSize();
+        const targetCandidates = chooseTargets();
+        let best = null;
+
+        for (let attempt = 0; attempt < 60; attempt += 1) {
+          let grid = Array(size * size).fill("");
+          const placedTargets = [];
+
+          for (const word of shuffled(targetCandidates)) {
+            const result = tryPlaceWord(grid, word);
+            if (!result) continue;
+            grid = result.grid;
+            placedTargets.push({ word, path: result.path, found: false });
+          }
+
+          if (!best || placedTargets.length > best.placedTargets.length) {
+            best = { grid, placedTargets };
+          }
+          if (placedTargets.length >= 3) break;
+        }
+
+        const grid = [...best.grid];
+        for (let index = 0; index < grid.length; index += 1) {
+          if (!grid[index]) grid[index] = randomKana(grid);
+        }
+        board = grid;
+        roundTargets = best.placedTargets.slice(0, 5);
+        roundFoundIds = new Set();
+        hintedTargetIds = new Set();
+        selectedCells = [];
+        hintsLeft = HINTS_PER_ROUND;
+        els.board.style.setProperty("--board-size", String(size));
+        els.board.setAttribute("aria-label", `${size} 乘 ${size} 平假名棋盤`);
+        renderBoard();
+        updateSpell();
+        updateTargetCount();
+        updateClue();
+        renderControls();
+        setMessage(`新棋盤準備好了，本盤有 ${roundTargets.length} 個保底詞。`);
+      }
+
+      function renderBoard() {
+        els.board.innerHTML = "";
+        board.forEach((kana, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "kana-cell";
+          button.textContent = kana;
+          button.dataset.index = String(index);
+          button.setAttribute("aria-label", `第 ${index + 1} 格 ${kana}`);
+          els.board.appendChild(button);
+        });
+      }
+
+      function renderAll() {
+        const region = currentRegion();
+        const station = currentStation();
+        const stationIndex = currentStationIndex();
+        const count = clampStationCount(station.id);
+        const wordsPerStation = currentWordsPerStation();
+        els.regionSubtitle.textContent = region.subtitle;
+        els.stationIndex.textContent = `${region.level}・${stationIndex + 1} / ${currentStations().length}`;
+        els.stationName.textContent = station.placeZh;
+        els.stationJa.textContent = station.placeJa;
+        els.foodName.textContent = `${station.foodJa}｜${station.foodZh}`;
+        els.stationProgressText.textContent = `${count} / ${wordsPerStation}`;
+        els.stationProgressFill.style.width = `${(count / wordsPerStation) * 100}%`;
+        renderRegions();
+        renderMap();
+        renderPostcards();
+        updateClue();
+        renderControls();
+        updateAppView();
+      }
+
+      function renderMap() {
+        const completed = new Set(save.completedStationIds);
+        els.mapStrip.innerHTML = "";
+        for (const station of currentStations()) {
+          const dot = document.createElement("span");
+          dot.className = "map-dot";
+          if (completed.has(station.id)) dot.classList.add("done");
+          if (station.id === save.currentStationId) dot.classList.add("current");
+          dot.title = station.placeZh;
+          els.mapStrip.appendChild(dot);
+        }
+      }
+
+      function renderRegions() {
+        els.regionRow.innerHTML = "";
+        for (const region of REGIONS) {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "region-button";
+          button.classList.toggle("active", region.id === currentRegion().id);
+          button.style.setProperty("--map-x", region.mapX);
+          button.style.setProperty("--map-y", region.mapY);
+          button.style.setProperty("--mobile-map-x", region.mobileMapX);
+          button.style.setProperty("--mobile-map-y", region.mobileMapY);
+          const level = document.createElement("span");
+          level.className = "region-level";
+          level.textContent = region.shortLabel;
+          const name = document.createElement("span");
+          name.className = "region-name";
+          name.textContent = region.name;
+          button.append(level, name);
+          button.setAttribute("aria-pressed", String(region.id === currentRegion().id));
+          button.setAttribute("aria-label", `進入 ${region.subtitle}`);
+          button.addEventListener("click", () => enterRegion(region.id));
+          els.regionRow.appendChild(button);
+        }
+      }
+
+      function switchRegion(regionId) {
+        enterRegion(regionId);
+      }
+
+      function resetCurrentRound() {
+        roundFoundIds = new Set();
+        hintedTargetIds = new Set();
+        selectedCells = [];
+        hintsLeft = HINTS_PER_ROUND;
+      }
+
+      function stationVisualIndex(station) {
+        const index = currentStations().findIndex((item) => item.id === station.id);
+        return Math.max(0, index);
+      }
+
+      function postcardSeed(text) {
+        let hash = 2166136261;
+        for (let index = 0; index < text.length; index += 1) {
+          hash ^= text.charCodeAt(index);
+          hash = Math.imul(hash, 16777619);
+        }
+        return hash >>> 0;
+      }
+
+      function seededUnit(seed, salt) {
+        let value = seed + Math.imul(salt + 1, 2654435761);
+        value ^= value >>> 16;
+        value = Math.imul(value, 2246822507);
+        value ^= value >>> 13;
+        value = Math.imul(value, 3266489909);
+        value ^= value >>> 16;
+        return (value >>> 0) / 4294967295;
+      }
+
+      function readPercent(value) {
+        return Number.parseFloat(String(value).replace("%", ""));
+      }
+
+      function percent(value) {
+        return `${Number(value.toFixed(2))}%`;
+      }
+
+      function fixedPostcardCornerLayout(station, baseLayout) {
+        const seed = postcardSeed(`${currentRegion().id}:${station.id}`);
+        const widthFactor = 0.9 + seededUnit(seed, 0) * 0.22;
+
+        return {
+          width: percent(readPercent(baseLayout.width) * widthFactor),
+          right: "4%",
+          bottom: "12%",
+          modalWidth: percent(readPercent(baseLayout.modalWidth) * widthFactor),
+          modalRight: "6%",
+          modalBottom: "10%"
+        };
+      }
+
+      function postcardVisual(station) {
+        const index = stationVisualIndex(station);
+        const baseLayout = POSTCARD_SHIBA_LAYOUTS[index % POSTCARD_SHIBA_LAYOUTS.length];
+        return {
+          scene: station.postcard,
+          shiba: POSTCARD_SHIBA_IMAGES[index % POSTCARD_SHIBA_IMAGES.length],
+          layout: fixedPostcardCornerLayout(station, baseLayout)
+        };
+      }
+
+      function applyPostcardLayout(card, layout) {
+        card.style.setProperty("--shiba-width", layout.width);
+        card.style.setProperty("--shiba-right", layout.right);
+        card.style.setProperty("--shiba-bottom", layout.bottom);
+        card.style.setProperty("--shiba-modal-width", layout.modalWidth);
+        card.style.setProperty("--shiba-modal-right", layout.modalRight);
+        card.style.setProperty("--shiba-modal-bottom", layout.modalBottom);
+      }
+
+      function createPostcardImage(className, src, alt) {
+        const img = document.createElement("img");
+        img.className = className;
+        img.src = src;
+        img.alt = alt;
+        img.addEventListener("error", () => img.classList.add("hidden"), { once: true });
+        return img;
+      }
+
+      function updatePostcardImage(img, src, alt) {
+        img.classList.remove("hidden");
+        img.alt = alt;
+        img.onerror = () => img.classList.add("hidden");
+        img.src = src;
+      }
+
+      function renderModalPostcard(station) {
+        const visual = postcardVisual(station);
+        applyPostcardLayout(els.modalPostcard, visual.layout);
+        updatePostcardImage(els.modalPostcardImage, visual.scene, `${station.placeZh}明信片底圖`);
+        updatePostcardImage(els.modalPostcardShiba, visual.shiba, "呷胖明信片貼圖");
+        els.modalPostcardBadge.textContent = "新明信片";
+        els.modalPostcardTitle.textContent = station.placeZh;
+        els.modalPostcardMeta.textContent = `${station.placeJa}｜${station.foodJa}`;
+        els.modalPostcardNote.textContent = `呷胖吃到 ${station.foodZh}，把這一站收進行李。`;
+      }
+
+      function renderPostcards() {
+        const collected = new Set(save.collectedPostcardIds);
+        els.postcardGrid.innerHTML = "";
+        for (const station of currentStations()) {
+          const item = document.createElement("article");
+          item.className = `postcard ${collected.has(station.id) ? "" : "locked"}`.trim();
+
+          if (collected.has(station.id)) {
+            const visual = postcardVisual(station);
+            applyPostcardLayout(item, visual.layout);
+            item.append(
+              createPostcardImage("postcard-scene", visual.scene, `${station.placeZh}明信片底圖`),
+              createPostcardImage("postcard-shiba", visual.shiba, "呷胖明信片貼圖")
+            );
+          }
+
+          const title = document.createElement("strong");
+          title.className = "postcard-title";
+          title.textContent = collected.has(station.id) ? station.placeZh : "尚未取得";
+          const food = document.createElement("span");
+          food.className = "postcard-food";
+          food.textContent = collected.has(station.id) ? station.foodJa : `第 ${currentStations().indexOf(station) + 1} 站`;
+          const note = document.createElement("span");
+          note.className = "postcard-note";
+          note.textContent = collected.has(station.id) ? station.foodZh : `拼滿 ${currentWordsPerStation()} 詞解鎖`;
+          item.append(title, food, note);
+          els.postcardGrid.appendChild(item);
+        }
+      }
+
+      function renderControls() {
+        els.hintButton.textContent = `提示 ${hintsLeft}`;
+        els.simpleModeButton.classList.toggle("active", rootSave.playMode === PLAY_MODE_SIMPLE);
+        els.advancedModeButton.classList.toggle("active", rootSave.playMode === PLAY_MODE_ADVANCED);
+        els.simpleModeButton.setAttribute("aria-pressed", String(rootSave.playMode === PLAY_MODE_SIMPLE));
+        els.advancedModeButton.setAttribute("aria-pressed", String(rootSave.playMode === PLAY_MODE_ADVANCED));
+        const station = currentStation();
+        const canAdvance = save.completedStationIds.includes(station.id) && currentStationIndex() < currentStations().length - 1;
+        els.nextStationButton.disabled = !canAdvance;
+      }
+
+      function updateSpell() {
+        const spell = selectedCells.map((index) => board[index]).join("");
+        els.currentSpell.textContent = spell || "請連假名";
+        for (const cell of els.board.querySelectorAll(".kana-cell")) {
+          const index = Number(cell.dataset.index);
+          cell.classList.toggle("selected", selectedCells.includes(index));
+        }
+      }
+
+      function updateTargetCount() {
+        const left = roundTargets.filter((target) => !roundFoundIds.has(target.word.id)).length;
+        els.targetCount.textContent = `本盤還藏 ${left} 個目標詞`;
+      }
+
+      function currentClueTarget() {
+        return roundTargets.find((target) => !roundFoundIds.has(target.word.id)) || null;
+      }
+
+      function updateClue() {
+        const target = currentClueTarget();
+        const isSimple = rootSave.playMode === PLAY_MODE_SIMPLE;
+        els.cluePanel.classList.toggle("hidden", !isSimple);
+        els.clueText.textContent = target ? target.word.zh : "本盤保底詞都找完了";
+      }
+
+      function setPlayMode(mode) {
+        rootSave.playMode = mode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE;
+        persistRootSave();
+        updateClue();
+        renderControls();
+        setMessage(rootSave.playMode === PLAY_MODE_SIMPLE ? "簡單模式會顯示中文題目。" : "進階模式不顯示中文題目。");
+      }
+
+      function setMessage(text) {
+        els.message.textContent = text;
+      }
+
+      function isAdjacent(a, b) {
+        const size = currentBoardSize();
+        const ar = Math.floor(a / size);
+        const ac = a % size;
+        const br = Math.floor(b / size);
+        const bc = b % size;
+        return Math.max(Math.abs(ar - br), Math.abs(ac - bc)) === 1;
+      }
+
+      function selectCell(index) {
+        if (selectedCells.includes(index)) {
+          if (selectedCells[selectedCells.length - 1] === index) {
+            selectedCells.pop();
+            updateSpell();
+          }
+          return;
+        }
+        const last = selectedCells[selectedCells.length - 1];
+        if (last !== undefined && !isAdjacent(last, index)) {
+          setMessage("只能連上下左右或斜角相鄰的格子。");
+          return;
+        }
+        selectedCells.push(index);
+        updateSpell();
+      }
+
+      function wordDisplay(word) {
+        if (word.reading === word.writing) return word.reading;
+        return `${word.normalizedReading}／${word.writing}`;
+      }
+
+      function pickMatchedWord(spell) {
+        const allowedLevels = new Set(LEVEL_ORDER.slice(0, levelRank(currentLevel()) + 1));
+        const matches = (WORDS_BY_READING.get(spell) || []).filter((word) => allowedLevels.has(word.level));
+        if (!matches.length) return null;
+        const station = currentStation();
+        const stationFound = new Set(save.stationFoundWordIds[station.id] || []);
+        return (
+          matches.find((word) => word.level === currentLevel() && !roundFoundIds.has(word.id) && !stationFound.has(word.id)) ||
+          matches.find((word) => !roundFoundIds.has(word.id) && !stationFound.has(word.id)) ||
+          matches.find((word) => !roundFoundIds.has(word.id)) ||
+          matches[0]
+        );
+      }
+
+      function showWordCard(word) {
+        window.clearTimeout(wordCardTimer);
+        els.wordMain.textContent = wordDisplay(word);
+        els.wordZh.textContent = word.zh;
+        els.wordLevel.textContent = word.level;
+        els.wordCard.classList.add("show");
+        wordCardTimer = window.setTimeout(() => {
+          els.wordCard.classList.remove("show");
+        }, 2000);
+      }
+
+      function submitSpell() {
+        const spell = selectedCells.map((index) => board[index]).join("");
+        if (!spell) {
+          setMessage("先選幾個假名再送出。");
+          return;
+        }
+
+        const word = pickMatchedWord(spell);
+        if (!word) {
+          setMessage(`「${spell}」目前不在 ${currentLevel()} 的累加詞庫裡。`);
+          return;
+        }
+
+        const station = currentStation();
+        if (!save.stationFoundWordIds[station.id]) save.stationFoundWordIds[station.id] = [];
+        const stationFound = new Set(save.stationFoundWordIds[station.id]);
+        const isCurrentLevelWord = word.level === currentLevel();
+        const isNewForStation = isCurrentLevelWord && !stationFound.has(word.id);
+
+        roundFoundIds.add(word.id);
+        if (!save.foundWordIds.includes(word.id)) save.foundWordIds.push(word.id);
+        if (isNewForStation) {
+          save.stationFoundWordIds[station.id].push(word.id);
+          save.stationWordCounts[station.id] = clampStationCount(station.id) + 1;
+        }
+
+        showWordCard(word);
+        if (!isCurrentLevelWord) {
+          setMessage(`命中：${wordDisplay(word)}。這是 ${word.level} 複習詞，會跳卡但不計入 ${currentLevel()} 過站。`);
+        } else {
+          setMessage(isNewForStation ? `命中：${wordDisplay(word)}。呷胖離下一口飯更近了。` : `命中：${wordDisplay(word)}。這站已經算過這個詞了。`);
+        }
+        selectedCells = [];
+        updateSpell();
+        updateTargetCount();
+        updateClue();
+        persistSave();
+        renderAll();
+
+        if (clampStationCount(station.id) >= currentWordsPerStation()) {
+          completeStation(station);
+        }
+      }
+
+      function completeStation(station) {
+        if (!save.completedStationIds.includes(station.id)) save.completedStationIds.push(station.id);
+        if (!save.collectedPostcardIds.includes(station.id)) save.collectedPostcardIds.push(station.id);
+        persistSave();
+        renderAll();
+
+        const isFinal = currentStationIndex() === currentStations().length - 1;
+        els.modalTitle.textContent = isFinal ? `${currentRegion().name}區完成` : "過站成功";
+        els.modalText.textContent = isFinal
+          ? `呷胖吃完 ${station.foodZh}，${currentRegion().name} 10 站明信片收齊。`
+          : `呷胖在${station.placeZh}吃到${station.foodZh}，明信片入手。`;
+        els.modalNextButton.textContent = isFinal ? `留在${currentRegion().name}回味` : "前往下一站";
+        renderModalPostcard(station);
+        els.stationModal.classList.add("open");
+      }
+
+      function goNextStation() {
+        const index = currentStationIndex();
+        if (!save.completedStationIds.includes(currentStation().id)) {
+          setMessage(`這站要先拼滿 ${currentWordsPerStation()} 個 ${currentLevel()} 單字才能前進。`);
+          els.stationModal.classList.remove("open");
+          return;
+        }
+        if (index < currentStations().length - 1) {
+          save.currentStationId = currentStations()[index + 1].id;
+          persistSave();
+          renderAll();
+          generateRound();
+          setMessage(`抵達${currentStation().placeZh}，繼續拼 ${currentWordsPerStation()} 個 ${currentLevel()} 單字。`);
+        }
+        els.stationModal.classList.remove("open");
+      }
+
+      function clearSelection() {
+        selectedCells = [];
+        updateSpell();
+        setMessage("已清除目前拼字。");
+      }
+
+      function useHint() {
+        if (hintsLeft <= 0) {
+          setMessage("這盤提示用完了，換一盤會補滿。");
+          return;
+        }
+        const hiddenTargets = roundTargets.filter((target) => !roundFoundIds.has(target.word.id));
+        if (!hiddenTargets.length) {
+          setMessage("本盤保底詞都找完了，可以換一盤。");
+          return;
+        }
+        hintsLeft -= 1;
+        const freshTargets = hiddenTargets.filter((target) => !hintedTargetIds.has(target.word.id));
+        const hintPool = freshTargets.length ? freshTargets : hiddenTargets;
+        const target = rootSave.playMode === PLAY_MODE_SIMPLE
+          ? currentClueTarget()
+          : hintPool[Math.floor(Math.random() * hintPool.length)];
+        hintedTargetIds.add(target.word.id);
+        const firstIndex = target.path[0];
+        const cell = els.board.querySelector(`[data-index="${firstIndex}"]`);
+        if (cell) {
+          cell.classList.add("hint");
+          window.setTimeout(() => cell.classList.remove("hint"), 2000);
+        }
+        renderControls();
+        setMessage("提示亮起一個保底詞的首字。");
+      }
+
+      function armReset() {
+        if (!resetArmed) {
+          resetArmed = true;
+          els.resetButton.textContent = "再按一次確認";
+          setMessage("再按一次會清掉進度。這種按鈕我們要謹慎，資料不會自己長回來。");
+          window.clearTimeout(resetTimer);
+          resetTimer = window.setTimeout(() => {
+            resetArmed = false;
+            els.resetButton.textContent = "重置進度";
+          }, 4000);
+          return;
+        }
+        window.clearTimeout(resetTimer);
+        resetArmed = false;
+        save = createInitialRegionSave(currentRegion());
+        persistSave();
+        els.resetButton.textContent = "重置進度";
+        els.postcardPanel.classList.remove("open");
+        renderAll();
+        generateRound();
+        setMessage(`${currentRegion().name}區進度已重置，其他區不受影響。`);
+      }
+
+      function cellFromPointer(event) {
+        const element = document.elementFromPoint(event.clientX, event.clientY);
+        const cell = element && element.closest ? element.closest(".kana-cell") : null;
+        if (!cell || !els.board.contains(cell)) return null;
+        return Number(cell.dataset.index);
+      }
+
+      els.board.addEventListener("pointerdown", (event) => {
+        const index = cellFromPointer(event);
+        if (index === null) return;
+        isPointerSelecting = true;
+        selectCell(index);
+      });
+
+      els.board.addEventListener("pointermove", (event) => {
+        if (!isPointerSelecting) return;
+        const index = cellFromPointer(event);
+        if (index === null) return;
+        selectCell(index);
+      });
+
+      window.addEventListener("pointerup", () => {
+        isPointerSelecting = false;
+      });
+
+      els.submitButton.addEventListener("click", submitSpell);
+      els.clearButton.addEventListener("click", clearSelection);
+      els.hintButton.addEventListener("click", useHint);
+      els.simpleModeButton.addEventListener("click", () => setPlayMode(PLAY_MODE_SIMPLE));
+      els.advancedModeButton.addEventListener("click", () => setPlayMode(PLAY_MODE_ADVANCED));
+      els.newRoundButton.addEventListener("click", generateRound);
+      els.backToMapButton.addEventListener("click", showMapSelect);
+      els.resetButton.addEventListener("click", armReset);
+      els.nextStationButton.addEventListener("click", goNextStation);
+      els.postcardToggleButton.addEventListener("click", () => {
+        els.postcardPanel.classList.toggle("open");
+      });
+      els.modalNextButton.addEventListener("click", goNextStation);
+      els.modalCloseButton.addEventListener("click", () => {
+        els.stationModal.classList.remove("open");
+      });
+      els.startJourneyButton.addEventListener("click", startJourney);
+
+      renderAll();
+      generateRound();
+
+      window.__fatShibaTest = {
+        getBoard: () => [...board],
+        getTargets: () => roundTargets.map((target) => ({
+          id: target.word.id,
+          reading: target.word.normalizedReading,
+          zh: target.word.zh,
+          path: [...target.path]
+        })),
+        getSave: () => JSON.parse(JSON.stringify(save)),
+        hasWord: (reading) => WORDS_BY_READING.has(reading),
+        getRootSave: () => JSON.parse(JSON.stringify(rootSave)),
+        getRegion: () => ({ id: currentRegion().id, level: currentLevel(), boardSize: currentBoardSize(), wordsPerStation: currentWordsPerStation() }),
+        switchRegion,
+        currentPlayableWordLevels: () => [...new Set(currentPlayableWords().map((word) => word.level))],
+        currentTargetLevels: () => [...new Set(roundTargets.map((target) => target.word.level))],
+        wordCountByLevel: () => LEVEL_ORDER.reduce((counts, level) => {
+          counts[level] = WORDS_BY_LEVEL[level].length;
+          return counts;
+        }, {}),
+        noLongDashWords: () => ALL_WORDS.every((word) => !word.normalizedReading.includes("ー")),
+        targetCount: () => roundTargets.length,
+        stationCount: () => clampStationCount(currentStation().id),
+        playMode: () => rootSave.playMode,
+        clueText: () => els.clueText.textContent,
+        clueHidden: () => els.cluePanel.classList.contains("hidden"),
+        hintsLeft: () => hintsLeft,
+        postcardVisuals: () => currentStations().map((station) => postcardVisual(station))
+      };
+    })();
+  </script>
+</body>
+</html>
