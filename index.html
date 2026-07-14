@@ -520,10 +520,11 @@
     }
 
     .kana-cell.selected {
-      color: #fff;
-      background: var(--teal);
-      border-color: var(--teal-dark);
-      box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+      color: transparent;
+      background: rgba(255, 255, 255, 0.42);
+      border-color: rgba(163, 129, 88, 0.36);
+      box-shadow: none;
+      pointer-events: none;
     }
 
     .kana-cell.hint {
@@ -1025,7 +1026,7 @@
     </section>
 
     <section class="status-panel" id="statusPanel" aria-live="polite" hidden>
-      <p class="message" id="message">連相鄰格子拼出當前等級單字，低階複習詞會跳卡但不計過站。</p>
+      <p class="message" id="message">點選棋盤上的假名拼出當前等級單字，低階複習詞會跳卡但不計過站。</p>
       <div class="word-card" id="wordCard">
         <strong class="word-main" id="wordMain"></strong>
         <span class="word-zh" id="wordZh"></span>
@@ -1732,6 +1733,7 @@
       let hintsLeft = HINTS_PER_ROUND;
       let isPointerSelecting = false;
       let wordCardTimer = 0;
+      let roundAdvanceTimer = 0;
       let resetArmed = false;
       let resetTimer = 0;
       let appView = APP_VIEW_MAP;
@@ -2051,6 +2053,8 @@
       }
 
       function generateRound() {
+        window.clearTimeout(roundAdvanceTimer);
+        roundAdvanceTimer = 0;
         const size = currentBoardSize();
         const targetCandidates = chooseTargets();
         let best = null;
@@ -2313,13 +2317,21 @@
         els.currentSpell.textContent = spell || "請連假名";
         for (const cell of els.board.querySelectorAll(".kana-cell")) {
           const index = Number(cell.dataset.index);
-          cell.classList.toggle("selected", selectedCells.includes(index));
+          const isSelected = selectedCells.includes(index);
+          cell.classList.toggle("selected", isSelected);
+          cell.textContent = isSelected ? "" : board[index];
+          cell.setAttribute("aria-label", isSelected ? `第 ${index + 1} 格已使用` : `第 ${index + 1} 格 ${board[index]}`);
+          cell.tabIndex = isSelected ? -1 : 0;
         }
       }
 
       function updateTargetCount() {
-        const left = roundTargets.filter((target) => !roundFoundIds.has(target.word.id)).length;
+        const left = roundTargetsLeft();
         els.targetCount.textContent = `本盤還藏 ${left} 個目標詞`;
+      }
+
+      function roundTargetsLeft() {
+        return roundTargets.filter((target) => !roundFoundIds.has(target.word.id)).length;
       }
 
       function currentClueTarget() {
@@ -2345,26 +2357,12 @@
         els.message.textContent = text;
       }
 
-      function isAdjacent(a, b) {
-        const size = currentBoardSize();
-        const ar = Math.floor(a / size);
-        const ac = a % size;
-        const br = Math.floor(b / size);
-        const bc = b % size;
-        return Math.max(Math.abs(ar - br), Math.abs(ac - bc)) === 1;
-      }
-
       function selectCell(index) {
         if (selectedCells.includes(index)) {
           if (selectedCells[selectedCells.length - 1] === index) {
             selectedCells.pop();
             updateSpell();
           }
-          return;
-        }
-        const last = selectedCells[selectedCells.length - 1];
-        if (last !== undefined && !isAdjacent(last, index)) {
-          setMessage("只能連上下左右或斜角相鄰的格子。");
           return;
         }
         selectedCells.push(index);
@@ -2399,6 +2397,18 @@
         wordCardTimer = window.setTimeout(() => {
           els.wordCard.classList.remove("show");
         }, 2000);
+      }
+
+      function scheduleNextRoundIfNeeded(station) {
+        if (clampStationCount(station.id) >= currentWordsPerStation()) return false;
+        if (roundTargetsLeft() > 0) return false;
+
+        window.clearTimeout(roundAdvanceTimer);
+        setMessage("本盤保底詞找完了，幫你換下一盤。");
+        roundAdvanceTimer = window.setTimeout(() => {
+          generateRound();
+        }, 900);
+        return true;
       }
 
       function submitSpell() {
@@ -2442,10 +2452,15 @@
 
         if (clampStationCount(station.id) >= currentWordsPerStation()) {
           completeStation(station);
+          return;
         }
+
+        scheduleNextRoundIfNeeded(station);
       }
 
       function completeStation(station) {
+        window.clearTimeout(roundAdvanceTimer);
+        roundAdvanceTimer = 0;
         if (!save.completedStationIds.includes(station.id)) save.completedStationIds.push(station.id);
         if (!save.collectedPostcardIds.includes(station.id)) save.collectedPostcardIds.push(station.id);
         persistSave();
