@@ -49,6 +49,33 @@
         radial-gradient(circle at 10% 0%, rgba(45, 155, 159, 0.14), transparent 30%),
         radial-gradient(circle at 88% 10%, rgba(233, 111, 87, 0.12), transparent 28%),
         linear-gradient(180deg, #f8fbf4 0%, var(--paper) 44%, #f5efe8 100%);
+      background-attachment: fixed;
+    }
+
+    body.game-view {
+      background:
+        linear-gradient(90deg, rgba(255, 248, 239, 0.02), rgba(255, 248, 239, 0.18) 47%, rgba(255, 248, 239, 0.03)),
+        linear-gradient(180deg, rgba(255, 253, 248, 0.02), rgba(255, 248, 239, 0.18) 66%, rgba(255, 248, 239, 0.08)),
+        var(--game-background-image, none),
+        radial-gradient(circle at 10% 0%, rgba(45, 155, 159, 0.14), transparent 30%),
+        radial-gradient(circle at 88% 10%, rgba(233, 111, 87, 0.12), transparent 28%),
+        linear-gradient(180deg, #f8fbf4 0%, var(--paper) 44%, #f5efe8 100%);
+      background-position:
+        center,
+        center,
+        var(--game-background-position, center),
+        center,
+        center,
+        center;
+      background-size:
+        cover,
+        cover,
+        cover,
+        cover,
+        cover,
+        cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
 
     body::before {
@@ -58,11 +85,10 @@
       pointer-events: none;
       opacity: 0;
       background:
-        linear-gradient(180deg, rgba(255, 253, 248, 0.12), rgba(255, 248, 239, 0.34)),
-        linear-gradient(90deg, rgba(255, 248, 239, 0.18), rgba(255, 248, 239, 0.04) 42%, rgba(255, 248, 239, 0.2)),
-        var(--game-background-image, none);
-      background-position: center, center, var(--game-background-position, center);
-      background-size: cover, cover, cover;
+        radial-gradient(circle at 16% 16%, rgba(255, 253, 248, 0.1), transparent 24%),
+        radial-gradient(circle at 72% 8%, rgba(255, 253, 248, 0.08), transparent 28%);
+      background-position: center;
+      background-size: cover;
       background-repeat: no-repeat;
       transition: opacity 0.22s ease;
       z-index: 0;
@@ -315,9 +341,9 @@
     body.game-view .station-panel,
     body.game-view .play-panel,
     body.game-view .status-panel {
-      background: rgba(255, 253, 248, 0.78);
-      -webkit-backdrop-filter: blur(5px);
-      backdrop-filter: blur(5px);
+      background: rgba(255, 253, 248, 0.68);
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(2px);
     }
 
     .station-head {
@@ -3034,7 +3060,7 @@
         const webp = background.webp || optimizedImageSrc(png);
         document.body.style.setProperty(
           "--game-background-image",
-          `image-set(url("${webp}") type("image/webp"), url("${png}") type("image/png"))`
+          `url("${webp || png}")`
         );
         document.body.style.setProperty("--game-background-position", background.position || "center");
       }
