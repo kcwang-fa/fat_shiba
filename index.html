@@ -1703,6 +1703,7 @@
       const MAX_ROUND_TARGETS = 5;
       const WORD_CARD_VISIBLE_MS = 5000;
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
+      const BARK_AUDIO_SRC = "assets/audio/dog-bark-179915.mp3";
       const APP_VIEW_MAP = "map";
       const APP_VIEW_GAME = "game";
       const FIRST_REGION_ID = "n5_okinawa";
@@ -4355,6 +4356,7 @@
       let musicGain = null;
       let audioEnabled = loadAudioPreference();
       let barkNoiseBuffer = null;
+      let barkAudioElement = null;
       let okinawaMusicTimer = 0;
       let okinawaMusicStep = 0;
       let okinawaMusicNextTime = 0;
@@ -4405,6 +4407,7 @@
       function unlockAudio() {
         const context = ensureAudioGraph();
         if (!context) return Promise.resolve(null);
+        ensureBarkAudio();
         const afterResume = () => {
           rampGain(masterGain, audioEnabled ? 0.78 : 0);
           updateAudioToggle();
@@ -4415,6 +4418,14 @@
           return context.resume().then(afterResume).catch(afterResume);
         }
         return Promise.resolve(afterResume());
+      }
+
+      function ensureBarkAudio() {
+        if (barkAudioElement) return barkAudioElement;
+        barkAudioElement = new Audio(BARK_AUDIO_SRC);
+        barkAudioElement.preload = "auto";
+        barkAudioElement.volume = 0.9;
+        return barkAudioElement;
       }
 
       function updateAudioToggle() {
@@ -4519,7 +4530,15 @@
 
       function playBark() {
         if (!audioEnabled) return;
-        unlockAudio().then(() => scheduleBarkSound());
+        unlockAudio().then(() => {
+          const bark = ensureBarkAudio();
+          bark.pause();
+          bark.currentTime = 0;
+          const playPromise = bark.play();
+          if (playPromise && typeof playPromise.catch === "function") {
+            playPromise.catch(() => scheduleBarkSound());
+          }
+        });
       }
 
       function schedulePluck(frequency, time, options = {}) {
