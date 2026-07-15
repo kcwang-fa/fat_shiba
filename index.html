@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>呷胖環遊日本 Phase 2</title>
   <link rel="preload" as="image" href="assets/home-journey.webp" type="image/webp">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Noto+Serif+TC:wght@500;700;900&family=Zen+Maru+Gothic:wght@500;700;900&display=swap" rel="stylesheet">
   <style>
     :root {
       color-scheme: light;
@@ -26,10 +23,10 @@
       --shadow: 0 16px 36px rgba(79, 55, 31, 0.14);
       --radius: 8px;
       --tap: 56px;
-      --font-ui: "Zen Maru Gothic", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
-      --font-display: "Klee One", "Noto Serif TC", "PingFang TC", serif;
-      --font-travel: "Noto Serif TC", "Klee One", "PingFang TC", serif;
-      --font-kana: "Klee One", "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
+      --font-ui: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+      --font-display: "Hiragino Mincho ProN", "Songti TC", "Noto Serif TC", "PingFang TC", serif;
+      --font-travel: "Hiragino Mincho ProN", "Songti TC", "Noto Serif TC", "PingFang TC", serif;
+      --font-kana: "Hiragino Maru Gothic ProN", "Yu Gothic", "PingFang TC", system-ui, sans-serif;
       font-family: var(--font-ui);
     }
 
@@ -293,6 +290,12 @@
       color: var(--ink);
       background: rgba(255, 255, 255, 0.72);
       border: 1px solid var(--line);
+    }
+
+    .icon-button.audio-off {
+      color: var(--muted);
+      background: rgba(246, 239, 228, 0.72);
+      text-decoration: line-through;
     }
 
     .primary-button {
@@ -1568,6 +1571,7 @@
       </div>
       <div class="topbar-actions">
         <button class="ghost-button" type="button" id="backToMapButton" hidden>返回</button>
+        <button class="icon-button" type="button" id="audioToggleButton" title="音效開關" aria-label="關閉音效">♪</button>
         <button class="icon-button" type="button" id="newRoundButton" title="換一盤" aria-label="換一盤">↻</button>
       </div>
     </header>
@@ -1682,6 +1686,7 @@
 
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
+      const AUDIO_SAVE_KEY = "fatShiba.phase2.audio.v1";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
       const OPEN_LEVELS = new Set(["N5"]);
       const LEVEL_SETTINGS = {
@@ -1694,9 +1699,16 @@
       const HINTS_PER_ROUND = 3;
       const REVIEW_TARGETS_PER_ROUND = 1;
       const REVIEW_WORD_LIMIT = 30;
+      const MIN_ROUND_TARGETS = 3;
+      const MAX_ROUND_TARGETS = 5;
+      const WORD_CARD_VISIBLE_MS = 5000;
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
       const APP_VIEW_MAP = "map";
       const APP_VIEW_GAME = "game";
+      const FIRST_STATION_ID = "okinawa_01";
+      const OKINAWA_MUSIC_STEPS_PER_BAR = 8;
+      const OKINAWA_MUSIC_STEP_SECONDS = 0.33;
+      const OKINAWA_MUSIC_LOOKAHEAD_SECONDS = 0.9;
       const KANA_SMALL = new Set(["ゃ", "ゅ", "ょ", "っ"]);
       const KANA_VOICED = /[がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ]/;
       const POSTCARD_SHIBA_IMAGES = Array.from({ length: 10 }, (_, index) => `assets/postcard-shiba/shiba-postcard-${String(index + 1).padStart(2, "0")}.png`);
@@ -1898,7 +1910,27 @@
             { id: "kanto_chubu_07", placeZh: "金澤兼六園", placeJa: "兼六園", foodZh: "金箔冰淇淋", foodJa: "金箔ソフト", postcard: "assets/postcard_kanto_chubu_07.jpg" },
             { id: "kanto_chubu_08", placeZh: "白川鄉", placeJa: "白川郷", foodZh: "飛驒牛串", foodJa: "飛騨牛串", postcard: "assets/postcard_kanto_chubu_08.jpg" },
             { id: "kanto_chubu_09", placeZh: "名古屋城", placeJa: "名古屋城", foodZh: "味噌炸豬排", foodJa: "味噌カツ", postcard: "assets/postcard_kanto_chubu_09.jpg" },
-            { id: "kanto_chubu_10", placeZh: "伊勢神宮", placeJa: "伊勢神宮", foodZh: "赤福餅", foodJa: "赤福餅", postcard: "assets/postcard_kanto_chubu_10.jpg" }
+            { id: "kanto_chubu_10", placeZh: "伊勢神宮", placeJa: "伊勢神宮", foodZh: "赤福餅", foodJa: "赤福餅", postcard: "assets/postcard_kanto_chubu_10.jpg" },
+            { id: "kanto_chubu_11", placeZh: "橫濱港未來", placeJa: "みなとみらい", foodZh: "崎陽軒燒賣", foodJa: "崎陽軒シウマイ", postcard: "assets/postcard_kanto_chubu_11.jpg" },
+            { id: "kanto_chubu_12", placeZh: "日光東照宮", placeJa: "日光東照宮", foodZh: "湯波料理", foodJa: "湯波料理", postcard: "assets/postcard_kanto_chubu_12.jpg" },
+            { id: "kanto_chubu_13", placeZh: "川越藏造街", placeJa: "川越蔵造りの町並み", foodZh: "川越地瓜甜點", foodJa: "川越いも菓子", postcard: "assets/postcard_kanto_chubu_13.jpg" },
+            { id: "kanto_chubu_14", placeZh: "高尾山", placeJa: "高尾山", foodZh: "山藥蕎麥麵", foodJa: "とろろそば", postcard: "assets/postcard_kanto_chubu_14.jpg" },
+            { id: "kanto_chubu_15", placeZh: "富岡製絲場", placeJa: "富岡製糸場", foodZh: "下仁田蔥料理", foodJa: "下仁田ねぎ料理", postcard: "assets/postcard_kanto_chubu_15.jpg" },
+            { id: "kanto_chubu_16", placeZh: "草津溫泉", placeJa: "草津温泉", foodZh: "溫泉饅頭", foodJa: "温泉まんじゅう", postcard: "assets/postcard_kanto_chubu_16.jpg" },
+            { id: "kanto_chubu_17", placeZh: "輕井澤", placeJa: "軽井沢", foodZh: "果醬吐司", foodJa: "ジャムトースト", postcard: "assets/postcard_kanto_chubu_17.jpg" },
+            { id: "kanto_chubu_18", placeZh: "上高地", placeJa: "上高地", foodZh: "信州蕎麥麵", foodJa: "信州そば", postcard: "assets/postcard_kanto_chubu_18.jpg" },
+            { id: "kanto_chubu_19", placeZh: "諏訪湖", placeJa: "諏訪湖", foodZh: "鰻魚飯", foodJa: "うな重", postcard: "assets/postcard_kanto_chubu_19.jpg" },
+            { id: "kanto_chubu_20", placeZh: "善光寺", placeJa: "善光寺", foodZh: "御燒", foodJa: "おやき", postcard: "assets/postcard_kanto_chubu_20.jpg" },
+            { id: "kanto_chubu_21", placeZh: "新潟萬代橋", placeJa: "萬代橋", foodZh: "新潟海鮮丼", foodJa: "新潟海鮮丼", postcard: "assets/postcard_kanto_chubu_21.jpg" },
+            { id: "kanto_chubu_22", placeZh: "佐渡島", placeJa: "佐渡島", foodZh: "佐渡鰤魚丼", foodJa: "佐渡ぶり丼", postcard: "assets/postcard_kanto_chubu_22.jpg" },
+            { id: "kanto_chubu_23", placeZh: "立山黑部", placeJa: "立山黒部", foodZh: "富山黑拉麵", foodJa: "富山ブラックラーメン", postcard: "assets/postcard_kanto_chubu_23.jpg" },
+            { id: "kanto_chubu_24", placeZh: "高岡瑞龍寺", placeJa: "瑞龍寺", foodZh: "高岡可樂餅", foodJa: "高岡コロッケ", postcard: "assets/postcard_kanto_chubu_24.jpg" },
+            { id: "kanto_chubu_25", placeZh: "福井東尋坊", placeJa: "東尋坊", foodZh: "越前蟹", foodJa: "越前がに", postcard: "assets/postcard_kanto_chubu_25.jpg" },
+            { id: "kanto_chubu_26", placeZh: "越前大野城", placeJa: "越前大野城", foodZh: "越前蕎麥麵", foodJa: "越前おろしそば", postcard: "assets/postcard_kanto_chubu_26.jpg" },
+            { id: "kanto_chubu_27", placeZh: "高山古街", placeJa: "高山古い町並", foodZh: "飛驒牛串", foodJa: "飛騨牛串", postcard: "assets/postcard_kanto_chubu_27.jpg" },
+            { id: "kanto_chubu_28", placeZh: "下呂溫泉", placeJa: "下呂温泉", foodZh: "飛驒牛握壽司", foodJa: "飛騨牛握り", postcard: "assets/postcard_kanto_chubu_28.jpg" },
+            { id: "kanto_chubu_29", placeZh: "三保松原", placeJa: "三保松原", foodZh: "靜岡關東煮", foodJa: "静岡おでん", postcard: "assets/postcard_kanto_chubu_29.jpg" },
+            { id: "kanto_chubu_30", placeZh: "熱田神宮", placeJa: "熱田神宮", foodZh: "鰻魚飯三吃", foodJa: "ひつまぶし", postcard: "assets/postcard_kanto_chubu_30.jpg" }
           ]
         },
         {
@@ -1921,7 +1953,32 @@
             { id: "tohoku_hokkaido_07", placeZh: "札幌大通公園", placeJa: "大通公園", foodZh: "湯咖哩", foodJa: "スープカレー", postcard: "assets/postcard_tohoku_hokkaido_07.jpg" },
             { id: "tohoku_hokkaido_08", placeZh: "小樽運河", placeJa: "小樽運河", foodZh: "起司蛋糕", foodJa: "チーズケーキ", postcard: "assets/postcard_tohoku_hokkaido_08.jpg" },
             { id: "tohoku_hokkaido_09", placeZh: "旭山動物園", placeJa: "旭山動物園", foodZh: "味噌拉麵", foodJa: "味噌ラーメン", postcard: "assets/postcard_tohoku_hokkaido_09.jpg" },
-            { id: "tohoku_hokkaido_10", placeZh: "知床五湖", placeJa: "知床五湖", foodZh: "鮭魚親子丼", foodJa: "鮭親子丼", postcard: "assets/postcard_tohoku_hokkaido_10.jpg" }
+            { id: "tohoku_hokkaido_10", placeZh: "知床五湖", placeJa: "知床五湖", foodZh: "鮭魚親子丼", foodJa: "鮭親子丼", postcard: "assets/postcard_tohoku_hokkaido_10.jpg" },
+            { id: "tohoku_hokkaido_11", placeZh: "會津若松鶴城", placeJa: "会津若松鶴ヶ城", foodZh: "醬汁豬排丼", foodJa: "ソースカツ丼", postcard: "assets/postcard_tohoku_hokkaido_11.jpg" },
+            { id: "tohoku_hokkaido_12", placeZh: "大內宿", placeJa: "大内宿", foodZh: "蔥蕎麥麵", foodJa: "ねぎそば", postcard: "assets/postcard_tohoku_hokkaido_12.jpg" },
+            { id: "tohoku_hokkaido_13", placeZh: "五色沼", placeJa: "五色沼", foodZh: "喜多方拉麵", foodJa: "喜多方ラーメン", postcard: "assets/postcard_tohoku_hokkaido_13.jpg" },
+            { id: "tohoku_hokkaido_14", placeZh: "中尊寺金色堂", placeJa: "中尊寺金色堂", foodZh: "平泉麻糬料理", foodJa: "平泉もち料理", postcard: "assets/postcard_tohoku_hokkaido_14.jpg" },
+            { id: "tohoku_hokkaido_15", placeZh: "盛岡城跡公園", placeJa: "盛岡城跡公園", foodZh: "碗子蕎麥麵", foodJa: "わんこそば", postcard: "assets/postcard_tohoku_hokkaido_15.jpg" },
+            { id: "tohoku_hokkaido_16", placeZh: "八幡平", placeJa: "八幡平", foodZh: "盛岡冷麵", foodJa: "盛岡冷麺", postcard: "assets/postcard_tohoku_hokkaido_16.jpg" },
+            { id: "tohoku_hokkaido_17", placeZh: "乳頭溫泉鄉", placeJa: "乳頭温泉郷", foodZh: "稻庭烏龍麵", foodJa: "稲庭うどん", postcard: "assets/postcard_tohoku_hokkaido_17.jpg" },
+            { id: "tohoku_hokkaido_18", placeZh: "男鹿半島", placeJa: "男鹿半島", foodZh: "魚醬鍋", foodJa: "しょっつる鍋", postcard: "assets/postcard_tohoku_hokkaido_18.jpg" },
+            { id: "tohoku_hokkaido_19", placeZh: "弘前城", placeJa: "弘前城", foodZh: "津輕蕎麥麵", foodJa: "津軽そば", postcard: "assets/postcard_tohoku_hokkaido_19.jpg" },
+            { id: "tohoku_hokkaido_20", placeZh: "奧入瀨溪流", placeJa: "奥入瀬渓流", foodZh: "仙貝鍋", foodJa: "せんべい汁", postcard: "assets/postcard_tohoku_hokkaido_20.jpg" },
+            { id: "tohoku_hokkaido_21", placeZh: "十和田湖", placeJa: "十和田湖", foodZh: "十和田玫瑰燒", foodJa: "十和田バラ焼き", postcard: "assets/postcard_tohoku_hokkaido_21.jpg" },
+            { id: "tohoku_hokkaido_22", placeZh: "青森灣大橋", placeJa: "青森ベイブリッジ", foodZh: "海鮮蓋飯", foodJa: "のっけ丼", postcard: "assets/postcard_tohoku_hokkaido_22.jpg" },
+            { id: "tohoku_hokkaido_23", placeZh: "登別地獄谷", placeJa: "登別地獄谷", foodZh: "閻魔炒麵", foodJa: "閻魔やきそば", postcard: "assets/postcard_tohoku_hokkaido_23.jpg" },
+            { id: "tohoku_hokkaido_24", placeZh: "洞爺湖", placeJa: "洞爺湖", foodZh: "若狹芋", foodJa: "わかさいも", postcard: "assets/postcard_tohoku_hokkaido_24.jpg" },
+            { id: "tohoku_hokkaido_25", placeZh: "富良野薰衣草田", placeJa: "富良野ラベンダー畑", foodZh: "富良野蛋包咖哩", foodJa: "富良野オムカレー", postcard: "assets/postcard_tohoku_hokkaido_25.jpg" },
+            { id: "tohoku_hokkaido_26", placeZh: "美瑛青池", placeJa: "白金青い池", foodZh: "美瑛玉米濃湯", foodJa: "美瑛コーンスープ", postcard: "assets/postcard_tohoku_hokkaido_26.jpg" },
+            { id: "tohoku_hokkaido_27", placeZh: "旭川拉麵村", placeJa: "あさひかわラーメン村", foodZh: "旭川醬油拉麵", foodJa: "旭川醤油ラーメン", postcard: "assets/postcard_tohoku_hokkaido_27.jpg" },
+            { id: "tohoku_hokkaido_28", placeZh: "層雲峽", placeJa: "層雲峡", foodZh: "大雪地啤酒燉肉", foodJa: "大雪地ビール煮込み", postcard: "assets/postcard_tohoku_hokkaido_28.jpg" },
+            { id: "tohoku_hokkaido_29", placeZh: "宗谷岬", placeJa: "宗谷岬", foodZh: "宗谷黑牛丼", foodJa: "宗谷黒牛丼", postcard: "assets/postcard_tohoku_hokkaido_29.jpg" },
+            { id: "tohoku_hokkaido_30", placeZh: "利尻島", placeJa: "利尻島", foodZh: "利尻昆布拉麵", foodJa: "利尻昆布ラーメン", postcard: "assets/postcard_tohoku_hokkaido_30.jpg" },
+            { id: "tohoku_hokkaido_31", placeZh: "釧路濕原", placeJa: "釧路湿原", foodZh: "爐端燒", foodJa: "炉端焼き", postcard: "assets/postcard_tohoku_hokkaido_31.jpg" },
+            { id: "tohoku_hokkaido_32", placeZh: "阿寒湖", placeJa: "阿寒湖", foodZh: "毬藻羊羹", foodJa: "まりも羊羹", postcard: "assets/postcard_tohoku_hokkaido_32.jpg" },
+            { id: "tohoku_hokkaido_33", placeZh: "帶廣幸福站", placeJa: "幸福駅", foodZh: "豬肉丼", foodJa: "豚丼", postcard: "assets/postcard_tohoku_hokkaido_33.jpg" },
+            { id: "tohoku_hokkaido_34", placeZh: "網走流冰館", placeJa: "オホーツク流氷館", foodZh: "網走炸雞丼", foodJa: "網走ザンギ丼", postcard: "assets/postcard_tohoku_hokkaido_34.jpg" },
+            { id: "tohoku_hokkaido_35", placeZh: "摩周湖", placeJa: "摩周湖", foodZh: "摩周蕎麥麵", foodJa: "摩周そば", postcard: "assets/postcard_tohoku_hokkaido_35.jpg" }
           ]
         }
       ];
@@ -2681,6 +2738,1259 @@
         ["n5_0750", "あいだ", "間", "あいだ", "之間", "kanji"]
       ];
 
+      function toHiraganaKana(char) {
+        const code = char.charCodeAt(0);
+        if (code >= 0x30A1 && code <= 0x30F6) return String.fromCharCode(code - 0x60);
+        return char;
+      }
+
+      function longVowelKana(previousKana) {
+        const vowel = kanaVowel(previousKana);
+        return { a: "あ", i: "い", u: "う", e: "え", o: "お" }[vowel] || "";
+      }
+
+      function normalizeKanaReading(value) {
+        const text = String(value || "").trim().normalize("NFKC");
+        const output = [];
+
+        for (const rawChar of Array.from(text)) {
+          const kana = toHiraganaKana(rawChar);
+          if (kana === "ー") {
+            const longKana = longVowelKana(output[output.length - 1]);
+            if (longKana) output.push(longKana);
+            continue;
+          }
+          output.push(kana);
+        }
+
+        return output.join("");
+      }
+
+      function buildLevelWordRows(prefix, startNumber, rows, excludedReadings = new Set(), limit = Infinity) {
+        const seenReadings = new Set(excludedReadings);
+        return rows.trim().split("\n").map((row) => row.trim()).filter(Boolean).reduce((list, row) => {
+          if (list.length >= limit) return list;
+          const parts = row.split("|").map((part) => part.trim());
+          if (parts.length !== 5) {
+            throw new Error(`Invalid ${prefix} word row: ${row}`);
+          }
+          const [reading, writing, declaredNormalizedReading, zh, script] = parts;
+          const normalizedReading = normalizeKanaReading(reading || declaredNormalizedReading);
+          if (seenReadings.has(normalizedReading)) return list;
+          seenReadings.add(normalizedReading);
+          list.push([
+            `${prefix}_${String(startNumber + list.length).padStart(4, "0")}`,
+            reading,
+            writing,
+            normalizedReading,
+            zh,
+            script
+          ]);
+          return list;
+        }, []);
+      }
+
+      const N4_BASE_READINGS = new Set([
+        "あいさつ", "あんない", "いけん", "いそぐ", "うけつけ", "うつす", "えらぶ", "おくれる", "おどる", "おもいだす",
+        "かいぎ", "かならず", "かんがえる", "きかい", "きけん", "きそく", "きぶん", "きめる", "きゅうこう", "くらべる",
+        "けいけん", "けしき", "けっこう", "こうじょう", "こしょう", "さがす", "さげる", "さわぐ", "したく", "しっぱい",
+        "しゅっぱつ", "じゅんび", "しょうたい", "しらせる", "しんせつ", "すてる", "せつめい", "そうだん", "そだてる", "たいせつ",
+        "たしか", "たずねる", "つごう", "てつだう", "とくべつ", "なおす", "ならべる", "にゅうがく", "はこぶ", "はずかしい",
+        "ひつよう", "ふくざつ", "ふつう", "へんじ", "まにあう", "むり", "やくそく", "よてい", "りゆう", "れんらく"
+      ].map(normalizeKanaReading));
+
+      const N5_WORD_READINGS = new Set(RAW_WORDS.map((row) => normalizeKanaReading(row[1] || row[3])));
+
+      const N4_EXTRA_WORD_ROWS = buildLevelWordRows("n4", 61, `
+あう|合う|あう|合適、相合|kanji
+あかんぼう|赤ん坊|あかんぼう|嬰兒|kanji
+あく|空く|あく|空、空出|kanji
+あげる|上げる|あげる|提高、舉起|kanji
+あさい|浅い|あさい|淺的|kanji
+あじ|味|あじ|味道|kanji
+あつまる|集まる|あつまる|集合|kanji
+あつめる|集める|あつめる|收集|kanji
+あやまる|謝る|あやまる|道歉|kanji
+あんしん|安心|あんしん|安心|kanji
+あんぜん|安全|あんぜん|安全|kanji
+いがい|以外|いがい|以外|kanji
+いがく|医学|いがく|醫學|kanji
+いきもの|生き物|いきもの|生物|kanji
+いじめる|いじめる|いじめる|欺負|hiragana
+いそがしい|忙しい|いそがしい|忙碌的|kanji
+いただく|頂く|いただく|得到、吃喝的謙讓語|kanji
+いちど|一度|いちど|一次、一回|kanji
+いっぱい|いっぱい|いっぱい|滿滿、很多|hiragana
+いと|糸|いと|線、絲|kanji
+いない|以内|いない|以內|kanji
+いなか|田舎|いなか|鄉下|kanji
+いのる|祈る|いのる|祈禱|kanji
+いらっしゃる|いらっしゃる|いらっしゃる|在、來、去的尊敬語|hiragana
+うえる|植える|うえる|種植|kanji
+うかがう|伺う|うかがう|拜訪、請教|kanji
+うける|受ける|うける|接受、參加考試|kanji
+うごく|動く|うごく|移動、運作|kanji
+うそ|嘘|うそ|謊言|kanji
+うちゅう|宇宙|うちゅう|宇宙|kanji
+うつくしい|美しい|うつくしい|美麗的|kanji
+うつる|移る|うつる|移動、轉移|kanji
+うで|腕|うで|手臂、本事|kanji
+うら|裏|うら|背面、裡面|kanji
+うりば|売り場|うりば|賣場、櫃位|kanji
+うんてん|運転|うんてん|駕駛|kanji
+えだ|枝|えだ|樹枝|kanji
+えんりょ|遠慮|えんりょ|客氣、顧慮|kanji
+おいでになる|おいでになる|おいでになる|來、去、在的尊敬語|hiragana
+おかげ|お陰|おかげ|多虧、託福|kanji
+おく|億|おく|億|kanji
+おこす|起こす|おこす|叫醒、引起|kanji
+おこる|怒る|おこる|生氣|kanji
+おしいれ|押し入れ|おしいれ|日式壁櫥|kanji
+おたく|お宅|おたく|府上、您家|kanji
+おちる|落ちる|おちる|掉落、落第|kanji
+おっしゃる|おっしゃる|おっしゃる|說的尊敬語|hiragana
+おっと|夫|おっと|丈夫|kanji
+おつり|お釣り|おつり|找零|kanji
+おとす|落とす|おとす|使掉落、弄丟|kanji
+おどろく|驚く|おどろく|驚訝|kanji
+おまつり|お祭り|おまつり|祭典|kanji
+おみまい|お見舞い|おみまい|探病、慰問|kanji
+おもて|表|おもて|表面、正面|kanji
+おや|親|おや|父母、雙親|kanji
+おる|折る|おる|折、彎折|kanji
+おれる|折れる|おれる|折斷|kanji
+おわり|終わり|おわり|結束|kanji
+かいじょう|会場|かいじょう|會場|kanji
+かいわ|会話|かいわ|會話|kanji
+かえる|変える|かえる|改變|kanji
+かがく|科学|かがく|科學|kanji
+かがみ|鏡|かがみ|鏡子|kanji
+かける|掛ける|かける|掛上、打電話|kanji
+かざる|飾る|かざる|裝飾|kanji
+かじ|火事|かじ|火災|kanji
+かたづける|片付ける|かたづける|整理、收拾|kanji
+かつ|勝つ|かつ|勝利|kanji
+かない|家内|かない|妻子、內人|kanji
+かべ|壁|かべ|牆壁|kanji
+かまう|構う|かまう|在意、照顧|kanji
+かみさま|神様|かみさま|神明|kanji
+かむ|噛む|かむ|咬、咀嚼|kanji
+かよう|通う|かよう|往返、上學|kanji
+かわく|乾く|かわく|乾掉|kanji
+かわり|代わり|かわり|代替、替換|kanji
+かわる|変わる|かわる|改變|kanji
+かんけい|関係|かんけい|關係|kanji
+かんごし|看護師|かんごし|護理師|kanji
+かんたん|簡単|かんたん|簡單|kanji
+がくぶ|学部|がくぶ|學院、學部|kanji
+きえる|消える|きえる|消失|kanji
+きこえる|聞こえる|きこえる|聽得見|kanji
+きしゃ|汽車|きしゃ|火車|kanji
+きせつ|季節|きせつ|季節|kanji
+きぬ|絹|きぬ|絲綢|kanji
+きびしい|厳しい|きびしい|嚴格、嚴峻|kanji
+きまる|決まる|きまる|決定、確定|kanji
+きみ|君|きみ|你|kanji
+きゅう|急|きゅう|突然、緊急|kanji
+きゅうりょう|給料|きゅうりょう|薪水|kanji
+きょういく|教育|きょういく|教育|kanji
+きょうかい|教会|きょうかい|教會|kanji
+きょうそう|競争|きょうそう|競爭|kanji
+きょうみ|興味|きょうみ|興趣|kanji
+きんじょ|近所|きんじょ|附近、鄰近|kanji
+ぐあい|具合|ぐあい|狀況、身體狀況|kanji
+けいざい|経済|けいざい|經濟|kanji
+けが|怪我|けが|受傷|kanji
+けんか|喧嘩|けんか|吵架|kanji
+けんきゅう|研究|けんきゅう|研究|kanji
+けんぶつ|見物|けんぶつ|參觀、觀光|kanji
+こうこう|高校|こうこう|高中|kanji
+こうつう|交通|こうつう|交通|kanji
+こうむいん|公務員|こうむいん|公務員|kanji
+こくみん|国民|こくみん|國民|kanji
+こしょう|胡椒|こしょう|胡椒|kanji
+こたえる|答える|こたえる|回答|kanji
+ごうかく|合格|ごうかく|合格|kanji
+ごぞんじ|ご存じ|ごぞんじ|知道的尊敬語|kanji
+ごちそう|ご馳走|ごちそう|盛宴、款待|kanji
+さかん|盛ん|さかん|興盛、熱烈|kanji
+さそう|誘う|さそう|邀請|kanji
+さっき|さっき|さっき|剛才|hiragana
+さびしい|寂しい|さびしい|寂寞的|kanji
+さめる|冷める|さめる|變冷、冷卻|kanji
+さらいげつ|再来月|さらいげつ|下下個月|kanji
+さらいしゅう|再来週|さらいしゅう|下下週|kanji
+さらいねん|再来年|さらいねん|後年|kanji
+しかる|叱る|しかる|責罵|kanji
+しけん|試験|しけん|考試|kanji
+しなもの|品物|しなもの|商品、物品|kanji
+しばらく|しばらく|しばらく|一陣子|hiragana
+しまう|しまう|しまう|收起、完了|hiragana
+しみん|市民|しみん|市民|kanji
+しゃかい|社会|しゃかい|社會|kanji
+しゃちょう|社長|しゃちょう|社長|kanji
+しゅうかん|習慣|しゅうかん|習慣|kanji
+しゅっせき|出席|しゅっせき|出席|kanji
+しょうがつ|正月|しょうがつ|新年、正月|kanji
+しょうせつ|小説|しょうせつ|小說|kanji
+しょうらい|将来|しょうらい|將來|kanji
+しょくりょうひん|食料品|しょくりょうひん|食品|kanji
+じこ|事故|じこ|事故|kanji
+じしん|地震|じしん|地震|kanji
+じだい|時代|じだい|時代|kanji
+じどう|自動|じどう|自動|kanji
+じむしょ|事務所|じむしょ|辦公室|kanji
+じゃま|邪魔|じゃま|妨礙、打擾|kanji
+じゆう|自由|じゆう|自由|kanji
+じゅうしょ|住所|じゅうしょ|地址|kanji
+じゅうどう|柔道|じゅうどう|柔道|kanji
+じゅぎょう|授業|じゅぎょう|課程、上課|kanji
+じんこう|人口|じんこう|人口|kanji
+すいえい|水泳|すいえい|游泳|kanji
+すぎる|過ぎる|すぎる|經過、過度|kanji
+すく|空く|すく|空、變空|kanji
+すごい|凄い|すごい|厲害、驚人|kanji
+すっかり|すっかり|すっかり|完全地|hiragana
+すばらしい|素晴らしい|すばらしい|很棒的|kanji
+すべる|滑る|すべる|滑、滑倒|kanji
+すみ|隅|すみ|角落|kanji
+すり|掏摸|すり|扒手|kanji
+せいじ|政治|せいじ|政治|kanji
+せいよう|西洋|せいよう|西洋|kanji
+せかい|世界|せかい|世界|kanji
+せき|席|せき|座位|kanji
+せんそう|戦争|せんそう|戰爭|kanji
+せんぱい|先輩|せんぱい|前輩|kanji
+そう|そう|そう|那樣、對|hiragana
+そつぎょう|卒業|そつぎょう|畢業|kanji
+そのまま|そのまま|そのまま|照原樣|hiragana
+それほど|それほど|それほど|那麼、那種程度|hiragana
+たいいん|退院|たいいん|出院|kanji
+たずねる|尋ねる|たずねる|詢問|kanji
+ただしい|正しい|ただしい|正確的|kanji
+たてる|立てる|たてる|豎立、建立|kanji
+たとえば|例えば|たとえば|例如|kanji
+たな|棚|たな|架子|kanji
+たのしみ|楽しみ|たのしみ|期待、樂趣|kanji
+たまに|たまに|たまに|偶爾|hiragana
+だいじ|大事|だいじ|重要、大事|kanji
+だいぶ|大分|だいぶ|相當、很多|kanji
+だめ|駄目|だめ|不行|kanji
+ちから|力|ちから|力量|kanji
+ちっとも|ちっとも|ちっとも|一點也不|hiragana
+ちゃん|ちゃん|ちゃん|親暱稱呼|hiragana
+ちゅうい|注意|ちゅうい|注意|kanji
+ちゅうしゃ|注射|ちゅうしゃ|打針、注射|kanji
+ちゅうしゃじょう|駐車場|ちゅうしゃじょう|停車場|kanji
+ちり|地理|ちり|地理|kanji
+つかまえる|捕まえる|つかまえる|抓住|kanji
+つける|漬ける|つける|醃、浸泡|kanji
+つつむ|包む|つつむ|包、包裹|kanji
+つづく|続く|つづく|持續|kanji
+つづける|続ける|つづける|繼續|kanji
+つま|妻|つま|妻子|kanji
+つもり|つもり|つもり|打算|hiragana
+つれる|連れる|つれる|帶著、陪同|kanji
+ていねい|丁寧|ていねい|有禮貌、仔細|kanji
+てきとう|適当|てきとう|適當、隨便|kanji
+てんきよほう|天気予報|てんきよほう|天氣預報|kanji
+てんらんかい|展覧会|てんらんかい|展覽會|kanji
+でんとう|電灯|でんとう|電燈|kanji
+とくに|特に|とくに|特別地|kanji
+とこや|床屋|とこや|理髮店|kanji
+とちゅう|途中|とちゅう|途中|kanji
+とどける|届ける|とどける|送達、提交|kanji
+とまる|泊まる|とまる|住宿|kanji
+とめる|止める|とめる|停止、停放|kanji
+とりかえる|取り替える|とりかえる|更換|kanji
+どろぼう|泥棒|どろぼう|小偷|kanji
+なるべく|なるべく|なるべく|盡量|hiragana
+なるほど|なるほど|なるほど|原來如此|hiragana
+にがい|苦い|にがい|苦的|kanji
+にげる|逃げる|にげる|逃跑|kanji
+にる|似る|にる|相似|kanji
+ぬすむ|盗む|ぬすむ|偷竊|kanji
+ぬる|塗る|ぬる|塗抹|kanji
+ぬれる|濡れる|ぬれる|弄濕|kanji
+ねだん|値段|ねだん|價格|kanji
+ねつ|熱|ねつ|發燒、熱度|kanji
+ねっしん|熱心|ねっしん|熱心|kanji
+ねむい|眠い|ねむい|想睡的|kanji
+のど|喉|のど|喉嚨|kanji
+のりかえる|乗り換える|のりかえる|轉乘|kanji
+は|葉|は|葉子|kanji
+はいけん|拝見|はいけん|拜見|kanji
+はいしゃ|歯医者|はいしゃ|牙醫|kanji
+はっきり|はっきり|はっきり|清楚地|hiragana
+はつおん|発音|はつおん|發音|kanji
+はなみ|花見|はなみ|賞花|kanji
+はやし|林|はやし|樹林|kanji
+はんたい|反対|はんたい|反對|kanji
+ひ|火|ひ|火|kanji
+ひえる|冷える|ひえる|變冷|kanji
+ひかる|光る|ひかる|發光|kanji
+ひきだし|引き出し|ひきだし|抽屜|kanji
+ひげ|髭|ひげ|鬍子|kanji
+ひこうじょう|飛行場|ひこうじょう|機場|kanji
+ひさしぶり|久しぶり|ひさしぶり|好久不見|kanji
+ひどい|酷い|ひどい|過分、嚴重|kanji
+ひらく|開く|ひらく|打開、舉辦|kanji
+ひるま|昼間|ひるま|白天|kanji
+ふえる|増える|ふえる|增加|kanji
+ふかい|深い|ふかい|深的|kanji
+ふくしゅう|復習|ふくしゅう|複習|kanji
+ふとる|太る|ふとる|變胖|kanji
+ふべん|不便|ふべん|不方便|kanji
+ふむ|踏む|ふむ|踩|kanji
+ふりだす|降り出す|ふりだす|開始下雨|kanji
+ぶちょう|部長|ぶちょう|部長|kanji
+ぶどう|ぶどう|ぶどう|葡萄|hiragana
+ぶんか|文化|ぶんか|文化|kanji
+ぶんがく|文学|ぶんがく|文學|kanji
+べつ|別|べつ|別的、另外|kanji
+ほうそう|放送|ほうそう|廣播、播放|kanji
+ほうりつ|法律|ほうりつ|法律|kanji
+ほめる|褒める|ほめる|稱讚|kanji
+ほんやく|翻訳|ほんやく|翻譯|kanji
+ぼうえき|貿易|ぼうえき|貿易|kanji
+まいる|参る|まいる|去、來的謙讓語|kanji
+まける|負ける|まける|輸、敗北|kanji
+まじめ|真面目|まじめ|認真|kanji
+または|又は|または|或者|kanji
+まちがえる|間違える|まちがえる|弄錯|kanji
+まんなか|真ん中|まんなか|正中央|kanji
+みえる|見える|みえる|看得見|kanji
+みなと|港|みなと|港口|kanji
+むかえる|迎える|むかえる|迎接|kanji
+むかし|昔|むかし|以前、從前|kanji
+むし|虫|むし|蟲|kanji
+むすこ|息子|むすこ|兒子|kanji
+むすめ|娘|むすめ|女兒|kanji
+めしあがる|召し上がる|めしあがる|吃喝的尊敬語|kanji
+めずらしい|珍しい|めずらしい|稀奇、少見|kanji
+もうしあげる|申し上げる|もうしあげる|說的謙讓語|kanji
+もうす|申す|もうす|叫做、說的謙讓語|kanji
+もどる|戻る|もどる|返回|kanji
+もめん|木綿|もめん|棉布|kanji
+やく|焼く|やく|烤、燒|kanji
+やける|焼ける|やける|燒著、烤好|kanji
+やせる|痩せる|やせる|變瘦|kanji
+やっと|やっと|やっと|終於|hiragana
+やはり|やはり|やはり|果然、仍然|hiragana
+やむ|止む|やむ|停止|kanji
+やわらかい|柔らかい|やわらかい|柔軟的|kanji
+ゆしゅつ|輸出|ゆしゅつ|出口、輸出|kanji
+ゆにゅう|輸入|ゆにゅう|進口、輸入|kanji
+ゆび|指|ゆび|手指|kanji
+ゆめ|夢|ゆめ|夢|kanji
+ゆれる|揺れる|ゆれる|搖晃|kanji
+よう|用|よう|事情、用途|kanji
+ようい|用意|ようい|準備|kanji
+よごれる|汚れる|よごれる|弄髒|kanji
+よしゅう|予習|よしゅう|預習|kanji
+よやく|予約|よやく|預約|kanji
+よる|寄る|よる|順路去、靠近|kanji
+らく|楽|らく|輕鬆|kanji
+りよう|利用|りよう|利用|kanji
+りょかん|旅館|りょかん|旅館|kanji
+るす|留守|るす|不在家|kanji
+れいぼう|冷房|れいぼう|冷氣|kanji
+れきし|歴史|れきし|歷史|kanji
+わかす|沸かす|わかす|煮沸|kanji
+わかれる|別れる|わかれる|分別、分手|kanji
+わく|沸く|わく|沸騰|kanji
+わけ|訳|わけ|理由、意思|kanji
+わすれもの|忘れ物|わすれもの|遺失物|kanji
+われる|割れる|われる|破裂、碎掉|kanji
+あいだに|間に|あいだに|在期間內|kanji
+あいて|相手|あいて|對方、對手|kanji
+あがる|上がる|あがる|上升、進屋|kanji
+あくしゅ|握手|あくしゅ|握手|kanji
+あたる|当たる|あたる|命中、碰上|kanji
+あつい|厚い|あつい|厚的|kanji
+あぶない|危ない|あぶない|危險的|kanji
+あまる|余る|あまる|剩下|kanji
+あみもの|編み物|あみもの|編織物|kanji
+あらう|洗う|あらう|清洗|kanji
+あんてい|安定|あんてい|穩定|kanji
+いか|以下|いか|以下|kanji
+いがいと|意外と|いがいと|意外地|kanji
+いき|息|いき|呼吸|kanji
+いくらか|幾らか|いくらか|一些、多少|kanji
+いし|石|いし|石頭|kanji
+いじょう|以上|いじょう|以上|kanji
+いそぎ|急ぎ|いそぎ|急事、趕緊|kanji
+いたす|致す|いたす|做的謙讓語|kanji
+いただきます|頂きます|いただきます|我要開動了|kanji
+いちおう|一応|いちおう|姑且、暫且|kanji
+いっしょうけんめい|一生懸命|いっしょうけんめい|拼命、努力|kanji
+いっぱん|一般|いっぱん|一般|kanji
+いとこ|従兄弟|いとこ|表兄弟姊妹|kanji
+いまにも|今にも|いまにも|眼看就要|kanji
+いや|嫌|いや|討厭|kanji
+いん|員|いん|人員|kanji
+うえき|植木|うえき|盆栽、庭木|kanji
+うけつける|受け付ける|うけつける|受理、接受|kanji
+うごかす|動かす|うごかす|移動、操作|kanji
+うすい|薄い|うすい|薄、淡|kanji
+うつ|打つ|うつ|打、敲|kanji
+うつし|写し|うつし|抄本、副本|kanji
+うまい|上手い|うまい|好吃、擅長|kanji
+うらがえす|裏返す|うらがえす|翻面|kanji
+えいぎょう|営業|えいぎょう|營業|kanji
+えん|円|えん|圓、日圓|kanji
+おいわい|お祝い|おいわい|祝賀|kanji
+おくりもの|贈り物|おくりもの|禮物|kanji
+おさげ|お下げ|おさげ|辮子|kanji
+おしい|惜しい|おしい|可惜的|kanji
+おじょうさん|お嬢さん|おじょうさん|令千金、小姐|kanji
+おせわ|お世話|おせわ|照顧、關照|kanji
+おそろしい|恐ろしい|おそろしい|可怕的|kanji
+おたがい|お互い|おたがい|彼此|kanji
+おだいじに|お大事に|おだいじに|請保重|kanji
+おと|音|おと|聲音|kanji
+おどり|踊り|おどり|舞蹈|kanji
+おまけ|おまけ|おまけ|附贈品|hiragana
+おもちゃ|おもちゃ|おもちゃ|玩具|hiragana
+おもり|重り|おもり|重物、砝碼|kanji
+おやつ|おやつ|おやつ|點心|hiragana
+おれい|お礼|おれい|謝意、回禮|kanji
+かいがん|海岸|かいがん|海岸|kanji
+かいけい|会計|かいけい|會計、結帳|kanji
+かいしゃいん|会社員|かいしゃいん|公司職員|kanji
+かえり|帰り|かえり|回程、回去|kanji
+かがみもち|鏡餅|かがみもち|鏡餅|kanji
+かく|描く|かく|畫、描繪|kanji
+かける|欠ける|かける|缺少、缺角|kanji
+かざん|火山|かざん|火山|kanji
+かしこまりました|畏まりました|かしこまりました|知道了的敬語|kanji
+かぞえる|数える|かぞえる|數數|kanji
+かた|方|かた|方法、方向|kanji
+かたい|硬い|かたい|硬的|kanji
+かたち|形|かたち|形狀|kanji
+かつどう|活動|かつどう|活動|kanji
+かなしい|悲しい|かなしい|悲傷的|kanji
+かならずしも|必ずしも|かならずしも|未必|kanji
+かねもち|金持ち|かねもち|有錢人|kanji
+かのじょ|彼女|かのじょ|她、女朋友|kanji
+かぶる|被る|かぶる|戴、蓋上|kanji
+かまわない|構わない|かまわない|沒關係|kanji
+かみなり|雷|かみなり|雷|kanji
+かようび|火曜日|かようび|星期二|kanji
+かわいそう|可哀想|かわいそう|可憐|kanji
+かわく|渇く|かわく|口渴|kanji
+かんこう|観光|かんこう|觀光|kanji
+かんご|看護|かんご|護理|kanji
+かんじる|感じる|かんじる|感覺|kanji
+かんせつ|関節|かんせつ|關節|kanji
+がいこくご|外国語|がいこくご|外語|kanji
+がくしゅう|学習|がくしゅう|學習|kanji
+がっき|学期|がっき|學期|kanji
+がっこうせいかつ|学校生活|がっこうせいかつ|學校生活|kanji
+きいろ|黄色|きいろ|黃色|kanji
+きえる|消える|きえる|消失|kanji
+きおん|気温|きおん|氣溫|kanji
+きこく|帰国|きこく|回國|kanji
+きせる|着せる|きせる|給人穿上|kanji
+きそ|基礎|きそ|基礎|kanji
+きっさてん|喫茶店|きっさてん|咖啡茶館|kanji
+きっと|きっと|きっと|一定|hiragana
+きのう|機能|きのう|功能|kanji
+きゃく|客|きゃく|客人|kanji
+きゅうけい|休憩|きゅうけい|休息|kanji
+きゅうじつ|休日|きゅうじつ|假日|kanji
+きゅうに|急に|きゅうに|突然|kanji
+きょういん|教員|きょういん|教職員|kanji
+きょうざい|教材|きょうざい|教材|kanji
+きょうしつ|教室|きょうしつ|教室|kanji
+きょうだい|兄弟|きょうだい|兄弟姊妹|kanji
+きょねん|去年|きょねん|去年|kanji
+きらう|嫌う|きらう|討厭|kanji
+きんえん|禁煙|きんえん|禁菸|kanji
+きんむ|勤務|きんむ|勤務|kanji
+くうこう|空港|くうこう|機場|kanji
+くさ|草|くさ|草|kanji
+くさる|腐る|くさる|腐爛|kanji
+くつした|靴下|くつした|襪子|kanji
+くみあわせ|組み合わせ|くみあわせ|組合|kanji
+くれる|暮れる|くれる|日暮、歲末|kanji
+くろう|苦労|くろう|辛苦|kanji
+けいさつ|警察|けいさつ|警察|kanji
+けいさん|計算|けいさん|計算|kanji
+けしき|景色|けしき|景色|kanji
+けっせき|欠席|けっせき|缺席|kanji
+けっして|決して|けっして|絕對不|kanji
+けれど|けれど|けれど|但是|hiragana
+けんがく|見学|けんがく|參觀學習|kanji
+げしゅく|下宿|げしゅく|寄宿|kanji
+げんかん|玄関|げんかん|玄關|kanji
+げんきん|現金|げんきん|現金|kanji
+こい|濃い|こい|濃的|kanji
+こうがい|郊外|こうがい|郊外|kanji
+こうぎ|講義|こうぎ|講課|kanji
+こうちょう|校長|こうちょう|校長|kanji
+こうどう|講堂|こうどう|禮堂|kanji
+こうはい|後輩|こうはい|後輩|kanji
+こくさい|国際|こくさい|國際|kanji
+こくばん|黒板|こくばん|黑板|kanji
+こころ|心|こころ|心|kanji
+こし|腰|こし|腰|kanji
+こわれる|壊れる|こわれる|故障、壞掉|kanji
+こんど|今度|こんど|這次、下次|kanji
+ごうけい|合計|ごうけい|合計|kanji
+ごらんになる|ご覧になる|ごらんになる|看的尊敬語|kanji
+さいきん|最近|さいきん|最近|kanji
+さいご|最後|さいご|最後|kanji
+さいしょ|最初|さいしょ|最初|kanji
+さか|坂|さか|坡道|kanji
+さがる|下がる|さがる|下降|kanji
+さしあげる|差し上げる|さしあげる|給的謙讓語|kanji
+さびる|錆びる|さびる|生鏽|kanji
+さわる|触る|さわる|觸摸|kanji
+さんぎょう|産業|さんぎょう|產業|kanji
+さんぽ|散歩|さんぽ|散步|kanji
+しかた|仕方|しかた|方法、辦法|kanji
+しき|式|しき|儀式、算式|kanji
+しきゅう|至急|しきゅう|緊急、火速|kanji
+しけんじょう|試験場|しけんじょう|考場|kanji
+しずむ|沈む|しずむ|下沉|kanji
+しつれい|失礼|しつれい|失禮|kanji
+しな|品|しな|物品、品項|kanji
+しばい|芝居|しばい|戲劇|kanji
+しま|島|しま|島|kanji
+しめる|占める|しめる|占有|kanji
+しゅうしょく|就職|しゅうしょく|就職|kanji
+しゅみ|趣味|しゅみ|興趣|kanji
+しゅるい|種類|しゅるい|種類|kanji
+しょうかい|紹介|しょうかい|介紹|kanji
+しょうがっこう|小学校|しょうがっこう|小學|kanji
+しょうひん|商品|しょうひん|商品|kanji
+しょうぶ|勝負|しょうぶ|勝負|kanji
+しょうらい|将来|しょうらい|將來|kanji
+しょくじ|食事|しょくじ|用餐、餐食|kanji
+しょくどう|食堂|しょくどう|食堂|kanji
+しょっき|食器|しょっき|餐具|kanji
+しらべる|調べる|しらべる|調查、查詢|kanji
+しんぱい|心配|しんぱい|擔心|kanji
+じゅうぶん|十分|じゅうぶん|充分|kanji
+じゅんばん|順番|じゅんばん|順序|kanji
+じょうぶ|丈夫|じょうぶ|堅固、健康|kanji
+じょせい|女性|じょせい|女性|kanji
+すいどう|水道|すいどう|自來水|kanji
+すうがく|数学|すうがく|數學|kanji
+すくない|少ない|すくない|少的|kanji
+すすむ|進む|すすむ|前進、進展|kanji
+すっきり|すっきり|すっきり|清爽|hiragana
+すてき|素敵|すてき|很棒、漂亮|kanji
+すな|砂|すな|砂|kanji
+せいかく|性格|せいかく|性格|kanji
+せいさん|生産|せいさん|生產|kanji
+せいと|生徒|せいと|學生|kanji
+せん|線|せん|線|kanji
+せんたく|洗濯|せんたく|洗衣|kanji
+せんもん|専門|せんもん|專門|kanji
+そだつ|育つ|そだつ|成長|kanji
+そっち|そっち|そっち|那邊|hiragana
+そふ|祖父|そふ|祖父、外祖父|kanji
+そぼ|祖母|そぼ|祖母、外祖母|kanji
+そろそろ|そろそろ|そろそろ|差不多該|hiragana
+たいふう|台風|たいふう|颱風|kanji
+たおれる|倒れる|たおれる|倒下|kanji
+たしかめる|確かめる|たしかめる|確認|kanji
+たたみ|畳|たたみ|榻榻米|kanji
+たてもの|建物|たてもの|建築物|kanji
+たてる|建てる|たてる|建造|kanji
+たまる|溜まる|たまる|累積|kanji
+だいがくせい|大学生|だいがくせい|大學生|kanji
+だいたい|大体|だいたい|大致、大約|kanji
+だんせい|男性|だんせい|男性|kanji
+ちがい|違い|ちがい|差異|kanji
+ちゅうがっこう|中学校|ちゅうがっこう|中學|kanji
+ちょうど|ちょうど|ちょうど|剛好|hiragana
+つかれる|疲れる|つかれる|疲累|kanji
+つきあたり|突き当たり|つきあたり|路的盡頭|kanji
+つける|点ける|つける|打開電器|kanji
+つごうがいい|都合がいい|つごうがいい|方便|kanji
+つたえる|伝える|つたえる|傳達|kanji
+つとめる|勤める|つとめる|任職|kanji
+つめたい|冷たい|つめたい|冰冷、冷淡|kanji
+てぶくろ|手袋|てぶくろ|手套|kanji
+てん|点|てん|點、分數|kanji
+てんいん|店員|てんいん|店員|kanji
+できるだけ|できるだけ|できるだけ|盡可能|hiragana
+でんぽう|電報|でんぽう|電報|kanji
+とうとう|とうとう|とうとう|終於|hiragana
+とおり|通り|とおり|街道、照樣|kanji
+とくべつに|特別に|とくべつに|特別地|kanji
+とし|都市|とし|都市|kanji
+とりかえす|取り返す|とりかえす|取回|kanji
+どんどん|どんどん|どんどん|接連不斷|hiragana
+ないよう|内容|ないよう|內容|kanji
+なおる|直る|なおる|修好、恢復|kanji
+なかなか|なかなか|なかなか|相當、不容易|hiragana
+なげる|投げる|なげる|丟、投|kanji
+なさる|なさる|なさる|做的尊敬語|hiragana
+なつかしい|懐かしい|なつかしい|懷念的|kanji
+におい|匂い|におい|氣味|kanji
+にゅういん|入院|にゅういん|住院|kanji
+にんぎょう|人形|にんぎょう|人偶|kanji
+ぬの|布|ぬの|布|kanji
+ねぼう|寝坊|ねぼう|睡過頭|kanji
+のこる|残る|のこる|留下、剩下|kanji
+のりもの|乗り物|のりもの|交通工具|kanji
+はいる|入る|はいる|進入|kanji
+はこぶ|運ぶ|はこぶ|搬運|kanji
+はじまる|始まる|はじまる|開始|kanji
+はじめる|始める|はじめる|開始|kanji
+はず|はず|はず|應該、道理|hiragana
+はずれる|外れる|はずれる|脫落、落空|kanji
+はっぴょう|発表|はっぴょう|發表|kanji
+はらう|払う|はらう|支付|kanji
+ひきうける|引き受ける|ひきうける|承接、答應|kanji
+ひっこし|引っ越し|ひっこし|搬家|kanji
+ひつじ|羊|ひつじ|羊|kanji
+ひつような|必要な|ひつような|必要的|kanji
+びじゅつかん|美術館|びじゅつかん|美術館|kanji
+びっくり|びっくり|びっくり|吃驚|hiragana
+ふく|吹く|ふく|吹|kanji
+ふくしゅうする|復習する|ふくしゅうする|複習|kanji
+ふとん|布団|ふとん|棉被、被褥|kanji
+ふる|降る|ふる|下雨、下雪|kanji
+ぶどうえん|ぶどう園|ぶどうえん|葡萄園|kanji
+ぶんぽう|文法|ぶんぽう|文法|kanji
+へん|変|へん|奇怪|kanji
+べんとう|弁当|べんとう|便當|kanji
+ぼく|僕|ぼく|我、男性用語|kanji
+まがる|曲がる|まがる|轉彎、彎曲|kanji
+まことに|誠に|まことに|真誠地、非常|kanji
+またぐ|跨ぐ|またぐ|跨過|kanji
+まちがい|間違い|まちがい|錯誤|kanji
+まつり|祭り|まつり|祭典|kanji
+まわる|回る|まわる|轉動、巡迴|kanji
+みずうみ|湖|みずうみ|湖|kanji
+みそ|味噌|みそ|味噌|kanji
+みつかる|見つかる|みつかる|被找到|kanji
+みつける|見つける|みつける|找到|kanji
+みどり|緑|みどり|綠色|kanji
+みな|皆|みな|大家|kanji
+むすぶ|結ぶ|むすぶ|綁、連結|kanji
+めいわく|迷惑|めいわく|麻煩、困擾|kanji
+めったに|滅多に|めったに|很少|kanji
+もり|森|もり|森林|kanji
+やくにたつ|役に立つ|やくにたつ|有用|kanji
+やけど|火傷|やけど|燙傷、燒傷|kanji
+やさしい|易しい|やさしい|簡單的|kanji
+ゆびわ|指輪|ゆびわ|戒指|kanji
+ようじ|用事|ようじ|事情、差事|kanji
+よっぱらう|酔っ払う|よっぱらう|喝醉|kanji
+よていひょう|予定表|よていひょう|行程表|kanji
+よろこぶ|喜ぶ|よろこぶ|高興|kanji
+りゆうしょ|理由書|りゆうしょ|理由書|kanji
+りょうほう|両方|りょうほう|雙方、兩邊|kanji
+りょこうしゃ|旅行者|りょこうしゃ|旅客|kanji
+れい|礼|れい|禮貌、道謝|kanji
+れんしゅう|練習|れんしゅう|練習|kanji
+わかりやすい|分かりやすい|わかりやすい|容易懂的|kanji
+わすれっぽい|忘れっぽい|わすれっぽい|健忘的|kanji
+わらう|笑う|わらう|笑|kanji
+あいかわらず|相変わらず|あいかわらず|依舊、照舊|kanji
+あくび|欠伸|あくび|打呵欠|kanji
+あこがれる|憧れる|あこがれる|憧憬|kanji
+あたためる|温める|あたためる|加熱、溫暖|kanji
+あたりまえ|当たり前|あたりまえ|理所當然|kanji
+あらわれる|現れる|あらわれる|出現|kanji
+いきなり|いきなり|いきなり|突然|hiragana
+いくらでも|幾らでも|いくらでも|多少都可以|kanji
+いっぽう|一方|いっぽう|一方面|kanji
+うけとる|受け取る|うけとる|收下|kanji
+うめる|埋める|うめる|埋、填滿|kanji
+えがお|笑顔|えがお|笑容|kanji
+えんぎ|演技|えんぎ|演技|kanji
+おかしい|可笑しい|おかしい|奇怪、可笑|kanji
+おしゃべり|お喋り|おしゃべり|聊天、多話|kanji
+おそれる|恐れる|おそれる|害怕|kanji
+おみやげ|お土産|おみやげ|伴手禮|kanji
+かいだん|階段|かいだん|樓梯|kanji
+かぎる|限る|かぎる|限定|kanji
+かくれる|隠れる|かくれる|躲藏|kanji
+かさなる|重なる|かさなる|重疊|kanji
+かたる|語る|かたる|講述|kanji
+かんどう|感動|かんどう|感動|kanji
+きがえる|着替える|きがえる|換衣服|kanji
+きづく|気付く|きづく|注意到|kanji
+きにいる|気に入る|きにいる|喜歡、中意|kanji
+くばる|配る|くばる|分發|kanji
+くりかえす|繰り返す|くりかえす|重複|kanji
+けっか|結果|けっか|結果|kanji
+こうりゅう|交流|こうりゅう|交流|kanji
+こまかい|細かい|こまかい|細小、詳細|kanji
+こむ|込む|こむ|擁擠|kanji
+さけぶ|叫ぶ|さけぶ|大叫|kanji
+さます|冷ます|さます|冷卻|kanji
+しあわせ|幸せ|しあわせ|幸福|kanji
+しっかり|しっかり|しっかり|穩固、好好地|hiragana
+しっぱいする|失敗する|しっぱいする|失敗|kanji
+しゅっちょう|出張|しゅっちょう|出差|kanji
+しょうじき|正直|しょうじき|誠實|kanji
+しんごうき|信号機|しんごうき|紅綠燈|kanji
+すすめる|進める|すすめる|推進、進行|kanji
+すっぽり|すっぽり|すっぽり|完全包住|hiragana
+せいり|整理|せいり|整理|kanji
+せっきょくてき|積極的|せっきょくてき|積極的|kanji
+たおす|倒す|たおす|弄倒、打倒|kanji
+たしかに|確かに|たしかに|確實|kanji
+たすける|助ける|たすける|幫助、救助|kanji
+たのむ|頼む|たのむ|拜託、請求|kanji
+だんだん|段々|だんだん|漸漸|kanji
+ちかづく|近づく|ちかづく|接近|kanji
+つかむ|掴む|つかむ|抓住|kanji
+つきあう|付き合う|つきあう|交往、陪同|kanji
+つよさ|強さ|つよさ|強度|kanji
+てつづき|手続き|てつづき|手續|kanji
+とおす|通す|とおす|讓通過、穿過|kanji
+とくい|得意|とくい|擅長|kanji
+とりだす|取り出す|とりだす|取出|kanji
+ながめる|眺める|ながめる|眺望|kanji
+なれる|慣れる|なれる|習慣|kanji
+にあう|似合う|にあう|適合|kanji
+にがて|苦手|にがて|不擅長|kanji
+のばす|伸ばす|のばす|伸長、延長|kanji
+のんびり|のんびり|のんびり|悠閒|hiragana
+はこ|箱|はこ|箱子|kanji
+はずす|外す|はずす|取下、錯過|kanji
+はんぶん|半分|はんぶん|一半|kanji
+ひっこす|引っ越す|ひっこす|搬家|kanji
+ひろげる|広げる|ひろげる|展開、擴大|kanji
+ふえる|増える|ふえる|增加|kanji
+ふかめる|深める|ふかめる|加深|kanji
+ふざける|ふざける|ふざける|開玩笑、胡鬧|hiragana
+ふせぐ|防ぐ|ふせぐ|防止|kanji
+ふたりとも|二人とも|ふたりとも|兩個人都|kanji
+へらす|減らす|へらす|減少|kanji
+まぜる|混ぜる|まぜる|混合|kanji
+まとめる|まとめる|まとめる|整理、彙整|hiragana
+みおくる|見送る|みおくる|送行、目送|kanji
+みなおす|見直す|みなおす|重新檢視|kanji
+むりする|無理する|むりする|勉強自己|kanji
+めだつ|目立つ|めだつ|顯眼|kanji
+もえる|燃える|もえる|燃燒|kanji
+やくだつ|役立つ|やくだつ|有幫助|kanji
+ゆずる|譲る|ゆずる|讓給|kanji
+ゆるす|許す|ゆるす|允許、原諒|kanji
+よびだす|呼び出す|よびだす|叫出、傳喚|kanji
+わかす|沸かす|わかす|燒開|kanji
+わける|分ける|わける|分開、分類|kanji
+わりあい|割合|わりあい|比例|kanji
+`, new Set([...N5_WORD_READINGS, ...N4_BASE_READINGS]), 540);
+
+      const N3_LOWER_LEVEL_READINGS = new Set([
+        ...N5_WORD_READINGS,
+        ...N4_BASE_READINGS,
+        ...N4_EXTRA_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3]))
+      ]);
+
+      const N3_BASE_READINGS = new Set([
+        "あいじょう", "あんぜん", "いしき", "いどう", "いんしょう", "えいきょう", "えんりょ", "おうえん", "おせん", "かいけつ",
+        "かいぜん", "かくにん", "かんきょう", "かんけい", "かんしゃ", "かんせい", "きぎょう", "きじゅん", "きょうりょく", "きんし",
+        "けいかく", "けいやく", "げんいん", "こうか", "こうどう", "こくさい", "さくせい", "さんか", "しえん", "じっけん",
+        "じゅうよう", "じょうきょう", "しょうひん", "しょるい", "しんこく", "せいかつ", "せいこう", "せいさん", "せいど", "せきにん",
+        "せんもん", "そうぞう", "そんざい", "たいおう", "たいど", "たんとう", "ちょうさ", "つうきん", "ていあん", "ていど",
+        "とくちょう", "どりょく", "にんき", "はっけん", "ひかく", "ひょうか", "へんか", "ほうこく", "もくてき", "りかい"
+      ].map(normalizeKanaReading));
+
+      const N3_RESERVED_UPPER_LEVEL_READINGS = new Set([
+        "あいまい", "かいしゅう", "けいこう", "けんとう", "こうせい", "こうりつ", "こよう", "しげん", "しょうめい", "せいげん",
+        "そしき", "たいしょう", "はあく", "はんえい", "ひょうげん", "ふきゅう", "ぶんせき", "へんこう", "ほしょう", "ようきゅう"
+      ].map(normalizeKanaReading));
+
+      const N3_EXTRA_WORD_ROWS = buildLevelWordRows("n3", 61, `
+あいず|合図|あいず|信號、暗號|kanji
+あいまい|曖昧|あいまい|曖昧|kanji
+あきらめる|諦める|あきらめる|放棄|kanji
+あくしゅう|悪臭|あくしゅう|惡臭|kanji
+あこがれ|憧れ|あこがれ|憧憬|kanji
+あずかる|預かる|あずかる|保管、照顧|kanji
+あたえる|与える|あたえる|給予|kanji
+あたたまる|温まる|あたたまる|變暖|kanji
+あたり|辺り|あたり|附近、周圍|kanji
+あつかう|扱う|あつかう|處理、對待|kanji
+あてはまる|当てはまる|あてはまる|適用、符合|kanji
+あてる|当てる|あてる|碰上、猜中|kanji
+あばれる|暴れる|あばれる|鬧、暴動|kanji
+あふれる|溢れる|あふれる|溢出、充滿|kanji
+あらためる|改める|あらためる|改正、重新|kanji
+あらゆる|あらゆる|あらゆる|所有、一切|hiragana
+あわせる|合わせる|あわせる|合併、配合|kanji
+あんい|安易|あんい|輕易、草率|kanji
+いいかえる|言い換える|いいかえる|換句話說|kanji
+いがい|意外|いがい|意外|kanji
+いきおい|勢い|いきおい|氣勢、趨勢|kanji
+いきなり|いきなり|いきなり|突然|hiragana
+いくじ|育児|いくじ|育兒|kanji
+いけんしょ|意見書|いけんしょ|意見書|kanji
+いしきする|意識する|いしきする|意識到|kanji
+いじ|維持|いじ|維持|kanji
+いずれ|いずれ|いずれ|早晚、不久|hiragana
+いちぶ|一部|いちぶ|一部分|kanji
+いちりゅう|一流|いちりゅう|一流|kanji
+いっしゅ|一種|いっしゅ|一種|kanji
+いっしゅん|一瞬|いっしゅん|一瞬間|kanji
+いっせいに|一斉に|いっせいに|一齊|kanji
+いったん|一旦|いったん|一旦、暫且|kanji
+いっち|一致|いっち|一致|kanji
+いっぱんてき|一般的|いっぱんてき|一般的|kanji
+いどうする|移動する|いどうする|移動|kanji
+いねむり|居眠り|いねむり|打瞌睡|kanji
+いはん|違反|いはん|違反|kanji
+いよいよ|いよいよ|いよいよ|終於、越來越|hiragana
+いんさつ|印刷|いんさつ|印刷|kanji
+いんたい|引退|いんたい|退休、引退|kanji
+うけいれる|受け入れる|うけいれる|接受、接納|kanji
+うけもち|受け持ち|うけもち|負責、擔任|kanji
+うしなう|失う|うしなう|失去|kanji
+うたがう|疑う|うたがう|懷疑|kanji
+うちあわせ|打ち合わせ|うちあわせ|事前商量|kanji
+うちけす|打ち消す|うちけす|否定、打消|kanji
+うつす|映す|うつす|映出、投影|kanji
+うなずく|うなずく|うなずく|點頭|hiragana
+うまれ|生まれ|うまれ|出生、出身|kanji
+うらぎる|裏切る|うらぎる|背叛|kanji
+うりあげ|売り上げ|うりあげ|銷售額|kanji
+うん|運|うん|運氣|kanji
+えいせい|衛生|えいせい|衛生|kanji
+えいよう|栄養|えいよう|營養|kanji
+えがお|笑顔|えがお|笑容|kanji
+えんき|延期|えんき|延期|kanji
+えんげき|演劇|えんげき|戲劇|kanji
+えんじょ|援助|えんじょ|援助|kanji
+えんぜつ|演説|えんぜつ|演說|kanji
+おいこす|追い越す|おいこす|超越、超車|kanji
+おいつく|追いつく|おいつく|追上|kanji
+おうじる|応じる|おうじる|回應、答應|kanji
+おうたい|応対|おうたい|接待、應對|kanji
+おえる|終える|おえる|結束、完成|kanji
+おおう|覆う|おおう|覆蓋|kanji
+おおざっぱ|大雑把|おおざっぱ|粗略、大而化之|kanji
+おおやけ|公|おおやけ|公開、公家|kanji
+おぎなう|補う|おぎなう|補足、彌補|kanji
+おこなう|行う|おこなう|舉行、實行|kanji
+おさえる|押さえる|おさえる|按住、掌握|kanji
+おじぎ|お辞儀|おじぎ|鞠躬|kanji
+おちつく|落ち着く|おちつく|冷靜、安定|kanji
+おとずれる|訪れる|おとずれる|拜訪、到來|kanji
+おのおの|各々|おのおの|各自|kanji
+おびえる|怯える|おびえる|害怕|kanji
+およそ|およそ|およそ|大約、概略|hiragana
+およぼす|及ぼす|およぼす|造成、波及|kanji
+おろす|下ろす|おろす|放下、卸下|kanji
+かいかく|改革|かいかく|改革|kanji
+かいしゅう|回収|かいしゅう|回收|kanji
+かいすう|回数|かいすう|次數|kanji
+かいせつ|解説|かいせつ|解說|kanji
+かいとう|回答|かいとう|回答|kanji
+かいふく|回復|かいふく|恢復|kanji
+かいほう|解放|かいほう|解放|kanji
+かえる|替える|かえる|替換|kanji
+かかえる|抱える|かかえる|抱著、承擔|kanji
+かかわる|関わる|かかわる|相關、牽涉|kanji
+かぎり|限り|かぎり|限度、只要|kanji
+かくじつ|確実|かくじつ|確實|kanji
+かくち|各地|かくち|各地|kanji
+かくど|角度|かくど|角度|kanji
+かくにんする|確認する|かくにんする|確認|kanji
+かくりつ|確率|かくりつ|機率|kanji
+かこ|過去|かこ|過去|kanji
+かさねる|重ねる|かさねる|重疊、累積|kanji
+かじつ|果実|かじつ|果實|kanji
+かせぐ|稼ぐ|かせぐ|賺取|kanji
+かたよる|偏る|かたよる|偏向|kanji
+かっき|活気|かっき|活力、朝氣|kanji
+かつやく|活躍|かつやく|活躍|kanji
+かてい|過程|かてい|過程|kanji
+かなえる|叶える|かなえる|實現|kanji
+かのう|可能|かのう|可能|kanji
+かぶ|株|かぶ|股票、株|kanji
+かへい|貨幣|かへい|貨幣|kanji
+かみくず|紙くず|かみくず|紙屑|kanji
+からっぽ|空っぽ|からっぽ|空無一物|kanji
+かり|仮|かり|臨時、暫定|kanji
+かんかく|感覚|かんかく|感覺|kanji
+かんきゃく|観客|かんきゃく|觀眾|kanji
+かんこうきゃく|観光客|かんこうきゃく|觀光客|kanji
+かんさつ|観察|かんさつ|觀察|kanji
+かんしん|関心|かんしん|關心、興趣|kanji
+かんせいする|完成する|かんせいする|完成|kanji
+かんそう|感想|かんそう|感想|kanji
+かんりょう|完了|かんりょう|完成、完了|kanji
+がいかん|外観|がいかん|外觀|kanji
+がいぶ|外部|がいぶ|外部|kanji
+がくしゃ|学者|がくしゃ|學者|kanji
+がくりょく|学力|がくりょく|學力|kanji
+きおく|記憶|きおく|記憶|kanji
+きかん|期間|きかん|期間|kanji
+きき|危機|きき|危機|kanji
+きげん|期限|きげん|期限|kanji
+きこう|気候|きこう|氣候|kanji
+きこえる|聴こえる|きこえる|聽得見|kanji
+きじ|記事|きじ|報導、文章|kanji
+きず|傷|きず|傷口、缺點|kanji
+きたいする|期待する|きたいする|期待|kanji
+きちょう|貴重|きちょう|貴重|kanji
+きっかけ|切っ掛け|きっかけ|契機|kanji
+きのどく|気の毒|きのどく|可憐、遺憾|kanji
+きぼう|希望|きぼう|希望|kanji
+きほん|基本|きほん|基本|kanji
+きまり|決まり|きまり|規定、決定|kanji
+きゅうしゅう|吸収|きゅうしゅう|吸收|kanji
+きゅうそく|急速|きゅうそく|急速|kanji
+きょうか|強化|きょうか|強化|kanji
+きょうつう|共通|きょうつう|共通|kanji
+きょうふ|恐怖|きょうふ|恐懼|kanji
+きょうりょくする|協力する|きょうりょくする|合作|kanji
+きょか|許可|きょか|許可|kanji
+きょくたん|極端|きょくたん|極端|kanji
+きらく|気楽|きらく|輕鬆自在|kanji
+きろく|記録|きろく|紀錄|kanji
+きんちょう|緊張|きんちょう|緊張|kanji
+ぎじゅつしゃ|技術者|ぎじゅつしゃ|技術人員|kanji
+ぐたい|具体|ぐたい|具體|kanji
+ぐたいてき|具体的|ぐたいてき|具體的|kanji
+くうきょ|空虚|くうきょ|空虛|kanji
+くふう|工夫|くふう|想辦法、下工夫|kanji
+くべつ|区別|くべつ|區別|kanji
+くやしい|悔しい|くやしい|懊悔、不甘心|kanji
+くわえる|加える|くわえる|加上|kanji
+くわしい|詳しい|くわしい|詳細、熟悉|kanji
+けいえい|経営|けいえい|經營|kanji
+けいけんする|経験する|けいけんする|經驗、經歷|kanji
+けいこう|傾向|けいこう|傾向|kanji
+けいぞく|継続|けいぞく|持續|kanji
+けってい|決定|けってい|決定|kanji
+けつろん|結論|けつろん|結論|kanji
+けんさ|検査|けんさ|檢查|kanji
+けんせつ|建設|けんせつ|建設|kanji
+けんとう|検討|けんとう|檢討、研究|kanji
+げんかい|限界|げんかい|界限|kanji
+げんざい|現在|げんざい|現在|kanji
+げんじつ|現実|げんじつ|現實|kanji
+げんしょう|現象|げんしょう|現象|kanji
+こえる|超える|こえる|超過|kanji
+こうい|行為|こうい|行為|kanji
+こうかん|交換|こうかん|交換|kanji
+こうきょう|公共|こうきょう|公共|kanji
+こうこく|広告|こうこく|廣告|kanji
+こうさてん|交差点|こうさてん|十字路口|kanji
+こうして|こうして|こうして|這樣地|hiragana
+こうじょう|向上|こうじょう|提升、進步|kanji
+こうせい|構成|こうせい|構成|kanji
+こうど|高度|こうど|高度、高級|kanji
+こうにゅう|購入|こうにゅう|購買|kanji
+こうへい|公平|こうへい|公平|kanji
+こうほ|候補|こうほ|候選|kanji
+こうりつ|効率|こうりつ|效率|kanji
+こくせき|国籍|こくせき|國籍|kanji
+こころみる|試みる|こころみる|嘗試|kanji
+こじん|個人|こじん|個人|kanji
+ことなる|異なる|ことなる|不同|kanji
+ことわる|断る|ことわる|拒絕|kanji
+こぼれる|こぼれる|こぼれる|灑出、溢出|hiragana
+こよう|雇用|こよう|雇用|kanji
+こんざつ|混雑|こんざつ|混雜、擁擠|kanji
+こんなん|困難|こんなん|困難|kanji
+さいさん|再三|さいさん|再三、多次|kanji
+さいのう|才能|さいのう|才能|kanji
+さいばん|裁判|さいばん|審判、審判|kanji
+さかい|境|さかい|邊界|kanji
+さくひん|作品|さくひん|作品|kanji
+さっか|作家|さっか|作家|kanji
+さっそく|早速|さっそく|立刻|kanji
+さべつ|差別|さべつ|歧視、區別|kanji
+さまたげる|妨げる|さまたげる|妨礙|kanji
+さらに|さらに|さらに|更加、再者|hiragana
+さんこう|参考|さんこう|參考|kanji
+さんせい|賛成|さんせい|贊成|kanji
+ざいりょう|材料|ざいりょう|材料|kanji
+しあげる|仕上げる|しあげる|完成、做完|kanji
+しかく|資格|しかく|資格|kanji
+しげき|刺激|しげき|刺激|kanji
+しげん|資源|しげん|資源|kanji
+しじ|指示|しじ|指示|kanji
+したがう|従う|したがう|遵從|kanji
+したがって|従って|したがって|因此、依照|kanji
+しっこう|執行|しっこう|執行|kanji
+しっぱい|失敗|しっぱい|失敗|kanji
+しつ|質|しつ|品質、性質|kanji
+しつもん|質問|しつもん|問題、提問|kanji
+しどう|指導|しどう|指導|kanji
+しばしば|しばしば|しばしば|屢次、常常|hiragana
+しはらい|支払い|しはらい|支付|kanji
+しぼう|死亡|しぼう|死亡|kanji
+しめす|示す|しめす|表示、指出|kanji
+しゃっきん|借金|しゃっきん|借款、欠債|kanji
+しゅうかく|収穫|しゅうかく|收穫|kanji
+しゅうかんし|週刊誌|しゅうかんし|週刊雜誌|kanji
+しゅうちゅう|集中|しゅうちゅう|集中|kanji
+しゅうにゅう|収入|しゅうにゅう|收入|kanji
+しゅうり|修理|しゅうり|修理|kanji
+しゅだん|手段|しゅだん|手段|kanji
+しゅちょう|主張|しゅちょう|主張|kanji
+しゅっしん|出身|しゅっしん|出身|kanji
+しゅっぱん|出版|しゅっぱん|出版|kanji
+しょうがい|障害|しょうがい|障礙|kanji
+しょうこ|証拠|しょうこ|證據|kanji
+しょうさい|詳細|しょうさい|詳細|kanji
+しょうじる|生じる|しょうじる|產生、發生|kanji
+しょうひ|消費|しょうひ|消費|kanji
+しょうめい|証明|しょうめい|證明|kanji
+しょく|職|しょく|職業、職務|kanji
+しょくば|職場|しょくば|職場|kanji
+しょくぶつ|植物|しょくぶつ|植物|kanji
+しょり|処理|しょり|處理|kanji
+しんか|進化|しんか|進化|kanji
+しんけん|真剣|しんけん|認真|kanji
+しんじる|信じる|しんじる|相信|kanji
+しんせい|申請|しんせい|申請|kanji
+しんだん|診断|しんだん|診斷|kanji
+しんちょう|身長|しんちょう|身高|kanji
+しんぽ|進歩|しんぽ|進步|kanji
+じかく|自覚|じかく|自覺|kanji
+じぎょう|事業|じぎょう|事業|kanji
+じこく|時刻|じこく|時刻|kanji
+じしん|自信|じしん|自信|kanji
+じじつ|事実|じじつ|事實|kanji
+じぜん|事前|じぜん|事前|kanji
+じっさい|実際|じっさい|實際|kanji
+じつりょく|実力|じつりょく|實力|kanji
+じどうしゃ|自動車|じどうしゃ|汽車|kanji
+じまん|自慢|じまん|自豪、炫耀|kanji
+じゅんちょう|順調|じゅんちょう|順利|kanji
+じょうしき|常識|じょうしき|常識|kanji
+じょうたつ|上達|じょうたつ|進步、熟練|kanji
+じょうほう|情報|じょうほう|資訊|kanji
+じょじょに|徐々に|じょじょに|漸漸地|kanji
+すいせん|推薦|すいせん|推薦|kanji
+すいみん|睡眠|すいみん|睡眠|kanji
+すぐれる|優れる|すぐれる|優秀、出色|kanji
+すこしも|少しも|すこしも|一點也不|kanji
+すじ|筋|すじ|筋、道理|kanji
+すでに|既に|すでに|已經|kanji
+すなわち|すなわち|すなわち|也就是說|hiragana
+すばやい|素早い|すばやい|敏捷、迅速|kanji
+すべて|全て|すべて|全部|kanji
+せいか|成果|せいか|成果|kanji
+せいきゅう|請求|せいきゅう|請求|kanji
+せいげん|制限|せいげん|限制|kanji
+せいしき|正式|せいしき|正式|kanji
+せいしん|精神|せいしん|精神|kanji
+せいぞう|製造|せいぞう|製造|kanji
+せいちょう|成長|せいちょう|成長|kanji
+せいねん|青年|せいねん|青年|kanji
+せき|咳|せき|咳嗽|kanji
+せっけい|設計|せっけい|設計|kanji
+せつ|説|せつ|說法、學說|kanji
+せつやく|節約|せつやく|節約|kanji
+せろん|世論|せろん|輿論|kanji
+せんきょ|選挙|せんきょ|選舉|kanji
+せんしゅ|選手|せんしゅ|選手|kanji
+ぜんしゃ|前者|ぜんしゃ|前者|kanji
+ぜんしん|前進|ぜんしん|前進|kanji
+そうい|相違|そうい|差異|kanji
+そうさ|操作|そうさ|操作|kanji
+そうしき|葬式|そうしき|葬禮|kanji
+そうぞうする|想像する|そうぞうする|想像|kanji
+そうとう|相当|そうとう|相當|kanji
+そうべつ|送別|そうべつ|送別|kanji
+そしき|組織|そしき|組織|kanji
+そなえる|備える|そなえる|準備、具備|kanji
+そんけい|尊敬|そんけい|尊敬|kanji
+ぞうか|増加|ぞうか|增加|kanji
+たいけん|体験|たいけん|體驗|kanji
+たいしょう|対象|たいしょう|對象|kanji
+たいりつ|対立|たいりつ|對立|kanji
+たがい|互い|たがい|彼此|kanji
+たしかめる|確かめる|たしかめる|確認|kanji
+たっぷり|たっぷり|たっぷり|充分、滿滿|hiragana
+たとえ|たとえ|たとえ|即使|hiragana
+ためす|試す|ためす|嘗試、試驗|kanji
+たんい|単位|たんい|單位、學分|kanji
+たんご|単語|たんご|單字|kanji
+たんじゅん|単純|たんじゅん|單純|kanji
+たんに|単に|たんに|單純地、僅僅|kanji
+だいひょう|代表|だいひょう|代表|kanji
+だいぶぶん|大部分|だいぶぶん|大部分|kanji
+だんかい|段階|だんかい|階段、階段|kanji
+ちい|地位|ちい|地位|kanji
+ちしき|知識|ちしき|知識|kanji
+ちじん|知人|ちじん|熟人|kanji
+ちゅうこ|中古|ちゅうこ|中古|kanji
+ちゅうし|中止|ちゅうし|中止|kanji
+ちょうき|長期|ちょうき|長期|kanji
+ちょうし|調子|ちょうし|狀況、調子|kanji
+ちょうせつ|調節|ちょうせつ|調節|kanji
+ちょくせつ|直接|ちょくせつ|直接|kanji
+ついか|追加|ついか|追加|kanji
+ついに|遂に|ついに|終於|kanji
+つうか|通過|つうか|通過|kanji
+つうじる|通じる|つうじる|通、理解|kanji
+つうち|通知|つうち|通知|kanji
+つうやく|通訳|つうやく|口譯|kanji
+つねに|常に|つねに|經常、總是|kanji
+つぶれる|潰れる|つぶれる|壓壞、倒閉|kanji
+つらい|辛い|つらい|痛苦、艱辛|kanji
+ていき|定期|ていき|定期|kanji
+ていし|停止|ていし|停止|kanji
+てきおう|適応|てきおう|適應|kanji
+てつや|徹夜|てつや|熬夜|kanji
+てんけい|典型|てんけい|典型|kanji
+てんこう|天候|てんこう|天候|kanji
+てんすう|点数|てんすう|分數|kanji
+であい|出会い|であい|相遇|kanji
+でんし|電子|でんし|電子|kanji
+とういつ|統一|とういつ|統一|kanji
+とうちゃく|到着|とうちゃく|抵達|kanji
+とうひょう|投票|とうひょう|投票|kanji
+とおりすぎる|通り過ぎる|とおりすぎる|經過、路過|kanji
+とかす|溶かす|とかす|溶解|kanji
+とくちょうてき|特徴的|とくちょうてき|有特徵的|kanji
+ととのえる|整える|ととのえる|整理、調整|kanji
+とどく|届く|とどく|送達、到達|kanji
+とにかく|とにかく|とにかく|總之|hiragana
+とりあげる|取り上げる|とりあげる|拿起、採納|kanji
+とりくむ|取り組む|とりくむ|投入、處理|kanji
+どくしょ|読書|どくしょ|讀書|kanji
+どくとく|独特|どくとく|獨特|kanji
+どりょくする|努力する|どりょくする|努力|kanji
+ながれ|流れ|ながれ|流動、流程|kanji
+なっとく|納得|なっとく|理解、接受|kanji
+なにしろ|何しろ|なにしろ|總之、畢竟|kanji
+なやむ|悩む|なやむ|煩惱|kanji
+にちじょう|日常|にちじょう|日常|kanji
+にゅうりょく|入力|にゅうりょく|輸入|kanji
+にんげん|人間|にんげん|人類、人|kanji
+にんしき|認識|にんしき|認識|kanji
+ぬく|抜く|ぬく|拔掉、省略|kanji
+ねんれい|年齢|ねんれい|年齡|kanji
+のうりょく|能力|のうりょく|能力|kanji
+のぞむ|望む|のぞむ|期望|kanji
+のち|後|のち|之後|kanji
+のべる|述べる|のべる|敘述|kanji
+はあく|把握|はあく|掌握|kanji
+はいけい|背景|はいけい|背景|kanji
+はいたつ|配達|はいたつ|配送|kanji
+はかい|破壊|はかい|破壞|kanji
+はくしゅ|拍手|はくしゅ|拍手|kanji
+はげしい|激しい|はげしい|激烈|kanji
+はさん|破産|はさん|破產|kanji
+はっこう|発行|はっこう|發行|kanji
+はったつ|発達|はったつ|發達|kanji
+はっぽう|発泡|はっぽう|發泡|kanji
+はなれる|離れる|はなれる|離開|kanji
+はば|幅|はば|寬度|kanji
+はんえい|反映|はんえい|反映|kanji
+はんだん|判断|はんだん|判斷|kanji
+はんにん|犯人|はんにん|犯人|kanji
+ばあい|場合|ばあい|場合|kanji
+ばめん|場面|ばめん|場面|kanji
+ひかくする|比較する|ひかくする|比較|kanji
+ひがい|被害|ひがい|損害、受害|kanji
+ひじょう|非常|ひじょう|非常|kanji
+ひっし|必死|ひっし|拼命|kanji
+ひつぜん|必然|ひつぜん|必然|kanji
+ひてい|否定|ひてい|否定|kanji
+ひなん|避難|ひなん|避難|kanji
+ひはん|批判|ひはん|批判|kanji
+ひみつ|秘密|ひみつ|秘密|kanji
+ひょうげん|表現|ひょうげん|表現|kanji
+ひょうじ|表示|ひょうじ|顯示、標示|kanji
+ひょうじょう|表情|ひょうじょう|表情|kanji
+ひろがる|広がる|ひろがる|擴展|kanji
+びょうどう|平等|びょうどう|平等|kanji
+ふあん|不安|ふあん|不安|kanji
+ふかのう|不可能|ふかのう|不可能|kanji
+ふきゅう|普及|ふきゅう|普及|kanji
+ふこう|不幸|ふこう|不幸|kanji
+ふしぎ|不思議|ふしぎ|不可思議|kanji
+ふそく|不足|ふそく|不足|kanji
+ふたん|負担|ふたん|負擔|kanji
+ふつうに|普通に|ふつうに|普通地|kanji
+ふまん|不満|ふまん|不滿|kanji
+ふりょう|不良|ふりょう|不良|kanji
+ふんいき|雰囲気|ふんいき|氣氛|kanji
+ぶっか|物価|ぶっか|物價|kanji
+ぶぶん|部分|ぶぶん|部分|kanji
+ぶんけん|文献|ぶんけん|文獻|kanji
+ぶんしょう|文章|ぶんしょう|文章|kanji
+ぶんせき|分析|ぶんせき|分析|kanji
+ぶんや|分野|ぶんや|領域|kanji
+へいきん|平均|へいきん|平均|kanji
+へいわ|平和|へいわ|和平|kanji
+へんしゅう|編集|へんしゅう|編輯|kanji
+へんこう|変更|へんこう|變更|kanji
+べんごし|弁護士|べんごし|律師|kanji
+ほうこう|方向|ほうこう|方向|kanji
+ほうしん|方針|ほうしん|方針|kanji
+ほうほう|方法|ほうほう|方法|kanji
+ほかん|保管|ほかん|保管|kanji
+ほこり|誇り|ほこり|驕傲、自豪|kanji
+ほしょう|保証|ほしょう|保證|kanji
+ほぞん|保存|ほぞん|保存|kanji
+ほとんど|ほとんど|ほとんど|幾乎|hiragana
+ほのお|炎|ほのお|火焰|kanji
+ほんき|本気|ほんき|認真|kanji
+ほんにん|本人|ほんにん|本人|kanji
+まかせる|任せる|まかせる|委託、交給|kanji
+まく|巻く|まく|捲、纏繞|kanji
+まさか|まさか|まさか|難道、萬一|hiragana
+まさに|正に|まさに|正是、的確|kanji
+まち|街|まち|街道、城市|kanji
+まったく|全く|まったく|完全、真是|kanji
+まもる|守る|まもる|守護、遵守|kanji
+まんぞく|満足|まんぞく|滿足|kanji
+みかた|見方|みかた|看法|kanji
+みとめる|認める|みとめる|承認、認可|kanji
+みりょく|魅力|みりょく|魅力|kanji
+むく|向く|むく|適合、朝向|kanji
+むしろ|むしろ|むしろ|不如說、反而|hiragana
+むだ|無駄|むだ|浪費、沒用|kanji
+むね|胸|むね|胸口|kanji
+めん|面|めん|面、方面|kanji
+めんどう|面倒|めんどう|麻煩、照顧|kanji
+もうける|設ける|もうける|設置、制定|kanji
+もしくは|若しくは|もしくは|或者|kanji
+もとめる|求める|もとめる|尋求、要求|kanji
+ものごと|物事|ものごと|事物|kanji
+やがて|やがて|やがて|不久、終於|hiragana
+やくわり|役割|やくわり|角色、職責|kanji
+やとう|雇う|やとう|雇用|kanji
+ゆうこう|有効|ゆうこう|有效|kanji
+ゆうしゅう|優秀|ゆうしゅう|優秀|kanji
+ゆうり|有利|ゆうり|有利|kanji
+ゆたか|豊か|ゆたか|豐富、富裕|kanji
+ようきゅう|要求|ようきゅう|要求|kanji
+ようす|様子|ようす|樣子、情況|kanji
+よきん|預金|よきん|存款|kanji
+よけい|余計|よけい|多餘、更加|kanji
+よさん|予算|よさん|預算|kanji
+よそく|予測|よそく|預測|kanji
+よぼう|予防|よぼう|預防|kanji
+よゆう|余裕|よゆう|餘裕|kanji
+らんぼう|乱暴|らんぼう|粗暴|kanji
+りえき|利益|りえき|利益|kanji
+りかいする|理解する|りかいする|理解|kanji
+りくつ|理屈|りくつ|道理、理論|kanji
+りそう|理想|りそう|理想|kanji
+りゅうこう|流行|りゅうこう|流行|kanji
+りょう|量|りょう|量|kanji
+りょうしゅうしょ|領収書|りょうしゅうしょ|收據|kanji
+れいがい|例外|れいがい|例外|kanji
+れいせい|冷静|れいせい|冷靜|kanji
+れつ|列|れつ|列、隊伍|kanji
+ろんぶん|論文|ろんぶん|論文|kanji
+わざ|技|わざ|技巧、招式|kanji
+わずか|僅か|わずか|僅少、一點點|kanji
+わだい|話題|わだい|話題|kanji
+`, new Set([...N3_LOWER_LEVEL_READINGS, ...N3_BASE_READINGS, ...N3_RESERVED_UPPER_LEVEL_READINGS]), 540);
+
       const RAW_WORDS_BY_LEVEL = {
         N5: RAW_WORDS,
         N4: [
@@ -2743,8 +4053,12 @@
           ["n4_0057", "やくそく", "約束", "やくそく", "約定", "kanji"],
           ["n4_0058", "よてい", "予定", "よてい", "預定", "kanji"],
           ["n4_0059", "りゆう", "理由", "りゆう", "理由", "kanji"],
-          ["n4_0060", "れんらく", "連絡", "れんらく", "聯絡", "kanji"]
-        ],
+          ["n4_0060", "れんらく", "連絡", "れんらく", "聯絡", "kanji"],
+          ...N4_EXTRA_WORD_ROWS
+        ].filter((row) => {
+          const normalizedReading = normalizeKanaReading(row[1] || row[3]);
+          return !N5_WORD_READINGS.has(normalizedReading) && !(normalizedReading === "いっぽう" && row[2] === "一方");
+        }),
         N3: [
           ["n3_0001", "あいじょう", "愛情", "あいじょう", "愛情", "kanji"],
           ["n3_0002", "あんぜん", "安全", "あんぜん", "安全", "kanji"],
@@ -2805,8 +4119,9 @@
           ["n3_0057", "へんか", "変化", "へんか", "變化", "kanji"],
           ["n3_0058", "ほうこく", "報告", "ほうこく", "報告", "kanji"],
           ["n3_0059", "もくてき", "目的", "もくてき", "目的", "kanji"],
-          ["n3_0060", "りかい", "理解", "りかい", "理解", "kanji"]
-        ],
+          ["n3_0060", "りかい", "理解", "りかい", "理解", "kanji"],
+          ...N3_EXTRA_WORD_ROWS
+        ].filter((row) => !N3_LOWER_LEVEL_READINGS.has(normalizeKanaReading(row[1] || row[3]))),
         N2: [
           ["n2_0001", "あいまい", "曖昧", "あいまい", "曖昧", "kanji"],
           ["n2_0002", "あきらか", "明らか", "あきらか", "明顯", "kanji"],
@@ -2919,21 +4234,34 @@
         ]
       };
 
-      function hasLongDash(word) {
-        return [word.reading, word.writing, word.normalizedReading].some((value) => value.includes("ー"));
+      function isPlayableWord(word) {
+        return Boolean(word.normalizedReading) && !word.normalizedReading.includes("ー");
       }
 
-      const ALL_WORDS = LEVEL_ORDER.flatMap((level) =>
-        RAW_WORDS_BY_LEVEL[level].map(([id, reading, writing, normalizedReading, zh, script]) => ({
-          id,
-          reading,
-          writing,
-          normalizedReading,
-          zh,
-          level,
-          script
-        }))
-      ).filter((word) => !hasLongDash(word));
+      function uniqueFirstWordByReadingAndWriting(words) {
+        const seen = new Set();
+        return words.filter((word) => {
+          const key = `${word.normalizedReading}\u0000${word.writing}`;
+          if (seen.has(key)) return false;
+          seen.add(key);
+          return true;
+        });
+      }
+
+      const ALL_WORDS = uniqueFirstWordByReadingAndWriting(LEVEL_ORDER.flatMap((level) =>
+        RAW_WORDS_BY_LEVEL[level].map(([id, reading, writing, declaredNormalizedReading, zh, script]) => {
+          const normalizedReading = normalizeKanaReading(reading || declaredNormalizedReading);
+          return {
+            id,
+            reading,
+            writing,
+            normalizedReading,
+            zh,
+            level,
+            script
+          };
+        })
+      ).filter(isPlayableWord));
 
       const WORDS_BY_LEVEL = LEVEL_ORDER.reduce((map, level) => {
         map[level] = ALL_WORDS.filter((word) => word.level === level);
@@ -2955,6 +4283,7 @@
         playPanel: document.getElementById("playPanel"),
         statusPanel: document.getElementById("statusPanel"),
         backToMapButton: document.getElementById("backToMapButton"),
+        audioToggleButton: document.getElementById("audioToggleButton"),
         board: document.getElementById("board"),
         currentSpell: document.getElementById("currentSpell"),
         targetCount: document.getElementById("targetCount"),
@@ -3016,9 +4345,251 @@
       let hintsLeft = HINTS_PER_ROUND;
       let isPointerSelecting = false;
       let roundAdvanceTimer = 0;
+      let wordCardTimer = 0;
       let resetArmed = false;
       let resetTimer = 0;
       let appView = APP_VIEW_MAP;
+      let audioContext = null;
+      let masterGain = null;
+      let sfxGain = null;
+      let musicGain = null;
+      let audioEnabled = loadAudioPreference();
+      let okinawaMusicTimer = 0;
+      let okinawaMusicStep = 0;
+      let okinawaMusicNextTime = 0;
+      let okinawaMusicRunning = false;
+
+      function loadAudioPreference() {
+        try {
+          return localStorage.getItem(AUDIO_SAVE_KEY) !== "off";
+        } catch (error) {
+          return true;
+        }
+      }
+
+      function persistAudioPreference() {
+        try {
+          localStorage.setItem(AUDIO_SAVE_KEY, audioEnabled ? "on" : "off");
+        } catch (error) {
+          // Audio preference is nice to have; gameplay should keep working without storage.
+        }
+      }
+
+      function ensureAudioGraph() {
+        if (audioContext) return audioContext;
+        const AudioCtor = window.AudioContext || window.webkitAudioContext;
+        if (!AudioCtor) return null;
+
+        audioContext = new AudioCtor();
+        masterGain = audioContext.createGain();
+        sfxGain = audioContext.createGain();
+        musicGain = audioContext.createGain();
+
+        masterGain.gain.value = audioEnabled ? 0.62 : 0;
+        sfxGain.gain.value = 0.72;
+        musicGain.gain.value = 0.18;
+        sfxGain.connect(masterGain);
+        musicGain.connect(masterGain);
+        masterGain.connect(audioContext.destination);
+        return audioContext;
+      }
+
+      function rampGain(gainNode, value, duration = 0.08) {
+        if (!audioContext || !gainNode) return;
+        const now = audioContext.currentTime;
+        gainNode.gain.cancelScheduledValues(now);
+        gainNode.gain.setTargetAtTime(value, now, duration);
+      }
+
+      function unlockAudio() {
+        const context = ensureAudioGraph();
+        if (!context) return;
+        if (context.state === "suspended") {
+          context.resume().catch(() => {});
+        }
+        rampGain(masterGain, audioEnabled ? 0.62 : 0);
+        updateAudioToggle();
+        updateStationMusic();
+      }
+
+      function updateAudioToggle() {
+        els.audioToggleButton.classList.toggle("audio-off", !audioEnabled);
+        els.audioToggleButton.textContent = audioEnabled ? "♪" : "×";
+        els.audioToggleButton.title = audioEnabled ? "關閉音效" : "開啟音效";
+        els.audioToggleButton.setAttribute("aria-label", audioEnabled ? "關閉音效" : "開啟音效");
+        els.audioToggleButton.setAttribute("aria-pressed", String(audioEnabled));
+      }
+
+      function setAudioEnabled(enabled) {
+        audioEnabled = enabled;
+        persistAudioPreference();
+        updateAudioToggle();
+        if (!audioEnabled) {
+          rampGain(masterGain, 0);
+          stopOkinawaMusic();
+          return;
+        }
+        unlockAudio();
+      }
+
+      function toggleAudio() {
+        setAudioEnabled(!audioEnabled);
+      }
+
+      function playBark() {
+        if (!audioEnabled) return;
+        const context = ensureAudioGraph();
+        if (!context || !sfxGain) return;
+        if (context.state === "suspended") context.resume().catch(() => {});
+
+        const start = context.currentTime + 0.01;
+        const pulses = [
+          { time: start, frequency: 330, endFrequency: 150, duration: 0.115, gain: 0.55 },
+          { time: start + 0.12, frequency: 260, endFrequency: 120, duration: 0.14, gain: 0.46 }
+        ];
+
+        pulses.forEach((pulse) => {
+          const oscillator = context.createOscillator();
+          const filter = context.createBiquadFilter();
+          const gain = context.createGain();
+
+          oscillator.type = "sawtooth";
+          oscillator.frequency.setValueAtTime(pulse.frequency, pulse.time);
+          oscillator.frequency.exponentialRampToValueAtTime(pulse.endFrequency, pulse.time + pulse.duration);
+          filter.type = "bandpass";
+          filter.frequency.setValueAtTime(720, pulse.time);
+          filter.frequency.exponentialRampToValueAtTime(360, pulse.time + pulse.duration);
+          filter.Q.value = 2.8;
+          gain.gain.setValueAtTime(0.0001, pulse.time);
+          gain.gain.exponentialRampToValueAtTime(pulse.gain, pulse.time + 0.018);
+          gain.gain.exponentialRampToValueAtTime(0.0001, pulse.time + pulse.duration);
+
+          oscillator.connect(filter);
+          filter.connect(gain);
+          gain.connect(sfxGain);
+          oscillator.start(pulse.time);
+          oscillator.stop(pulse.time + pulse.duration + 0.04);
+        });
+      }
+
+      function schedulePluck(frequency, time, options = {}) {
+        const context = ensureAudioGraph();
+        if (!context || !musicGain) return;
+        const duration = options.duration || 0.58;
+        const gainValue = options.gain || 0.22;
+        const oscillator = context.createOscillator();
+        const filter = context.createBiquadFilter();
+        const gain = context.createGain();
+
+        oscillator.type = options.type || "triangle";
+        oscillator.frequency.setValueAtTime(frequency, time);
+        oscillator.detune.setValueAtTime(options.detune || 0, time);
+        filter.type = "bandpass";
+        filter.frequency.setValueAtTime(frequency * 2.15, time);
+        filter.Q.value = options.q || 6;
+        gain.gain.setValueAtTime(0.0001, time);
+        gain.gain.exponentialRampToValueAtTime(gainValue, time + 0.018);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
+
+        oscillator.connect(filter);
+        filter.connect(gain);
+        gain.connect(musicGain);
+        oscillator.start(time);
+        oscillator.stop(time + duration + 0.04);
+      }
+
+      function scheduleSoftDrum(time) {
+        const context = ensureAudioGraph();
+        if (!context || !musicGain) return;
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+
+        oscillator.type = "sine";
+        oscillator.frequency.setValueAtTime(96, time);
+        oscillator.frequency.exponentialRampToValueAtTime(58, time + 0.16);
+        gain.gain.setValueAtTime(0.0001, time);
+        gain.gain.exponentialRampToValueAtTime(0.08, time + 0.012);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.22);
+
+        oscillator.connect(gain);
+        gain.connect(musicGain);
+        oscillator.start(time);
+        oscillator.stop(time + 0.25);
+      }
+
+      function scheduleOkinawaMusic() {
+        if (!okinawaMusicRunning || !audioContext || !musicGain) return;
+        const melody = [
+          523.25, 659.25, 698.46, 783.99,
+          987.77, 783.99, 698.46, 659.25,
+          523.25, null, 659.25, 698.46,
+          783.99, 698.46, 659.25, null
+        ];
+        while (okinawaMusicNextTime < audioContext.currentTime + OKINAWA_MUSIC_LOOKAHEAD_SECONDS) {
+          const stepInBar = okinawaMusicStep % OKINAWA_MUSIC_STEPS_PER_BAR;
+          const note = melody[okinawaMusicStep % melody.length];
+          if (note) {
+            schedulePluck(note, okinawaMusicNextTime, {
+              duration: stepInBar % 2 === 0 ? 0.62 : 0.42,
+              gain: stepInBar === 0 ? 0.2 : 0.15,
+              q: 7
+            });
+            if (stepInBar === 2 || stepInBar === 6) {
+              schedulePluck(note * 1.01, okinawaMusicNextTime + 0.045, {
+                duration: 0.34,
+                gain: 0.06,
+                detune: 6,
+                q: 8
+              });
+            }
+          }
+          if (stepInBar === 0) {
+            schedulePluck(130.81, okinawaMusicNextTime, { duration: 1.15, gain: 0.08, type: "sine", q: 3 });
+            scheduleSoftDrum(okinawaMusicNextTime + 0.02);
+          }
+          if (stepInBar === 4) {
+            schedulePluck(196, okinawaMusicNextTime, { duration: 0.9, gain: 0.055, type: "sine", q: 3 });
+          }
+          okinawaMusicStep += 1;
+          okinawaMusicNextTime += OKINAWA_MUSIC_STEP_SECONDS;
+        }
+      }
+
+      function shouldPlayFirstStationMusic() {
+        return audioEnabled && appView === APP_VIEW_GAME && currentStation().id === FIRST_STATION_ID;
+      }
+
+      function startOkinawaMusic() {
+        const context = ensureAudioGraph();
+        if (!context || okinawaMusicRunning) return;
+        okinawaMusicRunning = true;
+        okinawaMusicStep = 0;
+        okinawaMusicNextTime = context.currentTime + 0.08;
+        rampGain(musicGain, 0.18, 0.12);
+        scheduleOkinawaMusic();
+        okinawaMusicTimer = window.setInterval(scheduleOkinawaMusic, 180);
+      }
+
+      function stopOkinawaMusic() {
+        if (okinawaMusicTimer) {
+          window.clearInterval(okinawaMusicTimer);
+          okinawaMusicTimer = 0;
+        }
+        okinawaMusicRunning = false;
+        rampGain(musicGain, 0, 0.1);
+      }
+
+      function updateStationMusic() {
+        if (!audioContext) {
+          updateAudioToggle();
+          return;
+        }
+        if (shouldPlayFirstStationMusic()) {
+          startOkinawaMusic();
+          return;
+        }
+        stopOkinawaMusic();
+      }
 
       function showGameApp() {
         els.homeScreen.classList.add("hidden");
@@ -3027,6 +4598,7 @@
       }
 
       function startJourney() {
+        unlockAudio();
         showGameApp();
       }
 
@@ -3044,6 +4616,7 @@
           closePostcardAlbum();
         }
         applyGameBackground();
+        updateStationMusic();
       }
 
       function applyGameBackground() {
@@ -3148,6 +4721,7 @@
           const raw = localStorage.getItem(ROOT_SAVE_KEY);
           if (!raw) return createInitialRootSave();
           const parsed = JSON.parse(raw);
+          if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return createInitialRootSave();
           const savedRegion = REGION_BY_ID.get(parsed.currentRegionId);
           return {
             currentRegionId: savedRegion && isRegionOpen(savedRegion) ? savedRegion.id : REGIONS[0].id
@@ -3178,7 +4752,46 @@
           .slice(0, REVIEW_WORD_LIMIT);
       }
 
+      function normalizeWordIdList(value, allowedIds, limit = Infinity) {
+        if (!Array.isArray(value)) return [];
+        return [...new Set(value
+          .filter((id) => typeof id === "string" && allowedIds.has(id)))]
+          .slice(0, limit);
+      }
+
+      function regionWordsPerStation(region) {
+        return (LEVEL_SETTINGS[region.level] || LEVEL_SETTINGS.N5).wordsPerStation;
+      }
+
+      function normalizeStationWordCounts(region, value) {
+        const output = {};
+        const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
+        const maxCount = regionWordsPerStation(region);
+
+        for (const station of region.stations) {
+          const count = Number(source[station.id]);
+          if (!Number.isFinite(count)) continue;
+          output[station.id] = Math.max(0, Math.min(maxCount, Math.trunc(count)));
+        }
+
+        return output;
+      }
+
+      function normalizeStationFoundWordIds(region, value) {
+        const output = {};
+        const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
+        const levelWordIds = new Set((WORDS_BY_LEVEL[region.level] || []).map((word) => word.id));
+
+        for (const station of region.stations) {
+          const ids = normalizeWordIdList(source[station.id], levelWordIds);
+          if (ids.length) output[station.id] = ids;
+        }
+
+        return output;
+      }
+
       function normalizeRegionSave(region, parsed = {}) {
+        if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) parsed = {};
         const stationIds = new Set(region.stations.map((station) => station.id));
         const completedStationIds = Array.isArray(parsed.completedStationIds)
           ? [...new Set(parsed.completedStationIds.filter((id) => stationIds.has(id)))]
@@ -3207,10 +4820,10 @@
           currentStationId: stationIds.has(parsed.currentStationId) ? parsed.currentStationId : region.stations[0].id,
           completedStationIds,
           collectedPostcardIds,
-          foundWordIds: Array.isArray(parsed.foundWordIds) ? parsed.foundWordIds : [],
+          foundWordIds: normalizeWordIdList(parsed.foundWordIds, new Set(cumulativeWordsForLevel(region.level).map((word) => word.id))),
           reviewWordIds: normalizeReviewWordIds(region, parsed.reviewWordIds),
-          stationWordCounts: parsed.stationWordCounts && typeof parsed.stationWordCounts === "object" ? parsed.stationWordCounts : {},
-          stationFoundWordIds: parsed.stationFoundWordIds && typeof parsed.stationFoundWordIds === "object" ? parsed.stationFoundWordIds : {},
+          stationWordCounts: normalizeStationWordCounts(region, parsed.stationWordCounts),
+          stationFoundWordIds: normalizeStationFoundWordIds(region, parsed.stationFoundWordIds),
           stationPoseIds,
           selectedPoseIds
         };
@@ -3254,8 +4867,6 @@
           }
           if (!raw) return createInitialRegionSave(region);
           const parsed = JSON.parse(raw);
-          const stationExists = region.stations.some((station) => station.id === parsed.currentStationId);
-          if (!stationExists) return createInitialRegionSave(region);
           return normalizeRegionSave(region, parsed);
         } catch (error) {
           console.warn("Region save is corrupted, starting fresh.", error);
@@ -3264,6 +4875,7 @@
       }
 
       function persistSave() {
+        save = normalizeRegionSave(currentRegion(), save);
         localStorage.setItem(regionSaveKey(currentRegion().id), JSON.stringify(save));
       }
 
@@ -3276,8 +4888,9 @@
       }
 
       function clampStationCount(stationId) {
-        const count = Number(save.stationWordCounts[stationId] || 0);
-        return Math.max(0, Math.min(currentWordsPerStation(), count));
+        const count = Number(save.stationWordCounts && save.stationWordCounts[stationId]);
+        if (!Number.isFinite(count)) return 0;
+        return Math.max(0, Math.min(currentWordsPerStation(), Math.trunc(count)));
       }
 
       function shuffled(items) {
@@ -3392,55 +5005,108 @@
           if (!targets.some((target) => target.id === word.id)) targets.push(word);
         }
 
-        return targets.slice(0, 5);
+        return targets.slice(0, MAX_ROUND_TARGETS);
       }
 
-      function neighbors(index) {
-        const size = currentBoardSize();
-        const row = Math.floor(index / size);
-        const col = index % size;
-        const output = [];
-        for (let dr = -1; dr <= 1; dr += 1) {
-          for (let dc = -1; dc <= 1; dc += 1) {
-            if (dr === 0 && dc === 0) continue;
-            const nextRow = row + dr;
-            const nextCol = col + dc;
-            if (nextRow >= 0 && nextRow < size && nextCol >= 0 && nextCol < size) {
-              output.push(nextRow * size + nextCol);
-            }
-          }
-        }
-        return shuffled(output);
+      function uniqueWords(words) {
+        const seen = new Set();
+        return words.filter((word) => {
+          if (!word || seen.has(word.id)) return false;
+          seen.add(word.id);
+          return true;
+        });
+      }
+
+      function roundTargetCandidatePool(priorityWords, maxLength) {
+        const foundGlobal = new Set(save.foundWordIds);
+        const currentWords = currentLevelWords().filter((word) => kanaUnits(word.normalizedReading).length <= maxLength);
+        const unseen = shuffled(currentWords.filter((word) => !foundGlobal.has(word.id)));
+        const seen = shuffled(currentWords.filter((word) => foundGlobal.has(word.id)));
+        return uniqueWords([...priorityWords, ...unseen, ...seen]);
       }
 
       function tryPlaceWord(grid, word) {
         const size = currentBoardSize();
         const units = kanaUnits(word.normalizedReading);
-        const starts = shuffled([...Array(size * size).keys()]);
+        const nextGrid = [...grid];
+        const path = [];
+        const used = new Set();
+        const indexes = [...Array(size * size).keys()];
 
-        function dfs(position, unitIndex, path, localGrid) {
-          const expected = units[unitIndex];
-          if (localGrid[position] && localGrid[position] !== expected) return null;
+        for (const kana of units) {
+          const matching = indexes.filter((index) => !used.has(index) && nextGrid[index] === kana);
+          const empty = indexes.filter((index) => !used.has(index) && !nextGrid[index]);
+          const candidates = matching.length ? matching : empty;
+          if (!candidates.length) return null;
 
-          const nextGrid = [...localGrid];
-          nextGrid[position] = expected;
-          const nextPath = [...path, position];
-          if (unitIndex === units.length - 1) return { grid: nextGrid, path: nextPath };
+          const index = shuffled(candidates)[0];
+          nextGrid[index] = kana;
+          path.push(index);
+          used.add(index);
+        }
 
-          const used = new Set(nextPath);
-          for (const next of neighbors(position)) {
-            if (used.has(next)) continue;
-            const result = dfs(next, unitIndex + 1, nextPath, nextGrid);
-            if (result) return result;
+        return { grid: nextGrid, path };
+      }
+
+      function placeOptionalTargets(grid, placedTargets, candidates, desiredCount) {
+        let nextGrid = [...grid];
+        const placedIds = new Set(placedTargets.map((target) => target.word.id));
+        const nextTargets = [...placedTargets];
+
+        for (const word of shuffled(candidates)) {
+          if (nextTargets.length >= desiredCount) break;
+          if (placedIds.has(word.id)) continue;
+          const result = tryPlaceWord(nextGrid, word);
+          if (!result) continue;
+          nextGrid = result.grid;
+          placedIds.add(word.id);
+          nextTargets.push({ word, path: result.path, found: false });
+        }
+
+        return { grid: nextGrid, placedTargets: nextTargets };
+      }
+
+      function placeTargetsRandomly(size, priorityCandidates, candidates, desiredCount) {
+        let best = { grid: Array(size * size).fill(""), placedTargets: [] };
+        const priorityIds = new Set(priorityCandidates.map((word) => word.id));
+        const fallbackCandidates = candidates.filter((word) => !priorityIds.has(word.id));
+
+        for (let attempt = 0; attempt < 60; attempt += 1) {
+          let grid = Array(size * size).fill("");
+          const placedTargets = [];
+          const orderedCandidates = uniqueWords([...shuffled(priorityCandidates), ...shuffled(fallbackCandidates)]);
+
+          for (const word of orderedCandidates) {
+            if (placedTargets.length >= desiredCount) break;
+            const result = tryPlaceWord(grid, word);
+            if (!result) continue;
+            grid = result.grid;
+            placedTargets.push({ word, path: result.path, found: false });
           }
-          return null;
+
+          if (placedTargets.length > best.placedTargets.length) {
+            best = { grid, placedTargets };
+          }
+          if (placedTargets.length >= desiredCount) break;
         }
 
-        for (const start of starts) {
-          const result = dfs(start, 0, [], grid);
-          if (result) return result;
+        return best;
+      }
+
+      function forceMinimumTargets(size, candidates, minCount, desiredCount) {
+        let grid = Array(size * size).fill("");
+        const placedTargets = [];
+
+        for (const word of candidates) {
+          if (placedTargets.length >= minCount) break;
+          const result = tryPlaceWord(grid, word);
+          if (!result) continue;
+          grid = result.grid;
+          placedTargets.push({ word, path: result.path, found: false });
         }
-        return null;
+
+        if (placedTargets.length < minCount) return null;
+        return placeOptionalTargets(grid, placedTargets, candidates, desiredCount);
       }
 
       function generateRound() {
@@ -3448,23 +5114,14 @@
         roundAdvanceTimer = 0;
         const size = currentBoardSize();
         const targetCandidates = chooseTargets();
-        let best = null;
+        const maxLength = size * size;
+        const candidates = roundTargetCandidatePool(targetCandidates, maxLength);
+        const minCount = Math.min(MIN_ROUND_TARGETS, candidates.length);
+        const desiredCount = Math.min(MAX_ROUND_TARGETS, Math.max(minCount, targetCandidates.length));
+        let best = placeTargetsRandomly(size, targetCandidates, candidates, desiredCount);
 
-        for (let attempt = 0; attempt < 60; attempt += 1) {
-          let grid = Array(size * size).fill("");
-          const placedTargets = [];
-
-          for (const word of shuffled(targetCandidates)) {
-            const result = tryPlaceWord(grid, word);
-            if (!result) continue;
-            grid = result.grid;
-            placedTargets.push({ word, path: result.path, found: false });
-          }
-
-          if (!best || placedTargets.length > best.placedTargets.length) {
-            best = { grid, placedTargets };
-          }
-          if (placedTargets.length >= 3) break;
+        if (best.placedTargets.length < minCount) {
+          best = forceMinimumTargets(size, candidates, minCount, desiredCount) || best;
         }
 
         const grid = [...best.grid];
@@ -3472,7 +5129,7 @@
           if (!grid[index]) grid[index] = randomKana(grid);
         }
         board = grid;
-        roundTargets = best.placedTargets.slice(0, 5);
+        roundTargets = best.placedTargets.slice(0, MAX_ROUND_TARGETS);
         roundFoundIds = new Set();
         hintedTargetIds = new Set();
         selectedCells = [];
@@ -3511,7 +5168,8 @@
         els.stationName.textContent = station.placeZh;
         els.stationJa.textContent = station.placeJa;
         els.foodName.textContent = `${station.foodJa}｜${station.foodZh}`;
-        els.stationProgressText.textContent = `${count} / ${wordsPerStation}`;
+        const isReplayStation = save.completedStationIds.includes(station.id) && collectedPoseIds(station).length > 0;
+        els.stationProgressText.textContent = isReplayStation ? `下一張 ${count} / ${wordsPerStation}` : `${count} / ${wordsPerStation}`;
         els.stationProgressFill.style.width = `${(count / wordsPerStation) * 100}%`;
         renderRegions();
         renderMap();
@@ -3977,7 +5635,11 @@
         updateSpell();
       }
 
-      function wordDisplay(word) {
+      function wordDisplay(word, submittedReading = "") {
+        if (word.script === "katakana") {
+          const reading = submittedReading || word.normalizedReading;
+          return reading === word.writing ? word.writing : `${reading}／${word.writing}`;
+        }
         if (word.reading === word.writing) return word.reading;
         return `${word.normalizedReading}／${word.writing}`;
       }
@@ -3987,7 +5649,10 @@
         const matches = (WORDS_BY_READING.get(spell) || []).filter((word) => allowedLevels.has(word.level));
         if (!matches.length) return null;
         const station = currentStation();
-        const stationFound = new Set(save.stationFoundWordIds[station.id] || []);
+        const stationFoundIds = Array.isArray(save.stationFoundWordIds && save.stationFoundWordIds[station.id])
+          ? save.stationFoundWordIds[station.id]
+          : [];
+        const stationFound = new Set(stationFoundIds);
         return (
           matches.find((word) => word.level === currentLevel() && !roundFoundIds.has(word.id) && !stationFound.has(word.id)) ||
           matches.find((word) => !roundFoundIds.has(word.id) && !stationFound.has(word.id)) ||
@@ -3996,11 +5661,153 @@
         );
       }
 
-      function showWordCard(word) {
-        els.wordMain.textContent = wordDisplay(word);
+      function countKanaUnits(text) {
+        return kanaUnits(text).reduce((counts, kana) => {
+          counts.set(kana, (counts.get(kana) || 0) + 1);
+          return counts;
+        }, new Map());
+      }
+
+      function kanaCountDiff(expected, actual) {
+        const expectedCounts = countKanaUnits(expected);
+        const actualCounts = countKanaUnits(actual);
+        const missing = [];
+        const extra = [];
+        const allKana = new Set([...expectedCounts.keys(), ...actualCounts.keys()]);
+
+        for (const kana of allKana) {
+          const expectedCount = expectedCounts.get(kana) || 0;
+          const actualCount = actualCounts.get(kana) || 0;
+          for (let index = actualCount; index < expectedCount; index += 1) missing.push(kana);
+          for (let index = expectedCount; index < actualCount; index += 1) extra.push(kana);
+        }
+
+        return { missing, extra };
+      }
+
+      function formatKanaList(kanaList) {
+        const counts = kanaList.reduce((map, kana) => {
+          map.set(kana, (map.get(kana) || 0) + 1);
+          return map;
+        }, new Map());
+        return [...counts.entries()].map(([kana, count]) => count > 1 ? `「${kana}」×${count}` : `「${kana}」`).join("、");
+      }
+
+      function kanaVowel(kana) {
+        const vowels = {
+          あ: "a", ぁ: "a", か: "a", が: "a", さ: "a", ざ: "a", た: "a", だ: "a", な: "a", は: "a", ば: "a", ぱ: "a", ま: "a", や: "a", ゃ: "a", ら: "a", わ: "a",
+          い: "i", ぃ: "i", き: "i", ぎ: "i", し: "i", じ: "i", ち: "i", ぢ: "i", に: "i", ひ: "i", び: "i", ぴ: "i", み: "i", り: "i",
+          う: "u", ぅ: "u", ゔ: "u", く: "u", ぐ: "u", す: "u", ず: "u", つ: "u", づ: "u", ぬ: "u", ふ: "u", ぶ: "u", ぷ: "u", む: "u", ゆ: "u", ゅ: "u", る: "u",
+          え: "e", ぇ: "e", け: "e", げ: "e", せ: "e", ぜ: "e", て: "e", で: "e", ね: "e", へ: "e", べ: "e", ぺ: "e", め: "e", れ: "e",
+          お: "o", ぉ: "o", こ: "o", ご: "o", そ: "o", ぞ: "o", と: "o", ど: "o", の: "o", ほ: "o", ぼ: "o", ぽ: "o", も: "o", よ: "o", ょ: "o", ろ: "o", を: "o"
+        };
+        return vowels[kana] || "";
+      }
+
+      function isLongVowelUnit(units, index) {
+        if (index <= 0) return false;
+        const kana = units[index];
+        if (kana === "ー") return true;
+        const previousVowel = kanaVowel(units[index - 1]);
+        const currentVowel = kanaVowel(kana);
+        if (!previousVowel || !currentVowel) return false;
+        if (currentVowel === previousVowel) return true;
+        return (kana === "う" && (previousVowel === "o" || previousVowel === "u")) || (kana === "い" && previousVowel === "e");
+      }
+
+      function specialKanaCounts(reading) {
+        const counts = new Map();
+        const units = kanaUnits(reading);
+        units.forEach((kana, index) => {
+          if (kana !== "っ" && !isLongVowelUnit(units, index)) return;
+          counts.set(kana, (counts.get(kana) || 0) + 1);
+        });
+        return counts;
+      }
+
+      function hasSpecialReading(reading) {
+        return specialKanaCounts(reading).size > 0;
+      }
+
+      function countSpecialOverlap(kanaList, reading) {
+        const counts = specialKanaCounts(reading);
+        let total = 0;
+        for (const kana of kanaList) {
+          const count = counts.get(kana) || 0;
+          if (!count) continue;
+          counts.set(kana, count - 1);
+          total += 1;
+        }
+        return total;
+      }
+
+      function nearMissDetailsForWord(word, spell, isClueWord) {
+        const expected = word.normalizedReading;
+        if (spell === expected) return null;
+
+        const expectedLength = kanaUnits(expected).length;
+        const spellLength = kanaUnits(spell).length;
+        const diff = kanaCountDiff(expected, spell);
+        const totalDiff = diff.missing.length + diff.extra.length;
+        const lengthDiff = Math.abs(expectedLength - spellLength);
+        const specialDiffCount = countSpecialOverlap(diff.missing, expected) + countSpecialOverlap(diff.extra, spell);
+        const isSpecialNearMiss = hasSpecialReading(expected) && (specialDiffCount > 0 || totalDiff <= 2);
+
+        if (!diff.missing.length && !diff.extra.length && spell !== expected) {
+          if (!isClueWord && !isSpecialNearMiss) return null;
+          return {
+            message: `順序不對：${word.zh}要拼「${expected}」，不是「${spell}」。`,
+            totalDiff,
+            lengthDiff,
+            isClueWord
+          };
+        }
+
+        if (lengthDiff <= (isSpecialNearMiss ? 2 : 1) && totalDiff <= 2 && (isClueWord || isSpecialNearMiss)) {
+          let message = "";
+          if (diff.missing.length && !diff.extra.length) {
+            message = `差了${formatKanaList(diff.missing)}：${word.zh}要拼「${expected}」。`;
+          }
+          if (!diff.missing.length && diff.extra.length) {
+            message = `多了${formatKanaList(diff.extra)}：${word.zh}要拼「${expected}」。`;
+          }
+          if (diff.missing.length && diff.extra.length) {
+            message = `這裡應該用${formatKanaList(diff.missing)}，不是${formatKanaList(diff.extra)}：${word.zh}要拼「${expected}」。`;
+          }
+          return { message, totalDiff, lengthDiff, isClueWord };
+        }
+
+        return null;
+      }
+
+      function describeNearMiss(spell) {
+        const target = currentClueTarget();
+        const clueDetails = target ? nearMissDetailsForWord(target.word, spell, true) : null;
+        if (clueDetails) return clueDetails.message;
+
+        const candidates = currentPlayableWords().filter((word) => hasSpecialReading(word.normalizedReading));
+        let best = null;
+        for (const word of candidates) {
+          const details = nearMissDetailsForWord(word, spell, false);
+          if (!details) continue;
+          if (!best || details.totalDiff < best.totalDiff || (details.totalDiff === best.totalDiff && details.lengthDiff < best.lengthDiff)) {
+            best = details;
+          }
+        }
+        return best ? best.message : "";
+      }
+
+      function showWordCard(word, submittedReading = "") {
+        window.clearTimeout(wordCardTimer);
+        wordCardTimer = 0;
+        els.wordMain.textContent = wordDisplay(word, submittedReading);
         els.wordZh.textContent = word.zh;
         els.wordLevel.textContent = word.level;
         els.wordCard.classList.add("show");
+        wordCardTimer = window.setTimeout(() => {
+          els.wordCard.classList.remove("show");
+          wordCardTimer = 0;
+        }, WORD_CARD_VISIBLE_MS);
       }
 
       function scheduleNextRoundIfNeeded(station) {
@@ -4024,12 +5831,14 @@
 
         const word = pickMatchedWord(spell);
         if (!word) {
-          setMessage(`「${spell}」目前不在 ${currentLevel()} 的累加詞庫裡。`);
+          setMessage(describeNearMiss(spell) || `「${spell}」目前不在 ${currentLevel()} 的累加詞庫裡。`);
           return;
         }
 
         const station = currentStation();
-        if (!save.stationFoundWordIds[station.id]) save.stationFoundWordIds[station.id] = [];
+        if (!save.stationFoundWordIds || typeof save.stationFoundWordIds !== "object" || Array.isArray(save.stationFoundWordIds)) save.stationFoundWordIds = {};
+        if (!Array.isArray(save.stationFoundWordIds[station.id])) save.stationFoundWordIds[station.id] = [];
+        if (!save.stationWordCounts || typeof save.stationWordCounts !== "object" || Array.isArray(save.stationWordCounts)) save.stationWordCounts = {};
         const stationFound = new Set(save.stationFoundWordIds[station.id]);
         const isCurrentLevelWord = word.level === currentLevel();
         const isNewForStation = isCurrentLevelWord && !stationFound.has(word.id);
@@ -4042,7 +5851,8 @@
         }
         rotateReviewWord(word.id);
 
-        showWordCard(word);
+        playBark();
+        showWordCard(word, spell);
         if (!isCurrentLevelWord) {
           setMessage(`命中：${wordDisplay(word)}。這是 ${word.level} 複習詞，會跳卡但不計入 ${currentLevel()} 過站。`);
         } else {
@@ -4124,7 +5934,7 @@
         hintsLeft -= 1;
         const freshTargets = hiddenTargets.filter((target) => !hintedTargetIds.has(target.word.id));
         const hintPool = freshTargets.length ? freshTargets : hiddenTargets;
-        const target = currentClueTarget() || hintPool[Math.floor(Math.random() * hintPool.length)];
+        const target = hintPool[0];
         hintedTargetIds.add(target.word.id);
         addReviewWord(target.word);
         const firstIndex = target.path[0];
@@ -4161,11 +5971,14 @@
         setMessage(`${currentRegion().name}區進度已重置，其他區不受影響。`);
       }
 
-      function cellFromPointer(event) {
-        const element = document.elementFromPoint(event.clientX, event.clientY);
+      function cellIndexFromElement(element) {
         const cell = element && element.closest ? element.closest(".kana-cell") : null;
         if (!cell || !els.board.contains(cell)) return null;
         return Number(cell.dataset.index);
+      }
+
+      function cellFromPointer(event) {
+        return cellIndexFromElement(document.elementFromPoint(event.clientX, event.clientY));
       }
 
       els.board.addEventListener("pointerdown", (event) => {
@@ -4186,11 +5999,20 @@
         isPointerSelecting = false;
       });
 
+      els.board.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        const index = cellIndexFromElement(event.target);
+        if (index === null) return;
+        event.preventDefault();
+        selectCell(index);
+      });
+
       els.submitButton.addEventListener("click", submitSpell);
       els.clearButton.addEventListener("click", clearSelection);
       els.hintButton.addEventListener("click", useHint);
       els.newRoundButton.addEventListener("click", generateRound);
       els.backToMapButton.addEventListener("click", showMapSelect);
+      els.audioToggleButton.addEventListener("click", toggleAudio);
       els.resetButton.addEventListener("click", armReset);
       els.nextStationButton.addEventListener("click", goNextStation);
       els.postcardToggleButton.addEventListener("click", openPostcardAlbum);
@@ -4218,6 +6040,7 @@
       });
       els.startJourneyButton.addEventListener("click", startJourney);
 
+      updateAudioToggle();
       renderAll();
       generateRound();
 
@@ -4240,7 +6063,7 @@
           counts[level] = WORDS_BY_LEVEL[level].length;
           return counts;
         }, {}),
-        noLongDashWords: () => ALL_WORDS.every((word) => !hasLongDash(word)),
+        noLongDashWords: () => ALL_WORDS.every((word) => !word.normalizedReading.includes("ー")),
         targetCount: () => roundTargets.length,
         stationCount: () => clampStationCount(currentStation().id),
         clueText: () => els.clueText.textContent,
