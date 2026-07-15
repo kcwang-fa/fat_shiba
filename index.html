@@ -1634,6 +1634,8 @@
         N1: { boardSize: 6, wordsPerStation: 15 }
       };
       const HINTS_PER_ROUND = 3;
+      const REVIEW_TARGETS_PER_ROUND = 1;
+      const REVIEW_WORD_LIMIT = 30;
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
       const APP_VIEW_MAP = "map";
       const APP_VIEW_GAME = "game";
@@ -3081,6 +3083,14 @@
           .sort((a, b) => a - b);
       }
 
+      function normalizeReviewWordIds(region, value) {
+        if (!Array.isArray(value)) return [];
+        const playableIds = new Set(cumulativeWordsForLevel(region.level).map((word) => word.id));
+        return [...new Set(value
+          .filter((id) => typeof id === "string" && playableIds.has(id)))]
+          .slice(0, REVIEW_WORD_LIMIT);
+      }
+
       function normalizeRegionSave(region, parsed = {}) {
         const stationIds = new Set(region.stations.map((station) => station.id));
         const completedStationIds = Array.isArray(parsed.completedStationIds)
@@ -3111,6 +3121,7 @@
           completedStationIds,
           collectedPostcardIds,
           foundWordIds: Array.isArray(parsed.foundWordIds) ? parsed.foundWordIds : [],
+          reviewWordIds: normalizeReviewWordIds(region, parsed.reviewWordIds),
           stationWordCounts: parsed.stationWordCounts && typeof parsed.stationWordCounts === "object" ? parsed.stationWordCounts : {},
           stationFoundWordIds: parsed.stationFoundWordIds && typeof parsed.stationFoundWordIds === "object" ? parsed.stationFoundWordIds : {},
           stationPoseIds,
@@ -3124,6 +3135,7 @@
           completedStationIds: [],
           collectedPostcardIds: [],
           foundWordIds: [],
+          reviewWordIds: [],
           stationWordCounts: {},
           stationFoundWordIds: {},
           stationPoseIds: {},
@@ -3211,6 +3223,29 @@
         return WORDS_BY_LEVEL[currentLevel()] || [];
       }
 
+      function currentReviewWords(maxLength = currentBoardSize() * currentBoardSize()) {
+        const playableWords = new Map(currentPlayableWords()
+          .filter((word) => kanaUnits(word.normalizedReading).length <= maxLength)
+          .map((word) => [word.id, word]));
+        return (save.reviewWordIds || [])
+          .map((id) => playableWords.get(id))
+          .filter(Boolean);
+      }
+
+      function addReviewWord(word) {
+        if (levelRank(word.level) > levelRank(currentLevel())) return;
+        const nextIds = [word.id, ...(save.reviewWordIds || []).filter((id) => id !== word.id)];
+        save.reviewWordIds = nextIds.slice(0, REVIEW_WORD_LIMIT);
+      }
+
+      function rotateReviewWord(wordId) {
+        if (!save.reviewWordIds || !save.reviewWordIds.includes(wordId)) return;
+        save.reviewWordIds = [
+          ...save.reviewWordIds.filter((id) => id !== wordId),
+          wordId
+        ];
+      }
+
       function buildKanaBag(words) {
         const counts = new Map();
         for (const word of words) {
@@ -3248,6 +3283,7 @@
         const foundGlobal = new Set(save.foundWordIds);
         const maxLength = currentBoardSize() * currentBoardSize();
         const currentWords = currentLevelWords().filter((word) => kanaUnits(word.normalizedReading).length <= maxLength);
+        const reviewWords = currentReviewWords(maxLength);
         const unseen = shuffled(currentWords.filter((word) => !foundGlobal.has(word.id)));
         const seen = shuffled(currentWords.filter((word) => foundGlobal.has(word.id)));
         const desiredCount = 3 + Math.floor(Math.random() * 3);
@@ -3258,6 +3294,10 @@
             const word = ALL_WORDS.find((item) => item.id === id);
             if (word) targets.push(word);
           }
+        }
+
+        for (const word of reviewWords.slice(0, REVIEW_TARGETS_PER_ROUND)) {
+          if (!targets.some((target) => target.id === word.id)) targets.push(word);
         }
 
         for (const word of [...unseen, ...seen]) {
@@ -3913,6 +3953,7 @@
           save.stationFoundWordIds[station.id].push(word.id);
           save.stationWordCounts[station.id] = clampStationCount(station.id) + 1;
         }
+        rotateReviewWord(word.id);
 
         showWordCard(word);
         if (!isCurrentLevelWord) {
@@ -3998,6 +4039,7 @@
         const hintPool = freshTargets.length ? freshTargets : hiddenTargets;
         const target = currentClueTarget() || hintPool[Math.floor(Math.random() * hintPool.length)];
         hintedTargetIds.add(target.word.id);
+        addReviewWord(target.word);
         const firstIndex = target.path[0];
         const cell = els.board.querySelector(`[data-index="${firstIndex}"]`);
         if (cell) {
@@ -4005,7 +4047,8 @@
           window.setTimeout(() => cell.classList.remove("hint"), 2000);
         }
         renderControls();
-        setMessage("提示亮起一個保底詞的首字。");
+        persistSave();
+        setMessage("提示亮起一個保底詞的首字，這個詞之後會再出現讓你複習。");
       }
 
       function armReset() {
@@ -4116,6 +4159,7 @@
         clueText: () => els.clueText.textContent,
         clueHidden: () => els.cluePanel.classList.contains("hidden"),
         hintsLeft: () => hintsLeft,
+        reviewWordIds: () => [...(save.reviewWordIds || [])],
         postcardVisuals: () => currentStations().map((station) => postcardVisual(station))
       };
     })();
