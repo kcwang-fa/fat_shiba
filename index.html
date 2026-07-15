@@ -51,6 +51,27 @@
         linear-gradient(180deg, #f8fbf4 0%, var(--paper) 44%, #f5efe8 100%);
     }
 
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0;
+      background:
+        linear-gradient(180deg, rgba(255, 253, 248, 0.12), rgba(255, 248, 239, 0.34)),
+        linear-gradient(90deg, rgba(255, 248, 239, 0.18), rgba(255, 248, 239, 0.04) 42%, rgba(255, 248, 239, 0.2)),
+        var(--game-background-image, none);
+      background-position: center, center, var(--game-background-position, center);
+      background-size: cover, cover, cover;
+      background-repeat: no-repeat;
+      transition: opacity 0.22s ease;
+      z-index: 0;
+    }
+
+    body.game-view::before {
+      opacity: 1;
+    }
+
     button,
     input {
       font: inherit;
@@ -75,6 +96,7 @@
       min-height: 100svh;
       padding: max(18px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
       position: relative;
+      z-index: 1;
       display: grid;
       align-items: end;
       justify-items: end;
@@ -129,6 +151,8 @@
       padding: 14px 14px calc(18px + env(safe-area-inset-bottom));
       display: grid;
       gap: 12px;
+      position: relative;
+      z-index: 1;
     }
 
     .topbar {
@@ -286,6 +310,14 @@
       padding: 14px;
       display: grid;
       gap: 12px;
+    }
+
+    body.game-view .station-panel,
+    body.game-view .play-panel,
+    body.game-view .status-panel {
+      background: rgba(255, 253, 248, 0.78);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
     }
 
     .station-head {
@@ -1666,6 +1698,11 @@
           mapY: "48%",
           mobileMapX: "30%",
           mobileMapY: "88%",
+          gameBackground: {
+            png: "assets/okinawa-level-background.png",
+            webp: "assets/okinawa-level-background.webp",
+            position: "center 47%"
+          },
           stations: [
             {
               id: "okinawa_01",
@@ -2976,6 +3013,26 @@
         if (isMapView) {
           closePostcardAlbum();
         }
+        applyGameBackground();
+      }
+
+      function applyGameBackground() {
+        const background = currentRegion().gameBackground;
+        const shouldShowBackground = appView === APP_VIEW_GAME && background;
+        document.body.classList.toggle("game-view", Boolean(shouldShowBackground));
+        if (!shouldShowBackground) {
+          document.body.style.removeProperty("--game-background-image");
+          document.body.style.removeProperty("--game-background-position");
+          return;
+        }
+
+        const png = background.png || background.webp;
+        const webp = background.webp || optimizedImageSrc(png);
+        document.body.style.setProperty(
+          "--game-background-image",
+          `image-set(url("${webp}") type("image/webp"), url("${png}") type("image/png"))`
+        );
+        document.body.style.setProperty("--game-background-position", background.position || "center");
       }
 
       function showMapSelect() {
