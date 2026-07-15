@@ -1705,7 +1705,7 @@
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
       const APP_VIEW_MAP = "map";
       const APP_VIEW_GAME = "game";
-      const FIRST_STATION_ID = "okinawa_01";
+      const FIRST_REGION_ID = "n5_okinawa";
       const OKINAWA_MUSIC_STEPS_PER_BAR = 8;
       const OKINAWA_MUSIC_STEP_SECONDS = 0.33;
       const OKINAWA_MUSIC_LOOKAHEAD_SECONDS = 0.9;
@@ -4354,6 +4354,7 @@
       let sfxGain = null;
       let musicGain = null;
       let audioEnabled = loadAudioPreference();
+      let barkNoiseBuffer = null;
       let okinawaMusicTimer = 0;
       let okinawaMusicStep = 0;
       let okinawaMusicNextTime = 0;
@@ -4403,13 +4404,17 @@
 
       function unlockAudio() {
         const context = ensureAudioGraph();
-        if (!context) return;
+        if (!context) return Promise.resolve(null);
+        const afterResume = () => {
+          rampGain(masterGain, audioEnabled ? 0.78 : 0);
+          updateAudioToggle();
+          updateStationMusic();
+          return context;
+        };
         if (context.state === "suspended") {
-          context.resume().catch(() => {});
+          return context.resume().then(afterResume).catch(afterResume);
         }
-        rampGain(masterGain, audioEnabled ? 0.62 : 0);
-        updateAudioToggle();
-        updateStationMusic();
+        return Promise.resolve(afterResume());
       }
 
       function updateAudioToggle() {
@@ -4436,40 +4441,85 @@
         setAudioEnabled(!audioEnabled);
       }
 
-      function playBark() {
-        if (!audioEnabled) return;
+      function barkNoise() {
+        const context = ensureAudioGraph();
+        if (!context) return null;
+        if (barkNoiseBuffer) return barkNoiseBuffer;
+
+        const length = Math.floor(context.sampleRate * 0.32);
+        barkNoiseBuffer = context.createBuffer(1, length, context.sampleRate);
+        const data = barkNoiseBuffer.getChannelData(0);
+        for (let index = 0; index < length; index += 1) {
+          const decay = 1 - index / length;
+          data[index] = (Math.random() * 2 - 1) * decay;
+        }
+        return barkNoiseBuffer;
+      }
+
+      function scheduleBarkBurst(time, options) {
         const context = ensureAudioGraph();
         if (!context || !sfxGain) return;
-        if (context.state === "suspended") context.resume().catch(() => {});
+        const duration = options.duration;
+        const noiseSource = context.createBufferSource();
+        const noiseBand = context.createBiquadFilter();
+        const noiseLowpass = context.createBiquadFilter();
+        const noiseGain = context.createGain();
+        const throat = context.createOscillator();
+        const throatFilter = context.createBiquadFilter();
+        const throatGain = context.createGain();
 
-        const start = context.currentTime + 0.01;
-        const pulses = [
-          { time: start, frequency: 330, endFrequency: 150, duration: 0.115, gain: 0.55 },
-          { time: start + 0.12, frequency: 260, endFrequency: 120, duration: 0.14, gain: 0.46 }
-        ];
+        noiseSource.buffer = barkNoise();
+        noiseBand.type = "bandpass";
+        noiseBand.frequency.setValueAtTime(options.noiseFrequency, time);
+        noiseBand.frequency.exponentialRampToValueAtTime(options.noiseEndFrequency, time + duration);
+        noiseBand.Q.value = 1.1;
+        noiseLowpass.type = "lowpass";
+        noiseLowpass.frequency.setValueAtTime(1900, time);
+        noiseLowpass.frequency.exponentialRampToValueAtTime(900, time + duration);
+        noiseGain.gain.setValueAtTime(0.0001, time);
+        noiseGain.gain.exponentialRampToValueAtTime(options.noiseGain, time + 0.012);
+        noiseGain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
 
-        pulses.forEach((pulse) => {
-          const oscillator = context.createOscillator();
-          const filter = context.createBiquadFilter();
-          const gain = context.createGain();
+        throat.type = "square";
+        throat.frequency.setValueAtTime(options.frequency, time);
+        throat.frequency.exponentialRampToValueAtTime(options.endFrequency, time + duration);
+        throatFilter.type = "bandpass";
+        throatFilter.frequency.setValueAtTime(options.formant, time);
+        throatFilter.frequency.exponentialRampToValueAtTime(options.formant * 0.72, time + duration);
+        throatFilter.Q.value = 3.4;
+        throatGain.gain.setValueAtTime(0.0001, time);
+        throatGain.gain.exponentialRampToValueAtTime(options.throatGain, time + 0.018);
+        throatGain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
 
-          oscillator.type = "sawtooth";
-          oscillator.frequency.setValueAtTime(pulse.frequency, pulse.time);
-          oscillator.frequency.exponentialRampToValueAtTime(pulse.endFrequency, pulse.time + pulse.duration);
-          filter.type = "bandpass";
-          filter.frequency.setValueAtTime(720, pulse.time);
-          filter.frequency.exponentialRampToValueAtTime(360, pulse.time + pulse.duration);
-          filter.Q.value = 2.8;
-          gain.gain.setValueAtTime(0.0001, pulse.time);
-          gain.gain.exponentialRampToValueAtTime(pulse.gain, pulse.time + 0.018);
-          gain.gain.exponentialRampToValueAtTime(0.0001, pulse.time + pulse.duration);
+        noiseSource.connect(noiseBand);
+        noiseBand.connect(noiseLowpass);
+        noiseLowpass.connect(noiseGain);
+        noiseGain.connect(sfxGain);
+        throat.connect(throatFilter);
+        throatFilter.connect(throatGain);
+        throatGain.connect(sfxGain);
 
-          oscillator.connect(filter);
-          filter.connect(gain);
-          gain.connect(sfxGain);
-          oscillator.start(pulse.time);
-          oscillator.stop(pulse.time + pulse.duration + 0.04);
+        noiseSource.start(time);
+        throat.start(time);
+        noiseSource.stop(time + duration + 0.03);
+        throat.stop(time + duration + 0.03);
+      }
+
+      function scheduleBarkSound() {
+        const context = ensureAudioGraph();
+        if (!context || !sfxGain) return;
+        const start = context.currentTime + 0.018;
+        [
+          { time: start, duration: 0.16, frequency: 175, endFrequency: 92, formant: 520, noiseFrequency: 980, noiseEndFrequency: 520, throatGain: 0.34, noiseGain: 0.58 },
+          { time: start + 0.15, duration: 0.19, frequency: 150, endFrequency: 78, formant: 430, noiseFrequency: 760, noiseEndFrequency: 410, throatGain: 0.3, noiseGain: 0.52 }
+        ].forEach((burst) => {
+          scheduleBarkBurst(burst.time, burst);
         });
+      }
+
+      function playBark() {
+        if (!audioEnabled) return;
+        unlockAudio().then(() => scheduleBarkSound());
       }
 
       function schedulePluck(frequency, time, options = {}) {
@@ -4556,16 +4606,20 @@
       }
 
       function shouldPlayFirstStationMusic() {
-        return audioEnabled && appView === APP_VIEW_GAME && currentStation().id === FIRST_STATION_ID;
+        return audioEnabled && appView === APP_VIEW_GAME && currentRegion().id === FIRST_REGION_ID;
       }
 
       function startOkinawaMusic() {
         const context = ensureAudioGraph();
         if (!context || okinawaMusicRunning) return;
+        if (context.state === "suspended") {
+          context.resume().then(updateStationMusic).catch(() => {});
+          return;
+        }
         okinawaMusicRunning = true;
         okinawaMusicStep = 0;
         okinawaMusicNextTime = context.currentTime + 0.08;
-        rampGain(musicGain, 0.18, 0.12);
+        rampGain(musicGain, 0.32, 0.12);
         scheduleOkinawaMusic();
         okinawaMusicTimer = window.setInterval(scheduleOkinawaMusic, 180);
       }
@@ -4660,6 +4714,7 @@
         renderAll();
         generateRound();
         updateAppView();
+        unlockAudio();
         setMessage(`進入${currentRegion().subtitle}，繼續拼 ${currentWordsPerStation()} 個 ${currentLevel()} 單字。`);
       }
 
