@@ -2893,6 +2893,10 @@
         ]
       };
 
+      function hasLongDash(word) {
+        return [word.reading, word.writing, word.normalizedReading].some((value) => value.includes("ー"));
+      }
+
       const ALL_WORDS = LEVEL_ORDER.flatMap((level) =>
         RAW_WORDS_BY_LEVEL[level].map(([id, reading, writing, normalizedReading, zh, script]) => ({
           id,
@@ -2903,7 +2907,7 @@
           level,
           script
         }))
-      ).filter((word) => !word.normalizedReading.includes("ー"));
+      ).filter((word) => !hasLongDash(word));
 
       const WORDS_BY_LEVEL = LEVEL_ORDER.reduce((map, level) => {
         map[level] = ALL_WORDS.filter((word) => word.level === level);
@@ -4210,7 +4214,7 @@
           counts[level] = WORDS_BY_LEVEL[level].length;
           return counts;
         }, {}),
-        noLongDashWords: () => ALL_WORDS.every((word) => !word.normalizedReading.includes("ー")),
+        noLongDashWords: () => ALL_WORDS.every((word) => !hasLongDash(word)),
         targetCount: () => roundTargets.length,
         stationCount: () => clampStationCount(currentStation().id),
         clueText: () => els.clueText.textContent,
