@@ -367,12 +367,6 @@
       gap: 10px;
     }
 
-    .mode-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-    }
-
     .region-row {
       position: relative;
       aspect-ratio: 1717 / 916;
@@ -392,7 +386,6 @@
       isolation: isolate;
     }
 
-    .mode-button,
     .region-button {
       min-height: 38px;
       border-radius: var(--radius);
@@ -449,7 +442,6 @@
       overflow-wrap: anywhere;
     }
 
-    .mode-button.active,
     .region-button.active {
       color: #fff;
       background: var(--blue);
@@ -1334,10 +1326,6 @@
     </section>
 
     <section class="play-panel" id="playPanel" aria-label="拼字棋盤" hidden>
-      <div class="mode-row" aria-label="遊戲模式">
-        <button class="mode-button" type="button" id="simpleModeButton" aria-pressed="true">簡單</button>
-        <button class="mode-button" type="button" id="advancedModeButton" aria-pressed="false">進階</button>
-      </div>
       <div class="clue-panel" id="cluePanel">
         <span class="clue-label">中文提示</span>
         <strong class="clue-text" id="clueText">準備題目中</strong>
@@ -1435,8 +1423,6 @@
       };
       const HINTS_PER_ROUND = 3;
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
-      const PLAY_MODE_SIMPLE = "simple";
-      const PLAY_MODE_ADVANCED = "advanced";
       const APP_VIEW_MAP = "map";
       const APP_VIEW_GAME = "game";
       const KANA_SMALL = new Set(["ゃ", "ゅ", "ょ", "っ"]);
@@ -2210,8 +2196,7 @@
 
       function createInitialRootSave() {
         return {
-          currentRegionId: REGIONS[0].id,
-          playMode: PLAY_MODE_SIMPLE
+          currentRegionId: REGIONS[0].id
         };
       }
 
@@ -2222,8 +2207,7 @@
           const parsed = JSON.parse(raw);
           const savedRegion = REGION_BY_ID.get(parsed.currentRegionId);
           return {
-            currentRegionId: savedRegion && isRegionOpen(savedRegion) ? savedRegion.id : REGIONS[0].id,
-            playMode: parsed.playMode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE
+            currentRegionId: savedRegion && isRegionOpen(savedRegion) ? savedRegion.id : REGIONS[0].id
           };
         } catch (error) {
           console.warn("Root save is corrupted, starting fresh.", error);
@@ -2251,8 +2235,7 @@
           const raw = localStorage.getItem(LEGACY_SAVE_KEY);
           if (!raw) return null;
           const parsed = JSON.parse(raw);
-          if (!currentStations().some((station) => station.id === parsed.currentStationId)) return null;
-          rootSave.playMode = parsed.playMode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE;
+          if (!REGIONS[0].stations.some((station) => station.id === parsed.currentStationId)) return null;
           persistRootSave();
           return {
             currentStationId: parsed.currentStationId,
@@ -2771,10 +2754,6 @@
 
       function renderControls() {
         els.hintButton.textContent = `提示 ${hintsLeft}`;
-        els.simpleModeButton.classList.toggle("active", rootSave.playMode === PLAY_MODE_SIMPLE);
-        els.advancedModeButton.classList.toggle("active", rootSave.playMode === PLAY_MODE_ADVANCED);
-        els.simpleModeButton.setAttribute("aria-pressed", String(rootSave.playMode === PLAY_MODE_SIMPLE));
-        els.advancedModeButton.setAttribute("aria-pressed", String(rootSave.playMode === PLAY_MODE_ADVANCED));
         const station = currentStation();
         const canAdvance = save.completedStationIds.includes(station.id) && currentStationIndex() < currentStations().length - 1;
         els.nextStationButton.disabled = !canAdvance;
@@ -2808,17 +2787,8 @@
 
       function updateClue() {
         const target = currentClueTarget();
-        const isSimple = rootSave.playMode === PLAY_MODE_SIMPLE;
-        els.cluePanel.classList.toggle("hidden", !isSimple);
+        els.cluePanel.classList.remove("hidden");
         els.clueText.textContent = target ? target.word.zh : "本盤保底詞都找完了";
-      }
-
-      function setPlayMode(mode) {
-        rootSave.playMode = mode === PLAY_MODE_ADVANCED ? PLAY_MODE_ADVANCED : PLAY_MODE_SIMPLE;
-        persistRootSave();
-        updateClue();
-        renderControls();
-        setMessage(rootSave.playMode === PLAY_MODE_SIMPLE ? "簡單模式會顯示中文題目。" : "進階模式不顯示中文題目。");
       }
 
       function setMessage(text) {
@@ -2981,9 +2951,7 @@
         hintsLeft -= 1;
         const freshTargets = hiddenTargets.filter((target) => !hintedTargetIds.has(target.word.id));
         const hintPool = freshTargets.length ? freshTargets : hiddenTargets;
-        const target = rootSave.playMode === PLAY_MODE_SIMPLE
-          ? currentClueTarget()
-          : hintPool[Math.floor(Math.random() * hintPool.length)];
+        const target = currentClueTarget() || hintPool[Math.floor(Math.random() * hintPool.length)];
         hintedTargetIds.add(target.word.id);
         const firstIndex = target.path[0];
         const cell = els.board.querySelector(`[data-index="${firstIndex}"]`);
@@ -3046,8 +3014,6 @@
       els.submitButton.addEventListener("click", submitSpell);
       els.clearButton.addEventListener("click", clearSelection);
       els.hintButton.addEventListener("click", useHint);
-      els.simpleModeButton.addEventListener("click", () => setPlayMode(PLAY_MODE_SIMPLE));
-      els.advancedModeButton.addEventListener("click", () => setPlayMode(PLAY_MODE_ADVANCED));
       els.newRoundButton.addEventListener("click", generateRound);
       els.backToMapButton.addEventListener("click", showMapSelect);
       els.resetButton.addEventListener("click", armReset);
@@ -3102,7 +3068,6 @@
         noLongDashWords: () => ALL_WORDS.every((word) => !word.normalizedReading.includes("ー")),
         targetCount: () => roundTargets.length,
         stationCount: () => clampStationCount(currentStation().id),
-        playMode: () => rootSave.playMode,
         clueText: () => els.clueText.textContent,
         clueHidden: () => els.cluePanel.classList.contains("hidden"),
         hintsLeft: () => hintsLeft,
