@@ -2946,7 +2946,6 @@
       let hintedTargetIds = new Set();
       let hintsLeft = HINTS_PER_ROUND;
       let isPointerSelecting = false;
-      let wordCardTimer = 0;
       let roundAdvanceTimer = 0;
       let resetArmed = false;
       let resetTimer = 0;
@@ -3871,14 +3870,10 @@
       }
 
       function showWordCard(word) {
-        window.clearTimeout(wordCardTimer);
         els.wordMain.textContent = wordDisplay(word);
         els.wordZh.textContent = word.zh;
         els.wordLevel.textContent = word.level;
         els.wordCard.classList.add("show");
-        wordCardTimer = window.setTimeout(() => {
-          els.wordCard.classList.remove("show");
-        }, 2000);
       }
 
       function scheduleNextRoundIfNeeded(station) {
