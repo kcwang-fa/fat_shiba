@@ -139,11 +139,17 @@
       display: none;
     }
 
-    .start-journey-button {
-      min-height: 58px;
-      min-width: min(62vw, 220px);
+    .home-actions {
+      width: min(62vw, 240px);
       margin-right: clamp(12px, 9vw, 150px);
       margin-bottom: clamp(42px, 14vh, 128px);
+      display: grid;
+      gap: 10px;
+    }
+
+    .start-journey-button {
+      min-height: 58px;
+      width: 100%;
       border-radius: 999px;
       padding: 0 28px;
       color: #fffdf8;
@@ -164,6 +170,30 @@
     }
 
     .start-journey-button:active {
+      transform: translateY(1px);
+    }
+
+    .start-review-button {
+      min-height: 54px;
+      width: 100%;
+      border-radius: 999px;
+      padding: 0 24px;
+      color: #fffdf8;
+      background: linear-gradient(180deg, #3babb0 0%, #1d7076 100%);
+      border: 2px solid rgba(255, 253, 248, 0.9);
+      box-shadow: 0 12px 26px rgba(29, 112, 118, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+      font-size: clamp(1rem, 3.5vw, 1.18rem);
+      font-weight: 900;
+      letter-spacing: 0;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    }
+
+    .start-review-button:hover {
+      background: linear-gradient(180deg, #2d9b9f 0%, #185f65 100%);
+      box-shadow: 0 14px 30px rgba(29, 112, 118, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+    }
+
+    .start-review-button:active {
       transform: translateY(1px);
     }
 
@@ -326,6 +356,7 @@
 
     .station-panel,
     .map-select-panel,
+    .review-panel,
     .play-panel,
     .status-panel,
     .postcard-panel {
@@ -420,6 +451,153 @@
       display: grid;
       gap: 12px;
       min-width: 0;
+    }
+
+    .review-panel {
+      padding: 14px;
+      display: grid;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .review-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .review-title {
+      display: grid;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .review-title h2 {
+      font-family: var(--font-display);
+      font-size: 1.28rem;
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .review-progress {
+      flex: 0 0 auto;
+      border-radius: 999px;
+      padding: 6px 10px;
+      color: #fff;
+      background: var(--blue);
+      font-size: 0.84rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .review-card {
+      min-height: 260px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(216, 189, 150, 0.95);
+      background:
+        linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(255, 248, 239, 0.9));
+      padding: 18px;
+      display: grid;
+      align-content: center;
+      justify-items: center;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .review-writing {
+      font-family: var(--font-travel);
+      font-size: clamp(2rem, 11vw, 3.25rem);
+      line-height: 1.12;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .review-reading {
+      font-family: var(--font-kana);
+      color: var(--teal-dark);
+      font-size: clamp(1.25rem, 6vw, 1.8rem);
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .review-answer {
+      width: min(100%, 320px);
+      margin-top: 6px;
+      padding-top: 12px;
+      border-top: 1px dashed #d8bd96;
+      display: grid;
+      gap: 4px;
+    }
+
+    .review-answer-label {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 900;
+    }
+
+    .review-zh {
+      font-family: var(--font-display);
+      font-size: clamp(1.2rem, 5vw, 1.6rem);
+      line-height: 1.25;
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .review-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .review-actions .wide {
+      grid-column: 1 / -1;
+    }
+
+    .review-summary {
+      border-radius: var(--radius);
+      border: 1px solid rgba(45, 155, 159, 0.28);
+      background: #eef7f3;
+      padding: 12px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .review-summary h3 {
+      font-family: var(--font-display);
+      font-size: 1.08rem;
+      font-weight: 600;
+    }
+
+    .review-summary-list {
+      display: grid;
+      gap: 6px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .review-summary-list li {
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, 0.82);
+      border: 1px solid rgba(234, 217, 195, 0.92);
+      padding: 8px 10px;
+      display: grid;
+      gap: 2px;
+    }
+
+    .review-summary-word {
+      font-family: var(--font-travel);
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    .review-summary-zh {
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 800;
+      overflow-wrap: anywhere;
     }
 
     .map-select-panel {
@@ -1478,6 +1656,10 @@
       }
 
       .start-journey-button {
+        width: 100%;
+      }
+
+      .home-actions {
         width: min(100%, 240px);
         margin-right: 0;
         margin-bottom: clamp(24px, 9vh, 72px);
@@ -1557,7 +1739,10 @@
 </head>
 <body>
   <section class="home-screen" id="homeScreen" aria-label="遊戲首頁">
-    <button class="start-journey-button" type="button" id="startJourneyButton">開始遊戲</button>
+    <div class="home-actions">
+      <button class="start-journey-button" type="button" id="startJourneyButton">開始遊戲</button>
+      <button class="start-review-button" type="button" id="startReviewButton">複習單字</button>
+    </div>
   </section>
 
   <main class="app" id="gameApp" hidden>
@@ -1578,6 +1763,43 @@
 
     <section class="map-select-panel" id="mapSelectPanel" aria-label="JLPT 關卡入口">
       <div class="region-row" id="regionRow" tabindex="-1" aria-label="選擇 N1 到 N5 關卡"></div>
+    </section>
+
+    <section class="review-panel" id="reviewPanel" aria-label="N5 單字複習" hidden>
+      <div class="review-head">
+        <div class="review-title">
+          <h2>N5 單字複習</h2>
+          <p class="muted" id="reviewHint">每次 10 個字，先看日文再翻答案。</p>
+        </div>
+        <span class="review-progress" id="reviewProgress">1 / 10</span>
+      </div>
+
+      <div class="review-card" id="reviewCard">
+        <span class="tag">N5</span>
+        <strong class="review-writing" id="reviewWordWriting">準備中</strong>
+        <span class="review-reading" id="reviewWordReading"></span>
+        <div class="review-answer" id="reviewAnswer" hidden>
+          <span class="review-answer-label">中文意思</span>
+          <strong class="review-zh" id="reviewWordZh"></strong>
+        </div>
+      </div>
+
+      <div class="review-actions" id="reviewCardActions">
+        <button class="primary-button wide" type="button" id="reviewRevealButton">看答案</button>
+        <button class="secondary-button" type="button" id="reviewKnownButton" hidden>認得</button>
+        <button class="ghost-button" type="button" id="reviewMissedButton" hidden>不熟</button>
+      </div>
+
+      <section class="review-summary" id="reviewSummary" hidden>
+        <h3 id="reviewSummaryTitle">本輪完成</h3>
+        <p class="message" id="reviewSummaryText"></p>
+        <ul class="review-summary-list" id="reviewMissedList"></ul>
+        <div class="review-actions">
+          <button class="primary-button" type="button" id="reviewAgainButton">再複習 10 個</button>
+          <button class="secondary-button" type="button" id="reviewPlayButton">去玩遊戲</button>
+          <button class="ghost-button wide" type="button" id="reviewHomeButton">回首頁</button>
+        </div>
+      </section>
     </section>
 
     <section class="station-panel" id="stationPanel" aria-label="目前站點" hidden>
@@ -1700,6 +1922,7 @@
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
       const AUDIO_SAVE_KEY = "fatShiba.phase2.audio.v1";
+      const N5_REVIEW_SAVE_KEY = "fatShiba.review.n5.v1";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
       const OPEN_LEVELS = new Set(["N5", "N4"]);
       const LEVEL_SETTINGS = {
@@ -1712,6 +1935,7 @@
       const HINTS_PER_ROUND = 3;
       const REVIEW_TARGETS_PER_ROUND = 1;
       const REVIEW_WORD_LIMIT = 30;
+      const REVIEW_SESSION_SIZE = 10;
       const MIN_ROUND_TARGETS = 3;
       const MAX_ROUND_TARGETS = 5;
       const WORD_CARD_VISIBLE_MS = 5000;
@@ -1724,6 +1948,7 @@
       ];
       const APP_VIEW_MAP = "map";
       const APP_VIEW_GAME = "game";
+      const APP_VIEW_REVIEW = "review";
       const FIRST_REGION_ID = "n5_okinawa";
       const N4_REGION_ID = "n4_kyushu_shikoku";
       const OKINAWA_MUSIC_STEPS_PER_BAR = 8;
@@ -2424,7 +2649,27 @@
         homeScreen: document.getElementById("homeScreen"),
         gameApp: document.getElementById("gameApp"),
         startJourneyButton: document.getElementById("startJourneyButton"),
+        startReviewButton: document.getElementById("startReviewButton"),
         mapSelectPanel: document.getElementById("mapSelectPanel"),
+        reviewPanel: document.getElementById("reviewPanel"),
+        reviewHint: document.getElementById("reviewHint"),
+        reviewProgress: document.getElementById("reviewProgress"),
+        reviewCard: document.getElementById("reviewCard"),
+        reviewWordWriting: document.getElementById("reviewWordWriting"),
+        reviewWordReading: document.getElementById("reviewWordReading"),
+        reviewAnswer: document.getElementById("reviewAnswer"),
+        reviewWordZh: document.getElementById("reviewWordZh"),
+        reviewCardActions: document.getElementById("reviewCardActions"),
+        reviewRevealButton: document.getElementById("reviewRevealButton"),
+        reviewKnownButton: document.getElementById("reviewKnownButton"),
+        reviewMissedButton: document.getElementById("reviewMissedButton"),
+        reviewSummary: document.getElementById("reviewSummary"),
+        reviewSummaryTitle: document.getElementById("reviewSummaryTitle"),
+        reviewSummaryText: document.getElementById("reviewSummaryText"),
+        reviewMissedList: document.getElementById("reviewMissedList"),
+        reviewAgainButton: document.getElementById("reviewAgainButton"),
+        reviewPlayButton: document.getElementById("reviewPlayButton"),
+        reviewHomeButton: document.getElementById("reviewHomeButton"),
         stationPanel: document.getElementById("stationPanel"),
         playPanel: document.getElementById("playPanel"),
         statusPanel: document.getElementById("statusPanel"),
@@ -2495,6 +2740,7 @@
       let resetArmed = false;
       let resetTimer = 0;
       let appView = APP_VIEW_MAP;
+      let reviewSession = createEmptyReviewSession();
       let audioContext = null;
       let masterGain = null;
       let sfxGain = null;
@@ -2809,15 +3055,20 @@
 
       function updateAppView() {
         const isMapView = appView === APP_VIEW_MAP;
+        const isGameView = appView === APP_VIEW_GAME;
+        const isReviewView = appView === APP_VIEW_REVIEW;
         els.mapSelectPanel.hidden = !isMapView;
-        els.stationPanel.hidden = isMapView;
-        els.playPanel.hidden = isMapView;
-        els.statusPanel.hidden = isMapView;
-        els.postcardPanel.hidden = isMapView;
+        els.reviewPanel.hidden = !isReviewView;
+        els.stationPanel.hidden = !isGameView;
+        els.playPanel.hidden = !isGameView;
+        els.statusPanel.hidden = !isGameView;
+        els.postcardPanel.hidden = !isGameView;
         els.backToMapButton.hidden = isMapView;
-        els.newRoundButton.hidden = isMapView;
-        els.regionSubtitle.textContent = isMapView ? "選擇 JLPT 關卡" : currentRegion().subtitle;
-        if (isMapView) {
+        els.backToMapButton.textContent = isReviewView ? "首頁" : "返回";
+        els.newRoundButton.hidden = !isGameView;
+        els.audioToggleButton.hidden = isReviewView;
+        els.regionSubtitle.textContent = isMapView ? "選擇 JLPT 關卡" : isReviewView ? "N5 單字複習" : currentRegion().subtitle;
+        if (!isGameView) {
           closePostcardAlbum();
         }
         applyGameBackground();
@@ -3106,6 +3357,233 @@
           [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
         }
         return copy;
+      }
+
+      function createEmptyReviewSession() {
+        return {
+          words: [],
+          index: 0,
+          revealed: false,
+          results: [],
+          finished: false
+        };
+      }
+
+      function normalizeN5ReviewStats(parsed = {}) {
+        const words = {};
+        const sourceWords = parsed && typeof parsed === "object" && !Array.isArray(parsed) && parsed.words && typeof parsed.words === "object"
+          ? parsed.words
+          : {};
+        const n5WordIds = new Set((WORDS_BY_LEVEL.N5 || []).map((word) => word.id));
+
+        for (const [id, value] of Object.entries(sourceWords)) {
+          if (!n5WordIds.has(id) || !value || typeof value !== "object" || Array.isArray(value)) continue;
+          const reviewCount = Math.max(0, Math.trunc(Number(value.reviewCount) || 0));
+          const knownCount = Math.max(0, Math.trunc(Number(value.knownCount) || 0));
+          const missCount = Math.max(0, Math.trunc(Number(value.missCount) || 0));
+          const reviewedAt = Math.max(0, Math.trunc(Number(value.reviewedAt) || 0));
+          words[id] = {
+            reviewCount,
+            knownCount,
+            missCount,
+            reviewedAt,
+            lastResult: value.lastResult === "known" ? "known" : value.lastResult === "missed" ? "missed" : ""
+          };
+        }
+
+        return { words };
+      }
+
+      function loadN5ReviewStats() {
+        try {
+          const raw = localStorage.getItem(N5_REVIEW_SAVE_KEY);
+          if (!raw) return normalizeN5ReviewStats();
+          return normalizeN5ReviewStats(JSON.parse(raw));
+        } catch (error) {
+          console.warn("N5 review stats are corrupted, starting fresh.", error);
+          return normalizeN5ReviewStats();
+        }
+      }
+
+      function persistN5ReviewStats(stats) {
+        localStorage.setItem(N5_REVIEW_SAVE_KEY, JSON.stringify(normalizeN5ReviewStats(stats)));
+      }
+
+      function updateN5ReviewStats(word, result) {
+        const stats = loadN5ReviewStats();
+        const current = stats.words[word.id] || {
+          reviewCount: 0,
+          knownCount: 0,
+          missCount: 0,
+          reviewedAt: 0,
+          lastResult: ""
+        };
+        current.reviewCount += 1;
+        current.reviewedAt = Date.now();
+        current.lastResult = result;
+        if (result === "known") {
+          current.knownCount += 1;
+        } else {
+          current.missCount += 1;
+        }
+        stats.words[word.id] = current;
+        persistN5ReviewStats(stats);
+      }
+
+      function rememberN5ReviewWord(word, result) {
+        const n5Region = REGION_BY_ID.get(FIRST_REGION_ID) || REGIONS[0];
+        const n5Save = currentRegion().id === n5Region.id ? save : loadRegionSave(n5Region.id);
+        const existingIds = Array.isArray(n5Save.reviewWordIds) ? n5Save.reviewWordIds : [];
+        if (result === "missed") {
+          n5Save.reviewWordIds = [word.id, ...existingIds.filter((id) => id !== word.id)].slice(0, REVIEW_WORD_LIMIT);
+        } else if (existingIds.includes(word.id)) {
+          n5Save.reviewWordIds = [
+            ...existingIds.filter((id) => id !== word.id),
+            word.id
+          ].slice(0, REVIEW_WORD_LIMIT);
+        }
+        localStorage.setItem(regionSaveKey(n5Region.id), JSON.stringify(normalizeRegionSave(n5Region, n5Save)));
+        if (currentRegion().id === n5Region.id) save = normalizeRegionSave(n5Region, n5Save);
+      }
+
+      function pickN5ReviewWords() {
+        const n5Words = WORDS_BY_LEVEL.N5 || [];
+        const wordById = new Map(n5Words.map((word) => [word.id, word]));
+        const stats = loadN5ReviewStats();
+        const n5Save = loadRegionSave(FIRST_REGION_ID);
+        const missedIds = Object.entries(stats.words)
+          .filter(([id, item]) => wordById.has(id) && item.missCount > 0)
+          .sort((a, b) => {
+            const missDiff = b[1].missCount - a[1].missCount;
+            if (missDiff) return missDiff;
+            return (a[1].reviewedAt || 0) - (b[1].reviewedAt || 0);
+          })
+          .map(([id]) => id);
+        const reviewIds = Array.isArray(n5Save.reviewWordIds) ? n5Save.reviewWordIds : [];
+        const orderedIds = [
+          ...missedIds,
+          ...reviewIds,
+          ...shuffled(n5Words).map((word) => word.id)
+        ];
+        const selected = [];
+        const seen = new Set();
+        for (const id of orderedIds) {
+          const word = wordById.get(id);
+          if (!word || seen.has(id)) continue;
+          selected.push(word);
+          seen.add(id);
+          if (selected.length >= REVIEW_SESSION_SIZE) break;
+        }
+        return selected;
+      }
+
+      function showHomeScreen() {
+        appView = APP_VIEW_MAP;
+        closePostcardAlbum();
+        els.stationModal.classList.remove("open");
+        els.gameApp.hidden = true;
+        els.homeScreen.classList.remove("hidden");
+        applyGameBackground();
+        updateStationMusic();
+      }
+
+      function startReviewSession() {
+        els.homeScreen.classList.add("hidden");
+        els.gameApp.hidden = false;
+        appView = APP_VIEW_REVIEW;
+        closePostcardAlbum();
+        reviewSession = {
+          words: pickN5ReviewWords(),
+          index: 0,
+          revealed: false,
+          results: [],
+          finished: false
+        };
+        updateAppView();
+        renderReviewSession();
+        els.reviewRevealButton.focus({ preventScroll: true });
+      }
+
+      function currentReviewWord() {
+        return reviewSession.words[reviewSession.index] || null;
+      }
+
+      function renderReviewSession() {
+        const total = reviewSession.words.length || REVIEW_SESSION_SIZE;
+        const displayIndex = Math.min(reviewSession.index + 1, total);
+        els.reviewProgress.textContent = reviewSession.finished ? `${total} / ${total}` : `${displayIndex} / ${total}`;
+        els.reviewCard.hidden = reviewSession.finished;
+        els.reviewCardActions.hidden = reviewSession.finished;
+        els.reviewSummary.hidden = !reviewSession.finished;
+
+        if (reviewSession.finished) {
+          renderReviewSummary();
+          return;
+        }
+
+        const word = currentReviewWord();
+        if (!word) {
+          reviewSession.finished = true;
+          renderReviewSession();
+          return;
+        }
+
+        els.reviewHint.textContent = "每次 10 個字，先看日文再翻答案。";
+        els.reviewWordWriting.textContent = word.writing || word.reading;
+        els.reviewWordReading.textContent = word.playReading;
+        els.reviewWordZh.textContent = word.zh;
+        els.reviewAnswer.hidden = !reviewSession.revealed;
+        els.reviewRevealButton.hidden = reviewSession.revealed;
+        els.reviewKnownButton.hidden = !reviewSession.revealed;
+        els.reviewMissedButton.hidden = !reviewSession.revealed;
+      }
+
+      function revealReviewAnswer() {
+        if (reviewSession.finished) return;
+        reviewSession.revealed = true;
+        renderReviewSession();
+        els.reviewKnownButton.focus({ preventScroll: true });
+      }
+
+      function markReviewWord(result) {
+        const word = currentReviewWord();
+        if (!word || reviewSession.finished) return;
+        if (!reviewSession.revealed) {
+          revealReviewAnswer();
+          return;
+        }
+        updateN5ReviewStats(word, result);
+        rememberN5ReviewWord(word, result);
+        reviewSession.results.push({ word, result });
+        reviewSession.index += 1;
+        reviewSession.revealed = false;
+        if (reviewSession.index >= reviewSession.words.length) {
+          reviewSession.finished = true;
+        }
+        renderReviewSession();
+      }
+
+      function renderReviewSummary() {
+        const knownCount = reviewSession.results.filter((item) => item.result === "known").length;
+        const total = reviewSession.results.length;
+        const missed = reviewSession.results.filter((item) => item.result === "missed").map((item) => item.word);
+        els.reviewSummaryTitle.textContent = "本輪完成";
+        els.reviewSummaryText.textContent = missed.length
+          ? `認得 ${knownCount} / ${total}。下面這些先留在複習清單前面，之後會更常看到。`
+          : `認得 ${knownCount} / ${total}。這輪沒有標不熟，今天的腦袋有上班。`;
+        els.reviewMissedList.innerHTML = "";
+        els.reviewMissedList.hidden = missed.length === 0;
+        for (const word of missed) {
+          const item = document.createElement("li");
+          const main = document.createElement("span");
+          main.className = "review-summary-word";
+          main.textContent = `${wordDisplay(word)}｜${word.playReading}`;
+          const zh = document.createElement("span");
+          zh.className = "review-summary-zh";
+          zh.textContent = word.zh;
+          item.append(main, zh);
+          els.reviewMissedList.appendChild(item);
+        }
       }
 
       function kanaUnits(text) {
@@ -4227,7 +4705,13 @@
       els.clearButton.addEventListener("click", clearSelection);
       els.hintButton.addEventListener("click", useHint);
       els.newRoundButton.addEventListener("click", generateRound);
-      els.backToMapButton.addEventListener("click", showMapSelect);
+      els.backToMapButton.addEventListener("click", () => {
+        if (appView === APP_VIEW_REVIEW) {
+          showHomeScreen();
+          return;
+        }
+        showMapSelect();
+      });
       els.audioToggleButton.addEventListener("click", toggleAudio);
       els.resetButton.addEventListener("click", armReset);
       els.nextStationButton.addEventListener("click", goNextStation);
@@ -4255,6 +4739,13 @@
         if (els.postcardAlbumBackdrop.classList.contains("open")) closePostcardAlbum();
       });
       els.startJourneyButton.addEventListener("click", startJourney);
+      els.startReviewButton.addEventListener("click", startReviewSession);
+      els.reviewRevealButton.addEventListener("click", revealReviewAnswer);
+      els.reviewKnownButton.addEventListener("click", () => markReviewWord("known"));
+      els.reviewMissedButton.addEventListener("click", () => markReviewWord("missed"));
+      els.reviewAgainButton.addEventListener("click", startReviewSession);
+      els.reviewPlayButton.addEventListener("click", startJourney);
+      els.reviewHomeButton.addEventListener("click", showHomeScreen);
 
       updateAudioToggle();
       renderAll();
@@ -4289,6 +4780,17 @@
         clueHidden: () => els.cluePanel.classList.contains("hidden"),
         hintsLeft: () => hintsLeft,
         reviewWordIds: () => [...(save.reviewWordIds || [])],
+        startReviewSession: () => {
+          startReviewSession();
+          return reviewSession.words.map((word) => word.id);
+        },
+        getReviewSession: () => ({
+          count: reviewSession.words.length,
+          index: reviewSession.index,
+          revealed: reviewSession.revealed,
+          finished: reviewSession.finished,
+          results: reviewSession.results.map((item) => ({ id: item.word.id, result: item.result }))
+        }),
         postcardVisuals: () => currentStations().map((station) => postcardVisual(station))
       };
     })();
