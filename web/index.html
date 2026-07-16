@@ -1936,6 +1936,10 @@
       const REVIEW_TARGETS_PER_ROUND = 1;
       const REVIEW_WORD_LIMIT = 30;
       const REVIEW_SESSION_SIZE = 10;
+      const GAME_REVIEW_TARGETS_PER_ROUND = 2;
+      const REVIEW_DAY_MS = 24 * 60 * 60 * 1000;
+      const REVIEW_KNOWN_INTERVAL_DAYS = [1, 3, 7, 14, 30];
+      const REVIEW_MISSED_INTERVAL_DAYS = 1;
       const MIN_ROUND_TARGETS = 3;
       const MAX_ROUND_TARGETS = 5;
       const WORD_CARD_VISIBLE_MS = 5000;
@@ -3382,11 +3386,21 @@
           const knownCount = Math.max(0, Math.trunc(Number(value.knownCount) || 0));
           const missCount = Math.max(0, Math.trunc(Number(value.missCount) || 0));
           const reviewedAt = Math.max(0, Math.trunc(Number(value.reviewedAt) || 0));
+          const intervalDays = Math.max(0, Math.trunc(Number(value.intervalDays) || 0));
+          const dueAt = Math.max(0, Math.trunc(Number(value.dueAt) || 0));
+          const parsedStreak = Number.isFinite(Number(value.correctStreak))
+            ? Math.trunc(Number(value.correctStreak))
+            : value.lastResult === "known"
+              ? knownCount
+              : 0;
           words[id] = {
             reviewCount,
             knownCount,
             missCount,
             reviewedAt,
+            intervalDays,
+            dueAt,
+            correctStreak: Math.max(0, parsedStreak),
             lastResult: value.lastResult === "known" ? "known" : value.lastResult === "missed" ? "missed" : ""
           };
         }
@@ -3409,6 +3423,21 @@
         localStorage.setItem(N5_REVIEW_SAVE_KEY, JSON.stringify(normalizeN5ReviewStats(stats)));
       }
 
+      function nextN5ReviewIntervalDays(result, correctStreak) {
+        if (result === "missed") return REVIEW_MISSED_INTERVAL_DAYS;
+        const index = Math.max(0, Math.min(REVIEW_KNOWN_INTERVAL_DAYS.length - 1, correctStreak - 1));
+        return REVIEW_KNOWN_INTERVAL_DAYS[index];
+      }
+
+      function formatReviewDueTime(dueAt) {
+        if (!dueAt) return "已到期";
+        const days = Math.ceil((dueAt - Date.now()) / REVIEW_DAY_MS);
+        if (days <= 0) return "已到期";
+        if (days === 1) return "明天";
+        if (days < 30) return `${days} 天後`;
+        return new Date(dueAt).toLocaleDateString("zh-TW", { month: "numeric", day: "numeric" });
+      }
+
       function updateN5ReviewStats(word, result) {
         const stats = loadN5ReviewStats();
         const current = stats.words[word.id] || {
@@ -3416,16 +3445,24 @@
           knownCount: 0,
           missCount: 0,
           reviewedAt: 0,
+          intervalDays: 0,
+          dueAt: 0,
+          correctStreak: 0,
           lastResult: ""
         };
+        const now = Date.now();
         current.reviewCount += 1;
-        current.reviewedAt = Date.now();
+        current.reviewedAt = now;
         current.lastResult = result;
         if (result === "known") {
           current.knownCount += 1;
+          current.correctStreak += 1;
         } else {
           current.missCount += 1;
+          current.correctStreak = 0;
         }
+        current.intervalDays = nextN5ReviewIntervalDays(result, current.correctStreak);
+        current.dueAt = now + current.intervalDays * REVIEW_DAY_MS;
         stats.words[word.id] = current;
         persistN5ReviewStats(stats);
       }
@@ -3436,11 +3473,8 @@
         const existingIds = Array.isArray(n5Save.reviewWordIds) ? n5Save.reviewWordIds : [];
         if (result === "missed") {
           n5Save.reviewWordIds = [word.id, ...existingIds.filter((id) => id !== word.id)].slice(0, REVIEW_WORD_LIMIT);
-        } else if (existingIds.includes(word.id)) {
-          n5Save.reviewWordIds = [
-            ...existingIds.filter((id) => id !== word.id),
-            word.id
-          ].slice(0, REVIEW_WORD_LIMIT);
+        } else {
+          n5Save.reviewWordIds = existingIds.filter((id) => id !== word.id).slice(0, REVIEW_WORD_LIMIT);
         }
         localStorage.setItem(regionSaveKey(n5Region.id), JSON.stringify(normalizeRegionSave(n5Region, n5Save)));
         if (currentRegion().id === n5Region.id) save = normalizeRegionSave(n5Region, n5Save);
@@ -3451,18 +3485,34 @@
         const wordById = new Map(n5Words.map((word) => [word.id, word]));
         const stats = loadN5ReviewStats();
         const n5Save = loadRegionSave(FIRST_REGION_ID);
-        const missedIds = Object.entries(stats.words)
-          .filter(([id, item]) => wordById.has(id) && item.missCount > 0)
+        const now = Date.now();
+        const dueIds = Object.entries(stats.words)
+          .filter(([id, item]) => wordById.has(id) && (!item.dueAt || item.dueAt <= now))
           .sort((a, b) => {
+            const missedDiff = Number(b[1].lastResult === "missed") - Number(a[1].lastResult === "missed");
+            if (missedDiff) return missedDiff;
+            const dueDiff = (a[1].dueAt || 0) - (b[1].dueAt || 0);
+            if (dueDiff) return dueDiff;
             const missDiff = b[1].missCount - a[1].missCount;
             if (missDiff) return missDiff;
             return (a[1].reviewedAt || 0) - (b[1].reviewedAt || 0);
           })
           .map(([id]) => id);
-        const reviewIds = Array.isArray(n5Save.reviewWordIds) ? n5Save.reviewWordIds : [];
+        const reviewIds = (Array.isArray(n5Save.reviewWordIds) ? n5Save.reviewWordIds : [])
+          .filter((id) => {
+            const item = stats.words[id];
+            return wordById.has(id) && (!item || !item.dueAt || item.dueAt <= now);
+          });
+        const unreviewedIds = shuffled(n5Words.filter((word) => !stats.words[word.id])).map((word) => word.id);
+        const futureIds = Object.entries(stats.words)
+          .filter(([id, item]) => wordById.has(id) && item.dueAt > now)
+          .sort((a, b) => (a[1].dueAt || 0) - (b[1].dueAt || 0))
+          .map(([id]) => id);
         const orderedIds = [
-          ...missedIds,
+          ...dueIds,
           ...reviewIds,
+          ...unreviewedIds,
+          ...futureIds,
           ...shuffled(n5Words).map((word) => word.id)
         ];
         const selected = [];
@@ -3528,7 +3578,7 @@
           return;
         }
 
-        els.reviewHint.textContent = "每次 10 個字，先看日文再翻答案。";
+        els.reviewHint.textContent = "到期字優先；不足 10 個會用新字補滿。";
         els.reviewWordWriting.textContent = word.writing || word.reading;
         els.reviewWordReading.textContent = word.playReading;
         els.reviewWordZh.textContent = word.zh;
@@ -3567,9 +3617,10 @@
         const knownCount = reviewSession.results.filter((item) => item.result === "known").length;
         const total = reviewSession.results.length;
         const missed = reviewSession.results.filter((item) => item.result === "missed").map((item) => item.word);
+        const stats = loadN5ReviewStats();
         els.reviewSummaryTitle.textContent = "本輪完成";
         els.reviewSummaryText.textContent = missed.length
-          ? `認得 ${knownCount} / ${total}。下面這些先留在複習清單前面，之後會更常看到。`
+          ? `認得 ${knownCount} / ${total}。不熟的字會先排回複習清單，認得的字會照 1、3、7、14、30 天往後延。`
           : `認得 ${knownCount} / ${total}。這輪沒有標不熟，今天的腦袋有上班。`;
         els.reviewMissedList.innerHTML = "";
         els.reviewMissedList.hidden = missed.length === 0;
@@ -3580,7 +3631,7 @@
           main.textContent = `${wordDisplay(word)}｜${word.playReading}`;
           const zh = document.createElement("span");
           zh.className = "review-summary-zh";
-          zh.textContent = word.zh;
+          zh.textContent = `${word.zh}｜下次 ${formatReviewDueTime(stats.words[word.id] && stats.words[word.id].dueAt)}`;
           item.append(main, zh);
           els.reviewMissedList.appendChild(item);
         }
@@ -3613,6 +3664,29 @@
           .map((word) => [word.id, word]));
         return (save.reviewWordIds || [])
           .map((id) => playableWords.get(id))
+          .filter(Boolean);
+      }
+
+      function currentSpacedReviewWords(maxLength = currentBoardSize() * currentBoardSize()) {
+        const playableWords = new Map(currentPlayableWords()
+          .filter((word) => word.level === "N5" && kanaUnits(word.playReading).length <= maxLength)
+          .map((word) => [word.id, word]));
+        const stats = loadN5ReviewStats();
+        const now = Date.now();
+        return Object.entries(stats.words)
+          .filter(([id, item]) => playableWords.has(id) && item.reviewCount > 0)
+          .sort((a, b) => {
+            const missedDiff = Number(b[1].lastResult === "missed") - Number(a[1].lastResult === "missed");
+            if (missedDiff) return missedDiff;
+            const dueDiff = Number((b[1].dueAt || 0) <= now) - Number((a[1].dueAt || 0) <= now);
+            if (dueDiff) return dueDiff;
+            const dueAtDiff = (a[1].dueAt || 0) - (b[1].dueAt || 0);
+            if (dueAtDiff) return dueAtDiff;
+            const missDiff = b[1].missCount - a[1].missCount;
+            if (missDiff) return missDiff;
+            return (a[1].reviewedAt || 0) - (b[1].reviewedAt || 0);
+          })
+          .map(([id]) => playableWords.get(id))
           .filter(Boolean);
       }
 
@@ -3667,6 +3741,7 @@
         const foundGlobal = new Set(save.foundWordIds);
         const maxLength = currentBoardSize() * currentBoardSize();
         const currentWords = currentLevelWords().filter((word) => kanaUnits(word.playReading).length <= maxLength);
+        const spacedReviewWords = currentSpacedReviewWords(maxLength);
         const reviewWords = currentReviewWords(maxLength);
         const unseen = shuffled(currentWords.filter((word) => !foundGlobal.has(word.id)));
         const seen = shuffled(currentWords.filter((word) => foundGlobal.has(word.id)));
@@ -3678,6 +3753,10 @@
             const word = ALL_WORDS.find((item) => item.id === id);
             if (word) targets.push(word);
           }
+        }
+
+        for (const word of spacedReviewWords.slice(0, GAME_REVIEW_TARGETS_PER_ROUND)) {
+          if (!targets.some((target) => target.id === word.id)) targets.push(word);
         }
 
         for (const word of reviewWords.slice(0, REVIEW_TARGETS_PER_ROUND)) {
@@ -4767,6 +4846,7 @@
         switchRegion,
         currentPlayableWordLevels: () => [...new Set(currentPlayableWords().map((word) => word.level))],
         currentTargetLevels: () => [...new Set(roundTargets.map((target) => target.word.level))],
+        currentSpacedReviewWordIds: () => currentSpacedReviewWords().map((word) => word.id),
         wordCountByLevel: () => LEVEL_ORDER.reduce((counts, level) => {
           counts[level] = WORDS_BY_LEVEL[level].length;
           return counts;
@@ -4791,6 +4871,7 @@
           finished: reviewSession.finished,
           results: reviewSession.results.map((item) => ({ id: item.word.id, result: item.result }))
         }),
+        getN5ReviewStats: () => JSON.parse(JSON.stringify(loadN5ReviewStats())),
         postcardVisuals: () => currentStations().map((station) => postcardVisual(station))
       };
     })();
