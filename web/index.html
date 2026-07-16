@@ -208,11 +208,25 @@
       z-index: 1;
     }
 
+    body.map-view {
+      overflow: hidden;
+    }
+
+    body.map-view .app {
+      width: 100%;
+      padding: 0;
+      gap: 0;
+    }
+
     .topbar {
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 10px;
+    }
+
+    body.map-view .topbar {
+      display: none;
     }
 
     .brand {
@@ -606,6 +620,15 @@
       gap: 10px;
     }
 
+    body.map-view .map-select-panel {
+      min-height: 100svh;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+
     .region-row {
       position: relative;
       aspect-ratio: 1717 / 916;
@@ -625,6 +648,15 @@
       isolation: isolate;
     }
 
+    body.map-view .region-row {
+      min-height: 100svh;
+      aspect-ratio: auto;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+      background-size: cover;
+    }
+
     .region-button {
       min-height: 38px;
       border-radius: var(--radius);
@@ -636,8 +668,8 @@
 
     .region-button {
       position: absolute;
-      left: var(--map-x);
-      top: var(--map-y);
+      left: var(--map-cover-x, var(--map-x));
+      top: var(--map-cover-y, var(--map-y));
       min-width: 0;
       width: clamp(48px, 15vw, 82px);
       min-height: clamp(38px, 9vw, 48px);
@@ -729,9 +761,13 @@
           );
       }
 
+      body.map-view .region-row {
+        aspect-ratio: auto;
+      }
+
       .region-button {
-        left: var(--mobile-map-x);
-        top: var(--mobile-map-y);
+        left: var(--map-cover-x, var(--mobile-map-x));
+        top: var(--map-cover-y, var(--mobile-map-y));
         width: clamp(60px, 19vw, 78px);
         min-height: 44px;
       }
@@ -1927,6 +1963,9 @@
       const N5_REVIEW_SAVE_KEY = "fatShiba.review.n5.v1";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
       const OPEN_LEVELS = new Set(["N5", "N4"]);
+      const MAP_DESKTOP_ASPECT = 1717 / 916;
+      const MAP_MOBILE_ASPECT = 941 / 1672;
+      const MAP_MOBILE_QUERY = "(max-width: 520px)";
       const LEVEL_SETTINGS = {
         N5: { boardSize: 4, wordsPerStation: 10 },
         N4: { boardSize: 5, wordsPerStation: 10 },
@@ -3050,6 +3089,7 @@
         const isMapView = appView === APP_VIEW_MAP;
         const isGameView = appView === APP_VIEW_GAME;
         const isReviewView = appView === APP_VIEW_REVIEW;
+        document.body.classList.toggle("map-view", isMapView);
         els.mapSelectPanel.hidden = !isMapView;
         els.reviewPanel.hidden = !isReviewView;
         els.stationPanel.hidden = !isGameView;
@@ -3065,6 +3105,7 @@
           closePostcardAlbum();
         }
         applyGameBackground();
+        updateMapRegionPositions();
         updateStationMusic();
       }
 
@@ -3520,6 +3561,7 @@
         appView = APP_VIEW_MAP;
         closePostcardAlbum();
         els.stationModal.classList.remove("open");
+        document.body.classList.remove("map-view");
         els.gameApp.hidden = true;
         els.homeScreen.classList.remove("hidden");
         applyGameBackground();
@@ -3967,6 +4009,53 @@
           : `回到${station.placeZh}，拼滿 ${currentWordsPerStation()} 個 ${currentLevel()} 單字解鎖明信片。`);
       }
 
+      function readPercent(value) {
+        const parsed = Number.parseFloat(String(value).replace("%", ""));
+        return Number.isFinite(parsed) ? parsed : 50;
+      }
+
+      function coverAdjustedPercent(xPercent, yPercent, imageAspect, rect) {
+        if (!rect.width || !rect.height) return { x: xPercent, y: yPercent };
+
+        const containerAspect = rect.width / rect.height;
+        let renderedWidth = rect.width;
+        let renderedHeight = rect.height;
+        let offsetX = 0;
+        let offsetY = 0;
+
+        if (containerAspect > imageAspect) {
+          renderedHeight = rect.width / imageAspect;
+          offsetY = (rect.height - renderedHeight) / 2;
+        } else {
+          renderedWidth = rect.height * imageAspect;
+          offsetX = (rect.width - renderedWidth) / 2;
+        }
+
+        return {
+          x: ((offsetX + renderedWidth * (xPercent / 100)) / rect.width) * 100,
+          y: ((offsetY + renderedHeight * (yPercent / 100)) / rect.height) * 100
+        };
+      }
+
+      function updateMapRegionPositions() {
+        if (!els.regionRow || !els.regionRow.children.length) return;
+
+        const rect = els.regionRow.getBoundingClientRect();
+        const useMobileMap = window.matchMedia(MAP_MOBILE_QUERY).matches;
+        const imageAspect = useMobileMap ? MAP_MOBILE_ASPECT : MAP_DESKTOP_ASPECT;
+
+        for (const button of els.regionRow.children) {
+          const region = REGION_BY_ID.get(button.dataset.regionId);
+          if (!region) continue;
+
+          const x = readPercent(useMobileMap ? region.mobileMapX : region.mapX);
+          const y = readPercent(useMobileMap ? region.mobileMapY : region.mapY);
+          const adjusted = coverAdjustedPercent(x, y, imageAspect, rect);
+          button.style.setProperty("--map-cover-x", `${adjusted.x}%`);
+          button.style.setProperty("--map-cover-y", `${adjusted.y}%`);
+        }
+      }
+
       function renderRegions() {
         els.regionRow.innerHTML = "";
         for (const region of REGIONS) {
@@ -3974,6 +4063,7 @@
           const button = document.createElement("button");
           button.type = "button";
           button.className = "region-button";
+          button.dataset.regionId = region.id;
           button.classList.toggle("active", isOpen && region.id === currentRegion().id);
           button.classList.toggle("locked", !isOpen);
           button.disabled = !isOpen;
@@ -3998,6 +4088,7 @@
           }
           els.regionRow.appendChild(button);
         }
+        updateMapRegionPositions();
       }
 
       function switchRegion(regionId) {
@@ -4763,6 +4854,7 @@
       window.addEventListener("pointerup", () => {
         isPointerSelecting = false;
       });
+      window.addEventListener("resize", updateMapRegionPositions);
 
       els.board.addEventListener("keydown", (event) => {
         if (event.key !== "Enter" && event.key !== " ") return;
