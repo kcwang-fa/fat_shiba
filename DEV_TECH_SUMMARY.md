@@ -2,9 +2,9 @@
 
 ## Phase 2 更新備註
 
-目前 `index.html` 已擴充成 Phase 2 單檔版本：
+目前網站入口為 `web/index.html`，已擴充成 Phase 2 單檔版本：
 
-- 日本五區資料已建立：N5 沖繩、N4 九州四國、N3 中國關西、N2 關東中部、N1 東北北海道，各 10 站。目前入口只開放 N5，N4-N1 先標示製作中，等明信片素材完成再重新開放。
+- 日本五區資料已建立：N5 沖繩 10 站、N4 九州四國 15 站、N3 中國關西 20 站、N2 關東中部 30 站、N1 東北北海道 35 站。目前入口只開放 N5，N4-N1 先標示製作中，等明信片素材完成再重新開放。
 - 棋盤依等級切換：N5 是 4×4，N4/N3 是 5×5，N2/N1 是 6×6。
 - 過站門檻依等級切換：N5/N4 每站 10 詞，N3 每站 12 詞，N2/N1 每站 15 詞。
 - 詞庫邏輯已改成累加制：例如 N3 場可命中 N5/N4/N3 詞；但只有當前等級詞會計入過站。
@@ -35,38 +35,41 @@ Phase 1 只做一個完整可玩迴圈：
 
 ## 技術原則
 
-- 起步使用單檔 `index.html`。
+- 網站 runtime 放在 `web/`，入口是 `web/index.html`。
 - 手機直式優先。
 - 離線可玩。
 - 不需要後端、不需要帳號、不需要網路。
 - 不載入 Google Fonts、CDN 或其他外部執行期資源；離線冷啟動不能等待外部請求。
-- 圖片放在 `assets/`。
+- 圖片放在 `web/assets/`。
 - 明信片圖片缺檔時必須有 CSS fallback，不可以畫面破掉。
+- OCR、詞庫清理、音樂產生與圖片提示詞等本機工具放在 `tools/`，不要放進網站根目錄。
 - Phase 1 以「核心手感穩」優先，功能不要擴張到 N4、混合假名棋盤、音效或排行榜。
 
-## 檔案結構建議
+## 檔案結構
 
-Phase 1 起步可以維持很小：
+目前專案把可部署網站與本機工具分開：
 
 ```text
 fat_shiba/
-├── index.html
+├── web/
+│   ├── index.html
+│   ├── assets/
+│   └── data/
+│       └── word_data.js
+├── tools/
+│   ├── ocr/
+│   │   ├── extract_jlpt_vocab_from_pdf.py
+│   │   ├── merge_n4_csv_wordlist.py
+│   │   ├── dictionary/
+│   │   └── tessdata/
+│   ├── audio/
+│   │   └── generate_n4_bgm.py
+│   └── prompts/
 ├── DEV_TECH_SUMMARY.md
-├── AGENT.md
-└── assets/
-    ├── postcard_okinawa_01.jpg
-    ├── postcard_okinawa_02.jpg
-    ├── postcard_okinawa_03.jpg
-    ├── postcard_okinawa_04.jpg
-    ├── postcard_okinawa_05.jpg
-    ├── postcard_okinawa_06.jpg
-    ├── postcard_okinawa_07.jpg
-    ├── postcard_okinawa_08.jpg
-    ├── postcard_okinawa_09.jpg
-    └── postcard_okinawa_10.jpg
+└── AGENT.md
 ```
 
-`assets/` 與明信片圖片可以晚點補，但程式一開始就要支援 fallback。
+部署或本機靜態服務應指定 `web/` 為網站根目錄。`tools/ocr/` 內的 PDF、Tesseract 語言資料與 OCR 中間產物不屬於前端 runtime。
 
 ## 沖繩站點資料
 
@@ -366,7 +369,7 @@ const SAVE_KEY = "fatShiba.phase1.save.v1";
 ## 驗收清單
 
 ```text
-□ 單檔 index.html 可啟動
+□ web/index.html 可啟動
 □ 手機直式可玩
 □ 離線可玩
 □ 冷啟動離線時不請求 Google Fonts 或其他外部資源
@@ -395,7 +398,7 @@ const SAVE_KEY = "fatShiba.phase1.save.v1";
 
 ## 開發順序建議
 
-1. 建立 `index.html` 骨架與手機直式 CSS。
+1. 建立 `web/index.html` 骨架與手機直式 CSS。
 2. 放入沖繩 10 站資料。
 3. 建立 N5 字典資料格式與 kana normalizer。
 4. 實作 4×4 棋盤與任意位置選字。

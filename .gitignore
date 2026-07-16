@@ -1,1 +1,7 @@
 /.DS_Store
+/.ocr_tmp/
+/.swift-module-cache/
+/outputs/
+__pycache__/
+/tools/ocr/.ocr_tmp/
+/tools/ocr/outputs/

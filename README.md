@@ -50,12 +50,20 @@ OCR 抽詞：
 
 ```bash
 python3 tools/ocr/extract_jlpt_vocab_from_pdf.py --pages 71-141 --level N4
+python3 tools/ocr/extract_jlpt_vocab_from_pdf.py --pages 143-399 --level N3 --output tools/ocr/dictionary/jlpt_n3_wordlist_candidates.csv --raw-dir tools/ocr/outputs/n3_ocr_raw
+python3 tools/ocr/prepare_jlpt_wordlist_from_candidates.py
 ```
 
 合併清理後的 N4 詞庫到網站資料：
 
 ```bash
 python3 tools/ocr/merge_n4_csv_wordlist.py
+```
+
+合併清理後的 N3 詞庫到網站資料：
+
+```bash
+python3 tools/ocr/merge_n3_csv_wordlist.py
 ```
 
 重新產生 N4 九州四國背景音樂 WAV：
