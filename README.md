@@ -64,6 +64,7 @@ python3 tools/ocr/merge_n4_csv_wordlist.py
 
 ```bash
 python3 tools/ocr/merge_n3_csv_wordlist.py
+python3 tools/ocr/fill_n3_zh_from_ocr_context.py
 ```
 
 重新產生 N4 九州四國背景音樂 WAV：
