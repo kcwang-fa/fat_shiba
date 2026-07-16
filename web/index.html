@@ -2113,10 +2113,15 @@
         webp: "assets/n5-okinawa-vocab-review-background.webp",
         position: "center 48%"
       };
-      const N4_BGM_SOURCES = [
+      const N4_REVIEW_BGM_SOURCES = [
         { src: "assets/audio/n4-kyushu-shikoku-bgm.ogg?v=20260716", type: "audio/ogg" },
         { src: "assets/audio/n4-kyushu-shikoku-bgm.mp3?v=20260716", type: "audio/mpeg" },
         { src: "assets/audio/n4-kyushu-shikoku-bgm.wav?v=20260716", type: "audio/wav" }
+      ];
+      const N4_GAME_BGM_SOURCES = [
+        { src: "assets/audio/n4-kyushu-shikoku-game-bgm.ogg?v=20260716", type: "audio/ogg" },
+        { src: "assets/audio/n4-kyushu-shikoku-game-bgm.mp3?v=20260716", type: "audio/mpeg" },
+        { src: "assets/audio/n4-kyushu-shikoku-game-bgm.wav?v=20260716", type: "audio/wav" }
       ];
       const N4_REVIEW_BACKGROUND = {
         png: "assets/n4-kyushu-shikoku-vocab-review-background.png",
@@ -2141,7 +2146,7 @@
           title: "N4 單字複習",
           regionId: "n4_kyushu_shikoku",
           background: N4_REVIEW_BACKGROUND,
-          bgmSources: N4_BGM_SOURCES
+          bgmSources: N4_REVIEW_BGM_SOURCES
         },
         N3: {
           label: "N3",
@@ -3043,7 +3048,7 @@
         n4BgmAudio.loop = true;
         n4BgmAudio.preload = "auto";
         n4BgmAudio.volume = 0.32;
-        N4_BGM_SOURCES.forEach((sourceConfig) => {
+        N4_GAME_BGM_SOURCES.forEach((sourceConfig) => {
           const source = document.createElement("source");
           source.src = sourceConfig.src;
           source.type = sourceConfig.type;
@@ -3069,7 +3074,6 @@
 
       function ensureReviewBgmAudio(level) {
         if (level === "N5") return ensureN5BgmAudio();
-        if (level === "N4") return ensureN4BgmAudio();
         const config = REVIEW_LEVEL_CONFIG[level];
         if (!config || !config.bgmSources || !config.bgmSources.length) return null;
         if (reviewBgmAudioByLevel[level]) return reviewBgmAudioByLevel[level];
@@ -3120,6 +3124,7 @@
         if (!audioEnabled) {
           rampGain(masterGain, 0);
           stopOkinawaMusic();
+          stopN4Bgm();
           stopReviewBgm();
           return;
         }
@@ -3296,6 +3301,7 @@
       function startReviewBgm() {
         const audio = ensureReviewBgmAudio(reviewLevel);
         if (!audio) return;
+        stopN4Bgm();
         stopReviewBgm(reviewLevel);
         audio.volume = reviewLevel === "N5" ? 0.34 : 0.32;
         if (!audio.paused) return;
@@ -3304,7 +3310,6 @@
 
       function stopReviewBgm(exceptLevel = "") {
         if (exceptLevel !== "N5") stopN5Bgm();
-        if (exceptLevel !== "N4") stopN4Bgm();
         for (const [level, audio] of Object.entries(reviewBgmAudioByLevel)) {
           if (level === exceptLevel) continue;
           audio.pause();
@@ -3318,11 +3323,13 @@
           if (shouldPlayReviewBgm()) {
             startReviewBgm();
           } else if (shouldPlayOkinawaMusic()) {
+            stopN4Bgm();
             stopReviewBgm();
           } else if (shouldPlayN4Bgm()) {
-            stopReviewBgm("N4");
+            stopReviewBgm();
             startN4Bgm();
           } else {
+            stopN4Bgm();
             stopReviewBgm();
           }
           return;
@@ -3333,13 +3340,14 @@
           return;
         }
         if (shouldPlayOkinawaMusic()) {
+          stopN4Bgm();
           stopReviewBgm();
           startOkinawaMusic();
           return;
         }
         stopOkinawaMusic();
         if (shouldPlayN4Bgm()) {
-          stopReviewBgm("N4");
+          stopReviewBgm();
           startN4Bgm();
           return;
         }

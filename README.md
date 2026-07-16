@@ -73,8 +73,14 @@ python3 tools/ocr/fill_n3_zh_from_ocr_context.py
 python3 tools/audio/generate_n5_bgm.py
 ```
 
-重新產生 N4 九州四國背景音樂 WAV：
+重新產生 N4 九州四國複習專注背景音樂 WAV：
 
 ```bash
 python3 tools/audio/generate_n4_bgm.py
+```
+
+重新產生 N4 九州四國遊戲背景音樂 WAV：
+
+```bash
+python3 tools/audio/generate_n4_game_bgm.py
 ```
