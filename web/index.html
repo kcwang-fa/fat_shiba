@@ -611,9 +611,14 @@
     .review-card {
       min-height: 260px;
       border-radius: var(--radius);
-      border: 1px solid rgba(216, 189, 150, 0.95);
+      border: 1px solid rgba(255, 253, 248, 0.72);
       background:
-        linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(255, 248, 239, 0.9));
+        linear-gradient(180deg, rgba(255, 253, 248, 0.76), rgba(255, 248, 239, 0.58));
+      -webkit-backdrop-filter: blur(7px) saturate(0.72) brightness(1.08);
+      backdrop-filter: blur(7px) saturate(0.72) brightness(1.08);
+      box-shadow:
+        0 16px 34px rgba(79, 55, 31, 0.13),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
       padding: 18px;
       display: grid;
       align-content: center;
