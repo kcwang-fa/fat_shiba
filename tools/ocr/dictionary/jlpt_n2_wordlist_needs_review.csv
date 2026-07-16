@@ -1,0 +1,388 @@
+level,reading,writing,page,column,entry_no,needs_review,review_reason,ocr_headword,ocr_bracket,ocr_context
+N2,きゅう,旧,284,left,14,1,duplicate_reading,きゅう,旧,14 | きゅう【旧】                          1 / -和あめ 陳舊;往昔 舊日;舊曆農曆; i(! / 前任者
+N2,じき,時期,284,left,01,1,duplicate_reading,じき,時期,、 1 |じき【時期】                | / 。 る時期・時候 : 期間 季節     1 2 / じ き かさ                    5
+N2,しばる,縛る,284,right,,1,reading_auto_cleaned,しばる人,縛る,| しばる人【縛る】 / 五) 純・掴・縛 : 拘束・限制 妹捕 / じ かん   しば
+N2,ずれる,,285,left,23,1,blank_writing,ずれる,,"23 | ずれる / (自下一) (從原來或正確的位置)錯位 , / 動;離題',背離(主題、正路等)"
+N2,そのころ,,285,left,24,1,blank_writing,そのころ,,"24 | そのころ / 起) 當時,那時 / い どうちゅう"
+N2,たちまち,,285,left,26,1,blank_writing,たちまち,,"26 | たちまち / 便) 轉眼間 一瞬間 ,很快 ,立刻;忽多 / 突然"
+N2,たま,偶,285,left,28,1,duplicate_reading,たま,偶,"28 | たま【偶】 / 遙 偶爾,偶然;難得,少有 / き*うじつ  うれ"
+N2,ながびく,長引く,286,left,38,1,reading_auto_cleaned,ながびく人,長引く,"_ 38 | ながびく人【長引く】         1 ( / (唔) 拖長,延長          1"
+N2,やがて,,287,left,47,1,blank_writing,やがて,,"47 | やがて / 員 不久,馬上;幾乎,大約 ;歸根究械 / 亦即,就是"
+N2,しき,四季,287,right,07,1,duplicate_reading,しき,四季,) | o7 | しき【四季】 / | / :    し き  あじ  中
+N2,しゅう,週,287,right,08,1,duplicate_reading,しゅう,週,| os |しゅう【週 / | (・革 星期 ;一圈 / :   せんしゅう    ようつう ひど
+N2,じゅう,中,287,right,09,1,duplicate_reading,じゅう,中,1 9 |じゅう【中】 / : (舊)期間 ; 表示整個期間或區域 / :     ねったい ち ほう   いちねんじゅうあつ
+N2,站也!,日付,289,right,32,1,unexpected_reading_chars;suspicious_reading,站也!,日付,",i32 |站也! [日付】 / | る)(報紙、新聞上的)日期 / “| 圏日付を入れる。"
+N2,譯天亮・1,40 | よなか【夜中,290,left,,1,unexpected_reading_chars;suspicious_reading;suspicious_writing,譯天亮・1,40 | よなか【夜中,譯 天亮・             1【 / 40 | よなか【夜中】                  和 / @ 半夜深夜・午夜
+N2,いらい,以来,290,right,05,1,duplicate_reading,いらい,以来,"5 | いらい【以来】 / ) 以來,以後 ;今後,將來 / う        い らい        い     つ"
+N2,こん,今,291,left,12,1,duplicate_reading,こん,今,12 | こん【今】 / 現在 : 今天 今年 / こんにち   に ほん   ひつよう
+N2,ちゅうせい,中世,291,right,19,1,duplicate_reading,ちゅうせい,中世,"| 19 | ちゅうせい【中世】 / i る) (歷史)中世紀,古代與近代之間(在 / ... 日本指鎌倉、室町時代)"
+N2,期間期限i,01 |いちじ【一時,292,left,,1,unexpected_reading_chars;suspicious_reading;suspicious_writing,期間期限i,。 01 |いちじ【一時,"期間 期限                i【 / 。 01 |いちじ【一時】          征 / 四-表) 某時期 ,一段時間;那時;暫時; ji0"
+N2,きげん,期限,292,right,,1,duplicate_reading,きげん,期限,| きげん【期限】 / 期限 / き げん   き
+N2,いど,井戸,293,left,02,1,duplicate_reading,いど,井戸,02 | いど【井戸】 / る) 井
+N2,之3,別往,294,left,19,1,unexpected_reading_chars;suspicious_reading,之3,別往,19 |之3 [別往】            | / @ 別時
+N2,かわら,瓦,294,right,04,1,reading_auto_cleaned,かわら人,瓦,4 | かわら人【瓦】 / ) 過 / かわら  や ね   ふ
+N2,扎儿大,煉瓦,295,left,09,1,unexpected_reading_chars;suspicious_reading,扎儿大,煉瓦,"09 |扎儿大【煉瓦】 / @ 磚,紅磚 / れん が     う"
+N2,圭杞(A,綺麗.奇麗,295,right,06,1,unexpected_reading_chars;suspicious_reading,圭杞(A,綺麗.奇麗,"| 06 |圭杞(A【綺麗.奇麗】 / | 18 好看 ,美麗;乾淨;完全徹底 ;清白, / i 純潔;正派,公正"
+N2,廊才未,袂,296,right,,1,unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,人廊才未,袂,) |人廊才未【袂】 / 隔局 拉門 / ふすま   あ
+N2,未大<,跨<,297,left,22,1,unexpected_reading_chars;suspicious_reading;suspicious_writing,未大<,跨<,"22 |未大<【跨<】 / (4五) 跨立,叉開腿站立;跨過,跨志 / しき い"
+N2,加已卅,器3,298,left,09,1,unexpected_reading_chars;suspicious_reading,加已卅,器3,"9 |加已卅【器3】                 | / | ( 咬,啃;一知半解                : / き   み                     生"
+N2,世衝万寢,獻立,298,right,09,1,unexpected_reading_chars;suspicious_reading,世衝万寢,獻立,9|世衝万寢【獻立】 / 5) 菜單 / こんだて   5そ                                    ド
+N2,さっぱり,,299,left,11,1,blank_writing,さっぱり,,"11 |さっぱり         1 / (名・他ヶ) 整潔,俐落,滿濕;)(個性/E / 爽,坦率;(威覺)爽快,病癒'(味道"
+N2,しつこい,,299,left,13,1,blank_writing,しつこい,,"13 | しつこい / 蝴 (色香味等)過於濃的,油膩 : 執近 / 糾纏不休"
+N2,じょうひん,上品,299,left,16,1,reading_auto_cleaned,じょうひん人,上品,"16 | じょうひん人【上品】 / (名・形動) 高級品 ',上等貨;莊重,高雅 / 優雅"
+N2,そのまま,,299,right,09,1,blank_writing,そのまま,,"1 9 |そのまま / | 會 照樣的,按照原樣;(不經過一般順 / i 序、步驟)就那樣,馬上,立刻 ;非當"
+N2,よう,酔う,300,right,,1,duplicate_reading,よう,酔う,| よう【酔う】 / 五) 酔 酒酔 : 量(車、船) : (吃魚等) / 4毒;陶醉
+N2,おやつ,,301,left,04,1,blank_writing,おやつ,,"04 | おやつ / 包) (特指下午二到四點給兒童吃的)# / 心,零食    人"
+N2,食物,,301,left,00,1,blank_writing;unexpected_reading_chars;suspicious_reading,食物,,300 | 食物
+N2,放說釣,鱗名. 焙台,302,right,01,1,unexpected_reading_chars;suspicious_reading,放說釣,鱗名. 焙台,1|放說釣【鱗名. 焙台】         lg / jj) 烤;烘乾;取暖                      用
+N2,餐廚用具,,303,left,02,1,blank_writing;unexpected_reading_chars;suspicious_reading,餐廚用具,,302 | 餐廚用具
+N2,大未,穴,303,right,01,1,unexpected_reading_chars;suspicious_reading,大未,穴,"| 01 |大未【穴】 / . ji @ 窯,爐;鍋爐 / :   かま や"
+N2,記已,是,303,right,03,1,unexpected_reading_chars;suspicious_reading,記已,是,"03 |記已[是】 / | @ 匙子,小村子 / さじ"
+N2,ゆったり,,306,right,00,1,blank_writing,ゆったり,,0 |ゆったり / 自六 寬敞舒適 / 記ゆったりした服が着たくなる。
+N2,たび,足袋,307,right,0y,1,duplicate_reading,たび,足袋,"""oy |たび【足袋】 / i @ 日式白布襪 / :   た び   は"
+N2,あびる,浴びる,309,left,01,1,reading_auto_cleaned,あびる人,浴びる,01 | あびる人【浴びる】 / (介上つ洗:浴:旧照:演受'蒙受 / あ
+N2,しゃがむ,,309,right,09,1,blank_writing,しゃがむ,,09 | しゃがむ / | 圏しゃがんで小石を捨う。 / i 語蹲下撿小石頭。
+N2,ぜんしん,全身,310,left,12,1,duplicate_reading,ぜんしん,全身,12 | ぜんしん【全身】            較 / @ 全身             1 / はうう = ぜんしん 。 ひろ             : |
+N2,いき,息,311,left,02,1,duplicate_reading,いき,息,02 | いき【息】 / @) 呼吸 ・ 気息 : 歩調 / 囲息をつく。
+N2,臉(0,,311,left,10,1,blank_writing;unexpected_reading_chars;suspicious_reading,臉(0,,310 | 臉(0
+N2,くわえる,衡える,311,right,10,1,duplicate_reading,くわえる,衡える,| 10 | くわえる【衡える】 / ... 他つ軌・衡
+N2,宅訊立<,吧<,312,left,14,1,unexpected_reading_chars;suspicious_reading;suspicious_writing,宅訊立<,吧<,"14 |宅訊立<【吧<】           | 6 / (至) 低聲自語,小聲說話,耳語    1n / 、。 ぁみもと                    i【"
+N2,ばっちり,,313,left,28,1,blank_writing,ばっちり,,"28 | ばっちり / ーー 眼大而水汪汪;睜大眼睛 / 轅目訪!了2五戰世紀工必,"
+N2,臉(2,,313,left,12,1,blank_writing;unexpected_reading_chars;suspicious_reading,臉(2,,312 | 臉(2)
+N2,ぼんやり,,313,right,32,1,blank_writing,ぼんやり,,"32 | ぼんやり / i (名・副・自サ) 模糊,不清楚;迷糊,傻查 / | 楞;心不在焉;笨蛋,呆子"
+N2,すっと,,315,left,13,1,blank_writing,すっと,,"13 | すっと / 動作迅速地,和飛快,輕快;!' / 中)輕鬆,痛快,輕鬆"
+N2,ちぎる,,315,left,15,1,blank_writing,ちぎる,,"15 | ちぎる / 撕碎(成小段) : 摘取,揪| / (接動詞連用形後加強語氣)非常,極"
+N2,のろのろ,,315,left,17,1,blank_writing,のろのろ,,"17 | のろのろ / (副・自サ) 遲緩,'慢吞吞地 / ある"
+N2,手腳,,315,left,14,1,blank_writing;unexpected_reading_chars;suspicious_reading,手腳,,314 | 手腳
+N2,もちあげる,持ち上げる,316,right,07,1,reading_auto_cleaned,もちあげる人,持ち上げる,"7 | もちあげる人【持ち上げる】 / 下二) (用手)舉起,抬起;阿誤奉承, N2 / 捧;拍豆              回"
+N2,ゆっくり,,316,right,03,1,blank_writing,ゆっくり,,"3 | ゆっくり / 店 慢慢地,不著急的,從容地; / 適的,舒適的;充分的,充裕的"
+N2,せい,生,317,right,06,1,duplicate_reading,せい,生,"| 06 | せい【生】 / (名匠) 生命 ,生活;生業 '營生;出生, / i 生長;活著',生存"
+N2,しわ,,318,left,08,1,blank_writing,しわ,,"08 | しわ                    | / 、 る (皮膚的)徐紋; (紙或布的)纖折,摺子 | / 図しわが増える。"
+N2,いけない,,319,left,02,1,blank_writing,いけない,,"o2 | いけない             1 / 形-W庫) 不好,糟糕;沒希革不行, / 能喝酒 ,不能喝酒的人, 不許・ 不可"
+N2,こんなに,,319,left,04,1,blank_writing,こんなに,,"o4 | こんなに / 仙) 這樣,如此 / おお"
+N2,きる,切る,320,right,08,1,duplicate_reading,きる,切る,8 | きる 【切る】                   名 / 尾) (接助語      ク) 表示         ;      ー / とこ 司運用形) 表示達到極限 y
+N2,すっきり,,320,right,02,1,blank_writing,すっきり,,"2 |すっきり / 中) 条幅 ・坦快 輕鬆;流暢,通暢; / :淨整潔,俐落"
+N2,痛疼,,321,left,20,1,blank_writing;unexpected_reading_chars;suspicious_reading,痛疼,,320 | 痛疼
+N2,がい,害,322,right,02,1,duplicate_reading,がい,害,2 | がい【害】 / 5-江人 為害 ・ 損害 : 災害 妨大 / けんこう がい
+N2,せいかつしゅうかんびょう,,323,right,17,1,blank_writing,せいかつしゅうかんびょう,,| 17 | せいかつしゅうかんびょう / :【生活習慣病】 / | 文明病
+N2,ていか,低下,324,left,01,1,duplicate_reading,ていか,低下,"1 |ていか【低下】 / @ 和9)降低,低落;(力量、技術等) | / さのう きゅう ていか          :"
+N2,でんせん,伝染,324,left,21,1,duplicate_reading,でんせん,伝染,"21 | でんせん【伝染】 / (店め (病菌的)信染 : (惡習的)傳染, ji"
+N2,きゅうそく,休上息,324,right,03,1,duplicate_reading,きゅうそく,休上息,3 | きゅうそく【休上息】 / a・自サ) 休息 / きゅうそく    と
+N2,XU做,啼,324,right,05,1,unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,XU人做,啼,5|XU人做【啼】 / ) 噴嚏   有 / くしゃみが出る。
+N2,身體器官功能,,325,left,24,1,blank_writing;unexpected_reading_chars;suspicious_reading,身體器官功能,,324 | 身體器官功能
+N2,はく,吐く,325,right,12,1,duplicate_reading,はく,吐く,| | 12 | はく【吐く】 / i (他五)吐・吐出:説出*吐露出冒出
+N2,かげ,影,326,right,05,1,duplicate_reading,かげ,影,5 | かげ【影】 / ) 影子 : 倒影 : 路影 形中 / かげ  うす
+N2,たま,玉,327,left,14,1,duplicate_reading,たま,玉,"14 | たま【玉】 / る@ 玉,寶石,珍珠;球,珠;眼鏡鏡上 / 燈泡 ;子彈"
+N2,物,,327,left,26,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,人物,,326 | 人物
+N2,たいしょう,対象,328,right,07,1,duplicate_reading,たいしょう,対象,7 | たいしょう【対象】 / こ ども   たいしょう / 』 子供を対象とした。
+N2,おう,王,329,left,01,1,duplicate_reading,おう,王,01 | おう【王】 / る) 帝王 君王 :國王:首領 大王:(。 / 棋)王將
+N2,各種物的稱呼(1,,329,left,28,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,各種人物的稱呼(1,,328 | 各種人物的稱呼(1)
+N2,じゅんきょうじゅ,准教#,331,left,29,1,suspicious_writing,じゅんきょうじゅ,准教#,29 | じゅんきょうじゅ【准教# / 多 (大學的)副教授 / じ*んきょうじゅ   し*うにん
+N2,各種物的稱呼(2,,331,left,30,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,各種人物的稱呼(2,,330 | 各種人物的稱呼(2)
+N2,しょうにん,商人,331,right,31,1,duplicate_reading,しょうにん,商人,| 31 | しょうにん【商人】 / i る) 商人
+N2,台LY,著者,332,left,04,1,unexpected_reading_chars;suspicious_reading,台LY,著者,“4 |台LY【著者】       1 / 。 る作者
+N2,ふじん,婦人,332,right,,1,duplicate_reading,ふじん,婦人,| ふじん【婦人】 / 婦女 ・ 女子 / ふ じんけいかん あらわ
+N2,各種物相關團體的稱呼,,333,left,32,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,各種人物相關團體的稱呼,,332 | 各種人物相關團體的稱呼
+N2,ほっそり,,334,right,02,1,blank_writing,ほっそり,,"2 | ほっそり / l・自ず) 纖細,'苗條 / 』体つきがほっそりしている。"
+N2,ぽっちゃり,,335,left,13,1,blank_writing,ぽっちゃり,,"13 | ぽっちゃり / 副・自す) 豐滿,胖 / かわい"
+N2,尺崗上<,魅力,335,left,17,1,unexpected_reading_chars;suspicious_reading,尺崗上<,魅力,"17 |尺崗上<【魅力】 / 魅力,吸引力 / み りょく"
+N2,きげん,機嫌,336,right,,1,duplicate_reading,きげん,機嫌,| きげん【機嫌】 / 心情・ 情緒 / き げん   と
+N2,くどい,,337,left,21,1,blank_writing,くどい,,"21 | くどい / 哆 冗長迄味的',(味道)過於膩的 / 表現が くどい。"
+N2,たいそう,大層,338,left,36,1,duplicate_reading,たいそう,大層,"36 | たいそう【大層】 / -) 很, 非常,了不起;過份的' |"
+N2,にごにご,,339,left,48,1,blank_writing,にごにご,,48 |にごにご / (副・自す) 笑嘻嘻 ・ 笑容満面 / にこにとこする。
+N2,にっこり,,339,left,49,1,blank_writing,にっこり,,"49 | にっこり / (画・自サ) 微笑貌,莞爾,嫣然一笑, / 微一笑"
+N2,六!2,不潔,339,right,54,1,unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,人六!2,不潔,"| 54 |人六!2【不潔】 / ; (名・形動) 不乾淨,骸髒;(思想)不純潔 / ie 2  ふけつ こころ 。 お"
+N2,まごまご,,340,left,00,1,blank_writing,まごまご,,"。 0 |まごまご / 、 中時 不知如何是好,惶張失措,手 i, / 。 忙腳亂 ; 閒蕩,遊蕩,懶散      1("
+N2,もともと,,340,left,01,1,blank_writing,もともと,,|  1 | もともと                1 / 名- 奥原來一様・不増不減 従来 ( / |本来・根本            i |
+N2,よう,様,340,right,04,1,duplicate_reading,よう,様,"4 | よう【様】 / ・形動) 様子 , 方式 : 風格 : 形状"
+N2,際關係(1,,341,left,40,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,人際關係(1,,340 |人際關係(1)
+N2,てき,敵,342,right,00,1,duplicate_reading,てき,敵,"0 |てき【敵】 / ・漢造) 敵人,仇敵;(競爭的)對手 / 礎・ 大敵 : 敵翌・英方"
+N2,際開係2,,343,left,42,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,人際開係2,,342 | 人際開係2
+N2,ばったり,,343,right,27,1,blank_writing,ばったり,,| 27 |ばったり / i 仙) 物體突然倒下(跌落)貌; 突然相手 / | 突然終止貌
+N2,みかた,味方,344,left,37,1,duplicate_reading,みかた,味方,"37 | みかた【味方】                 1 / 名・計め 我方,自己的這一方;夥伴  1 / みかた ひ   こ                :"
+N2,ゆうこう,友好,344,left,38,1,duplicate_reading,ゆうこう,友好,38 | ゆうこう【友好】       旧 / 友好 / ゆうこう ふか                   5 《
+N2,りょう,両,344,right,00,1,duplicate_reading,りょう,両,"0 | りょう【両】 / 暗) 雙,兩 / りょうしゃ   ごう い   ひつよう"
+N2,かみ,神,345,left,07,1,duplicate_reading,かみ,神,"07 | かみ【神】 / % 神,神明,上帝,千物主; (死者的)"
+N2,せい,精,345,right,11,1,duplicate_reading,せい,精,| 11 | せい【精】 / ... @精・精填 精力 / :   もり せい やど
+N2,和(At,箇,346,left,03,1,unexpected_reading_chars;suspicious_reading,和(At,箇,"03 | 和(At【箇】 / 色姪子,外曙              | 課 / お じおい がだがら           :"
+N2,しまい,姉妹,346,right,,1,duplicate_reading,しまい,姉妹,| しまい【姉妹】 / 姊妹 / さんにん し まい        えん            いとな
+N2,せい,姓,347,left,01,1,duplicate_reading,せい,姓,"1 | せい【姓】 / (名・漢中) 姓氏 族・血族: (日本古代| / 氏族姓,稱號"
+N2,夫婦,,347,left,46,1,blank_writing;unexpected_reading_chars;suspicious_reading,夫婦,,346 | 夫婦
+N2,ふじん,夫人,348,left,07,1,duplicate_reading,ふじん,夫人,07 | ふじん【夫人】             略 / ふ じんどうはん しゅっせき              # / 圏夫人同伴で出席する。         1 |
+N2,だい,代,348,left,03,1,duplicate_reading,だい,代,03 |だい【代】                1 大 / 名-江)代募: 一生・一世:代全 ” ; / だい 。 か                    H
+N2,つとめ,務め,348,right,05,1,duplicate_reading,つとめ,務め,5 | つとめ【務め】 / ) 本分 義務 責任          N2 / おや つと     は
+N2,選之AU,子孫,349,left,02,1,unexpected_reading_chars;suspicious_reading,選之AU,子孫,02 | 選之AU【子孫】 / る 子孫;後代 / しそん はんえい ねが
+N2,一{二寶,翼,351,left,12,1,unexpected_reading_chars;suspicious_reading,一{二寶,翼,"12 | 一{二寶【翼】 / る 翼,怒膀;(和飛機)機翼;(風車)翼4 / 使者,使節"
+N2,とる,捕る,351,left,14,1,duplicate_reading,とる,捕る,14 | とる【捕る】 / (4五) 折・ 捕捉・妹捕 / ねずみ   と
+N2,ねずみ,,351,right,18,1,blank_writing,ねずみ,,| 18 |ねずみ / (i | 會老鼠 / | 圏ねずみが出る。
+N2,埋議,牙,351,right,0z,1,unexpected_reading_chars;suspicious_reading,埋議,牙,"| oz |埋議[牙】 / | 會厂此 ,狡牙 。    了 / |圏ライオンの中が獲物を噛み任..."
+N2,U25革,女尾,351,right,08,1,unexpected_reading_chars;suspicious_reading,U25革,女尾,"| os |U25革[女尾】 / | @ 尾巴 ; 末端,末尾 ;尾獎物 / | 圏しっぽを出す。"
+N2,孖又名,吠允名,352,right,,1,unexpected_reading_chars;suspicious_reading,孖又名,吠允名,"| 孖又名 【吠允名】 / Fつ) (狗、犬獸等)吠,吼; (人)大聲 / 成・中上"
+N2,直下,桃,353,right,00,1,unexpected_reading_chars;suspicious_reading,直下,桃,| 0 |直下【桃】 / i @ 桃子           。 / 団桃のおいしい季節がやってぞ“
+N2,しなやか,,354,right,07,1,blank_writing,しなやか,,7 | しなやか / 妥) 柔軟 ・和軟 ; 多多記      : 。N2 / 美・柔和・温楽 mi
+N2,から,殻,355,right,04,1,duplicate_reading,から,殻』,| 04 | から【殻』 / i @ 外皮'外殼 / :   から 。 ぬ  、
+N2,なる,生る,356,left,12,1,duplicate_reading,なる,生る,"12 |なる【生る】              1 / (主) (植物)結果; 生,產出         1 6 / かき  な                    :"
+N2,求<,蔚<,356,right,,1,unexpected_reading_chars;suspicious_reading;suspicious_writing,求<,蔚<,|求<【蔚<】 / や 播種; (在漆器上)畫泥金畫          本 / 才     ま
+N2,きたい,気体,357,left,04,1,duplicate_reading,きたい,気体,04 | きたい【気体】 / @(理)氣體 / きたい  とお    みず  とお
+N2,どく,毒,359,left,25,1,duplicate_reading,どく,毒,"25 | どく【毒 / (名・自す・江造) 毒,毒藥;毒害,有害 / 惡毒,毒辣"
+N2,ほこり,境,359,right,32,1,duplicate_reading,ほこり,境,"i 32 |ほこり【境】 / | る 灰塵,塵埃 / :  。 ほこり はら"
+N2,かいせい,快晴,363,right,09,1,duplicate_reading,かいせい,快晴,"| 09 | かいせい【快晴】 / | @ 晴朗,晴朗無雲 / :     てん き かいせい"
+N2,じき,直,364,right,,1,duplicate_reading,じき,直,"| じき【直】 / 到) 直接;(距離)很近,就在眼前; / 間)立即,馬上"
+N2,にわか,,365,left,27,1,blank_writing,にわか,,"27 | にわか / (-形突然 騒然: 立刻・馬上 / 陣子,臨時,暫時"
+N2,ふわっと,,366,left,37,1,blank_writing,ふわっと,,37 | ふわっと                   | 圖 / 中全) 輕軟蓬鬆貌;輕飄貌     1 。
+N2,めっきり,,366,left,39,1,blank_writing,めっきり,,"39 | めっきり                         | / 急變化明顯 , 顯著的,突然,劇烈   ま / さむ                         : 御"
+N2,さびる,錆びる,367,left,10,1,reading_auto_cleaned,さびる人,錆びる,"10 | さびる人【錆びる】 / (自上一) 生鏽,長鏽; (聲音)蒼老 / 366 | 各種自然現象"
+N2,しめる,湿る,367,right,11,1,duplicate_reading,しめる,湿る,"11 | しめる【湿る】 / . () 受潮,濡濕;(火)熄滅, (勢頭)漸消 / :         しめ"
+N2,選有有,霜,367,right,12,1,unexpected_reading_chars;suspicious_reading,選有有,霜,"12 | 選有有【霜】 / ; @ 霜;白髮 / | 國町碎隆山色,"
+N2,なる,成る,368,left,02,1,duplicate_reading,なる,成る,2 |なる【成る】                 | 28 / () 成功 完成 : 組成 構成: 旬許′ j / におり みず 。 な             1 例
+N2,いど,締度,370,left,02,1,duplicate_reading,いど,締度,02 | いど【締度】            1 / @緯度              | 、 / い ど  たか
+N2,かこう,火口,370,right,,1,duplicate_reading,かこう,火口,| かこう【火口】 / ) (火山)噴火口 : (爐灶等)爐口 / か こう                ふんしゅっ
+N2,太言,漳,372,left,03,1,unexpected_reading_chars;suspicious_reading,太言,漳,3 |太言【漳】                   3 / @ 漫布               1 / もe 可 人       生
+N2,和1たにぞこ,谷底,372,left,,1,unexpected_reading_chars;suspicious_reading,和1たにぞこ,谷底,和 1たにぞこ【谷底】             | 3 / る 谷底                            1 / にをこ。 てんら                     5
+N2,とう,島,373,left,37,1,duplicate_reading,とう,島,37 | とう【島】 / @ 島嶼 / り とう   かずおお
+N2,みなれる,見慣れる,374,right,01,1,reading_auto_cleaned,みなれる人,見慣れる,"1 | みなれる人【見慣れる】             N2 / 下 看慣,眼熟,熟識 / 「  き  み な"
+N2,てんてん,転々,375,left,04,1,duplicate_reading,てんてん,転々,"04 | てんてん【転々】 / 神-自9) 轉來轉去,輾轉,不斷移動 / 滾轉貌,嘰哩咕嚕"
+N2,どこか,,375,left,0e,1,blank_writing,どこか,,oe | どこか / とお     い / 較 どこか遠くへ行きたい。
+N2,和扳必万tA,溫帶,377,left,07,1,unexpected_reading_chars;suspicious_reading,和扳必万tA,溫帶,07 | 和扳必万tA【溫帶】 / @ 溫帶 / おんたい き こう   ぞく
+N2,がい,外,377,left,08,1,duplicate_reading,がい,外,08 |がい【外】 / (短星・漢造) 以外・ 之外 : 外側・ 外面 / 外部 : 妻方親戚 : 除外
+N2,さい,際,378,left,23,1,duplicate_reading,さい,際,"23 |さい【際】                       | 2 / -江時候・時機・在...的敵況下: で / 彼此之間,交接;會晤;邊際     1"
+N2,しゅう,州,378,right,,1,duplicate_reading,しゅう,州,| しゅう【州】 / ) 大陸・州             NZ / せ かい   ご だいしゅうぅう   わ
+N2,しゅうへん,周辺,378,right,,1,reading_auto_cleaned,しゅうへん人,周辺,"| しゅうへん人【周辺】 / 周邊, 四周,外圍 / と し   しゅうへん   す"
+N2,じょうきょう,上京,378,right,,1,duplicate_reading,じょうきょう,上京,| じょうきょう【上京】 / 再め 准京 ・ 到東京去
+N2,あと,後,380,right,,1,duplicate_reading,あと,後,"| あと【後】 / 地器位置)後面 後方 : (時間上) / i(距現在)以前:(次序)之後 ,其後;"
+N2,かこう,下降,380,right,,1,duplicate_reading,かこう,下降,かこう【下降】 / め下隆・下況 / パラシュートが下降する。
+N2,かみ,上,381,left,05,1,duplicate_reading,かみ,上,"05 | かみ【上】 / (名 上間・上方・上湾・上半身 ! / 前',過去;開始 ,起源於;統治者 '主人"
+N2,つうか,通過,382,right,,1,duplicate_reading,つうか,通過,"|つうか【通過】                     13 / -邊め 通過 ,經過;(電車等)駛過;(議 毅 / 、考試等)通過,過關,合格               、"
+N2,どく,退く,382,right,,1,duplicate_reading,どく,退く,"| どく【退く】 / 5 讓開,離開,躲開 / はや   しっ"
+N2,きょく,局,386,right,,1,duplicate_reading,きょく,局,|きょく【局】 / 把尾) 房間・屋子 (官署 報社)局・ / 特指郵局 ・廣播電坪 : 局面 ・局勢 :
+N2,こうしゃ,校舎,387,left,04,1,duplicate_reading,こうしゃ,校舎,04 | こうしゃ【校舎】 / る 校舎 / こうしゃ   し   か
+N2,万客(\,滿在,387,right,,1,unexpected_reading_chars;suspicious_reading,万客(\,滿在,"| |万客(\【滿在】 / .. | @-自禾) 旅居,逗留,停留"
+N2,ほり,堀,388,left,20,1,duplicate_reading,ほり,堀,20 | ほり【堀】                1 / @潮染・幸溝 護城河        i【 / ほり  かこ                    : 尋
+N2,りょう,寮,388,right,,1,duplicate_reading,りょう,寮,|りょう【寮】 / -漠告) 宿舍(狹指學生、公司宿舍) : / 室;別墅
+N2,口E一,lobby,388,right,,1,unexpected_reading_chars;suspicious_reading,口E一,lobby,"|口E一【lobby】 / (飯店、電影院等人潮出入頻繁的建 / 物的)大廳,門廳;接待室,休息室,"
+N2,しまい,仕舞い,390,right,,1,duplicate_reading,しまい,仕舞い,"| しまい【仕舞い】 / 終了 末尾停止 ,休止;閉店;賣光; / 妝,打扮"
+N2,ずらり(と,,391,left,17,1,blank_writing,ずらり(と,,17 | ずらり(と) / 則 一排排・一大排 一長排 / いし            なら
+N2,つとめる,努める,391,left,19,1,duplicate_reading,つとめる,努める,"19 | つとめる【努める】 / (他下一) 努力,為“‧:上奮鬥,盡力;勉強妨 / 回生一弓久世蒡的名,"
+N2,かそく,加速,393,left,05,1,reading_auto_cleaned,かそく人,加速,05 | かそく人【加速】 / (2 加速 / 団アクセルを踏んで加速する。
+N2,はっしゃ,発車,394,right,,1,duplicate_reading,はっしゃ,発車,") | はっしゃ【発車】 / ・自サ) 發車,開車 / はっしゃ   おく"
+N2,ベん,便,394,right,,1,reading_auto_cleaned,ベん人,便,| ベん人【便】 / -形動漢這) 便利 方便 : 大小便 : 信
+N2,せん,船,396,left,13,1,duplicate_reading,せん,船,13 |せん【船】               【 / (時)般                  i / りょかくせん ちんぼつ           轉
+N2,でんせん,電線,400,right,,1,duplicate_reading,でんせん,電線,"| でんせん【電線】 / 電線,電纜 / でんせん   は"
+N2,あと,跡,401,right,0t,1,duplicate_reading,あと,跡,"| ot | あと【跡】 / i @)印・痕跡: 汗跡: 跡象 : 行路下落 / : 家業;後任,後繼者"
+N2,けいじ,掲示,401,right,08,1,duplicate_reading,けいじ,掲示,"| os | けいじ【掲示】 / | (名・他め 牌示,佈告欄;公佈 / :     けい じ    で"
+N2,こうせい,構成,402,right,,1,duplicate_reading,こうせい,構成,"| こうせい【構成】 / 89) 構成, 組成,結構        NZ"
+N2,ほうそう,放送,403,left,10,1,duplicate_reading,ほうそう,放送,10 | ほうそう【放送】 / (名・他サ) 廣播;(用擴音器)傳播 ' 散佈(
+N2,くわえる,加える,404,left,05,1,duplicate_reading,くわえる,加える,"05 | くわえる【加える】           |"" / 人e下っ) 加・加上               【 / しんじん くわ          (名"
+N2,たいそう,体操,404,right,,1,duplicate_reading,たいそう,体操,| たいそう【体操】 / 體操;體育課 / たいそう
+N2,おさめる,収める,405,left,03,1,duplicate_reading,おさめる,収める,"03 | おさめる【収める】 / (人下一) 接受;取得;收藏,收存;收集 / 集中 : 繳納;供應,賣給 ;結束"
+N2,比賽,,405,left,04,1,blank_writing;unexpected_reading_chars;suspicious_reading,比賽,,404 | 比賽
+N2,已之作,弱點,406,left,14,1,unexpected_reading_chars;suspicious_reading,已之作,弱點,"14 |已之作【弱點】 / 仿弱點,痛處;缺點 / 補選                      3 。"
+N2,たび,旅,409,left,05,1,duplicate_reading,たび,旅,"05 | たび【旅】 / (名・他ず) 旅行,遠行 / たび"
+N2,娛樂,,409,left,08,1,blank_writing;unexpected_reading_chars;suspicious_reading,娛樂,,408 | 娛樂
+N2,ほり,彫り,412,left,17,1,duplicate_reading,ほり,彫り,17 | ほり【彫り】 / % 雕刻               1
+N2,おん,音,412,right,03,1,duplicate_reading,おん,音,"3 | おん【音】 / ) 聲音,響聲;發音"
+N2,がっき,楽器,412,right,05,1,duplicate_reading,がっき,楽器,5 |がっき【楽器】 / 5) 樂器
+N2,からから,,413,left,08,1,blank_writing,からから,,08 | からから / (-計 乾的、硬的東西相碰的聲音(4: / おと
+N2,がらがら,,413,left,09,1,blank_writing,がらがら,,09 | がらがら / (名・副・自サ・形動) 手挫鈴玩具 : 硬物】 / 聲;直爽;很空
+N2,きょく,曲,413,left,10,1,duplicate_reading,きょく,曲,10 |きょく【曲】 / (名.漢造) 曲調 : 歌曲 ;彎曲 / きょく えんそう
+N2,音樂,,413,left,12,1,blank_writing;unexpected_reading_chars;suspicious_reading,音樂,,412 | 音樂
+N2,和3水3,童認,413,right,17,1,unexpected_reading_chars;suspicious_reading,和3水3,童認,| 17 |和3水3【童認】 / | @ 童謠;兒童詩歌 / どうよう さっきょく
+N2,加7時,"~開演才名, 1【 | かいかい【開会",414,left,,1,unexpected_reading_chars;suspicious_reading;suspicious_writing,加7時,"~開演才名,       1【 | かいかい【開会","加7時[~開演才名,       1【 / | かいかい【開会】          | / 分) 開會"
+N2,だい,題,415,left,15,1,duplicate_reading,だい,題,"15 | だい【題】 / 2 到) 題目,標題 ;問題 ;題肥 / 団題が決まる。"
+N2,きゅうそく,急束,416,left,05,1,duplicate_reading,きゅうそく,急束,"5 | きゅうそく【急束】         1 / を 迅速,快速         1"
+N2,乜<,極,416,right,03,1,unexpected_reading_chars;suspicious_reading,乜<,極,3|乜<【極】 / 非常*最極*至頂 / ごくした     かんけい   も
+N2,しめる,占める,416,right,,1,duplicate_reading,しめる,占める,"| しめる【占める】 / 下ー) 占有,佔據,佔領;(只用於特 / 形)表得到(重要的位置)"
+N2,數目,,417,left,16,1,blank_writing;unexpected_reading_chars;suspicious_reading,數目,,416 | 數目
+N2,六上二已,一筋,417,right,23,1,unexpected_reading_chars;suspicious_reading,六上二已,一筋,"| 23 |六上二已[一筋】 / ... 上 る) 一條・一根 : (常用「 一筋に」)一 / i 心一意,一個勁兒"
+N2,もっとも,最も,418,right,,1,duplicate_reading,もっとも,最も,| もっとも【最も】 / 最・頂 / せ かい もっと  たか   やま
+N2,やく,約,418,right,,1,duplicate_reading,やく,約,| やく【約】 / ・副・漢造) 約定 商定 : 縮祥略語 : / 約 : 大概 : 簡約 ・ 節約
+N2,えんしゅう,円周,419,left,01,1,duplicate_reading,えんしゅう,円周,o1 | えんしゅう【円周】 / '卻(數)圓周 / えんしゅうりつ   もと
+N2,くわわる,加わる,419,left,05,1,reading_auto_cleaned,くわわる人,加わる,05 | くわわる人【加わる】 / (自五 加上・添上 / あたら    よう 志   くわ
+N2,計算,,419,left,18,1,blank_writing;unexpected_reading_chars;suspicious_reading,計算,,418 | 計算
+N2,ぴたり,,419,right,01,1,blank_writing,ぴたり,,"| 1 |ぴたり / ; 側) 突然停止 緊貼地・緊緊地 : 正好・ / | 正合適,正對"
+N2,まし,,419,right,13,1,blank_writing,まし,,"| 13 |まし / |名馬) 增,增加;勝過,強"
+N2,うんと,,420,right,07,1,blank_writing,うんと,,"7 | うんと / ) 多・大大地 ;用力,使勁地 / なぐ"
+N2,ちゅう,中,421,right,20,1,duplicate_reading,ちゅう,中,| 20 |ちゅう【中】 / (名-拉江和中央・営中: 中間:中等: / 1 ...之中 正在...営中
+N2,どっと,,421,right,22,1,blank_writing,どっと,,"| 22 | どっと / i 加(許多人)一齊(突然發聲) ,哄堂;(人、 / “| 物)湧來,雲集;(突然)病重,病倒"
+N2,りょう,量,422,right,,1,duplicate_reading,りょう,量,"| りょう【量】 / 有 數量,份量,重量 : 推量 : 器量 / | 量をはかる。"
+N2,しょう,小,423,left,06,1,duplicate_reading,しょう,小,"06 | しょう【小】 / 今 小(型) , (尺寸,體積)小的 小月 / 謙稱"
+N2,きゅう,級,424,right,03,1,duplicate_reading,きゅう,級,3 | きゅう【級】 / 5・漢半) 等級・ 階段 : 班級・ 年級 : 頭 / えいけんいつきゅう   ごうかく
+N2,こうしゃ,後者,424,right,04,1,duplicate_reading,こうしゃ,後者,4 | こうしゃ【後者】 / ) 後來的人 : (雨者中的)後者 / こうしゃ   とく   じゅうよう
+N2,さい,再,424,right,,1,duplicate_reading,さい,再,| さい【再】 / 造) 再・又一次 / |血チャレンジする。
+N2,しばしば,,425,left,08,1,blank_writing,しばしば,,"08 | しばしば / 18 常常,每每,屢次'再三 / お"
+N2,じゅう,重,425,left,09,1,duplicate_reading,じゅう,重,09 | じゅう【重】 / (挨尾) (助数詞用法)層 重 / ご し%う  どう  のぼ
+N2,だい,第,425,right,14,1,duplicate_reading,だい,第,"| 14 |だい【第】 / i (天時) 順序;考試及格,錄取 ;住宅,宅邸  。"
+N2,たび,度,425,right,15,1,duplicate_reading,たび,度,"15 | たび【度】 / i -拉反) 次,回,度;(反覆)每當 ,每次;"
+N2,ダプる,,425,right,17,1,blank_writing,ダプる,,| 17 | ダプる / | (5 重複;撞期
+N2,やたらに,,426,left,22,1,blank_writing,やたらに,,"22 | やたらに         1 / 硬) 胡亂的,隨便的,任意的,馬 !"" / 上 !蝦份,非常,大膽            6"
+N2,譯畫圓o,かくど【角度,426,left,,1,unexpected_reading_chars;suspicious_reading,譯畫圓o,| かくど【角度,譯 畫圓 o  【 / | かくど【角度】                    |。 / 9 (數學)角度; (觀察事物的)立場。 ji1
+N2,きごう,記号,426,right,,1,reading_auto_cleaned,きごう人,記号,"| きごう人【記号】 / 符號,記號"
+N2,きゅう,球,426,right,,1,duplicate_reading,きゅう,球,"|きゅう【球】 / 人 球 : (數)球體,球形 / きゅう たいせき   もと"
+N2,こん,紺,427,left,13,1,duplicate_reading,こん,紺,"13 | こん【紺】 / @ 深藍,深青 / こんいろ                 いろ"
+N2,せい,正,427,left,17,1,duplicate_reading,せい,正,"17 | せい【正】 / (名.漢造) 正直;(數)正號;正確,正當 / 更正,糾正;主要的,正的"
+N2,てんてん,点々,428,left,,1,duplicate_reading,てんてん,点々,』 |てんてん【点々】            1【 / 旨往下注                1 3 / g后々と滴る。
+N2,がく,学,429,left,01,1,duplicate_reading,がく,学,"01 | がく【学】 / (名江守) 學校;知識,學問,學識 / 団学がある。"
+N2,ほけん,保健,431,left,29,1,duplicate_reading,ほけん,保健,29 | ほけん【保健】 / ほ けんたいいく   はじ / 図 保健体育が始まった。
+N2,學校,,431,left,30,1,blank_writing;unexpected_reading_chars;suspicious_reading,學校,,430 | 學校
+N2,がっき,学期,431,right,03,1,duplicate_reading,がっき,学期,| 03 |がっき【学期】 / | @ 學其 / 3     がっ き まつしけん    う
+N2,きゅうこう,休校,432,left,05,1,duplicate_reading,きゅうこう,休校,o5 |きゅうこう【休校】 / | 上自め 停課                           : / 回地震で休校になる。      |
+N2,lcz3加,校歌,432,left,,1,unexpected_reading_chars;suspicious_reading,lcz3加,校歌,。%|lcz3加[校歌】       | / 會校歌 / こうか 。 うた                             1
+N2,學生生活(1,,433,left,32,1,blank_writing;unexpected_reading_chars;suspicious_reading,學生生活(1,,432 | 學生生活(1)
+N2,かいとう,解答,433,right,11,1,duplicate_reading,かいとう,解答,| 11 | かいとう【解答】 / ; (名・自サ) 解答
+N2,きゅうこう,休講,434,left,08,1,duplicate_reading,きゅうこう,休講,、 8 |きゅうこう【休講】 / 名 停課 / 電
+N2,こうてい,校庭,434,right,00,1,duplicate_reading,こうてい,校庭,"0 | こうてい【校庭】 / ) 學校的庭園,操場 / でも  あそ"
+N2,しいんと,,434,right,04,1,blank_writing,しいんと,,"4 | しいんと / 加・自す) 安靜 ',嘲靜'平靜,和寂靜 / 教室該層一之此記名,"
+N2,しょう,賞,435,left,29,1,duplicate_reading,しょう,賞,29 | しょう【賞】 / よ    う / 賞を受ける。
+N2,學生生活,,435,left,34,1,blank_writing;unexpected_reading_chars;suspicious_reading,學生生活,,434 | 學生生活 (2)
+N2,ばつ,,436,right,05,1,blank_writing,ばつ,,5 | ばつ / (表否定的)叉號 / 』 ばつを付ける。
+N2,學生生活(2,,437,left,36,1,blank_writing;unexpected_reading_chars;suspicious_reading,學生生活(2,,436 | 學生生活(2)
+N2,しき,式,438,right,07,1,duplicate_reading,しき,式,"7 | しき【式】            會 / 天 儀式 ,典禮 ,(特指)婚禮;方式; 。 畫 / 式,類型,風格 ;做法 ;算式,公式 。 的"
+N2,しきたり,,438,right,05,1,blank_writing,しきたり,,5 | しきたり           | / ) 慣例 ・ 常規 ・ 成規 老規知 / ふる    し きた      す
+N2,工具(0,,441,left,40,1,blank_writing;unexpected_reading_chars;suspicious_reading,工具(0,,440 | 工具(0)
+N2,じゅう,銃,441,right,23,1,duplicate_reading,じゅう,銃,| 23 |じゅう【銃】 / | (名・湊和) 槍・槍形物 有檎作用的物品 / 。 誠    じゅう   う
+N2,せん,栓,442,left,02,1,duplicate_reading,せん,栓,"2 |せん【栓】                        | / 人栓塞子;閥門,龍頭,開關;阻 | / 家物                 1"
+N2,ちゅうせい,中性,442,right,02,1,duplicate_reading,ちゅうせい,中性,"2 | ちゅうせい【中性】 / 9) (化學)非鹸非酸・ 中性 : (特徴)不 / 8不女,中性;(語法)中性詞"
+N2,ねじ,,443,left,39,1,blank_writing,ねじ,,"39 | ねじ / @) 螺絲,螺釘 / ゆる"
+N2,工具(2,,443,left,42,1,blank_writing;unexpected_reading_chars;suspicious_reading,工具(2,,442 | 工具(2)
+N2,そろばん,,445,right,09,1,blank_writing,そろばん,,"09 | そろばん / i る) 算盤,珠算"
+N2,はんこ,,445,right,12,1,blank_writing,はんこ,,| 12 | はんこ / 久 印章・ 印鑑
+N2,ほうそう,包装,446,left,07,1,duplicate_reading,ほうそう,包装,7 |ほうそう【包装】 / を-公ヶ) 包装 旬押         1 / ほうそう し    たら     か                  5
+N2,から,空,446,right,03,1,duplicate_reading,から,空,"3 |から【空】 / ) 空的;空,假,虛 / ]空二才名,"
+N2,ぎっしり,,447,left,0e,1,blank_writing,ぎっしり,,oe |ぎっしり / 動(裝或擠的)滿滿的
+N2,衝力0,秤,447,left,12,1,unexpected_reading_chars;suspicious_reading,衝力0,秤,"12 |衝力0【秤】 / @色 秤,天平"
+N2,入比一力一,speaker,448,left,00,1,unexpected_reading_chars;suspicious_reading,入比一力一,speaker,"“0 |入比一力一【speaker】          | / 、 談話者,發言人;揚聲器:喇叭) / 、 散播流言的人"
+N2,工作ヽ有職場(1,,449,left,48,1,blank_writing;unexpected_reading_chars;suspicious_reading,工作ヽ有職場(1,,448 | 工作ヽ有職場(1)
+N2,しきゅう,至急,451,left,24,1,duplicate_reading,しきゅう,至急,"24 | しきゅう【至急】 / (名・副) 火速,緊急,人急速',加速 / 団侍急の用件がございます。"
+N2,つとめ,勤め,452,right,04,1,duplicate_reading,つとめ,勤め,4 |つとめ【勤め】 / る) 工作 ・ 職務 差事 / つと      吧
+N2,つとめる,和務める,452,right,45,1,duplicate_reading,つとめる,和務める,45 | つとめる【和務める】 / 他下二) 任職・ 工作 : 擔任(職務) : 扮演 / 角色)
+N2,とる,採る,453,left,50,1,duplicate_reading,とる,採る,50 | とる【採る】 / vt五) 採取・ 採用・録取 : 採集 : 採光 / しんそつしゃ   と
+N2,ちゃんと,,455,left,09,1,blank_writing,ちゃんと,,09 | ちゃんと / 人 端正地 ・規息地 : 披期 *如期 : 整潔 / 整齋 : 完全 老早 : 的確 確席
+N2,にっか日課,,456,right,04,1,blank_writing;unexpected_reading_chars;suspicious_reading;reading_auto_cleaned,にっか日課】,,4 | にっか日課】 / る (規定好)毎天要條的事情 毎天習 / 中的活動日課
+N2,はく,掃く,456,right,05,1,duplicate_reading,はく,掃く,")5 | はく【掃く】 / 他五) 掃,打掃;(拿刷子)輕塗"
+N2,かいほう,開放,462,left,03,1,duplicate_reading,かいほう,開放,"03 | かいほう【開放】 / 9 打開,沿開;開放,公開   樣 / 回市場左開放才名,"
+N2,かんじょう,勘定,464,left,05,1,duplicate_reading,かんじょう,勘定,"05 | かんじょう【勘定】     | / 人-?) 計算 算帳 : (會計上的)帳目, ji. / 戸頭・結帳 : 考慮・佑計"
+N2,がく,額,465,left,02,1,duplicate_reading,がく,額,"02 | がく【額】 / 當) 名額,數額;區額,畫橫 / 団 予算の額を超える。"
+N2,こうか,高価,465,left,04,1,duplicate_reading,こうか,高価,04 | こうか【高価】 / (名・形動) 高價錢 / こ今 か   おく   もの   わた
+N2,それなり,,465,left,0e,1,blank_writing,それなり,,oe | それなり / 名 ・副) 恰如其分 ; 就那樣 / よ   もの               たか
+N2,ていか,定価,465,right,07,1,duplicate_reading,ていか,定価,| 07 |ていか【定価】 / H    てい か   こうにゅ3 / i 圏定価で購入する。
+N2,ほけん,保険,466,right,,1,duplicate_reading,ほけん,保険,| ほけん【保険】 / 保険 : (對於損害的)保證 / 保険をかける。
+N2,もうける,儲ける,466,right,,1,duplicate_reading,もうける,儲ける,"| もうける 【儲ける】 / 下二) 賺錢,得利; (轉)撿便宜,賺到"
+N2,しきゅう,支給,467,left,04,1,duplicate_reading,しきゅう,支給,"04 | しきゅう【支給】 / 名・他) 支付,發給 / りょひ    U き$う"
+N2,ただ,,467,right,0e,1,blank_writing,ただ,,"| oe |ただ / | (名・副・接) 免費;普通,平凡;只是,僅 / | 僅;(對前面的話做出否定)但是,不過"
+N2,各33左t,頂戴,467,right,09,1,unexpected_reading_chars;suspicious_reading,各33左t,頂戴,"| 9 |各33左t【頂戴】 / | (名・他め (「もらう、食べる」 的謙虚説 / i 法)領受,得到,吃;(女性、兒童請求"
+N2,ゆうこう,有効,467,right,08,1,duplicate_reading,ゆうこう,有効,| 08 | ゆうこう【有効】 / i (動) 有效的 / ゆうとこう 。 つ
+N2,こうか,硬貨,468,left,04,1,duplicate_reading,こうか,硬貨,04 | こうか【硬貨】 / 本交!夠屬貨 / こう か    し はら
+N2,L導又名,控又名,469,left,03,1,unexpected_reading_chars;suspicious_reading,L導又名,控又名,"03 | L導又名【控又名】 / (fr二)做,製造;捏畫,虛構;化妝, / _ 打扮 ;籌措,填補"
+N2,紀33大<埋心,眉學金,469,right,0g,1,unexpected_reading_chars;suspicious_reading,紀33大<埋心,眉學金,"og | 紀33大<埋心【眉學金】 / | る) 獎學金,助學金"
+N2,つうか,通貨,470,left,14,1,duplicate_reading,つうか,通貨,14 | つうか【通貨】                          [ / 。 通貨・(法定)貨        |
+N2,めぐまれる,恵まれる,470,right,08,1,reading_auto_cleaned,めぐまれる人,恵まれる,"8 | めぐまれる人【恵まれる】 / 下二) 得天獨厚,被賦予,受益,受到 / 和恵"
+N2,おさめる,治める,471,left,03,1,duplicate_reading,おさめる,治める,03 | おさめる【治める】 / (他下一) 治理;鎮壓 / に   おさ
+N2,かげ,陰,471,left,05,1,duplicate_reading,かげ,陰,05 | かげ【陰】 / 名 日険 背影康 : 背面 : 背地神暗中 / かげ   いと   ひ
+N2,やく,役,473,right,03,1,duplicate_reading,やく,役,| 3 |やく【役】 / (名匠) 職務・官職 : 責任・任務・(負
+N2,しょうにん,承認,475,left,16,1,duplicate_reading,しょうにん,承認,16 | しょうにん【承認】 / (名 ・他ず 批准認可・活肖 : 同意 : 承認 / しょうに    もと
+N2,とう,党,476,left,,1,duplicate_reading,とう,党,"|とう【党】         識 / 、 記玩) 鄉里;黨羽,同夥;黨,政黨。 ji: / とう 。 けってい したが          1"
+N2,もうける,設ける,476,right,,1,duplicate_reading,もうける,設ける,| もうける【設ける】 / (子女) / せき もう
+N2,じょうきょう,状況,477,left,08,1,duplicate_reading,じょうきょう,状況,"08 | じょうきょう【状況】 / 八 狀況,情況 / じょうきょう   か"
+N2,とんでもない,,478,left,16,1,blank_writing,とんでもない,,"16 | とんでもない      | / wm * 出乎意料,不合情理;同有此 | / 悍,不可想像;(用在堅決的反駁或表"
+N2,えんしゅう,演習,478,right,,1,duplicate_reading,えんしゅう,演習,"| えんしゅう【演習】 / “自人 演習,實際練習;(大學內的) / 堂討論,共同研究"
+N2,かいほう,解放,478,right,,1,duplicate_reading,かいほう,解放,| かいほう【解放】 / -他ず 解放 ・ 解除・撮脱 / ど れい   かいほう
+N2,大胡說tA,戰(AM,480,left,31,1,unexpected_reading_chars;suspicious_reading,大胡說tA,戰(AM,31 |大胡說tA【戰(AM】           1 / | @戦門・戦門:門事競誤・比大  1 / 、 四工いに勝っ          出
+N2,太未,彈,480,left,02,1,unexpected_reading_chars;suspicious_reading,太未,彈,2 |太未【彈】          | / 多 子彈 / 說六 上                  3
+N2,はっしゃ,発射,480,right,05,1,duplicate_reading,はっしゃ,発射,5 | はっしゃ【発射】 / 5・他す) 發射(火箭、子彈等) / はっしゃ
+N2,かいせい,改正,481,left,05,1,duplicate_reading,かいせい,改正,05 | かいせい【改正】 / (名・他サ) 修正・ 改正 / き そく   かいせい
+N2,もとづく,基づく,482,right,01,1,reading_auto_cleaned,もとづく人,基づく,"1 | もとづく人【基づく】 / pg 根擴,按照;由-.而來,因為, / 1 規則に基づく."
+N2,きる,斬る,482,right,02,1,duplicate_reading,きる,斬る,2 | きる【斬る】 / 8五) 砍;切 / ひと   き
+N2,けんぽう,宮法,483,left,04,1,reading_auto_cleaned,けんぽう人,宮法,o4 | けんぽう人【宮法】 / けん|     い はん / 患法に違反する。
+N2,太tvNE,如捕,484,left,04,1,unexpected_reading_chars;suspicious_reading,太tvNE,如捕,"4 |太tvNE【如捕】              | / 穫4逮捕,拘捕,捉拿 / げんこうはん たい ほ              H"
+N2,どうか,,484,left,07,1,blank_writing,どうか,,"、。 7 |どうか                    | / | 忽 (請求他人時)請 ; 設法,想辦法;(情 | / 況)和平時不一様・ 不正常 : (表示不確"
+N2,けいじ,刑事,485,right,02,1,duplicate_reading,けいじ,刑事,| 02 | けいじ【刑事】 / 1 (刑事 ; 刑事警察 / 日    けい じ せきにん   ー
+N2,こうせい,公正,485,right,93,1,duplicate_reading,こうせい,公正,93 |こうせい【公正】 / i (名-形動) 公正公介・不偏 / :   こうせい たちば  夫
+N2,ぜんしん,前進,486,left,12,1,duplicate_reading,ぜんしん,前進,、 12 |ぜんしん【前進】 / 」  名・他す) 前進                    1 / ]   かいけつ おむ   いっ ぼ ぜんしん      1
+N2,かん,感,488,left,13,1,duplicate_reading,かん,感,"13 |かん【感】 / 、 呈) 威覺,威動;威       1 / ]    かくせい 。 かん                  1"
+N2,誠心罰<,感党,488,left,14,1,unexpected_reading_chars;suspicious_reading,誠心罰<,感党,14 |誠心罰<【感党】         i / 和9) 感覺                   i / かんかく するど            5
+N2,かんじょう,感情,488,left,07,1,duplicate_reading,かんじょう,感情,"7 |かんじょう【感情】         1 / 名威情,情緒 / かんじょう 。 おさ"
+N2,きたい,期待,488,right,00,1,duplicate_reading,きたい,期待,0 | きたい【期待】 / n・他ず) 期待 期芝・指区 / き たい   うら ぎ
+N2,しみじみ,,490,left,03,1,blank_writing,しみじみ,,3 |しみじみ / # 痛切・深切地親密・青切: 仔細・
+N2,ずるい,,490,right,42,1,blank_writing,ずるい,,42 | ずるい / 。 当猪・好族・要滑豆・花癌本語    N2 / 加 ずるい手を使う.
+N2,攻心,普,490,right,04,1,unexpected_reading_chars;suspicious_reading,攻心,普,"4 |攻心【普】 / 名-漢這) 好事 ,善行;善良;優秀,卓越; / 友善 ,擅長;關係良好"
+N2,なんとも,,491,left,52,1,blank_writing,なんとも,,"52 | なんとも / 琅.連) 真的, 寅在 : (下接否定, / 關緊要)沒關係,沒什麼;(下接否:"
+N2,いき,意気,492,left,05,1,duplicate_reading,いき,意気,"05 |いき【意気】 | / 入意氣,氣概,氣勢,氣魄"
+N2,おう,追う,492,left,08,1,duplicate_reading,おう,追う,"08 |おう【追う】 / 倒)追;趕走;逼催 ,忙於;趨趕;追求; | / 遵循,按照"
+N2,さっさと,,492,right,03,1,blank_writing,さっさと,,"3 | さっさと / )(毫不猶豫、毫不耽擱時和 / !, 痛快地,迅速地"
+N2,さっそく,早速,492,right,04,1,reading_auto_cleaned,さっそく人,早速,"4 | さっそく人【早速】 / ) 立刻 , 馬上 ・ 火球 ・ 直緊"
+N2,いきなり,,495,right,92,1,blank_writing,いきなり,,92 | いきなり / : 食 突然・冷不防・馬上就...
+N2,きつい,,496,left,07,1,blank_writing,きつい,,"07 |きつい / # 嚴厲的 '嚴苛的;剛強,要強;緊的,"
+N2,あばれる,暴れる,497,left,01,1,reading_auto_cleaned,あばれる人,暴れる,"01 | あばれる人【暴れる】 / (年二 胡同 : 放蕩,橫衝直撞 / おお     あば"
+N2,和三五LtvA,恐太Lu,497,right,08,1,unexpected_reading_chars;suspicious_reading,和三五LtvA,恐太Lu,"| os |和三五LtvA【恐太Lu】 / i 他 可怕;驚人,非常,厲害"
+N2,扳寐大牙,容國才,497,right,0e,1,unexpected_reading_chars;suspicious_reading,扳寐大牙,容國才,"oe | 扳寐大牙【容國才】 / | (5) 威個,逼迫;嚇哇"
+N2,びっくり,,499,left,27,1,blank_writing,びっくり,,"27 | びっくり / 量・自す) 吃驚,嚇一跳 / き"
+N2,おん,恩,500,left,00,1,duplicate_reading,おん,恩,0 |おん【恩】                (8 / る 因情 '恩 / 庫賣人情。              i(
+N2,こう,請う,500,left,,1,duplicate_reading,こう,請う,"% | こう【請う】 / 人5) 請求,希前 / ゆる    如"
+N2,ほこり,誇り,500,right,,1,duplicate_reading,ほこり,誇り,"| ほこり【誇り】 / 自豪, 自尊心;矣做,引以為榮    N2"
+N2,わびる,詫びる,500,right,,1,reading_auto_cleaned,わびる人,詫びる,"| わびる人【詫びる】 / 大) 道歉,賠不是,謝罪"
+N2,あれこれ,,501,left,02,1,blank_writing,あれこれ,,"02 | あれこれ / @ 這個那個,種種 / かんが"
+N2,思考,,501,left,00,1,blank_writing;unexpected_reading_chars;suspicious_reading,思考,,500 | 思考
+N2,てっきり,,502,left,16,1,blank_writing,てっきり,,16 | てっきり        | / 仙一定・ 必然 : 果然 思 / 図てっきり晴れると思った。   |
+N2,いらい,依頼,502,right,03,1,duplicate_reading,いらい,依頼,03 | いらい【依頼】 / me) 委託請求信人 / 依頼から提供してもらう。
+N2,おうじる・おうずる,応じる・ 。 応ずる,503,left,04,1,reading_auto_cleaned,おうじる・おうずる人,応じる・ 。 応ずる,"04 | おうじる・おうずる人【応じる・ / 。 応ずる】 / ]    上ー) 響應)答應;允應,滿足;適應"
+N2,かん,勘,503,left,05,1,duplicate_reading,かん,勘,"05 | かん【勘】 / る 直覺,第六威;領悟力 / 団勤が鈍い。"
+N2,判斷(1,,503,left,02,1,blank_writing;unexpected_reading_chars;suspicious_reading,判斷(1,,502 | 判斷(1)
+N2,只和上3,檢討,503,right,11,1,unexpected_reading_chars;suspicious_reading,只和上3,檢討,"| 11 |只和上3【檢討】 / | (名・他す) 研討,探討;審核 / けんとう 加可"
+N2,ざっと,,503,right,04,1,blank_writing,ざっと,,"| 4 |ざっと / ; 個)粗略地科略地・大購上的 : (佑計) / - 1 大概,大略;潑水獎"
+N2,せい,,504,left,18,1,blank_writing;duplicate_reading,せい,,"18 |せい                   1 / 原因,緣故,由於 ;歸咎     し / ひと"
+N2,そのため,,504,left,09,1,blank_writing,そのため,,9 |そのため         軒 / 人 (表原因) 正是因為這樣..: / でん わ     で                     日
+N2,それなのに,,504,left,21,1,blank_writing,それなのに,,"21 |それなのに        2 / 、 人 雖然那樣,儘管如此       i( / 、四それなのにこの対応はひどい。"
+N2,それなら,,504,left,02,1,blank_writing,それなら,,"2 |それなら         | / ー。 要是那様 ・那様的話・如果那様 ji, / |【"
+N2,だけど,,504,right,03,1,blank_writing,だけど,,"3 | だけど                 30 / 剛) 然而,可是,但是         思 / びん すす               考"
+N2,だって,,504,right,04,1,blank_writing,だって,,"4 | だって / 舞動) 可是,但是,因為 : 即使時 / 算是"
+N2,どうせ,,505,left,30,1,blank_writing,どうせ,,"30 | どうせ / 入 (表示沒有選擇餘地)反正,總歸就 / 是,無論如何"
+N2,ところが,,505,left,31,1,blank_writing,ところが,,"31 | ところが / (把、搓助) 然而,可是,不過 ;一..‧,剛要 / 圏ところがそううまくはいかない。"
+N2,理解,,505,left,04,1,blank_writing;unexpected_reading_chars;suspicious_reading;duplicate_reading,理解,,504 | 理解
+N2,こうてい,育定,506,left,00,1,duplicate_reading,こうてい,育定,"0 | こうてい【育定】          | / る-ず) 肯定,承認               1・ / こうていてき 。 いけん い            :"
+N2,そうっと,,506,right,05,1,blank_writing,そうっと,,5 | そうっと / ) 情情地(同「そっと」) / ひ みつ              う あ
+N2,ひかく,比較,507,left,20,1,reading_auto_cleaned,ひかく人,比較,20 | ひかく人【比較】 / (名-他ず) 比 比較 / 図比較にならない。
+N2,理解,,507,left,06,1,blank_writing;unexpected_reading_chars;suspicious_reading;duplicate_reading,理解,,506 | 理解
+N2,まさに,,507,right,24,1,blank_writing,まさに,,"| 24 |まさに / i 食) 真的,的確,確實 / :        きみ い    とお"
+N2,みかた,見方,507,right,25,1,duplicate_reading,みかた,見方,"| 25 | みかた【見方】 / | @ 看法,看的方法 : 見解 想法 / み かた  ちが"
+N2,もしも,,507,right,28,1,blank_writing,もしも,,"| 28 |もしも / i 名 (強調)如果,萬一,倘若   す / :                     あん   NR"
+N2,もっとも,たも,508,left,30,1,duplicate_reading,もっとも,たも,"30 |もっとも【たも】       | / 是-二站""合理,正當,理所當有的; ! / い けん  い          6"
+N2,より,,508,left,31,1,blank_writing,より,,31 | より                    | / ふか 。 りかい           : / 較より深く理解する。      |
+N2,かいとう,回答,508,right,,1,duplicate_reading,かいとう,回答,"|かいとう【回答】 / “自上回答,答覆                           思 / どくしゃ 。 しつもん かいとぅ                      考"
+N2,知識(1,,509,left,08,1,blank_writing;unexpected_reading_chars;suspicious_reading,知識(1,,508 | 知識(1) / 1
+N2,でたらめ,,510,left,25,1,blank_writing,でたらめ,,"25 | でたらめ / 、 を-表 芒唐, 胡扯,胡說八道,信口開河 / 図でたらめを言うな。      |"
+N2,知識(2,,511,left,10,1,blank_writing;unexpected_reading_chars;suspicious_reading,知識(2,,510 | 知識(2
+N2,めちゃくちゃ,,511,right,42,1,blank_writing,めちゃくちゃ,,"| 42 | めちゃくちゃ       ' / i (天) 亂七八糟,胡亂,荒廖絕倫    3 / : 圏めちゃくちゃなことを言う。"
+N2,中寢,元.舊.故,511,right,43,1,unexpected_reading_chars;suspicious_reading,中寢,元.舊.故,"| 43 |中寢【元.舊.故】 / | 全) 原,從前;原來"
+N2,語言(1,,513,left,12,1,blank_writing;unexpected_reading_chars;suspicious_reading,語言(1,,512 | 語言(1)
+N2,ちゅう,注,514,right,,1,duplicate_reading,ちゅう,注,"| ちゅう【注】                        30 / ~還 註解,注釋 : 注入 : 注目 ;註釋      夫 / 注をつける。                             いい"
+N2,てき,的,514,right,,1,duplicate_reading,てき,的,|てき【的】 / か がくてき じっしょう
+N2,ckczckt,一言,514,right,,1,reading_auto_cleaned,人ckczckt,一言,|人ckczckt【一言】 / 一句話;三言兩語
+N2,ペラペラ,,515,left,33,1,blank_writing,ペラペラ,,33 | ペラペラ / 罰.自才) 説話流利貌(特指外語) ; 單薄 / 不結實貌 ;連續翻紙頁貌
+N2,ぽい,,515,left,34,1,blank_writing,ぽい,,"34 | ぽい / (欠尾・形尋) (前接名詞、動詞連用形,構 / 成形容詞) 表示有某種成分或傾向"
+N2,語言(2,,515,left,14,1,blank_writing;unexpected_reading_chars;suspicious_reading,語言(2,,514 | 語言(2)
+N2,やく,訳,515,right,38,1,duplicate_reading,やく,訳,"i38 | やく【訳】 / 譯,翻譯;漢字的訓讀"
+N2,あら,,516,left,00,1,blank_writing,あら,,0 |あら             1 / g (女性用語) (出乎意料或驚訝時發出 i【 / 的聲音)唉呀 ! 唉唷                     す
+N2,あんなに,,516,left,03,1,blank_writing,あんなに,,"3 | あんなに         1 G / ” 那麼地 , 那樣地      し / 被害があんなにひどいとは思わ | !"
+N2,表達(1,,517,left,16,1,blank_writing;unexpected_reading_chars;suspicious_reading,表達(1,,516 | 表達(1)
+N2,くれぐれも,,517,right,09,1,blank_writing,くれぐれも,,"| 9 | くれぐれも / | 人 反覆,周到 / :            き"
+N2,さて,,518,left,26,1,blank_writing,さて,,"26 |さて                     : 3 / #革.還一旦,果真;那麼,卻說,於 1 / 是; (自言自語,表猶豫)到底,那可.. | ,"
+N2,しかも,,518,left,02,1,blank_writing,しかも,,"2 |しかも                  i 1 / 2 而且 並且;而 ,但 ,卻;反而 ,竟然, ;i[ / 信管如比埋...                |"
+N2,できれば,,519,left,38,1,blank_writing,できれば,,38 | できれば / (人 可以的話・可能的話 / はや   き
+N2,ですから,,519,left,39,1,blank_writing,ですから,,39 | ですから / (生 所以 / き     はな
+N2,どうも,,519,left,41,1,blank_writing,どうも,,"41 | どうも / 便(後接否定詞) 怎麼也...; 總覺得 / 似乎 ;實在是,真是"
+N2,表達(2,,519,left,18,1,blank_writing;unexpected_reading_chars;suspicious_reading,表達(2,,518 | 表達(2)
+N2,どころ,,519,right,42,1,blank_writing,どころ,,"| 42 | どころ / (必) (前接動詞連用形)值得..的地方 , / i 應該“的地方 ; 生産...的地方 : 們"
+N2,とにかく,,519,right,44,1,blank_writing,とにかく,,"44 | とにかく / i 人) 總之,無論如何,反正 / :          ま"
+N2,なお,,519,right,46,1,blank_writing,なお,,"46 | なお / | 思.摟) 仍然,還 ,尚;更,還,再;猶如, / | 如 ;尚且,而且,再者"
+N2,なにも,,520,left,04,1,blank_writing,なにも,,"4 |なにも                       : / 醃-委(後面常接否定)什麼也...,全 j. / 都...: 並(不) , (不)必"
+N2,なんて,,520,left,50,1,blank_writing,なんて,,"50 | なんて                   圖 / 認) 什麼的 ,..‧之類的話 ; 說是...;(輕 j , / 視)叫什麼.“-來的等等,之類;表示 j:"
+N2,はあ,,520,right,04,1,blank_writing,はあ,,"4 | はあ                        ・ / (應答聲)是,唉;(薦訝聲)蝦          言 / はあ、かしこまりました."
+N2,はきはき,,520,right,05,1,blank_writing,はきはき,,5 | はきはき / 吃) 活潑伶俐的樣子 : 乾脆 ・ 爽快 : / 動作)俐落
+N2,ぶがつぶつ,,521,left,64,1,blank_writing,ぶがつぶつ,,"64 | ぶがつぶつ / (名・副) 嘮叨,抱怨,嘟囊;煮沸貌;粒 / 狀物 ,小疙瘩"
+N2,表達,,521,left,20,1,blank_writing;unexpected_reading_chars;suspicious_reading,表達,,520 | 表達 (3)
+N2,まあ,,521,right,65,1,blank_writing,まあ,,"| 65 |まあ / | 到.大) (安撫、和勸阻)暫且先',一會;蹭。 4"
+N2,こう,校,522,right,07,1,duplicate_reading,こう,校,7 | こう【校】 / 全 學校 ; 校對                               N2
+N2,しゅう,集,523,left,16,1,duplicate_reading,しゅう,集,16 | しゅう【集】 / (沽這) (詩歌等的)集 : 聚集 / ぶんがくぜんしゅ$う    あ
+N2,しょう,章,523,left,19,1,duplicate_reading,しょう,章,"19 | しょう【章】 / 色) (文章,樂章的)章節;紀念章,微章 / 522 | 文章文書、出版物(2)"
+N2,二名,刷名,523,right,24,1,unexpected_reading_chars;suspicious_reading,二名,刷名,| 24 |二名 【刷名】 / ; (五) 印刷 / | 遼ポスターを肌る。
+N2,たいしょう,対昭,524,left,,1,duplicate_reading,たいしょう,対昭,"|たいしょう【対昭】         | / 。 皿全) 對照,對比 / 有"

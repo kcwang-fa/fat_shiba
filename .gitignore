@@ -1,4 +1,6 @@
 /.DS_Store
+**/.DS_Store
+tools/ocr/dictionary/*.pdf
 /.ocr_tmp/
 /.swift-module-cache/
 /outputs/
