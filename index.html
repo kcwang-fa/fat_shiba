@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=web/">
+  <title>呷胖環遊日本</title>
+  <script>
+    const basePath = window.location.pathname.endsWith("/")
+      ? window.location.pathname
+      : window.location.pathname.replace(/[^/]*$/, "");
+    window.location.replace(`${basePath}web/${window.location.search}${window.location.hash}`);
+  </script>
+</head>
+<body>
+  <p>正在前往遊戲首頁。若沒有自動跳轉，請開啟 <a href="web/">web/</a>。</p>
+</body>
+</html>
