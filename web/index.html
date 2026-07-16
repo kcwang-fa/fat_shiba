@@ -1916,7 +1916,9 @@
         N3_BASE_WORD_ROWS,
         N3_RESERVED_UPPER_LEVEL_READING_VALUES,
         N3_EXTRA_WORD_ROWS_TEXT,
-        N2_EXTRA_WORD_ROWS_TEXT
+        N2_EXTRA_WORD_ROWS_TEXT,
+        N1_BASE_WORD_ROWS,
+        N1_EXTRA_WORD_ROWS_TEXT
       } = window.FAT_SHIBA_WORD_DATA;
 
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
@@ -2332,6 +2334,11 @@
           mapY: "23%",
           mobileMapX: "64%",
           mobileMapY: "18%",
+          gameBackground: {
+            png: "assets/tohoku-hokkaido-level-background.png",
+            webp: "assets/tohoku-hokkaido-level-background.webp",
+            position: "center 47%"
+          },
           stations: [
             { id: "tohoku_hokkaido_01", placeZh: "仙台城跡", placeJa: "仙台城跡", foodZh: "牛舌定食", foodJa: "牛タン定食", postcard: "assets/postcard_tohoku_hokkaido_01.jpg" },
             { id: "tohoku_hokkaido_02", placeZh: "松島灣", placeJa: "松島湾", foodZh: "牡蠣飯", foodJa: "牡蠣ご飯", postcard: "assets/postcard_tohoku_hokkaido_02.jpg" },
@@ -2460,7 +2467,7 @@
 
       const N3_RESERVED_UPPER_LEVEL_READINGS = new Set(N3_RESERVED_UPPER_LEVEL_READING_VALUES.map(normalizeKanaReading));
 
-      const N3_EXTRA_WORD_ROWS = buildLevelWordRows("n3", 61, N3_EXTRA_WORD_ROWS_TEXT, new Set([...N3_LOWER_LEVEL_READINGS, ...N3_BASE_READINGS, ...N3_RESERVED_UPPER_LEVEL_READINGS]), 540);
+      const N3_EXTRA_WORD_ROWS = buildLevelWordRows("n3", 61, N3_EXTRA_WORD_ROWS_TEXT, new Set([...N3_LOWER_LEVEL_READINGS, ...N3_BASE_READINGS, ...N3_RESERVED_UPPER_LEVEL_READINGS]));
 
       const N4_WORD_ROWS = [
         ...N4_BASE_WORD_ROWS,
@@ -2545,6 +2552,18 @@
 
       const N2_EXTRA_WORD_ROWS = buildLevelWordRows("n2", 57, N2_EXTRA_WORD_ROWS_TEXT, new Set([...N2_LOWER_LEVEL_READINGS, ...N2_BASE_READINGS]));
 
+      const N1_LOWER_LEVEL_READINGS = new Set([
+        ...RAW_WORDS,
+        ...N4_WORD_ROWS,
+        ...N3_WORD_ROWS,
+        ...N2_BASE_WORD_ROWS,
+        ...N2_EXTRA_WORD_ROWS
+      ].map((row) => normalizeKanaReading(row[1] || row[3])));
+
+      const N1_BASE_READINGS = new Set(N1_BASE_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3])));
+
+      const N1_EXTRA_WORD_ROWS = buildLevelWordRows("n1", 51, N1_EXTRA_WORD_ROWS_TEXT, new Set([...N1_LOWER_LEVEL_READINGS, ...N1_BASE_READINGS]));
+
       const RAW_WORDS_BY_LEVEL = {
         N5: RAW_WORDS,
         N4: N4_WORD_ROWS,
@@ -2554,56 +2573,8 @@
           ...N2_EXTRA_WORD_ROWS
         ],
         N1: [
-          ["n1_0001", "あくどい", "悪どい", "あくどい", "惡劣、過分", "kanji"],
-          ["n1_0002", "あざむく", "欺く", "あざむく", "欺騙", "kanji"],
-          ["n1_0003", "いちじるしい", "著しい", "いちじるしい", "顯著的", "kanji"],
-          ["n1_0004", "いとなむ", "営む", "いとなむ", "經營、從事", "kanji"],
-          ["n1_0005", "おごそか", "厳か", "おごそか", "莊嚴", "kanji"],
-          ["n1_0006", "おびただしい", "夥しい", "おびただしい", "大量的", "kanji"],
-          ["n1_0007", "かいしゅう", "回収", "かいしゅう", "回收", "kanji"],
-          ["n1_0008", "かくさ", "格差", "かくさ", "差距", "kanji"],
-          ["n1_0009", "かそ", "過疎", "かそ", "人口稀少", "kanji"],
-          ["n1_0010", "かんげん", "還元", "かんげん", "還原、回饋", "kanji"],
-          ["n1_0011", "きはん", "規範", "きはん", "規範", "kanji"],
-          ["n1_0012", "きゅうさい", "救済", "きゅうさい", "救濟", "kanji"],
-          ["n1_0013", "きょうじる", "興じる", "きょうじる", "沉迷、取樂", "kanji"],
-          ["n1_0014", "くつがえす", "覆す", "くつがえす", "推翻", "kanji"],
-          ["n1_0015", "けんしょう", "検証", "けんしょう", "驗證", "kanji"],
-          ["n1_0016", "こうそく", "拘束", "こうそく", "拘束", "kanji"],
-          ["n1_0017", "こじれる", "拗れる", "こじれる", "惡化、彆扭", "kanji"],
-          ["n1_0018", "さいけん", "再建", "さいけん", "重建", "kanji"],
-          ["n1_0019", "さえぎる", "遮る", "さえぎる", "遮擋、打斷", "kanji"],
-          ["n1_0020", "しさ", "示唆", "しさ", "暗示", "kanji"],
-          ["n1_0021", "じゅんかん", "循環", "じゅんかん", "循環", "kanji"],
-          ["n1_0022", "しょち", "処置", "しょち", "處置", "kanji"],
-          ["n1_0023", "すみやか", "速やか", "すみやか", "迅速", "kanji"],
-          ["n1_0024", "せいさい", "制裁", "せいさい", "制裁", "kanji"],
-          ["n1_0025", "せつじつ", "切実", "せつじつ", "迫切", "kanji"],
-          ["n1_0026", "ぜんてい", "前提", "ぜんてい", "前提", "kanji"],
-          ["n1_0027", "そうさい", "相殺", "そうさい", "抵銷", "kanji"],
-          ["n1_0028", "そくしん", "促進", "そくしん", "促進", "kanji"],
-          ["n1_0029", "たいしょ", "対処", "たいしょ", "應對", "kanji"],
-          ["n1_0030", "たんてき", "端的", "たんてき", "簡明扼要", "kanji"],
-          ["n1_0031", "ちくせき", "蓄積", "ちくせき", "累積", "kanji"],
-          ["n1_0032", "ていけい", "提携", "ていけい", "合作、結盟", "kanji"],
-          ["n1_0033", "てっする", "徹する", "てっする", "徹底、貫徹", "kanji"],
-          ["n1_0034", "どうこう", "動向", "どうこう", "動向", "kanji"],
-          ["n1_0035", "はいりょ", "配慮", "はいりょ", "考量", "kanji"],
-          ["n1_0036", "はあく", "把握", "はあく", "掌握", "kanji"],
-          ["n1_0037", "ばっぽん", "抜本", "ばっぽん", "根本", "kanji"],
-          ["n1_0038", "はんらん", "氾濫", "はんらん", "氾濫", "kanji"],
-          ["n1_0039", "ひんぱん", "頻繁", "ひんぱん", "頻繁", "kanji"],
-          ["n1_0040", "ふまえる", "踏まえる", "ふまえる", "根據、踏上", "kanji"],
-          ["n1_0041", "ほうかつ", "包括", "ほうかつ", "包括", "kanji"],
-          ["n1_0042", "ぼうとう", "冒頭", "ぼうとう", "開頭", "kanji"],
-          ["n1_0043", "みこみ", "見込み", "みこみ", "預期、可能性", "kanji"],
-          ["n1_0044", "もっぱら", "専ら", "もっぱら", "專門、主要", "kanji"],
-          ["n1_0045", "ゆうずう", "融通", "ゆうずう", "靈活調度", "kanji"],
-          ["n1_0046", "ようにん", "容認", "ようにん", "容許", "kanji"],
-          ["n1_0047", "りょういき", "領域", "りょういき", "領域", "kanji"],
-          ["n1_0048", "ろうきゅうか", "老朽化", "ろうきゅうか", "老化、老舊化", "kanji"],
-          ["n1_0049", "わずらわしい", "煩わしい", "わずらわしい", "麻煩、煩人", "kanji"],
-          ["n1_0050", "ひょうじゅんか", "標準化", "ひょうじゅんか", "標準化", "kanji"]
+          ...N1_BASE_WORD_ROWS,
+          ...N1_EXTRA_WORD_ROWS
         ]
       };
 
@@ -2648,6 +2619,24 @@
         map.get(word.playReading).push(word);
         return map;
       }, new Map());
+
+      const AMBIGUOUS_ZH_CLUES = (() => {
+        const readingsByZh = ALL_WORDS.reduce((map, word) => {
+          if (!map.has(word.zh)) map.set(word.zh, new Set());
+          map.get(word.zh).add(word.playReading);
+          return map;
+        }, new Map());
+        return new Set([...readingsByZh.entries()]
+          .filter(([, readings]) => readings.size > 1)
+          .map(([zh]) => zh));
+      })();
+
+      function wordClueLabel(word) {
+        if (!word) return "";
+        if (!AMBIGUOUS_ZH_CLUES.has(word.zh)) return word.zh;
+        const detail = word.writing || word.reading || word.playReading;
+        return detail ? `${word.zh}（${detail}）` : word.zh;
+      }
 
       const els = {
         homeScreen: document.getElementById("homeScreen"),
@@ -4379,7 +4368,7 @@
       function updateClue() {
         const target = currentClueTarget();
         els.cluePanel.classList.remove("hidden");
-        els.clueText.textContent = target ? target.word.zh : "本盤保底詞都找完了";
+        els.clueText.textContent = target ? wordClueLabel(target.word) : "本盤保底詞都找完了";
       }
 
       function setMessage(text) {
@@ -4507,6 +4496,7 @@
 
       function nearMissDetailsForWord(word, spell, isClueWord) {
         const expected = word.playReading;
+        const clueLabel = wordClueLabel(word);
         if (spell === expected) return null;
 
         const expectedLength = kanaUnits(expected).length;
@@ -4520,23 +4510,24 @@
         if (!diff.missing.length && !diff.extra.length && spell !== expected) {
           if (!isClueWord && !isSpecialNearMiss) return null;
           return {
-            message: `順序不對：${word.zh}要拼「${expected}」，不是「${spell}」。`,
+            message: `順序不對：${clueLabel}要拼「${expected}」，不是「${spell}」。`,
             totalDiff,
             lengthDiff,
             isClueWord
           };
         }
 
-        if (lengthDiff <= (isSpecialNearMiss ? 2 : 1) && totalDiff <= 2 && (isClueWord || isSpecialNearMiss)) {
+        const allowedTotalDiff = isClueWord ? 3 : 2;
+        if (lengthDiff <= (isSpecialNearMiss ? 2 : 1) && totalDiff <= allowedTotalDiff && (isClueWord || isSpecialNearMiss)) {
           let message = "";
           if (diff.missing.length && !diff.extra.length) {
-            message = `差了${formatKanaList(diff.missing)}：${word.zh}要拼「${expected}」。`;
+            message = `差了${formatKanaList(diff.missing)}：${clueLabel}要拼「${expected}」。`;
           }
           if (!diff.missing.length && diff.extra.length) {
-            message = `多了${formatKanaList(diff.extra)}：${word.zh}要拼「${expected}」。`;
+            message = `多了${formatKanaList(diff.extra)}：${clueLabel}要拼「${expected}」。`;
           }
           if (diff.missing.length && diff.extra.length) {
-            message = `這裡應該用${formatKanaList(diff.missing)}，不是${formatKanaList(diff.extra)}：${word.zh}要拼「${expected}」。`;
+            message = `這裡應該用${formatKanaList(diff.missing)}，不是${formatKanaList(diff.extra)}：${clueLabel}要拼「${expected}」。`;
           }
           return { message, totalDiff, lengthDiff, isClueWord };
         }
@@ -4596,9 +4587,10 @@
         const clueTarget = currentClueTarget();
         if (clueTarget && spell !== clueTarget.word.playReading) {
           const alternateWord = pickMatchedWord(spell);
-          setMessage(describeNearMiss(spell) || (alternateWord
-            ? `「${spell}」是${alternateWord.zh}，但目前提示是「${clueTarget.word.zh}」。請拼「${clueTarget.word.playReading}」。`
-            : `目前提示是「${clueTarget.word.zh}」，請拼「${clueTarget.word.playReading}」。`));
+          const clueDetails = nearMissDetailsForWord(clueTarget.word, spell, true);
+          setMessage((clueDetails && clueDetails.message) || (alternateWord
+            ? `「${spell}」是${wordClueLabel(alternateWord)}，但目前提示是「${wordClueLabel(clueTarget.word)}」。請拼「${clueTarget.word.playReading}」。`
+            : `目前提示是「${wordClueLabel(clueTarget.word)}」，請拼「${clueTarget.word.playReading}」。`));
           return;
         }
 
