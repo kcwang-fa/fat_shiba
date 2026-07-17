@@ -5,8 +5,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバスです。",
-        "zh": "這是「公車」。"
+        "ja": "バスで学校へ行きます。",
+        "zh": "搭公車去學校。"
       }
     ]
   },
@@ -15,8 +15,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはテレビです。",
-        "zh": "這是「電視」。"
+        "ja": "夜、テレビを見ます。",
+        "zh": "晚上看電視。"
       }
     ]
   },
@@ -25,8 +25,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパンです。",
-        "zh": "這是「麵包」。"
+        "ja": "朝、パンを食べます。",
+        "zh": "早上吃麵包。"
       }
     ]
   },
@@ -35,8 +35,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはペンです。",
-        "zh": "這是「筆」。"
+        "ja": "ペンで名前を書きます。",
+        "zh": "用筆寫名字。"
       }
     ]
   },
@@ -45,8 +45,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはコップです。",
-        "zh": "這是「杯子」。"
+        "ja": "コップに水を入れます。",
+        "zh": "把水倒進杯子。"
       }
     ]
   },
@@ -55,8 +55,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはテストです。",
-        "zh": "這是「考試」。"
+        "ja": "明日は日本語のテストです。",
+        "zh": "明天是日文考試。"
       }
     ]
   },
@@ -65,8 +65,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはポストです。",
-        "zh": "這是「郵筒」。"
+        "ja": "ポストに手紙を入れます。",
+        "zh": "把信放進郵筒。"
       }
     ]
   },
@@ -75,8 +75,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカメラです。",
-        "zh": "這是「相機」。"
+        "ja": "カメラで写真を撮ります。",
+        "zh": "用相機拍照。"
       }
     ]
   },
@@ -85,8 +85,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはシャツです。",
-        "zh": "這是「襯衫」。"
+        "ja": "白いシャツを着ます。",
+        "zh": "穿白色襯衫。"
       }
     ]
   },
@@ -95,8 +95,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはレストランです。",
-        "zh": "這是「餐廳」。"
+        "ja": "駅の近くのレストランで食べます。",
+        "zh": "在車站附近的餐廳吃飯。"
       }
     ]
   },
@@ -105,8 +105,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは学校です。",
-        "zh": "這是「學校」。"
+        "ja": "学校で友達を待ちます。",
+        "zh": "在學校等朋友。"
       }
     ]
   },
@@ -115,8 +115,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「ちょっと」を使います。",
-        "zh": "使用「ちょっと」這個詞。"
+        "ja": "ちょっと待ってください。",
+        "zh": "請稍等一下。"
       }
     ]
   },
@@ -125,8 +125,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは今日です。",
-        "zh": "這是「今天」。"
+        "ja": "今日はいい天気です。",
+        "zh": "今天天氣很好。"
       }
     ]
   },
@@ -135,8 +135,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは明日です。",
-        "zh": "這是「明天」。"
+        "ja": "明日、学校へ行きます。",
+        "zh": "明天去學校。"
       }
     ]
   },
@@ -145,8 +145,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昨日です。",
-        "zh": "這是「昨天」。"
+        "ja": "昨日、友達と会いました。",
+        "zh": "昨天和朋友見面了。"
       }
     ]
   },
@@ -155,8 +155,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは朝です。",
-        "zh": "這是「早上」。"
+        "ja": "朝、パンを食べます。",
+        "zh": "早上吃麵包。"
       }
     ]
   },
@@ -165,8 +165,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昼です。",
-        "zh": "這是「中午」。"
+        "ja": "昼にご飯を食べます。",
+        "zh": "中午吃飯。"
       }
     ]
   },
@@ -175,8 +175,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは夜です。",
-        "zh": "這是「晚上」。"
+        "ja": "夜、テレビを見ます。",
+        "zh": "晚上看電視。"
       }
     ]
   },
@@ -185,8 +185,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは今です。",
-        "zh": "這是「現在」。"
+        "ja": "今、勉強しています。",
+        "zh": "現在正在讀書。"
       }
     ]
   },
@@ -195,8 +195,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは後です。",
-        "zh": "這是「之後」。"
+        "ja": "後で電話します。",
+        "zh": "之後打電話。"
       }
     ]
   },
@@ -205,8 +205,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは前です。",
-        "zh": "這是「前面、以前」。"
+        "ja": "駅の前で待ちます。",
+        "zh": "在車站前面等。"
       }
     ]
   },
@@ -215,8 +215,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは上です。",
-        "zh": "這是「上面」。"
+        "ja": "机の上に本があります。",
+        "zh": "桌上有書。"
       }
     ]
   },
@@ -225,8 +225,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは下です。",
-        "zh": "這是「下面」。"
+        "ja": "椅子の下に猫がいます。",
+        "zh": "椅子下面有貓。"
       }
     ]
   },
@@ -235,8 +235,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中です。",
-        "zh": "這是「裡面」。"
+        "ja": "かばんの中に鍵があります。",
+        "zh": "包包裡有鑰匙。"
       }
     ]
   },
@@ -245,8 +245,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは外です。",
-        "zh": "這是「外面」。"
+        "ja": "外で子供が遊んでいます。",
+        "zh": "小孩在外面玩。"
       }
     ]
   },
@@ -255,8 +255,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは右です。",
-        "zh": "這是「右邊」。"
+        "ja": "右へ曲がります。",
+        "zh": "往右轉。"
       }
     ]
   },
@@ -265,8 +265,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは左です。",
-        "zh": "這是「左邊」。"
+        "ja": "左に銀行があります。",
+        "zh": "左邊有銀行。"
       }
     ]
   },
@@ -275,8 +275,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは人です。",
-        "zh": "這是「人」。"
+        "ja": "人と話します。",
+        "zh": "和人說話。"
       }
     ]
   },
@@ -285,8 +285,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは子供です。",
-        "zh": "這是「小孩」。"
+        "ja": "子供に会います。",
+        "zh": "和小孩見面。"
       }
     ]
   },
@@ -295,8 +295,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは友達です。",
-        "zh": "這是「朋友」。"
+        "ja": "友達は元気です。",
+        "zh": "朋友很有精神。"
       }
     ]
   },
@@ -305,8 +305,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは先生です。",
-        "zh": "這是「老師」。"
+        "ja": "先生と話します。",
+        "zh": "和老師說話。"
       }
     ]
   },
@@ -315,8 +315,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは学生です。",
-        "zh": "這是「學生」。"
+        "ja": "学生に会います。",
+        "zh": "和學生見面。"
       }
     ]
   },
@@ -325,8 +325,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは会社です。",
-        "zh": "這是「公司」。"
+        "ja": "会社へ行きます。",
+        "zh": "去公司。"
       }
     ]
   },
@@ -335,8 +335,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電車です。",
-        "zh": "這是「電車」。"
+        "ja": "毎朝、電車に乗ります。",
+        "zh": "每天早上搭電車。"
       }
     ]
   },
@@ -345,8 +345,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは車です。",
-        "zh": "這是「車」。"
+        "ja": "父は車を運転します。",
+        "zh": "爸爸開車。"
       }
     ]
   },
@@ -355,8 +355,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは自転車です。",
-        "zh": "這是「腳踏車」。"
+        "ja": "自転車で学校へ行きます。",
+        "zh": "騎腳踏車去學校。"
       }
     ]
   },
@@ -365,8 +365,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは駅です。",
-        "zh": "這是「車站」。"
+        "ja": "駅で友達を待ちます。",
+        "zh": "在車站等朋友。"
       }
     ]
   },
@@ -375,8 +375,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは店です。",
-        "zh": "這是「店」。"
+        "ja": "店でパンを買います。",
+        "zh": "在店裡買麵包。"
       }
     ]
   },
@@ -385,8 +385,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは部屋です。",
-        "zh": "這是「房間」。"
+        "ja": "部屋で勉強します。",
+        "zh": "在房間讀書。"
       }
     ]
   },
@@ -395,8 +395,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは家です。",
-        "zh": "這是「家」。"
+        "ja": "家で休みます。",
+        "zh": "在家休息。"
       }
     ]
   },
@@ -405,8 +405,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは本です。",
-        "zh": "這是「書」。"
+        "ja": "本は机の上です。",
+        "zh": "書在桌上。"
       }
     ]
   },
@@ -415,8 +415,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは机です。",
-        "zh": "這是「書桌」。"
+        "ja": "机を使います。",
+        "zh": "使用書桌。"
       }
     ]
   },
@@ -425,8 +425,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは椅子です。",
-        "zh": "這是「椅子」。"
+        "ja": "椅子を買います。",
+        "zh": "買椅子。"
       }
     ]
   },
@@ -435,8 +435,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは時計です。",
-        "zh": "這是「時鐘」。"
+        "ja": "時計は机の上です。",
+        "zh": "時鐘在桌上。"
       }
     ]
   },
@@ -445,8 +445,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鞄です。",
-        "zh": "這是「包包」。"
+        "ja": "鞄を使います。",
+        "zh": "使用包包。"
       }
     ]
   },
@@ -455,8 +455,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは傘です。",
-        "zh": "這是「傘」。"
+        "ja": "傘を買います。",
+        "zh": "買傘。"
       }
     ]
   },
@@ -465,8 +465,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは靴です。",
-        "zh": "這是「鞋子」。"
+        "ja": "靴は机の上です。",
+        "zh": "鞋子在桌上。"
       }
     ]
   },
@@ -475,8 +475,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは服です。",
-        "zh": "這是「衣服」。"
+        "ja": "服を使います。",
+        "zh": "使用衣服。"
       }
     ]
   },
@@ -485,8 +485,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水です。",
-        "zh": "這是「水」。"
+        "ja": "水を飲みます。",
+        "zh": "喝水。"
       }
     ]
   },
@@ -495,8 +495,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお茶です。",
-        "zh": "這是「茶」。"
+        "ja": "お茶を飲みます。",
+        "zh": "喝茶。"
       }
     ]
   },
@@ -505,8 +505,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはご飯です。",
-        "zh": "這是「飯」。"
+        "ja": "ご飯を食べます。",
+        "zh": "吃飯。"
       }
     ]
   },
@@ -515,8 +515,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは魚です。",
-        "zh": "這是「魚」。"
+        "ja": "魚を買います。",
+        "zh": "買魚。"
       }
     ]
   },
@@ -525,8 +525,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは肉です。",
-        "zh": "這是「肉」。"
+        "ja": "肉が好きです。",
+        "zh": "喜歡肉。"
       }
     ]
   },
@@ -535,8 +535,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは野菜です。",
-        "zh": "這是「蔬菜」。"
+        "ja": "野菜を食べます。",
+        "zh": "吃蔬菜。"
       }
     ]
   },
@@ -545,8 +545,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは果物です。",
-        "zh": "這是「水果」。"
+        "ja": "果物を買います。",
+        "zh": "買水果。"
       }
     ]
   },
@@ -555,8 +555,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは卵です。",
-        "zh": "這是「蛋」。"
+        "ja": "卵が好きです。",
+        "zh": "喜歡蛋。"
       }
     ]
   },
@@ -565,8 +565,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは雨です。",
-        "zh": "這是「雨」。"
+        "ja": "雨が降っています。",
+        "zh": "正在下雨。"
       }
     ]
   },
@@ -575,8 +575,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは雪です。",
-        "zh": "這是「雪」。"
+        "ja": "雪が降りました。",
+        "zh": "下雪了。"
       }
     ]
   },
@@ -585,8 +585,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは風です。",
-        "zh": "這是「風」。"
+        "ja": "今日は風が強いです。",
+        "zh": "今天風很大。"
       }
     ]
   },
@@ -595,8 +595,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは空です。",
-        "zh": "這是「天空」。"
+        "ja": "空が青いです。",
+        "zh": "天空很藍。"
       }
     ]
   },
@@ -605,8 +605,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは山です。",
-        "zh": "這是「山」。"
+        "ja": "今日は山がきれいです。",
+        "zh": "今天的山很漂亮。"
       }
     ]
   },
@@ -615,8 +615,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは川です。",
-        "zh": "這是「河川」。"
+        "ja": "川の写真を撮ります。",
+        "zh": "拍河川的照片。"
       }
     ]
   },
@@ -625,8 +625,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは海です。",
-        "zh": "這是「海」。"
+        "ja": "海が見えます。",
+        "zh": "看得到海。"
       }
     ]
   },
@@ -635,8 +635,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは花です。",
-        "zh": "這是「花」。"
+        "ja": "今日は花がきれいです。",
+        "zh": "今天的花很漂亮。"
       }
     ]
   },
@@ -645,8 +645,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは猫です。",
-        "zh": "這是「貓」。"
+        "ja": "猫の写真を撮ります。",
+        "zh": "拍貓的照片。"
       }
     ]
   },
@@ -655,8 +655,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは犬です。",
-        "zh": "這是「狗」。"
+        "ja": "犬が見えます。",
+        "zh": "看得到狗。"
       }
     ]
   },
@@ -665,8 +665,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鳥です。",
-        "zh": "這是「鳥」。"
+        "ja": "今日は鳥がきれいです。",
+        "zh": "今天的鳥很漂亮。"
       }
     ]
   },
@@ -675,8 +675,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは赤いです。",
-        "zh": "這個是「紅色的」。"
+        "ja": "赤いかばんです。",
+        "zh": "是紅色的包包。"
       }
     ]
   },
@@ -685,8 +685,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは青いです。",
-        "zh": "這個是「藍色的」。"
+        "ja": "青いシャツを着ます。",
+        "zh": "穿藍色襯衫。"
       }
     ]
   },
@@ -695,8 +695,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは白いです。",
-        "zh": "這個是「白色的」。"
+        "ja": "白い紙に名前を書きます。",
+        "zh": "在白紙上寫名字。"
       }
     ]
   },
@@ -705,8 +705,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは黒いです。",
-        "zh": "這個是「黑色的」。"
+        "ja": "黒い靴を履きます。",
+        "zh": "穿黑色鞋子。"
       }
     ]
   },
@@ -715,8 +715,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは大きいです。",
-        "zh": "這個是「大的」。"
+        "ja": "大きい家に住みたいです。",
+        "zh": "想住在大房子。"
       }
     ]
   },
@@ -725,8 +725,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは小さいです。",
-        "zh": "這個是「小的」。"
+        "ja": "小さい部屋で勉強します。",
+        "zh": "在小房間讀書。"
       }
     ]
   },
@@ -735,8 +735,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは新しいです。",
-        "zh": "這個是「新的」。"
+        "ja": "新しい本を読みます。",
+        "zh": "讀新書。"
       }
     ]
   },
@@ -745,8 +745,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは古いです。",
-        "zh": "這個是「舊的」。"
+        "ja": "古い車があります。",
+        "zh": "有一台舊車。"
       }
     ]
   },
@@ -755,8 +755,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは高いです。",
-        "zh": "這個是「高的、貴的」。"
+        "ja": "このレストランは高いです。",
+        "zh": "這家餐廳很貴。"
       }
     ]
   },
@@ -765,8 +765,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは安いです。",
-        "zh": "這個是「便宜的」。"
+        "ja": "安いパンを買います。",
+        "zh": "買便宜的麵包。"
       }
     ]
   },
@@ -775,8 +775,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは美味しいです。",
-        "zh": "這個是「好吃的」。"
+        "ja": "このケーキは美味しいです。",
+        "zh": "這個蛋糕很好吃。"
       }
     ]
   },
@@ -785,8 +785,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは暑いです。",
-        "zh": "這個是「熱的」。"
+        "ja": "今日は暑いです。",
+        "zh": "今天很熱。"
       }
     ]
   },
@@ -795,8 +795,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは寒いです。",
-        "zh": "這個是「寒冷的」。"
+        "ja": "冬の朝は寒いです。",
+        "zh": "冬天早上很冷。"
       }
     ]
   },
@@ -1193,8 +1193,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "勉強します。",
-        "zh": "進行「讀書、學習」。"
+        "ja": "毎晩、日本語を勉強します。",
+        "zh": "每天晚上學日文。"
       }
     ]
   },
@@ -1203,8 +1203,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは宿題です。",
-        "zh": "這是「作業」。"
+        "ja": "宿題をします。",
+        "zh": "做作業。"
       }
     ]
   },
@@ -1222,8 +1222,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "料理します。",
-        "zh": "進行「料理」。"
+        "ja": "母は台所で料理します。",
+        "zh": "媽媽在廚房做菜。"
       }
     ]
   },
@@ -1232,8 +1232,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは病院です。",
-        "zh": "這是「醫院」。"
+        "ja": "病院へ行きます。",
+        "zh": "去醫院。"
       }
     ]
   },
@@ -1242,8 +1242,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは銀行です。",
-        "zh": "這是「銀行」。"
+        "ja": "銀行は駅の近くです。",
+        "zh": "銀行在車站附近。"
       }
     ]
   },
@@ -1252,8 +1252,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは郵便局です。",
-        "zh": "這是「郵局」。"
+        "ja": "郵便局で友達を待ちます。",
+        "zh": "在郵局等朋友。"
       }
     ]
   },
@@ -1262,8 +1262,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは図書館です。",
-        "zh": "這是「圖書館」。"
+        "ja": "図書館へ行きます。",
+        "zh": "去圖書館。"
       }
     ]
   },
@@ -1272,8 +1272,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは映画です。",
-        "zh": "這是「電影」。"
+        "ja": "映画を見ます。",
+        "zh": "看電影。"
       }
     ]
   },
@@ -1282,8 +1282,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは写真です。",
-        "zh": "這是「照片」。"
+        "ja": "写真を撮ります。",
+        "zh": "拍照片。"
       }
     ]
   },
@@ -1292,8 +1292,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電話です。",
-        "zh": "這是「電話」。"
+        "ja": "友達に電話します。",
+        "zh": "打電話給朋友。"
       }
     ]
   },
@@ -1302,8 +1302,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは私です。",
-        "zh": "這是「我」。"
+        "ja": "私も行きます。",
+        "zh": "我也去。"
       }
     ]
   },
@@ -1312,8 +1312,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは私たちです。",
-        "zh": "這是「我們」。"
+        "ja": "私たちに聞きます。",
+        "zh": "問我們。"
       }
     ]
   },
@@ -1322,8 +1322,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはあなたです。",
-        "zh": "這是「你」。"
+        "ja": "あなたは学生です。",
+        "zh": "你是學生。"
       }
     ]
   },
@@ -1332,8 +1332,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "連體詞",
     "examples": [
       {
-        "ja": "「この」を使います。",
-        "zh": "使用「この」這個詞。"
+        "ja": "この本を読みます。",
+        "zh": "讀這個書。"
       }
     ]
   },
@@ -1342,8 +1342,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "連體詞",
     "examples": [
       {
-        "ja": "「その」を使います。",
-        "zh": "使用「その」這個詞。"
+        "ja": "その本を読みます。",
+        "zh": "讀那個書。"
       }
     ]
   },
@@ -1352,8 +1352,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "連體詞",
     "examples": [
       {
-        "ja": "「あの」を使います。",
-        "zh": "使用「あの」這個詞。"
+        "ja": "あの本を読みます。",
+        "zh": "讀那個書。"
       }
     ]
   },
@@ -1362,8 +1362,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "連體詞",
     "examples": [
       {
-        "ja": "「どの」を使います。",
-        "zh": "使用「どの」這個詞。"
+        "ja": "どの本を読みます。",
+        "zh": "讀哪個書。"
       }
     ]
   },
@@ -1372,8 +1372,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはこれです。",
-        "zh": "這是「這個」。"
+        "ja": "これに聞きます。",
+        "zh": "問這個。"
       }
     ]
   },
@@ -1382,8 +1382,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはそれです。",
-        "zh": "這是「那個」。"
+        "ja": "それは学生です。",
+        "zh": "那個是學生。"
       }
     ]
   },
@@ -1392,8 +1392,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはあれです。",
-        "zh": "這是「那個」。"
+        "ja": "あれも行きます。",
+        "zh": "那個也去。"
       }
     ]
   },
@@ -1402,8 +1402,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはどれです。",
-        "zh": "這是「哪個」。"
+        "ja": "どれに聞きます。",
+        "zh": "問哪個。"
       }
     ]
   },
@@ -1412,8 +1412,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはここです。",
-        "zh": "這是「這裡」。"
+        "ja": "ここは学生です。",
+        "zh": "這裡是學生。"
       }
     ]
   },
@@ -1422,8 +1422,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはそこです。",
-        "zh": "這是「那裡」。"
+        "ja": "そこも行きます。",
+        "zh": "那裡也去。"
       }
     ]
   },
@@ -1432,8 +1432,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはあそこです。",
-        "zh": "這是「那裡」。"
+        "ja": "あそこに聞きます。",
+        "zh": "問那裡。"
       }
     ]
   },
@@ -1442,8 +1442,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはどこです。",
-        "zh": "這是「哪裡」。"
+        "ja": "どこは学生です。",
+        "zh": "哪裡是學生。"
       }
     ]
   },
@@ -1452,8 +1452,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはこちらです。",
-        "zh": "這是「這邊、這位」。"
+        "ja": "こちらへどうぞ。",
+        "zh": "請到這邊。"
       }
     ]
   },
@@ -1462,8 +1462,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはそちらです。",
-        "zh": "這是「那邊、那位」。"
+        "ja": "そちらに座ってください。",
+        "zh": "請坐在那邊。"
       }
     ]
   },
@@ -1472,8 +1472,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはあちらです。",
-        "zh": "這是「那邊、那位」。"
+        "ja": "あちらに駅があります。",
+        "zh": "那邊有車站。"
       }
     ]
   },
@@ -1482,8 +1482,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはどちらです。",
-        "zh": "這是「哪邊、哪位」。"
+        "ja": "どちらへ行きますか。",
+        "zh": "要去哪邊？"
       }
     ]
   },
@@ -1492,8 +1492,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは誰です。",
-        "zh": "這是「誰」。"
+        "ja": "誰に聞きます。",
+        "zh": "問誰。"
       }
     ]
   },
@@ -1502,8 +1502,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは何です。",
-        "zh": "這是「什麼」。"
+        "ja": "何は学生です。",
+        "zh": "什麼是學生。"
       }
     ]
   },
@@ -1512,8 +1512,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは何です。",
-        "zh": "這是「什麼」。"
+        "ja": "何も行きます。",
+        "zh": "什麼也去。"
       }
     ]
   },
@@ -1522,8 +1522,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはどなたです。",
-        "zh": "這是「哪位」。"
+        "ja": "どなたに聞きます。",
+        "zh": "問哪位。"
       }
     ]
   },
@@ -1532,8 +1532,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これはみんなです。",
-        "zh": "這是「大家」。"
+        "ja": "みんなは学生です。",
+        "zh": "大家是學生。"
       }
     ]
   },
@@ -1542,8 +1542,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは皆さんです。",
-        "zh": "這是「各位、大家」。"
+        "ja": "皆さんも行きます。",
+        "zh": "各位、大家也去。"
       }
     ]
   },
@@ -1552,8 +1552,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは自分です。",
-        "zh": "這是「自己」。"
+        "ja": "自分に聞きます。",
+        "zh": "問自己。"
       }
     ]
   },
@@ -1562,8 +1562,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは毎日です。",
-        "zh": "這是「每天」。"
+        "ja": "毎日、学校へ行きます。",
+        "zh": "每天去學校。"
       }
     ]
   },
@@ -1572,8 +1572,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは毎朝です。",
-        "zh": "這是「每天早上」。"
+        "ja": "毎朝は忙しいです。",
+        "zh": "每天早上很忙。"
       }
     ]
   },
@@ -1582,8 +1582,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは毎晩です。",
-        "zh": "這是「每天晚上」。"
+        "ja": "毎晩に友達と会います。",
+        "zh": "每天晚上和朋友見面。"
       }
     ]
   },
@@ -1592,8 +1592,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは毎週です。",
-        "zh": "這是「每週」。"
+        "ja": "毎週、学校へ行きます。",
+        "zh": "每週去學校。"
       }
     ]
   },
@@ -1602,8 +1602,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは先週です。",
-        "zh": "這是「上週」。"
+        "ja": "先週は忙しいです。",
+        "zh": "上週很忙。"
       }
     ]
   },
@@ -1612,8 +1612,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは今週です。",
-        "zh": "這是「這週」。"
+        "ja": "今週に友達と会います。",
+        "zh": "這週和朋友見面。"
       }
     ]
   },
@@ -1622,8 +1622,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは来週です。",
-        "zh": "這是「下週」。"
+        "ja": "来週、学校へ行きます。",
+        "zh": "下週去學校。"
       }
     ]
   },
@@ -1632,8 +1632,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは先月です。",
-        "zh": "這是「上個月」。"
+        "ja": "先月は忙しいです。",
+        "zh": "上個月很忙。"
       }
     ]
   },
@@ -1642,8 +1642,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは今月です。",
-        "zh": "這是「這個月」。"
+        "ja": "今月に友達と会います。",
+        "zh": "這個月和朋友見面。"
       }
     ]
   },
@@ -1652,8 +1652,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは来月です。",
-        "zh": "這是「下個月」。"
+        "ja": "来月、学校へ行きます。",
+        "zh": "下個月去學校。"
       }
     ]
   },
@@ -1662,8 +1662,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは去年です。",
-        "zh": "這是「去年」。"
+        "ja": "去年は忙しいです。",
+        "zh": "去年很忙。"
       }
     ]
   },
@@ -1672,8 +1672,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは今年です。",
-        "zh": "這是「今年」。"
+        "ja": "今年に友達と会います。",
+        "zh": "今年和朋友見面。"
       }
     ]
   },
@@ -1682,8 +1682,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは来年です。",
-        "zh": "這是「明年」。"
+        "ja": "来年、学校へ行きます。",
+        "zh": "明年去學校。"
       }
     ]
   },
@@ -1692,8 +1692,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「いつ」を使います。",
-        "zh": "使用「いつ」這個詞。"
+        "ja": "いつ日本へ行きますか。",
+        "zh": "什麼時候去日本？"
       }
     ]
   },
@@ -1702,8 +1702,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは時です。",
-        "zh": "這是「時候」。"
+        "ja": "子供の時、日本に住んでいました。",
+        "zh": "小時候住在日本。"
       }
     ]
   },
@@ -1712,8 +1712,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは時間です。",
-        "zh": "這是「時間」。"
+        "ja": "時間があります。",
+        "zh": "有時間。"
       }
     ]
   },
@@ -1722,8 +1722,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは分です。",
-        "zh": "這是「分鐘」。"
+        "ja": "五分待ってください。",
+        "zh": "請等五分鐘。"
       }
     ]
   },
@@ -1732,8 +1732,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは半です。",
-        "zh": "這是「半、一半」。"
+        "ja": "りんごを半分食べます。",
+        "zh": "吃半顆蘋果。"
       }
     ]
   },
@@ -1742,8 +1742,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは午前です。",
-        "zh": "這是「上午」。"
+        "ja": "午前に授業があります。",
+        "zh": "上午有課。"
       }
     ]
   },
@@ -1752,8 +1752,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは午後です。",
-        "zh": "這是「下午」。"
+        "ja": "午後、図書館へ行きます。",
+        "zh": "下午去圖書館。"
       }
     ]
   },
@@ -1762,8 +1762,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは晩です。",
-        "zh": "這是「晚上」。"
+        "ja": "晩に家でご飯を食べます。",
+        "zh": "晚上在家吃飯。"
       }
     ]
   },
@@ -1772,8 +1772,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは週末です。",
-        "zh": "這是「週末」。"
+        "ja": "週末に友達と会います。",
+        "zh": "週末和朋友見面。"
       }
     ]
   },
@@ -1782,8 +1782,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日曜日です。",
-        "zh": "這是「星期日」。"
+        "ja": "日曜日は忙しいです。",
+        "zh": "星期日很忙。"
       }
     ]
   },
@@ -1792,8 +1792,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは月曜日です。",
-        "zh": "這是「星期一」。"
+        "ja": "月曜日に友達と会います。",
+        "zh": "星期一和朋友見面。"
       }
     ]
   },
@@ -1802,8 +1802,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは火曜日です。",
-        "zh": "這是「星期二」。"
+        "ja": "火曜日、学校へ行きます。",
+        "zh": "星期二去學校。"
       }
     ]
   },
@@ -1812,8 +1812,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水曜日です。",
-        "zh": "這是「星期三」。"
+        "ja": "水曜日は忙しいです。",
+        "zh": "星期三很忙。"
       }
     ]
   },
@@ -1822,8 +1822,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは木曜日です。",
-        "zh": "這是「星期四」。"
+        "ja": "木曜日に友達と会います。",
+        "zh": "星期四和朋友見面。"
       }
     ]
   },
@@ -1832,8 +1832,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは金曜日です。",
-        "zh": "這是「星期五」。"
+        "ja": "金曜日、学校へ行きます。",
+        "zh": "星期五去學校。"
       }
     ]
   },
@@ -1842,8 +1842,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは土曜日です。",
-        "zh": "這是「星期六」。"
+        "ja": "土曜日は忙しいです。",
+        "zh": "星期六很忙。"
       }
     ]
   },
@@ -1852,8 +1852,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは父です。",
-        "zh": "這是「父親」。"
+        "ja": "父に会います。",
+        "zh": "和父親見面。"
       }
     ]
   },
@@ -1862,8 +1862,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは母です。",
-        "zh": "這是「母親」。"
+        "ja": "母は元気です。",
+        "zh": "母親很有精神。"
       }
     ]
   },
@@ -1872,8 +1872,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお父さんです。",
-        "zh": "這是「爸爸」。"
+        "ja": "お父さんと話します。",
+        "zh": "和爸爸說話。"
       }
     ]
   },
@@ -1882,8 +1882,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお母さんです。",
-        "zh": "這是「媽媽」。"
+        "ja": "お母さんに会います。",
+        "zh": "和媽媽見面。"
       }
     ]
   },
@@ -1892,8 +1892,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは兄です。",
-        "zh": "這是「哥哥」。"
+        "ja": "兄は元気です。",
+        "zh": "哥哥很有精神。"
       }
     ]
   },
@@ -1902,8 +1902,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは姉です。",
-        "zh": "這是「姐姐」。"
+        "ja": "姉と話します。",
+        "zh": "和姐姐說話。"
       }
     ]
   },
@@ -1912,8 +1912,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお兄さんです。",
-        "zh": "這是「哥哥」。"
+        "ja": "お兄さんに会います。",
+        "zh": "和哥哥見面。"
       }
     ]
   },
@@ -1922,8 +1922,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお姉さんです。",
-        "zh": "這是「姐姐」。"
+        "ja": "お姉さんは元気です。",
+        "zh": "姐姐很有精神。"
       }
     ]
   },
@@ -1932,8 +1932,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは弟です。",
-        "zh": "這是「弟弟」。"
+        "ja": "弟と話します。",
+        "zh": "和弟弟說話。"
       }
     ]
   },
@@ -1942,8 +1942,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは妹です。",
-        "zh": "這是「妹妹」。"
+        "ja": "妹に会います。",
+        "zh": "和妹妹見面。"
       }
     ]
   },
@@ -1952,8 +1952,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは家族です。",
-        "zh": "這是「家人」。"
+        "ja": "家族は元気です。",
+        "zh": "家人很有精神。"
       }
     ]
   },
@@ -1962,8 +1962,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは男です。",
-        "zh": "這是「男性」。"
+        "ja": "男と話します。",
+        "zh": "和男性說話。"
       }
     ]
   },
@@ -1972,8 +1972,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは女です。",
-        "zh": "這是「女性」。"
+        "ja": "女に会います。",
+        "zh": "和女性見面。"
       }
     ]
   },
@@ -1982,8 +1982,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは男の子です。",
-        "zh": "這是「男孩」。"
+        "ja": "男の子は元気です。",
+        "zh": "男孩很有精神。"
       }
     ]
   },
@@ -1992,8 +1992,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは女の子です。",
-        "zh": "這是「女孩」。"
+        "ja": "女の子と話します。",
+        "zh": "和女孩說話。"
       }
     ]
   },
@@ -2002,8 +2002,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは大学です。",
-        "zh": "這是「大學」。"
+        "ja": "大学で友達を待ちます。",
+        "zh": "在大學等朋友。"
       }
     ]
   },
@@ -2012,8 +2012,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは高校です。",
-        "zh": "這是「高中」。"
+        "ja": "高校へ行きます。",
+        "zh": "去高中。"
       }
     ]
   },
@@ -2022,8 +2022,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは小学校です。",
-        "zh": "這是「小學」。"
+        "ja": "小学校は駅の近くです。",
+        "zh": "小學在車站附近。"
       }
     ]
   },
@@ -2032,8 +2032,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは教室です。",
-        "zh": "這是「教室」。"
+        "ja": "教室で友達を待ちます。",
+        "zh": "在教室等朋友。"
       }
     ]
   },
@@ -2042,8 +2042,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは授業です。",
-        "zh": "這是「課程、上課」。"
+        "ja": "今日は日本語の授業があります。",
+        "zh": "今天有日文課。"
       }
     ]
   },
@@ -2052,8 +2052,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは試験です。",
-        "zh": "這是「考試」。"
+        "ja": "明日は試験があります。",
+        "zh": "明天有考試。"
       }
     ]
   },
@@ -2062,8 +2062,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは問題です。",
-        "zh": "這是「問題」。"
+        "ja": "この問題は難しいです。",
+        "zh": "這個問題很難。"
       }
     ]
   },
@@ -2072,8 +2072,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは答えです。",
-        "zh": "這是「答案」。"
+        "ja": "答えを紙に書きます。",
+        "zh": "把答案寫在紙上。"
       }
     ]
   },
@@ -2091,8 +2091,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "練習します。",
-        "zh": "進行「練習」。"
+        "ja": "試験の前に練習します。",
+        "zh": "考試前練習。"
       }
     ]
   },
@@ -2101,8 +2101,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは作文です。",
-        "zh": "這是「作文」。"
+        "ja": "作文を書きます。",
+        "zh": "寫作文。"
       }
     ]
   },
@@ -2111,8 +2111,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは辞書です。",
-        "zh": "這是「字典」。"
+        "ja": "辞書で言葉を調べます。",
+        "zh": "用字典查單字。"
       }
     ]
   },
@@ -2121,8 +2121,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは雑誌です。",
-        "zh": "這是「雜誌」。"
+        "ja": "電車で雑誌を読みます。",
+        "zh": "在電車上看雜誌。"
       }
     ]
   },
@@ -2131,8 +2131,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは新聞です。",
-        "zh": "這是「報紙」。"
+        "ja": "朝、新聞を読みます。",
+        "zh": "早上看報紙。"
       }
     ]
   },
@@ -2141,8 +2141,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは手紙です。",
-        "zh": "這是「信」。"
+        "ja": "友達に手紙を書きます。",
+        "zh": "寫信給朋友。"
       }
     ]
   },
@@ -2151,8 +2151,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは切手です。",
-        "zh": "這是「郵票」。"
+        "ja": "郵便局で切手を買います。",
+        "zh": "在郵局買郵票。"
       }
     ]
   },
@@ -2161,8 +2161,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは名前です。",
-        "zh": "這是「名字」。"
+        "ja": "名前を覚えます。",
+        "zh": "記住名字。"
       }
     ]
   },
@@ -2171,8 +2171,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは町です。",
-        "zh": "這是「城鎮、街道」。"
+        "ja": "この町は静かです。",
+        "zh": "這個城鎮很安靜。"
       }
     ]
   },
@@ -2181,8 +2181,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは国です。",
-        "zh": "這是「國家」。"
+        "ja": "国は駅の近くです。",
+        "zh": "國家在車站附近。"
       }
     ]
   },
@@ -2191,8 +2191,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日本です。",
-        "zh": "這是「日本」。"
+        "ja": "日本で友達を待ちます。",
+        "zh": "在日本等朋友。"
       }
     ]
   },
@@ -2201,8 +2201,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは外国です。",
-        "zh": "這是「外國」。"
+        "ja": "外国へ行きます。",
+        "zh": "去外國。"
       }
     ]
   },
@@ -2211,8 +2211,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは公園です。",
-        "zh": "這是「公園」。"
+        "ja": "公園は駅の近くです。",
+        "zh": "公園在車站附近。"
       }
     ]
   },
@@ -2221,8 +2221,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは庭です。",
-        "zh": "這是「庭院」。"
+        "ja": "庭で友達を待ちます。",
+        "zh": "在庭院等朋友。"
       }
     ]
   },
@@ -2231,8 +2231,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは交番です。",
-        "zh": "這是「派出所」。"
+        "ja": "交番へ行きます。",
+        "zh": "去派出所。"
       }
     ]
   },
@@ -2241,8 +2241,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは大使館です。",
-        "zh": "這是「大使館」。"
+        "ja": "大使館は駅の近くです。",
+        "zh": "大使館在車站附近。"
       }
     ]
   },
@@ -2260,8 +2260,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "旅行します。",
-        "zh": "進行「旅行」。"
+        "ja": "夏休みに旅行します。",
+        "zh": "暑假去旅行。"
       }
     ]
   },
@@ -2270,8 +2270,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは空港です。",
-        "zh": "這是「機場」。"
+        "ja": "空港へ行きます。",
+        "zh": "去機場。"
       }
     ]
   },
@@ -2280,8 +2280,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは道です。",
-        "zh": "這是「道路」。"
+        "ja": "道は駅の近くです。",
+        "zh": "道路在車站附近。"
       }
     ]
   },
@@ -2290,8 +2290,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは橋です。",
-        "zh": "這是「橋」。"
+        "ja": "橋で友達を待ちます。",
+        "zh": "在橋等朋友。"
       }
     ]
   },
@@ -2300,8 +2300,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは角です。",
-        "zh": "這是「轉角」。"
+        "ja": "角を右へ曲がります。",
+        "zh": "在轉角往右轉。"
       }
     ]
   },
@@ -2310,8 +2310,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは入口です。",
-        "zh": "這是「入口」。"
+        "ja": "入口で待ちます。",
+        "zh": "在入口等。"
       }
     ]
   },
@@ -2320,8 +2320,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは出口です。",
-        "zh": "這是「出口」。"
+        "ja": "出口はあちらです。",
+        "zh": "出口在那邊。"
       }
     ]
   },
@@ -2330,8 +2330,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは台所です。",
-        "zh": "這是「廚房」。"
+        "ja": "台所で料理します。",
+        "zh": "在廚房做菜。"
       }
     ]
   },
@@ -2340,8 +2340,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお手洗いです。",
-        "zh": "這是「洗手間」。"
+        "ja": "お手洗いはどこですか。",
+        "zh": "洗手間在哪裡？"
       }
     ]
   },
@@ -2350,8 +2350,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは風呂です。",
-        "zh": "這是「浴室、澡堂」。"
+        "ja": "夜、お風呂に入ります。",
+        "zh": "晚上洗澡。"
       }
     ]
   },
@@ -2360,8 +2360,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは窓です。",
-        "zh": "這是「窗戶」。"
+        "ja": "窓を開けます。",
+        "zh": "打開窗戶。"
       }
     ]
   },
@@ -2370,8 +2370,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは戸です。",
-        "zh": "這是「門、戶」。"
+        "ja": "戸を閉めます。",
+        "zh": "關上門。"
       }
     ]
   },
@@ -2380,8 +2380,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはドアです。",
-        "zh": "這是「門」。"
+        "ja": "ドアを開けます。",
+        "zh": "打開門。"
       }
     ]
   },
@@ -2390,8 +2390,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地下鉄です。",
-        "zh": "這是「地下鐵」。"
+        "ja": "地下鉄に乗ります。",
+        "zh": "搭地下鐵。"
       }
     ]
   },
@@ -2400,8 +2400,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは飛行機です。",
-        "zh": "這是「飛機」。"
+        "ja": "飛行機で沖縄へ行きます。",
+        "zh": "搭飛機去沖繩。"
       }
     ]
   },
@@ -2410,8 +2410,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは船です。",
-        "zh": "這是「船」。"
+        "ja": "船で島へ行きます。",
+        "zh": "搭船去島上。"
       }
     ]
   },
@@ -2420,8 +2420,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鉛筆です。",
-        "zh": "這是「鉛筆」。"
+        "ja": "鉛筆を使います。",
+        "zh": "使用鉛筆。"
       }
     ]
   },
@@ -2430,8 +2430,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはボールペンです。",
-        "zh": "這是「原子筆」。"
+        "ja": "ボールペンを買います。",
+        "zh": "買原子筆。"
       }
     ]
   },
@@ -2440,8 +2440,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはノートです。",
-        "zh": "這是「筆記本」。"
+        "ja": "ノートは机の上です。",
+        "zh": "筆記本在桌上。"
       }
     ]
   },
@@ -2450,8 +2450,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは紙です。",
-        "zh": "這是「紙」。"
+        "ja": "紙を使います。",
+        "zh": "使用紙。"
       }
     ]
   },
@@ -2460,8 +2460,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは切符です。",
-        "zh": "這是「票」。"
+        "ja": "切符を買います。",
+        "zh": "買票。"
       }
     ]
   },
@@ -2470,8 +2470,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは財布です。",
-        "zh": "這是「錢包」。"
+        "ja": "財布は机の上です。",
+        "zh": "錢包在桌上。"
       }
     ]
   },
@@ -2480,8 +2480,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお金です。",
-        "zh": "這是「錢」。"
+        "ja": "お金を使います。",
+        "zh": "使用錢。"
       }
     ]
   },
@@ -2490,8 +2490,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鍵です。",
-        "zh": "這是「鑰匙」。"
+        "ja": "鍵を買います。",
+        "zh": "買鑰匙。"
       }
     ]
   },
@@ -2500,8 +2500,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは箱です。",
-        "zh": "這是「盒子、箱子」。"
+        "ja": "箱は机の上です。",
+        "zh": "盒子、箱子在桌上。"
       }
     ]
   },
@@ -2510,8 +2510,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは皿です。",
-        "zh": "這是「盤子」。"
+        "ja": "皿を使います。",
+        "zh": "使用盤子。"
       }
     ]
   },
@@ -2520,8 +2520,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは茶碗です。",
-        "zh": "這是「碗、茶碗」。"
+        "ja": "茶碗を買います。",
+        "zh": "買碗、茶碗。"
       }
     ]
   },
@@ -2530,8 +2530,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはナイフです。",
-        "zh": "這是「刀子」。"
+        "ja": "ナイフは机の上です。",
+        "zh": "刀子在桌上。"
       }
     ]
   },
@@ -2540,8 +2540,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはフォークです。",
-        "zh": "這是「叉子」。"
+        "ja": "フォークを使います。",
+        "zh": "使用叉子。"
       }
     ]
   },
@@ -2550,8 +2550,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスプーンです。",
-        "zh": "這是「湯匙」。"
+        "ja": "スプーンを買います。",
+        "zh": "買湯匙。"
       }
     ]
   },
@@ -2560,8 +2560,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは朝ご飯です。",
-        "zh": "這是「早餐」。"
+        "ja": "朝ご飯を食べます。",
+        "zh": "吃早餐。"
       }
     ]
   },
@@ -2570,8 +2570,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昼ご飯です。",
-        "zh": "這是「午餐」。"
+        "ja": "昼ご飯を買います。",
+        "zh": "買午餐。"
       }
     ]
   },
@@ -2580,8 +2580,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは晩ご飯です。",
-        "zh": "這是「晚餐」。"
+        "ja": "晩ご飯を作ります。",
+        "zh": "做晚餐。"
       }
     ]
   },
@@ -2590,8 +2590,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは牛乳です。",
-        "zh": "這是「牛奶」。"
+        "ja": "牛乳を飲みます。",
+        "zh": "喝牛奶。"
       }
     ]
   },
@@ -2600,8 +2600,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはジュースです。",
-        "zh": "這是「果汁」。"
+        "ja": "ジュースを飲みます。",
+        "zh": "喝果汁。"
       }
     ]
   },
@@ -2610,8 +2610,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはビールです。",
-        "zh": "這是「啤酒」。"
+        "ja": "ビールを飲みます。",
+        "zh": "喝啤酒。"
       }
     ]
   },
@@ -2620,8 +2620,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはコーヒーです。",
-        "zh": "這是「咖啡」。"
+        "ja": "コーヒーを飲みます。",
+        "zh": "喝咖啡。"
       }
     ]
   },
@@ -2630,8 +2630,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは砂糖です。",
-        "zh": "這是「砂糖」。"
+        "ja": "コーヒーに砂糖を入れます。",
+        "zh": "在咖啡裡加糖。"
       }
     ]
   },
@@ -2640,8 +2640,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは塩です。",
-        "zh": "這是「鹽」。"
+        "ja": "料理に塩を入れます。",
+        "zh": "在料理裡加鹽。"
       }
     ]
   },
@@ -2650,8 +2650,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバターです。",
-        "zh": "這是「奶油」。"
+        "ja": "パンにバターをつけます。",
+        "zh": "在麵包上抹奶油。"
       }
     ]
   },
@@ -2660,8 +2660,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはチーズです。",
-        "zh": "這是「起司」。"
+        "ja": "チーズをパンにのせます。",
+        "zh": "把起司放在麵包上。"
       }
     ]
   },
@@ -2670,8 +2670,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはりんごです。",
-        "zh": "這是「蘋果」。"
+        "ja": "りんごを買います。",
+        "zh": "買蘋果。"
       }
     ]
   },
@@ -2680,8 +2680,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはみかんです。",
-        "zh": "這是「橘子」。"
+        "ja": "みかんが好きです。",
+        "zh": "喜歡橘子。"
       }
     ]
   },
@@ -2690,8 +2690,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバナナです。",
-        "zh": "這是「香蕉」。"
+        "ja": "バナナを食べます。",
+        "zh": "吃香蕉。"
       }
     ]
   },
@@ -2700,8 +2700,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはケーキです。",
-        "zh": "這是「蛋糕」。"
+        "ja": "ケーキを買います。",
+        "zh": "買蛋糕。"
       }
     ]
   },
@@ -2710,8 +2710,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは寿司です。",
-        "zh": "這是「壽司」。"
+        "ja": "寿司が好きです。",
+        "zh": "喜歡壽司。"
       }
     ]
   },
@@ -2720,8 +2720,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは天ぷらです。",
-        "zh": "這是「天婦羅」。"
+        "ja": "天ぷらを食べます。",
+        "zh": "吃天婦羅。"
       }
     ]
   },
@@ -2730,8 +2730,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカレーです。",
-        "zh": "這是「咖哩」。"
+        "ja": "カレーを買います。",
+        "zh": "買咖哩。"
       }
     ]
   },
@@ -2740,8 +2740,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはそばです。",
-        "zh": "這是「蕎麥麵」。"
+        "ja": "そばが好きです。",
+        "zh": "喜歡蕎麥麵。"
       }
     ]
   },
@@ -2750,8 +2750,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはうどんです。",
-        "zh": "這是「烏龍麵」。"
+        "ja": "うどんを食べます。",
+        "zh": "吃烏龍麵。"
       }
     ]
   },
@@ -2760,8 +2760,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは体です。",
-        "zh": "這是「身體」。"
+        "ja": "体を大切にします。",
+        "zh": "保重身體。"
       }
     ]
   },
@@ -2770,8 +2770,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは頭です。",
-        "zh": "這是「頭」。"
+        "ja": "頭が痛いです。",
+        "zh": "頭痛。"
       }
     ]
   },
@@ -2780,8 +2780,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは顔です。",
-        "zh": "這是「臉」。"
+        "ja": "朝、顔を洗います。",
+        "zh": "早上洗臉。"
       }
     ]
   },
@@ -2790,8 +2790,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは目です。",
-        "zh": "這是「眼睛」。"
+        "ja": "目が痛いです。",
+        "zh": "眼睛痛。"
       }
     ]
   },
@@ -2800,8 +2800,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは耳です。",
-        "zh": "這是「耳朵」。"
+        "ja": "耳で音を聞きます。",
+        "zh": "用耳朵聽聲音。"
       }
     ]
   },
@@ -2810,8 +2810,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは口です。",
-        "zh": "這是「嘴巴」。"
+        "ja": "口を大きく開けます。",
+        "zh": "把嘴巴張大。"
       }
     ]
   },
@@ -2820,8 +2820,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは歯です。",
-        "zh": "這是「牙齒」。"
+        "ja": "毎朝、歯を磨きます。",
+        "zh": "每天早上刷牙。"
       }
     ]
   },
@@ -2830,8 +2830,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは手です。",
-        "zh": "這是「手」。"
+        "ja": "手を洗います。",
+        "zh": "洗手。"
       }
     ]
   },
@@ -2840,8 +2840,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは足です。",
-        "zh": "這是「腳、腿」。"
+        "ja": "足が疲れました。",
+        "zh": "腳累了。"
       }
     ]
   },
@@ -2850,8 +2850,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお腹です。",
-        "zh": "這是「肚子」。"
+        "ja": "お腹がすきました。",
+        "zh": "肚子餓了。"
       }
     ]
   },
@@ -2860,8 +2860,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは天気です。",
-        "zh": "這是「天氣」。"
+        "ja": "天気の写真を撮ります。",
+        "zh": "拍天氣的照片。"
       }
     ]
   },
@@ -2870,8 +2870,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは晴れです。",
-        "zh": "這是「晴天」。"
+        "ja": "晴れが見えます。",
+        "zh": "看得到晴天。"
       }
     ]
   },
@@ -2880,8 +2880,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは曇りです。",
-        "zh": "這是「陰天」。"
+        "ja": "今日は曇りがきれいです。",
+        "zh": "今天的陰天很漂亮。"
       }
     ]
   },
@@ -2890,8 +2890,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは雲です。",
-        "zh": "這是「雲」。"
+        "ja": "雲の写真を撮ります。",
+        "zh": "拍雲的照片。"
       }
     ]
   },
@@ -2900,8 +2900,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは太陽です。",
-        "zh": "這是「太陽」。"
+        "ja": "太陽が見えます。",
+        "zh": "看得到太陽。"
       }
     ]
   },
@@ -2910,8 +2910,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは月です。",
-        "zh": "這是「月亮」。"
+        "ja": "今日は月がきれいです。",
+        "zh": "今天的月亮很漂亮。"
       }
     ]
   },
@@ -2920,8 +2920,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは星です。",
-        "zh": "這是「星星」。"
+        "ja": "星の写真を撮ります。",
+        "zh": "拍星星的照片。"
       }
     ]
   },
@@ -2930,8 +2930,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは木です。",
-        "zh": "這是「樹、木頭」。"
+        "ja": "木が見えます。",
+        "zh": "看得到樹、木頭。"
       }
     ]
   },
@@ -2940,8 +2940,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは森です。",
-        "zh": "這是「森林」。"
+        "ja": "今日は森がきれいです。",
+        "zh": "今天的森林很漂亮。"
       }
     ]
   },
@@ -2950,8 +2950,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは池です。",
-        "zh": "這是「池塘」。"
+        "ja": "池の写真を撮ります。",
+        "zh": "拍池塘的照片。"
       }
     ]
   },
@@ -2960,8 +2960,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは動物です。",
-        "zh": "這是「動物」。"
+        "ja": "動物が見えます。",
+        "zh": "看得到動物。"
       }
     ]
   },
@@ -2970,8 +2970,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは馬です。",
-        "zh": "這是「馬」。"
+        "ja": "今日は馬がきれいです。",
+        "zh": "今天的馬很漂亮。"
       }
     ]
   },
@@ -2980,8 +2980,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは牛です。",
-        "zh": "這是「牛」。"
+        "ja": "牛の写真を撮ります。",
+        "zh": "拍牛的照片。"
       }
     ]
   },
@@ -2990,8 +2990,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは豚です。",
-        "zh": "這是「豬」。"
+        "ja": "豚が見えます。",
+        "zh": "看得到豬。"
       }
     ]
   },
@@ -3000,8 +3000,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これはいいです。",
-        "zh": "這個是「好的」。"
+        "ja": "今日はいい天気です。",
+        "zh": "今天天氣很好。"
       }
     ]
   },
@@ -3010,8 +3010,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは良いです。",
-        "zh": "這個是「好的」。"
+        "ja": "良い本を読みます。",
+        "zh": "讀好書。"
       }
     ]
   },
@@ -3020,8 +3020,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは悪いです。",
-        "zh": "這個是「壞的」。"
+        "ja": "悪いニュースを聞きました。",
+        "zh": "聽到了壞消息。"
       }
     ]
   },
@@ -3030,8 +3030,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これはかわいいです。",
-        "zh": "這個是「可愛的」。"
+        "ja": "かわいい猫がいます。",
+        "zh": "有一隻可愛的貓。"
       }
     ]
   },
@@ -3040,8 +3040,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは綺麗です。",
-        "zh": "這個是「漂亮、乾淨」。"
+        "ja": "きれいな部屋です。",
+        "zh": "是漂亮乾淨的房間。"
       }
     ]
   },
@@ -3050,8 +3050,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは静かです。",
-        "zh": "這個是「安靜」。"
+        "ja": "静かな図書館で勉強します。",
+        "zh": "在安靜的圖書館讀書。"
       }
     ]
   },
@@ -3060,8 +3060,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは賑やかです。",
-        "zh": "這個是「熱鬧」。"
+        "ja": "駅の前は賑やかです。",
+        "zh": "車站前很熱鬧。"
       }
     ]
   },
@@ -3070,8 +3070,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは元気です。",
-        "zh": "這個是「有精神、健康」。"
+        "ja": "母は元気です。",
+        "zh": "媽媽很有精神。"
       }
     ]
   },
@@ -3080,8 +3080,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは便利です。",
-        "zh": "這個是「方便」。"
+        "ja": "このアプリは便利です。",
+        "zh": "這個應用程式很方便。"
       }
     ]
   },
@@ -3090,8 +3090,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは大変です。",
-        "zh": "這個是「辛苦、嚴重」。"
+        "ja": "今日は大変でした。",
+        "zh": "今天很辛苦。"
       }
     ]
   },
@@ -3100,8 +3100,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは暇です。",
-        "zh": "這個是「有空」。"
+        "ja": "日曜日は暇です。",
+        "zh": "星期日有空。"
       }
     ]
   },
@@ -3110,8 +3110,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは上手です。",
-        "zh": "這個是「擅長」。"
+        "ja": "友達は料理が上手です。",
+        "zh": "朋友很會做菜。"
       }
     ]
   },
@@ -3120,8 +3120,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは下手です。",
-        "zh": "這個是「不擅長」。"
+        "ja": "私は歌が下手です。",
+        "zh": "我不擅長唱歌。"
       }
     ]
   },
@@ -3130,8 +3130,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは好きです。",
-        "zh": "這個是「喜歡」。"
+        "ja": "日本語が好きです。",
+        "zh": "喜歡日文。"
       }
     ]
   },
@@ -3140,8 +3140,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは嫌いです。",
-        "zh": "這個是「討厭」。"
+        "ja": "辛い食べ物が嫌いです。",
+        "zh": "討厭辣的食物。"
       }
     ]
   },
@@ -3150,8 +3150,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは危ないです。",
-        "zh": "這個是「危險」。"
+        "ja": "この道は危ないです。",
+        "zh": "這條路很危險。"
       }
     ]
   },
@@ -3160,8 +3160,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは重いです。",
-        "zh": "這個是「重的」。"
+        "ja": "この荷物は重いです。",
+        "zh": "這件行李很重。"
       }
     ]
   },
@@ -3170,8 +3170,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは軽いです。",
-        "zh": "這個是「輕的」。"
+        "ja": "このかばんは軽いです。",
+        "zh": "這個包包很輕。"
       }
     ]
   },
@@ -3180,8 +3180,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは広いです。",
-        "zh": "這個是「寬廣的」。"
+        "ja": "広い部屋に住みたいです。",
+        "zh": "想住在寬敞的房間。"
       }
     ]
   },
@@ -3190,8 +3190,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは狭いです。",
-        "zh": "這個是「狹窄的」。"
+        "ja": "この道は狭いです。",
+        "zh": "這條路很窄。"
       }
     ]
   },
@@ -3200,8 +3200,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは長いです。",
-        "zh": "這個是「長的」。"
+        "ja": "長い映画を見ました。",
+        "zh": "看了很長的電影。"
       }
     ]
   },
@@ -3210,8 +3210,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは短いです。",
-        "zh": "這個是「短的」。"
+        "ja": "短いスカートを買います。",
+        "zh": "買短裙。"
       }
     ]
   },
@@ -3220,8 +3220,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは早いです。",
-        "zh": "這個是「早的、快的」。"
+        "ja": "朝の電車は早いです。",
+        "zh": "早上的電車很早。"
       }
     ]
   },
@@ -3230,8 +3230,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは遅いです。",
-        "zh": "這個是「慢的、晚的」。"
+        "ja": "このバスは遅いです。",
+        "zh": "這班公車很慢。"
       }
     ]
   },
@@ -3240,8 +3240,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは甘いです。",
-        "zh": "這個是「甜的」。"
+        "ja": "このお菓子は甘いです。",
+        "zh": "這個點心很甜。"
       }
     ]
   },
@@ -3250,8 +3250,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは辛いです。",
-        "zh": "這個是「辣的」。"
+        "ja": "このカレーは辛いです。",
+        "zh": "這個咖哩很辣。"
       }
     ]
   },
@@ -3260,8 +3260,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは冷たいです。",
-        "zh": "這個是「冰冷的」。"
+        "ja": "冷たい水を飲みます。",
+        "zh": "喝冰水。"
       }
     ]
   },
@@ -3270,8 +3270,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは暖かいです。",
-        "zh": "這個是「溫暖的」。"
+        "ja": "暖かい部屋で休みます。",
+        "zh": "在溫暖的房間休息。"
       }
     ]
   },
@@ -3280,8 +3280,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは涼しいです。",
-        "zh": "這個是「涼爽的」。"
+        "ja": "秋の夜は涼しいです。",
+        "zh": "秋天夜晚很涼爽。"
       }
     ]
   },
@@ -3290,8 +3290,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは暗いです。",
-        "zh": "這個是「暗的」。"
+        "ja": "部屋が暗いです。",
+        "zh": "房間很暗。"
       }
     ]
   },
@@ -3300,8 +3300,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは明るいです。",
-        "zh": "這個是「明亮的」。"
+        "ja": "明るい教室で勉強します。",
+        "zh": "在明亮的教室讀書。"
       }
     ]
   },
@@ -3310,8 +3310,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは忙しいです。",
-        "zh": "這個是「忙碌的」。"
+        "ja": "母は毎日忙しいです。",
+        "zh": "媽媽每天很忙。"
       }
     ]
   },
@@ -3320,8 +3320,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは楽しいです。",
-        "zh": "這個是「開心的」。"
+        "ja": "旅行は楽しいです。",
+        "zh": "旅行很開心。"
       }
     ]
   },
@@ -3330,8 +3330,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは面白いです。",
-        "zh": "這個是「有趣的」。"
+        "ja": "この本は面白いです。",
+        "zh": "這本書很有趣。"
       }
     ]
   },
@@ -3340,8 +3340,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは難しいです。",
-        "zh": "這個是「困難的」。"
+        "ja": "この問題は難しいです。",
+        "zh": "這個問題很難。"
       }
     ]
   },
@@ -3350,8 +3350,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは易しいです。",
-        "zh": "這個是「簡單的」。"
+        "ja": "この問題は易しいです。",
+        "zh": "這個問題很簡單。"
       }
     ]
   },
@@ -3360,8 +3360,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは強いです。",
-        "zh": "這個是「強的」。"
+        "ja": "兄は力が強いです。",
+        "zh": "哥哥力氣很強。"
       }
     ]
   },
@@ -3370,8 +3370,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは弱いです。",
-        "zh": "這個是「弱的」。"
+        "ja": "私は朝に弱いです。",
+        "zh": "我不擅長早起。"
       }
     ]
   },
@@ -3389,8 +3389,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「会う」は動詞です。",
-        "zh": "「会う」是動詞，意思是「見面」。"
+        "ja": "明日、友達に会います。",
+        "zh": "明天和朋友見面。"
       }
     ]
   },
@@ -3408,8 +3408,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「開ける」は動詞です。",
-        "zh": "「開ける」是動詞，意思是「打開」。"
+        "ja": "暑いので、窓を開けます。",
+        "zh": "因為很熱，所以打開窗戶。"
       }
     ]
   },
@@ -3427,8 +3427,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「開く」は動詞です。",
-        "zh": "「開く」是動詞，意思是「開著、打開」。"
+        "ja": "九時に店が開きます。",
+        "zh": "店九點開門。"
       }
     ]
   },
@@ -3446,8 +3446,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「遊ぶ」は動詞です。",
-        "zh": "「遊ぶ」是動詞，意思是「玩」。"
+        "ja": "日曜日に公園で遊びます。",
+        "zh": "星期日在公園玩。"
       }
     ]
   },
@@ -3465,8 +3465,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「洗う」は動詞です。",
-        "zh": "「洗う」是動詞，意思是「洗」。"
+        "ja": "ご飯の前に手を洗います。",
+        "zh": "吃飯前洗手。"
       }
     ]
   },
@@ -3484,8 +3484,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「言う」は動詞です。",
-        "zh": "「言う」是動詞，意思是「說」。"
+        "ja": "もう一度、ゆっくり言います。",
+        "zh": "再慢慢說一次。"
       }
     ]
   },
@@ -3503,8 +3503,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「歌う」は動詞です。",
-        "zh": "「歌う」是動詞，意思是「唱歌」。"
+        "ja": "みんなで歌を歌います。",
+        "zh": "大家一起唱歌。"
       }
     ]
   },
@@ -3522,8 +3522,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「売る」は動詞です。",
-        "zh": "「売る」是動詞，意思是「賣」。"
+        "ja": "古い本を売ります。",
+        "zh": "賣掉舊書。"
       }
     ]
   },
@@ -3541,8 +3541,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「教える」は動詞です。",
-        "zh": "「教える」是動詞，意思是「教、告訴」。"
+        "ja": "先生が漢字を教えます。",
+        "zh": "老師教漢字。"
       }
     ]
   },
@@ -3560,8 +3560,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「覚える」は動詞です。",
-        "zh": "「覚える」是動詞，意思是「記住」。"
+        "ja": "新しい言葉を覚えます。",
+        "zh": "記住新的單字。"
       }
     ]
   },
@@ -3579,8 +3579,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「終わる」は動詞です。",
-        "zh": "「終わる」是動詞，意思是「結束」。"
+        "ja": "授業は三時に終わります。",
+        "zh": "課三點結束。"
       }
     ]
   },
@@ -3598,8 +3598,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「かかる」は動詞です。",
-        "zh": "「かかる」是動詞，意思是「花費、需要」。"
+        "ja": "駅まで十分かかります。",
+        "zh": "到車站要花十分鐘。"
       }
     ]
   },
@@ -3617,8 +3617,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「貸す」は動詞です。",
-        "zh": "「貸す」是動詞，意思是「借出」。"
+        "ja": "友達にペンを貸します。",
+        "zh": "把筆借給朋友。"
       }
     ]
   },
@@ -3636,8 +3636,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「借りる」は動詞です。",
-        "zh": "「借りる」是動詞，意思是「借入」。"
+        "ja": "図書館で本を借ります。",
+        "zh": "在圖書館借書。"
       }
     ]
   },
@@ -3655,8 +3655,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「着る」は動詞です。",
-        "zh": "「着る」是動詞，意思是「穿」。"
+        "ja": "今日は白いシャツを着ます。",
+        "zh": "今天穿白色襯衫。"
       }
     ]
   },
@@ -3674,8 +3674,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「消す」は動詞です。",
-        "zh": "「消す」是動詞，意思是「關掉、擦掉」。"
+        "ja": "部屋の電気を消します。",
+        "zh": "關掉房間的燈。"
       }
     ]
   },
@@ -3693,8 +3693,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「死ぬ」は動詞です。",
-        "zh": "「死ぬ」是動詞，意思是「死亡」。"
+        "ja": "魚が死にました。",
+        "zh": "魚死了。"
       }
     ]
   },
@@ -3712,8 +3712,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「吸う」は動詞です。",
-        "zh": "「吸う」是動詞，意思是「吸、抽菸」。"
+        "ja": "ここでたばこを吸いません。",
+        "zh": "不在這裡抽菸。"
       }
     ]
   },
@@ -3731,8 +3731,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「座る」は動詞です。",
-        "zh": "「座る」是動詞，意思是「坐」。"
+        "ja": "椅子に座ります。",
+        "zh": "坐在椅子上。"
       }
     ]
   },
@@ -3750,8 +3750,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「立つ」は動詞です。",
-        "zh": "「立つ」是動詞，意思是「站立」。"
+        "ja": "駅の前に立ちます。",
+        "zh": "站在車站前面。"
       }
     ]
   },
@@ -3769,8 +3769,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「出す」は動詞です。",
-        "zh": "「出す」是動詞，意思是「拿出、交出」。"
+        "ja": "かばんから財布を出します。",
+        "zh": "從包包拿出錢包。"
       }
     ]
   },
@@ -3788,8 +3788,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「つける」は動詞です。",
-        "zh": "「つける」是動詞，意思是「打開、附上」。"
+        "ja": "テレビをつけます。",
+        "zh": "打開電視。"
       }
     ]
   },
@@ -3807,8 +3807,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「勤める」は動詞です。",
-        "zh": "「勤める」是動詞，意思是「工作、任職」。"
+        "ja": "父は銀行に勤めています。",
+        "zh": "父親在銀行工作。"
       }
     ]
   },
@@ -3826,8 +3826,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「出かける」は動詞です。",
-        "zh": "「出かける」是動詞，意思是「出門」。"
+        "ja": "午後、友達と出かけます。",
+        "zh": "下午和朋友出門。"
       }
     ]
   },
@@ -3845,8 +3845,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「できる」は動詞です。",
-        "zh": "「できる」是動詞，意思是「能夠、會」。"
+        "ja": "少し日本語ができます。",
+        "zh": "會一點日文。"
       }
     ]
   },
@@ -3864,8 +3864,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「出る」は動詞です。",
-        "zh": "「出る」是動詞，意思是「出去、出現」。"
+        "ja": "駅の出口から出ます。",
+        "zh": "從車站出口出去。"
       }
     ]
   },
@@ -3883,8 +3883,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「取る」は動詞です。",
-        "zh": "「取る」是動詞，意思是「拿、取得」。"
+        "ja": "机の上の本を取ります。",
+        "zh": "拿桌上的書。"
       }
     ]
   },
@@ -3902,8 +3902,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「習う」は動詞です。",
-        "zh": "「習う」是動詞，意思是「學習」。"
+        "ja": "学校で日本語を習います。",
+        "zh": "在學校學日文。"
       }
     ]
   },
@@ -3921,8 +3921,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「なる」は動詞です。",
-        "zh": "「なる」是動詞，意思是「變成」。"
+        "ja": "来年、大学生になります。",
+        "zh": "明年成為大學生。"
       }
     ]
   },
@@ -3940,8 +3940,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「入る」は動詞です。",
-        "zh": "「入る」是動詞，意思是「進入」。"
+        "ja": "教室に入ります。",
+        "zh": "進入教室。"
       }
     ]
   },
@@ -3959,8 +3959,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「履く」は動詞です。",
-        "zh": "「履く」是動詞，意思是「穿鞋、穿褲」。"
+        "ja": "新しい靴を履きます。",
+        "zh": "穿新鞋。"
       }
     ]
   },
@@ -3978,8 +3978,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「走る」は動詞です。",
-        "zh": "「走る」是動詞，意思是「跑」。"
+        "ja": "朝、公園を走ります。",
+        "zh": "早上在公園跑步。"
       }
     ]
   },
@@ -3997,8 +3997,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「働く」は動詞です。",
-        "zh": "「働く」是動詞，意思是「工作」。"
+        "ja": "母は病院で働きます。",
+        "zh": "媽媽在醫院工作。"
       }
     ]
   },
@@ -4016,8 +4016,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「引く」は動詞です。",
-        "zh": "「引く」是動詞，意思是「拉、彈奏」。"
+        "ja": "ドアを引きます。",
+        "zh": "拉門。"
       }
     ]
   },
@@ -4035,8 +4035,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「曲がる」は動詞です。",
-        "zh": "「曲がる」是動詞，意思是「轉彎」。"
+        "ja": "次の角を右へ曲がります。",
+        "zh": "在下一個轉角右轉。"
       }
     ]
   },
@@ -4054,8 +4054,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「持つ」は動詞です。",
-        "zh": "「持つ」是動詞，意思是「拿、持有」。"
+        "ja": "重い荷物を持ちます。",
+        "zh": "拿很重的行李。"
       }
     ]
   },
@@ -4073,8 +4073,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「上げる」は動詞です。",
-        "zh": "「上げる」是動詞，意思是「舉起、給」。"
+        "ja": "手を上げます。",
+        "zh": "舉手。"
       }
     ]
   },
@@ -4092,8 +4092,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「もらう」は動詞です。",
-        "zh": "「もらう」是動詞，意思是「得到」。"
+        "ja": "友達にプレゼントをもらいます。",
+        "zh": "從朋友那裡收到禮物。"
       }
     ]
   },
@@ -4111,8 +4111,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「要る」は動詞です。",
-        "zh": "「要る」是動詞，意思是「需要」。"
+        "ja": "旅行にはお金が要ります。",
+        "zh": "旅行需要錢。"
       }
     ]
   },
@@ -4130,8 +4130,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「ある」は動詞です。",
-        "zh": "「ある」是動詞，意思是「有、存在」。"
+        "ja": "机の上に本があります。",
+        "zh": "桌上有書。"
       }
     ]
   },
@@ -4149,8 +4149,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「置く」は動詞です。",
-        "zh": "「置く」是動詞，意思是「放置」。"
+        "ja": "鍵を机の上に置きます。",
+        "zh": "把鑰匙放在桌上。"
       }
     ]
   },
@@ -4168,8 +4168,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「押す」は動詞です。",
-        "zh": "「押す」是動詞，意思是「推、按」。"
+        "ja": "このボタンを押します。",
+        "zh": "按這個按鈕。"
       }
     ]
   },
@@ -4187,8 +4187,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「降りる」は動詞です。",
-        "zh": "「降りる」是動詞，意思是「下車、下來」。"
+        "ja": "次の駅で降ります。",
+        "zh": "在下一站下車。"
       }
     ]
   },
@@ -4206,8 +4206,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「乗る」は動詞です。",
-        "zh": "「乗る」是動詞，意思是「搭乘」。"
+        "ja": "毎朝、電車に乗ります。",
+        "zh": "每天早上搭電車。"
       }
     ]
   },
@@ -4225,8 +4225,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「返す」は動詞です。",
-        "zh": "「返す」是動詞，意思是「歸還」。"
+        "ja": "友達に本を返します。",
+        "zh": "把書還給朋友。"
       }
     ]
   },
@@ -4244,8 +4244,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「消える」は動詞です。",
-        "zh": "「消える」是動詞，意思是「消失、熄滅」。"
+        "ja": "部屋の電気が消えます。",
+        "zh": "房間的燈熄了。"
       }
     ]
   },
@@ -4263,8 +4263,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「閉める」は動詞です。",
-        "zh": "「閉める」是動詞，意思是「關上」。"
+        "ja": "寒いので、窓を閉めます。",
+        "zh": "因為很冷，所以關窗。"
       }
     ]
   },
@@ -4282,8 +4282,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「閉まる」は動詞です。",
-        "zh": "「閉まる」是動詞，意思是「關著」。"
+        "ja": "店のドアが閉まります。",
+        "zh": "店門關上。"
       }
     ]
   },
@@ -4301,8 +4301,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「始める」は動詞です。",
-        "zh": "「始める」是動詞，意思是「開始」。"
+        "ja": "九時に勉強を始めます。",
+        "zh": "九點開始念書。"
       }
     ]
   },
@@ -4320,8 +4320,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「始まる」は動詞です。",
-        "zh": "「始まる」是動詞，意思是「開始」。"
+        "ja": "授業は九時に始まります。",
+        "zh": "課九點開始。"
       }
     ]
   },
@@ -4339,8 +4339,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「渡る」は動詞です。",
-        "zh": "「渡る」是動詞，意思是「渡過、穿越」。"
+        "ja": "橋を渡ります。",
+        "zh": "過橋。"
       }
     ]
   },
@@ -4358,8 +4358,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「止まる」は動詞です。",
-        "zh": "「止まる」是動詞，意思是「停止、住宿」。"
+        "ja": "バスが駅の前で止まります。",
+        "zh": "公車在車站前停下。"
       }
     ]
   },
@@ -4377,8 +4377,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「止める」は動詞です。",
-        "zh": "「止める」是動詞，意思是「停止、停放」。"
+        "ja": "駅の前に車を止めます。",
+        "zh": "把車停在車站前。"
       }
     ]
   },
@@ -4396,8 +4396,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「泣く」は動詞です。",
-        "zh": "「泣く」是動詞，意思是「哭」。"
+        "ja": "子供が泣いています。",
+        "zh": "小孩正在哭。"
       }
     ]
   },
@@ -4415,8 +4415,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「笑う」は動詞です。",
-        "zh": "「笑う」是動詞，意思是「笑」。"
+        "ja": "友達が大きく笑います。",
+        "zh": "朋友大聲笑。"
       }
     ]
   },
@@ -4434,8 +4434,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「呼ぶ」は動詞です。",
-        "zh": "「呼ぶ」是動詞，意思是「叫、呼喚」。"
+        "ja": "先生を呼びます。",
+        "zh": "叫老師。"
       }
     ]
   },
@@ -4453,8 +4453,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「休む」は動詞です。",
-        "zh": "「休む」是動詞，意思是「休息、請假」。"
+        "ja": "日曜日は家で休みます。",
+        "zh": "星期日在家休息。"
       }
     ]
   },
@@ -4472,8 +4472,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「分かる」は動詞です。",
-        "zh": "「分かる」是動詞，意思是「懂、明白」。"
+        "ja": "この問題が分かります。",
+        "zh": "懂這個問題。"
       }
     ]
   },
@@ -4491,8 +4491,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「忘れる」は動詞です。",
-        "zh": "「忘れる」是動詞，意思是「忘記」。"
+        "ja": "宿題を忘れました。",
+        "zh": "忘了作業。"
       }
     ]
   },
@@ -4510,8 +4510,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「思う」は動詞です。",
-        "zh": "「思う」是動詞，意思是「想、認為」。"
+        "ja": "いいと思います。",
+        "zh": "我覺得很好。"
       }
     ]
   },
@@ -4529,8 +4529,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「被る」は動詞です。",
-        "zh": "「被る」是動詞，意思是「戴帽子」。"
+        "ja": "寒い日に帽子を被ります。",
+        "zh": "冷天戴帽子。"
       }
     ]
   },
@@ -4548,8 +4548,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「困る」は動詞です。",
-        "zh": "「困る」是動詞，意思是「困擾」。"
+        "ja": "道が分からなくて困ります。",
+        "zh": "不知道路，很困擾。"
       }
     ]
   },
@@ -4567,8 +4567,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「咲く」は動詞です。",
-        "zh": "「咲く」是動詞，意思是「開花」。"
+        "ja": "春に花が咲きます。",
+        "zh": "春天花會開。"
       }
     ]
   },
@@ -4586,8 +4586,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「差す」は動詞です。",
-        "zh": "「差す」是動詞，意思是「撐傘、照射」。"
+        "ja": "雨の日に傘を差します。",
+        "zh": "下雨天撐傘。"
       }
     ]
   },
@@ -4605,8 +4605,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「知る」は動詞です。",
-        "zh": "「知る」是動詞，意思是「知道」。"
+        "ja": "その人を知っています。",
+        "zh": "認識那個人。"
       }
     ]
   },
@@ -4624,8 +4624,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「住む」は動詞です。",
-        "zh": "「住む」是動詞，意思是「居住」。"
+        "ja": "東京に住んでいます。",
+        "zh": "住在東京。"
       }
     ]
   },
@@ -4643,8 +4643,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「滑る」は動詞です。",
-        "zh": "「滑る」是動詞，意思是「滑」。"
+        "ja": "雪の上で滑ります。",
+        "zh": "在雪上滑倒。"
       }
     ]
   },
@@ -4662,8 +4662,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「頼む」は動詞です。",
-        "zh": "「頼む」是動詞，意思是「拜託、點餐」。"
+        "ja": "レストランで水を頼みます。",
+        "zh": "在餐廳點水。"
       }
     ]
   },
@@ -4681,8 +4681,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「疲れる」は動詞です。",
-        "zh": "「疲れる」是動詞，意思是「疲累」。"
+        "ja": "仕事の後で疲れます。",
+        "zh": "工作後會累。"
       }
     ]
   },
@@ -4700,8 +4700,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「着く」は動詞です。",
-        "zh": "「着く」是動詞，意思是「到達」。"
+        "ja": "電車は三時に着きます。",
+        "zh": "電車三點到。"
       }
     ]
   },
@@ -4719,8 +4719,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「続く」は動詞です。",
-        "zh": "「続く」是動詞，意思是「持續」。"
+        "ja": "雨の日が続きます。",
+        "zh": "雨天持續。"
       }
     ]
   },
@@ -4738,8 +4738,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「連れる」は動詞です。",
-        "zh": "「連れる」是動詞，意思是「帶人同行」。"
+        "ja": "子供を学校へ連れます。",
+        "zh": "帶小孩去學校。"
       }
     ]
   },
@@ -4757,8 +4757,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「飛ぶ」は動詞です。",
-        "zh": "「飛ぶ」是動詞，意思是「飛」。"
+        "ja": "鳥が空を飛びます。",
+        "zh": "鳥在天空飛。"
       }
     ]
   },
@@ -4776,8 +4776,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「無くす」は動詞です。",
-        "zh": "「無くす」是動詞，意思是「弄丟」。"
+        "ja": "財布を無くしました。",
+        "zh": "弄丟錢包。"
       }
     ]
   },
@@ -4795,8 +4795,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「脱ぐ」は動詞です。",
-        "zh": "「脱ぐ」是動詞，意思是「脫下」。"
+        "ja": "部屋で靴を脱ぎます。",
+        "zh": "在房間脫鞋。"
       }
     ]
   },
@@ -4814,8 +4814,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「登る」は動詞です。",
-        "zh": "「登る」是動詞，意思是「登上」。"
+        "ja": "山に登ります。",
+        "zh": "爬山。"
       }
     ]
   },
@@ -4833,8 +4833,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「降る」は動詞です。",
-        "zh": "「降る」是動詞，意思是「下雨、下雪」。"
+        "ja": "午後から雨が降ります。",
+        "zh": "下午開始下雨。"
       }
     ]
   },
@@ -4852,8 +4852,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「開く」は動詞です。",
-        "zh": "「開く」是動詞，意思是「打開、舉辦」。"
+        "ja": "本を開きます。",
+        "zh": "打開書。"
       }
     ]
   },
@@ -4871,8 +4871,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「負ける」は動詞です。",
-        "zh": "「負ける」是動詞，意思是「輸」。"
+        "ja": "試合に負けました。",
+        "zh": "比賽輸了。"
       }
     ]
   },
@@ -4890,8 +4890,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「見せる」は動詞です。",
-        "zh": "「見せる」是動詞，意思是「給人看」。"
+        "ja": "写真を友達に見せます。",
+        "zh": "把照片給朋友看。"
       }
     ]
   },
@@ -4909,8 +4909,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「やる」は動詞です。",
-        "zh": "「やる」是動詞，意思是「做、給」。"
+        "ja": "宿題をやります。",
+        "zh": "做作業。"
       }
     ]
   },
@@ -4928,8 +4928,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「渡す」は動詞です。",
-        "zh": "「渡す」是動詞，意思是「交給」。"
+        "ja": "先生に作文を渡します。",
+        "zh": "把作文交給老師。"
       }
     ]
   },
@@ -4947,8 +4947,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「別れる」は動詞です。",
-        "zh": "「別れる」是動詞，意思是「分別、分手」。"
+        "ja": "駅で友達と別れます。",
+        "zh": "在車站和朋友道別。"
       }
     ]
   },
@@ -4966,8 +4966,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「入れる」は動詞です。",
-        "zh": "「入れる」是動詞，意思是「放入」。"
+        "ja": "かばんに本を入れます。",
+        "zh": "把書放進包包。"
       }
     ]
   },
@@ -4985,8 +4985,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「生まれる」は動詞です。",
-        "zh": "「生まれる」是動詞，意思是「出生」。"
+        "ja": "妹は去年生まれました。",
+        "zh": "妹妹去年出生。"
       }
     ]
   },
@@ -5004,8 +5004,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「浴びる」は動詞です。",
-        "zh": "「浴びる」是動詞，意思是「淋浴、沖澡」。"
+        "ja": "朝、シャワーを浴びます。",
+        "zh": "早上淋浴。"
       }
     ]
   },
@@ -5014,8 +5014,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは明後日です。",
-        "zh": "這是「後天」。"
+        "ja": "明後日、映画を見ます。",
+        "zh": "後天看電影。"
       }
     ]
   },
@@ -5024,8 +5024,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは一昨日です。",
-        "zh": "這是「前天」。"
+        "ja": "一昨日、雨が降りました。",
+        "zh": "前天下雨了。"
       }
     ]
   },
@@ -5034,8 +5034,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは今晩です。",
-        "zh": "這是「今晚」。"
+        "ja": "今晩、友達と会います。",
+        "zh": "今晚和朋友見面。"
       }
     ]
   },
@@ -5044,8 +5044,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昨夜です。",
-        "zh": "這是「昨晚」。"
+        "ja": "昨夜、早く寝ました。",
+        "zh": "昨晚很早睡。"
       }
     ]
   },
@@ -5054,8 +5054,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは一つです。",
-        "zh": "這是「一個」。"
+        "ja": "りんごを一つください。",
+        "zh": "請給我一個蘋果。"
       }
     ]
   },
@@ -5064,8 +5064,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは二つです。",
-        "zh": "這是「兩個」。"
+        "ja": "りんごを二つください。",
+        "zh": "請給我兩個蘋果。"
       }
     ]
   },
@@ -5074,8 +5074,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは三つです。",
-        "zh": "這是「三個」。"
+        "ja": "りんごを三つください。",
+        "zh": "請給我三個蘋果。"
       }
     ]
   },
@@ -5084,8 +5084,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは四つです。",
-        "zh": "這是「四個」。"
+        "ja": "りんごを四つください。",
+        "zh": "請給我四個蘋果。"
       }
     ]
   },
@@ -5094,8 +5094,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは五つです。",
-        "zh": "這是「五個」。"
+        "ja": "りんごを五つください。",
+        "zh": "請給我五個蘋果。"
       }
     ]
   },
@@ -5104,8 +5104,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは六つです。",
-        "zh": "這是「六個」。"
+        "ja": "りんごを六つください。",
+        "zh": "請給我六個蘋果。"
       }
     ]
   },
@@ -5114,8 +5114,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは七つです。",
-        "zh": "這是「七個」。"
+        "ja": "りんごを七つください。",
+        "zh": "請給我七個蘋果。"
       }
     ]
   },
@@ -5124,8 +5124,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは八つです。",
-        "zh": "這是「八個」。"
+        "ja": "りんごを八つください。",
+        "zh": "請給我八個蘋果。"
       }
     ]
   },
@@ -5134,8 +5134,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは九つです。",
-        "zh": "這是「九個」。"
+        "ja": "りんごを九つください。",
+        "zh": "請給我九個蘋果。"
       }
     ]
   },
@@ -5144,8 +5144,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは十です。",
-        "zh": "這是「十個」。"
+        "ja": "りんごを十ください。",
+        "zh": "請給我十個蘋果。"
       }
     ]
   },
@@ -5154,8 +5154,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これはいくつです。",
-        "zh": "這是「幾個」。"
+        "ja": "切符をいくつ買います。",
+        "zh": "買幾個張票。"
       }
     ]
   },
@@ -5164,8 +5164,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは一人です。",
-        "zh": "這是「一個人」。"
+        "ja": "切符を一人買います。",
+        "zh": "買一個人張票。"
       }
     ]
   },
@@ -5174,8 +5174,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは二人です。",
-        "zh": "這是「兩個人」。"
+        "ja": "切符を二人買います。",
+        "zh": "買兩個人張票。"
       }
     ]
   },
@@ -5184,8 +5184,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは人です。",
-        "zh": "這是「人數」。"
+        "ja": "切符を人買います。",
+        "zh": "買人數張票。"
       }
     ]
   },
@@ -5194,8 +5194,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは枚です。",
-        "zh": "這是「張、片」。"
+        "ja": "切符を枚買います。",
+        "zh": "買張、片張票。"
       }
     ]
   },
@@ -5204,8 +5204,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは台です。",
-        "zh": "這是「台、輛」。"
+        "ja": "切符を台買います。",
+        "zh": "買台、輛張票。"
       }
     ]
   },
@@ -5214,8 +5214,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは個です。",
-        "zh": "這是「個」。"
+        "ja": "切符を個買います。",
+        "zh": "買個張票。"
       }
     ]
   },
@@ -5224,8 +5224,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは回です。",
-        "zh": "這是「次、回」。"
+        "ja": "切符を回買います。",
+        "zh": "買次、回張票。"
       }
     ]
   },
@@ -5234,8 +5234,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは円です。",
-        "zh": "這是「日圓」。"
+        "ja": "切符を円買います。",
+        "zh": "買日圓張票。"
       }
     ]
   },
@@ -5244,8 +5244,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは番号です。",
-        "zh": "這是「號碼」。"
+        "ja": "切符を番号買います。",
+        "zh": "買號碼張票。"
       }
     ]
   },
@@ -5254,8 +5254,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは歳です。",
-        "zh": "這是「歲」。"
+        "ja": "切符を歳買います。",
+        "zh": "買歲張票。"
       }
     ]
   },
@@ -5264,8 +5264,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは最後です。",
-        "zh": "這是「最後」。"
+        "ja": "最後に名前を書きます。",
+        "zh": "最後寫名字。"
       }
     ]
   },
@@ -5274,8 +5274,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは初めです。",
-        "zh": "這是「開始、起初」。"
+        "ja": "初めにあいさつします。",
+        "zh": "一開始先打招呼。"
       }
     ]
   },
@@ -5284,8 +5284,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは次です。",
-        "zh": "這是「下一個」。"
+        "ja": "次の駅で降ります。",
+        "zh": "在下一站下車。"
       }
     ]
   },
@@ -5294,8 +5294,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは全部です。",
-        "zh": "這是「全部」。"
+        "ja": "全部食べました。",
+        "zh": "全部吃完了。"
       }
     ]
   },
@@ -5304,8 +5304,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは半分です。",
-        "zh": "這是「一半」。"
+        "ja": "ケーキを半分食べます。",
+        "zh": "吃半塊蛋糕。"
       }
     ]
   },
@@ -5314,8 +5314,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「いつも」を使います。",
-        "zh": "使用「いつも」這個詞。"
+        "ja": "いつも朝ご飯を食べます。",
+        "zh": "總是吃早餐。"
       }
     ]
   },
@@ -5324,8 +5324,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「とても」を使います。",
-        "zh": "使用「とても」這個詞。"
+        "ja": "今日はとても暑いです。",
+        "zh": "今天非常熱。"
       }
     ]
   },
@@ -5334,8 +5334,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「たくさん」を使います。",
-        "zh": "使用「たくさん」這個詞。"
+        "ja": "図書館に本がたくさんあります。",
+        "zh": "圖書館有很多書。"
       }
     ]
   },
@@ -5344,8 +5344,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「少し」を使います。",
-        "zh": "使用「少し」這個詞。"
+        "ja": "日本語が少し分かります。",
+        "zh": "懂一點日文。"
       }
     ]
   },
@@ -5354,8 +5354,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「すぐ」を使います。",
-        "zh": "使用「すぐ」這個詞。"
+        "ja": "すぐ行きます。",
+        "zh": "馬上去。"
       }
     ]
   },
@@ -5364,8 +5364,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「また」を使います。",
-        "zh": "使用「また」這個詞。"
+        "ja": "また明日会いましょう。",
+        "zh": "明天再見吧。"
       }
     ]
   },
@@ -5374,8 +5374,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「まだ」を使います。",
-        "zh": "使用「まだ」這個詞。"
+        "ja": "宿題はまだ終わりません。",
+        "zh": "作業還沒結束。"
       }
     ]
   },
@@ -5384,8 +5384,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「もう」を使います。",
-        "zh": "使用「もう」這個詞。"
+        "ja": "もう昼ご飯を食べました。",
+        "zh": "已經吃午餐了。"
       }
     ]
   },
@@ -5394,8 +5394,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「もっと」を使います。",
-        "zh": "使用「もっと」這個詞。"
+        "ja": "もっと水を飲みたいです。",
+        "zh": "想喝更多水。"
       }
     ]
   },
@@ -5404,8 +5404,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「ゆっくり」を使います。",
-        "zh": "使用「ゆっくり」這個詞。"
+        "ja": "ゆっくり話してください。",
+        "zh": "請慢慢說。"
       }
     ]
   },
@@ -5414,8 +5414,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「早く」を使います。",
-        "zh": "使用「早く」這個詞。"
+        "ja": "明日は早く起きます。",
+        "zh": "明天早點起床。"
       }
     ]
   },
@@ -5424,8 +5424,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「一緒」を使います。",
-        "zh": "使用「一緒」這個詞。"
+        "ja": "友達と一緒に映画を見ます。",
+        "zh": "和朋友一起看電影。"
       }
     ]
   },
@@ -5434,8 +5434,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「別々」を使います。",
-        "zh": "使用「別々」這個詞。"
+        "ja": "靴と服を別々に入れます。",
+        "zh": "把鞋子和衣服分開放。"
       }
     ]
   },
@@ -5444,8 +5444,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「真っ直ぐ」を使います。",
-        "zh": "使用「真っ直ぐ」這個詞。"
+        "ja": "この道を真っ直ぐ行きます。",
+        "zh": "沿著這條路直走。"
       }
     ]
   },
@@ -5454,8 +5454,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「だんだん」を使います。",
-        "zh": "使用「だんだん」這個詞。"
+        "ja": "日本語がだんだん分かります。",
+        "zh": "日文漸漸懂了。"
       }
     ]
   },
@@ -5464,8 +5464,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「初めて」を使います。",
-        "zh": "使用「初めて」這個詞。"
+        "ja": "初めて日本へ行きます。",
+        "zh": "第一次去日本。"
       }
     ]
   },
@@ -5474,8 +5474,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「どうぞ」を使います。",
-        "zh": "使用「どうぞ」這個詞。"
+        "ja": "どうぞ、入ってください。",
+        "zh": "請進。"
       }
     ]
   },
@@ -5484,8 +5484,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「どうも」を使います。",
-        "zh": "使用「どうも」這個詞。"
+        "ja": "どうもありがとうございます。",
+        "zh": "非常謝謝。"
       }
     ]
   },
@@ -5494,8 +5494,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「いかが」を使います。",
-        "zh": "使用「いかが」這個詞。"
+        "ja": "お茶はいかがですか。",
+        "zh": "茶如何？"
       }
     ]
   },
@@ -5504,8 +5504,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「なぜ」を使います。",
-        "zh": "使用「なぜ」這個詞。"
+        "ja": "なぜ学校へ行きませんか。",
+        "zh": "為什麼不去學校？"
       }
     ]
   },
@@ -5514,8 +5514,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「どうして」を使います。",
-        "zh": "使用「どうして」這個詞。"
+        "ja": "どうして遅れましたか。",
+        "zh": "為什麼遲到了？"
       }
     ]
   },
@@ -5524,8 +5524,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「どう」を使います。",
-        "zh": "使用「どう」這個詞。"
+        "ja": "日本語の勉強はどうですか。",
+        "zh": "日文學習怎麼樣？"
       }
     ]
   },
@@ -5534,8 +5534,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「いくら」を使います。",
-        "zh": "使用「いくら」這個詞。"
+        "ja": "このケーキはいくらですか。",
+        "zh": "這個蛋糕多少錢？"
       }
     ]
   },
@@ -5544,8 +5544,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "副詞",
     "examples": [
       {
-        "ja": "「一番」を使います。",
-        "zh": "使用「一番」這個詞。"
+        "ja": "この店が一番好きです。",
+        "zh": "最喜歡這家店。"
       }
     ]
   },
@@ -5563,8 +5563,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "結婚します。",
-        "zh": "進行「結婚」。"
+        "ja": "来年、兄は結婚します。",
+        "zh": "哥哥明年結婚。"
       }
     ]
   },
@@ -5573,8 +5573,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは夫です。",
-        "zh": "這是「丈夫」。"
+        "ja": "夫は元気です。",
+        "zh": "丈夫很有精神。"
       }
     ]
   },
@@ -5583,8 +5583,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは妻です。",
-        "zh": "這是「妻子」。"
+        "ja": "妻と話します。",
+        "zh": "和妻子說話。"
       }
     ]
   },
@@ -5593,8 +5593,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは主人です。",
-        "zh": "這是「丈夫、主人」。"
+        "ja": "主人に会います。",
+        "zh": "和丈夫、主人見面。"
       }
     ]
   },
@@ -5603,8 +5603,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは奥さんです。",
-        "zh": "這是「太太」。"
+        "ja": "奥さんは元気です。",
+        "zh": "太太很有精神。"
       }
     ]
   },
@@ -5613,8 +5613,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは両親です。",
-        "zh": "這是「父母」。"
+        "ja": "両親と話します。",
+        "zh": "和父母說話。"
       }
     ]
   },
@@ -5623,8 +5623,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは兄弟です。",
-        "zh": "這是「兄弟姊妹」。"
+        "ja": "兄弟に会います。",
+        "zh": "和兄弟姊妹見面。"
       }
     ]
   },
@@ -5633,8 +5633,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは叔父です。",
-        "zh": "這是「叔叔、伯父」。"
+        "ja": "叔父は元気です。",
+        "zh": "叔叔、伯父很有精神。"
       }
     ]
   },
@@ -5643,8 +5643,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは叔母です。",
-        "zh": "這是「阿姨、伯母」。"
+        "ja": "叔母と話します。",
+        "zh": "和阿姨、伯母說話。"
       }
     ]
   },
@@ -5653,8 +5653,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお爺さんです。",
-        "zh": "這是「爺爺、老先生」。"
+        "ja": "お爺さんに会います。",
+        "zh": "和爺爺、老先生見面。"
       }
     ]
   },
@@ -5663,8 +5663,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお婆さんです。",
-        "zh": "這是「奶奶、老婆婆」。"
+        "ja": "お婆さんは元気です。",
+        "zh": "奶奶、老婆婆很有精神。"
       }
     ]
   },
@@ -5673,8 +5673,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは孫です。",
-        "zh": "這是「孫子」。"
+        "ja": "孫と話します。",
+        "zh": "和孫子說話。"
       }
     ]
   },
@@ -5683,8 +5683,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお客さんです。",
-        "zh": "這是「客人」。"
+        "ja": "お客さんに会います。",
+        "zh": "和客人見面。"
       }
     ]
   },
@@ -5693,8 +5693,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは方です。",
-        "zh": "這是「人、位」。"
+        "ja": "方は元気です。",
+        "zh": "人、位很有精神。"
       }
     ]
   },
@@ -5703,8 +5703,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは医者です。",
-        "zh": "這是「醫生」。"
+        "ja": "医者と話します。",
+        "zh": "和醫生說話。"
       }
     ]
   },
@@ -5713,8 +5713,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは看護師です。",
-        "zh": "這是「護理師」。"
+        "ja": "看護師に会います。",
+        "zh": "和護理師見面。"
       }
     ]
   },
@@ -5723,8 +5723,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは警官です。",
-        "zh": "這是「警察」。"
+        "ja": "警官は元気です。",
+        "zh": "警察很有精神。"
       }
     ]
   },
@@ -5733,8 +5733,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは店員です。",
-        "zh": "這是「店員」。"
+        "ja": "店員と話します。",
+        "zh": "和店員說話。"
       }
     ]
   },
@@ -5743,8 +5743,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは銀行員です。",
-        "zh": "這是「銀行員」。"
+        "ja": "銀行員に会います。",
+        "zh": "和銀行員見面。"
       }
     ]
   },
@@ -5753,8 +5753,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは会社員です。",
-        "zh": "這是「公司職員」。"
+        "ja": "会社員は元気です。",
+        "zh": "公司職員很有精神。"
       }
     ]
   },
@@ -5763,8 +5763,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは教師です。",
-        "zh": "這是「教師」。"
+        "ja": "教師と話します。",
+        "zh": "和教師說話。"
       }
     ]
   },
@@ -5773,8 +5773,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは運転手です。",
-        "zh": "這是「司機」。"
+        "ja": "運転手に会います。",
+        "zh": "和司機見面。"
       }
     ]
   },
@@ -5783,8 +5783,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは仕事です。",
-        "zh": "這是「工作」。"
+        "ja": "毎朝、仕事に行きます。",
+        "zh": "每天早上去工作。"
       }
     ]
   },
@@ -5802,8 +5802,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "アルバイトします。",
-        "zh": "進行「打工」。"
+        "ja": "週末にアルバイトします。",
+        "zh": "週末打工。"
       }
     ]
   },
@@ -5812,8 +5812,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはホテルです。",
-        "zh": "這是「飯店」。"
+        "ja": "ホテルで友達を待ちます。",
+        "zh": "在飯店等朋友。"
       }
     ]
   },
@@ -5822,8 +5822,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはデパートです。",
-        "zh": "這是「百貨公司」。"
+        "ja": "デパートへ行きます。",
+        "zh": "去百貨公司。"
       }
     ]
   },
@@ -5832,8 +5832,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスーパーです。",
-        "zh": "這是「超市」。"
+        "ja": "スーパーは駅の近くです。",
+        "zh": "超市在車站附近。"
       }
     ]
   },
@@ -5842,8 +5842,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアパートです。",
-        "zh": "這是「公寓」。"
+        "ja": "アパートで友達を待ちます。",
+        "zh": "在公寓等朋友。"
       }
     ]
   },
@@ -5852,8 +5852,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはマンションです。",
-        "zh": "這是「大樓公寓」。"
+        "ja": "マンションへ行きます。",
+        "zh": "去大樓公寓。"
       }
     ]
   },
@@ -5862,8 +5862,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは喫茶店です。",
-        "zh": "這是「咖啡店」。"
+        "ja": "喫茶店は駅の近くです。",
+        "zh": "咖啡店在車站附近。"
       }
     ]
   },
@@ -5872,8 +5872,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは本屋です。",
-        "zh": "這是「書店」。"
+        "ja": "本屋で友達を待ちます。",
+        "zh": "在書店等朋友。"
       }
     ]
   },
@@ -5882,8 +5882,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはパン屋です。",
-        "zh": "這是「麵包店」。"
+        "ja": "パン屋へ行きます。",
+        "zh": "去麵包店。"
       }
     ]
   },
@@ -5892,8 +5892,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは花屋です。",
-        "zh": "這是「花店」。"
+        "ja": "花屋は駅の近くです。",
+        "zh": "花店在車站附近。"
       }
     ]
   },
@@ -5902,8 +5902,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは映画館です。",
-        "zh": "這是「電影院」。"
+        "ja": "映画館で友達を待ちます。",
+        "zh": "在電影院等朋友。"
       }
     ]
   },
@@ -5912,8 +5912,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは美術館です。",
-        "zh": "這是「美術館」。"
+        "ja": "美術館へ行きます。",
+        "zh": "去美術館。"
       }
     ]
   },
@@ -5922,8 +5922,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは博物館です。",
-        "zh": "這是「博物館」。"
+        "ja": "博物館を見ます。",
+        "zh": "看博物館。"
       }
     ]
   },
@@ -5932,8 +5932,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプールです。",
-        "zh": "這是「游泳池」。"
+        "ja": "夏にプールで泳ぎます。",
+        "zh": "夏天在游泳池游泳。"
       }
     ]
   },
@@ -5942,8 +5942,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはトイレです。",
-        "zh": "這是「廁所」。"
+        "ja": "トイレは一階です。",
+        "zh": "廁所在一樓。"
       }
     ]
   },
@@ -5952,8 +5952,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはエレベーターです。",
-        "zh": "這是「電梯」。"
+        "ja": "エレベーターで上へ行きます。",
+        "zh": "搭電梯上去。"
       }
     ]
   },
@@ -5962,8 +5962,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは階段です。",
-        "zh": "這是「樓梯」。"
+        "ja": "階段を上ります。",
+        "zh": "爬樓梯。"
       }
     ]
   },
@@ -5972,8 +5972,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは廊下です。",
-        "zh": "這是「走廊」。"
+        "ja": "廊下を歩きます。",
+        "zh": "走在走廊上。"
       }
     ]
   },
@@ -5982,8 +5982,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは玄関です。",
-        "zh": "這是「玄關」。"
+        "ja": "玄関で靴を脱ぎます。",
+        "zh": "在玄關脫鞋。"
       }
     ]
   },
@@ -5992,8 +5992,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは押し入れです。",
-        "zh": "這是「壁櫥」。"
+        "ja": "押し入れに布団を入れます。",
+        "zh": "把棉被放進壁櫥。"
       }
     ]
   },
@@ -6002,8 +6002,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはベッドです。",
-        "zh": "這是「床」。"
+        "ja": "ベッドで寝ます。",
+        "zh": "在床上睡覺。"
       }
     ]
   },
@@ -6012,8 +6012,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはテーブルです。",
-        "zh": "這是「桌子」。"
+        "ja": "テーブルの上に皿があります。",
+        "zh": "桌上有盤子。"
       }
     ]
   },
@@ -6022,8 +6022,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは棚です。",
-        "zh": "這是「架子」。"
+        "ja": "棚に本を置きます。",
+        "zh": "把書放在架子上。"
       }
     ]
   },
@@ -6032,8 +6032,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはラジオです。",
-        "zh": "這是「收音機」。"
+        "ja": "ラジオを聞きます。",
+        "zh": "聽收音機。"
       }
     ]
   },
@@ -6042,8 +6042,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパソコンです。",
-        "zh": "這是「電腦」。"
+        "ja": "パソコンを使います。",
+        "zh": "使用電腦。"
       }
     ]
   },
@@ -6052,8 +6052,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはエアコンです。",
-        "zh": "這是「冷氣」。"
+        "ja": "暑いのでエアコンをつけます。",
+        "zh": "因為很熱，所以開冷氣。"
       }
     ]
   },
@@ -6062,8 +6062,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはストーブです。",
-        "zh": "這是「暖爐」。"
+        "ja": "冬にストーブを使います。",
+        "zh": "冬天使用暖爐。"
       }
     ]
   },
@@ -6072,8 +6072,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカーテンです。",
-        "zh": "這是「窗簾」。"
+        "ja": "朝、カーテンを開けます。",
+        "zh": "早上打開窗簾。"
       }
     ]
   },
@@ -6082,8 +6082,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電気です。",
-        "zh": "這是「電燈、電」。"
+        "ja": "電気をつけます。",
+        "zh": "開燈。"
       }
     ]
   },
@@ -6092,8 +6092,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは冷蔵庫です。",
-        "zh": "這是「冰箱」。"
+        "ja": "冷蔵庫に牛乳があります。",
+        "zh": "冰箱裡有牛奶。"
       }
     ]
   },
@@ -6102,8 +6102,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは洗濯機です。",
-        "zh": "這是「洗衣機」。"
+        "ja": "洗濯機で服を洗います。",
+        "zh": "用洗衣機洗衣服。"
       }
     ]
   },
@@ -6112,8 +6112,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは上着です。",
-        "zh": "這是「外套」。"
+        "ja": "上着は机の上です。",
+        "zh": "外套在桌上。"
       }
     ]
   },
@@ -6122,8 +6122,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはズボンです。",
-        "zh": "這是「褲子」。"
+        "ja": "ズボンを使います。",
+        "zh": "使用褲子。"
       }
     ]
   },
@@ -6132,8 +6132,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスカートです。",
-        "zh": "這是「裙子」。"
+        "ja": "スカートを買います。",
+        "zh": "買裙子。"
       }
     ]
   },
@@ -6142,8 +6142,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは帽子です。",
-        "zh": "這是「帽子」。"
+        "ja": "帽子は机の上です。",
+        "zh": "帽子在桌上。"
       }
     ]
   },
@@ -6152,8 +6152,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは眼鏡です。",
-        "zh": "這是「眼鏡」。"
+        "ja": "眼鏡を使います。",
+        "zh": "使用眼鏡。"
       }
     ]
   },
@@ -6162,8 +6162,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはネクタイです。",
-        "zh": "這是「領帶」。"
+        "ja": "ネクタイを買います。",
+        "zh": "買領帶。"
       }
     ]
   },
@@ -6172,8 +6172,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは靴下です。",
-        "zh": "這是「襪子」。"
+        "ja": "靴下は机の上です。",
+        "zh": "襪子在桌上。"
       }
     ]
   },
@@ -6182,8 +6182,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはセーターです。",
-        "zh": "這是「毛衣」。"
+        "ja": "セーターを使います。",
+        "zh": "使用毛衣。"
       }
     ]
   },
@@ -6192,8 +6192,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはコートです。",
-        "zh": "這是「大衣」。"
+        "ja": "コートを買います。",
+        "zh": "買大衣。"
       }
     ]
   },
@@ -6202,8 +6202,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはワイシャツです。",
-        "zh": "這是「襯衫」。"
+        "ja": "ワイシャツは机の上です。",
+        "zh": "襯衫在桌上。"
       }
     ]
   },
@@ -6212,8 +6212,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお弁当です。",
-        "zh": "這是「便當」。"
+        "ja": "お弁当を食べます。",
+        "zh": "吃便當。"
       }
     ]
   },
@@ -6222,8 +6222,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは味噌汁です。",
-        "zh": "這是「味噌湯」。"
+        "ja": "味噌汁を飲みます。",
+        "zh": "喝味噌湯。"
       }
     ]
   },
@@ -6232,8 +6232,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは醤油です。",
-        "zh": "這是「醬油」。"
+        "ja": "料理に醤油をかけます。",
+        "zh": "在料理上淋醬油。"
       }
     ]
   },
@@ -6242,8 +6242,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは紅茶です。",
-        "zh": "這是「紅茶」。"
+        "ja": "紅茶を飲みます。",
+        "zh": "喝紅茶。"
       }
     ]
   },
@@ -6252,8 +6252,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは氷です。",
-        "zh": "這是「冰」。"
+        "ja": "水に氷を入れます。",
+        "zh": "把冰塊放進水裡。"
       }
     ]
   },
@@ -6262,8 +6262,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお菓子です。",
-        "zh": "這是「點心」。"
+        "ja": "お菓子が好きです。",
+        "zh": "喜歡點心。"
       }
     ]
   },
@@ -6272,8 +6272,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは梨です。",
-        "zh": "這是「梨子」。"
+        "ja": "梨を食べます。",
+        "zh": "吃梨子。"
       }
     ]
   },
@@ -6282,8 +6282,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは桃です。",
-        "zh": "這是「桃子」。"
+        "ja": "桃を買います。",
+        "zh": "買桃子。"
       }
     ]
   },
@@ -6292,8 +6292,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは苺です。",
-        "zh": "這是「草莓」。"
+        "ja": "苺が好きです。",
+        "zh": "喜歡草莓。"
       }
     ]
   },
@@ -6302,8 +6302,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはぶどうです。",
-        "zh": "這是「葡萄」。"
+        "ja": "ぶどうを食べます。",
+        "zh": "吃葡萄。"
       }
     ]
   },
@@ -6312,8 +6312,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはじゃが芋です。",
-        "zh": "這是「馬鈴薯」。"
+        "ja": "じゃが芋を料理に使います。",
+        "zh": "把馬鈴薯用在料理裡。"
       }
     ]
   },
@@ -6322,8 +6322,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは人参です。",
-        "zh": "這是「胡蘿蔔」。"
+        "ja": "人参を切ります。",
+        "zh": "切胡蘿蔔。"
       }
     ]
   },
@@ -6332,8 +6332,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはねぎです。",
-        "zh": "這是「蔥」。"
+        "ja": "ねぎをうどんに入れます。",
+        "zh": "把蔥放進烏龍麵。"
       }
     ]
   },
@@ -6342,8 +6342,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは豆です。",
-        "zh": "這是「豆子」。"
+        "ja": "豆を食べます。",
+        "zh": "吃豆子。"
       }
     ]
   },
@@ -6352,8 +6352,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは米です。",
-        "zh": "這是「米」。"
+        "ja": "米を買います。",
+        "zh": "買米。"
       }
     ]
   },
@@ -6362,8 +6362,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは焼肉です。",
-        "zh": "這是「燒肉」。"
+        "ja": "焼肉を食べます。",
+        "zh": "吃燒肉。"
       }
     ]
   },
@@ -6372,8 +6372,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはラーメンです。",
-        "zh": "這是「拉麵」。"
+        "ja": "ラーメンを買います。",
+        "zh": "買拉麵。"
       }
     ]
   },
@@ -6382,8 +6382,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはサンドイッチです。",
-        "zh": "這是「三明治」。"
+        "ja": "サンドイッチが好きです。",
+        "zh": "喜歡三明治。"
       }
     ]
   },
@@ -6392,8 +6392,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはハンバーガーです。",
-        "zh": "這是「漢堡」。"
+        "ja": "ハンバーガーを食べます。",
+        "zh": "吃漢堡。"
       }
     ]
   },
@@ -6402,8 +6402,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアイスクリームです。",
-        "zh": "這是「冰淇淋」。"
+        "ja": "アイスクリームを買います。",
+        "zh": "買冰淇淋。"
       }
     ]
   },
@@ -6412,8 +6412,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはチョコレートです。",
-        "zh": "這是「巧克力」。"
+        "ja": "チョコレートが好きです。",
+        "zh": "喜歡巧克力。"
       }
     ]
   },
@@ -6422,8 +6422,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお酒です。",
-        "zh": "這是「酒」。"
+        "ja": "お酒を飲みます。",
+        "zh": "喝酒。"
       }
     ]
   },
@@ -6432,8 +6432,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは病気です。",
-        "zh": "這是「生病」。"
+        "ja": "病気で学校を休みます。",
+        "zh": "因為生病向學校請假。"
       }
     ]
   },
@@ -6442,8 +6442,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは薬です。",
-        "zh": "這是「藥」。"
+        "ja": "薬を飲みます。",
+        "zh": "吃藥。"
       }
     ]
   },
@@ -6452,8 +6452,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは咳です。",
-        "zh": "這是「咳嗽」。"
+        "ja": "咳が出ます。",
+        "zh": "咳嗽。"
       }
     ]
   },
@@ -6462,8 +6462,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは熱です。",
-        "zh": "這是「發燒、熱度」。"
+        "ja": "熱があります。",
+        "zh": "發燒。"
       }
     ]
   },
@@ -6472,8 +6472,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは喉です。",
-        "zh": "這是「喉嚨」。"
+        "ja": "喉が痛いです。",
+        "zh": "喉嚨痛。"
       }
     ]
   },
@@ -6482,8 +6482,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは声です。",
-        "zh": "這是「聲音」。"
+        "ja": "大きい声で話します。",
+        "zh": "用很大的聲音說話。"
       }
     ]
   },
@@ -6492,8 +6492,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは背です。",
-        "zh": "這是「身高、背」。"
+        "ja": "兄は背が高いです。",
+        "zh": "哥哥身高很高。"
       }
     ]
   },
@@ -6502,8 +6502,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは心です。",
-        "zh": "這是「心」。"
+        "ja": "心が温かい人です。",
+        "zh": "是心地溫暖的人。"
       }
     ]
   },
@@ -6512,8 +6512,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは毛です。",
-        "zh": "這是「毛髮」。"
+        "ja": "猫の毛は白いです。",
+        "zh": "貓的毛是白色的。"
       }
     ]
   },
@@ -6522,8 +6522,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは腕です。",
-        "zh": "這是「手臂」。"
+        "ja": "腕が痛いです。",
+        "zh": "手臂痛。"
       }
     ]
   },
@@ -6532,8 +6532,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは指です。",
-        "zh": "這是「手指」。"
+        "ja": "指でボタンを押します。",
+        "zh": "用手指按按鈕。"
       }
     ]
   },
@@ -6542,8 +6542,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお尻です。",
-        "zh": "這是「屁股」。"
+        "ja": "お尻が痛いです。",
+        "zh": "屁股痛。"
       }
     ]
   },
@@ -6552,8 +6552,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは血です。",
-        "zh": "這是「血」。"
+        "ja": "血が出ました。",
+        "zh": "流血了。"
       }
     ]
   },
@@ -6562,8 +6562,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは石です。",
-        "zh": "這是「石頭」。"
+        "ja": "石の写真を撮ります。",
+        "zh": "拍石頭的照片。"
       }
     ]
   },
@@ -6572,8 +6572,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは砂です。",
-        "zh": "這是「沙」。"
+        "ja": "砂が見えます。",
+        "zh": "看得到沙。"
       }
     ]
   },
@@ -6582,8 +6582,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは草です。",
-        "zh": "這是「草」。"
+        "ja": "今日は草がきれいです。",
+        "zh": "今天的草很漂亮。"
       }
     ]
   },
@@ -6592,8 +6592,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは火です。",
-        "zh": "這是「火」。"
+        "ja": "火の写真を撮ります。",
+        "zh": "拍火的照片。"
       }
     ]
   },
@@ -6602,8 +6602,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは緑です。",
-        "zh": "這是「綠色」。"
+        "ja": "緑が見えます。",
+        "zh": "看得到綠色。"
       }
     ]
   },
@@ -6612,8 +6612,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは赤です。",
-        "zh": "這是「紅色」。"
+        "ja": "今日は赤がきれいです。",
+        "zh": "今天的紅色很漂亮。"
       }
     ]
   },
@@ -6622,8 +6622,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは青です。",
-        "zh": "這是「藍色」。"
+        "ja": "青の写真を撮ります。",
+        "zh": "拍藍色的照片。"
       }
     ]
   },
@@ -6632,8 +6632,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは白です。",
-        "zh": "這是「白色」。"
+        "ja": "白が見えます。",
+        "zh": "看得到白色。"
       }
     ]
   },
@@ -6642,8 +6642,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは黒です。",
-        "zh": "這是「黑色」。"
+        "ja": "今日は黒がきれいです。",
+        "zh": "今天的黑色很漂亮。"
       }
     ]
   },
@@ -6652,8 +6652,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは黄色です。",
-        "zh": "這是「黃色」。"
+        "ja": "黄色の写真を撮ります。",
+        "zh": "拍黃色的照片。"
       }
     ]
   },
@@ -6662,8 +6662,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは茶色です。",
-        "zh": "這是「茶色」。"
+        "ja": "茶色が見えます。",
+        "zh": "看得到茶色。"
       }
     ]
   },
@@ -6672,8 +6672,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは色です。",
-        "zh": "這是「顏色」。"
+        "ja": "今日は色がきれいです。",
+        "zh": "今天的顏色很漂亮。"
       }
     ]
   },
@@ -6682,8 +6682,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは音です。",
-        "zh": "這是「聲音」。"
+        "ja": "音の写真を撮ります。",
+        "zh": "拍聲音的照片。"
       }
     ]
   },
@@ -6692,8 +6692,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは光です。",
-        "zh": "這是「光」。"
+        "ja": "光が見えます。",
+        "zh": "看得到光。"
       }
     ]
   },
@@ -6702,8 +6702,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは音楽です。",
-        "zh": "這是「音樂」。"
+        "ja": "今日は音楽がきれいです。",
+        "zh": "今天的音樂很漂亮。"
       }
     ]
   },
@@ -6712,8 +6712,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは歌です。",
-        "zh": "這是「歌曲」。"
+        "ja": "友達と歌をします。",
+        "zh": "和朋友做歌曲。"
       }
     ]
   },
@@ -6731,8 +6731,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "ダンスします。",
-        "zh": "進行「跳舞」。"
+        "ja": "パーティーでダンスします。",
+        "zh": "在派對跳舞。"
       }
     ]
   },
@@ -6741,8 +6741,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスポーツです。",
-        "zh": "這是「運動」。"
+        "ja": "学校でスポーツを習います。",
+        "zh": "在學校學運動。"
       }
     ]
   },
@@ -6751,8 +6751,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはサッカーです。",
-        "zh": "這是「足球」。"
+        "ja": "友達とサッカーをします。",
+        "zh": "和朋友做足球。"
       }
     ]
   },
@@ -6761,8 +6761,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは野球です。",
-        "zh": "這是「棒球」。"
+        "ja": "野球が好きです。",
+        "zh": "喜歡棒球。"
       }
     ]
   },
@@ -6771,8 +6771,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはテニスです。",
-        "zh": "這是「網球」。"
+        "ja": "学校でテニスを習います。",
+        "zh": "在學校學網球。"
       }
     ]
   },
@@ -6781,8 +6781,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはゴルフです。",
-        "zh": "這是「高爾夫」。"
+        "ja": "友達とゴルフをします。",
+        "zh": "和朋友做高爾夫。"
       }
     ]
   },
@@ -6791,8 +6791,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスキーです。",
-        "zh": "這是「滑雪」。"
+        "ja": "スキーが好きです。",
+        "zh": "喜歡滑雪。"
       }
     ]
   },
@@ -6801,8 +6801,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは絵です。",
-        "zh": "這是「圖畫」。"
+        "ja": "学校で絵を習います。",
+        "zh": "在學校學圖畫。"
       }
     ]
   },
@@ -6811,8 +6811,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは漢字です。",
-        "zh": "這是「漢字」。"
+        "ja": "友達と漢字をします。",
+        "zh": "和朋友做漢字。"
       }
     ]
   },
@@ -6821,8 +6821,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは平仮名です。",
-        "zh": "這是「平假名」。"
+        "ja": "平仮名が好きです。",
+        "zh": "喜歡平假名。"
       }
     ]
   },
@@ -6831,8 +6831,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これは片仮名です。",
-        "zh": "這是「片假名」。"
+        "ja": "学校で片仮名を習います。",
+        "zh": "在學校學片假名。"
       }
     ]
   },
@@ -6841,8 +6841,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは英語です。",
-        "zh": "這是「英文」。"
+        "ja": "友達と英語をします。",
+        "zh": "和朋友做英文。"
       }
     ]
   },
@@ -6851,8 +6851,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日本語です。",
-        "zh": "這是「日文」。"
+        "ja": "日本語が好きです。",
+        "zh": "喜歡日文。"
       }
     ]
   },
@@ -6861,8 +6861,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは言葉です。",
-        "zh": "這是「語言、詞語」。"
+        "ja": "学校で言葉を習います。",
+        "zh": "在學校學語言、詞語。"
       }
     ]
   },
@@ -6871,8 +6871,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは意味です。",
-        "zh": "這是「意思」。"
+        "ja": "友達と意味をします。",
+        "zh": "和朋友做意思。"
       }
     ]
   },
@@ -6881,8 +6881,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは話です。",
-        "zh": "這是「故事、談話」。"
+        "ja": "話が好きです。",
+        "zh": "喜歡故事、談話。"
       }
     ]
   },
@@ -6891,8 +6891,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは誕生日です。",
-        "zh": "這是「生日」。"
+        "ja": "誕生日は忙しいです。",
+        "zh": "生日很忙。"
       }
     ]
   },
@@ -6901,8 +6901,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパーティーです。",
-        "zh": "這是「派對」。"
+        "ja": "パーティーに友達と会います。",
+        "zh": "派對和朋友見面。"
       }
     ]
   },
@@ -6911,8 +6911,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは祭りです。",
-        "zh": "這是「祭典」。"
+        "ja": "祭りに行きます。",
+        "zh": "去祭典。"
       }
     ]
   },
@@ -6921,8 +6921,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは休みです。",
-        "zh": "這是「休假」。"
+        "ja": "休みに映画を見ます。",
+        "zh": "休假時看電影。"
       }
     ]
   },
@@ -6931,8 +6931,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは夏休みです。",
-        "zh": "這是「暑假」。"
+        "ja": "夏休みに海へ行きます。",
+        "zh": "暑假去海邊。"
       }
     ]
   },
@@ -6941,8 +6941,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは冬休みです。",
-        "zh": "這是「寒假」。"
+        "ja": "冬休みに家族と会います。",
+        "zh": "寒假和家人見面。"
       }
     ]
   },
@@ -6951,8 +6951,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは春です。",
-        "zh": "這是「春天」。"
+        "ja": "春に花が咲きます。",
+        "zh": "春天花會開。"
       }
     ]
   },
@@ -6961,8 +6961,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは夏です。",
-        "zh": "這是「夏天」。"
+        "ja": "夏に海へ行きます。",
+        "zh": "夏天去海邊。"
       }
     ]
   },
@@ -6971,8 +6971,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは秋です。",
-        "zh": "這是「秋天」。"
+        "ja": "秋に京都へ行きます。",
+        "zh": "秋天去京都。"
       }
     ]
   },
@@ -6981,8 +6981,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは冬です。",
-        "zh": "這是「冬天」。"
+        "ja": "冬に雪が降ります。",
+        "zh": "冬天下雪。"
       }
     ]
   },
@@ -6991,8 +6991,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは春休みです。",
-        "zh": "這是「春假」。"
+        "ja": "春休みに旅行します。",
+        "zh": "春假去旅行。"
       }
     ]
   },
@@ -7001,8 +7001,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお正月です。",
-        "zh": "這是「新年」。"
+        "ja": "お正月に家族と会います。",
+        "zh": "新年和家人見面。"
       }
     ]
   },
@@ -7011,8 +7011,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはクリスマスです。",
-        "zh": "這是「聖誕節」。"
+        "ja": "クリスマスにケーキを食べます。",
+        "zh": "聖誕節吃蛋糕。"
       }
     ]
   },
@@ -7021,8 +7021,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは欲しいです。",
-        "zh": "這個是「想要的」。"
+        "ja": "新しいかばんが欲しいです。",
+        "zh": "想要新的包包。"
       }
     ]
   },
@@ -7031,8 +7031,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは眠いです。",
-        "zh": "這個是「想睡的」。"
+        "ja": "今日は眠いです。",
+        "zh": "今天很想睡。"
       }
     ]
   },
@@ -7041,8 +7041,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは痛いです。",
-        "zh": "這個是「痛的」。"
+        "ja": "足が痛いです。",
+        "zh": "腳很痛。"
       }
     ]
   },
@@ -7051,8 +7051,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは丸いです。",
-        "zh": "這個是「圓的」。"
+        "ja": "丸い皿を使います。",
+        "zh": "使用圓盤子。"
       }
     ]
   },
@@ -7061,8 +7061,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは四角いです。",
-        "zh": "這個是「方形的」。"
+        "ja": "四角い箱があります。",
+        "zh": "有方形的箱子。"
       }
     ]
   },
@@ -7071,8 +7071,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これはうるさいです。",
-        "zh": "這個是「吵鬧的」。"
+        "ja": "外がうるさいです。",
+        "zh": "外面很吵。"
       }
     ]
   },
@@ -7081,8 +7081,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これはまずいです。",
-        "zh": "這個是「難吃的」。"
+        "ja": "この料理はまずいです。",
+        "zh": "這道料理很難吃。"
       }
     ]
   },
@@ -7091,8 +7091,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは細いです。",
-        "zh": "這個是「細的」。"
+        "ja": "細いペンで書きます。",
+        "zh": "用細筆寫。"
       }
     ]
   },
@@ -7101,8 +7101,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは太いです。",
-        "zh": "這個是「粗的」。"
+        "ja": "太い木があります。",
+        "zh": "有粗的樹。"
       }
     ]
   },
@@ -7111,8 +7111,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは薄いです。",
-        "zh": "這個是「薄的」。"
+        "ja": "薄い紙を使います。",
+        "zh": "使用薄紙。"
       }
     ]
   },
@@ -7121,8 +7121,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは遠いです。",
-        "zh": "這個是「遠的」。"
+        "ja": "駅は遠いです。",
+        "zh": "車站很遠。"
       }
     ]
   },
@@ -7131,8 +7131,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは近いです。",
-        "zh": "這個是「近的」。"
+        "ja": "学校は家から近いです。",
+        "zh": "學校離家很近。"
       }
     ]
   },
@@ -7141,8 +7141,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは同じです。",
-        "zh": "這個是「相同」。"
+        "ja": "同じ本を買いました。",
+        "zh": "買了一樣的書。"
       }
     ]
   },
@@ -7151,8 +7151,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは色々です。",
-        "zh": "這個是「各式各樣」。"
+        "ja": "店に色々なパンがあります。",
+        "zh": "店裡有各式各樣的麵包。"
       }
     ]
   },
@@ -7161,8 +7161,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは結構です。",
-        "zh": "這個是「相當、可以」。"
+        "ja": "この部屋は結構広いです。",
+        "zh": "這個房間相當寬敞。"
       }
     ]
   },
@@ -7171,8 +7171,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは大丈夫です。",
-        "zh": "這個是「沒問題」。"
+        "ja": "一人で大丈夫です。",
+        "zh": "一個人沒問題。"
       }
     ]
   },
@@ -7181,8 +7181,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは大好きです。",
-        "zh": "這個是「非常喜歡」。"
+        "ja": "音楽が大好きです。",
+        "zh": "非常喜歡音樂。"
       }
     ]
   },
@@ -7191,8 +7191,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは真面目です。",
-        "zh": "這個是「認真」。"
+        "ja": "真面目な学生です。",
+        "zh": "是認真的學生。"
       }
     ]
   },
@@ -7210,8 +7210,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "掃除します。",
-        "zh": "進行「打掃」。"
+        "ja": "日曜日に部屋を掃除します。",
+        "zh": "星期日打掃房間。"
       }
     ]
   },
@@ -7229,8 +7229,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "洗濯します。",
-        "zh": "進行「洗衣」。"
+        "ja": "朝、服を洗濯します。",
+        "zh": "早上洗衣服。"
       }
     ]
   },
@@ -7248,8 +7248,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "散歩します。",
-        "zh": "進行「散步」。"
+        "ja": "夕方、公園を散歩します。",
+        "zh": "傍晚在公園散步。"
       }
     ]
   },
@@ -7267,8 +7267,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "運転します。",
-        "zh": "進行「駕駛」。"
+        "ja": "父は毎日車を運転します。",
+        "zh": "爸爸每天開車。"
       }
     ]
   },
@@ -7286,8 +7286,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "質問します。",
-        "zh": "進行「問題、提問」。"
+        "ja": "授業で先生に質問します。",
+        "zh": "上課時問老師問題。"
       }
     ]
   },
@@ -7305,8 +7305,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "コピーします。",
-        "zh": "進行「影印、複製」。"
+        "ja": "図書館でプリントをコピーします。",
+        "zh": "在圖書館影印講義。"
       }
     ]
   },
@@ -7324,8 +7324,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「急ぐ」は動詞です。",
-        "zh": "「急ぐ」是動詞，意思是「趕急」。"
+        "ja": "時間がないので急ぎます。",
+        "zh": "因為沒時間，所以趕快。"
       }
     ]
   },
@@ -7343,8 +7343,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「動く」は動詞です。",
-        "zh": "「動く」是動詞，意思是「移動」。"
+        "ja": "時計が動きます。",
+        "zh": "時鐘會動。"
       }
     ]
   },
@@ -7362,8 +7362,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「選ぶ」は動詞です。",
-        "zh": "「選ぶ」是動詞，意思是「選擇」。"
+        "ja": "好きな色を選びます。",
+        "zh": "選喜歡的顏色。"
       }
     ]
   },
@@ -7381,8 +7381,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「遅れる」は動詞です。",
-        "zh": "「遅れる」是動詞，意思是「遲到」。"
+        "ja": "電車に遅れます。",
+        "zh": "搭電車遲到。"
       }
     ]
   },
@@ -7400,8 +7400,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「踊る」は動詞です。",
-        "zh": "「踊る」是動詞，意思是「跳舞」。"
+        "ja": "祭りで踊ります。",
+        "zh": "在祭典跳舞。"
       }
     ]
   },
@@ -7419,8 +7419,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「片付ける」は動詞です。",
-        "zh": "「片付ける」是動詞，意思是「整理」。"
+        "ja": "部屋を片付けます。",
+        "zh": "整理房間。"
       }
     ]
   },
@@ -7438,8 +7438,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「考える」は動詞です。",
-        "zh": "「考える」是動詞，意思是「思考」。"
+        "ja": "答えを考えます。",
+        "zh": "思考答案。"
       }
     ]
   },
@@ -7457,8 +7457,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「決まる」は動詞です。",
-        "zh": "「決まる」是動詞，意思是「決定」。"
+        "ja": "旅行の日が決まります。",
+        "zh": "旅行日期決定了。"
       }
     ]
   },
@@ -7476,8 +7476,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「決める」は動詞です。",
-        "zh": "「決める」是動詞，意思是「決定」。"
+        "ja": "明日の予定を決めます。",
+        "zh": "決定明天的計畫。"
       }
     ]
   },
@@ -7495,8 +7495,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「比べる」は動詞です。",
-        "zh": "「比べる」是動詞，意思是「比較」。"
+        "ja": "二つの写真を比べます。",
+        "zh": "比較兩張照片。"
       }
     ]
   },
@@ -7514,8 +7514,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「探す」は動詞です。",
-        "zh": "「探す」是動詞，意思是「尋找」。"
+        "ja": "駅で友達を探します。",
+        "zh": "在車站找朋友。"
       }
     ]
   },
@@ -7533,8 +7533,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「触る」は動詞です。",
-        "zh": "「触る」是動詞，意思是「觸摸」。"
+        "ja": "熱い鍋に触りません。",
+        "zh": "不碰熱鍋。"
       }
     ]
   },
@@ -7552,8 +7552,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「調べる」は動詞です。",
-        "zh": "「調べる」是動詞，意思是「調查」。"
+        "ja": "辞書で意味を調べます。",
+        "zh": "用字典查意思。"
       }
     ]
   },
@@ -7571,8 +7571,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「捨てる」は動詞です。",
-        "zh": "「捨てる」是動詞，意思是「丟掉」。"
+        "ja": "古い紙を捨てます。",
+        "zh": "丟掉舊紙。"
       }
     ]
   },
@@ -7590,8 +7590,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「捕まえる」は動詞です。",
-        "zh": "「捕まえる」是動詞，意思是「抓住」。"
+        "ja": "猫を捕まえます。",
+        "zh": "抓住貓。"
       }
     ]
   },
@@ -7609,8 +7609,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「伝える」は動詞です。",
-        "zh": "「伝える」是動詞，意思是「傳達」。"
+        "ja": "母に予定を伝えます。",
+        "zh": "告訴媽媽行程。"
       }
     ]
   },
@@ -7628,8 +7628,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「連れて行く」は動詞です。",
-        "zh": "「連れて行く」是動詞，意思是「帶去」。"
+        "ja": "友達を駅まで連れて行きます。",
+        "zh": "帶朋友去車站。"
       }
     ]
   },
@@ -7647,8 +7647,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「手伝う」は動詞です。",
-        "zh": "「手伝う」是動詞，意思是「幫忙」。"
+        "ja": "母の料理を手伝います。",
+        "zh": "幫媽媽做菜。"
       }
     ]
   },
@@ -7666,8 +7666,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「直す」は動詞です。",
-        "zh": "「直す」是動詞，意思是「修理、改正」。"
+        "ja": "壊れた時計を直します。",
+        "zh": "修理壞掉的時鐘。"
       }
     ]
   },
@@ -7685,8 +7685,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「直る」は動詞です。",
-        "zh": "「直る」是動詞，意思是「修好、恢復」。"
+        "ja": "病気が直ります。",
+        "zh": "病會好。"
       }
     ]
   },
@@ -7704,8 +7704,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「塗る」は動詞です。",
-        "zh": "「塗る」是動詞，意思是「塗抹」。"
+        "ja": "壁に色を塗ります。",
+        "zh": "在牆上塗顏色。"
       }
     ]
   },
@@ -7723,8 +7723,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「運ぶ」は動詞です。",
-        "zh": "「運ぶ」是動詞，意思是「搬運」。"
+        "ja": "重い箱を運びます。",
+        "zh": "搬重箱子。"
       }
     ]
   },
@@ -7742,8 +7742,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「払う」は動詞です。",
-        "zh": "「払う」是動詞，意思是「支付」。"
+        "ja": "レストランでお金を払います。",
+        "zh": "在餐廳付錢。"
       }
     ]
   },
@@ -7761,8 +7761,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「拾う」は動詞です。",
-        "zh": "「拾う」是動詞，意思是「撿起」。"
+        "ja": "道で財布を拾います。",
+        "zh": "在路上撿到錢包。"
       }
     ]
   },
@@ -7780,8 +7780,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「増える」は動詞です。",
-        "zh": "「増える」是動詞，意思是「增加」。"
+        "ja": "学生が増えます。",
+        "zh": "學生增加。"
       }
     ]
   },
@@ -7799,8 +7799,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「太る」は動詞です。",
-        "zh": "「太る」是動詞，意思是「變胖」。"
+        "ja": "食べすぎて太ります。",
+        "zh": "吃太多變胖。"
       }
     ]
   },
@@ -7818,8 +7818,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「間に合う」は動詞です。",
-        "zh": "「間に合う」是動詞，意思是「來得及」。"
+        "ja": "九時の電車に間に合います。",
+        "zh": "趕得上九點的電車。"
       }
     ]
   },
@@ -7837,8 +7837,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「磨く」は動詞です。",
-        "zh": "「磨く」是動詞，意思是「刷、磨」。"
+        "ja": "毎朝、歯を磨きます。",
+        "zh": "每天早上刷牙。"
       }
     ]
   },
@@ -7856,8 +7856,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「迎える」は動詞です。",
-        "zh": "「迎える」是動詞，意思是「迎接」。"
+        "ja": "駅でお客さんを迎えます。",
+        "zh": "在車站迎接客人。"
       }
     ]
   },
@@ -7875,8 +7875,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "「痩せる」は動詞です。",
-        "zh": "「痩せる」是動詞，意思是「變瘦」。"
+        "ja": "運動して痩せます。",
+        "zh": "運動後變瘦。"
       }
     ]
   },
@@ -7894,8 +7894,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "予約します。",
-        "zh": "進行「預約」。"
+        "ja": "ホテルを予約します。",
+        "zh": "預約飯店。"
       }
     ]
   },
@@ -7913,8 +7913,8 @@ window.FAT_SHIBA_WORD_META = {
     },
     "examples": [
       {
-        "ja": "買い物します。",
-        "zh": "進行「購物」。"
+        "ja": "デパートで買い物します。",
+        "zh": "在百貨公司購物。"
       }
     ]
   },
@@ -7923,8 +7923,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは建物です。",
-        "zh": "這是「建築物」。"
+        "ja": "高い建物が見えます。",
+        "zh": "看得到高的建築物。"
       }
     ]
   },
@@ -7933,8 +7933,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは乗り物です。",
-        "zh": "這是「交通工具」。"
+        "ja": "便利な乗り物です。",
+        "zh": "是方便的交通工具。"
       }
     ]
   },
@@ -7943,8 +7943,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地図です。",
-        "zh": "這是「地圖」。"
+        "ja": "地図を見ます。",
+        "zh": "看地圖。"
       }
     ]
   },
@@ -7953,8 +7953,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは住所です。",
-        "zh": "這是「地址」。"
+        "ja": "住所を紙に書きます。",
+        "zh": "把地址寫在紙上。"
       }
     ]
   },
@@ -7963,8 +7963,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは一です。",
-        "zh": "這是「一」。"
+        "ja": "一と書きます。",
+        "zh": "寫「一」。"
       }
     ]
   },
@@ -7973,8 +7973,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは二です。",
-        "zh": "這是「二」。"
+        "ja": "二と書きます。",
+        "zh": "寫「二」。"
       }
     ]
   },
@@ -7983,8 +7983,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは三です。",
-        "zh": "這是「三」。"
+        "ja": "三と書きます。",
+        "zh": "寫「三」。"
       }
     ]
   },
@@ -7993,8 +7993,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは四です。",
-        "zh": "這是「四」。"
+        "ja": "四と書きます。",
+        "zh": "寫「四」。"
       }
     ]
   },
@@ -8003,8 +8003,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは五です。",
-        "zh": "這是「五」。"
+        "ja": "五と書きます。",
+        "zh": "寫「五」。"
       }
     ]
   },
@@ -8013,8 +8013,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは六です。",
-        "zh": "這是「六」。"
+        "ja": "六と書きます。",
+        "zh": "寫「六」。"
       }
     ]
   },
@@ -8023,8 +8023,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは七です。",
-        "zh": "這是「七」。"
+        "ja": "七と書きます。",
+        "zh": "寫「七」。"
       }
     ]
   },
@@ -8033,8 +8033,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは八です。",
-        "zh": "這是「八」。"
+        "ja": "八と書きます。",
+        "zh": "寫「八」。"
       }
     ]
   },
@@ -8043,8 +8043,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは九です。",
-        "zh": "這是「九」。"
+        "ja": "九と書きます。",
+        "zh": "寫「九」。"
       }
     ]
   },
@@ -8053,8 +8053,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは十です。",
-        "zh": "這是「十」。"
+        "ja": "十まで数えます。",
+        "zh": "數到十。"
       }
     ]
   },
@@ -8063,8 +8063,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは百です。",
-        "zh": "這是「百」。"
+        "ja": "これは百円です。",
+        "zh": "這是一百日圓。"
       }
     ]
   },
@@ -8073,8 +8073,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは千です。",
-        "zh": "這是「千」。"
+        "ja": "千円を払います。",
+        "zh": "支付一千日圓。"
       }
     ]
   },
@@ -8083,8 +8083,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは万です。",
-        "zh": "這是「萬」。"
+        "ja": "一万円あります。",
+        "zh": "有一萬日圓。"
       }
     ]
   },
@@ -8093,8 +8093,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは一月です。",
-        "zh": "這是「一月」。"
+        "ja": "一月に日本へ行きます。",
+        "zh": "一月去日本。"
       }
     ]
   },
@@ -8103,8 +8103,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは二月です。",
-        "zh": "這是「二月」。"
+        "ja": "二月に日本へ行きます。",
+        "zh": "二月去日本。"
       }
     ]
   },
@@ -8113,8 +8113,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは三月です。",
-        "zh": "這是「三月」。"
+        "ja": "三月に日本へ行きます。",
+        "zh": "三月去日本。"
       }
     ]
   },
@@ -8123,8 +8123,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは四月です。",
-        "zh": "這是「四月」。"
+        "ja": "四月に日本へ行きます。",
+        "zh": "四月去日本。"
       }
     ]
   },
@@ -8133,8 +8133,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは五月です。",
-        "zh": "這是「五月」。"
+        "ja": "五月に日本へ行きます。",
+        "zh": "五月去日本。"
       }
     ]
   },
@@ -8143,8 +8143,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは六月です。",
-        "zh": "這是「六月」。"
+        "ja": "六月に日本へ行きます。",
+        "zh": "六月去日本。"
       }
     ]
   },
@@ -8153,8 +8153,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは七月です。",
-        "zh": "這是「七月」。"
+        "ja": "七月に日本へ行きます。",
+        "zh": "七月去日本。"
       }
     ]
   },
@@ -8163,8 +8163,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは八月です。",
-        "zh": "這是「八月」。"
+        "ja": "八月に日本へ行きます。",
+        "zh": "八月去日本。"
       }
     ]
   },
@@ -8173,8 +8173,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは九月です。",
-        "zh": "這是「九月」。"
+        "ja": "九月に日本へ行きます。",
+        "zh": "九月去日本。"
       }
     ]
   },
@@ -8183,8 +8183,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは十月です。",
-        "zh": "這是「十月」。"
+        "ja": "十月に日本へ行きます。",
+        "zh": "十月去日本。"
       }
     ]
   },
@@ -8193,8 +8193,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは十一月です。",
-        "zh": "這是「十一月」。"
+        "ja": "十一月に日本へ行きます。",
+        "zh": "十一月去日本。"
       }
     ]
   },
@@ -8203,8 +8203,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "數詞",
     "examples": [
       {
-        "ja": "これは十二月です。",
-        "zh": "這是「十二月」。"
+        "ja": "十二月に日本へ行きます。",
+        "zh": "十二月去日本。"
       }
     ]
   },
@@ -8213,8 +8213,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「もしもし」を使います。",
-        "zh": "使用「もしもし」這個詞。"
+        "ja": "もしもし、田中さんですか。",
+        "zh": "喂，請問是田中先生嗎？"
       }
     ]
   },
@@ -8223,8 +8223,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「こんにちは」を使います。",
-        "zh": "使用「こんにちは」這個詞。"
+        "ja": "こんにちは、山田です。",
+        "zh": "你好，我是山田。"
       }
     ]
   },
@@ -8233,8 +8233,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「こんばんは」を使います。",
-        "zh": "使用「こんばんは」這個詞。"
+        "ja": "こんばんは、いい夜ですね。",
+        "zh": "晚上好，今晚很不錯呢。"
       }
     ]
   },
@@ -8243,8 +8243,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「おはよう」を使います。",
-        "zh": "使用「おはよう」這個詞。"
+        "ja": "おはよう、よく寝ましたか。",
+        "zh": "早安，睡得好嗎？"
       }
     ]
   },
@@ -8253,8 +8253,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「ありがとう」を使います。",
-        "zh": "使用「ありがとう」這個詞。"
+        "ja": "手伝ってくれてありがとう。",
+        "zh": "謝謝你幫忙。"
       }
     ]
   },
@@ -8263,8 +8263,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「さようなら」を使います。",
-        "zh": "使用「さようなら」這個詞。"
+        "ja": "駅で友達にさようならと言います。",
+        "zh": "在車站和朋友說再見。"
       }
     ]
   },
@@ -8273,8 +8273,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「すみません」を使います。",
-        "zh": "使用「すみません」這個詞。"
+        "ja": "すみません、駅はどこですか。",
+        "zh": "不好意思，車站在哪裡？"
       }
     ]
   },
@@ -8283,8 +8283,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「ごめんなさい」を使います。",
-        "zh": "使用「ごめんなさい」這個詞。"
+        "ja": "遅れてごめんなさい。",
+        "zh": "遲到了，對不起。"
       }
     ]
   },
@@ -8293,8 +8293,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「お願いします」を使います。",
-        "zh": "使用「お願いします」這個詞。"
+        "ja": "水をお願いします。",
+        "zh": "麻煩給我水。"
       }
     ]
   },
@@ -8303,8 +8303,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「いただきます」を使います。",
-        "zh": "使用「いただきます」這個詞。"
+        "ja": "いただきます。",
+        "zh": "我要開動了。"
       }
     ]
   },
@@ -8313,8 +8313,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「ごちそうさま」を使います。",
-        "zh": "使用「ごちそうさま」這個詞。"
+        "ja": "ごちそうさまでした。",
+        "zh": "謝謝招待。"
       }
     ]
   },
@@ -8323,8 +8323,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「行ってきます」を使います。",
-        "zh": "使用「行ってきます」這個詞。"
+        "ja": "いってきます。",
+        "zh": "我出門了。"
       }
     ]
   },
@@ -8333,8 +8333,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「ただいま」を使います。",
-        "zh": "使用「ただいま」這個詞。"
+        "ja": "ただいま。",
+        "zh": "我回來了。"
       }
     ]
   },
@@ -8343,8 +8343,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「お帰り」を使います。",
-        "zh": "使用「お帰り」這個詞。"
+        "ja": "おかえり、疲れましたか。",
+        "zh": "歡迎回來，累了嗎？"
       }
     ]
   },
@@ -8353,8 +8353,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「はい」を使います。",
-        "zh": "使用「はい」這個詞。"
+        "ja": "はい、分かりました。",
+        "zh": "是，我知道了。"
       }
     ]
   },
@@ -8363,8 +8363,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "「いいえ」を使います。",
-        "zh": "使用「いいえ」這個詞。"
+        "ja": "いいえ、違います。",
+        "zh": "不是，不一樣。"
       }
     ]
   },
@@ -8373,8 +8373,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは物です。",
-        "zh": "這是「東西」。"
+        "ja": "新しい物を買います。",
+        "zh": "買新的東西。"
       }
     ]
   },
@@ -8383,8 +8383,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは事です。",
-        "zh": "這是「事情」。"
+        "ja": "大切な事を話します。",
+        "zh": "談重要的事情。"
       }
     ]
   },
@@ -8393,8 +8393,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは所です。",
-        "zh": "這是「地方」。"
+        "ja": "静かな所で勉強します。",
+        "zh": "在安靜的地方讀書。"
       }
     ]
   },
@@ -8403,8 +8403,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは方です。",
-        "zh": "這是「方向、方面」。"
+        "ja": "駅の方へ歩きます。",
+        "zh": "往車站方向走。"
       }
     ]
   },
@@ -8413,8 +8413,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "助詞",
     "examples": [
       {
-        "ja": "「ぐらい」を使います。",
-        "zh": "使用「ぐらい」這個詞。"
+        "ja": "駅まで十分ぐらいです。",
+        "zh": "到車站大約十分鐘。"
       }
     ]
   },
@@ -8423,8 +8423,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "助詞",
     "examples": [
       {
-        "ja": "「だけ」を使います。",
-        "zh": "使用「だけ」這個詞。"
+        "ja": "水だけ飲みます。",
+        "zh": "只喝水。"
       }
     ]
   },
@@ -8433,8 +8433,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "助詞",
     "examples": [
       {
-        "ja": "「まで」を使います。",
-        "zh": "使用「まで」這個詞。"
+        "ja": "学校まで歩きます。",
+        "zh": "走到學校。"
       }
     ]
   },
@@ -8443,8 +8443,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "助詞",
     "examples": [
       {
-        "ja": "「から」を使います。",
-        "zh": "使用「から」這個詞。"
+        "ja": "九時から授業です。",
+        "zh": "九點開始上課。"
       }
     ]
   },
@@ -8453,8 +8453,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "助詞",
     "examples": [
       {
-        "ja": "「より」を使います。",
-        "zh": "使用「より」這個詞。"
+        "ja": "バスより電車が速いです。",
+        "zh": "電車比公車快。"
       }
     ]
   },
@@ -8463,8 +8463,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "助詞",
     "examples": [
       {
-        "ja": "「など」を使います。",
-        "zh": "使用「など」這個詞。"
+        "ja": "机の上に本などがあります。",
+        "zh": "桌上有書等等。"
       }
     ]
   },
@@ -8473,8 +8473,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "接續詞",
     "examples": [
       {
-        "ja": "「そして」を使います。",
-        "zh": "使用「そして」這個詞。"
+        "ja": "朝ご飯を食べます。そして学校へ行きます。",
+        "zh": "吃早餐，然後去學校。"
       }
     ]
   },
@@ -8483,8 +8483,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "接續詞",
     "examples": [
       {
-        "ja": "「それから」を使います。",
-        "zh": "使用「それから」這個詞。"
+        "ja": "宿題をします。それからテレビを見ます。",
+        "zh": "做作業，然後看電視。"
       }
     ]
   },
@@ -8493,8 +8493,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "接續詞",
     "examples": [
       {
-        "ja": "「しかし」を使います。",
-        "zh": "使用「しかし」這個詞。"
+        "ja": "行きたいです。しかし時間がありません。",
+        "zh": "想去，但是沒有時間。"
       }
     ]
   },
@@ -8503,8 +8503,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは外国人です。",
-        "zh": "這是「外國人」。"
+        "ja": "外国人に会います。",
+        "zh": "和外國人見面。"
       }
     ]
   },
@@ -8513,8 +8513,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日本人です。",
-        "zh": "這是「日本人」。"
+        "ja": "日本人は元気です。",
+        "zh": "日本人很有精神。"
       }
     ]
   },
@@ -8523,8 +8523,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは大人です。",
-        "zh": "這是「大人」。"
+        "ja": "大人と話します。",
+        "zh": "和大人說話。"
       }
     ]
   },
@@ -8533,8 +8533,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは若者です。",
-        "zh": "這是「年輕人」。"
+        "ja": "若者に会います。",
+        "zh": "和年輕人見面。"
       }
     ]
   },
@@ -8543,8 +8543,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは生徒です。",
-        "zh": "這是「學生」。"
+        "ja": "生徒は元気です。",
+        "zh": "學生很有精神。"
       }
     ]
   },
@@ -8553,8 +8553,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは留学生です。",
-        "zh": "這是「留學生」。"
+        "ja": "留学生と話します。",
+        "zh": "和留學生說話。"
       }
     ]
   },
@@ -8563,8 +8563,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは先輩です。",
-        "zh": "這是「前輩」。"
+        "ja": "先輩に会います。",
+        "zh": "和前輩見面。"
       }
     ]
   },
@@ -8573,8 +8573,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは後輩です。",
-        "zh": "這是「後輩」。"
+        "ja": "後輩は元気です。",
+        "zh": "後輩很有精神。"
       }
     ]
   },
@@ -8583,8 +8583,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは封筒です。",
-        "zh": "這是「信封」。"
+        "ja": "封筒を買います。",
+        "zh": "買信封。"
       }
     ]
   },
@@ -8593,8 +8593,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは葉書です。",
-        "zh": "這是「明信片」。"
+        "ja": "葉書は机の上です。",
+        "zh": "明信片在桌上。"
       }
     ]
   },
@@ -8603,8 +8603,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは絵葉書です。",
-        "zh": "這是「圖畫明信片」。"
+        "ja": "絵葉書を使います。",
+        "zh": "使用圖畫明信片。"
       }
     ]
   },
@@ -8613,8 +8613,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカレンダーです。",
-        "zh": "這是「月曆」。"
+        "ja": "カレンダーを買います。",
+        "zh": "買月曆。"
       }
     ]
   },
@@ -8623,8 +8623,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは箪笥です。",
-        "zh": "這是「衣櫃」。"
+        "ja": "箪笥は机の上です。",
+        "zh": "衣櫃在桌上。"
       }
     ]
   },
@@ -8633,8 +8633,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鏡です。",
-        "zh": "這是「鏡子」。"
+        "ja": "鏡を使います。",
+        "zh": "使用鏡子。"
       }
     ]
   },
@@ -8643,8 +8643,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは石鹸です。",
-        "zh": "這是「肥皂」。"
+        "ja": "石鹸を買います。",
+        "zh": "買肥皂。"
       }
     ]
   },
@@ -8653,8 +8653,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはタオルです。",
-        "zh": "這是「毛巾」。"
+        "ja": "タオルは机の上です。",
+        "zh": "毛巾在桌上。"
       }
     ]
   },
@@ -8663,8 +8663,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはシャンプーです。",
-        "zh": "這是「洗髮精」。"
+        "ja": "シャンプーを使います。",
+        "zh": "使用洗髮精。"
       }
     ]
   },
@@ -8673,8 +8673,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは櫛です。",
-        "zh": "這是「梳子」。"
+        "ja": "櫛を買います。",
+        "zh": "買梳子。"
       }
     ]
   },
@@ -8683,8 +8683,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは布団です。",
-        "zh": "這是「棉被、被褥」。"
+        "ja": "布団は机の上です。",
+        "zh": "棉被、被褥在桌上。"
       }
     ]
   },
@@ -8693,8 +8693,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは枕です。",
-        "zh": "這是「枕頭」。"
+        "ja": "枕を使います。",
+        "zh": "使用枕頭。"
       }
     ]
   },
@@ -8703,8 +8703,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはシーツです。",
-        "zh": "這是「床單」。"
+        "ja": "シーツを買います。",
+        "zh": "買床單。"
       }
     ]
   },
@@ -8713,8 +8713,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはごみです。",
-        "zh": "這是「垃圾」。"
+        "ja": "ごみを捨てます。",
+        "zh": "丟垃圾。"
       }
     ]
   },
@@ -8723,8 +8723,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはごみ箱です。",
-        "zh": "這是「垃圾桶」。"
+        "ja": "ごみ箱に紙を捨てます。",
+        "zh": "把紙丟進垃圾桶。"
       }
     ]
   },
@@ -8733,8 +8733,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは袋です。",
-        "zh": "這是「袋子」。"
+        "ja": "袋に服を入れます。",
+        "zh": "把衣服放進袋子。"
       }
     ]
   },
@@ -8743,8 +8743,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは花瓶です。",
-        "zh": "這是「花瓶」。"
+        "ja": "花瓶に花を入れます。",
+        "zh": "把花插進花瓶。"
       }
     ]
   },
@@ -8753,8 +8753,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはおもちゃです。",
-        "zh": "這是「玩具」。"
+        "ja": "子供がおもちゃで遊びます。",
+        "zh": "小孩用玩具玩。"
       }
     ]
   },
@@ -8763,8 +8763,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは交差点です。",
-        "zh": "這是「十字路口」。"
+        "ja": "交差点を左へ曲がります。",
+        "zh": "在十字路口左轉。"
       }
     ]
   },
@@ -8773,8 +8773,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは信号です。",
-        "zh": "這是「紅綠燈」。"
+        "ja": "信号で止まります。",
+        "zh": "在紅綠燈停下。"
       }
     ]
   },
@@ -8783,8 +8783,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは北です。",
-        "zh": "這是「北方」。"
+        "ja": "北へ行きます。",
+        "zh": "往北走。"
       }
     ]
   },
@@ -8793,8 +8793,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは南です。",
-        "zh": "這是「南方」。"
+        "ja": "南に海があります。",
+        "zh": "南邊有海。"
       }
     ]
   },
@@ -8803,8 +8803,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは東です。",
-        "zh": "這是「東方」。"
+        "ja": "東から日が出ます。",
+        "zh": "太陽從東邊出來。"
       }
     ]
   },
@@ -8813,8 +8813,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは西です。",
-        "zh": "這是「西方」。"
+        "ja": "西の空が赤いです。",
+        "zh": "西邊的天空是紅色的。"
       }
     ]
   },
@@ -8823,8 +8823,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは隣です。",
-        "zh": "這是「隔壁、旁邊」。"
+        "ja": "隣に友達が住んでいます。",
+        "zh": "朋友住在隔壁。"
       }
     ]
   },
@@ -8833,8 +8833,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは向こうです。",
-        "zh": "這是「對面、那邊」。"
+        "ja": "向こうに駅があります。",
+        "zh": "對面有車站。"
       }
     ]
   },
@@ -8843,8 +8843,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中央です。",
-        "zh": "這是「中央」。"
+        "ja": "中央に大きい木があります。",
+        "zh": "中央有一棵大樹。"
       }
     ]
   },
@@ -8853,8 +8853,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは近くです。",
-        "zh": "這是「附近」。"
+        "ja": "近くにコンビニがあります。",
+        "zh": "附近有便利商店。"
       }
     ]
   },
@@ -8863,8 +8863,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは手前です。",
-        "zh": "這是「跟前、這邊」。"
+        "ja": "手前で止まってください。",
+        "zh": "請在跟前停下。"
       }
     ]
   },
@@ -8873,8 +8873,8 @@ window.FAT_SHIBA_WORD_META = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは間です。",
-        "zh": "這是「之間」。"
+        "ja": "駅と学校の間に店があります。",
+        "zh": "車站和學校之間有店。"
       }
     ]
   }

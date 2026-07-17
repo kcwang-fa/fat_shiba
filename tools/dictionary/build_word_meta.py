@@ -11,6 +11,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_CSV = PROJECT_ROOT / "tools" / "dictionary" / "word_meta.csv"
+N5_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n5_examples.csv"
 WORD_DATA_JS = PROJECT_ROOT / "web" / "data" / "word_data.js"
 INDEX_HTML = PROJECT_ROOT / "web" / "index.html"
 OUTPUT_JS = PROJECT_ROOT / "web" / "data" / "word_meta.js"
@@ -59,6 +60,12 @@ EXPECTED_FIELDS = [
     "example_ja",
     "example_zh",
     "note",
+]
+
+EXPECTED_EXAMPLE_FIELDS = [
+    "id",
+    "example_ja",
+    "example_zh",
 ]
 
 JS_ROW_RE = re.compile(
@@ -479,7 +486,44 @@ def auto_example(row: dict[str, str], pos: str, forms: dict[str, str] | None = N
     }
 
 
-def auto_meta_for_word(row: dict[str, str]) -> dict[str, object]:
+def load_n5_examples(words: dict[str, dict[str, str]]) -> dict[str, dict[str, str]]:
+    examples: dict[str, dict[str, str]] = {}
+    if not N5_EXAMPLES_CSV.exists():
+        return examples
+
+    with N5_EXAMPLES_CSV.open(newline="", encoding="utf-8-sig") as source:
+        reader = csv.DictReader(source)
+        if reader.fieldnames != EXPECTED_EXAMPLE_FIELDS:
+            raise ValueError(f"Expected example CSV fields {EXPECTED_EXAMPLE_FIELDS}, got {reader.fieldnames}")
+
+        for line_no, row in enumerate(reader, start=2):
+            word_id = (row.get("id") or "").strip()
+            example_ja = (row.get("example_ja") or "").strip()
+            example_zh = (row.get("example_zh") or "").strip()
+            if not word_id:
+                raise ValueError(f"Line {line_no}: id is required")
+            if word_id in examples:
+                raise ValueError(f"Line {line_no}: duplicate example id {word_id}")
+            if word_id not in words:
+                raise ValueError(f"Line {line_no}: unknown example id {word_id}")
+            if not word_id.startswith("n5_"):
+                raise ValueError(f"Line {line_no}: example CSV only accepts N5 ids")
+            if not example_ja or not example_zh:
+                raise ValueError(f"Line {line_no}: example_ja and example_zh are required")
+            examples[word_id] = {"ja": example_ja, "zh": example_zh}
+
+    missing = sorted(
+        word_id for word_id in words
+        if word_id.startswith("n5_") and word_id not in examples
+    )
+    if missing:
+        sample = ", ".join(missing[:8])
+        raise ValueError(f"N5 examples missing {len(missing)} ids: {sample}")
+
+    return examples
+
+
+def auto_meta_for_word(row: dict[str, str], examples: dict[str, dict[str, str]]) -> dict[str, object]:
     pos = infer_pos(row)
     item: dict[str, object] = {
         "pos": pos,
@@ -502,7 +546,7 @@ def auto_meta_for_word(row: dict[str, str]) -> dict[str, object]:
         item["verbClassLabel"] = VERB_CLASS_LABELS[verb_class]
         item["forms"] = forms
 
-    item["examples"] = [auto_example(row, pos, forms)]
+    item["examples"] = [examples.get(row["id"]) or auto_example(row, pos, forms)]
     return item
 
 
@@ -518,6 +562,7 @@ def validate_headers(fieldnames: list[str] | None) -> None:
 
 def build_meta() -> dict[str, dict[str, object]]:
     words = load_word_index()
+    n5_examples = load_n5_examples(words)
     seen_ids: set[str] = set()
     metadata: dict[str, dict[str, object]] = {}
 
@@ -574,6 +619,8 @@ def build_meta() -> dict[str, dict[str, object]]:
 
             if example_ja:
                 item["examples"] = [{"ja": example_ja, "zh": example_zh}]
+            elif word_id in n5_examples:
+                item["examples"] = [n5_examples[word_id]]
             if note:
                 item["note"] = note
 
@@ -583,7 +630,7 @@ def build_meta() -> dict[str, dict[str, object]]:
     for word_id in sorted(words, key=word_sort_key):
         if not word_id.startswith("n5_") or word_id in metadata:
             continue
-        metadata[word_id] = auto_meta_for_word(words[word_id])
+        metadata[word_id] = auto_meta_for_word(words[word_id], n5_examples)
 
     return dict(sorted(metadata.items(), key=lambda item: word_sort_key(item[0])))
 
