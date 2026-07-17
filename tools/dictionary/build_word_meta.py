@@ -17,11 +17,16 @@ OUTPUT_JS = PROJECT_ROOT / "web" / "data" / "word_meta.js"
 
 POS_LABELS = {
     "noun": "名詞",
+    "pronoun": "代名詞",
+    "determiner": "連體詞",
+    "numeric": "數詞",
     "verb": "動詞",
     "i_adjective": "い形容詞",
     "na_adjective": "な形容詞",
     "adverb": "副詞",
     "particle": "助詞",
+    "conjunction": "接續詞",
+    "interjection": "感動詞",
     "expression": "慣用表現",
     "katakana": "外來語",
     "suru_noun": "する名詞",
@@ -36,6 +41,7 @@ VERB_CLASS_LABELS = {
     "godan_iku_exception": "五段動詞（行く例外）",
     "suru": "する動詞",
     "kuru": "来る",
+    "aru": "ある",
     "irregular": "不規則動詞",
 }
 
@@ -90,6 +96,77 @@ GODAN_TE_TA = {
     "ぐ": ("いで", "いだ"),
     "す": ("して", "した"),
 }
+
+
+def n5_ids(start: int, end: int) -> set[str]:
+    return {f"n5_{number:04d}" for number in range(start, end + 1)}
+
+
+N5_VERB_IDS = (
+    n5_ids(81, 98)
+    | n5_ids(315, 400)
+    | n5_ids(623, 652)
+)
+
+N5_ICHIDAN_VERB_IDS = {
+    "n5_0084", "n5_0086", "n5_0095", "n5_0096",
+    "n5_0316", "n5_0323", "n5_0324", "n5_0328", "n5_0329",
+    "n5_0336", "n5_0337", "n5_0338", "n5_0339", "n5_0340",
+    "n5_0351", "n5_0357", "n5_0360", "n5_0361", "n5_0363",
+    "n5_0367", "n5_0373", "n5_0383", "n5_0386", "n5_0393",
+    "n5_0394", "n5_0397", "n5_0398", "n5_0399", "n5_0400",
+    "n5_0626", "n5_0628", "n5_0629", "n5_0631", "n5_0632",
+    "n5_0635", "n5_0636", "n5_0637", "n5_0638", "n5_0647",
+    "n5_0651", "n5_0652",
+}
+
+N5_KURU_VERB_IDS = {"n5_0082"}
+N5_ARU_VERB_IDS = {"n5_0354"}
+N5_IKU_EXCEPTION_VERB_IDS = {"n5_0081", "n5_0639"}
+
+N5_I_ADJECTIVE_IDS = (
+    n5_ids(68, 80)
+    | n5_ids(277, 280)
+    | n5_ids(292, 314)
+    | n5_ids(599, 610)
+)
+
+N5_NA_ADJECTIVE_IDS = (
+    n5_ids(281, 291)
+    | n5_ids(611, 616)
+)
+
+N5_SURU_NOUN_IDS = {
+    "n5_0099", "n5_0101", "n5_0187", "n5_0203", "n5_0455",
+    "n5_0478", "n5_0570", "n5_0617", "n5_0618", "n5_0619",
+    "n5_0620", "n5_0621", "n5_0622", "n5_0653", "n5_0654",
+}
+
+N5_PRONOUN_IDS = (
+    n5_ids(109, 111)
+    | n5_ids(116, 134)
+)
+
+N5_DETERMINER_IDS = n5_ids(112, 115)
+
+N5_NUMERIC_IDS = (
+    n5_ids(405, 425)
+    | n5_ids(659, 683)
+)
+
+N5_ADVERB_IDS = {
+    "n5_0012", "n5_0148",
+    *n5_ids(431, 446),
+    *n5_ids(449, 454),
+}
+
+N5_INTERJECTION_IDS = (
+    n5_ids(684, 699)
+    | {"n5_0447", "n5_0448"}
+)
+
+N5_PARTICLE_IDS = n5_ids(704, 709)
+N5_CONJUNCTION_IDS = n5_ids(710, 712)
 
 
 def to_hiragana_kana(char: str) -> str:
@@ -303,6 +380,15 @@ def verb_forms(dictionary_form: str, verb_class: str) -> dict[str, str]:
             "nai": f"{stem}しない",
         }
 
+    if verb_class == "aru":
+        return {
+            "dictionary": dictionary_form,
+            "masu": "あります",
+            "te": "あって",
+            "ta": "あった",
+            "nai": "ない",
+        }
+
     if verb_class in {"godan", "godan_iku_exception"}:
         ending = dictionary_form[-1]
         if ending not in GODAN_STEMS:
@@ -321,6 +407,108 @@ def verb_forms(dictionary_form: str, verb_class: str) -> dict[str, str]:
         }
 
     raise ValueError(f"Unsupported verb_class: {verb_class}")
+
+
+def infer_pos(row: dict[str, str]) -> str:
+    word_id = row["id"]
+    if word_id in N5_VERB_IDS:
+        return "verb"
+    if word_id in N5_I_ADJECTIVE_IDS:
+        return "i_adjective"
+    if word_id in N5_NA_ADJECTIVE_IDS:
+        return "na_adjective"
+    if word_id in N5_SURU_NOUN_IDS:
+        return "suru_noun"
+    if word_id in N5_PRONOUN_IDS:
+        return "pronoun"
+    if word_id in N5_DETERMINER_IDS:
+        return "determiner"
+    if word_id in N5_NUMERIC_IDS:
+        return "numeric"
+    if word_id in N5_ADVERB_IDS:
+        return "adverb"
+    if word_id in N5_INTERJECTION_IDS:
+        return "interjection"
+    if word_id in N5_PARTICLE_IDS:
+        return "particle"
+    if word_id in N5_CONJUNCTION_IDS:
+        return "conjunction"
+    if row["script"] == "katakana":
+        return "katakana"
+    return "noun"
+
+
+def infer_verb_class(word_id: str) -> str:
+    if word_id in N5_KURU_VERB_IDS:
+        return "kuru"
+    if word_id in N5_ARU_VERB_IDS:
+        return "aru"
+    if word_id in N5_IKU_EXCEPTION_VERB_IDS:
+        return "godan_iku_exception"
+    if word_id in N5_ICHIDAN_VERB_IDS:
+        return "ichidan"
+    return "godan"
+
+
+def auto_example(row: dict[str, str], pos: str, forms: dict[str, str] | None = None) -> dict[str, str]:
+    display = row["writing"] or row["reading"]
+    zh = row["zh"]
+    if pos == "verb" and forms:
+        return {
+            "ja": f"「{forms['dictionary']}」は動詞です。",
+            "zh": f"「{display}」是動詞，意思是「{zh}」。",
+        }
+    if pos == "suru_noun" and forms:
+        return {
+            "ja": f"{forms['masu']}。",
+            "zh": f"進行「{zh}」。",
+        }
+    if pos in {"i_adjective", "na_adjective"}:
+        return {
+            "ja": f"これは{display}です。",
+            "zh": f"這個是「{zh}」。",
+        }
+    if pos in {"particle", "conjunction", "interjection", "expression", "adverb", "determiner"}:
+        return {
+            "ja": f"「{display}」を使います。",
+            "zh": f"使用「{display}」這個詞。",
+        }
+    return {
+        "ja": f"これは{display}です。",
+        "zh": f"這是「{zh}」。",
+    }
+
+
+def auto_meta_for_word(row: dict[str, str]) -> dict[str, object]:
+    pos = infer_pos(row)
+    item: dict[str, object] = {
+        "pos": pos,
+        "posLabel": POS_LABELS[pos],
+    }
+    forms = None
+
+    if pos == "verb":
+        verb_class = infer_verb_class(row["id"])
+        dictionary_form = row["writing"] or row["reading"]
+        forms = verb_forms(dictionary_form, verb_class)
+        item["verbClass"] = verb_class
+        item["verbClassLabel"] = VERB_CLASS_LABELS[verb_class]
+        item["forms"] = forms
+    elif pos == "suru_noun":
+        verb_class = "suru"
+        dictionary_form = f"{row['writing'] or row['reading']}する"
+        forms = verb_forms(dictionary_form, verb_class)
+        item["verbClass"] = verb_class
+        item["verbClassLabel"] = VERB_CLASS_LABELS[verb_class]
+        item["forms"] = forms
+
+    item["examples"] = [auto_example(row, pos, forms)]
+    return item
+
+
+def word_sort_key(word_id: str) -> tuple[str, int]:
+    prefix, number = word_id.split("_", 1)
+    return prefix, int(number)
 
 
 def validate_headers(fieldnames: list[str] | None) -> None:
@@ -374,6 +562,13 @@ def build_meta() -> dict[str, dict[str, object]]:
                 item["verbClass"] = verb_class
                 item["verbClassLabel"] = VERB_CLASS_LABELS[verb_class]
                 item["forms"] = verb_forms(dictionary_form, verb_class)
+            elif pos == "suru_noun":
+                dictionary_form = f"{words[word_id]['writing'] or words[word_id]['reading']}する"
+                item["verbClass"] = "suru"
+                item["verbClassLabel"] = VERB_CLASS_LABELS["suru"]
+                item["forms"] = verb_forms(dictionary_form, "suru")
+                if verb_class:
+                    raise ValueError(f"Line {line_no}: suru_noun rows do not need verb_class")
             elif verb_class:
                 raise ValueError(f"Line {line_no}: non-verb rows cannot set verb_class")
 
@@ -385,7 +580,12 @@ def build_meta() -> dict[str, dict[str, object]]:
             seen_ids.add(word_id)
             metadata[word_id] = item
 
-    return metadata
+    for word_id in sorted(words, key=word_sort_key):
+        if not word_id.startswith("n5_") or word_id in metadata:
+            continue
+        metadata[word_id] = auto_meta_for_word(words[word_id])
+
+    return dict(sorted(metadata.items(), key=lambda item: word_sort_key(item[0])))
 
 
 def main() -> None:
