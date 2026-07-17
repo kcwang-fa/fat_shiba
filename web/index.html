@@ -832,18 +832,18 @@
     }
 
     .map-home-button {
-      position: absolute;
-      left: calc(env(safe-area-inset-left, 0px) + 14px);
-      top: calc(env(safe-area-inset-top, 0px) + 14px);
-      z-index: 3;
+      position: fixed;
+      left: calc(env(safe-area-inset-left, 0px) + 12px);
+      top: calc(env(safe-area-inset-top, 0px) + 12px);
+      z-index: 30;
       min-width: 0;
-      min-height: 42px;
-      padding: 0 13px 0 11px;
+      min-height: 44px;
+      padding: 0 14px 0 12px;
       border-radius: 999px;
-      color: #314258;
-      background: rgba(255, 253, 248, 0.82);
-      border: 1px solid rgba(183, 143, 91, 0.42);
-      box-shadow: 0 8px 18px rgba(83, 57, 32, 0.16);
+      color: #fff;
+      background: rgba(77, 111, 174, 0.94);
+      border: 1px solid rgba(255, 253, 248, 0.74);
+      box-shadow: 0 10px 22px rgba(49, 66, 88, 0.26);
       -webkit-backdrop-filter: blur(6px);
       backdrop-filter: blur(6px);
       font-size: 0.86rem;
@@ -851,7 +851,7 @@
     }
 
     .map-home-button:hover {
-      background: rgba(255, 253, 248, 0.95);
+      background: rgba(59, 91, 154, 0.98);
     }
 
     .map-home-button .map-home-icon {
@@ -2031,7 +2031,7 @@
     <section class="map-select-panel" id="mapSelectPanel" aria-label="JLPT 關卡入口">
       <button class="ghost-button map-home-button" type="button" id="mapHomeButton" aria-label="返回首頁">
         <span class="map-home-icon" aria-hidden="true">‹</span>
-        <span>返回</span>
+        <span>返回首頁</span>
       </button>
       <div class="region-row" id="regionRow" tabindex="-1" aria-label="選擇 N1 到 N5 關卡"></div>
     </section>
