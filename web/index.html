@@ -5506,7 +5506,10 @@
       window.addEventListener("pointerup", () => {
         isPointerSelecting = false;
       });
-      window.addEventListener("resize", updateMapRegionPositions);
+      window.addEventListener("resize", () => {
+        updateMapRegionPositions();
+        applyGameBackground();
+      });
 
       els.board.addEventListener("keydown", (event) => {
         if (event.key !== "Enter" && event.key !== " ") return;
