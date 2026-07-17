@@ -14,6 +14,40 @@
 
 詞庫資料目前先內嵌每級核心常用詞子集，玩法與資料結構已支援大型詞庫；若要達到 N4 約 1500、N3 約 3700、N2 約 6000、N1 約 10000+，後續應把正式授權或自建整理過的詞庫用同樣欄位格式補入 `RAW_WORDS_BY_LEVEL`，不要用假資料灌數量。
 
+## 2026-07-17 目前進度
+
+本輪進度已把 Phase 2 從「五區骨架」推進到「大詞庫匯入、複習 metadata、分場景 BGM」的狀態。重點如下：
+
+- `web/data/word_data.js` 已新增 Eggrolls JLPT10k v3.5 匯入區塊：`EGGROLLS_N5_WORD_ROWS_TEXT`、`EGGROLLS_N4_WORD_ROWS_TEXT`、`EGGROLLS_N3_WORD_ROWS_TEXT`、`EGGROLLS_N2_WORD_ROWS_TEXT`、`EGGROLLS_N1_WORD_ROWS_TEXT`。
+- 前端 `web/index.html` 會用 `buildImportedWordRows()` 把 Eggrolls 區塊併入 `RAW_WORDS_BY_LEVEL`，並用「正規化讀音 + writing」去重，避免新匯入詞把既有手工詞 ID 洗牌。
+- 目前詞庫區塊筆數：
+  - N5：核心 750 + Eggrolls 163 = 913。
+  - N4：base 60 + extra 679 + CSV 235 + Eggrolls 152 = 1,126。
+  - N3：base 60 + extra 2,285 + Eggrolls 730 = 3,075。
+  - N2：base 56 + extra 1,337 + Eggrolls 2,005 = 3,398。
+  - N1：base 50 + OCR extra 2,106 + Eggrolls 3,585 = 5,741。
+- N1 OCR 匯入流程已新增 `tools/ocr/merge_n1_csv_wordlist.py`，輸出保守清理後的 `tools/ocr/dictionary/jlpt_n1_wordlist_cleaned_for_game.csv`、拒收清單與 import audit。N1 來源仍應視為 OCR 派生資料，後續正式發布前要抽樣校對讀音、表記與中文義。
+- Eggrolls Anki 匯入流程已新增 `tools/anki/import_eggrolls_missing_words.py`，用獨立 `EGGROLLS_N*_WORD_ROWS_TEXT` 區塊保存新增詞，避免改動既有手工詞列。
+- `tools/dictionary/build_word_meta.py` 已擴充到 N4/N1 例句資料、Eggrolls note metadata、更多詞性分類與動詞類型推斷。`tools/dictionary/n4_examples.csv` 目前 820 筆資料列，`tools/dictionary/n1_examples.csv` 目前 2,125 筆資料列。
+- `web/data/word_meta.js` 已重新產生，目前約 9,837 筆 metadata，可供單字卡/複習模式讀取詞性、例句、備註等輔助資訊。
+- `README.md` 已補上 N4/N1 例句維護方式，以及 N5 game BGM、N1 review BGM 的重新產生指令。
+- `web/index.html` 已把 N5 複習 BGM 與 N5 遊戲 BGM 分開；N4 遊戲/複習 BGM 維持獨立；N1 已新增遊戲 BGM 與複習壁爐 BGM。切換遊戲/複習/區域時會停止其他場景音訊，避免多條音軌疊在一起。
+- N1 東北北海道 35 站已補 `travelLog` 文案，過站明信片 modal 可顯示完整旅遊日記，不再只靠 fallback 句。
+- `web/service-worker.js` 快取版本已升到 `fat-shiba-pwa-v5`，並更新 `word_data.js` / `word_meta.js` 查詢字串，避免舊快取卡住新詞庫。快取這東西很乖的時候像工具，不乖的時候像考驗修養。
+- 音訊資產已更新或新增：
+  - N5：`n5-okinawa-focus-bgm.*`、`n5-okinawa-game-bgm.*`。
+  - N4：`n4-kyushu-shikoku-bgm.*`、`n4-kyushu-shikoku-game-bgm.*`。
+  - N1：`n1-tohoku-hokkaido-bgm.*`、`n1-tohoku-hokkaido-review-bgm.*`。
+  - 另有 `fireplace-white-noise-bgm.*` 作為壁爐/白噪音素材方向。
+- `tools/audio/` 目前有多個 deterministic 產生器，包含 N5/N4/N1 遊戲與複習方向、溪流、壁爐白噪音等；`audio_analysis/` 與 `generated_audio/` 內留有波形、頻譜與測試輸出，供音訊調整對照。
+
+### 待驗證與風險
+
+- 大詞庫已併入資料結構，但尚未逐級完整人工校對；N1 OCR 與 Eggrolls 來源都需要抽樣檢查，尤其是長音、表記、同音異義與中文義。
+- `word_meta.js` 已大幅膨脹，後續若載入效能受影響，應考慮依等級分檔或 lazy load；現在先維持單檔，方便離線 PWA 與單檔前端邏輯。
+- 新音訊資產已接到前端，但仍要做實機聽感測試，確認音量、loop 接點、iOS autoplay 行為與 PWA 離線快取都正常。
+- service worker 版本已更新，但若使用者瀏覽器卡舊快取，測試時要重新整理或清站台資料確認。
+
 ## 等級休息場景與聲音方向
 
 | 等級 | 休息場景 | 畫面感 | 音樂 / 環境音 |

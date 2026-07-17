@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the N5 Okinawa focus background music loop.
+"""Generate the N5 Okinawa vocabulary-review ocean loop.
 
 The arrangement is deterministic and uses only Python's standard library.
-It follows the DEV_TECH_SUMMARY direction for N5: an afternoon by the Okinawa
-dog house, with sea breeze, distant waves, and very light sanshin plucks.
+It is intentionally a non-musical soundscape: sea breeze, rolling waves,
+and soft shoreline foam for vocabulary review.
 """
 
 from __future__ import annotations
@@ -143,7 +143,29 @@ def add_breeze(start: float, duration: float, amplitude: float, *, pan: float = 
 
 
 def add_wave(start: float, amplitude: float, *, pan: float = 0.0) -> None:
-    duration = 4.8
+    duration = 6.4
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    low_state = 0.0
+    foam_state = 0.0
+    hiss_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        low_state = low_state * 0.99955 + raw * 0.00045
+        foam_state = foam_state * 0.80 + raw * 0.20
+        hiss_state = hiss_state * 0.48 + raw * 0.52
+        swell = math.sin(math.pi * min(t / duration, 1.0)) ** 1.45
+        crash = math.exp(-((t - 2.35) / 0.82) ** 2)
+        backwash = math.exp(-((t - 4.65) / 1.05) ** 2)
+        roll = math.sin(2 * math.pi * (0.17 + 0.025 * math.sin(t * 0.7)) * t) * 0.32
+        foam = foam_state * (0.018 * swell + 0.070 * crash + 0.032 * backwash)
+        hiss = hiss_state * (0.018 * crash + 0.010 * backwash)
+        add_sample(start_index + offset, (low_state * 7.2 + roll + foam + hiss) * amplitude * swell, pan)
+
+
+def add_distant_surf(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
     start_index = int(start * SAMPLE_RATE)
     frame_count = int(duration * SAMPLE_RATE)
     low_state = 0.0
@@ -152,11 +174,11 @@ def add_wave(start: float, amplitude: float, *, pan: float = 0.0) -> None:
     for offset in range(frame_count):
         t = offset / SAMPLE_RATE
         raw = random.random() * 2 - 1
-        low_state = low_state * 0.9992 + raw * 0.0008
-        foam_state = foam_state * 0.84 + raw * 0.16
-        swell = math.sin(math.pi * min(t / duration, 1.0)) ** 1.7
-        roll = math.sin(2 * math.pi * (0.33 + 0.05 * math.sin(t)) * t) * 0.08
-        add_sample(start_index + offset, (low_state * 2.5 + foam_state * 0.026 + roll) * amplitude * swell, pan)
+        low_state = low_state * 0.99975 + raw * 0.00025
+        foam_state = foam_state * 0.90 + raw * 0.10
+        tide = 0.66 + 0.34 * math.sin(2 * math.pi * 0.045 * (start + t) + 0.8)
+        env = envelope(t, duration, 4.2, 5.2, 0.02)
+        add_sample(start_index + offset, (low_state * 5.8 + foam_state * 0.018) * amplitude * tide * env, pan)
 
 
 def add_water_bowl(start: float, amplitude: float = 0.025, *, pan: float = 0.28) -> None:
@@ -209,64 +231,27 @@ def add_pad_chord(start: float, duration: float, names: list[str], amplitude: fl
 
 
 def arrange() -> None:
-    add_breeze(0.0, DURATION_SECONDS, 0.72, pan=-0.10)
+    add_breeze(0.0, DURATION_SECONDS, 0.58, pan=-0.08)
+    add_distant_surf(0.0, DURATION_SECONDS, 0.62, pan=0.06)
 
-    for bar in range(-1, BARS + 1, 2):
-        add_wave(max(0.0, beat_time(bar, 0.0)), 0.54, pan=-0.18)
-        add_wave(max(0.0, beat_time(bar, 2.15)), 0.36, pan=0.20)
+    wave_start = -3.0
+    wave_index = 0
+    while wave_start < DURATION_SECONDS + 5.0:
+        pan = -0.32 if wave_index % 2 == 0 else 0.26
+        amplitude = 0.64 + 0.16 * math.sin(wave_index * 0.83)
+        add_wave(max(0.0, wave_start), amplitude, pan=pan)
+        wave_start += 6.9 + 0.85 * math.sin(wave_index * 0.57)
+        wave_index += 1
 
-    chords = [
-        (0, ["C3", "G3", "C4", "E4"], 0.054, 8),
-        (8, ["A3", "C4", "E4", "G4"], 0.046, 8),
-        (16, ["G3", "C4", "D4", "G4"], 0.050, 8),
-        (24, ["C3", "G3", "C4", "E4"], 0.058, 8),
-        (32, ["A3", "C4", "E4", "G4"], 0.042, 4),
-        (36, ["C3", "G3", "C4", "E4"], 0.038, 4),
-    ]
-    for bar, names, amp, bars in chords:
-        add_pad_chord(beat_time(bar), beat_time(bars) - beat_time(0), names, amp)
-
-    base_phrase = [
-        (0.00, "C4", 0.52, -0.20),
-        (1.50, "E4", 0.42, -0.12),
-        (2.50, "G4", 0.56, 0.10),
-        (4.00, "E4", 0.40, -0.06),
-        (5.25, "D4", 0.44, 0.16),
-        (6.50, "C4", 0.62, 0.02),
-        (8.00, "G4", 0.44, 0.20),
-        (9.50, "A4", 0.42, 0.12),
-        (10.75, "G4", 0.52, -0.04),
-        (12.50, "E4", 0.44, -0.16),
-        (14.00, "D4", 0.42, 0.10),
-        (15.00, "C4", 0.68, -0.06),
-    ]
-    for section_start, amp in [(0, 0.064), (16, 0.058), (24, 0.070)]:
-        for beat, name, length, pan in base_phrase:
-            start_beat = section_start * BEATS_PER_BAR + beat
-            if start_beat >= BARS * BEATS_PER_BAR:
-                continue
-            add_sanshin_pluck(
-                start_beat * BEAT_SECONDS,
-                length * BEAT_SECONDS,
-                note(name),
-                amp,
-                pan=pan,
-            )
-
-    answer_phrase = [
-        (8, 0.50, "E5", 0.38, 0.22),
-        (8, 1.50, "D5", 0.34, 0.14),
-        (9, 0.25, "C5", 0.52, -0.02),
-        (24, 2.00, "G5", 0.32, 0.24),
-        (25, 0.00, "E5", 0.42, 0.12),
-        (26, 1.50, "D5", 0.38, -0.08),
-        (27, 0.50, "C5", 0.56, 0.04),
-    ]
-    for bar, beat, name, length, pan in answer_phrase:
-        add_sanshin_pluck(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.045, pan=pan, brightness=0.62)
-
-    for bar in (6, 13, 21, 30, 37):
-        add_water_bowl(beat_time(bar, 2.75), pan=0.32 if bar % 2 else -0.24)
+    # Quieter backwash between larger waves keeps the shoreline moving.
+    wave_start = 2.2
+    wave_index = 0
+    while wave_start < DURATION_SECONDS:
+        pan = 0.34 if wave_index % 2 == 0 else -0.22
+        amplitude = 0.20 + 0.05 * math.sin(wave_index * 1.17 + 0.4)
+        add_wave(wave_start, amplitude, pan=pan)
+        wave_start += 9.4 + 0.65 * math.sin(wave_index * 0.41)
+        wave_index += 1
 
 
 def soft_limit(value: float) -> float:

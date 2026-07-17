@@ -59,6 +59,14 @@ DURATION_SECONDS = BARS * BEATS_PER_BAR * BEAT_SECONDS
 # 這支腳本只輸出 WAV。MP3/OGG 是用 ffmpeg 從 WAV 轉出來的。
 OUTPUT_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "n4-kyushu-shikoku-game-bgm.wav"
 
+# 2026-07-17 起，N4 遊戲 BGM 改用外部整理好的低音笛版本。
+# 這個檔案長度已經跟遊戲 loop 對齊，所以腳本只負責驗證、音量對齊與輸出。
+SOURCE_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "low_flute.wav"
+
+# low_flute.wav 原始平均音量約 -15.4 dB，N5 遊戲 BGM 約 -19.5 dB。
+# 這裡降低 4.1 dB，讓 N4 遊戲 BGM 的檔案 loudness 對齊 N5。
+SOURCE_GAIN_DB = -4.1
+
 def midi_to_hz(midi_note: float) -> float:
     """把 MIDI 音高編號轉成 Hz 頻率。
 
@@ -680,11 +688,50 @@ def main() -> None:
     會重新產生：
         web/assets/audio/n4-kyushu-shikoku-game-bgm.wav
 
+    目前 N4 遊戲 BGM 使用 low_flute.wav 作為來源，不再重新合成舊編曲。
+    輸出時會套 SOURCE_GAIN_DB，讓 N4 與 N5 遊戲 BGM 的音量接近。
     注意：MP3 和 OGG 不會在這裡自動產生，需要另外用 ffmpeg 從 WAV 轉檔。
     """
-    arrange()
-    write_wav()
-    print(f"Wrote {OUTPUT_PATH} ({DURATION_SECONDS:.2f}s, {BPM} BPM)")
+    if not SOURCE_PATH.exists():
+        raise FileNotFoundError(f"Missing source audio: {SOURCE_PATH}")
+
+    with wave.open(str(SOURCE_PATH), "rb") as source:
+        channels = source.getnchannels()
+        sample_width = source.getsampwidth()
+        frame_rate = source.getframerate()
+        frames = source.getnframes()
+
+    if channels != 2 or sample_width != 2 or frame_rate != SAMPLE_RATE:
+        raise ValueError(
+            "low_flute.wav must be 16-bit stereo 44100 Hz; "
+            f"got channels={channels}, sample_width={sample_width}, frame_rate={frame_rate}"
+        )
+
+    duration = frames / frame_rate
+    if abs(duration - DURATION_SECONDS) > 0.01:
+        raise ValueError(
+            f"low_flute.wav duration must be {DURATION_SECONDS:.2f}s for the current loop; "
+            f"got {duration:.2f}s"
+        )
+
+    gain = 10 ** (SOURCE_GAIN_DB / 20)
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with wave.open(str(SOURCE_PATH), "rb") as source, wave.open(str(OUTPUT_PATH), "wb") as output:
+        output.setnchannels(channels)
+        output.setsampwidth(sample_width)
+        output.setframerate(frame_rate)
+        frame_data = source.readframes(frames)
+        samples = struct.unpack(f"<{frames * channels}h", frame_data)
+        scaled = (
+            max(-32768, min(32767, int(round(sample * gain))))
+            for sample in samples
+        )
+        output.writeframes(struct.pack(f"<{frames * channels}h", *scaled))
+
+    print(
+        f"Wrote {OUTPUT_PATH} from {SOURCE_PATH} "
+        f"({duration:.2f}s, gain {SOURCE_GAIN_DB:+.1f} dB)"
+    )
 
 
 if __name__ == "__main__":

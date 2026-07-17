@@ -76,11 +76,19 @@ python3 tools/dictionary/build_word_meta.py
 補充資料來源在 `tools/dictionary/word_meta.csv`，產物是網站讀取的 `web/data/word_meta.js`。
 產生器會自動補齊所有 N5 單字的基本詞性與例句；CSV 內的資料會優先覆寫自動結果，適合用來精修特定單字的例句、詞性、動詞類型或備註。
 N5 的學習例句集中維護在 `tools/dictionary/n5_examples.csv`；修改後重新執行產生器即可更新網站資料。
+N4 的學習例句集中維護在 `tools/dictionary/n4_examples.csv`；修改後重新執行產生器即可更新網站資料。
+N1 的學習例句集中維護在 `tools/dictionary/n1_examples.csv`；修改後重新執行產生器即可更新網站資料。
 
-重新產生 N5 沖繩專心背景音樂 WAV：
+重新產生 N5 沖繩複習專注背景音樂 WAV：
 
 ```bash
 python3 tools/audio/generate_n5_bgm.py
+```
+
+重新產生 N5 沖繩遊戲背景音樂 WAV：
+
+```bash
+python3 tools/audio/generate_n5_game_bgm.py
 ```
 
 重新產生 N4 九州四國複習專注背景音樂 WAV：
@@ -93,4 +101,10 @@ python3 tools/audio/generate_n4_bgm.py
 
 ```bash
 python3 tools/audio/generate_n4_game_bgm.py
+```
+
+重新產生 N1 東北北海道複習壁爐柴火主題背景音樂 WAV：
+
+```bash
+python3 tools/audio/generate_n1_review_bgm.py
 ```

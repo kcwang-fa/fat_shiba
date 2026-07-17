@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the N4 Kyushu/Shikoku focus background music loop.
+"""Generate the N4 Kyushu/Shikoku vocabulary-review valley-stream ASMR loop.
 
 The arrangement is deterministic and uses only Python's standard library.
-It follows the DEV_TECH_SUMMARY direction for N4: a quiet wooden ryokan
-after a foot bath, with onsen water, warm room tone, and low-volume
-wooden mallet / koto gestures for vocabulary review.
+It is intentionally a non-musical soundscape inspired by valley-stream white
+noise: shallow creek flow, bright riffles over stones, and occasional splashes.
 """
 
 from __future__ import annotations
@@ -163,17 +162,156 @@ def add_room_tone(start: float, duration: float, amplitude: float, *, pan: float
 def add_onsen_flow(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
     start_index = int(start * SAMPLE_RATE)
     frame_count = int(duration * SAMPLE_RATE)
+    body_state = 0.0
     stream_state = 0.0
-    ripple_state = 0.0
+    surface_state = 0.0
 
     for offset in range(frame_count):
         t = offset / SAMPLE_RATE
         raw = random.random() * 2 - 1
-        stream_state = stream_state * 0.996 + raw * 0.004
-        ripple_state = ripple_state * 0.72 + raw * 0.28
-        pulse = 0.70 + 0.30 * math.sin(2 * math.pi * 0.17 * (start + t) + 1.1)
-        env = envelope(t, duration, 2.8, 3.8, 0.03)
-        add_sample(start_index + offset, (stream_state * 0.42 + ripple_state * 0.030) * amplitude * pulse * env, pan)
+        body_state = body_state * 0.99935 + raw * 0.00065
+        stream_state = stream_state * 0.986 + raw * 0.014
+        surface_state = surface_state * 0.68 + raw * 0.32
+        slow_surge = 0.92 + 0.08 * math.sin(2 * math.pi * 0.055 * (start + t) + 0.7)
+        fine_ripple = 0.82 + 0.18 * math.sin(2 * math.pi * 1.9 * (start + t) + 1.3)
+        env = envelope(t, duration, 2.8, 4.0, 0.014)
+        flow = body_state * 1.15 + stream_state * 0.18 + surface_state * 0.026 * fine_ripple
+        add_sample(start_index + offset, flow * amplitude * slow_surge * env, pan)
+
+
+def add_bamboo_spout(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    stream_state = 0.0
+    bead_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        stream_state = stream_state * 0.985 + raw * 0.015
+        bead_state = bead_state * 0.35 + raw * 0.65
+        narrow_stream = max(0.0, math.sin(2 * math.pi * 7.2 * (start + t))) ** 8
+        shimmer = 0.76 + 0.24 * math.sin(2 * math.pi * 3.7 * (start + t) + 0.6)
+        env = envelope(t, duration, 0.9, 1.4, 0.012)
+        add_sample(start_index + offset, (stream_state * 0.10 + bead_state * 0.026 * narrow_stream) * amplitude * shimmer * env, pan)
+
+
+def add_steam_air(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    low_state = 0.0
+    veil_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        low_state = low_state * 0.9991 + raw * 0.0009
+        veil_state = veil_state * 0.82 + raw * 0.18
+        warmth = 0.78 + 0.22 * math.sin(2 * math.pi * 0.021 * (start + t) + 0.2)
+        env = envelope(t, duration, 4.0, 5.4, 0.012)
+        add_sample(start_index + offset, (low_state * 2.2 + veil_state * 0.010) * amplitude * warmth * env, pan)
+
+
+def add_fine_snow(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    snow_state = 0.0
+    brush_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        snow_state = snow_state * 0.42 + raw * 0.58
+        brush_state = brush_state * 0.93 + raw * 0.07
+        flurry = 0.62 + 0.38 * math.sin(2 * math.pi * 0.037 * (start + t) + 1.6)
+        env = envelope(t, duration, 5.0, 6.0, 0.01)
+        add_sample(start_index + offset, (snow_state * 0.010 + brush_state * 0.020) * amplitude * flurry * env, pan)
+
+
+def add_creek_body(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    low_state = 0.0
+    mid_state = 0.0
+    surface_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        low_state = low_state * 0.9992 + raw * 0.0008
+        mid_state = mid_state * 0.972 + raw * 0.028
+        surface_state = surface_state * 0.62 + raw * 0.38
+        current = 0.84 + 0.16 * math.sin(2 * math.pi * 0.085 * (start + t) + 0.5)
+        stone_chatter = 0.74 + 0.26 * math.sin(2 * math.pi * 2.7 * (start + t) + 1.2)
+        env = envelope(t, duration, 2.2, 3.2, 0.012)
+        flow = low_state * 1.35 + mid_state * 0.34 + surface_state * 0.030 * stone_chatter
+        add_sample(start_index + offset, flow * amplitude * current * env, pan)
+
+
+def add_riffle_sheet(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    sheet_state = 0.0
+    fizz_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        sheet_state = sheet_state * 0.90 + raw * 0.10
+        fizz_state = fizz_state * 0.38 + raw * 0.62
+        riffle = 0.72 + 0.28 * math.sin(2 * math.pi * 4.8 * (start + t) + 0.7)
+        shimmer = 0.65 + 0.35 * math.sin(2 * math.pi * 0.19 * (start + t) + 1.9)
+        env = envelope(t, duration, 1.6, 2.4, 0.010)
+        add_sample(start_index + offset, (sheet_state * 0.10 + fizz_state * 0.028 * riffle) * amplitude * shimmer * env, pan)
+
+
+def add_whitewater_spray(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    spray_state = 0.0
+    mist_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        spray_state = spray_state * 0.55 + raw * 0.45
+        mist_state = mist_state * 0.965 + raw * 0.035
+        pulse = 0.76 + 0.24 * math.sin(2 * math.pi * 0.31 * (start + t) + 0.4)
+        env = envelope(t, duration, 1.8, 2.8, 0.014)
+        add_sample(start_index + offset, (spray_state * 0.024 + mist_state * 0.050) * amplitude * pulse * env, pan)
+
+
+def add_stream_splash(start: float, amplitude: float, *, pan: float = 0.0, duration: float = 0.78) -> None:
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    low_state = 0.0
+    splash_state = 0.0
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        raw = random.random() * 2 - 1
+        low_state = low_state * 0.997 + raw * 0.003
+        splash_state = splash_state * 0.50 + raw * 0.50
+        strike = math.exp(-9.0 * t)
+        tail = math.exp(-2.8 * t)
+        arc = math.sin(math.pi * min(t / duration, 1.0)) ** 0.7
+        hit = low_state * 4.4 * strike + splash_state * 0.13 * tail
+        add_sample(start_index + offset, hit * amplitude * arc, pan)
+
+
+def add_bubble(start: float, amplitude: float = 0.012, *, pan: float = 0.0) -> None:
+    duration = 0.24
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    base_freq = 310 + 70 * random.random()
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        env = math.sin(math.pi * min(t / duration, 1.0)) ** 2
+        chirp = base_freq * (1.0 + 0.42 * t / duration)
+        tone = math.sin(2 * math.pi * chirp * t) + 0.18 * math.sin(2 * math.pi * chirp * 2.1 * t)
+        noise = (random.random() * 2 - 1) * 0.16
+        add_sample(start_index + offset, (tone * 0.34 + noise) * amplitude * env, pan)
 
 
 def add_drip(start: float, amplitude: float = 0.018, *, pan: float = 0.24) -> None:
@@ -226,75 +364,21 @@ def add_pad_chord(start: float, duration: float, names: list[str], amplitude: fl
 
 
 def arrange() -> None:
-    add_room_tone(0.0, DURATION_SECONDS, 0.55, pan=-0.08)
-    add_onsen_flow(0.0, DURATION_SECONDS, 0.76, pan=0.16)
+    add_creek_body(0.0, DURATION_SECONDS, 0.84, pan=-0.06)
+    add_creek_body(1.9, DURATION_SECONDS - 1.9, 0.46, pan=0.26)
+    add_riffle_sheet(0.0, DURATION_SECONDS, 1.02, pan=0.18)
+    add_riffle_sheet(3.4, DURATION_SECONDS - 3.4, 0.58, pan=-0.30)
+    add_whitewater_spray(0.0, DURATION_SECONDS, 0.72, pan=0.04)
 
-    chords = [
-        (0, ["D3", "A3", "D4", "F4"], 0.046, 8),
-        (8, ["C4", "E4", "G4", "A4"], 0.038, 8),
-        (16, ["A3", "D4", "E4", "A4"], 0.042, 8),
-        (24, ["D3", "A3", "D4", "F4"], 0.048, 8),
-        (32, ["C4", "E4", "G4", "A4"], 0.034, 4),
-        (36, ["D3", "A3", "D4", "F4"], 0.030, 4),
-    ]
-    for bar, names, amp, bars in chords:
-        add_pad_chord(beat_time(bar), beat_time(bars) - beat_time(0), names, amp)
-
-    koto_phrase = [
-        (0.00, "D4", 0.58, -0.18),
-        (1.50, "F4", 0.42, -0.08),
-        (3.00, "A4", 0.62, 0.08),
-        (5.00, "G4", 0.42, 0.18),
-        (6.50, "E4", 0.52, -0.04),
-        (8.00, "D4", 0.66, -0.14),
-        (10.50, "A4", 0.42, 0.12),
-        (12.00, "C5", 0.48, 0.20),
-        (14.25, "A4", 0.58, -0.02),
-        (15.25, "F4", 0.56, -0.16),
-    ]
-    for section_start, amp in [(0, 0.050), (16, 0.046), (24, 0.054)]:
-        for beat, name, length, pan in koto_phrase:
-            start_beat = section_start * BEATS_PER_BAR + beat
-            if start_beat >= BARS * BEATS_PER_BAR:
-                continue
-            add_koto_pluck(start_beat * BEAT_SECONDS, length * BEAT_SECONDS, note(name), amp, pan=pan)
-
-    mallet_phrase = [
-        (4, 2.00, "A4", 0.58, 0.20),
-        (6, 1.50, "G4", 0.52, -0.12),
-        (12, 2.50, "D5", 0.50, 0.16),
-        (14, 0.50, "C5", 0.54, -0.08),
-        (20, 2.00, "A4", 0.56, 0.22),
-        (22, 1.50, "G4", 0.52, -0.16),
-        (28, 2.50, "D5", 0.48, 0.16),
-        (30, 0.50, "C5", 0.52, -0.08),
-        (34, 2.00, "G4", 0.44, 0.12),
-        (37, 1.50, "D4", 0.64, -0.10),
-    ]
-    for bar, beat, name, length, pan in mallet_phrase:
-        add_wood_mallet(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.034, pan=pan)
-
-    low_koto = [
-        (0, "D3", 3.25),
-        (8, "C4", 2.75),
-        (16, "A3", 3.00),
-        (24, "D3", 3.25),
-        (32, "C4", 2.50),
-        (36, "D3", 3.25),
-    ]
-    for bar, name, length in low_koto:
-        add_koto_pluck(beat_time(bar, 0.0), length * BEAT_SECONDS, note(name), 0.042, pan=-0.24, brightness=0.42)
-
-    for bar, beat, pan in [
-        (3, 2.75, 0.28),
-        (7, 1.25, -0.22),
-        (11, 3.00, 0.18),
-        (18, 2.50, -0.26),
-        (23, 1.00, 0.30),
-        (27, 3.25, -0.20),
-        (35, 2.25, 0.24),
-    ]:
-        add_drip(beat_time(bar, beat), pan=pan)
+    splash_time = 2.2
+    splash_index = 0
+    while splash_time < DURATION_SECONDS - 1.0:
+        pan = [-0.30, 0.22, -0.08, 0.34][splash_index % 4]
+        amplitude = 0.034 + 0.020 * (0.5 + 0.5 * math.sin(splash_index * 1.47))
+        duration = 0.48 + 0.34 * (0.5 + 0.5 * math.sin(splash_index * 0.82 + 0.3))
+        add_stream_splash(splash_time, amplitude=amplitude, pan=pan, duration=duration)
+        splash_time += 3.4 + 1.6 * (0.5 + 0.5 * math.sin(splash_index * 0.69 + 1.1))
+        splash_index += 1
 
 
 def soft_limit(value: float) -> float:

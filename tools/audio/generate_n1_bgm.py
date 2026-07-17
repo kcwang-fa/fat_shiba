@@ -2,8 +2,9 @@
 """Generate the N1 Tohoku/Hokkaido background music loop.
 
 The arrangement is deterministic and uses only Python's standard library.
-It sketches four scenes: a quiet snowy night, a Tohoku festival pulse,
-a destination-arrival climax, then a return to still snow.
+It is an original, lighter gameplay loop inspired by Nebuta Matsuri hayashi:
+bright fue-like melody, bouncing taiko, small kane hits, and crisp plucked
+strings over a colder Tohoku/Hokkaido pad.
 """
 
 from __future__ import annotations
@@ -18,14 +19,14 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SAMPLE_RATE = 44_100
-BPM = 96
+BPM = 116
 BEAT_SECONDS = 60 / BPM
 BARS = 48
 BEATS_PER_BAR = 4
 DURATION_SECONDS = BARS * BEATS_PER_BAR * BEAT_SECONDS
 OUTPUT_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "n1-tohoku-hokkaido-bgm.wav"
 
-random.seed(20260716)
+random.seed(20260717)
 
 
 def midi_to_hz(midi_note: float) -> float:
@@ -196,6 +197,20 @@ def add_kane(start: float, amplitude: float = 0.045, pan: float = 0.18) -> None:
         add_sample(start_index + offset, tone * amplitude * env, pan)
 
 
+def add_chappa(start: float, amplitude: float = 0.030, pan: float = 0.34) -> None:
+    duration = 0.18
+    start_index = int(start * SAMPLE_RATE)
+    frame_count = int(duration * SAMPLE_RATE)
+    partials = [(2100, 1.0), (3180, 0.58), (4620, 0.28), (6200, 0.16)]
+
+    for offset in range(frame_count):
+        t = offset / SAMPLE_RATE
+        env = math.exp(-24 * t)
+        noise = (random.random() * 2 - 1) * 0.38
+        tone = sum(weight * math.sin(2 * math.pi * freq * t) for freq, weight in partials)
+        add_sample(start_index + offset, (tone + noise) * amplitude * env, pan)
+
+
 def add_snow(start: float, duration: float, amplitude: float, *, pan: float = 0.0) -> None:
     start_index = int(start * SAMPLE_RATE)
     frame_count = int(duration * SAMPLE_RATE)
@@ -221,6 +236,7 @@ def note(name: str) -> float:
         "G3": 55,
         "A3": 57,
         "B3": 59,
+        "C4": 60,
         "D4": 62,
         "E4": 64,
         "G4": 67,
@@ -231,6 +247,9 @@ def note(name: str) -> float:
         "G5": 79,
         "A5": 81,
         "B5": 83,
+        "D6": 86,
+        "E6": 88,
+        "G6": 91,
     }
     return midi_to_hz(midi_notes[name])
 
@@ -254,119 +273,157 @@ def add_pad_chord(start: float, duration: float, names: list[str], amplitude: fl
 
 
 def arrange() -> None:
-    add_snow(0.0, DURATION_SECONDS, 0.70, pan=-0.04)
+    add_snow(0.0, DURATION_SECONDS, 0.30, pan=-0.04)
 
-    # 0-8 bars: snowy night, quiet piano and wind.
-    for bar, root, amp, bars in [(0, "E2", 0.044, 12), (8, "B2", 0.032, 12), (28, "E2", 0.060, 14), (42, "E2", 0.036, 6)]:
-        add_tone(beat_time(bar), beat_time(bars) - beat_time(0), note(root), amp, pan=-0.18, attack=2.8, release=3.2, curve=0.02)
+    for bar, root, amp, bars in [
+        (0, "E2", 0.030, 16),
+        (16, "B2", 0.026, 8),
+        (24, "E2", 0.032, 16),
+        (40, "E2", 0.024, 8),
+    ]:
+        add_tone(beat_time(bar), beat_time(bars) - beat_time(0), note(root), amp, pan=-0.18, attack=1.6, release=2.0, curve=0.02)
 
-    intro_piano = [
-        (0, 0.00, "E4", 1.60, -0.20),
-        (1, 1.50, "G4", 1.05, -0.08),
-        (3, 0.50, "B4", 1.25, 0.10),
-        (5, 0.00, "A4", 1.10, -0.10),
-        (6, 2.00, "E4", 1.45, 0.08),
+    chord_cycle = [
+        (["E3", "G3", "B3", "E4"], 0.050),
+        (["G3", "B3", "D4", "G4"], 0.046),
+        (["A3", "D4", "E4", "A4"], 0.048),
+        (["E3", "A3", "B3", "E4"], 0.052),
     ]
-    for bar, beat, name, length, pan in intro_piano:
-        add_piano(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.112, pan=pan)
+    for block_start in range(0, BARS, 8):
+        section_gain = 1.10 if 24 <= block_start < 40 else 0.92 if block_start >= 40 else 1.0
+        for offset, (names, amp) in enumerate(chord_cycle):
+            bar = block_start + offset * 2
+            add_pad_chord(beat_time(bar), beat_time(2), names, amp * section_gain, pan=0.02)
 
-    chords = [
-        (0, ["E3", "G3", "B3", "D4"], 0.050, 8),
-        (8, ["E3", "G3", "B3", "E4"], 0.066, 8),
-        (16, ["D3", "G3", "A3", "D4"], 0.074, 8),
-        (24, ["E3", "A3", "B3", "E4"], 0.078, 4),
-        (28, ["E3", "G3", "B3", "E4"], 0.122, 8),
-        (36, ["G3", "A3", "D4", "E4"], 0.112, 6),
-        (42, ["E3", "G3", "B3", "D4"], 0.046, 6),
+    intro_notes = [
+        (0, 0.00, "E4", 0.72, -0.20),
+        (1, 0.50, "G4", 0.46, -0.08),
+        (2, 0.00, "A4", 0.58, 0.10),
+        (3, 1.50, "B4", 0.50, -0.12),
+        (4, 0.00, "D5", 0.62, 0.08),
+        (6, 2.00, "B4", 0.82, -0.04),
     ]
-    for bar, names, amp, bars in chords:
-        add_pad_chord(beat_time(bar), beat_time(bars) - beat_time(0), names, amp, pan=0.04)
+    for bar, beat, name, length, pan in intro_notes:
+        add_piano(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.086, pan=pan)
 
-    # 8-28 bars: shamisen and taiko bring in a restrained Tohoku festival feel.
-    shamisen_a = [(0.00, "E4", 0.26), (0.50, "B4", 0.20), (1.00, "D5", 0.24), (1.50, "B4", 0.18), (2.00, "A4", 0.24), (2.75, "G4", 0.20), (3.25, "E4", 0.24)]
-    shamisen_b = [(0.00, "G4", 0.24), (0.50, "A4", 0.18), (1.25, "B4", 0.22), (2.00, "D5", 0.24), (2.50, "B4", 0.18), (3.25, "A4", 0.20)]
-    for bar in range(8, 42):
-        if bar >= 28 and bar % 2 == 1:
-            continue
-        pattern = shamisen_a if bar % 4 in (0, 1) else shamisen_b
+    pluck_a = [(0.00, "E4", 0.18), (0.50, "B4", 0.15), (1.00, "D5", 0.18), (1.50, "B4", 0.13), (2.00, "A4", 0.18), (2.50, "G4", 0.15), (3.25, "E4", 0.20)]
+    pluck_b = [(0.00, "G4", 0.17), (0.50, "A4", 0.14), (1.00, "B4", 0.16), (1.75, "D5", 0.18), (2.25, "B4", 0.15), (3.00, "A4", 0.18), (3.50, "G4", 0.14)]
+    for bar in range(4, BARS):
+        pattern = pluck_a if bar % 4 in (0, 1) else pluck_b
+        amp = 0.058 if bar < 16 else 0.073 if bar < 40 else 0.052
         for beat, name, length in pattern:
-            amp = 0.075 if bar < 28 else 0.058
-            add_pluck(beat_time(bar, beat), length * BEAT_SECONDS, note(name), amp, pan=0.30)
+            add_pluck(beat_time(bar, beat), length * BEAT_SECONDS, note(name), amp, pan=0.28)
 
-    for bar in range(8, 28):
-        add_taiko(beat_time(bar, 0.0), amplitude=0.36 if bar < 16 else 0.43, pan=-0.16)
-        add_taiko(beat_time(bar, 2.0), amplitude=0.22 if bar < 16 else 0.28, pan=-0.06)
-        if bar >= 12:
-            add_shime(beat_time(bar, 1.5), amplitude=0.105, pan=0.22)
-            add_shime(beat_time(bar, 3.5), amplitude=0.090, pan=0.30)
+    # Nebuta-inspired hayashi groove: light taiko bounce, shime accents, and kane.
+    for bar in range(4, BARS):
+        section = 0 if bar < 16 else 1 if bar < 32 else 2 if bar < 40 else 3
+        main_amp = [0.25, 0.36, 0.46, 0.28][section]
+        add_taiko(beat_time(bar, 0.0), amplitude=main_amp, pan=-0.16)
+        add_taiko(beat_time(bar, 2.0), amplitude=main_amp * 0.62, pan=-0.06)
+        if bar >= 8:
+            add_shime(beat_time(bar, 0.75), amplitude=0.060 + section * 0.016, pan=0.22)
+            add_shime(beat_time(bar, 1.50), amplitude=0.070 + section * 0.014, pan=0.30)
+            add_shime(beat_time(bar, 2.75), amplitude=0.064 + section * 0.016, pan=0.26)
+            add_chappa(beat_time(bar, 1.0), amplitude=0.018 + section * 0.004, pan=0.34)
+            add_chappa(beat_time(bar, 3.0), amplitude=0.022 + section * 0.005, pan=0.26)
         if bar % 8 == 7:
-            add_kane(beat_time(bar, 3.0), amplitude=0.043, pan=0.18)
+            add_kane(beat_time(bar, 3.0), amplitude=0.042 if bar < 40 else 0.030, pan=0.14)
 
-    # 28-42 bars: arrival climax with strings, drums and flute.
-    for bar in range(28, 42):
-        add_taiko(beat_time(bar, 0.0), amplitude=0.58, pan=-0.18)
-        add_taiko(beat_time(bar, 1.5), amplitude=0.28, pan=-0.02)
-        add_taiko(beat_time(bar, 2.0), amplitude=0.44, pan=-0.12)
-        add_shime(beat_time(bar, 0.75), amplitude=0.105, pan=0.26)
-        add_shime(beat_time(bar, 2.75), amplitude=0.125, pan=0.32)
-        if bar % 4 == 3:
-            add_kane(beat_time(bar, 3.0), amplitude=0.050, pan=0.12)
-
-    festival_flute_phrase = [
-        (0, 0.00, "B4", 0.80),
-        (1, 2.00, "D5", 0.70),
-        (3, 0.00, "E5", 0.90),
-        (4, 2.00, "D5", 0.70),
-        (6, 0.00, "B4", 1.10),
+    hayashi_phrase = [
+        (0.00, "B4", 0.38),
+        (0.50, "D5", 0.30),
+        (1.00, "E5", 0.44),
+        (1.75, "D5", 0.26),
+        (2.25, "B4", 0.34),
+        (3.00, "A4", 0.42),
+        (4.00, "B4", 0.32),
+        (4.50, "D5", 0.32),
+        (5.00, "E5", 0.50),
+        (6.00, "G5", 0.34),
+        (6.50, "E5", 0.34),
+        (7.25, "D5", 0.44),
     ]
-    climax_flute_phrase = [
-        (0, 0.00, "E5", 1.45),
-        (2, 0.00, "G5", 1.35),
-        (4, 0.00, "E5", 1.10),
-        (5, 2.00, "D5", 0.95),
-        (7, 0.00, "B4", 1.25),
-        (9, 0.00, "D5", 1.05),
-        (10, 2.00, "E5", 1.35),
-        (12, 0.00, "G5", 1.70),
+    answer_phrase = [
+        (0.00, "E5", 0.36),
+        (0.50, "G5", 0.30),
+        (1.00, "A5", 0.40),
+        (1.75, "G5", 0.28),
+        (2.25, "E5", 0.34),
+        (3.00, "D5", 0.42),
+        (4.00, "B4", 0.34),
+        (4.75, "D5", 0.30),
+        (5.25, "E5", 0.46),
+        (6.25, "B4", 0.42),
+        (7.00, "A4", 0.44),
     ]
-    flute_sections = [
-        (festival_flute_phrase, 16, 0.060, -0.26, 28),
-        (climax_flute_phrase, 28, 0.112, -0.16, 42),
-    ]
-    for phrase, section_start, amp, pan, limit in flute_sections:
-        for phrase_bar, beat, name, length in phrase:
-            bar = section_start + phrase_bar
-            if bar >= limit:
-                continue
+    for section_start in range(8, 40, 8):
+        phrase = hayashi_phrase if section_start % 16 == 8 else answer_phrase
+        amp = 0.068 if section_start < 24 else 0.088
+        for beat, name, length in phrase:
             add_tone(
-                beat_time(bar, beat),
+                beat_time(section_start, beat),
                 length * BEAT_SECONDS,
                 note(name),
                 amp,
-                pan=pan,
-                attack=0.10,
-                release=0.28,
+                pan=-0.24,
+                attack=0.035,
+                release=0.18,
                 waveform="reed",
-                vibrato_depth=0.005,
-                vibrato_rate=4.7,
-                breath=0.018,
-                curve=0.10,
+                vibrato_depth=0.0048,
+                vibrato_rate=5.2,
+                breath=0.016,
+                curve=0.06,
             )
 
-    climax_piano = [(28, 0.0, "E4", 0.9), (30, 0.0, "G4", 0.9), (32, 0.0, "B4", 1.0), (34, 0.0, "D5", 0.9), (36, 0.0, "E5", 1.2), (38, 1.0, "D5", 0.8), (40, 0.0, "B4", 1.1)]
-    for bar, beat, name, length in climax_piano:
-        add_piano(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.118, pan=-0.04)
-
-    # 42-48 bars: only piano/plucked strings and snow again.
-    outro_notes = [
-        (42, 0.00, "E4", 1.30, -0.20),
-        (43, 2.00, "B3", 1.20, 0.12),
-        (45, 0.50, "G4", 1.10, -0.08),
-        (46, 2.00, "E4", 1.70, 0.04),
+    high_flourish = [
+        (32, 0.00, "E5", 0.34),
+        (32, 0.50, "G5", 0.28),
+        (32, 1.00, "A5", 0.28),
+        (32, 1.50, "B5", 0.42),
+        (33, 0.00, "D6", 0.32),
+        (33, 0.50, "B5", 0.28),
+        (33, 1.00, "A5", 0.34),
+        (34, 0.00, "G5", 0.38),
+        (34, 0.75, "E5", 0.42),
+        (35, 1.00, "D5", 0.52),
+        (36, 0.00, "E5", 0.34),
+        (36, 0.50, "G5", 0.28),
+        (36, 1.00, "A5", 0.30),
+        (36, 1.50, "B5", 0.44),
+        (37, 0.00, "D6", 0.36),
+        (37, 0.50, "E6", 0.46),
+        (38, 0.00, "B5", 0.44),
+        (39, 0.00, "G5", 0.62),
     ]
-    for bar, beat, name, length, pan in outro_notes:
-        add_piano(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.092, pan=pan)
-        add_pluck(beat_time(bar, beat + 0.04), length * BEAT_SECONDS * 0.78, note(name), 0.026, pan=0.22)
+    for bar, beat, name, length in high_flourish:
+        add_tone(
+            beat_time(bar, beat),
+            length * BEAT_SECONDS,
+            note(name),
+            0.076,
+            pan=-0.16,
+            attack=0.028,
+            release=0.16,
+            waveform="reed",
+            vibrato_depth=0.0052,
+            vibrato_rate=5.4,
+            breath=0.018,
+            curve=0.05,
+        )
+
+    closing_phrase = [
+        (40, 0.00, "B4", 0.44, -0.20),
+        (40, 1.00, "D5", 0.34, 0.08),
+        (41, 0.00, "E5", 0.52, -0.10),
+        (42, 1.00, "B4", 0.48, 0.12),
+        (43, 2.00, "A4", 0.50, -0.06),
+        (44, 0.00, "G4", 0.56, 0.10),
+        (45, 1.50, "B4", 0.46, -0.16),
+        (46, 2.00, "E4", 0.70, 0.04),
+    ]
+    for bar, beat, name, length, pan in closing_phrase:
+        add_piano(beat_time(bar, beat), length * BEAT_SECONDS, note(name), 0.068, pan=pan)
+        add_pluck(beat_time(bar, beat + 0.035), length * BEAT_SECONDS * 0.72, note(name), 0.030, pan=0.24)
 
 
 def soft_limit(value: float) -> float:
