@@ -1,9 +1,13 @@
-const CACHE_NAME = "fat-shiba-pwa-v2";
+const CACHE_NAME = "fat-shiba-pwa-v3";
+const DATA_PATHS = new Set([
+  "/data/word_data.js",
+  "/data/word_meta.js"
+]);
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./data/word_data.js",
-  "./data/word_meta.js",
+  "./data/word_data.js?v=20260717-n5-examples",
+  "./data/word_meta.js?v=20260717-n5-examples",
   "./assets/app-icon-180.png",
   "./assets/app-icon-192.png",
   "./assets/app-icon-512.png",
@@ -43,6 +47,23 @@ self.addEventListener("fetch", (event) => {
   if (request.mode === "navigate") {
     event.respondWith(
       fetch(request).catch(() => caches.match("./index.html"))
+    );
+    return;
+  }
+
+  if (DATA_PATHS.has(url.pathname)) {
+    event.respondWith(
+      fetch(request).then((networkResponse) => {
+        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
+          return networkResponse;
+        }
+
+        const responseToCache = networkResponse.clone();
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(request, responseToCache);
+        });
+        return networkResponse;
+      }).catch(() => caches.match(request))
     );
     return;
   }
