@@ -1,0 +1,279 @@
+{
+  "config": {
+    "input_path": "/Users/kcwang/workspace/dev/fat_shiba/web/assets/audio/fireplace-white-noise-bgm.wav",
+    "output_dir": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis",
+    "output_prefix": "generated_fireplace_white_noise_bgm",
+    "sample_rate": 44100,
+    "channels": 2,
+    "waveform_size": "1600x360",
+    "spectrogram_size": "1600x720",
+    "silence_noise_db": -50,
+    "silence_min_duration_sec": 0.5,
+    "transient_crest_db": 28,
+    "transient_peak_dbfs": -18,
+    "fft_size": 4096,
+    "hop_size": 2048,
+    "frequency_bands_hz": [
+      [
+        0,
+        100
+      ],
+      [
+        100,
+        500
+      ],
+      [
+        500,
+        2000
+      ],
+      [
+        2000,
+        8000
+      ],
+      [
+        8000,
+        22050
+      ]
+    ]
+  },
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "44100",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "duration_ts": 5627909,
+        "duration": "127.616984",
+        "bit_rate": "1411200",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/kcwang/workspace/dev/fat_shiba/web/assets/audio/fireplace-white-noise-bgm.wav",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "wav",
+      "format_long_name": "WAV / WAVE (Waveform Audio)",
+      "duration": "127.616984",
+      "size": "22511680",
+      "bit_rate": "1411202",
+      "probe_score": 99
+    }
+  },
+  "silence_events": [],
+  "signal": {
+    "duration_sec": 127.617,
+    "samples": 5627909,
+    "rms_dbfs_left_right": [
+      -40.42,
+      -39.17
+    ],
+    "peak_dbfs_left_right": [
+      -9.77,
+      -8.9
+    ],
+    "stereo_corr": 0.95,
+    "rms_1s_dbfs_mean": -40.27,
+    "rms_1s_dbfs_median": -40.22,
+    "rms_1s_dbfs_min_max": [
+      -54.38,
+      -35.47
+    ],
+    "peak_1s_dbfs_max": -10.11,
+    "crest_1s_db_mean_median_max": [
+      12.52,
+      11.34,
+      25.95
+    ],
+    "loudest_rms_seconds": [
+      {
+        "second": 89,
+        "rms_dbfs": -35.47,
+        "peak_dbfs": -10.39
+      },
+      {
+        "second": 25,
+        "rms_dbfs": -35.49,
+        "peak_dbfs": -10.11
+      },
+      {
+        "second": 19,
+        "rms_dbfs": -36.23,
+        "peak_dbfs": -12.22
+      },
+      {
+        "second": 96,
+        "rms_dbfs": -36.24,
+        "peak_dbfs": -12.18
+      },
+      {
+        "second": 79,
+        "rms_dbfs": -36.56,
+        "peak_dbfs": -11.1
+      },
+      {
+        "second": 50,
+        "rms_dbfs": -37.09,
+        "peak_dbfs": -11.13
+      },
+      {
+        "second": 52,
+        "rms_dbfs": -37.16,
+        "peak_dbfs": -13.44
+      },
+      {
+        "second": 121,
+        "rms_dbfs": -37.31,
+        "peak_dbfs": -13.23
+      }
+    ],
+    "highest_peak_seconds": [
+      {
+        "second": 25,
+        "rms_dbfs": -35.49,
+        "peak_dbfs": -10.11
+      },
+      {
+        "second": 89,
+        "rms_dbfs": -35.47,
+        "peak_dbfs": -10.39
+      },
+      {
+        "second": 79,
+        "rms_dbfs": -36.56,
+        "peak_dbfs": -11.1
+      },
+      {
+        "second": 50,
+        "rms_dbfs": -37.09,
+        "peak_dbfs": -11.13
+      },
+      {
+        "second": 96,
+        "rms_dbfs": -36.24,
+        "peak_dbfs": -12.18
+      },
+      {
+        "second": 19,
+        "rms_dbfs": -36.23,
+        "peak_dbfs": -12.22
+      },
+      {
+        "second": 121,
+        "rms_dbfs": -37.31,
+        "peak_dbfs": -13.23
+      },
+      {
+        "second": 58,
+        "rms_dbfs": -37.67,
+        "peak_dbfs": -13.4
+      }
+    ],
+    "quietest_seconds": [
+      {
+        "second": 0,
+        "rms_dbfs": -54.38,
+        "peak_dbfs": -38.92
+      },
+      {
+        "second": 126,
+        "rms_dbfs": -47.7,
+        "peak_dbfs": -35.78
+      },
+      {
+        "second": 1,
+        "rms_dbfs": -45.7,
+        "peak_dbfs": -32.84
+      },
+      {
+        "second": 26,
+        "rms_dbfs": -42.96,
+        "peak_dbfs": -29.54
+      },
+      {
+        "second": 120,
+        "rms_dbfs": -42.89,
+        "peak_dbfs": -31.22
+      },
+      {
+        "second": 21,
+        "rms_dbfs": -42.84,
+        "peak_dbfs": -31.75
+      },
+      {
+        "second": 125,
+        "rms_dbfs": -42.69,
+        "peak_dbfs": -29.45
+      },
+      {
+        "second": 54,
+        "rms_dbfs": -42.44,
+        "peak_dbfs": -31.24
+      }
+    ],
+    "spectral_centroid_hz": 635.8,
+    "band_energy_pct": [
+      {
+        "range_hz": "0-100",
+        "pct": 75.83
+      },
+      {
+        "range_hz": "100-500",
+        "pct": 7.63
+      },
+      {
+        "range_hz": "500-2000",
+        "pct": 10.06
+      },
+      {
+        "range_hz": "2000-8000",
+        "pct": 4.47
+      },
+      {
+        "range_hz": "8000-22050",
+        "pct": 2.01
+      }
+    ],
+    "transient_candidate_seconds_count": 0,
+    "transient_candidate_seconds": [],
+    "first5s_avg_rms_dbfs": -43.46,
+    "last5s_avg_rms_dbfs": -42.89
+  },
+  "artifacts": {
+    "waveform_png": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis/generated_fireplace_white_noise_bgm_waveform.png",
+    "spectrogram_png": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis/generated_fireplace_white_noise_bgm_spectrogram.png",
+    "report_json": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis/generated_fireplace_white_noise_bgm_analysis_report.json"
+  }
+}

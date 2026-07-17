@@ -1,0 +1,308 @@
+{
+  "config": {
+    "input_path": "/Users/kcwang/Downloads/asmr-flame!！fire！3-Minute Fireplace Sound for Sleep［三分鐘火爐音效幫助睡眠］_128k.mp3",
+    "output_dir": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis",
+    "output_prefix": "fireplace",
+    "sample_rate": 44100,
+    "channels": 2,
+    "waveform_size": "1600x360",
+    "spectrogram_size": "1600x720",
+    "silence_noise_db": -50,
+    "silence_min_duration_sec": 0.5,
+    "transient_crest_db": 28,
+    "transient_peak_dbfs": -18,
+    "fft_size": 4096,
+    "hop_size": 2048,
+    "frequency_bands_hz": [
+      [
+        0,
+        100
+      ],
+      [
+        100,
+        500
+      ],
+      [
+        500,
+        2000
+      ],
+      [
+        2000,
+        8000
+      ],
+      [
+        8000,
+        22050
+      ]
+    ]
+  },
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x1",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 5627904,
+        "duration": "127.616871",
+        "bit_rate": "127999",
+        "nb_frames": "5496",
+        "extradata_size": 16,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "ISO Media file produced by Google Inc."
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/kcwang/Downloads/asmr-flame!！fire！3-Minute Fireplace Sound for Sleep［三分鐘火爐音效幫助睡眠］_128k.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "127.616871",
+      "size": "2064725",
+      "bit_rate": "129432",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf59.16.100"
+      }
+    }
+  },
+  "silence_events": [],
+  "signal": {
+    "duration_sec": 127.617,
+    "samples": 5627904,
+    "rms_dbfs_left_right": [
+      -39.05,
+      -39.49
+    ],
+    "peak_dbfs_left_right": [
+      -8.38,
+      -7.26
+    ],
+    "stereo_corr": 0.9572,
+    "rms_1s_dbfs_mean": -39.66,
+    "rms_1s_dbfs_median": -39.97,
+    "rms_1s_dbfs_min_max": [
+      -44.7,
+      -34.03
+    ],
+    "peak_1s_dbfs_max": -8.46,
+    "crest_1s_db_mean_median_max": [
+      19.33,
+      18.44,
+      31.84
+    ],
+    "loudest_rms_seconds": [
+      {
+        "second": 119,
+        "rms_dbfs": -34.03,
+        "peak_dbfs": -8.46
+      },
+      {
+        "second": 7,
+        "rms_dbfs": -34.2,
+        "peak_dbfs": -9.37
+      },
+      {
+        "second": 117,
+        "rms_dbfs": -34.47,
+        "peak_dbfs": -19.56
+      },
+      {
+        "second": 115,
+        "rms_dbfs": -34.66,
+        "peak_dbfs": -21.37
+      },
+      {
+        "second": 120,
+        "rms_dbfs": -35.75,
+        "peak_dbfs": -20.71
+      },
+      {
+        "second": 114,
+        "rms_dbfs": -35.75,
+        "peak_dbfs": -24.4
+      },
+      {
+        "second": 116,
+        "rms_dbfs": -36.08,
+        "peak_dbfs": -23.45
+      },
+      {
+        "second": 110,
+        "rms_dbfs": -36.25,
+        "peak_dbfs": -9.94
+      }
+    ],
+    "highest_peak_seconds": [
+      {
+        "second": 119,
+        "rms_dbfs": -34.03,
+        "peak_dbfs": -8.46
+      },
+      {
+        "second": 80,
+        "rms_dbfs": -36.63,
+        "peak_dbfs": -8.68
+      },
+      {
+        "second": 97,
+        "rms_dbfs": -38.84,
+        "peak_dbfs": -8.96
+      },
+      {
+        "second": 19,
+        "rms_dbfs": -39.18,
+        "peak_dbfs": -9.1
+      },
+      {
+        "second": 121,
+        "rms_dbfs": -38.38,
+        "peak_dbfs": -9.25
+      },
+      {
+        "second": 79,
+        "rms_dbfs": -41.15,
+        "peak_dbfs": -9.31
+      },
+      {
+        "second": 7,
+        "rms_dbfs": -34.2,
+        "peak_dbfs": -9.37
+      },
+      {
+        "second": 25,
+        "rms_dbfs": -38.99,
+        "peak_dbfs": -9.67
+      }
+    ],
+    "quietest_seconds": [
+      {
+        "second": 126,
+        "rms_dbfs": -44.7,
+        "peak_dbfs": -26.16
+      },
+      {
+        "second": 98,
+        "rms_dbfs": -42.41,
+        "peak_dbfs": -27.48
+      },
+      {
+        "second": 76,
+        "rms_dbfs": -41.8,
+        "peak_dbfs": -19.97
+      },
+      {
+        "second": 61,
+        "rms_dbfs": -41.5,
+        "peak_dbfs": -28.61
+      },
+      {
+        "second": 91,
+        "rms_dbfs": -41.41,
+        "peak_dbfs": -21.04
+      },
+      {
+        "second": 94,
+        "rms_dbfs": -41.38,
+        "peak_dbfs": -18.87
+      },
+      {
+        "second": 84,
+        "rms_dbfs": -41.37,
+        "peak_dbfs": -28.21
+      },
+      {
+        "second": 86,
+        "rms_dbfs": -41.33,
+        "peak_dbfs": -22.93
+      }
+    ],
+    "spectral_centroid_hz": 514.0,
+    "band_energy_pct": [
+      {
+        "range_hz": "0-100",
+        "pct": 80.41
+      },
+      {
+        "range_hz": "100-500",
+        "pct": 11.99
+      },
+      {
+        "range_hz": "500-2000",
+        "pct": 2.05
+      },
+      {
+        "range_hz": "2000-8000",
+        "pct": 3.11
+      },
+      {
+        "range_hz": "8000-22050",
+        "pct": 2.43
+      }
+    ],
+    "transient_candidate_seconds_count": 9,
+    "transient_candidate_seconds": [
+      19,
+      25,
+      51,
+      53,
+      58,
+      79,
+      90,
+      97,
+      121
+    ],
+    "first5s_avg_rms_dbfs": -39.22,
+    "last5s_avg_rms_dbfs": -40.33
+  },
+  "artifacts": {
+    "waveform_png": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis/fireplace_waveform.png",
+    "spectrogram_png": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis/fireplace_spectrogram.png",
+    "report_json": "/Users/kcwang/workspace/dev/fat_shiba/audio_analysis/fireplace_analysis_report.json"
+  }
+}
