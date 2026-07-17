@@ -2194,7 +2194,6 @@
   </div>
 
   <script src="data/word_data.js?v=20260717-eggrolls-import"></script>
-  <script src="data/word_meta.js?v=20260717-eggrolls-meta"></script>
 
   <script>
     (() => {
@@ -2218,11 +2217,10 @@
         EGGROLLS_N1_WORD_ROWS_TEXT
       } = window.FAT_SHIBA_WORD_DATA;
 
-      const WORD_META = window.FAT_SHIBA_WORD_META || {};
-
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
       const AUDIO_SAVE_KEY = "fatShiba.phase2.audio.v1";
+      const WORD_META_SRC = "data/word_meta.js?v=20260717-eggrolls-meta";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
       const REVIEW_LEVELS = ["N5", "N4", "N3", "N1"];
       const REVIEW_SAVE_KEYS = {
@@ -2257,13 +2255,11 @@
       const BARK_AUDIO_SRC = "assets/audio/dog-bark-179915.mp3?v=20260715";
       const N5_REVIEW_BGM_SOURCES = [
         { src: "assets/audio/n5-okinawa-focus-bgm.ogg?v=20260717-ocean-surf", type: "audio/ogg" },
-        { src: "assets/audio/n5-okinawa-focus-bgm.mp3?v=20260717-ocean-surf", type: "audio/mpeg" },
-        { src: "assets/audio/n5-okinawa-focus-bgm.wav?v=20260717-ocean-surf", type: "audio/wav" }
+        { src: "assets/audio/n5-okinawa-focus-bgm.mp3?v=20260717-ocean-surf", type: "audio/mpeg" }
       ];
       const N5_GAME_BGM_SOURCES = [
         { src: "assets/audio/n5-okinawa-game-bgm.ogg?v=20260717", type: "audio/ogg" },
-        { src: "assets/audio/n5-okinawa-game-bgm.mp3?v=20260717", type: "audio/mpeg" },
-        { src: "assets/audio/n5-okinawa-game-bgm.wav?v=20260717", type: "audio/wav" }
+        { src: "assets/audio/n5-okinawa-game-bgm.mp3?v=20260717", type: "audio/mpeg" }
       ];
       const N5_REVIEW_BACKGROUND = {
         png: "assets/n5-okinawa-vocab-review-background.png",
@@ -2275,23 +2271,19 @@
       };
       const N4_REVIEW_BGM_SOURCES = [
         { src: "assets/audio/n4-kyushu-shikoku-bgm.ogg?v=20260717-valley-stream-asmr", type: "audio/ogg" },
-        { src: "assets/audio/n4-kyushu-shikoku-bgm.mp3?v=20260717-valley-stream-asmr", type: "audio/mpeg" },
-        { src: "assets/audio/n4-kyushu-shikoku-bgm.wav?v=20260717-valley-stream-asmr", type: "audio/wav" }
+        { src: "assets/audio/n4-kyushu-shikoku-bgm.mp3?v=20260717-valley-stream-asmr", type: "audio/mpeg" }
       ];
       const N4_GAME_BGM_SOURCES = [
         { src: "assets/audio/n4-kyushu-shikoku-game-bgm.ogg?v=20260717", type: "audio/ogg" },
-        { src: "assets/audio/n4-kyushu-shikoku-game-bgm.mp3?v=20260717", type: "audio/mpeg" },
-        { src: "assets/audio/n4-kyushu-shikoku-game-bgm.wav?v=20260717", type: "audio/wav" }
+        { src: "assets/audio/n4-kyushu-shikoku-game-bgm.mp3?v=20260717", type: "audio/mpeg" }
       ];
       const N1_GAME_BGM_SOURCES = [
         { src: "assets/audio/n1-tohoku-hokkaido-bgm.ogg?v=20260717-nebuta-game", type: "audio/ogg" },
-        { src: "assets/audio/n1-tohoku-hokkaido-bgm.mp3?v=20260717-nebuta-game", type: "audio/mpeg" },
-        { src: "assets/audio/n1-tohoku-hokkaido-bgm.wav?v=20260717-nebuta-game", type: "audio/wav" }
+        { src: "assets/audio/n1-tohoku-hokkaido-bgm.mp3?v=20260717-nebuta-game", type: "audio/mpeg" }
       ];
       const N1_REVIEW_BGM_SOURCES = [
         { src: "assets/audio/壁爐木材白噪音_BGM_v5.ogg?v=20260717-fireplace-wood-v5", type: "audio/ogg" },
-        { src: "assets/audio/壁爐木材白噪音_BGM_v5.mp3?v=20260717-fireplace-wood-v5", type: "audio/mpeg" },
-        { src: "assets/audio/壁爐木材白噪音_BGM_v5.wav?v=20260717-fireplace-wood-v5", type: "audio/wav" }
+        { src: "assets/audio/壁爐木材白噪音_BGM_v5.mp3?v=20260717-fireplace-wood-v5", type: "audio/mpeg" }
       ];
       const N4_REVIEW_BACKGROUND = {
         png: "assets/n4-kyushu-shikoku-vocab-review-background.png",
@@ -2368,9 +2360,6 @@
       const FIRST_REGION_ID = "n5_okinawa";
       const N4_REGION_ID = "n4_kyushu_shikoku";
       const N1_REGION_ID = "n1_tohoku_hokkaido";
-      const OKINAWA_MUSIC_STEPS_PER_BAR = 8;
-      const OKINAWA_MUSIC_STEP_SECONDS = 0.33;
-      const OKINAWA_MUSIC_LOOKAHEAD_SECONDS = 0.9;
       const KANA_SMALL = new Set(["ゃ", "ゅ", "ょ", "っ", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ", "ャ", "ュ", "ョ", "ッ", "ァ", "ィ", "ゥ", "ェ", "ォ"]);
       const KANA_VOICED = /[がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゔガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポヴ]/;
       const POSTCARD_SHIBA_IMAGES = Array.from({ length: 10 }, (_, index) => `assets/postcard-shiba/shiba-postcard-${String(index + 1).padStart(2, "0")}.png`);
@@ -2793,6 +2782,34 @@
       const REGION_BY_ID = new Map(REGIONS.map((region) => [region.id, region]));
 
 
+      let WORD_META = window.FAT_SHIBA_WORD_META || {};
+      let wordMetaLoadPromise = null;
+
+      function loadWordMeta() {
+        if (window.FAT_SHIBA_WORD_META) {
+          WORD_META = window.FAT_SHIBA_WORD_META;
+          return Promise.resolve(WORD_META);
+        }
+        if (wordMetaLoadPromise) return wordMetaLoadPromise;
+
+        wordMetaLoadPromise = new Promise((resolve) => {
+          const script = document.createElement("script");
+          script.src = WORD_META_SRC;
+          script.async = true;
+          script.onload = () => {
+            WORD_META = window.FAT_SHIBA_WORD_META || {};
+            resolve(WORD_META);
+          };
+          script.onerror = () => {
+            wordMetaLoadPromise = null;
+            resolve(WORD_META);
+          };
+          document.head.appendChild(script);
+        });
+
+        return wordMetaLoadPromise;
+      }
+
 
       function toHiraganaKana(char) {
         const code = char.charCodeAt(0);
@@ -3099,8 +3116,7 @@
             playReading,
             zh,
             level,
-            script,
-            meta: WORD_META[id] || null
+            script
           };
         })
       ).filter(isPlayableWord));
@@ -3248,14 +3264,9 @@
       let audioContext = null;
       let masterGain = null;
       let sfxGain = null;
-      let musicGain = null;
       let audioEnabled = loadAudioPreference();
       let barkSampleBuffer = null;
       let barkSamplePromise = null;
-      let okinawaMusicTimer = 0;
-      let okinawaMusicStep = 0;
-      let okinawaMusicNextTime = 0;
-      let okinawaMusicRunning = false;
       let n5GameBgmAudio = null;
       let n4BgmAudio = null;
       let n1BgmAudio = null;
@@ -3285,13 +3296,10 @@
         audioContext = new AudioCtor();
         masterGain = audioContext.createGain();
         sfxGain = audioContext.createGain();
-        musicGain = audioContext.createGain();
 
         masterGain.gain.value = audioEnabled ? 0.62 : 0;
         sfxGain.gain.value = 0.72;
-        musicGain.gain.value = 0.18;
         sfxGain.connect(masterGain);
-        musicGain.connect(masterGain);
         masterGain.connect(audioContext.destination);
         return audioContext;
       }
@@ -3438,7 +3446,6 @@
         updateAudioToggle();
         if (!audioEnabled) {
           rampGain(masterGain, 0);
-          stopOkinawaMusic();
           stopN5GameBgm();
           stopN4Bgm();
           stopN1Bgm();
@@ -3467,89 +3474,6 @@
         });
       }
 
-      function schedulePluck(frequency, time, options = {}) {
-        const context = ensureAudioGraph();
-        if (!context || !musicGain) return;
-        const duration = options.duration || 0.58;
-        const gainValue = options.gain || 0.22;
-        const oscillator = context.createOscillator();
-        const filter = context.createBiquadFilter();
-        const gain = context.createGain();
-
-        oscillator.type = options.type || "triangle";
-        oscillator.frequency.setValueAtTime(frequency, time);
-        oscillator.detune.setValueAtTime(options.detune || 0, time);
-        filter.type = "bandpass";
-        filter.frequency.setValueAtTime(frequency * 2.15, time);
-        filter.Q.value = options.q || 6;
-        gain.gain.setValueAtTime(0.0001, time);
-        gain.gain.exponentialRampToValueAtTime(gainValue, time + 0.018);
-        gain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
-
-        oscillator.connect(filter);
-        filter.connect(gain);
-        gain.connect(musicGain);
-        oscillator.start(time);
-        oscillator.stop(time + duration + 0.04);
-      }
-
-      function scheduleSoftDrum(time) {
-        const context = ensureAudioGraph();
-        if (!context || !musicGain) return;
-        const oscillator = context.createOscillator();
-        const gain = context.createGain();
-
-        oscillator.type = "sine";
-        oscillator.frequency.setValueAtTime(96, time);
-        oscillator.frequency.exponentialRampToValueAtTime(58, time + 0.16);
-        gain.gain.setValueAtTime(0.0001, time);
-        gain.gain.exponentialRampToValueAtTime(0.08, time + 0.012);
-        gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.22);
-
-        oscillator.connect(gain);
-        gain.connect(musicGain);
-        oscillator.start(time);
-        oscillator.stop(time + 0.25);
-      }
-
-      function scheduleOkinawaMusic() {
-        if (!okinawaMusicRunning || !audioContext || !musicGain) return;
-        const melody = [
-          523.25, 659.25, 698.46, 783.99,
-          987.77, 783.99, 698.46, 659.25,
-          523.25, null, 659.25, 698.46,
-          783.99, 698.46, 659.25, null
-        ];
-        while (okinawaMusicNextTime < audioContext.currentTime + OKINAWA_MUSIC_LOOKAHEAD_SECONDS) {
-          const stepInBar = okinawaMusicStep % OKINAWA_MUSIC_STEPS_PER_BAR;
-          const note = melody[okinawaMusicStep % melody.length];
-          if (note) {
-            schedulePluck(note, okinawaMusicNextTime, {
-              duration: stepInBar % 2 === 0 ? 0.62 : 0.42,
-              gain: stepInBar === 0 ? 0.2 : 0.15,
-              q: 7
-            });
-            if (stepInBar === 2 || stepInBar === 6) {
-              schedulePluck(note * 1.01, okinawaMusicNextTime + 0.045, {
-                duration: 0.34,
-                gain: 0.06,
-                detune: 6,
-                q: 8
-              });
-            }
-          }
-          if (stepInBar === 0) {
-            schedulePluck(130.81, okinawaMusicNextTime, { duration: 1.15, gain: 0.08, type: "sine", q: 3 });
-            scheduleSoftDrum(okinawaMusicNextTime + 0.02);
-          }
-          if (stepInBar === 4) {
-            schedulePluck(196, okinawaMusicNextTime, { duration: 0.9, gain: 0.055, type: "sine", q: 3 });
-          }
-          okinawaMusicStep += 1;
-          okinawaMusicNextTime += OKINAWA_MUSIC_STEP_SECONDS;
-        }
-      }
-
       function shouldPlayReviewBgm() {
         return audioEnabled
           && reviewFocusMusicEnabled
@@ -3567,30 +3491,6 @@
 
       function shouldPlayN1Bgm() {
         return audioEnabled && appView === APP_VIEW_GAME && currentRegion().id === N1_REGION_ID;
-      }
-
-      function startOkinawaMusic() {
-        const context = ensureAudioGraph();
-        if (!context || okinawaMusicRunning) return;
-        if (context.state === "suspended") {
-          context.resume().then(updateStationMusic).catch(() => {});
-          return;
-        }
-        okinawaMusicRunning = true;
-        okinawaMusicStep = 0;
-        okinawaMusicNextTime = context.currentTime + 0.08;
-        rampGain(musicGain, 0.32, 0.12);
-        scheduleOkinawaMusic();
-        okinawaMusicTimer = window.setInterval(scheduleOkinawaMusic, 180);
-      }
-
-      function stopOkinawaMusic() {
-        if (okinawaMusicTimer) {
-          window.clearInterval(okinawaMusicTimer);
-          okinawaMusicTimer = 0;
-        }
-        okinawaMusicRunning = false;
-        rampGain(musicGain, 0, 0.1);
       }
 
       function startN4Bgm() {
@@ -3684,7 +3584,6 @@
           return;
         }
         if (shouldPlayReviewBgm()) {
-          stopOkinawaMusic();
           stopN5GameBgm();
           stopN4Bgm();
           stopN1Bgm();
@@ -3692,14 +3591,12 @@
           return;
         }
         if (shouldPlayN5GameBgm()) {
-          stopOkinawaMusic();
           stopN4Bgm();
           stopN1Bgm();
           stopReviewBgm();
           startN5GameBgm();
           return;
         }
-        stopOkinawaMusic();
         if (shouldPlayN4Bgm()) {
           stopN5GameBgm();
           stopN1Bgm();
@@ -4280,6 +4177,7 @@
       }
 
       function showReviewLevelSelect() {
+        loadWordMeta();
         els.homeScreen.classList.add("hidden");
         els.gameApp.hidden = false;
         appView = APP_VIEW_REVIEW;
@@ -4377,7 +4275,7 @@
       }
 
       function renderReviewWordMeta(word) {
-        const meta = word && word.meta;
+        const meta = word && WORD_META[word.id];
         els.reviewWordMeta.hidden = !reviewSession.revealed || !meta;
         if (!meta) return;
 
@@ -4437,8 +4335,15 @@
 
       function revealReviewAnswer() {
         if (reviewSession.finished) return;
+        const wordId = currentReviewWord() && currentReviewWord().id;
         reviewSession.revealed = true;
         renderReviewSession();
+        loadWordMeta().then(() => {
+          const currentWord = currentReviewWord();
+          if (reviewSession.revealed && currentWord && currentWord.id === wordId) {
+            renderReviewSession();
+          }
+        });
         els.reviewKnownButton.focus({ preventScroll: true });
       }
 
@@ -4914,17 +4819,6 @@
         updateMapRegionPositions();
       }
 
-      function switchRegion(regionId) {
-        enterRegion(regionId);
-      }
-
-      function resetCurrentRound() {
-        roundFoundIds = new Set();
-        hintedTargetIds = new Set();
-        selectedCells = [];
-        hintsLeft = HINTS_PER_ROUND;
-      }
-
       function stationVisualIndex(station) {
         const index = currentStations().findIndex((item) => item.id === station.id);
         return Math.max(0, index);
@@ -5001,10 +4895,6 @@
         value = Math.imul(value, 3266489909);
         value ^= value >>> 16;
         return (value >>> 0) / 4294967295;
-      }
-
-      function readPercent(value) {
-        return Number.parseFloat(String(value).replace("%", ""));
       }
 
       function percent(value) {
@@ -5756,7 +5646,7 @@
         hasWord: (reading) => WORDS_BY_READING.has(reading),
         getRootSave: () => JSON.parse(JSON.stringify(rootSave)),
         getRegion: () => ({ id: currentRegion().id, level: currentLevel(), boardSize: currentBoardSize(), wordsPerStation: currentWordsPerStation() }),
-        switchRegion,
+        switchRegion: enterRegion,
         currentPlayableWordLevels: () => [...new Set(currentPlayableWords().map((word) => word.level))],
         currentTargetLevels: () => [...new Set(roundTargets.map((target) => target.word.level))],
         currentSpacedReviewWordIds: () => currentSpacedReviewWords().map((word) => word.id),

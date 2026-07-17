@@ -1,13 +1,12 @@
-const CACHE_NAME = "fat-shiba-pwa-v5";
-const DATA_PATHS = new Set([
+const CACHE_NAME = "fat-shiba-pwa-v6";
+const DATA_PATHS = [
   "/data/word_data.js",
   "/data/word_meta.js"
-]);
+];
 const APP_SHELL = [
   "./",
   "./index.html",
   "./data/word_data.js?v=20260717-eggrolls-import",
-  "./data/word_meta.js?v=20260717-eggrolls-meta",
   "./assets/app-icon-180.png",
   "./assets/app-icon-192.png",
   "./assets/app-icon-512.png",
@@ -16,6 +15,10 @@ const APP_SHELL = [
   "./assets/jlpt-map-entrance.webp",
   "./assets/jlpt-map-entrance.png"
 ];
+
+function isDataRequest(url) {
+  return DATA_PATHS.some((path) => url.pathname.endsWith(path));
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -51,7 +54,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (DATA_PATHS.has(url.pathname)) {
+  if (isDataRequest(url)) {
     event.respondWith(
       fetch(request).then((networkResponse) => {
         if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
