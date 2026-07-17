@@ -3599,13 +3599,21 @@
           return;
         }
 
-        const png = background.png || background.webp;
-        const webp = background.webp || optimizedImageSrc(png);
+        const useMobileReviewBackground = shouldShowReviewBackground && window.matchMedia(MAP_MOBILE_QUERY).matches;
+        const png = useMobileReviewBackground
+          ? background.mobilePng || background.png || background.webp
+          : background.png || background.webp;
+        const webp = useMobileReviewBackground
+          ? background.mobileWebp || background.webp || optimizedImageSrc(png)
+          : background.webp || optimizedImageSrc(png);
+        const position = useMobileReviewBackground
+          ? background.mobilePosition || background.position || "center"
+          : background.position || "center";
         document.body.style.setProperty(
           "--scene-background-image",
           `url("${webp || png}")`
         );
-        document.body.style.setProperty("--scene-background-position", background.position || "center");
+        document.body.style.setProperty("--scene-background-position", position);
       }
 
       function showMapSelect() {
