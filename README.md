@@ -67,6 +67,14 @@ python3 tools/ocr/merge_n3_csv_wordlist.py
 python3 tools/ocr/fill_n3_zh_from_ocr_context.py
 ```
 
+產生詞性、例句與動詞變化補充資料：
+
+```bash
+python3 tools/dictionary/build_word_meta.py
+```
+
+補充資料來源在 `tools/dictionary/word_meta.csv`，產物是網站讀取的 `web/data/word_meta.js`。
+
 重新產生 N5 沖繩專心背景音樂 WAV：
 
 ```bash

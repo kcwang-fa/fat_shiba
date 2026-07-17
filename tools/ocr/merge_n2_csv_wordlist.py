@@ -83,6 +83,32 @@ EXISTING_ZH_CORRECTIONS = {
     "なぞ": "謎、謎語",
 }
 
+ZH_CORRECTIONS = {
+    "おどりでる": "躍出、突然出現",
+    "きわめる": "鑽研到底、達到極限",
+    "くっつける": "黏上、貼上",
+    "シャープペンシル": "自動鉛筆",
+    "しゃあぷぺんしる": "自動鉛筆",
+    "レンズ": "鏡片、鏡頭",
+    "れんず": "鏡片、鏡頭",
+    "つまずく": "絆倒、受挫",
+    "うばう": "奪取、剝奪",
+    "ばっする": "處罰、責罰",
+    "ためらう": "猶豫、遲疑",
+    "とがる": "尖銳、神經緊張",
+    "なす": "做、為",
+    "くるしむ": "痛苦、難受",
+    "きみがわるい": "毛骨悚然、令人不快",
+    "ひねる": "扭、擰",
+    "ごくろうさま": "辛苦了",
+    "ぜひとも": "一定、無論如何",
+    "どういたしまして": "不客氣",
+    "たてがき": "直寫、縱書",
+    "はさむ": "夾住、插入",
+    "ざつおん": "雜音、噪音",
+    "じゅわき": "聽筒",
+}
+
 
 def nfkc(value: str | None) -> str:
     return unicodedata.normalize("NFKC", (value or "").strip())
@@ -185,10 +211,11 @@ def existing_readings(word_data: str, index_html: str) -> tuple[set[str], list[d
     return readings, n2_existing
 
 
-def load_candidate_contexts() -> dict[tuple[str, str, str, str], str]:
+def load_candidate_contexts() -> tuple[dict[tuple[str, str, str, str], str], dict[tuple[str, str, str], str]]:
     contexts: dict[tuple[str, str, str, str], str] = {}
+    fallback_contexts: dict[tuple[str, str, str], str] = {}
     if not CANDIDATES_CSV.exists():
-        return contexts
+        return contexts, fallback_contexts
     with CANDIDATES_CSV.open(newline="", encoding="utf-8-sig") as source:
         for row in csv.DictReader(source):
             key = (
@@ -197,8 +224,13 @@ def load_candidate_contexts() -> dict[tuple[str, str, str, str], str]:
                 nfkc(row.get("page")),
                 nfkc(row.get("column")),
             )
-            contexts.setdefault(key, nfkc(row.get("ocr_context")))
-    return contexts
+            context = nfkc(row.get("ocr_context"))
+            contexts.setdefault(key, context)
+            fallback_contexts.setdefault(
+                (nfkc(row.get("reading")), nfkc(row.get("page")), nfkc(row.get("column"))),
+                context,
+            )
+    return contexts, fallback_contexts
 
 
 def clean_gloss_segment(value: str) -> str:
@@ -285,12 +317,14 @@ def merge_rows() -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[
         normalized = normalize_kana_reading(row["reading"] or row["declaredNormalizedReading"])
         if normalized in EXISTING_ZH_CORRECTIONS:
             row["zh"] = EXISTING_ZH_CORRECTIONS[normalized]
+        if normalized in ZH_CORRECTIONS:
+            row["zh"] = ZH_CORRECTIONS[normalized]
     existing_n2_readings = {
         normalize_kana_reading(row["reading"] or row["declaredNormalizedReading"])
         for row in existing_n2_rows
     }
     appended_readings: set[str] = set()
-    contexts = load_candidate_contexts()
+    contexts, fallback_contexts = load_candidate_contexts()
     imported: list[dict[str, str]] = []
     rejected: list[dict[str, str]] = []
     reject_counts: Counter[str] = Counter()
@@ -339,8 +373,13 @@ def merge_rows() -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[
                 reject(row, "bad_game_text", reading, writing)
                 continue
 
-            context = contexts.get((nfkc(row.get("reading")), nfkc(row.get("writing")), nfkc(row.get("page")), nfkc(row.get("column"))), "")
-            zh = extract_zh(context, writing)
+            context = contexts.get(
+                (nfkc(row.get("reading")), nfkc(row.get("writing")), nfkc(row.get("page")), nfkc(row.get("column"))),
+                "",
+            )
+            if not context:
+                context = fallback_contexts.get((nfkc(row.get("reading")), nfkc(row.get("page")), nfkc(row.get("column"))), "")
+            zh = ZH_CORRECTIONS.get(normalized) or extract_zh(context, writing)
             if not zh:
                 reject(row, "blank_zh", reading, writing)
                 continue
@@ -393,6 +432,10 @@ def audit_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
             reasons.append("too_short_zh")
         if not CJK_RE.search(row["zh"]):
             reasons.append("zh_without_cjk")
+        if re.search(r"[ぁ-んァ-ヶーA-Za-z]", row["zh"]):
+            reasons.append("zh_contains_non_chinese_gloss")
+        if row["zh"] == row["writing"] and re.search(r"[ぁ-んァ-ヶー]", row["writing"]):
+            reasons.append("zh_matches_japanese_writing")
         if any(BAD_GAME_TEXT_RE.search(value) for value in row.values()):
             reasons.append("bad_game_text")
         if row["script"] not in {"kanji", "hiragana", "katakana"}:

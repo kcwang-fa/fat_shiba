@@ -666,6 +666,100 @@
       overflow-wrap: anywhere;
     }
 
+    .review-word-meta {
+      display: grid;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .review-meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .review-meta-pill {
+      border-radius: 999px;
+      border: 1px solid rgba(45, 155, 159, 0.28);
+      background: rgba(232, 246, 242, 0.82);
+      color: var(--teal-dark);
+      padding: 4px 8px;
+      font-size: 0.78rem;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .review-example {
+      display: grid;
+      gap: 3px;
+      text-align: left;
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, 0.72);
+      border: 1px solid rgba(234, 217, 195, 0.82);
+      padding: 8px 10px;
+    }
+
+    .review-meta-label {
+      color: var(--muted);
+      font-size: 0.74rem;
+      font-weight: 900;
+    }
+
+    .review-example strong {
+      font-family: var(--font-kana);
+      color: var(--ink);
+      font-size: 1rem;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .review-example span:last-child,
+    .review-meta-note {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 800;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .review-verb-forms {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .review-form-chip {
+      min-width: 0;
+      border-radius: var(--radius);
+      background: rgba(255, 248, 239, 0.82);
+      border: 1px solid rgba(216, 189, 150, 0.82);
+      padding: 6px 8px;
+      display: grid;
+      gap: 1px;
+      text-align: left;
+    }
+
+    .review-form-chip span {
+      color: var(--muted);
+      font-size: 0.7rem;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .review-form-chip strong {
+      font-family: var(--font-kana);
+      color: var(--ink);
+      font-size: 0.94rem;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+
+    .review-meta-note {
+      margin: 0;
+      text-align: left;
+    }
+
     .review-actions {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -728,12 +822,42 @@
     }
 
     body.map-view .map-select-panel {
+      position: relative;
       min-height: 100svh;
       padding: 0;
       border: 0;
       border-radius: 0;
       background: transparent;
       box-shadow: none;
+    }
+
+    .map-home-button {
+      position: absolute;
+      left: calc(env(safe-area-inset-left, 0px) + 14px);
+      top: calc(env(safe-area-inset-top, 0px) + 14px);
+      z-index: 3;
+      min-width: 0;
+      min-height: 42px;
+      padding: 0 13px 0 11px;
+      border-radius: 999px;
+      color: #314258;
+      background: rgba(255, 253, 248, 0.82);
+      border: 1px solid rgba(183, 143, 91, 0.42);
+      box-shadow: 0 8px 18px rgba(83, 57, 32, 0.16);
+      -webkit-backdrop-filter: blur(6px);
+      backdrop-filter: blur(6px);
+      font-size: 0.86rem;
+      font-weight: 900;
+    }
+
+    .map-home-button:hover {
+      background: rgba(255, 253, 248, 0.95);
+    }
+
+    .map-home-button .map-home-icon {
+      font-size: 1.25rem;
+      line-height: 1;
+      transform: translateY(-1px);
     }
 
     .region-row {
@@ -1905,6 +2029,10 @@
     </header>
 
     <section class="map-select-panel" id="mapSelectPanel" aria-label="JLPT 關卡入口">
+      <button class="ghost-button map-home-button" type="button" id="mapHomeButton" aria-label="返回首頁">
+        <span class="map-home-icon" aria-hidden="true">‹</span>
+        <span>返回</span>
+      </button>
       <div class="region-row" id="regionRow" tabindex="-1" aria-label="選擇 N1 到 N5 關卡"></div>
     </section>
 
@@ -1934,6 +2062,16 @@
         <div class="review-answer" id="reviewAnswer" hidden>
           <span class="review-answer-label">中文意思</span>
           <strong class="review-zh" id="reviewWordZh"></strong>
+          <div class="review-word-meta" id="reviewWordMeta" hidden>
+            <div class="review-meta-pills" id="reviewMetaPills"></div>
+            <div class="review-example" id="reviewExample" hidden>
+              <span class="review-meta-label">例句</span>
+              <strong id="reviewExampleJa"></strong>
+              <span id="reviewExampleZh"></span>
+            </div>
+            <div class="review-verb-forms" id="reviewVerbForms" hidden></div>
+            <p class="review-meta-note" id="reviewMetaNote" hidden></p>
+          </div>
         </div>
       </div>
 
@@ -2056,6 +2194,7 @@
   </div>
 
   <script src="data/word_data.js"></script>
+  <script src="data/word_meta.js"></script>
 
   <script>
     (() => {
@@ -2073,6 +2212,8 @@
         N1_BASE_WORD_ROWS,
         N1_EXTRA_WORD_ROWS_TEXT
       } = window.FAT_SHIBA_WORD_DATA;
+
+      const WORD_META = window.FAT_SHIBA_WORD_META || {};
 
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
@@ -2813,7 +2954,8 @@
             playReading,
             zh,
             level,
-            script
+            script,
+            meta: WORD_META[id] || null
           };
         })
       ).filter(isPlayableWord));
@@ -2865,6 +3007,13 @@
         reviewWordReading: document.getElementById("reviewWordReading"),
         reviewAnswer: document.getElementById("reviewAnswer"),
         reviewWordZh: document.getElementById("reviewWordZh"),
+        reviewWordMeta: document.getElementById("reviewWordMeta"),
+        reviewMetaPills: document.getElementById("reviewMetaPills"),
+        reviewExample: document.getElementById("reviewExample"),
+        reviewExampleJa: document.getElementById("reviewExampleJa"),
+        reviewExampleZh: document.getElementById("reviewExampleZh"),
+        reviewVerbForms: document.getElementById("reviewVerbForms"),
+        reviewMetaNote: document.getElementById("reviewMetaNote"),
         reviewCardActions: document.getElementById("reviewCardActions"),
         reviewFocusMusicButton: document.getElementById("reviewFocusMusicButton"),
         reviewRevealButton: document.getElementById("reviewRevealButton"),
@@ -2881,6 +3030,7 @@
         playPanel: document.getElementById("playPanel"),
         statusPanel: document.getElementById("statusPanel"),
         backToMapButton: document.getElementById("backToMapButton"),
+        mapHomeButton: document.getElementById("mapHomeButton"),
         audioToggleButton: document.getElementById("audioToggleButton"),
         board: document.getElementById("board"),
         currentSpell: document.getElementById("currentSpell"),
@@ -3969,6 +4119,65 @@
         return reviewSession.words[reviewSession.index] || null;
       }
 
+      function setReviewMetaPills(meta) {
+        els.reviewMetaPills.replaceChildren();
+        const labels = [meta.posLabel, meta.verbClassLabel, meta.transitivityLabel].filter(Boolean);
+        for (const label of labels) {
+          const pill = document.createElement("span");
+          pill.className = "review-meta-pill";
+          pill.textContent = label;
+          els.reviewMetaPills.appendChild(pill);
+        }
+      }
+
+      function setReviewVerbForms(forms) {
+        els.reviewVerbForms.replaceChildren();
+        if (!forms) {
+          els.reviewVerbForms.hidden = true;
+          return;
+        }
+
+        const displayOrder = [
+          ["dictionary", "辞書形"],
+          ["masu", "ます形"],
+          ["te", "て形"],
+          ["ta", "た形"],
+          ["nai", "ない形"]
+        ];
+        for (const [key, label] of displayOrder) {
+          if (!forms[key]) continue;
+          const chip = document.createElement("div");
+          const labelEl = document.createElement("span");
+          const valueEl = document.createElement("strong");
+          chip.className = "review-form-chip";
+          labelEl.textContent = label;
+          valueEl.textContent = forms[key];
+          chip.append(labelEl, valueEl);
+          els.reviewVerbForms.appendChild(chip);
+        }
+        els.reviewVerbForms.hidden = els.reviewVerbForms.childElementCount === 0;
+      }
+
+      function renderReviewWordMeta(word) {
+        const meta = word && word.meta;
+        els.reviewWordMeta.hidden = !reviewSession.revealed || !meta;
+        if (!meta) return;
+
+        setReviewMetaPills(meta);
+
+        const example = Array.isArray(meta.examples) ? meta.examples[0] : null;
+        els.reviewExample.hidden = !example;
+        if (example) {
+          els.reviewExampleJa.textContent = example.ja || "";
+          els.reviewExampleZh.textContent = example.zh || "";
+        }
+
+        setReviewVerbForms(meta.forms);
+
+        els.reviewMetaNote.hidden = !meta.note;
+        els.reviewMetaNote.textContent = meta.note || "";
+      }
+
       function renderReviewSession() {
         updateReviewHeader();
         const hasStarted = reviewSession.words.length > 0 || reviewSession.finished;
@@ -4002,6 +4211,7 @@
         els.reviewWordReading.textContent = word.playReading;
         els.reviewWordZh.textContent = word.zh;
         els.reviewAnswer.hidden = !reviewSession.revealed;
+        renderReviewWordMeta(word);
         els.reviewRevealButton.hidden = reviewSession.revealed;
         els.reviewKnownButton.hidden = !reviewSession.revealed;
         els.reviewMissedButton.hidden = !reviewSession.revealed;
@@ -5270,6 +5480,7 @@
         }
         showMapSelect();
       });
+      els.mapHomeButton.addEventListener("click", showHomeScreen);
       els.audioToggleButton.addEventListener("click", toggleAudio);
       els.resetButton.addEventListener("click", armReset);
       els.nextStationButton.addEventListener("click", goNextStation);
