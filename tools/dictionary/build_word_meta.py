@@ -13,9 +13,12 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_CSV = PROJECT_ROOT / "tools" / "dictionary" / "word_meta.csv"
 N5_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n5_examples.csv"
 N4_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n4_examples.csv"
+N3_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n3_examples.csv"
+N2_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n2_examples.csv"
 N1_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n1_examples.csv"
 SOURCE_WORD_DIR = PROJECT_ROOT / "tools" / "dictionary" / "sources" / "words"
 OUTPUT_DIR = PROJECT_ROOT / "web" / "data"
+LEGACY_OUTPUT_JS = OUTPUT_DIR / "word_meta.js"
 EGGROLLS_IMPORTED_CSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_word_import" / "eggrolls_imported_words.csv"
 EGGROLLS_NOTES_TSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_apkg_parse" / "notes.tsv"
 LEVEL_ORDER = ("N5", "N4", "N3", "N2", "N1")
@@ -23,8 +26,11 @@ LEVEL_ORDER = ("N5", "N4", "N3", "N2", "N1")
 LEVEL_EXAMPLE_CSVS = {
     "n5": N5_EXAMPLES_CSV,
     "n4": N4_EXAMPLES_CSV,
+    "n3": N3_EXAMPLES_CSV,
+    "n2": N2_EXAMPLES_CSV,
     "n1": N1_EXAMPLES_CSV,
 }
+COMPLETE_EXAMPLE_LEVELS = {"n5", "n4", "n1"}
 
 POS_LABELS = {
     "noun": "名詞",
@@ -83,6 +89,7 @@ EXPECTED_EXAMPLE_FIELDS = [
 ]
 
 CORE_LEVEL_ID_RE = re.compile(r"^(n[1-5])_\d{4}$")
+LEVEL_EXAMPLE_ID_RE = re.compile(r"^(n[1-5])_(?:\d{4}|egg_\d{4})$")
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 WORD_SOURCE_FIELDS = [
     "id",
@@ -688,6 +695,11 @@ def is_core_level_id(word_id: str, level: str) -> bool:
     return bool(match and match.group(1) == level)
 
 
+def is_level_example_id(word_id: str, level: str) -> bool:
+    match = LEVEL_EXAMPLE_ID_RE.fullmatch(word_id)
+    return bool(match and match.group(1) == level)
+
+
 def load_level_examples(level: str, words: dict[str, dict[str, str]]) -> dict[str, dict[str, str]]:
     examples_path = LEVEL_EXAMPLE_CSVS[level]
     examples: dict[str, dict[str, str]] = {}
@@ -710,19 +722,20 @@ def load_level_examples(level: str, words: dict[str, dict[str, str]]) -> dict[st
             if word_id not in words:
                 BUILD_WARNINGS.append(f"{examples_path.relative_to(PROJECT_ROOT)}:{line_no}: skipped unknown example id {word_id}")
                 continue
-            if not is_core_level_id(word_id, level):
-                raise ValueError(f"Line {line_no}: example CSV only accepts core {level.upper()} ids")
+            if not is_level_example_id(word_id, level):
+                raise ValueError(f"Line {line_no}: example CSV only accepts {level.upper()} core or egg ids")
             if not example_ja or not example_zh:
                 raise ValueError(f"Line {line_no}: example_ja and example_zh are required")
             examples[word_id] = {"ja": example_ja, "zh": example_zh}
 
-    missing = sorted(
-        word_id for word_id in words
-        if is_core_level_id(word_id, level) and word_id not in examples
-    )
-    if missing:
-        sample = ", ".join(missing[:8])
-        raise ValueError(f"{level.upper()} examples missing {len(missing)} ids: {sample}")
+    if level in COMPLETE_EXAMPLE_LEVELS:
+        missing = sorted(
+            word_id for word_id in words
+            if is_core_level_id(word_id, level) and word_id not in examples
+        )
+        if missing:
+            sample = ", ".join(missing[:8])
+            raise ValueError(f"{level.upper()} examples missing {len(missing)} ids: {sample}")
 
     return examples
 
@@ -899,7 +912,10 @@ def load_eggrolls_imported_note_ids(words: dict[str, dict[str, str]]) -> dict[st
     return note_ids
 
 
-def load_eggrolls_metadata(words: dict[str, dict[str, str]]) -> dict[str, dict[str, object]]:
+def load_eggrolls_metadata(
+    words: dict[str, dict[str, str]],
+    examples: dict[str, dict[str, str]],
+) -> dict[str, dict[str, object]]:
     notes = load_eggrolls_notes()
     imported_note_ids = load_eggrolls_imported_note_ids(words)
     metadata: dict[str, dict[str, object]] = {}
@@ -923,7 +939,9 @@ def load_eggrolls_metadata(words: dict[str, dict[str, str]]) -> dict[str, dict[s
 
         apply_eggrolls_forms(item, words[word_id], pos, verb_class)
 
-        if word_id.startswith("n1_"):
+        if word_id in examples:
+            example = examples[word_id]
+        elif word_id.startswith("n1_"):
             example = best_eggrolls_example(note)
             if example:
                 example = deepen_short_n1_example(example)
@@ -1045,7 +1063,7 @@ def build_meta() -> dict[str, dict[str, object]]:
             seen_ids.add(word_id)
             metadata[word_id] = item
 
-    for word_id, item in load_eggrolls_metadata(words).items():
+    for word_id, item in load_eggrolls_metadata(words, examples).items():
         metadata.setdefault(word_id, item)
 
     for word_id in sorted(words, key=word_sort_key):
@@ -1083,6 +1101,7 @@ def write_meta_file(path: Path, level: str | None, metadata: dict[str, dict[str,
 
 
 def write_meta_outputs(metadata: dict[str, dict[str, object]]) -> None:
+    write_meta_file(LEGACY_OUTPUT_JS, None, metadata)
     for level in LEVEL_ORDER:
         prefix = level.lower()
         level_metadata = {

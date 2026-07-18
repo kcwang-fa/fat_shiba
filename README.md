@@ -88,10 +88,12 @@ node tools/dictionary/build_word_level_data.js
 python3 tools/dictionary/build_word_meta.py
 ```
 
-補充資料來源在 `tools/dictionary/word_meta.csv`，產物是網站讀取的 `web/data/word-meta-n*.js`。前端會依等級 lazy load 分級 meta 檔。
+補充資料來源在 `tools/dictionary/word_meta.csv`，產物是網站讀取的 `web/data/word-meta-n*.js`。前端會依等級 lazy load 分級 meta 檔；`web/data/word_meta.js` 只保留為舊版頁面與快取相容用產物，不是 canonical source。
 產生器會自動補齊所有 N5 單字的基本詞性與例句；CSV 內的資料會優先覆寫自動結果，適合用來精修特定單字的例句、詞性、動詞類型或備註。
 N5 的學習例句集中維護在 `tools/dictionary/n5_examples.csv`；修改後重新執行產生器即可更新網站資料。
 N4 的學習例句集中維護在 `tools/dictionary/n4_examples.csv`；修改後重新執行產生器即可更新網站資料。
+N3 的學習例句可分批維護在 `tools/dictionary/n3_examples.csv`；空白或尚未補齊不會阻止產生器執行。
+N2 的學習例句可分批維護在 `tools/dictionary/n2_examples.csv`；空白或尚未補齊不會阻止產生器執行。
 N1 的學習例句集中維護在 `tools/dictionary/n1_examples.csv`；修改後重新執行產生器即可更新網站資料。
 
 WAV 母檔集中放在 `generated_audio/source_audio/`，`web/assets/audio/` 只保留瀏覽器實際播放的 OGG/MP3。重新產生 WAV 後，如需更新網站音訊，請再用 ffmpeg 轉出對應的 `.ogg` 與 `.mp3` 到 `web/assets/audio/`。
