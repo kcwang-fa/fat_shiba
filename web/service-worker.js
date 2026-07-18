@@ -1,11 +1,15 @@
-const CACHE_NAME = "fat-shiba-pwa-v7";
+const CACHE_NAME = "fat-shiba-pwa-v8";
 const DATA_PATHS = [
   "/data/word-level-n5.js",
   "/data/word-level-n4.js",
   "/data/word-level-n3.js",
   "/data/word-level-n2.js",
   "/data/word-level-n1.js",
-  "/data/word_meta.js"
+  "/data/word-meta-n5.js",
+  "/data/word-meta-n4.js",
+  "/data/word-meta-n3.js",
+  "/data/word-meta-n2.js",
+  "/data/word-meta-n1.js"
 ];
 const APP_SHELL = [
   "./",

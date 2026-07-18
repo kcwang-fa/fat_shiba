@@ -14,12 +14,12 @@ SOURCE_CSV = PROJECT_ROOT / "tools" / "dictionary" / "word_meta.csv"
 N5_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n5_examples.csv"
 N4_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n4_examples.csv"
 N1_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n1_examples.csv"
-WORD_DATA_JS = PROJECT_ROOT / "web" / "data" / "word_data.js"
-WORD_LEVEL_BUILDER_JS = PROJECT_ROOT / "tools" / "dictionary" / "build_word_level_data.js"
-INDEX_HTML = PROJECT_ROOT / "web" / "index.html"
-OUTPUT_JS = PROJECT_ROOT / "web" / "data" / "word_meta.js"
+SOURCE_WORD_DIR = PROJECT_ROOT / "tools" / "dictionary" / "sources" / "words"
+OUTPUT_DIR = PROJECT_ROOT / "web" / "data"
+OUTPUT_JS = OUTPUT_DIR / "word_meta.js"
 EGGROLLS_IMPORTED_CSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_word_import" / "eggrolls_imported_words.csv"
 EGGROLLS_NOTES_TSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_apkg_parse" / "notes.tsv"
+LEVEL_ORDER = ("N5", "N4", "N3", "N2", "N1")
 
 LEVEL_EXAMPLE_CSVS = {
     "n5": N5_EXAMPLES_CSV,
@@ -83,11 +83,19 @@ EXPECTED_EXAMPLE_FIELDS = [
     "example_zh",
 ]
 
-JS_ROW_RE = re.compile(
-    r'\["([^"]+)",\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)",\s*"([^"]*)"\]'
-)
 CORE_LEVEL_ID_RE = re.compile(r"^(n[1-5])_\d{4}$")
 HTML_TAG_RE = re.compile(r"<[^>]+>")
+WORD_SOURCE_FIELDS = [
+    "id",
+    "reading",
+    "writing",
+    "normalizedReading",
+    "playReading",
+    "zh",
+    "level",
+    "script",
+]
+BUILD_WARNINGS: list[str] = []
 
 KANA_VOWELS = {
     **dict.fromkeys("あぁかがさざただなはばぱまやゃらわ", "a"),
@@ -344,240 +352,54 @@ def clean_anki_text(value: str | None) -> str:
     return text.replace("&nbsp;", " ").strip()
 
 
-def row_dict(word_id: str, reading: str, writing: str, normalized: str, zh: str, script: str) -> dict[str, str]:
-    return {
-        "id": word_id,
-        "reading": reading,
-        "writing": writing,
-        "normalizedReading": normalized,
-        "zh": zh,
-        "script": script,
-    }
-
-
 def word_key(reading: str, writing: str, normalized: str) -> tuple[str, str]:
     return normalize_kana_reading(reading or normalized), writing.strip()
 
 
-def explicit_word_rows(word_data: str) -> list[dict[str, str]]:
-    return [row_dict(*match) for match in JS_ROW_RE.findall(word_data)]
-
-
-def extract_pipe_text(word_data: str, name: str) -> str:
-    match = re.search(rf"{re.escape(name)}:\s*`(.*?)`", word_data, flags=re.S)
-    if not match:
-        return ""
-    return match.group(1)
-
-
-def build_level_word_rows(
-    prefix: str,
-    start_number: int,
-    rows_text: str,
-    excluded_readings: set[str],
-    limit: int | None = None,
-) -> list[dict[str, str]]:
-    rows: list[dict[str, str]] = []
-    seen_readings = set(excluded_readings)
-
-    for raw_row in rows_text.strip().splitlines():
-        if limit is not None and len(rows) >= limit:
-            break
-        row = raw_row.strip()
-        if not row:
-            continue
-        parts = [part.strip() for part in row.split("|")]
-        if len(parts) != 5:
-            raise ValueError(f"Invalid {prefix} word row: {row}")
-        reading, writing, declared_normalized_reading, zh, script = parts
-        normalized = normalize_kana_reading(reading or declared_normalized_reading)
-        if normalized in seen_readings:
-            continue
-        seen_readings.add(normalized)
-        rows.append(row_dict(
-            f"{prefix}_{start_number + len(rows):04d}",
-            reading,
-            writing,
-            normalized,
-            zh,
-            script,
-        ))
-    return rows
-
-
-def build_imported_word_rows(prefix: str, rows_text: str, excluded_keys: set[tuple[str, str]]) -> list[dict[str, str]]:
-    rows: list[dict[str, str]] = []
-    seen_keys = set(excluded_keys)
-
-    for raw_row in rows_text.strip().splitlines():
-        row = raw_row.strip()
-        if not row:
-            continue
-        parts = [part.strip() for part in row.split("|")]
-        if len(parts) != 5:
-            raise ValueError(f"Invalid {prefix} imported word row: {row}")
-        reading, writing, declared_normalized_reading, zh, script = parts
-        normalized = normalize_kana_reading(reading or declared_normalized_reading)
-        key = word_key(reading, writing, declared_normalized_reading)
-        if key in seen_keys:
-            continue
-        seen_keys.add(key)
-        rows.append(row_dict(
-            f"{prefix}_{len(rows) + 1:04d}",
-            reading,
-            writing,
-            normalized,
-            zh,
-            script,
-        ))
-    return rows
-
-
-def reading_set(rows: list[dict[str, str]]) -> set[str]:
-    return {normalize_kana_reading(row["reading"] or row["normalizedReading"]) for row in rows}
-
-
-def key_set(rows: list[dict[str, str]]) -> set[tuple[str, str]]:
-    return {word_key(row["reading"], row["writing"], row["normalizedReading"]) for row in rows}
+def source_word_files_for_level(level: str) -> tuple[Path, Path]:
+    prefix = level.lower()
+    return (
+        SOURCE_WORD_DIR / f"{prefix}_core.csv",
+        SOURCE_WORD_DIR / f"{prefix}_eggrolls.csv",
+    )
 
 
 def load_word_index() -> dict[str, dict[str, str]]:
-    word_data = WORD_DATA_JS.read_text(encoding="utf-8")
-    word_level_builder = WORD_LEVEL_BUILDER_JS.read_text(encoding="utf-8")
-    index_html = INDEX_HTML.read_text(encoding="utf-8")
-    explicit_rows = (
-        explicit_word_rows(word_data)
-        + explicit_word_rows(word_level_builder)
-        + explicit_word_rows(index_html)
-    )
-    rows_by_prefix = {
-        prefix: [row for row in explicit_rows if row["id"].startswith(f"{prefix}_")]
-        for prefix in ("n1", "n2", "n3", "n4", "n5")
-    }
-
-    n5_rows = rows_by_prefix["n5"]
-    n4_base_rows = rows_by_prefix["n4"]
-    n3_base_rows = rows_by_prefix["n3"]
-    n2_base_rows = rows_by_prefix["n2"]
-    n1_base_rows = rows_by_prefix["n1"]
-
-    n5_readings = reading_set(n5_rows)
-    n4_base_readings = reading_set(n4_base_rows)
-    n4_extra_rows = build_level_word_rows(
-        "n4",
-        61,
-        extract_pipe_text(word_data, "N4_EXTRA_WORD_ROWS_TEXT"),
-        n5_readings | n4_base_readings,
-        limit=540,
-    )
-    n4_csv_rows = build_level_word_rows(
-        "n4",
-        601,
-        extract_pipe_text(word_data, "N4_CSV_WORD_ROWS_TEXT"),
-        n5_readings | n4_base_readings | reading_set(n4_extra_rows),
-    )
-    n4_word_rows = [
-        row for row in [*n4_base_rows, *n4_extra_rows, *n4_csv_rows]
-        if normalize_kana_reading(row["reading"] or row["normalizedReading"]) not in n5_readings
-        and not (row["normalizedReading"] == "いっぽう" and row["writing"] == "一方")
-    ]
-
-    n3_lower_readings = n5_readings | n4_base_readings | reading_set(n4_extra_rows)
-    n3_base_readings = reading_set(n3_base_rows)
-    reserved_n3_match = re.search(r"N3_RESERVED_UPPER_LEVEL_READING_VALUES:\s*\[(.*?)\]", word_data, flags=re.S)
-    reserved_n3_readings = set(re.findall(r'"([^"]+)"', reserved_n3_match.group(1))) if reserved_n3_match else set()
-    n3_extra_rows = build_level_word_rows(
-        "n3",
-        61,
-        extract_pipe_text(word_data, "N3_EXTRA_WORD_ROWS_TEXT"),
-        n3_lower_readings | n3_base_readings | {normalize_kana_reading(value) for value in reserved_n3_readings},
-    )
-    n3_word_rows = [
-        row for row in [*n3_base_rows, *n3_extra_rows]
-        if normalize_kana_reading(row["reading"] or row["normalizedReading"]) not in n3_lower_readings
-    ]
-
-    n2_lower_readings = reading_set([*n5_rows, *n4_word_rows, *n3_word_rows])
-    n2_base_readings = reading_set(n2_base_rows)
-    n2_extra_rows = build_level_word_rows(
-        "n2",
-        57,
-        extract_pipe_text(word_data, "N2_EXTRA_WORD_ROWS_TEXT"),
-        n2_lower_readings | n2_base_readings,
-    )
-
-    n1_lower_readings = reading_set([*n5_rows, *n4_word_rows, *n3_word_rows, *n2_base_rows, *n2_extra_rows])
-    n1_base_readings = reading_set(n1_base_rows)
-    n1_extra_rows = build_level_word_rows(
-        "n1",
-        51,
-        extract_pipe_text(word_data, "N1_EXTRA_WORD_ROWS_TEXT"),
-        n1_lower_readings | n1_base_readings,
-    )
-
-    n5_eggrolls_rows = build_imported_word_rows(
-        "n5_egg",
-        extract_pipe_text(word_data, "EGGROLLS_N5_WORD_ROWS_TEXT"),
-        key_set(n5_rows),
-    )
-    n4_eggrolls_rows = build_imported_word_rows(
-        "n4_egg",
-        extract_pipe_text(word_data, "EGGROLLS_N4_WORD_ROWS_TEXT"),
-        key_set([*n5_rows, *n5_eggrolls_rows, *n4_word_rows]),
-    )
-    n3_eggrolls_rows = build_imported_word_rows(
-        "n3_egg",
-        extract_pipe_text(word_data, "EGGROLLS_N3_WORD_ROWS_TEXT"),
-        key_set([*n5_rows, *n5_eggrolls_rows, *n4_word_rows, *n4_eggrolls_rows, *n3_word_rows]),
-    )
-    n2_eggrolls_rows = build_imported_word_rows(
-        "n2_egg",
-        extract_pipe_text(word_data, "EGGROLLS_N2_WORD_ROWS_TEXT"),
-        key_set([
-            *n5_rows,
-            *n5_eggrolls_rows,
-            *n4_word_rows,
-            *n4_eggrolls_rows,
-            *n3_word_rows,
-            *n3_eggrolls_rows,
-            *n2_base_rows,
-            *n2_extra_rows,
-        ]),
-    )
-    n1_eggrolls_rows = build_imported_word_rows(
-        "n1_egg",
-        extract_pipe_text(word_data, "EGGROLLS_N1_WORD_ROWS_TEXT"),
-        key_set([
-            *n5_rows,
-            *n5_eggrolls_rows,
-            *n4_word_rows,
-            *n4_eggrolls_rows,
-            *n3_word_rows,
-            *n3_eggrolls_rows,
-            *n2_base_rows,
-            *n2_extra_rows,
-            *n2_eggrolls_rows,
-            *n1_base_rows,
-            *n1_extra_rows,
-        ]),
-    )
-
     words: dict[str, dict[str, str]] = {}
-    for row in [
-        *n5_rows,
-        *n5_eggrolls_rows,
-        *n4_word_rows,
-        *n4_eggrolls_rows,
-        *n3_word_rows,
-        *n3_eggrolls_rows,
-        *n2_base_rows,
-        *n2_extra_rows,
-        *n2_eggrolls_rows,
-        *n1_base_rows,
-        *n1_extra_rows,
-        *n1_eggrolls_rows,
-    ]:
-        words[row["id"]] = row
+    seen_keys: set[tuple[str, str]] = set()
+
+    for level in LEVEL_ORDER:
+        for path in source_word_files_for_level(level):
+            with path.open(newline="", encoding="utf-8-sig") as source:
+                reader = csv.DictReader(source)
+                if reader.fieldnames != WORD_SOURCE_FIELDS:
+                    raise ValueError(f"Expected word source fields {WORD_SOURCE_FIELDS}, got {reader.fieldnames}")
+                for line_no, row in enumerate(reader, start=2):
+                    word_id = (row.get("id") or "").strip()
+                    if not word_id:
+                        raise ValueError(f"{path.relative_to(PROJECT_ROOT)}:{line_no}: id is required")
+                    declared_level = (row.get("level") or "").strip()
+                    if declared_level != level:
+                        raise ValueError(
+                            f"{path.relative_to(PROJECT_ROOT)}:{line_no}: level is {declared_level}, expected {level}"
+                        )
+
+                    word = {
+                        "id": word_id,
+                        "reading": (row.get("reading") or "").strip(),
+                        "writing": (row.get("writing") or "").strip(),
+                        "normalizedReading": (row.get("normalizedReading") or "").strip(),
+                        "zh": (row.get("zh") or "").strip(),
+                        "script": (row.get("script") or "").strip(),
+                    }
+                    key = (
+                        (row.get("playReading") or "").strip(),
+                        word["writing"],
+                    )
+                    if key in seen_keys:
+                        continue
+                    seen_keys.add(key)
+                    words[word_id] = word
     return words
 
 
@@ -887,7 +709,8 @@ def load_level_examples(level: str, words: dict[str, dict[str, str]]) -> dict[st
             if word_id in examples:
                 raise ValueError(f"Line {line_no}: duplicate example id {word_id}")
             if word_id not in words:
-                raise ValueError(f"Line {line_no}: unknown example id {word_id}")
+                BUILD_WARNINGS.append(f"{examples_path.relative_to(PROJECT_ROOT)}:{line_no}: skipped unknown example id {word_id}")
+                continue
             if not is_core_level_id(word_id, level):
                 raise ValueError(f"Line {line_no}: example CSV only accepts core {level.upper()} ids")
             if not example_ja or not example_zh:
@@ -1178,7 +1001,8 @@ def build_meta() -> dict[str, dict[str, object]]:
             if word_id in seen_ids:
                 raise ValueError(f"Line {line_no}: duplicate id {word_id}")
             if word_id not in words:
-                raise ValueError(f"Line {line_no}: unknown word id {word_id}")
+                BUILD_WARNINGS.append(f"{SOURCE_CSV.relative_to(PROJECT_ROOT)}:{line_no}: skipped unknown word id {word_id}")
+                continue
             if pos not in POS_LABELS:
                 raise ValueError(f"Line {line_no}: unsupported pos {pos!r}")
             if bool(example_ja) != bool(example_zh):
@@ -1237,15 +1061,54 @@ def build_meta() -> dict[str, dict[str, object]]:
     return dict(sorted(metadata.items(), key=lambda item: word_sort_key(item[0])))
 
 
+def meta_level_for_word_id(word_id: str) -> str:
+    return word_id.split("_", 1)[0].upper()
+
+
+def write_meta_file(path: Path, level: str | None, metadata: dict[str, dict[str, object]]) -> None:
+    payload = json.dumps(metadata, ensure_ascii=False, indent=2)
+    if level:
+        output = (
+            "// Generated by tools/dictionary/build_word_meta.py. Do not edit by hand.\n"
+            "window.FAT_SHIBA_WORD_META_BY_LEVEL = window.FAT_SHIBA_WORD_META_BY_LEVEL || {};\n"
+            "window.FAT_SHIBA_WORD_META = window.FAT_SHIBA_WORD_META || {};\n"
+            f"window.FAT_SHIBA_WORD_META_BY_LEVEL.{level} = {payload};\n"
+            f"Object.assign(window.FAT_SHIBA_WORD_META, window.FAT_SHIBA_WORD_META_BY_LEVEL.{level});\n"
+        )
+    else:
+        output = (
+            "// Generated by tools/dictionary/build_word_meta.py. Do not edit by hand.\n"
+            f"window.FAT_SHIBA_WORD_META = {payload};\n"
+        )
+    path.write_text(output, encoding="utf-8")
+
+
+def write_meta_outputs(metadata: dict[str, dict[str, object]]) -> None:
+    write_meta_file(OUTPUT_JS, None, metadata)
+
+    for level in LEVEL_ORDER:
+        prefix = level.lower()
+        level_metadata = {
+            word_id: item
+            for word_id, item in metadata.items()
+            if meta_level_for_word_id(word_id) == level
+        }
+        write_meta_file(OUTPUT_DIR / f"word-meta-{prefix}.js", level, level_metadata)
+
+
 def main() -> None:
     metadata = build_meta()
-    payload = json.dumps(metadata, ensure_ascii=False, indent=2)
-    OUTPUT_JS.write_text(
-        "// Generated by tools/dictionary/build_word_meta.py. Do not edit by hand.\n"
-        f"window.FAT_SHIBA_WORD_META = {payload};\n",
-        encoding="utf-8",
-    )
-    print(f"wrote {OUTPUT_JS.relative_to(PROJECT_ROOT)} ({len(metadata)} entries)")
+    write_meta_outputs(metadata)
+    for warning in BUILD_WARNINGS[:20]:
+        print(f"warning: {warning}")
+    if len(BUILD_WARNINGS) > 20:
+        print(f"warning: ... {len(BUILD_WARNINGS) - 20} more skipped rows")
+    counts = {
+        level: sum(1 for word_id in metadata if meta_level_for_word_id(word_id) == level)
+        for level in LEVEL_ORDER
+    }
+    count_text = " ".join(f"{level}:{count}" for level, count in counts.items())
+    print(f"wrote word metadata: total:{len(metadata)} {count_text}")
 
 
 if __name__ == "__main__":

@@ -92,6 +92,24 @@ def load_level_words(web_data_dir: Path) -> dict[str, list[dict[str, Any]]]:
 
 
 def load_word_meta(web_data_dir: Path) -> dict[str, dict[str, Any]]:
+    split_paths = {
+        level: web_data_dir / f"word-meta-{level.lower()}.js"
+        for level in LEVEL_ORDER
+    }
+    if all(path.exists() for path in split_paths.values()):
+        merged: dict[str, dict[str, Any]] = {}
+        for level, path in split_paths.items():
+            text = read_text(path)
+            match = re.search(
+                rf"window\.FAT_SHIBA_WORD_META_BY_LEVEL\.{level}\s*=\s*(\{{.*\}});\s*Object\.assign",
+                text,
+                flags=re.S,
+            )
+            if not match:
+                raise ValueError(f"Cannot find generated {level} metadata object in {path}")
+            merged.update(json.loads(match.group(1)))
+        return merged
+
     path = web_data_dir / "word_meta.js"
     text = read_text(path)
     match = re.search(r"window\.FAT_SHIBA_WORD_META\s*=\s*(\{.*\});\s*$", text, flags=re.S)

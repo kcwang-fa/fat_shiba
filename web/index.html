@@ -2211,8 +2211,12 @@
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
       const AUDIO_SAVE_KEY = "fatShiba.phase2.audio.v1";
-      const WORD_META_SRC = "data/word_meta.js?v=20260717-eggrolls-meta";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
+      const WORD_META_VERSION = "20260718-meta-levels";
+      const WORD_META_SRC = LEVEL_ORDER.reduce((map, level) => {
+        map[level] = `data/word-meta-${level.toLowerCase()}.js?v=${WORD_META_VERSION}`;
+        return map;
+      }, {});
       const REVIEW_LEVELS = ["N5", "N4", "N3", "N1"];
       const REVIEW_SAVE_KEYS = {
         N5: "fatShiba.review.n5.v1",
@@ -2795,31 +2799,53 @@
 
 
       let WORD_META = window.FAT_SHIBA_WORD_META || {};
-      let wordMetaLoadPromise = null;
+      const WORD_META_LEVEL_LOAD_PROMISES = new Map();
+      const WORD_META_LOADED_LEVELS = new Set();
 
-      function loadWordMeta() {
-        if (window.FAT_SHIBA_WORD_META) {
-          WORD_META = window.FAT_SHIBA_WORD_META;
+      function loadedWordMetaLevel(level) {
+        return window.FAT_SHIBA_WORD_META_BY_LEVEL && window.FAT_SHIBA_WORD_META_BY_LEVEL[level]
+          ? window.FAT_SHIBA_WORD_META_BY_LEVEL[level]
+          : null;
+      }
+
+      function ingestWordMetaLevel(level, meta) {
+        if (!meta || typeof meta !== "object") return;
+        WORD_META = Object.assign(WORD_META || {}, meta);
+        window.FAT_SHIBA_WORD_META = WORD_META;
+        WORD_META_LOADED_LEVELS.add(level);
+      }
+
+      function loadWordMeta(level = reviewLevel) {
+        if (Array.isArray(level)) {
+          return Promise.all(level.map((item) => loadWordMeta(item))).then(() => WORD_META);
+        }
+        if (!LEVEL_ORDER.includes(level)) return Promise.resolve(WORD_META);
+        if (WORD_META_LOADED_LEVELS.has(level)) return Promise.resolve(WORD_META);
+
+        const existingMeta = loadedWordMetaLevel(level);
+        if (existingMeta) {
+          ingestWordMetaLevel(level, existingMeta);
           return Promise.resolve(WORD_META);
         }
-        if (wordMetaLoadPromise) return wordMetaLoadPromise;
+        if (WORD_META_LEVEL_LOAD_PROMISES.has(level)) return WORD_META_LEVEL_LOAD_PROMISES.get(level);
 
-        wordMetaLoadPromise = new Promise((resolve) => {
+        const promise = new Promise((resolve) => {
           const script = document.createElement("script");
-          script.src = WORD_META_SRC;
+          script.src = WORD_META_SRC[level];
           script.async = true;
           script.onload = () => {
-            WORD_META = window.FAT_SHIBA_WORD_META || {};
+            ingestWordMetaLevel(level, loadedWordMetaLevel(level));
             resolve(WORD_META);
           };
           script.onerror = () => {
-            wordMetaLoadPromise = null;
+            WORD_META_LEVEL_LOAD_PROMISES.delete(level);
             resolve(WORD_META);
           };
           document.head.appendChild(script);
         });
 
-        return wordMetaLoadPromise;
+        WORD_META_LEVEL_LOAD_PROMISES.set(level, promise);
+        return promise;
       }
 
 
@@ -4037,7 +4063,6 @@
       }
 
       async function showReviewLevelSelect() {
-        loadWordMeta();
         els.homeScreen.classList.add("hidden");
         els.gameApp.hidden = false;
         appView = APP_VIEW_REVIEW;
@@ -4210,10 +4235,11 @@
 
       function revealReviewAnswer() {
         if (reviewSession.finished) return;
-        const wordId = currentReviewWord() && currentReviewWord().id;
+        const revealedWord = currentReviewWord();
+        const wordId = revealedWord && revealedWord.id;
         reviewSession.revealed = true;
         renderReviewSession();
-        loadWordMeta().then(() => {
+        loadWordMeta(revealedWord ? revealedWord.level : reviewLevel).then(() => {
           const currentWord = currentReviewWord();
           if (reviewSession.revealed && currentWord && currentWord.id === wordId) {
             renderReviewSession();

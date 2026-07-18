@@ -317,25 +317,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0021": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "循環する",
-      "masu": "循環します",
-      "te": "循環して",
-      "ta": "循環した",
-      "nai": "循環しない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「血液循環」という例を挙げた。",
-        "zh": "老師舉了「血液循環」這個例子。"
-      }
-    ]
-  },
   "n1_0022": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
@@ -506,25 +487,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「外国企業と提携する」と書かれていた。",
         "zh": "報導中寫著「與外國企業合作」。"
-      }
-    ]
-  },
-  "n1_0033": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "徹する",
-      "masu": "徹します",
-      "te": "徹して",
-      "ta": "徹した",
-      "nai": "徹しない"
-    },
-    "examples": [
-      {
-        "ja": "「徹する」の使い方に注意する。",
-        "zh": "注意「徹底、貫徹」的用法。"
       }
     ]
   },
@@ -2451,16 +2413,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0166": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "仕事の合間を縫ってコンサートに出かける。",
-        "zh": "利用工作的餘暇去聽音樂會"
-      }
-    ]
-  },
   "n1_0167": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -2468,16 +2420,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章中に「アワー」が出てきた。",
         "zh": "文章中出現了「小時；時段」這個詞。"
-      }
-    ]
-  },
-  "n1_0168": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "一気に相手を倒す。",
-        "zh": "一下子把對方打倒。"
       }
     ]
   },
@@ -2527,46 +2469,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「ゴールデンタイム」について調べた。",
         "zh": "查了「黃金時段」這個詞。"
-      }
-    ]
-  },
-  "n1_0173": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「列車の時刻表」と説明した。",
-        "zh": "發表時說明為「列車的行車時刻表」。"
-      }
-    ]
-  },
-  "n1_0174": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "海外旅行で時差ボケになる。",
-        "zh": "海外旅行時差倒不過來。"
-      }
-    ]
-  },
-  "n1_0175": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「じっくりと考える」という表現を使った。",
-        "zh": "會議中用了「仔細考慮」這個表達。"
-      }
-    ]
-  },
-  "n1_0176": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "記事には「万事スムーズに運ぶ」と書かれていた。",
-        "zh": "報導中寫著「萬事順利」。"
       }
     ]
   },
@@ -2657,55 +2559,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0183": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "炊飯器のタイマーをセットして出かける。",
-        "zh": "定好電鍋的時間後出門"
-      }
-    ]
-  },
-  "n1_0184": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "資料の中で「ランチタイム」が使われている。",
-        "zh": "資料中使用了「午餐時間」。"
-      }
-    ]
-  },
-  "n1_0185": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「労働時間を短縮する」と説明した。",
-        "zh": "發表時說明為「縮短勞動時間」。"
-      }
-    ]
-  },
-  "n1_0186": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "費やす",
-      "masu": "費やします",
-      "te": "費やして",
-      "ta": "費やした",
-      "nai": "費やさない"
-    },
-    "examples": [
-      {
-        "ja": "つまらないことでむだに時間を費やした。",
-        "zh": "為無聊的事情浪費了時間"
-      }
-    ]
-  },
   "n1_0187": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -2723,25 +2576,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「時折鳥の鳴き声が聞こえる」と書かれていた。",
         "zh": "報導中寫著「時而聽到鳥叫聲」。"
-      }
-    ]
-  },
-  "n1_0189": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "早まる",
-      "masu": "早まります",
-      "te": "早まって",
-      "ta": "早まった",
-      "nai": "早まらない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「会期が早まる」という例を挙げた。",
-        "zh": "老師舉了「會期提前」這個例子。"
       }
     ]
   },
@@ -2805,16 +2639,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0196": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「暦を編む」が使われている。",
-        "zh": "資料中使用了「編制日曆」。"
-      }
-    ]
-  },
   "n1_0197": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -2862,35 +2686,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "祖父は晩年を故郷で静かに過ごした。",
         "zh": "祖父晚年在故鄉安靜地生活。"
-      }
-    ]
-  },
-  "n1_0202": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "日頃から資料を整理しておくと慌てずに済む。",
-        "zh": "平時就把資料整理好，才不會臨時慌張。"
-      }
-    ]
-  },
-  "n1_0203": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "目覚める",
-      "masu": "目覚めます",
-      "te": "目覚めて",
-      "ta": "目覚めた",
-      "nai": "目覚めない"
-    },
-    "examples": [
-      {
-        "ja": "朝六時に目覚めて、すぐ窓を開けた。",
-        "zh": "我早上六點醒來，立刻打開窗戶。"
       }
     ]
   },
@@ -2974,16 +2769,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0212": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先に述べた条件をもう一度確認する。",
-        "zh": "再次確認前面提到的條件。"
-      }
-    ]
-  },
   "n1_0213": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3004,16 +2789,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0215": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼とは久しく会っていない。",
-        "zh": "我已經很久沒見到他了。"
-      }
-    ]
-  },
   "n1_0216": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3024,26 +2799,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0217": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "遅くとも金曜日までには返事をください。",
-        "zh": "請最晚在星期五前回覆。"
-      }
-    ]
-  },
-  "n1_0218": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼の努力には限りない敬意を抱いている。",
-        "zh": "我對他的努力抱持無比敬意。"
-      }
-    ]
-  },
   "n1_0219": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3051,16 +2806,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "都市部では人口過密が深刻な問題になっている。",
         "zh": "都市地區人口過密已成為嚴重問題。"
-      }
-    ]
-  },
-  "n1_0220": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "応募書類の提出期日は来週の月曜日だ。",
-        "zh": "報名資料的繳交期限是下週一。"
       }
     ]
   },
@@ -3113,25 +2858,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0225": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "構えする",
-      "masu": "構えします",
-      "te": "構えして",
-      "ta": "構えした",
-      "nai": "構えしない"
-    },
-    "examples": [
-      {
-        "ja": "彼の構えから、かなり練習していることが分かった。",
-        "zh": "從他的架勢可以看出他練習了很久。"
-      }
-    ]
-  },
   "n1_0226": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3149,16 +2875,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "丘の上に古い邸宅が建っている。",
         "zh": "山丘上有一棟古老宅邸。"
-      }
-    ]
-  },
-  "n1_0228": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼は大学時代から友人と同居している。",
-        "zh": "他從大學時代就和朋友同住。"
       }
     ]
   },
@@ -3212,16 +2928,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0234": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "花壇に季節の花を植えた。",
-        "zh": "我在花壇裡種了當季花卉。"
-      }
-    ]
-  },
   "n1_0235": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -3229,26 +2935,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "車をガレージに入れてから家に入った。",
         "zh": "我把車停進車庫後才進屋。"
-      }
-    ]
-  },
-  "n1_0236": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この椅子は頑丈で長く使えそうだ。",
-        "zh": "這張椅子很堅固，看起來能用很久。"
-      }
-    ]
-  },
-  "n1_0237": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "古い家の重い扉をゆっくり開けた。",
-        "zh": "我慢慢打開老房子的沉重門扇。"
       }
     ]
   },
@@ -3351,16 +3037,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0247": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "祖母は和式より洋式のトイレを好む。",
-        "zh": "祖母比起日式廁所，更喜歡西式廁所。"
-      }
-    ]
-  },
   "n1_0248": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3381,16 +3057,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0250": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この小説には独特の味わいがある。",
-        "zh": "這本小說有獨特韻味。"
-      }
-    ]
-  },
   "n1_0251": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3408,26 +3074,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "父は甘口のカレーが好きだ。",
         "zh": "父親喜歡甜口味的咖哩。"
-      }
-    ]
-  },
-  "n1_0253": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "初対面の人たちで顔合わせをした。",
-        "zh": "一群初次見面的人先碰面認識。"
-      }
-    ]
-  },
-  "n1_0254": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "健康のため塩分を控えている。",
-        "zh": "為了健康，我正在減少鹽分攝取。"
       }
     ]
   },
@@ -3457,26 +3103,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "硬い肉をなかなか噛み切れなかった。",
         "zh": "那塊肉很硬，我一直咬不斷。"
-      }
-    ]
-  },
-  "n1_0257": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "米を主食とする地域は多い。",
-        "zh": "有許多地區以米飯為主食。"
-      }
-    ]
-  },
-  "n1_0258": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "昼は駅前の店で定食を食べた。",
-        "zh": "中午我在車站前的店吃了套餐。"
       }
     ]
   },
@@ -3598,25 +3224,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0269": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "添える",
-      "masu": "添えます",
-      "te": "添えて",
-      "ta": "添えた",
-      "nai": "添えない"
-    },
-    "examples": [
-      {
-        "ja": "書類に一言メモを添えて渡した。",
-        "zh": "我在文件上附了一句備註後交出去。"
-      }
-    ]
-  },
   "n1_0270": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3644,16 +3251,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "この漬物は歯応えがよい。",
         "zh": "這道醃菜很有嚼勁。"
-      }
-    ]
-  },
-  "n1_0273": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "ヨーグルトに蜂蜜をかけた。",
-        "zh": "我在優格上淋了蜂蜜。"
       }
     ]
   },
@@ -3765,16 +3362,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0283": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "魚を調理する前に手をよく洗う。",
-        "zh": "料理魚之前要把手洗乾淨。"
-      }
-    ]
-  },
   "n1_0284": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3805,26 +3392,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0287": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "舞台用の衣装を倉庫から出した。",
-        "zh": "我們從倉庫拿出演出服裝。"
-      }
-    ]
-  },
-  "n1_0288": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "避難所には衣類も届けられた。",
-        "zh": "衣物也送到了避難所。"
-      }
-    ]
-  },
   "n1_0289": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3832,16 +3399,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "この地域は美しい織物で知られている。",
         "zh": "這個地區以美麗織品聞名。"
-      }
-    ]
-  },
-  "n1_0290": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "靴のサイズが合わず、足が痛い。",
-        "zh": "鞋子尺寸不合，腳很痛。"
       }
     ]
   },
@@ -3891,25 +3448,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "茶碗と皿が揃いで売られていた。",
         "zh": "碗和盤子成套販售。"
-      }
-    ]
-  },
-  "n1_0295": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "だぶだぶ",
-      "masu": "だぶだびます",
-      "te": "だぶだんで",
-      "ta": "だぶだんだ",
-      "nai": "だぶだばない"
-    },
-    "examples": [
-      {
-        "ja": "このシャツは大きすぎてだぶだぶだ。",
-        "zh": "這件襯衫太大，鬆垮垮的。"
       }
     ]
   },
@@ -4020,26 +3558,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0304": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "雪道を歩くためにブーツを履いた。",
-        "zh": "為了走雪地，我穿上長靴。"
-      }
-    ]
-  },
-  "n1_0305": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この帽子は私にはぶかぶかだ。",
-        "zh": "這頂帽子對我來說太大了。"
-      }
-    ]
-  },
   "n1_0306": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -4078,16 +3596,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0308": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "赤ちゃんは仰向けに寝ていた。",
-        "zh": "嬰兒仰躺著睡。"
-      }
-    ]
-  },
   "n1_0309": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -4104,26 +3612,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "低い門をくぐって庭に入った。",
         "zh": "我穿過低矮的門進入庭院。"
-      }
-    ]
-  },
-  "n1_0310": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼女は小柄だが、とても力がある。",
-        "zh": "她身材嬌小，但很有力氣。"
-      }
-    ]
-  },
-  "n1_0311": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "人体の仕組みを模型で学んだ。",
-        "zh": "我們用模型學習人體構造。"
       }
     ]
   },
@@ -4144,16 +3632,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼は体格がよく、スポーツに向いている。",
         "zh": "他體格很好，適合運動。"
-      }
-    ]
-  },
-  "n1_0314": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "乗客は非常口から脱出した。",
-        "zh": "乘客從緊急出口逃出。"
       }
     ]
   },
@@ -4235,25 +3713,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0321": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "触れ合う",
-      "masu": "触れ合います",
-      "te": "触れ合って",
-      "ta": "触れ合った",
-      "nai": "触れ合わない"
-    },
-    "examples": [
-      {
-        "ja": "祭りでは地域の人々が自然に触れ合う。",
-        "zh": "祭典中，地方居民自然地互相交流。"
-      }
-    ]
-  },
   "n1_0322": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4261,16 +3720,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "一目で彼が疲れていると分かった。",
         "zh": "一眼就看出他很累。"
-      }
-    ]
-  },
-  "n1_0323": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "一見簡単そうだが、実は難しい問題だ。",
-        "zh": "乍看很簡單，其實是很難的問題。"
       }
     ]
   },
@@ -4450,16 +3899,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0338": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼女は滑らかな日本語で説明した。",
-        "zh": "她用流暢的日文說明。"
-      }
-    ]
-  },
   "n1_0339": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4578,25 +4017,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0349": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見渡す",
-      "masu": "見渡します",
-      "te": "見渡して",
-      "ta": "見渡した",
-      "nai": "見渡さない"
-    },
-    "examples": [
-      {
-        "ja": "展望台から町全体を見渡した。",
-        "zh": "我從觀景臺環視整座城鎮。"
-      }
-    ]
-  },
   "n1_0350": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4604,35 +4024,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼の目付きが急に鋭くなった。",
         "zh": "他的眼神突然變得銳利。"
-      }
-    ]
-  },
-  "n1_0351": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "復興への歩みはまだ始まったばかりだ。",
-        "zh": "邁向復興的進程才剛開始。"
-      }
-    ]
-  },
-  "n1_0352": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "歩む",
-      "masu": "歩みます",
-      "te": "歩んで",
-      "ta": "歩んだ",
-      "nai": "歩まない"
-    },
-    "examples": [
-      {
-        "ja": "彼女は研究者として独自の道を歩んできた。",
-        "zh": "她作為研究者走出了自己的路。"
       }
     ]
   },
@@ -4743,35 +4134,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0361": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "束ねる",
-      "masu": "束ねます",
-      "te": "束ねて",
-      "ta": "束ねた",
-      "nai": "束ねない"
-    },
-    "examples": [
-      {
-        "ja": "彼女は複数のチームを束ねている。",
-        "zh": "她統率著多個團隊。"
-      }
-    ]
-  },
-  "n1_0362": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "お手数ですが、もう一度ご確認ください。",
-        "zh": "麻煩您再確認一次。"
-      }
-    ]
-  },
   "n1_0363": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
@@ -4788,16 +4150,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "出発前に必要な手筈を整えた。",
         "zh": "出發前已安排好必要準備。"
-      }
-    ]
-  },
-  "n1_0364": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "駅から会場までは徒歩で五分だ。",
-        "zh": "從車站到會場步行五分鐘。"
       }
     ]
   },
@@ -4868,25 +4220,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0369": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "指差す",
-      "masu": "指差します",
-      "te": "指差して",
-      "ta": "指差した",
-      "nai": "指差さない"
-    },
-    "examples": [
-      {
-        "ja": "子どもは空の飛行機を指差した。",
-        "zh": "孩子指向天空中的飛機。"
-      }
-    ]
-  },
   "n1_0370": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4924,35 +4257,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "風船が突然破裂して、子どもが驚いた。",
         "zh": "氣球突然破裂，孩子嚇了一跳。"
-      }
-    ]
-  },
-  "n1_0374": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "生かす",
-      "masu": "生かします",
-      "te": "生かして",
-      "ta": "生かした",
-      "nai": "生かさない"
-    },
-    "examples": [
-      {
-        "ja": "留学経験を仕事に生かしたい。",
-        "zh": "我想把留學經驗活用在工作上。"
-      }
-    ]
-  },
-  "n1_0375": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼は自分の運命を受け入れた。",
-        "zh": "他接受了自己的命運。"
       }
     ]
   },
@@ -5045,25 +4349,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0384": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "衰える",
-      "masu": "衰えます",
-      "te": "衰えて",
-      "ta": "衰えた",
-      "nai": "衰えない"
-    },
-    "examples": [
-      {
-        "ja": "年を取ると筋力が衰える。",
-        "zh": "年紀增長後肌力會衰退。"
-      }
-    ]
-  },
   "n1_0385": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -5090,25 +4375,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "子どもの健全な成長を支える環境が必要だ。",
         "zh": "需要能支持孩子健全成長的環境。"
-      }
-    ]
-  },
-  "n1_0387": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "絶える",
-      "masu": "絶えます",
-      "te": "絶えて",
-      "ta": "絶えた",
-      "nai": "絶えない"
-    },
-    "examples": [
-      {
-        "ja": "山奥では携帯電話の電波が絶える。",
-        "zh": "深山裡手機訊號會中斷。"
       }
     ]
   },
@@ -5249,35 +4515,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0399": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "保つ",
-      "masu": "保ちます",
-      "te": "保って",
-      "ta": "保った",
-      "nai": "保たない"
-    },
-    "examples": [
-      {
-        "ja": "健康を保つには睡眠が欠かせない。",
-        "zh": "要維持健康，睡眠不可或缺。"
-      }
-    ]
-  },
-  "n1_0400": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "熱帯夜が続き、寝苦しい日が増えた。",
-        "zh": "連續熱帶夜讓難以入睡的日子變多了。"
-      }
-    ]
-  },
   "n1_0401": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -5285,16 +4522,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "登山隊は途中で水を補給した。",
         "zh": "登山隊在途中補充了水。"
-      }
-    ]
-  },
-  "n1_0402": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "強風で髪の乱れがひどい。",
-        "zh": "因為強風，頭髮亂得很厲害。"
       }
     ]
   },
@@ -5325,16 +4552,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "空腹のまま薬を飲まないでください。",
         "zh": "請不要空腹吃藥。"
-      }
-    ]
-  },
-  "n1_0406": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "長時間歩いて、彼はぐったりしていた。",
-        "zh": "走了很久之後，他累得癱軟無力。"
       }
     ]
   },
@@ -5418,16 +4635,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0415": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "機械の不調で作業が止まった。",
-        "zh": "因為機器狀況不佳，作業停了下來。"
-      }
-    ]
-  },
   "n1_0416": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -5464,25 +4671,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "水を飲んだ拍子にむせた。",
         "zh": "喝水時一不小心嗆到了。"
-      }
-    ]
-  },
-  "n1_0419": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "休める",
-      "masu": "休めます",
-      "te": "休めて",
-      "ta": "休めた",
-      "nai": "休めない"
-    },
-    "examples": [
-      {
-        "ja": "目を休めるために画面から離れた。",
-        "zh": "為了讓眼睛休息，我離開了螢幕。"
       }
     ]
   },
@@ -5560,25 +4748,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "姉に腕をつねられて目が覚めた。",
         "zh": "被姐姐掐了手臂後，我醒了過來。"
-      }
-    ]
-  },
-  "n1_0425": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り除く",
-      "masu": "取り除きます",
-      "te": "取り除いて",
-      "ta": "取り除いた",
-      "nai": "取り除かない"
-    },
-    "examples": [
-      {
-        "ja": "文書から個人情報を取り除いた。",
-        "zh": "我從文件中移除了個人資料。"
       }
     ]
   },
@@ -5778,16 +4947,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0442": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "同じ症状が再発したら受診してください。",
-        "zh": "如果同樣症狀復發，請就醫。"
-      }
-    ]
-  },
   "n1_0443": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -5897,25 +5056,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0453": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "尽きる",
-      "masu": "尽きます",
-      "te": "尽きて",
-      "ta": "尽きた",
-      "nai": "尽きない"
-    },
-    "examples": [
-      {
-        "ja": "旅の話はいつまでたっても尽きなかった。",
-        "zh": "旅行的話題怎麼聊都聊不完。"
-      }
-    ]
-  },
   "n1_0454": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -5995,25 +5135,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0461": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "腫れる",
-      "masu": "腫れます",
-      "te": "腫れて",
-      "ta": "腫れた",
-      "nai": "腫れない"
-    },
-    "examples": [
-      {
-        "ja": "虫に刺されて手が腫れた。",
-        "zh": "被蟲咬後手腫了起來。"
-      }
-    ]
-  },
   "n1_0462": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -6051,25 +5172,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "酒は百薬の長と言うが、飲み過ぎは病のもとだ。",
         "zh": "雖說酒是百藥之長，但喝太多也是疾病的根源。"
-      }
-    ]
-  },
-  "n1_0466": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "弱る",
-      "masu": "弱ります",
-      "te": "弱って",
-      "ta": "弱った",
-      "nai": "弱らない"
-    },
-    "examples": [
-      {
-        "ja": "予想外の質問をされて弱った。",
-        "zh": "被問到意料之外的問題，我很傷腦筋。"
       }
     ]
   },
@@ -6113,16 +5215,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0471": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼は左利きなので、はさみを選ぶのに苦労する。",
-        "zh": "他是左撇子，所以挑剪刀時很費心。"
-      }
-    ]
-  },
   "n1_0472": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -6130,16 +5222,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "貧血で立ちくらみがした。",
         "zh": "我因為貧血而站起來時頭暈。"
-      }
-    ]
-  },
-  "n1_0473": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "医師は手首に触れて脈を測った。",
-        "zh": "醫師摸著手腕測量脈搏。"
       }
     ]
   },
@@ -6160,26 +5242,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "雨上がりの道は滑りやすい。",
         "zh": "雨剛停後的路很容易滑倒。"
-      }
-    ]
-  },
-  "n1_0476": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "株価の動きを毎日確認している。",
-        "zh": "我每天確認股價走勢。"
-      }
-    ]
-  },
-  "n1_0477": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "面接では仕事への適性を見られる。",
-        "zh": "面試時會被評估是否適合這份工作。"
       }
     ]
   },
@@ -6210,25 +5272,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "廃屋には人けがなく、不気味だった。",
         "zh": "廢屋裡沒有人的氣息，讓人覺得陰森。"
-      }
-    ]
-  },
-  "n1_0481": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "丸める",
-      "masu": "丸めます",
-      "te": "丸めて",
-      "ta": "丸めた",
-      "nai": "丸めない"
-    },
-    "examples": [
-      {
-        "ja": "紙を丸めてごみ箱に投げ入れた。",
-        "zh": "我把紙揉成一團丟進垃圾桶。"
       }
     ]
   },
@@ -6322,16 +5365,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0491": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼もプロジェクトの一員だ。",
-        "zh": "他也是這個專案的一員。"
-      }
-    ]
-  },
   "n1_0492": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -6369,26 +5402,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "修理は専門の業者に依頼した。",
         "zh": "維修委託給了專業業者。"
-      }
-    ]
-  },
-  "n1_0496": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼の仕事ぶりは玄人顔負けだ。",
-        "zh": "他的工作表現連專家都自嘆不如。"
-      }
-    ]
-  },
-  "n1_0497": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "番組に特別ゲストを招いた。",
-        "zh": "節目邀請了特別來賓。"
       }
     ]
   },
@@ -6472,16 +5485,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0506": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "単身で海外に赴任した。",
-        "zh": "他隻身被派駐海外。"
-      }
-    ]
-  },
   "n1_0507": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -6499,16 +5502,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "当人に確認しなければ分からない。",
         "zh": "不向本人確認就不會知道。"
-      }
-    ]
-  },
-  "n1_0509": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "読者から多くの意見が寄せられた。",
-        "zh": "讀者寄來了許多意見。"
       }
     ]
   },
@@ -6539,36 +5532,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "二人の仲人を叔父が務めた。",
         "zh": "叔叔擔任兩人的媒人。"
-      }
-    ]
-  },
-  "n1_0513": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この池には主のような大きな魚がいる。",
-        "zh": "這個池裡有一條像池主般的大魚。"
-      }
-    ]
-  },
-  "n1_0514": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "このサービスは万人向けではない。",
-        "zh": "這項服務並不適合所有人。"
-      }
-    ]
-  },
-  "n1_0515": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "彼女はその歌手の熱心なファンだ。",
-        "zh": "她是那位歌手的熱情粉絲。"
       }
     ]
   },
@@ -6732,16 +5695,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0532": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この国には多くの民族が暮らしている。",
-        "zh": "這個國家有許多民族共同生活。"
-      }
-    ]
-  },
   "n1_0533": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -6759,16 +5712,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "シックな色合いの服を選んだ。",
         "zh": "我選了色調雅致的衣服。"
-      }
-    ]
-  },
-  "n1_0535": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "気分を変えるために髪型をチェンジした。",
-        "zh": "為了轉換心情，我改變了髮型。"
       }
     ]
   },
@@ -6899,16 +5842,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0546": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "いい加減な返事をしないでください。",
-        "zh": "請不要隨便敷衍回答。"
-      }
-    ]
-  },
   "n1_0547": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -6916,16 +5849,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼は潔く負けを認めた。",
         "zh": "他乾脆地承認自己輸了。"
-      }
-    ]
-  },
-  "n1_0548": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "悩むくらいなら、いっそ全部やり直そう。",
-        "zh": "與其煩惱，不如乾脆全部重做吧。"
       }
     ]
   },
@@ -6965,16 +5888,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼はいかにもインテリらしい話し方をする。",
         "zh": "他的說話方式很有知識分子的感覺。"
-      }
-    ]
-  },
-  "n1_0552": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "大まかな見積もりを先に出してください。",
-        "zh": "請先提出粗略估價。"
       }
     ]
   },
@@ -7137,25 +6050,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0568": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "こつこつ",
-      "masu": "こつこちます",
-      "te": "こつこって",
-      "ta": "こつこった",
-      "nai": "こつこたない"
-    },
-    "examples": [
-      {
-        "ja": "毎日こつこつ練習を続けた。",
-        "zh": "每天踏實地持續練習。"
-      }
-    ]
-  },
   "n1_0569": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -7193,16 +6087,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼はしぶとく交渉を続けた。",
         "zh": "他頑強地繼續交涉。"
-      }
-    ]
-  },
-  "n1_0573": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "音量を弱にしてから電話に出た。",
-        "zh": "先把音量調成弱，再接電話。"
       }
     ]
   },
@@ -7262,16 +6146,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼女の返事はそっけなかった。",
         "zh": "她的回覆很冷淡。"
-      }
-    ]
-  },
-  "n1_0579": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "大胆な改革案が発表された。",
-        "zh": "大膽的改革方案發表了。"
       }
     ]
   },
@@ -7384,16 +6258,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0590": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼の温かい人柄が周囲を安心させる。",
-        "zh": "他溫暖的為人讓周遭的人感到安心。"
-      }
-    ]
-  },
   "n1_0591": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -7411,25 +6275,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "無礼な態度を取ってしまい、後で謝った。",
         "zh": "我態度失禮，事後道歉了。"
-      }
-    ]
-  },
-  "n1_0593": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "放り出す",
-      "masu": "放り出します",
-      "te": "放り出して",
-      "ta": "放り出した",
-      "nai": "放り出さない"
-    },
-    "examples": [
-      {
-        "ja": "彼は仕事を途中で放り出した。",
-        "zh": "他把工作做到一半就丟下了。"
       }
     ]
   },
@@ -7473,16 +6318,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0598": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼は無口だが、聞き上手だ。",
-        "zh": "他雖然沉默寡言，卻很會傾聽。"
-      }
-    ]
-  },
   "n1_0599": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -7520,16 +6355,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「明朗」という語を扱った。",
         "zh": "課堂上學到「朋衣」這個詞。"
-      }
-    ]
-  },
-  "n1_0603": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「模範を示す」という例を挙げた。",
-        "zh": "老師舉了「示範」這個例子。"
       }
     ]
   },
@@ -7682,16 +6507,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0618": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "コネで就職する。",
-        "zh": "透過走後門找工作。"
-      }
-    ]
-  },
   "n1_0619": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -7708,46 +6523,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章では「親しまれる」を慎重に使う。",
         "zh": "寫文章時要謹慎使用「受人親近、受喜愛」。"
-      }
-    ]
-  },
-  "n1_0620": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「二人は擦れ違いになった」と書かれていた。",
-        "zh": "報導中寫著「兩人擦肩而過了」。"
-      }
-    ]
-  },
-  "n1_0621": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「対等の立場で話し合う」という例を挙げた。",
-        "zh": "老師舉了「以對等的立場進行對話」這個例子。"
-      }
-    ]
-  },
-  "n1_0622": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「対面して座る」が使われている。",
-        "zh": "資料中使用了「面對面坐著」。"
-      }
-    ]
-  },
-  "n1_0623": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「助けを求める」と説明した。",
-        "zh": "發表時說明為「求助」。"
       }
     ]
   },
@@ -7838,16 +6613,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0630": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "両国は密接な関係にある。",
-        "zh": "兩國關係密切。"
-      }
-    ]
-  },
   "n1_0631": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -7884,16 +6649,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「受刑者と面会する」という例を挙げた。",
         "zh": "老師舉了「會見囚犯」這個例子。"
-      }
-    ]
-  },
-  "n1_0634": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "資料の中で「良きライバルとなる」が使われている。",
-        "zh": "資料中使用了「成為很好的競爭對手」。"
       }
     ]
   },
@@ -8183,16 +6938,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0660": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "赤ちゃんを抱っこする。",
-        "zh": "抱嬰兒。"
-      }
-    ]
-  },
   "n1_0661": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -8248,26 +6993,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "はいはいができるようになった。",
         "zh": "學會爬了"
-      }
-    ]
-  },
-  "n1_0665": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「俺が教えてやるよ」と説明した。",
-        "zh": "發表時說明為「我來教你吧」。"
-      }
-    ]
-  },
-  "n1_0666": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "獲物を追いかける。",
-        "zh": "追趕獵物。"
       }
     ]
   },
@@ -8506,16 +7231,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0686": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「庭の落ち葉を掃く」と書かれていた。",
-        "zh": "報導中寫著「掃院中的落葉」。"
-      }
-    ]
-  },
   "n1_0687": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -8551,16 +7266,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章では「鞭びる」を慎重に使う。",
         "zh": "寫文章時要謹慎使用「枯萎、乾痛」。"
-      }
-    ]
-  },
-  "n1_0689": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「種が発芽する」と説明した。",
-        "zh": "發表時說明為「種子發芽」。"
       }
     ]
   },
@@ -8782,16 +7487,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0710": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「この薬は副作用がある」と書かれていた。",
-        "zh": "報導中寫著「這個藥有副作用」。"
-      }
-    ]
-  },
   "n1_0711": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -8902,16 +7597,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0722": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「羊毛を素材にした織物」と書かれていた。",
-        "zh": "報導中寫著「以羊毛為原料的紡織品」。"
-      }
-    ]
-  },
   "n1_0723": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -8929,16 +7614,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「不要な物を廃棄する」が使われている。",
         "zh": "資料中使用了「廢棄不用之物」。"
-      }
-    ]
-  },
-  "n1_0725": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「品質が落ちる」と説明した。",
-        "zh": "發表時說明為「品質下降」。"
       }
     ]
   },
@@ -9021,16 +7696,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0733": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「雨天順延」という表現を使った。",
-        "zh": "會議中用了「雨天順延」這個表達。"
-      }
-    ]
-  },
   "n1_0734": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9067,26 +7732,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「景気回復の兆しが見えない」が使われている。",
         "zh": "資料中使用了「看不到經濟復甦的跡象」。"
-      }
-    ]
-  },
-  "n1_0737": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「強烈な印象を残す」と説明した。",
-        "zh": "發表時說明為「留下深刻的印象」。"
-      }
-    ]
-  },
-  "n1_0738": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "雨がざあざあ降る。",
-        "zh": "雨嘩啦嘩啦地下著。"
       }
     ]
   },
@@ -9177,25 +7822,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0745": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "襲う",
-      "masu": "襲います",
-      "te": "襲って",
-      "ta": "襲った",
-      "nai": "襲わない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「恐怖に襲われる」という表現を使った。",
-        "zh": "會議中用了「籠罩在恐怖之下」這個表達。"
-      }
-    ]
-  },
   "n1_0746": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9226,16 +7852,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0749": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「災害に遭う」と説明した。",
-        "zh": "發表時說明為「遭遇災害」。"
-      }
-    ]
-  },
   "n1_0750": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -9252,16 +7868,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "混乱を鎮める。",
         "zh": "制止混亂。"
-      }
-    ]
-  },
-  "n1_0751": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「振り子が振動する」という表現を使った。",
-        "zh": "會議中用了「鐘擺擺動」這個表達。"
       }
     ]
   },
@@ -9364,16 +7970,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0761": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「大空へはばたく」と説明した。",
-        "zh": "發表時說明為「振翅飛向天空」。"
-      }
-    ]
-  },
   "n1_0762": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9464,16 +8060,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0771": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「国産の自動車」という例を挙げた。",
-        "zh": "老師舉了「國產汽車」這個例子。"
-      }
-    ]
-  },
   "n1_0772": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9501,16 +8087,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「ジャングル」という語を扱った。",
         "zh": "課堂上學到「探検」這個詞。"
-      }
-    ]
-  },
-  "n1_0775": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "飛行機が関東の上空を飛んでいる。",
-        "zh": "飛機正在關東地區的上空飛行"
       }
     ]
   },
@@ -9582,16 +8158,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0781": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「それは遠回りのやり方だ」という表現を使った。",
-        "zh": "會議中用了「那是走彎路的辦法」這個表達。"
-      }
-    ]
-  },
   "n1_0782": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9622,16 +8188,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0785": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「浜で貝を拾う」と説明した。",
-        "zh": "發表時說明為「在海灘撿貝殼」。"
-      }
-    ]
-  },
   "n1_0786": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9652,16 +8208,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0788": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「山の頂」と書かれていた。",
-        "zh": "報導中寫著「山頂」。"
-      }
-    ]
-  },
   "n1_0789": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9679,46 +8225,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「街豆」という語を扱った。",
         "zh": "課堂上學到「街頭、大街上」這個詞。"
-      }
-    ]
-  },
-  "n1_0791": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「狭い空間を有効に活用する」と説明した。",
-        "zh": "發表時說明為「有效利用狹窄的空間」。"
-      }
-    ]
-  },
-  "n1_0792": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "現地に来てかれこれ半年になる。",
-        "zh": "我到這裡來已經半年了"
-      }
-    ]
-  },
-  "n1_0793": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "会議で「部屋のコーナーを利用する」という表現を使った。",
-        "zh": "會議中用了「利用屋角」這個表達。"
-      }
-    ]
-  },
-  "n1_0794": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「ねじで固定する」と書かれていた。",
-        "zh": "報導中寫著「用螺絲固定」。"
       }
     ]
   },
@@ -9759,35 +8265,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "責任の所在をはっきりさせる。",
         "zh": "弄清楚責任所在"
-      }
-    ]
-  },
-  "n1_0799": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "かたづけてスペースを作り出す。",
-        "zh": "整理一下空出地方"
-      }
-    ]
-  },
-  "n1_0800": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "立ち寄る",
-      "masu": "立ち寄ります",
-      "te": "立ち寄って",
-      "ta": "立ち寄った",
-      "nai": "立ち寄らない"
-    },
-    "examples": [
-      {
-        "ja": "学校の帰りに友だちの家に立ち寄る。",
-        "zh": "放學回家途中順道去朋友家"
       }
     ]
   },
@@ -9898,25 +8375,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0809": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "追い出す",
-      "masu": "追い出します",
-      "te": "追い出して",
-      "ta": "追い出した",
-      "nai": "追い出さない"
-    },
-    "examples": [
-      {
-        "ja": "蠅を台所から追い出すのに苦労した。",
-        "zh": "我費了好大一番功夫才把蒼蠅趕出廚房"
-      }
-    ]
-  },
   "n1_0810": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -9924,25 +8382,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "住所、氏名及び年齢をここに記入してください。",
         "zh": "請在這裡填上地址，姓名及年齡"
-      }
-    ]
-  },
-  "n1_0811": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "及ぶ",
-      "masu": "及びます",
-      "te": "及んで",
-      "ta": "及んだ",
-      "nai": "及ばない"
-    },
-    "examples": [
-      {
-        "ja": "そこまでは考えが及ばなかった。",
-        "zh": "我沒想到這麼多"
       }
     ]
   },
@@ -10035,16 +8474,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0820": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「地元の新聞」が使われている。",
-        "zh": "資料中使用了「當地的報紙」。"
-      }
-    ]
-  },
   "n1_0821": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -10085,25 +8514,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0825": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "遠ざかる",
-      "masu": "遠ざかります",
-      "te": "遠ざかって",
-      "ta": "遠ざかった",
-      "nai": "遠ざからない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「芸能界から遠ざかる」という例を挙げた。",
-        "zh": "老師舉了「離開演藝圈」這個例子。"
-      }
-    ]
-  },
   "n1_0826": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -10111,16 +8521,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「ドリアン特有の匂い」が使われている。",
         "zh": "資料中使用了「榴槤特有的氣味」。"
-      }
-    ]
-  },
-  "n1_0827": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「トンネルの内部」と説明した。",
-        "zh": "發表時說明為「隧道裡面」。"
       }
     ]
   },
@@ -10223,16 +8623,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0837": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「大自然を身近に感じる」という例を挙げた。",
-        "zh": "老師舉了「切身感受大自然」這個例子。"
-      }
-    ]
-  },
   "n1_0838": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -10240,36 +8630,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「峰」という語を扱った。",
         "zh": "課堂上學到「山峰、刀背、東西突起部分」這個詞。"
-      }
-    ]
-  },
-  "n1_0839": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "両親の身の回りの世話をする。",
-        "zh": "照顧父母的日常生活"
-      }
-    ]
-  },
-  "n1_0840": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この地方の名産は桃だ。",
-        "zh": "這地方的特產是桃子。"
-      }
-    ]
-  },
-  "n1_0841": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "野外でバーベキューを楽しむ。",
-        "zh": "在戶外享受烤肉"
       }
     ]
   },
@@ -10310,16 +8670,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「裏返し」の意味を確認した。",
         "zh": "在資料中確認了「表裡相反、翻裡作面」的意思。"
-      }
-    ]
-  },
-  "n1_0846": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "遠方から来た友人と久しぶりに会った。",
-        "zh": "久違地見到了從遠方來的朋友"
       }
     ]
   },
@@ -10391,16 +8741,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0852": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "トンボが枝の先にとまっている。",
-        "zh": "蜻蜓落在枝尖上"
-      }
-    ]
-  },
   "n1_0853": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -10411,16 +8751,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0854": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「地図上の座標を探す」と書かれていた。",
-        "zh": "報導中寫著「尋找地圖上的座標」。"
-      }
-    ]
-  },
   "n1_0855": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -10428,16 +8758,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章中に「前途」が出てきた。",
         "zh": "文章中出現了「前途、將來、旅途的、前程、去路」這個詞。"
-      }
-    ]
-  },
-  "n1_0856": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この方法には危険な側面もある。",
-        "zh": "這個方法也有不保險的一面"
       }
     ]
   },
@@ -10488,16 +8808,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「直列」の意味を確認した。",
         "zh": "在資料中確認了「直列」的意思。"
-      }
-    ]
-  },
-  "n1_0862": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「辞書を手近に置く」が使われている。",
-        "zh": "資料中使用了「把辭典放在手邊」。"
       }
     ]
   },
@@ -10575,35 +8885,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「新天地を求めて旅立つ」という例を挙げた。",
         "zh": "老師舉了「動身去尋求新天地」這個例子。"
-      }
-    ]
-  },
-  "n1_0868": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「目標に到達する」が使われている。",
-        "zh": "資料中使用了「達到目標」。"
-      }
-    ]
-  },
-  "n1_0869": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り巻く",
-      "masu": "取り巻きます",
-      "te": "取り巻いて",
-      "ta": "取り巻いた",
-      "nai": "取り巻かない"
-    },
-    "examples": [
-      {
-        "ja": "発表では「環境を取り巻く諸問題」と説明した。",
-        "zh": "發表時說明為「圍繞環境的各種問題」。"
       }
     ]
   },
@@ -10695,26 +8976,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0877": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "日の出に向かって右手が南にあたる。",
-        "zh": "面向日出的右手邊是南方"
-      }
-    ]
-  },
-  "n1_0878": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「道端に咲いた花」と書かれていた。",
-        "zh": "報導中寫著「路邊盛開的花朵」。"
-      }
-    ]
-  },
   "n1_0879": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -10800,45 +9061,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「流行語は廃れるのも速い」という例を挙げた。",
         "zh": "老師舉了「流行語很快就過時」這個例子。"
-      }
-    ]
-  },
-  "n1_0886": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "設置する",
-      "masu": "設置します",
-      "te": "設置して",
-      "ta": "設置した",
-      "nai": "設置しない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「新しい部門を設置する」が使われている。",
-        "zh": "資料中使用了「設立新部門」。"
-      }
-    ]
-  },
-  "n1_0887": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「会社を創立する」と説明した。",
-        "zh": "發表時說明為「創立公司」。"
-      }
-    ]
-  },
-  "n1_0888": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "勉強しないで合格しようなんて土台無理な話だ。",
-        "zh": "不學習就想通過考試，根本就是不可能的事"
       }
     ]
   },
@@ -10970,16 +9192,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0900": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "被災者の受け入れ態勢が整う。",
-        "zh": "做好接收災民的準備"
-      }
-    ]
-  },
   "n1_0901": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11017,16 +9229,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「解剖」について調べた。",
         "zh": "查了「解剖、事物、語法等、分析」這個詞。"
-      }
-    ]
-  },
-  "n1_0905": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「外来の文化」と説明した。",
-        "zh": "發表時說明為「外來文化」。"
       }
     ]
   },
@@ -11130,16 +9332,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0916": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "資料の中で「バーゲンセール」が使われている。",
-        "zh": "資料中使用了「特賣會」。"
-      }
-    ]
-  },
   "n1_0917": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11218,16 +9410,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0923": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "新入生をサークルに勧誘する。",
-        "zh": "招募新生加入社團"
-      }
-    ]
-  },
   "n1_0924": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11235,16 +9417,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「自治体」について調べた。",
         "zh": "查了「自治團體」這個詞。"
-      }
-    ]
-  },
-  "n1_0925": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「鳩は平和を象徴する」という表現を使った。",
-        "zh": "會議中用了「鴿子是和平的象徵」這個表達。"
       }
     ]
   },
@@ -11284,16 +9456,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「不動産屋」について調べた。",
         "zh": "查了「不動産屋」這個詞。"
-      }
-    ]
-  },
-  "n1_0929": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「貴社」と説明した。",
-        "zh": "發表時說明為「（對他人公司的敬稱，常用於書面語）貴公司」。"
       }
     ]
   },
@@ -11383,35 +9545,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「軍艦」の意味を確認した。",
         "zh": "在資料中確認了「軍艦」的意思。"
-      }
-    ]
-  },
-  "n1_0938": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "記事には「シートカバー」と書かれていた。",
-        "zh": "報導中寫著「座椅套」。"
-      }
-    ]
-  },
-  "n1_0939": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "始発する",
-      "masu": "始発します",
-      "te": "始発して",
-      "ta": "始発した",
-      "nai": "始発しない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「始発駅」という例を挙げた。",
-        "zh": "老師舉了「起點站」這個例子。"
       }
     ]
   },
@@ -11534,16 +9667,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0951": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「走行距離」という例を挙げた。",
-        "zh": "老師舉了「行駛距離」這個例子。"
-      }
-    ]
-  },
   "n1_0952": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11642,16 +9765,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0960": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "社内文書を回覧する。",
-        "zh": "傳閱公司文件。"
-      }
-    ]
-  },
   "n1_0961": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11732,16 +9845,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0969": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「遭難者を中継輸送する」という例を挙げた。",
-        "zh": "老師舉了「轉送遇難者」這個例子。"
-      }
-    ]
-  },
   "n1_0970": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11797,16 +9900,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章では「報ずる」を慎重に使う。",
         "zh": "寫文章時要謹慎使用「自吃、舞知、告訴、告知、報才、報答、報復」。"
-      }
-    ]
-  },
-  "n1_0974": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「報道番組」と書かれていた。",
-        "zh": "報導中寫著「新聞報導節目」。"
       }
     ]
   },
@@ -11868,16 +9961,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0979": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「労使交渉の土俵に上がる」という表現を使った。",
-        "zh": "會議中用了「登上勞資談判的擂台」這個表達。"
-      }
-    ]
-  },
   "n1_0980": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -11897,26 +9980,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0981": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「びっしょりと汗をかく」という例を挙げた。",
-        "zh": "老師舉了「汗流浹背」這個例子。"
-      }
-    ]
-  },
-  "n1_0982": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "資料の中で「投球のフォームが良い」が使われている。",
-        "zh": "資料中使用了「投球的姿勢好」。"
-      }
-    ]
-  },
   "n1_0983": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -11924,25 +9987,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「キリストの復活」と説明した。",
         "zh": "發表時說明為「基督的復活」。"
-      }
-    ]
-  },
-  "n1_0984": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "負かす",
-      "masu": "負かします",
-      "te": "負かして",
-      "ta": "負かした",
-      "nai": "負かさない"
-    },
-    "examples": [
-      {
-        "ja": "相手を負かす。",
-        "zh": "擊敗對手。"
       }
     ]
   },
@@ -11962,44 +10006,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章では「暑がる」を慎重に使う。",
         "zh": "寫文章時要謹慎使用「分開兩腿、騎、跨、跨越、橫跨、面馬」。"
-      }
-    ]
-  },
-  "n1_0986": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見失う",
-      "masu": "見失います",
-      "te": "見失って",
-      "ta": "見失った",
-      "nai": "見失わない"
-    },
-    "examples": [
-      {
-        "ja": "記事には「人生の目標を見失う」と書かれていた。",
-        "zh": "報導中寫著「迷失人生的目標」。"
-      }
-    ]
-  },
-  "n1_0987": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "導く",
-      "masu": "導きます",
-      "te": "導いて",
-      "ta": "導いた",
-      "nai": "導かない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「ガイドに導かれて見物する」という例を挙げた。",
-        "zh": "老師舉了「跟著嚮導參觀」這個例子。"
       }
     ]
   },
@@ -12063,16 +10069,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_0994": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「決勝戦」が使われている。",
-        "zh": "資料中使用了「決賽」。"
-      }
-    ]
-  },
   "n1_0995": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -12119,16 +10115,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "反則を3回すると失格になる。",
         "zh": "犯規三次即失去資格"
-      }
-    ]
-  },
-  "n1_0999": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「上位を占める」という例を挙げた。",
-        "zh": "老師舉了「佔上風」這個例子。"
       }
     ]
   },
@@ -12192,46 +10178,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1006": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「総合病院」が使われている。",
-        "zh": "資料中使用了「綜合性醫院」。"
-      }
-    ]
-  },
-  "n1_1007": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「大型スーパーに対抗する」と説明した。",
-        "zh": "發表時說明為「與大型超市抗衡」。"
-      }
-    ]
-  },
-  "n1_1008": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "抽選で順番を決める。",
-        "zh": "抽籤決定順序。"
-      }
-    ]
-  },
-  "n1_1009": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「雨のため試合が中断する」という表現を使った。",
-        "zh": "會議中用了「因雨比賽暫停」這個表達。"
-      }
-    ]
-  },
   "n1_1010": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -12242,26 +10188,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1011": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「動的に表現する」という例を挙げた。",
-        "zh": "老師舉了「生動地表現」這個例子。"
-      }
-    ]
-  },
-  "n1_1012": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「試験の得点が気になる」が使われている。",
-        "zh": "資料中使用了「在意考試的分數」。"
-      }
-    ]
-  },
   "n1_1013": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -12269,26 +10195,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「トロフィー」の意味を確認した。",
         "zh": "在資料中確認了「敵谷」的意思。"
-      }
-    ]
-  },
-  "n1_1014": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "野球のナイターを観る。",
-        "zh": "觀看夜間的棒球比賽。"
-      }
-    ]
-  },
-  "n1_1015": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「入賞者」という表現を使った。",
-        "zh": "會議中用了「得獎者」這個表達。"
       }
     ]
   },
@@ -12380,16 +10286,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1023": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "先生は「レースに勝つ」という例を挙げた。",
-        "zh": "老師舉了「比賽取勝」這個例子。"
-      }
-    ]
-  },
   "n1_1024": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -12419,16 +10315,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1026": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "世論の動向をキャッチする。",
-        "zh": "掌握輿論動向。"
-      }
-    ]
-  },
   "n1_1027": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -12448,16 +10334,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1028": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "記事には「室温をコントロールする」と書かれていた。",
-        "zh": "報導中寫著「控制室溫」。"
-      }
-    ]
-  },
   "n1_1029": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -12465,16 +10341,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「首尾は上々だ」という例を挙げた。",
         "zh": "老師舉了「一切順利」這個例子。"
-      }
-    ]
-  },
-  "n1_1030": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「守りから攻めに転じる」が使われている。",
-        "zh": "資料中使用了「轉守為攻」。"
       }
     ]
   },
@@ -12595,16 +10461,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1040": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "記事には「海外旅行のガイドブック」と書かれていた。",
-        "zh": "報導中寫著「海外旅行指南」。"
-      }
-    ]
-  },
   "n1_1041": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -12684,25 +10540,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1048": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "引き取る",
-      "masu": "引き取ります",
-      "te": "引き取って",
-      "ta": "引き取った",
-      "nai": "引き取らない"
-    },
-    "examples": [
-      {
-        "ja": "ご用がなければ、どうぞお引き取りください。",
-        "zh": "沒事的話，請回去吧"
-      }
-    ]
-  },
   "n1_1049": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -12762,16 +10599,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1054": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "悪口を浴びせられてかっとなる。",
-        "zh": "被辱罵而勃然大怒"
-      }
-    ]
-  },
   "n1_1055": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -12789,16 +10616,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「骨董品」について調べた。",
         "zh": "查了「人古董」這個詞。"
-      }
-    ]
-  },
-  "n1_1057": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "会議で「スピーチコンテスト」という表現を使った。",
-        "zh": "會議中用了「演講比賽」這個表達。"
       }
     ]
   },
@@ -12832,16 +10649,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1061": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "発表では「ショールーム」と説明した。",
-        "zh": "發表時說明為「陳列室」。"
-      }
-    ]
-  },
   "n1_1062": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -12849,16 +10656,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「律」という語を扱った。",
         "zh": "課堂上學到「到若精粹、精華、通曉人情世故、圓、漠漏、風流、純粋、生」這個詞。"
-      }
-    ]
-  },
-  "n1_1063": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「作品を展示する」という表現を使った。",
-        "zh": "會議中用了「展示作品」這個表達。"
       }
     ]
   },
@@ -13002,16 +10799,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1078": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「原作を脚色する」が使われている。",
-        "zh": "資料中使用了「改編原著」。"
-      }
-    ]
-  },
   "n1_1079": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -13032,26 +10819,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1081": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「小説の主人公」という表現を使った。",
-        "zh": "會議中用了「小說的主人公」這個表達。"
-      }
-    ]
-  },
-  "n1_1082": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「人気ドラマに出演する」と書かれていた。",
-        "zh": "報導中寫著「出演人氣電視劇」。"
-      }
-    ]
-  },
   "n1_1083": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -13069,16 +10836,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「台本」について調べた。",
         "zh": "查了「電影、戲劇'、廣播等、腳本、劇本」這個詞。"
-      }
-    ]
-  },
-  "n1_1085": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "各学生に個別の指導が必要だ。",
-        "zh": "每個學生都需要個別指導"
       }
     ]
   },
@@ -13220,16 +10977,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1098": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "ドルを円に換算する。",
-        "zh": "將美元換算成日圓。"
-      }
-    ]
-  },
   "n1_1099": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -13276,16 +11023,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "大方そんなことだろうと思っていた。",
         "zh": "我早就想像到了大概那麼回事"
-      }
-    ]
-  },
-  "n1_1103": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「大幅に減る」と説明した。",
-        "zh": "發表時說明為「大幅度地減少」。"
       }
     ]
   },
@@ -13419,25 +11156,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1117": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "満たす",
-      "masu": "満たします",
-      "te": "満たして",
-      "ta": "満たした",
-      "nai": "満たさない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「全ての条件を満たす」という表現を使った。",
-        "zh": "會議中用了「滿足一切條件」這個表達。"
-      }
-    ]
-  },
   "n1_1118": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -13475,25 +11193,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "状況はしだいにあべこべになり、冷静な判断が求められました。",
         "zh": "情況逐漸變得「至玲、順序、位置、關係等、顛倒、相反」，因此需要冷靜判斷。"
-      }
-    ]
-  },
-  "n1_1122": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "上回る",
-      "masu": "上回ります",
-      "te": "上回って",
-      "ta": "上回った",
-      "nai": "上回らない"
-    },
-    "examples": [
-      {
-        "ja": "予想を上回る。",
-        "zh": "超越預想。"
       }
     ]
   },
@@ -13567,25 +11266,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1130": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "組み合わせる",
-      "masu": "組み合わせます",
-      "te": "組み合わせて",
-      "ta": "組み合わせた",
-      "nai": "組み合わせない"
-    },
-    "examples": [
-      {
-        "ja": "ノートと鉛筆を組み合わせて賞品にする。",
-        "zh": "將筆記本和鉛筆組合起來作為獎品"
-      }
-    ]
-  },
   "n1_1131": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -13626,16 +11306,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1135": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「人材を育成する」という表現を使った。",
-        "zh": "會議中用了「培養人才」這個表達。"
-      }
-    ]
-  },
   "n1_1136": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -13656,16 +11326,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1138": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「人間工学」が使われている。",
-        "zh": "資料中使用了「人體工學」。"
-      }
-    ]
-  },
   "n1_1139": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -13673,16 +11333,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼女は考古学に興味を持っている。",
         "zh": "她對考古學有興趣"
-      }
-    ]
-  },
-  "n1_1140": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "図画工作。",
-        "zh": "圖畫手作課。"
       }
     ]
   },
@@ -13696,26 +11346,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1142": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「運転技術を習得する」と書かれていた。",
-        "zh": "報導中寫著「掌握駕駛技術」。"
-      }
-    ]
-  },
-  "n1_1143": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「進学塾」という例を挙げた。",
-        "zh": "老師舉了「升學補習班」這個例子。"
-      }
-    ]
-  },
   "n1_1144": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -13723,16 +11353,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「海の深度を測る」が使われている。",
         "zh": "資料中使用了「測量海水深度」。"
-      }
-    ]
-  },
-  "n1_1145": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「親に説教される」と説明した。",
-        "zh": "發表時說明為「被父母訓斥」。"
       }
     ]
   },
@@ -13765,16 +11385,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1148": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「法学を専攻する」と書かれていた。",
-        "zh": "報導中寫著「專攻法學」。"
-      }
-    ]
-  },
   "n1_1149": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
@@ -13782,26 +11392,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "状況はしだいに有望になり、冷静な判断が求められました。",
         "zh": "情況逐漸變得「有希亡、有前途」，因此需要冷靜判斷。"
-      }
-    ]
-  },
-  "n1_1150": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「想像力を養成する」が使われている。",
-        "zh": "資料中使用了「培養想像力」。"
-      }
-    ]
-  },
-  "n1_1151": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "発表では「ピアノのレッスンに通う」と説明した。",
-        "zh": "發表時說明為「去學習鋼琴」。"
       }
     ]
   },
@@ -13913,35 +11503,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1161": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "受かる",
-      "masu": "受かります",
-      "te": "受かって",
-      "ta": "受かった",
-      "nai": "受からない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「入学試験に受かる」という例を挙げた。",
-        "zh": "老師舉了「通過入學考試」這個例子。"
-      }
-    ]
-  },
-  "n1_1162": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "新入生に対するオリエンテーション。",
-        "zh": "為新生舉辦的說明會"
-      }
-    ]
-  },
   "n1_1163": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -13969,16 +11530,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "会議で「過去出題された問題」という表現を使った。",
         "zh": "會議中用了「過去考過的題目」這個表達。"
-      }
-    ]
-  },
-  "n1_1166": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「新入生を迎える」と書かれていた。",
-        "zh": "報導中寫著「迎接新生」。"
       }
     ]
   },
@@ -14022,16 +11573,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1171": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "会議で「ヒントを与える」という表現を使った。",
-        "zh": "會議中用了「給予暗示」這個表達。"
-      }
-    ]
-  },
   "n1_1172": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -14049,25 +11590,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「隠居」の意味を確認した。",
         "zh": "在資料中確認了「隠居」的意思。"
-      }
-    ]
-  },
-  "n1_1174": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "打ち上げる",
-      "masu": "打ち上げます",
-      "te": "打ち上げて",
-      "ta": "打ち上げた",
-      "nai": "打ち上げない"
-    },
-    "examples": [
-      {
-        "ja": "3か月の芝居興行を打ち上げた。",
-        "zh": "結束了三個月的戲劇演出"
       }
     ]
   },
@@ -14177,16 +11699,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「セレモニー」について調べた。",
         "zh": "查了「各典禮、儀式、圖」這個詞。"
-      }
-    ]
-  },
-  "n1_1185": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「定年退職」という例を挙げた。",
-        "zh": "老師舉了「退休」這個例子。"
       }
     ]
   },
@@ -14309,16 +11821,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1197": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「持続可能な発展」という例を挙げた。",
-        "zh": "老師舉了「永續發展」這個例子。"
-      }
-    ]
-  },
   "n1_1198": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -14409,55 +11911,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1207": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「電源を切る」という表現を使った。",
-        "zh": "會議中用了「切斷電源」這個表達。"
-      }
-    ]
-  },
-  "n1_1208": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「陶器にひびが入る」と書かれていた。",
-        "zh": "報導中寫著「陶器出現裂痕」。"
-      }
-    ]
-  },
-  "n1_1209": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "あの旅館は客の取り扱いがとてもいい。",
-        "zh": "那家旅館的接待服務很好"
-      }
-    ]
-  },
-  "n1_1210": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "取り付ける",
-      "masu": "取り付けます",
-      "te": "取り付けて",
-      "ta": "取り付けた",
-      "nai": "取り付けない"
-    },
-    "examples": [
-      {
-        "ja": "大口の売買契約を取り付ける。",
-        "zh": "簽下大筆買賣合約"
-      }
-    ]
-  },
   "n1_1211": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -14508,25 +11961,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1216": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "模型する",
-      "masu": "模型します",
-      "te": "模型して",
-      "ta": "模型した",
-      "nai": "模型しない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「模型飛行機」が使われている。",
-        "zh": "資料中使用了「模型飛機」。"
-      }
-    ]
-  },
   "n1_1217": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -14534,26 +11968,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「弓」の意味を確認した。",
         "zh": "在資料中確認了「弓形物」的意思。"
-      }
-    ]
-  },
-  "n1_1218": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "スポーツ用品。",
-        "zh": "體育用品。"
-      }
-    ]
-  },
-  "n1_1219": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "クライマーたちはロープで結ばれていた。",
-        "zh": "登山運動員們用繩索綁在一起"
       }
     ]
   },
@@ -14674,16 +12088,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1229": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "発表では「電子レンジ」と説明した。",
-        "zh": "發表時說明為「微波爐」。"
-      }
-    ]
-  },
   "n1_1230": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -14691,25 +12095,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼女は社長の器じゃない。",
         "zh": "她不是當社長的料。"
-      }
-    ]
-  },
-  "n1_1231": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "おむつ",
-      "masu": "おむちます",
-      "te": "おむって",
-      "ta": "おむった",
-      "nai": "おむたない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「赤ちゃんにおむつを当てる」という表現を使った。",
-        "zh": "會議中用了「給嬰兒墊上尿布」這個表達。"
       }
     ]
   },
@@ -14862,25 +12247,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1246": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "再生する",
-      "masu": "再生します",
-      "te": "再生して",
-      "ta": "再生した",
-      "nai": "再生しない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「再生の思いがする」が使われている。",
-        "zh": "資料中使用了「覺得死裡逃生」。"
-      }
-    ]
-  },
   "n1_1247": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
@@ -14959,35 +12325,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1253": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「ここで切ると句切りがいい」と説明した。",
-        "zh": "發表時說明為「在這裡斷句比較好」。"
-      }
-    ]
-  },
-  "n1_1254": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "組み込む",
-      "masu": "組み込みます",
-      "te": "組み込んで",
-      "ta": "組み込んだ",
-      "nai": "組み込まない"
-    },
-    "examples": [
-      {
-        "ja": "予算に接待費を組み込む。",
-        "zh": "把接待費編入預算中。"
-      }
-    ]
-  },
   "n1_1255": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -15008,16 +12345,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1257": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "先生は「オンラインシステム」という例を挙げた。",
-        "zh": "老師舉了「聯網系統」這個例子。"
-      }
-    ]
-  },
   "n1_1258": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -15028,16 +12355,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1259": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「農業に従事する」と説明した。",
-        "zh": "發表時說明為「從事農業」。"
-      }
-    ]
-  },
   "n1_1260": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -15045,16 +12362,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「守衛」について調べた。",
         "zh": "查了「守衛、警衛」這個詞。"
-      }
-    ]
-  },
-  "n1_1261": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「9時に出社する」という表現を使った。",
-        "zh": "會議中用了「九點到公司上班」這個表達。"
       }
     ]
   },
@@ -15108,16 +12415,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1267": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「人材の育成」という表現を使った。",
-        "zh": "會議中用了「人才的培養」這個表達。"
-      }
-    ]
-  },
   "n1_1268": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -15125,16 +12422,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「スト」について調べた。",
         "zh": "查了「罷工」這個詞。"
-      }
-    ]
-  },
-  "n1_1269": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "先生は「ストライキを打つ」という例を挙げた。",
-        "zh": "老師舉了「罷工」這個例子。"
       }
     ]
   },
@@ -15217,45 +12504,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1277": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「私たちは共働きの夫婦だ」と説明した。",
-        "zh": "發表時說明為「我們是雙薪夫妻」。"
-      }
-    ]
-  },
-  "n1_1278": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "エンジントラブルで車が走行不能になる。",
-        "zh": "因引擎故障車不能開了"
-      }
-    ]
-  },
-  "n1_1279": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り込む",
-      "masu": "取り込みます",
-      "te": "取り込んで",
-      "ta": "取り込んだ",
-      "nai": "取り込まない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「少数意見を取り込む」という表現を使った。",
-        "zh": "會議中用了「聽取少數人的意見」這個表達。"
-      }
-    ]
-  },
   "n1_1280": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -15314,36 +12562,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1284": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "別の部署に異動になる。",
-        "zh": "調到別的部門。"
-      }
-    ]
-  },
-  "n1_1285": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「販売部門を拡充する」という表現を使った。",
-        "zh": "會議中用了「擴充銷售部門」這個表達。"
-      }
-    ]
-  },
-  "n1_1286": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "弟は就職もしないでぶらぶらしている。",
-        "zh": "弟弟也不找工作，無所事事"
-      }
-    ]
-  },
   "n1_1287": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -15380,16 +12598,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "地道な努力が成功に結びつく。",
         "zh": "腳踏實地的努力會帶來成功"
-      }
-    ]
-  },
-  "n1_1290": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "友情の結びを深める。",
-        "zh": "加深友誼的紐帶。"
       }
     ]
   },
@@ -15430,16 +12638,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「先祖代々の家業」が使われている。",
         "zh": "資料中使用了「祖祖輩輩相傳的家業」。"
-      }
-    ]
-  },
-  "n1_1295": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "発表では「外国人相手のガイドになる」と説明した。",
-        "zh": "發表時說明為「為外國人當導遊」。"
       }
     ]
   },
@@ -15523,16 +12721,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1304": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "欧州に進出して工場を建設する。",
-        "zh": "進軍歐洲，建設工廠"
-      }
-    ]
-  },
   "n1_1305": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -15569,16 +12757,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「学会を脱退する」と説明した。",
         "zh": "發表時說明為「退出學會」。"
-      }
-    ]
-  },
-  "n1_1308": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "人気タレント。",
-        "zh": "當紅藝人。"
       }
     ]
   },
@@ -15652,16 +12830,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1316": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「立身出世」と書かれていた。",
-        "zh": "報導中寫著「出人頭地」。"
-      }
-    ]
-  },
   "n1_1317": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -15718,25 +12886,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「オーダーメイド」の意味を確認した。",
         "zh": "在資料中確認了「訂做的貨、訂做的西服」的意思。"
-      }
-    ]
-  },
-  "n1_1322": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "絡む",
-      "masu": "絡みます",
-      "te": "絡んで",
-      "ta": "絡んだ",
-      "nai": "絡まない"
-    },
-    "examples": [
-      {
-        "ja": "感情が絡むと、事がややこしくなる。",
-        "zh": "牽涉到感情，事情會變得複雜"
       }
     ]
   },
@@ -15925,16 +13074,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1337": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「研究の産物」と説明した。",
-        "zh": "發表時說明為「研究的產物，研究成果」。"
-      }
-    ]
-  },
   "n1_1338": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -15972,26 +13111,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「ハイテク」の意味を確認した。",
         "zh": "在資料中確認了「高科技」的意思。"
-      }
-    ]
-  },
-  "n1_1342": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "資料の中で「一流メーカー」が使われている。",
-        "zh": "資料中使用了「一流廠商」。"
-      }
-    ]
-  },
-  "n1_1343": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「品種改良」と説明した。",
-        "zh": "發表時說明為「改良品種」。"
       }
     ]
   },
@@ -16105,16 +13224,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1355": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「林業に従事する」と説明した。",
-        "zh": "發表時說明為「從事林業」。"
-      }
-    ]
-  },
   "n1_1356": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -16154,25 +13263,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1359": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "開発する",
-      "masu": "開発します",
-      "te": "開発して",
-      "ta": "開発した",
-      "nai": "開発しない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「新製品の開発」という例を挙げた。",
-        "zh": "老師舉了「研發新產品」這個例子。"
-      }
-    ]
-  },
   "n1_1360": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -16180,16 +13270,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "カドミウムを含んだ鉱山の廃水。",
         "zh": "含有鎘的礦山廢水"
-      }
-    ]
-  },
-  "n1_1361": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「新築マンション」と説明した。",
-        "zh": "發表時說明為「新成屋」。"
       }
     ]
   },
@@ -16222,16 +13302,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1364": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "記事には「予算をオーバーする」と書かれていた。",
-        "zh": "報導中寫著「超出預算」。"
-      }
-    ]
-  },
   "n1_1365": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -16239,16 +13309,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「オイルショック」の意味を確認した。",
         "zh": "在資料中確認了「石油危機」的意思。"
-      }
-    ]
-  },
-  "n1_1366": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「家計を預かる」が使われている。",
-        "zh": "資料中使用了「掌管家庭開支」。"
       }
     ]
   },
@@ -16301,16 +13361,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1371": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "先生は「ブームが冷める」という例を挙げた。",
-        "zh": "老師舉了「熱潮消失」這個例子。"
-      }
-    ]
-  },
   "n1_1372": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -16338,45 +13388,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「膨張」という語を扱った。",
         "zh": "課堂上學到「各自功、理、膨脹、增大、增加、擴大發展」這個詞。"
-      }
-    ]
-  },
-  "n1_1375": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「保険に加入する」という表現を使った。",
-        "zh": "會議中用了「加入保險」這個表達。"
-      }
-    ]
-  },
-  "n1_1376": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「工事の見積もりを出す」と書かれていた。",
-        "zh": "報導中寫著「提交工程估價」。"
-      }
-    ]
-  },
-  "n1_1377": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見積もる",
-      "masu": "見積もります",
-      "te": "見積もって",
-      "ta": "見積もった",
-      "nai": "見積もらない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「竹ざおの長さを見積もる」という例を挙げた。",
-        "zh": "老師舉了「估計一下竹竿的長度」這個例子。"
       }
     ]
   },
@@ -16419,26 +13430,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1381": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「交渉がうまくいく」という表現を使った。",
-        "zh": "會議中用了「談判進展順利」這個表達。"
-      }
-    ]
-  },
-  "n1_1382": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「顧客のニーズ」と書かれていた。",
-        "zh": "報導中寫著「顧客的需求」。"
-      }
-    ]
-  },
   "n1_1383": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -16456,25 +13447,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「大手企業と小麦を取引する」が使われている。",
         "zh": "資料中使用了「與大企業進行小麥交易」。"
-      }
-    ]
-  },
-  "n1_1385": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "成り立つ",
-      "masu": "成り立ちます",
-      "te": "成り立って",
-      "ta": "成り立った",
-      "nai": "成り立たない"
-    },
-    "examples": [
-      {
-        "ja": "水は水素と酸素から成り立つ。",
-        "zh": "水由氫和氧構成"
       }
     ]
   },
@@ -16505,25 +13477,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「売り出し」について調べた。",
         "zh": "查了「露頭角」這個詞。"
-      }
-    ]
-  },
-  "n1_1389": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "売り出す",
-      "masu": "売り出します",
-      "te": "売り出して",
-      "ta": "売り出した",
-      "nai": "売り出さない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「彼はこの本で売り出した」という例を挙げた。",
-        "zh": "老師舉了「他以這本書出了名」這個例子。"
       }
     ]
   },
@@ -16576,16 +13529,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1394": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「卸で買って小売りをする」と書かれていた。",
-        "zh": "報導中寫著「從批發買來後零售」。"
-      }
-    ]
-  },
   "n1_1395": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -16612,26 +13555,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「下取り」について調べた。",
         "zh": "查了「征-他、把舊物、折價貼錢換取新物」這個詞。"
-      }
-    ]
-  },
-  "n1_1397": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「独占インタビュー」と説明した。",
-        "zh": "發表時說明為「獨家專訪」。"
-      }
-    ]
-  },
-  "n1_1398": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "1か月前より前売り開始。",
-        "zh": "一個月前開始預售。"
       }
     ]
   },
@@ -16692,25 +13615,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "所得税。",
         "zh": "所得稅。"
-      }
-    ]
-  },
-  "n1_1405": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "損なう",
-      "masu": "損ないます",
-      "te": "損なって",
-      "ta": "損なった",
-      "nai": "損なわない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「ビルが街の美観を損なう」という表現を使った。",
-        "zh": "會議中用了「大樓破壞了市容美觀」這個表達。"
       }
     ]
   },
@@ -16863,25 +13767,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1420": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "立て替える",
-      "masu": "立て替えます",
-      "te": "立て替えて",
-      "ta": "立て替えた",
-      "nai": "立て替えない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「家賃を立て替えてあげる」が使われている。",
-        "zh": "資料中使用了「臨時墊付房租」。"
-      }
-    ]
-  },
   "n1_1421": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -16960,16 +13845,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1427": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「会社の経費を削減する」と説明した。",
-        "zh": "發表時說明為「削減公司開支」。"
-      }
-    ]
-  },
   "n1_1428": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -17017,25 +13892,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「実費」について調べた。",
         "zh": "查了「實際所需費用、成本」這個詞。"
-      }
-    ]
-  },
-  "n1_1433": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "手当てする",
-      "masu": "手当てします",
-      "te": "手当てして",
-      "ta": "手当てした",
-      "nai": "手当てしない"
-    },
-    "examples": [
-      {
-        "ja": "発表では「けがに手当てが必要だ」と説明した。",
-        "zh": "發表時說明為「傷口需要處理」。"
       }
     ]
   },
@@ -17088,16 +13944,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1438": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「株式会社を設立する」が使われている。",
-        "zh": "資料中使用了「成立股份公司」。"
-      }
-    ]
-  },
   "n1_1439": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -17135,16 +13981,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「財を成す」と書かれていた。",
         "zh": "報導中寫著「發財」。"
-      }
-    ]
-  },
-  "n1_1443": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「預金残高を調べる」という例を挙げた。",
-        "zh": "老師舉了「查詢存款餘額」這個例子。"
       }
     ]
   },
@@ -17198,26 +14034,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1449": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「土地を所有する」という例を挙げた。",
-        "zh": "老師舉了「擁有土地」這個例子。"
-      }
-    ]
-  },
-  "n1_1450": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「不動産を購入する」が使われている。",
-        "zh": "資料中使用了「購買房地產」。"
-      }
-    ]
-  },
   "n1_1451": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -17225,26 +14041,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「利益を分配する」と説明した。",
         "zh": "發表時說明為「分配利潤」。"
-      }
-    ]
-  },
-  "n1_1452": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "街頭で募金を集める。",
-        "zh": "在街頭募捐。"
-      }
-    ]
-  },
-  "n1_1453": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「製作費を補助する」という表現を使った。",
-        "zh": "會議中用了「補助製作費」這個表達。"
       }
     ]
   },
@@ -17352,16 +14148,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「貧困な生活」という例を挙げた。",
         "zh": "老師舉了「貧窮的生活」這個例子。"
-      }
-    ]
-  },
-  "n1_1462": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「貧乏な家に生まれる」が使われている。",
-        "zh": "資料中使用了「出生於貧苦的家庭」。"
       }
     ]
   },
@@ -17730,16 +14516,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1495": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「工場を視察する」という表現を使った。",
-        "zh": "會議中用了「視察工廠」這個表達。"
-      }
-    ]
-  },
   "n1_1496": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -17757,16 +14533,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「税務署」の意味を確認した。",
         "zh": "在資料中確認了「税務局」的意思。"
-      }
-    ]
-  },
-  "n1_1498": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「ゴキブリを退治する」が使われている。",
-        "zh": "資料中使用了「消滅蟑螂」。"
       }
     ]
   },
@@ -17809,16 +14575,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1502": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「結婚届けをする」と書かれていた。",
-        "zh": "報導中寫著「辦理結婚登記」。"
-      }
-    ]
-  },
   "n1_1503": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -17826,16 +14582,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章中に「日の丸」が出てきた。",
         "zh": "文章中出現了「日本國旗、太陽旗、太陽形」這個詞。"
-      }
-    ]
-  },
-  "n1_1504": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「グループが2つに分裂する」が使われている。",
-        "zh": "資料中使用了「團隊分裂成兩部分」。"
       }
     ]
   },
@@ -18008,16 +14754,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1521": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料で「票」の意味を確認した。",
-        "zh": "在資料中確認了「選票；票券；作為憑證的票」的意思。"
-      }
-    ]
-  },
   "n1_1522": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -18125,16 +14861,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「連盟」について調べた。",
         "zh": "查了「聯盟、聯合會」這個詞。"
-      }
-    ]
-  },
-  "n1_1533": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「争いが絶えない」という例を挙げた。",
-        "zh": "老師舉了「爭論不休」這個例子。"
       }
     ]
   },
@@ -18435,25 +15161,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1561": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "改まる",
-      "masu": "改まります",
-      "te": "改まって",
-      "ta": "改まった",
-      "nai": "改まらない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「改まった顔をする」という表現を使った。",
-        "zh": "會議中用了「作出嚴肅的表情」這個表達。"
-      }
-    ]
-  },
   "n1_1562": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -18491,16 +15198,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「寒冷な気候」と説明した。",
         "zh": "發表時說明為「寒冷的氣候」。"
-      }
-    ]
-  },
-  "n1_1566": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "このルールは会社の規定によって決まる。",
-        "zh": "此規則由公司規定決定"
       }
     ]
   },
@@ -18590,65 +15287,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「要らないものを処分する」と書かれていた。",
         "zh": "報導中寫著「把沒用的東西丟掉」。"
-      }
-    ]
-  },
-  "n1_1575": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「時間の制約を受ける」という例を挙げた。",
-        "zh": "老師舉了「受到時間的限制」這個例子。"
-      }
-    ]
-  },
-  "n1_1576": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「目標を設定する」が使われている。",
-        "zh": "資料中使用了「設定目標」。"
-      }
-    ]
-  },
-  "n1_1577": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「秩序を乱す」と説明した。",
-        "zh": "發表時說明為「擾亂秩序」。"
-      }
-    ]
-  },
-  "n1_1578": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "ノルマを達成する。",
-        "zh": "完成指標。"
-      }
-    ]
-  },
-  "n1_1579": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "禁じる",
-      "masu": "禁じます",
-      "te": "禁じて",
-      "ta": "禁じた",
-      "nai": "禁じない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「喫煙を禁じる」という表現を使った。",
-        "zh": "會議中用了「不准吸菸」這個表達。"
       }
     ]
   },
@@ -18818,16 +15456,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1593": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「海外へ逃亡する」という例を挙げた。",
-        "zh": "老師舉了「逃到國外」這個例子。"
-      }
-    ]
-  },
   "n1_1594": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -18876,25 +15504,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1597": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "逃れる",
-      "masu": "逃れます",
-      "te": "逃れて",
-      "ta": "逃れた",
-      "nai": "逃れない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「迫害から逃れる」という表現を使った。",
-        "zh": "會議中用了「逃離迫害」這個表達。"
-      }
-    ]
-  },
   "n1_1598": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -18911,16 +15520,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「先例に則る」と書かれていた。",
         "zh": "報導中寫著「遵循先例」。"
-      }
-    ]
-  },
-  "n1_1599": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "先生は「パトカーが通りを走る」という例を挙げた。",
-        "zh": "老師舉了「警車在街道上行駛」這個例子。"
       }
     ]
   },
@@ -18963,16 +15562,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1603": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「簡易包装」という表現を使った。",
-        "zh": "會議中用了「簡易包裝」這個表達。"
-      }
-    ]
-  },
   "n1_1604": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -18990,16 +15579,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「訴訟を起こす」という例を挙げた。",
         "zh": "老師舉了「提起訴訟」這個例子。"
-      }
-    ]
-  },
-  "n1_1606": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「多くの難問と対決する」が使われている。",
-        "zh": "資料中使用了「面對許多難題」。"
       }
     ]
   },
@@ -19179,25 +15758,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1621": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "おだてる",
-      "masu": "おだてます",
-      "te": "おだてて",
-      "ta": "おだてた",
-      "nai": "おだてない"
-    },
-    "examples": [
-      {
-        "ja": "人におだてられて、悪いことをする。",
-        "zh": "受人慫恿做壞事"
-      }
-    ]
-  },
   "n1_1622": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -19276,16 +15836,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1628": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "うちに来たら気兼ねしないでください。",
-        "zh": "來到我家請不要客氣"
-      }
-    ]
-  },
   "n1_1629": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -19305,16 +15855,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1630": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "料金が安く、気軽に利用できる店。",
-        "zh": "價格低廉，能輕鬆光顧的店"
-      }
-    ]
-  },
   "n1_1631": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -19322,16 +15862,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「気心の知れた仲だ」と説明した。",
         "zh": "發表時說明為「彼此都知道脾氣；我們是對脾氣的朋友」。"
-      }
-    ]
-  },
-  "n1_1632": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "話をきっぱりする必要がある。",
-        "zh": "有必要把話講清楚"
       }
     ]
   },
@@ -19371,45 +15901,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "お心遣い、ありがとうございました。",
         "zh": "多謝您的關心"
-      }
-    ]
-  },
-  "n1_1636": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「心強い味方」が使われている。",
-        "zh": "資料中使用了「可以充分信賴的夥伴」。"
-      }
-    ]
-  },
-  "n1_1637": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "込める",
-      "masu": "込めます",
-      "te": "込めて",
-      "ta": "込めた",
-      "nai": "込めない"
-    },
-    "examples": [
-      {
-        "ja": "発表では「心を込めて手紙を書く」と説明した。",
-        "zh": "發表時說明為「用心寫信」。"
-      }
-    ]
-  },
-  "n1_1638": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "錯覚に陥る。",
-        "zh": "陷入錯覺。"
       }
     ]
   },
@@ -19541,26 +16032,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1650": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "到底間に合わない。",
-        "zh": "無論如何也來不及。"
-      }
-    ]
-  },
-  "n1_1651": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「尊い命」という表現を使った。",
-        "zh": "會議中用了「寶貴的生命」這個表達。"
-      }
-    ]
-  },
   "n1_1652": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -19568,26 +16039,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「トラウマ」について調べた。",
         "zh": "查了「創傷」這個詞。"
-      }
-    ]
-  },
-  "n1_1653": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「鈍感な人」という例を挙げた。",
-        "zh": "老師舉了「感覺遲鈍的人」這個例子。"
-      }
-    ]
-  },
-  "n1_1654": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「友達に内緒の話をする」が使われている。",
-        "zh": "資料中使用了「跟朋友說悄悄話」。"
       }
     ]
   },
@@ -19628,16 +16079,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「情け」という語を扱った。",
         "zh": "課堂上學到「仁慈、同情、人情、情義、男女溼情、愛情」這個詞。"
-      }
-    ]
-  },
-  "n1_1659": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「慣れからくる油断」という例を挙げた。",
-        "zh": "老師舉了「因習慣化而麻痺大意」這個例子。"
       }
     ]
   },
@@ -19749,16 +16190,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1669": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「気温の変化に敏感だ」という表現を使った。",
-        "zh": "會議中用了「對氣溫的變化很敏感」這個表達。"
-      }
-    ]
-  },
   "n1_1670": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -19776,26 +16207,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「天候不順」という例を挙げた。",
         "zh": "老師舉了「氣候異常」這個例子。"
-      }
-    ]
-  },
-  "n1_1672": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "資料の中で「プレッシャーがかかる」が使われている。",
-        "zh": "資料中使用了「感到有壓力；承受壓力」。"
-      }
-    ]
-  },
-  "n1_1673": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「平常どおり営業する」と説明した。",
-        "zh": "發表時說明為「照常營業」。"
       }
     ]
   },
@@ -19826,26 +16237,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「ほろ苦い」について調べた。",
         "zh": "查了「稍苦的」這個詞。"
-      }
-    ]
-  },
-  "n1_1677": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「本音が聞きたい」という例を挙げた。",
-        "zh": "老師舉了「想聽真心話」這個例子。"
-      }
-    ]
-  },
-  "n1_1678": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「本能に従う」が使われている。",
-        "zh": "資料中使用了「遵從本能」。"
       }
     ]
   },
@@ -19924,35 +16315,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「スポーツに無関心な人」が使われている。",
         "zh": "資料中使用了「對體育不感興趣的人」。"
-      }
-    ]
-  },
-  "n1_1685": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "おかずが少なくて物足りない。",
-        "zh": "菜色太少，不夠豐盛"
-      }
-    ]
-  },
-  "n1_1686": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "盛り上がる",
-      "masu": "盛り上がります",
-      "te": "盛り上がって",
-      "ta": "盛り上がった",
-      "nai": "盛り上がらない"
-    },
-    "examples": [
-      {
-        "ja": "腕の筋肉が盛り上がっている。",
-        "zh": "手臂上的肌肉隆起"
       }
     ]
   },
@@ -20074,16 +16436,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1697": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「意欲を高める」と説明した。",
-        "zh": "發表時說明為「提高積極性」。"
-      }
-    ]
-  },
   "n1_1698": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -20122,25 +16474,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1700": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "思い切る",
-      "masu": "思い切ます",
-      "te": "思い切て",
-      "ta": "思い切た",
-      "nai": "思い切ない"
-    },
-    "examples": [
-      {
-        "ja": "記事には「歌手になる夢を思い切る」と書かれていた。",
-        "zh": "報導中寫著「放棄成為歌手的夢想」。"
-      }
-    ]
-  },
   "n1_1701": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
@@ -20148,25 +16481,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「仕事をおろそかにする」という例を挙げた。",
         "zh": "老師舉了「怠慢工作」這個例子。"
-      }
-    ]
-  },
-  "n1_1702": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "固める",
-      "masu": "固めます",
-      "te": "固めて",
-      "ta": "固めた",
-      "nai": "固めない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「本は一か所に固めておく」が使われている。",
-        "zh": "資料中使用了「把書集中放在一個地方」。"
       }
     ]
   },
@@ -20199,16 +16513,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1705": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「決意を固める」という表現を使った。",
-        "zh": "會議中用了「下定決心」這個表達。"
-      }
-    ]
-  },
   "n1_1706": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -20235,16 +16539,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "外交官を志して、勉強に励んでいる。",
         "zh": "立志做外交官，努力學習"
-      }
-    ]
-  },
-  "n1_1708": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「この仕事は根気が要る」が使われている。",
-        "zh": "資料中使用了「這項工作需要耐心」。"
       }
     ]
   },
@@ -20313,16 +16607,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「あともう少しの辛抱だ」という例を挙げた。",
         "zh": "老師舉了「稍微再忍耐一下就好了」這個例子。"
-      }
-    ]
-  },
-  "n1_1714": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「精一杯頑張る」が使われている。",
-        "zh": "資料中使用了「竭盡全力」。"
       }
     ]
   },
@@ -20528,44 +16812,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「日夜研究に励む」と書かれていた。",
         "zh": "報導中寫著「夜以繼日地努力研究」。"
-      }
-    ]
-  },
-  "n1_1731": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "果たす",
-      "masu": "果たします",
-      "te": "果たして",
-      "ta": "果たした",
-      "nai": "果たさない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「金を使い果たす」という例を挙げた。",
-        "zh": "老師舉了「把錢用盡」這個例子。"
-      }
-    ]
-  },
-  "n1_1732": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "反する",
-      "masu": "反します",
-      "te": "反して",
-      "ta": "反した",
-      "nai": "反しない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「エチケットに反する」が使われている。",
-        "zh": "資料中使用了「有違禮節」。"
       }
     ]
   },
@@ -20782,16 +17028,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1748": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「好ましくない印象」と書かれていた。",
-        "zh": "報導中寫著「不太好的印象」。"
-      }
-    ]
-  },
   "n1_1749": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -20799,16 +17035,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「嗜好」の意味を確認した。",
         "zh": "在資料中確認了「嗜好、愛好、興趣、喜歡、討厭」的意思。"
-      }
-    ]
-  },
-  "n1_1750": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "あなたのご主人って渋いじゃない。",
-        "zh": "妳先生很有品味呢"
       }
     ]
   },
@@ -20849,25 +17075,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "その判断は一見合理的でも、当事者には見苦しいものとして受け止められました。",
         "zh": "那個判斷乍看合理，但當事人將其感受為「令人看不下去的、不好看、不體面、難看」。"
-      }
-    ]
-  },
-  "n1_1755": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "むかつく",
-      "masu": "むかつきます",
-      "te": "むかついて",
-      "ta": "むかついた",
-      "nai": "むかつかない"
-    },
-    "examples": [
-      {
-        "ja": "胸がむかついて吐き気を催す。",
-        "zh": "噁心得要吐"
       }
     ]
   },
@@ -21048,16 +17255,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1771": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「孤独を感じる」という表現を使った。",
-        "zh": "會議中用了「感受到孤獨」這個表達。"
-      }
-    ]
-  },
   "n1_1772": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -21085,16 +17282,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「絶望の境地に陥る」が使われている。",
         "zh": "資料中使用了「陷入絕望的境地」。"
-      }
-    ]
-  },
-  "n1_1775": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "全ての努力が台無しになった。",
-        "zh": "一切努力都化為泡影"
       }
     ]
   },
@@ -21156,16 +17343,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1780": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "動物をいじめるのは情けない人のすることだ。",
-        "zh": "虐待動物是沒良心的人才會做的事"
-      }
-    ]
-  },
   "n1_1781": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
@@ -21173,25 +17350,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「悩ましい青春の日々」と説明した。",
         "zh": "發表時說明為「煩惱的青春時代」。"
-      }
-    ]
-  },
-  "n1_1782": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "悩ます",
-      "masu": "悩まします",
-      "te": "悩まして",
-      "ta": "悩ました",
-      "nai": "悩まさない"
-    },
-    "examples": [
-      {
-        "ja": "騒音に悩まされる。",
-        "zh": "受噪音困擾。"
       }
     ]
   },
@@ -21264,25 +17422,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1789": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "恐れする",
-      "masu": "恐れします",
-      "te": "恐れして",
-      "ta": "恐れした",
-      "nai": "恐れしない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「津波の恐れがある」という表現を使った。",
-        "zh": "會議中用了「有可能發生海嘯」這個表達。"
-      }
-    ]
-  },
   "n1_1790": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -21309,16 +17448,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「刃物で脅す」という例を挙げた。",
         "zh": "老師舉了「拿刀威脅」這個例子。"
-      }
-    ]
-  },
-  "n1_1792": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「内心の驚きを隠せない」が使われている。",
-        "zh": "資料中使用了「掩飾不住內心的驚恐」。"
       }
     ]
   },
@@ -21390,16 +17519,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1798": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "なんとまあ、あなただったの。",
-        "zh": "哎呀，原來是你啊"
-      }
-    ]
-  },
   "n1_1799": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -21426,25 +17545,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "ばかばかしい考え。",
         "zh": "愚蠢的想法。"
-      }
-    ]
-  },
-  "n1_1801": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "はらはらする",
-      "masu": "はらはらします",
-      "te": "はらはらして",
-      "ta": "はらはらした",
-      "nai": "はらはらしない"
-    },
-    "examples": [
-      {
-        "ja": "サクラの花びらがはらはらと散る。",
-        "zh": "櫻花花瓣紛紛飄落"
       }
     ]
   },
@@ -21485,44 +17585,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「カルシウムを多めにとる」と説明した。",
         "zh": "發表時說明為「多補點鈣」。"
-      }
-    ]
-  },
-  "n1_1806": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "惜しむ",
-      "masu": "惜しみます",
-      "te": "惜しんで",
-      "ta": "惜しんだ",
-      "nai": "惜しまない"
-    },
-    "examples": [
-      {
-        "ja": "彼の死は国家にとって惜しむべきである。",
-        "zh": "他的死對國家是件憾事"
-      }
-    ]
-  },
-  "n1_1807": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "叶う",
-      "masu": "叶います",
-      "te": "叶って",
-      "ta": "叶った",
-      "nai": "叶わない"
-    },
-    "examples": [
-      {
-        "ja": "文章では「叶う」を慎重に使う。",
-        "zh": "寫文章時要謹慎使用「實現、如願；符合；敵得過」。"
       }
     ]
   },
@@ -21572,16 +17634,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「名誉を重んずる」と説明した。",
         "zh": "發表時說明為「重視名譽」。"
-      }
-    ]
-  },
-  "n1_1812": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "恵みを施す。",
-        "zh": "施恩。"
       }
     ]
   },
@@ -21672,26 +17724,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1819": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「行いが改まる」という表現を使った。",
-        "zh": "會議中用了「改邪歸正」這個表達。"
-      }
-    ]
-  },
-  "n1_1820": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「それはいい思いつきだ」と書かれていた。",
-        "zh": "報導中寫著「那是個好主意」。"
-      }
-    ]
-  },
   "n1_1821": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -21718,16 +17750,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「画期的な発明」が使われている。",
         "zh": "資料中使用了「具有劃時代意義的發明」。"
-      }
-    ]
-  },
-  "n1_1823": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "毎日こう暑くてはかなわない。",
-        "zh": "每天都這麼熱，真吃不消"
       }
     ]
   },
@@ -21798,16 +17820,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1828": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "「二酸化炭素」と「炭酸ガス」とは、同意の言葉だ。",
-        "zh": "「二酸化炭素」和「炭酸ガス」是同義詞"
-      }
-    ]
-  },
   "n1_1829": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -21835,16 +17847,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼はいつもいいねたを持ってくる。",
         "zh": "他總是帶來好素材"
-      }
-    ]
-  },
-  "n1_1832": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「不快の念をいだく」と書かれていた。",
-        "zh": "報導中寫著「懷著不快的心情」。"
       }
     ]
   },
@@ -21908,16 +17910,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1839": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「案の定負けてしまった」という例を挙げた。",
-        "zh": "老師舉了「果然輸了」這個例子。"
-      }
-    ]
-  },
   "n1_1840": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -21947,26 +17939,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1842": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "いかに多大な時間が浪費されたことか。",
-        "zh": "到底浪費了多少時間啊"
-      }
-    ]
-  },
-  "n1_1843": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "いかにもおっしゃるとおりです。",
-        "zh": "誠如您所說"
-      }
-    ]
-  },
   "n1_1844": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -21987,26 +17959,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1846": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「方針が確定した」が使われている。",
-        "zh": "資料中使用了「方針已經確定了」。"
-      }
-    ]
-  },
-  "n1_1847": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "仮に君が正しいとしても、問題は解決しない。",
-        "zh": "即便假設你是對的，問題也不會解決"
-      }
-    ]
-  },
   "n1_1848": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -22014,16 +17966,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "要求を拒絶する。",
         "zh": "拒絕要求。"
-      }
-    ]
-  },
-  "n1_1849": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「申し出を拒否する」という表現を使った。",
-        "zh": "會議中用了「拒絕申請」這個表達。"
       }
     ]
   },
@@ -22087,16 +18029,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1856": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「自主の精神」と書かれていた。",
-        "zh": "報導中寫著「獨立自主的精神」。"
-      }
-    ]
-  },
   "n1_1857": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
@@ -22143,16 +18075,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「信任」について調べた。",
         "zh": "查了「信任」這個詞。"
-      }
-    ]
-  },
-  "n1_1861": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「事故の原因を推測する」という表現を使った。",
-        "zh": "會議中用了「推測事故的原因」這個表達。"
       }
     ]
   },
@@ -22245,16 +18167,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1870": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "「ああ疲れた」「だったら明日にしたら」",
-        "zh": "「啊啊，好累」「那明天再做吧」"
-      }
-    ]
-  },
   "n1_1871": {
     "pos": "adverb",
     "posLabel": "副詞",
@@ -22262,16 +18174,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "この料理のほうが断然うまい。",
         "zh": "顯然還是這個菜好吃"
-      }
-    ]
-  },
-  "n1_1872": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "どうにかして終わらせたい。",
-        "zh": "想設法完成。"
       }
     ]
   },
@@ -22333,16 +18235,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1877": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「何だかお腹が痛くなった」と説明した。",
-        "zh": "發表時說明為「不知怎麼肚子痛起來了」。"
-      }
-    ]
-  },
   "n1_1878": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -22359,26 +18251,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "進路を阻む。",
         "zh": "擋住去路；阻礙發展。"
-      }
-    ]
-  },
-  "n1_1879": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「不可欠な条件」という表現を使った。",
-        "zh": "會議中用了「不可或缺的條件」這個表達。"
-      }
-    ]
-  },
-  "n1_1880": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "記事には「そのやり方がベストだ」と書かれていた。",
-        "zh": "報導中寫著「那個辦法最好」。"
       }
     ]
   },
@@ -22408,16 +18280,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "仕事をしていると、不安が紛れる。",
         "zh": "透過工作來排解不安"
-      }
-    ]
-  },
-  "n1_1883": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生でも解けないのに、まして僕にできるものか。",
-        "zh": "連老師都無法解答，我怎麼可能會呢？"
       }
     ]
   },
@@ -22470,16 +18332,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1888": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "いろんな角度からアプローチする。",
-        "zh": "從各種角度切入"
-      }
-    ]
-  },
   "n1_1889": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -22520,16 +18372,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1893": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「見聞きした事柄を報告する」という例を挙げた。",
-        "zh": "老師舉了「報告所見所聞」這個例子。"
-      }
-    ]
-  },
   "n1_1894": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -22565,26 +18407,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "彼は一人で大会の運営を仕切っている。",
         "zh": "他一個人掌管大會的運作"
-      }
-    ]
-  },
-  "n1_1896": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "骨董品を収集する。",
-        "zh": "收藏古董。"
-      }
-    ]
-  },
-  "n1_1897": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「新型機械の出現」という表現を使った。",
-        "zh": "會議中用了「新型機器的出現」這個表達。"
       }
     ]
   },
@@ -22637,16 +18459,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1902": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "二つの事例を対比する。",
-        "zh": "比較兩個案例。"
-      }
-    ]
-  },
   "n1_1903": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -22664,26 +18476,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「南極探検隊」と書かれていた。",
         "zh": "報導中寫著「南極探險隊」。"
-      }
-    ]
-  },
-  "n1_1905": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「犯行の動機を追及する」という例を挙げた。",
-        "zh": "老師舉了「追查犯罪動機」這個例子。"
-      }
-    ]
-  },
-  "n1_1906": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「機械を点検する」が使われている。",
-        "zh": "資料中使用了「對機器進行檢查」。"
       }
     ]
   },
@@ -22716,16 +18508,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1909": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "映画なんかあまり興味がない。",
-        "zh": "電影之類的不怎麼感興趣"
-      }
-    ]
-  },
   "n1_1910": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -22743,16 +18525,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「リスクを分散する」という例を挙げた。",
         "zh": "老師舉了「分散風險」這個例子。"
-      }
-    ]
-  },
-  "n1_1912": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「ごみを分別する」が使われている。",
-        "zh": "資料中使用了「垃圾分類」。"
       }
     ]
   },
@@ -22776,16 +18548,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1915": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「解決法を模索する」という表現を使った。",
-        "zh": "會議中用了「摸索解決的方法」這個表達。"
-      }
-    ]
-  },
   "n1_1916": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -22793,25 +18555,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "紛争は長期化の様相を呈する。",
         "zh": "紛爭呈現長期化的狀況"
-      }
-    ]
-  },
-  "n1_1917": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "読み取る",
-      "masu": "読み取ります",
-      "te": "読み取って",
-      "ta": "読み取った",
-      "nai": "読み取らない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「小説のあらすじを読み取る」という例を挙げた。",
-        "zh": "老師舉了「理解小說的梗概」這個例子。"
       }
     ]
   },
@@ -22884,16 +18627,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1924": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "経営者は一様に利益を求めている。",
-        "zh": "經營者都一樣追求著利益"
-      }
-    ]
-  },
   "n1_1925": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -22931,16 +18664,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "記事には「プランの大筋を説明する」と書かれていた。",
         "zh": "報導中寫著「說明方案的大致內容」。"
-      }
-    ]
-  },
-  "n1_1929": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "努力すれば道は自ずから開ける。",
-        "zh": "只要努力，自然會闖出一條路來"
       }
     ]
   },
@@ -22984,16 +18707,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1934": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「概念を明らかにする」と書かれていた。",
-        "zh": "報導中寫著「明確概念」。"
-      }
-    ]
-  },
   "n1_1935": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23001,16 +18714,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「事件の概略を説明する」という例を挙げた。",
         "zh": "老師舉了「說明事件的概況」這個例子。"
-      }
-    ]
-  },
-  "n1_1936": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この問題を別の観点から考えるべきだ。",
-        "zh": "應該從另一個角度考慮這個問題"
       }
     ]
   },
@@ -23041,16 +18744,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "会議で「究極の目標」という表現を使った。",
         "zh": "會議中用了「終極目標」這個表達。"
-      }
-    ]
-  },
-  "n1_1940": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「先生の教訓を守る」と書かれていた。",
-        "zh": "報導中寫著「遵守老師的教誨」。"
       }
     ]
   },
@@ -23094,16 +18787,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1945": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「根拠のない話」という表現を使った。",
-        "zh": "會議中用了「無稽之談」這個表達。"
-      }
-    ]
-  },
   "n1_1946": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23121,85 +18804,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "先生は「根本から間違っている」という例を挙げた。",
         "zh": "老師舉了「從根本上就是錯的」這個例子。"
-      }
-    ]
-  },
-  "n1_1948": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「最善を尽くす」が使われている。",
-        "zh": "資料中使用了「竭盡全力」。"
-      }
-    ]
-  },
-  "n1_1949": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「重大な錯誤を犯す」と説明した。",
-        "zh": "發表時說明為「犯嚴重錯誤」。"
-      }
-    ]
-  },
-  "n1_1950": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "仕組みする",
-      "masu": "仕組みします",
-      "te": "仕組みして",
-      "ta": "仕組みした",
-      "nai": "仕組みしない"
-    },
-    "examples": [
-      {
-        "ja": "最終的には自分だけが得をする仕組みだ。",
-        "zh": "最終只有自己能從中獲利的機制"
-      }
-    ]
-  },
-  "n1_1951": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "彼は素質は持っている。しかしながら努力がいまひとつ足りない。",
-        "zh": "他有天賦，但是還不夠努力"
-      }
-    ]
-  },
-  "n1_1952": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「実態を明らかにする」と書かれていた。",
-        "zh": "報導中寫著「弄清楚實際情況」。"
-      }
-    ]
-  },
-  "n1_1953": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「視野を広げる」という例を挙げた。",
-        "zh": "老師舉了「拓寬眼界」這個例子。"
-      }
-    ]
-  },
-  "n1_1954": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "その意見は彼の主観に基づいている。",
-        "zh": "那個觀點基於他的主觀"
       }
     ]
   },
@@ -23263,16 +18867,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1961": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「正常な状態」と説明した。",
-        "zh": "發表時說明為「正常狀態」。"
-      }
-    ]
-  },
   "n1_1962": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23299,16 +18893,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "文章では「違える」を慎重に使う。",
         "zh": "寫文章時要謹慎使用「他下、使不同、改變、弄錯、錯誤、扭、筋骨」。"
-      }
-    ]
-  },
-  "n1_1964": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「知的な女性」と書かれていた。",
-        "zh": "報導中寫著「知性女人」。"
       }
     ]
   },
@@ -23381,16 +18965,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1971": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "荒天にもかかわらず船を出す。",
-        "zh": "儘管天氣惡劣，仍然出航"
-      }
-    ]
-  },
   "n1_1972": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -23430,16 +19004,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1975": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "すべて私の不明の致すところです。",
-        "zh": "一切都是我的無知所致"
-      }
-    ]
-  },
   "n1_1976": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23450,16 +19014,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1977": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "ポイントのはっきりしない話。",
-        "zh": "重點不明確的話"
-      }
-    ]
-  },
   "n1_1978": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23467,16 +19021,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「本格」という語を扱った。",
         "zh": "課堂上學到「本格」這個詞。"
-      }
-    ]
-  },
-  "n1_1979": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「問題の本質に触れる」と説明した。",
-        "zh": "發表時說明為「觸及事物的本質」。"
       }
     ]
   },
@@ -23516,25 +19060,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "この場面で「まさしく」と表現できるか確認した。",
         "zh": "確認這個情境能不能用「的確、沒錯、正是、日本夏」來表達。"
-      }
-    ]
-  },
-  "n1_1983": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見知らぬ",
-      "masu": "見知らにます",
-      "te": "見知らんで",
-      "ta": "見知らんだ",
-      "nai": "見知らなない"
-    },
-    "examples": [
-      {
-        "ja": "見知らぬ人に声をかけられる。",
-        "zh": "被陌生人搭話"
       }
     ]
   },
@@ -23587,16 +19112,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_1988": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "何か良くないことが起こる予感がする。",
-        "zh": "有種不好的事情即將發生的預感"
-      }
-    ]
-  },
   "n1_1989": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23614,16 +19129,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "よほど言ってやろうかと思ったがやめた。",
         "zh": "我真想說上幾句，可是沒說"
-      }
-    ]
-  },
-  "n1_1991": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「都市生活の利点」と説明した。",
-        "zh": "發表時說明為「城市生活的好處」。"
       }
     ]
   },
@@ -23766,25 +19271,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2005": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "使いこなす",
-      "masu": "使いこなします",
-      "te": "使いこなして",
-      "ta": "使いこなした",
-      "nai": "使いこなさない"
-    },
-    "examples": [
-      {
-        "ja": "会議で「パソコンを使いこなす」という表現を使った。",
-        "zh": "會議中用了「熟練使用電腦」這個表達。"
-      }
-    ]
-  },
   "n1_2006": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -23792,16 +19278,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「綴り」という語を扱った。",
         "zh": "課堂上學到「裝訂成冊、拼字、拼音」這個詞。"
-      }
-    ]
-  },
-  "n1_2007": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "先生は「誤りを訂正する」という例を挙げた。",
-        "zh": "老師舉了「訂正錯誤」這個例子。"
       }
     ]
   },
@@ -23822,35 +19298,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「名付け親」の意味を確認した。",
         "zh": "在資料中確認了「給小孩、取名的人、某名稱、第一、個使用的人」的意思。"
-      }
-    ]
-  },
-  "n1_2010": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "名付ける",
-      "masu": "名付けます",
-      "te": "名付けて",
-      "ta": "名付けた",
-      "nai": "名付けない"
-    },
-    "examples": [
-      {
-        "ja": "長女を花子と名付ける。",
-        "zh": "給長女取名為花子。"
-      }
-    ]
-  },
-  "n1_2011": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「会議で名札を付ける」という表現を使った。",
-        "zh": "會議中用了「在會議上佩戴名牌」這個表達。"
       }
     ]
   },
@@ -23881,16 +19328,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「本名」という語を扱った。",
         "zh": "課堂上學到「本名、真名」這個詞。"
-      }
-    ]
-  },
-  "n1_2015": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "発表では「地図の上にマークをつける」と説明した。",
-        "zh": "發表時說明為「在地圖上做上標記」。"
       }
     ]
   },
@@ -23963,16 +19400,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2022": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "事故当時のことをありのままに言う。",
-        "zh": "如實地描述事發當時的情況"
-      }
-    ]
-  },
   "n1_2023": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -23992,16 +19419,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2024": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "記事には「渋滞を言い訳にする」と書かれていた。",
-        "zh": "報導中寫著「以塞車為藉口」。"
-      }
-    ]
-  },
   "n1_2025": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -24018,16 +19435,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "一年で日本語をマスターすると意気込んでいる。",
         "zh": "幹勁十足地想要一年內學好日語"
-      }
-    ]
-  },
-  "n1_2026": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「訴えを起こす」が使われている。",
-        "zh": "資料中使用了「提起訴訟」。"
       }
     ]
   },
@@ -24128,25 +19535,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2034": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "交わす",
-      "masu": "交わします",
-      "te": "交わして",
-      "ta": "交わした",
-      "nai": "交わさない"
-    },
-    "examples": [
-      {
-        "ja": "ひそかにまなざしを交わす。",
-        "zh": "暗中眉目傳情。"
-      }
-    ]
-  },
   "n1_2035": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24202,16 +19590,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料の中で「返事をごまかす」が使われている。",
         "zh": "資料中使用了「敷衍回復」。"
-      }
-    ]
-  },
-  "n1_2039": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "その事件についてコメントする。",
-        "zh": "就那個事件發表意見"
       }
     ]
   },
@@ -24274,16 +19652,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2045": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「欠点を指摘する」と説明した。",
-        "zh": "發表時說明為「指出缺點」。"
-      }
-    ]
-  },
   "n1_2046": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24323,25 +19691,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2049": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "記す",
-      "masu": "記します",
-      "te": "記して",
-      "ta": "記した",
-      "nai": "記さない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「本に記す」という例を挙げた。",
-        "zh": "老師舉了「寫在書上」這個例子。"
-      }
-    ]
-  },
   "n1_2050": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24349,26 +19698,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「指令」という語を扱った。",
         "zh": "課堂上學到「指令、指示、通知、'命令」這個詞。"
-      }
-    ]
-  },
-  "n1_2051": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "医者の勧めでたばこをやめた。",
-        "zh": "經醫生勸告，戒菸了"
-      }
-    ]
-  },
-  "n1_2052": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "英語をすらすら読む。",
-        "zh": "流利地閱讀英語。"
       }
     ]
   },
@@ -24399,16 +19728,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "二大党首がデフレをめぐって対談する。",
         "zh": "兩大黨首針對通貨緊縮進行對談"
-      }
-    ]
-  },
-  "n1_2056": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「敵対する国と対話する」が使われている。",
-        "zh": "資料中使用了「與敵對國進行對話」。"
       }
     ]
   },
@@ -24461,16 +19780,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2061": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "エッグロールズ社の提供でお送りしました。",
-        "zh": "（本節目）由蛋捲公司贊助播出"
-      }
-    ]
-  },
   "n1_2062": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24478,16 +19787,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "授業で「体裁」という語を扱った。",
         "zh": "課堂上學到「外表、樣式、'、外貌、體面、體統、應、形式、局面」這個詞。"
-      }
-    ]
-  },
-  "n1_2063": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "フランス語どころか英語も知らない。",
-        "zh": "別說法語，連英語都不懂"
       }
     ]
   },
@@ -24530,16 +19829,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2067": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "そういう議論はナンセンスだ。",
-        "zh": "那種討論是沒有意義的"
-      }
-    ]
-  },
   "n1_2068": {
     "pos": "katakana",
     "posLabel": "外來語",
@@ -24557,16 +19846,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "発表では「役員の不正を暴露する」と説明した。",
         "zh": "發表時說明為「揭發幹部的不正行為」。"
-      }
-    ]
-  },
-  "n1_2070": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "自由に発言する。",
-        "zh": "自由發表意見。"
       }
     ]
   },
@@ -24678,16 +19957,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2080": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「ボールがぺこぺこになる」が使われている。",
-        "zh": "資料中使用了「球癟了」。"
-      }
-    ]
-  },
   "n1_2081": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24695,16 +19964,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "遅刻したことをくどくどと弁解する。",
         "zh": "喋喋不休地為遲到辯解"
-      }
-    ]
-  },
-  "n1_2082": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "相手の返答を待つ。",
-        "zh": "等對方回話。"
       }
     ]
   },
@@ -24805,35 +20064,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2090": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "申し込みの締め切りは今月末です。",
-        "zh": "報名的截止日期是本月末"
-      }
-    ]
-  },
-  "n1_2091": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "申し出る",
-      "masu": "申し出ます",
-      "te": "申し出て",
-      "ta": "申し出た",
-      "nai": "申し出ない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「希望者は申し出てください」という例を挙げた。",
-        "zh": "老師舉了「有意者請提出申請」這個例子。"
-      }
-    ]
-  },
   "n1_2092": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24863,26 +20093,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2094": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "ユニークなやり方。",
-        "zh": "獨特的做法。"
-      }
-    ]
-  },
-  "n1_2095": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「用件を済ます」という表現を使った。",
-        "zh": "會議中用了「辦完事情」這個表達。"
-      }
-    ]
-  },
   "n1_2096": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -24890,44 +20100,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「よっぽど」について調べた。",
         "zh": "查了「大量、在很大程度上、以上」這個詞。"
-      }
-    ]
-  },
-  "n1_2097": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "呼び止める",
-      "masu": "呼び止めます",
-      "te": "呼び止めて",
-      "ta": "呼び止めた",
-      "nai": "呼び止めない"
-    },
-    "examples": [
-      {
-        "ja": "先生は「後ろから呼び止められる」という例を挙げた。",
-        "zh": "老師舉了「從背後被叫住」這個例子。"
-      }
-    ]
-  },
-  "n1_2098": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "読み上げる",
-      "masu": "読み上げます",
-      "te": "読み上げて",
-      "ta": "読み上げた",
-      "nai": "読み上げない"
-    },
-    "examples": [
-      {
-        "ja": "資料の中で「文章を最後まで読み上げる」が使われている。",
-        "zh": "資料中使用了「把文章讀完」。"
       }
     ]
   },
@@ -24948,16 +20120,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "「リップサービス」について調べた。",
         "zh": "查了「口惠、口頭上說好聽的話」這個詞。"
-      }
-    ]
-  },
-  "n1_2101": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "会議で「よろしく御了承下さい」という表現を使った。",
-        "zh": "會議中用了「敬請諒解」這個表達。"
       }
     ]
   },
@@ -24991,16 +20153,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2105": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "図書館で古文書を閲覧できます。",
-        "zh": "在圖書館可以瀏覽古文獻"
-      }
-    ]
-  },
   "n1_2106": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -25008,16 +20160,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "注意事項を箇条書きにする。",
         "zh": "把注意事項分條列出來。"
-      }
-    ]
-  },
-  "n1_2107": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "手紙の最後に「敬具」と書く。",
-        "zh": "信末尾寫上「敬具」"
       }
     ]
   },
@@ -25111,16 +20253,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n1_2117": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "発表では「長編の小説を書く」と説明した。",
-        "zh": "發表時說明為「寫一部長篇小說」。"
-      }
-    ]
-  },
   "n1_2118": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -25158,46 +20290,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "資料で「付録」の意味を確認した。",
         "zh": "在資料中確認了「附録、臨時増刊」的意思。"
-      }
-    ]
-  },
-  "n1_2122": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "資料の中で「外交文書」が使われている。",
-        "zh": "資料中使用了「外交公文」。"
-      }
-    ]
-  },
-  "n1_2123": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "発表では「ベストセラー作家」と説明した。",
-        "zh": "發表時說明為「暢銷書作家」。"
-      }
-    ]
-  },
-  "n1_2124": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "条約の本文。",
-        "zh": "條約的正文。"
-      }
-    ]
-  },
-  "n1_2125": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "クラスの名簿をチェックする。",
-        "zh": "檢查班級名冊"
       }
     ]
   },
@@ -75576,27 +70668,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n2_0008": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "延長する",
-      "masu": "延長します",
-      "te": "延長して",
-      "ta": "延長した",
-      "nai": "延長しない"
-    },
-    "examples": [
-      {
-        "ja": "受付時間を一時間延長しました。",
-        "zh": "我們把受理時間延長了一小時。"
-      }
-    ]
-  },
   "n2_0009": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
@@ -75657,27 +70728,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "来月、駅前で音楽イベントが開催されます。",
         "zh": "下個月車站前會舉辦音樂活動。"
-      }
-    ]
-  },
-  "n2_0012": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "拡大する",
-      "masu": "拡大します",
-      "te": "拡大して",
-      "ta": "拡大した",
-      "nai": "拡大しない"
-    },
-    "examples": [
-      {
-        "ja": "写真を拡大して細かい部分を確認しました。",
-        "zh": "我把照片放大後確認細節。"
       }
     ]
   },
@@ -75792,27 +70842,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "工場は全国に部品を供給しています。",
         "zh": "工廠向全國供應零件。"
-      }
-    ]
-  },
-  "n2_0020": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "強調する",
-      "masu": "強調します",
-      "te": "強調して",
-      "ta": "強調した",
-      "nai": "強調しない"
-    },
-    "examples": [
-      {
-        "ja": "先生は基本を確認することの大切さを強調しました。",
-        "zh": "老師強調確認基礎的重要性。"
       }
     ]
   },
@@ -76097,27 +71126,6 @@ window.FAT_SHIBA_WORD_META = {
       }
     ]
   },
-  "n2_0037": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "整備する",
-      "masu": "整備します",
-      "te": "整備して",
-      "ta": "整備した",
-      "nai": "整備しない"
-    },
-    "examples": [
-      {
-        "ja": "市は駅前の道路を整備しました。",
-        "zh": "市政府整備了車站前的道路。"
-      }
-    ]
-  },
   "n2_0038": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -76166,16 +71174,6 @@ window.FAT_SHIBA_WORD_META = {
       {
         "ja": "チーム全員で今年の目標を達成しました。",
         "zh": "全隊一起達成了今年的目標。"
-      }
-    ]
-  },
-  "n2_0042": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この地域では冬に雪が多く降ります。",
-        "zh": "這個地區冬天會下很多雪。"
       }
     ]
   },
