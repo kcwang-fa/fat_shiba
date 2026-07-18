@@ -1067,11 +1067,7 @@ def build_meta() -> dict[str, dict[str, object]]:
         metadata.setdefault(word_id, item)
 
     for word_id in sorted(words, key=word_sort_key):
-        if not (
-            word_id.startswith("n5_")
-            or word_id.startswith("n4_")
-            or word_id.startswith("n1_")
-        ) or word_id in metadata:
+        if word_id in metadata:
             continue
         metadata[word_id] = auto_meta_for_word(words[word_id], examples)
 
