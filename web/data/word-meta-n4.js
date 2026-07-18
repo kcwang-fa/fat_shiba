@@ -10369,8 +10369,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "家具を設置する",
-        "zh": "擺設傢俱"
+        "ja": "新しい部屋に合う家具を探しています。",
+        "zh": "我正在找適合新房間的傢俱。"
       }
     ]
   },
@@ -10381,8 +10381,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "おかしい話を聞いて大笑いする",
-        "zh": "聽了可笑的故事而哈哈大笑"
+        "ja": "この機械は音がおかしいです。",
+        "zh": "這台機器的聲音怪怪的。"
       }
     ]
   },
@@ -10393,8 +10393,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "この仕事はつらいです",
-        "zh": "這份工作很辛苦"
+        "ja": "熱があって体がつらいです。",
+        "zh": "我發燒了，身體很難受。"
       }
     ]
   },
@@ -10405,8 +10405,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "温かいスープが飲みたい",
-        "zh": "想喝一口熱湯"
+        "ja": "温かいお茶を飲んで少し落ち着きました。",
+        "zh": "喝了溫熱的茶後稍微冷靜下來了。"
       }
     ]
   },
@@ -10417,8 +10417,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "この本は全然面白くなかった",
-        "zh": "這本書一點都不有趣"
+        "ja": "説明を聞いても全然分かりませんでした。",
+        "zh": "聽了說明還是完全不懂。"
       }
     ]
   },
@@ -10429,8 +10429,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "もし雨が降ったら、行きません",
-        "zh": "如果下雨的話，我就不去了"
+        "ja": "もし時間があれば一緒に行きませんか。",
+        "zh": "如果有時間，要不要一起去？"
       }
     ]
   },
@@ -10441,8 +10441,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・接尾",
     "examples": [
       {
-        "ja": "テニス部",
-        "zh": "網球社團"
+        "ja": "営業部の田中さんに連絡しました。",
+        "zh": "我聯絡了業務部的田中先生／女士。"
       }
     ]
   },
@@ -10453,8 +10453,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "3歩",
-        "zh": "三步"
+        "ja": "毎日一万歩歩くようにしています。",
+        "zh": "我盡量每天走一萬步。"
       }
     ]
   },
@@ -10465,8 +10465,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼女の自慢の料理はハンバーグです",
-        "zh": "她最拿手的料理是漢堡排"
+        "ja": "昼ご飯にハンバーグを食べました。",
+        "zh": "我午餐吃了漢堡排。"
       }
     ]
   },
@@ -10488,8 +10488,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "毎日ジョギングをしている",
-        "zh": "每天跑步"
+        "ja": "健康のために朝ジョギングをしています。",
+        "zh": "我為了健康早上慢跑。"
       }
     ]
   },
@@ -10500,8 +10500,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "彼はだめな男だ",
-        "zh": "他是個沒用的男人"
+        "ja": "ここで写真を撮ってはだめです。",
+        "zh": "不可以在這裡拍照。"
       }
     ]
   },
@@ -10512,8 +10512,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "メロンは冷たく冷やして食べるとおいしい",
-        "zh": "哈密瓜冰鎮後食用更美味"
+        "ja": "デザートにメロンを食べました。",
+        "zh": "我甜點吃了哈密瓜。"
       }
     ]
   },
@@ -10524,8 +10524,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形・補形",
     "examples": [
       {
-        "ja": "レポートはこれでよろしいですか",
-        "zh": "報告這樣寫可以嗎？"
+        "ja": "この席でよろしいですか。",
+        "zh": "這個座位可以嗎？"
       }
     ]
   },
@@ -10547,8 +10547,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "おしゃべりな人",
-        "zh": "喋喋不休的人"
+        "ja": "休み時間に友達とおしゃべりしました。",
+        "zh": "休息時間我和朋友聊天。"
       }
     ]
   },
@@ -10559,8 +10559,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "まだまだ勉強する必要がある",
-        "zh": "還需要多多學習"
+        "ja": "日本語はまだまだですが頑張ります。",
+        "zh": "我的日文還不夠好，但我會努力。"
       }
     ]
   },
@@ -10571,8 +10571,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "感",
     "examples": [
       {
-        "ja": "へえ、そりゃ大変だ",
-        "zh": "欸！那可不得了"
+        "ja": "へえ、そんな方法があるんですね。",
+        "zh": "喔，原來有那種方法啊。"
       }
     ]
   },
@@ -10583,8 +10583,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "連語",
     "examples": [
       {
-        "ja": "これまでの努力がむだになった",
-        "zh": "至今為止的努力都白費了"
+        "ja": "これまで何度も京都へ行きました。",
+        "zh": "到目前為止我去過京都很多次。"
       }
     ]
   },
@@ -10595,8 +10595,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "もちろん一緒に行きます",
-        "zh": "我當然會一起去"
+        "ja": "もちろん手伝います。",
+        "zh": "我當然會幫忙。"
       }
     ]
   },
@@ -10607,8 +10607,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "ひどいことを言う",
-        "zh": "說過分的話"
+        "ja": "昨日の雨はひどかったです。",
+        "zh": "昨天的雨下得很嚴重。"
       }
     ]
   },
@@ -10619,8 +10619,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "このかばんはやっぱり偽物だ",
-        "zh": "這個包果然是假的"
+        "ja": "やっぱりこの店の料理はおいしいです。",
+        "zh": "這家店的料理果然很好吃。"
       }
     ]
   },
@@ -10642,8 +10642,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "英語をしゃべる",
-        "zh": "說英語"
+        "ja": "授業中は大きな声でしゃべらないでください。",
+        "zh": "上課時請不要大聲說話。"
       }
     ]
   },
@@ -10654,8 +10654,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "感",
     "examples": [
       {
-        "ja": "いや、そうではない",
-        "zh": "不，不是那樣"
+        "ja": "いやなら無理に参加しなくてもいいです。",
+        "zh": "如果不願意，不用勉強參加也沒關係。"
       }
     ]
   },
@@ -10666,8 +10666,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "新しいコンピューターを買った",
-        "zh": "我買了新的電腦"
+        "ja": "新しいコンピューターを買いました。",
+        "zh": "我買了新電腦。"
       }
     ]
   },
@@ -10689,8 +10689,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "母は今、うちにおりません",
-        "zh": "母親現在不在家"
+        "ja": "祖父は田舎におります。",
+        "zh": "祖父在鄉下。"
       }
     ]
   },
@@ -10701,8 +10701,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "このスーパーマーケットは毎週水曜日が休みだ",
-        "zh": "這間超市每週三公休"
+        "ja": "帰りにスーパーマーケットで牛乳を買います。",
+        "zh": "回家路上我會在超級市場買牛奶。"
       }
     ]
   },
@@ -10713,8 +10713,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "感",
     "examples": [
       {
-        "ja": "ええと、何だっけ",
-        "zh": "嗯，什麼來著？"
+        "ja": "ええと、次の会議は三時です。",
+        "zh": "嗯，下一場會議是三點。"
       }
     ]
   },
@@ -10725,8 +10725,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "この料理はうまい",
-        "zh": "這個菜好吃"
+        "ja": "彼は料理がうまいです。",
+        "zh": "他很會做菜。"
       }
     ]
   },
@@ -10737,8 +10737,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "トマトケチャップ",
-        "zh": "番茄醬"
+        "ja": "サラダにトマトを入れました。",
+        "zh": "我在沙拉裡放了番茄。"
       }
     ]
   },
@@ -10749,8 +10749,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼はカラオケが大好きだ",
-        "zh": "他特別喜歡唱卡拉OK"
+        "ja": "週末に友達とカラオケへ行きました。",
+        "zh": "週末我和朋友去唱 KTV。"
       }
     ]
   },
@@ -10761,8 +10761,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "接",
     "examples": [
       {
-        "ja": "お茶にしますか、それともコーヒーにしますか",
-        "zh": "你要喝茶還是咖啡？"
+        "ja": "電車で行きますか。それともバスで行きますか。",
+        "zh": "要搭電車去，還是搭公車去？"
       }
     ]
   },
@@ -10773,8 +10773,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "接",
     "examples": [
       {
-        "ja": "それなら、私も行かない",
-        "zh": "如果是那樣的話，我也不去了"
+        "ja": "それなら明日の朝にしましょう。",
+        "zh": "那樣的話，就改成明天早上吧。"
       }
     ]
   },
@@ -10796,8 +10796,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "計画をやめる",
-        "zh": "取消計劃"
+        "ja": "健康のためにタバコをやめました。",
+        "zh": "我為了健康戒菸了。"
       }
     ]
   },
@@ -10819,8 +10819,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "彼女はいつもにこにこしています",
-        "zh": "她總是笑咪咪的"
+        "ja": "子供がにこにこ笑っています。",
+        "zh": "小孩笑咪咪地笑著。"
       }
     ]
   },
@@ -10831,8 +10831,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "かっこいい男",
-        "zh": "帥氣的男子"
+        "ja": "そのジャケットはかっこいいですね。",
+        "zh": "那件外套很好看呢。"
       }
     ]
   },
@@ -10843,8 +10843,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼がいいアイデアを出したね",
-        "zh": "他提出了一個好主意呢"
+        "ja": "会議で新しいアイデアを出しました。",
+        "zh": "我在會議上提出了新點子。"
       }
     ]
   },
@@ -10855,8 +10855,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "これは医者のためのサイトです",
-        "zh": "這是個給醫生看的網站"
+        "ja": "試験のために毎日勉強しています。",
+        "zh": "我為了考試每天讀書。"
       }
     ]
   },
@@ -10867,8 +10867,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "今日の交通事故はゼロです",
-        "zh": "今天的交通事故為零"
+        "ja": "財布の中のお金がゼロになりました。",
+        "zh": "錢包裡的錢變成零了。"
       }
     ]
   },
@@ -10879,8 +10879,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "パトカーが通りを走る",
-        "zh": "警車在街道上行駛"
+        "ja": "駅の前にパトカーが止まっています。",
+        "zh": "車站前停著警車。"
       }
     ]
   },
@@ -10891,8 +10891,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副助",
     "examples": [
       {
-        "ja": "5枚ずつ配る",
-        "zh": "每人發五張"
+        "ja": "一人ずつ名前を言ってください。",
+        "zh": "請一個人一個人說出名字。"
       }
     ]
   },
@@ -10903,8 +10903,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "とってもきれいなネックレスね",
-        "zh": "真漂亮的項鍊啊"
+        "ja": "母にネックレスをプレゼントしました。",
+        "zh": "我送了項鍊給媽媽。"
       }
     ]
   },
@@ -10915,8 +10915,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "連体",
     "examples": [
       {
-        "ja": "いろんな色の花",
-        "zh": "各種顏色的花朵"
+        "ja": "この店にはいろんなパンがあります。",
+        "zh": "這家店有各式各樣的麵包。"
       }
     ]
   },
@@ -10927,8 +10927,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "接",
     "examples": [
       {
-        "ja": "「ああ疲れた」「だったら明日にしたら」",
-        "zh": "「啊啊，好累」「那明天再做吧」"
+        "ja": "無理だったら早めに教えてください。",
+        "zh": "如果不行，請早點告訴我。"
       }
     ]
   },
@@ -10939,8 +10939,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "ボタンが取れている",
-        "zh": "鈕釦掉了"
+        "ja": "このボタンを押すと音が出ます。",
+        "zh": "按這個按鈕就會發出聲音。"
       }
     ]
   },
@@ -10951,8 +10951,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "スリッパをはいてください",
-        "zh": "請穿上拖鞋"
+        "ja": "玄関でスリッパに履き替えました。",
+        "zh": "我在玄關換上拖鞋。"
       }
     ]
   },
@@ -10963,8 +10963,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "私はにんじんが嫌いだ",
-        "zh": "我討厭紅蘿蔔"
+        "ja": "カレーににんじんを入れます。",
+        "zh": "我會在咖哩裡放紅蘿蔔。"
       }
     ]
   },
@@ -10975,8 +10975,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "感",
     "examples": [
       {
-        "ja": "あ、きみ、ちょっと来て",
-        "zh": "啊！你來一下"
+        "ja": "あ、財布を家に忘れました。",
+        "zh": "啊，我把錢包忘在家裡了。"
       }
     ]
   },
@@ -10987,8 +10987,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "今日はこれでおしまい",
-        "zh": "今天到此為止"
+        "ja": "今日の仕事はこれでしまいです。",
+        "zh": "今天的工作到這裡結束。"
       }
     ]
   },
@@ -10999,8 +10999,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "感",
     "examples": [
       {
-        "ja": "さあ、始めよう",
-        "zh": "來啊，開始吧"
+        "ja": "さあ、そろそろ出発しましょう。",
+        "zh": "來吧，差不多該出發了。"
       }
     ]
   },
@@ -11011,8 +11011,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "タバコ1箱",
-        "zh": "一包香菸"
+        "ja": "店の中でタバコを吸わないでください。",
+        "zh": "請不要在店裡抽菸。"
       }
     ]
   },
@@ -11023,8 +11023,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "彼女は多分家で寝ています",
-        "zh": "她大概在家裡睡覺"
+        "ja": "たぶん明日は雨でしょう。",
+        "zh": "明天大概會下雨吧。"
       }
     ]
   },
@@ -11035,8 +11035,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "感",
     "examples": [
       {
-        "ja": "そりゃそうだ",
-        "zh": "誰說不是呢！；可不是嗎！"
+        "ja": "そうだ、駅で友達に電話しよう。",
+        "zh": "對了，在車站打電話給朋友吧。"
       }
     ]
   },
@@ -11058,8 +11058,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "資料をファクスしてください",
-        "zh": "請把資料傳真過來"
+        "ja": "書類をファクスで送りました。",
+        "zh": "我用傳真把文件送出去了。"
       }
     ]
   },
@@ -11070,8 +11070,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "ペットを飼う",
-        "zh": "養寵物"
+        "ja": "このマンションではペットを飼えます。",
+        "zh": "這棟公寓可以養寵物。"
       }
     ]
   },
@@ -11082,8 +11082,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "ハンカチで手をふきました",
-        "zh": "用手帕擦了擦手"
+        "ja": "汗をハンカチで拭きました。",
+        "zh": "我用手帕擦汗。"
       }
     ]
   },
@@ -11094,8 +11094,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "自分の番を待つ",
-        "zh": "等著輪到自己"
+        "ja": "次は私の番です。",
+        "zh": "接下來輪到我了。"
       }
     ]
   },
@@ -11106,8 +11106,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "接頭・接尾",
     "examples": [
       {
-        "ja": "名探偵コナン",
-        "zh": "名偵探柯南"
+        "ja": "参加者は全部で二十名です。",
+        "zh": "參加者總共二十名。"
       }
     ]
   },
@@ -11118,8 +11118,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・接頭",
     "examples": [
       {
-        "ja": "そんな約束は無に等しい",
-        "zh": "那種約定等於沒有"
+        "ja": "この部屋は無人です。",
+        "zh": "這個房間沒有人。"
       }
     ]
   },
@@ -11130,8 +11130,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "接頭・接尾",
     "examples": [
       {
-        "ja": "両チーム",
-        "zh": "兩支隊伍"
+        "ja": "電車は四両で来ました。",
+        "zh": "電車以四節車廂進站。"
       }
     ]
   },
@@ -11142,8 +11142,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "肩を揉む",
-        "zh": "揉肩膀"
+        "ja": "肩が痛いので病院へ行きました。",
+        "zh": "肩膀很痛，所以我去了醫院。"
       }
     ]
   },
@@ -11154,8 +11154,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "ふっくらした頬",
-        "zh": "豐潤的臉頰"
+        "ja": "寒くて頬が赤くなりました。",
+        "zh": "天氣很冷，臉頰變紅了。"
       }
     ]
   },
@@ -11166,8 +11166,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "すべすべした肌",
-        "zh": "光滑的肌膚"
+        "ja": "冬は肌が乾きやすいです。",
+        "zh": "冬天皮膚很容易乾。"
       }
     ]
   },
@@ -11178,8 +11178,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "公共の場",
-        "zh": "公共場合"
+        "ja": "その場で答えを考えました。",
+        "zh": "我當場思考答案。"
       }
     ]
   },
@@ -11201,8 +11201,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "子を産む",
-        "zh": "生孩子"
+        "ja": "新しい仕事はよい結果を生みました。",
+        "zh": "新的工作產生了好的結果。"
       }
     ]
   },
@@ -11224,8 +11224,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "忘れ物に気づく",
-        "zh": "發覺丟了東西"
+        "ja": "間違いにすぐ気づきました。",
+        "zh": "我立刻注意到錯誤。"
       }
     ]
   },
@@ -11236,8 +11236,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・接頭・接尾",
     "examples": [
       {
-        "ja": "実物大",
-        "zh": "實際尺寸"
+        "ja": "大問題になる前に相談してください。",
+        "zh": "變成大問題前請先商量。"
       }
     ]
   },
@@ -11248,8 +11248,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "3対1で勝つ",
-        "zh": "三比一獲勝"
+        "ja": "この試合は三対二で終わりました。",
+        "zh": "這場比賽以三比二結束。"
       }
     ]
   },
@@ -11260,8 +11260,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "門をとじる",
-        "zh": "關門"
+        "ja": "学校の門の前で友達を待ちました。",
+        "zh": "我在學校大門前等朋友。"
       }
     ]
   },
@@ -11272,8 +11272,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "度が過ぎる",
-        "zh": "過分，過度"
+        "ja": "東京へは二度行ったことがあります。",
+        "zh": "我去過東京兩次。"
       }
     ]
   },
@@ -11284,8 +11284,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "死を恐れるのは自然なことです",
-        "zh": "會害怕死亡是很自然的事"
+        "ja": "祖父の死を聞いてとても悲しかったです。",
+        "zh": "聽到祖父過世，我非常難過。"
       }
     ]
   },
@@ -11296,8 +11296,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "その間に彼はいなくなっていました",
-        "zh": "他這段時間消失了"
+        "ja": "夏休みの間、図書館で勉強しました。",
+        "zh": "暑假期間，我在圖書館讀書。"
       }
     ]
   },
@@ -11308,8 +11308,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "会計の係をする",
-        "zh": "擔任會計工作"
+        "ja": "受付の係に名前を伝えてください。",
+        "zh": "請把名字告訴櫃台負責人。"
       }
     ]
   },
@@ -11331,8 +11331,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "変化が起こる",
-        "zh": "發生變化"
+        "ja": "昨日の夜に小さな地震が起こりました。",
+        "zh": "昨天晚上發生了小地震。"
       }
     ]
   },
@@ -11343,8 +11343,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "山の気を胸いっぱい吸う",
-        "zh": "大口吸山裡的新鮮空氣"
+        "ja": "今日は勉強する気が出ません。",
+        "zh": "今天沒有讀書的心情。"
       }
     ]
   },
@@ -11355,8 +11355,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "アルミ缶",
-        "zh": "鋁罐"
+        "ja": "空き缶を袋に入れてください。",
+        "zh": "請把空罐放進袋子裡。"
       }
     ]
   },
@@ -11367,8 +11367,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・造",
     "examples": [
       {
-        "ja": "商品",
-        "zh": "商品"
+        "ja": "この店は品が多いです。",
+        "zh": "這家店商品很多。"
       }
     ]
   },
@@ -11379,8 +11379,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "夫婦の和",
-        "zh": "夫婦和睦"
+        "ja": "和のデザインが好きです。",
+        "zh": "我喜歡日式設計。"
       }
     ]
   },
@@ -11391,8 +11391,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "五と三との差は、二だ",
-        "zh": "五和三的差是二"
+        "ja": "二人の点数には大きな差があります。",
+        "zh": "兩人的分數有很大的差距。"
       }
     ]
   },
@@ -11403,8 +11403,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "はさみは机の奥にあった",
-        "zh": "剪刀在桌子裡面"
+        "ja": "箱の奥に古い写真がありました。",
+        "zh": "箱子深處有舊照片。"
       }
     ]
   },
@@ -11426,8 +11426,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "月が川に映る",
-        "zh": "月亮映在河中"
+        "ja": "鏡に顔が映っています。",
+        "zh": "臉映在鏡子裡。"
       }
     ]
   },
@@ -11438,8 +11438,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "身の危険を感じる",
-        "zh": "感到人身危險"
+        "ja": "旅行中は身の安全に気をつけてください。",
+        "zh": "旅行時請注意自身安全。"
       }
     ]
   },
@@ -11461,8 +11461,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "財布が無くなる",
-        "zh": "遺失錢包"
+        "ja": "机の上の書類が無くなりました。",
+        "zh": "桌上的文件不見了。"
       }
     ]
   },
@@ -11484,8 +11484,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "彼と組んで仕事をする",
-        "zh": "和他一起工作"
+        "ja": "友達とチームを組みました。",
+        "zh": "我和朋友組成了隊伍。"
       }
     ]
   },
@@ -11507,8 +11507,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "敵と戦う",
-        "zh": "和敵人作戰"
+        "ja": "最後まで諦めずに戦いました。",
+        "zh": "我沒有放棄，奮戰到最後。"
       }
     ]
   },
@@ -11519,8 +11519,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "一つ例をあげてください",
-        "zh": "請舉一個例子"
+        "ja": "例を見ながら練習してください。",
+        "zh": "請一邊看例子一邊練習。"
       }
     ]
   },
@@ -11531,8 +11531,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "お湯を沸かす",
-        "zh": "燒水"
+        "ja": "寝る前にお湯を飲みました。",
+        "zh": "睡前我喝了熱水。"
       }
     ]
   },
@@ -11543,8 +11543,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "まず相手の動きを見ましょう",
-        "zh": "先觀察對方的動作吧"
+        "ja": "最近の社会の動きに興味があります。",
+        "zh": "我對最近社會的動向有興趣。"
       }
     ]
   },
@@ -11555,8 +11555,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "むかしの人々の生活を調べる",
-        "zh": "調查古代人們的生活"
+        "ja": "町の人々が祭りの準備をしています。",
+        "zh": "鎮上的人們正在準備祭典。"
       }
     ]
   },
@@ -11567,8 +11567,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "のど飴",
-        "zh": "喉糖"
+        "ja": "子供に飴を一つあげました。",
+        "zh": "我給了小孩一顆糖果。"
       }
     ]
   },
@@ -11579,8 +11579,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "子を育てる",
-        "zh": "養育子女"
+        "ja": "近所の子が毎朝あいさつしてくれます。",
+        "zh": "附近的小孩每天早上都會向我打招呼。"
       }
     ]
   },
@@ -11591,8 +11591,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・造",
     "examples": [
       {
-        "ja": "横浜市",
-        "zh": "橫濱市"
+        "ja": "この市には大きな公園があります。",
+        "zh": "這個市有一座大公園。"
       }
     ]
   },
@@ -11603,8 +11603,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "字を書く",
-        "zh": "寫字"
+        "ja": "黒板の字が小さくて見えません。",
+        "zh": "黑板上的字太小，看不見。"
       }
     ]
   },
@@ -11626,8 +11626,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "病気が治る",
-        "zh": "疾病痊癒"
+        "ja": "薬を飲んだら風邪が治りました。",
+        "zh": "吃藥後感冒好了。"
       }
     ]
   },
@@ -11649,8 +11649,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "けがの程度がひどい",
-        "zh": "傷勢嚴重"
+        "ja": "階段で転んでけがをしました。",
+        "zh": "我在樓梯跌倒受傷了。"
       }
     ]
   },
@@ -11661,8 +11661,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "イチョウの葉っぱが黄金色になる",
-        "zh": "銀杏樹的葉子變成金黃色"
+        "ja": "庭の葉っぱが黄色くなりました。",
+        "zh": "庭院裡的葉子變黃了。"
       }
     ]
   },
@@ -11673,8 +11673,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "自分の名をよばれる",
-        "zh": "被叫到自己的名字"
+        "ja": "この店の名はよく知られています。",
+        "zh": "這家店的名字很有名。"
       }
     ]
   },
@@ -11696,8 +11696,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "体重が減る",
-        "zh": "體重減輕"
+        "ja": "運動して体重が少し減りました。",
+        "zh": "運動後體重稍微減少了。"
       }
     ]
   },
@@ -11708,8 +11708,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "田に水を引く",
-        "zh": "往田裡引水"
+        "ja": "祖父は田で米を作っています。",
+        "zh": "祖父在稻田裡種米。"
       }
     ]
   },
@@ -11731,8 +11731,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "千円札が硬貨に替わる",
-        "zh": "把千元紙鈔換成硬幣"
+        "ja": "来月から新しい先生に代わります。",
+        "zh": "下個月開始會換成新老師。"
       }
     ]
   },
@@ -11743,8 +11743,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "仕事のやり方を教えてください",
-        "zh": "請告訴我工作的方法"
+        "ja": "この料理のやり方を教えてください。",
+        "zh": "請教我這道料理的做法。"
       }
     ]
   },
@@ -11755,8 +11755,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "トンボが枝の先にとまっている",
-        "zh": "蜻蜓落在枝尖上"
+        "ja": "列の先に先生が立っています。",
+        "zh": "隊伍前方站著老師。"
       }
     ]
   },
@@ -11767,8 +11767,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "先に述べたように",
-        "zh": "如前所述"
+        "ja": "先に名前を書いてください。",
+        "zh": "請先寫名字。"
       }
     ]
   },
@@ -11779,8 +11779,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "副",
     "examples": [
       {
-        "ja": "ぜひ出席してください",
-        "zh": "請務必出席"
+        "ja": "ぜひまた遊びに来てください。",
+        "zh": "請一定要再來玩。"
       }
     ]
   },
@@ -11802,8 +11802,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "ポスターを貼る",
-        "zh": "貼海報"
+        "ja": "壁にポスターを貼りました。",
+        "zh": "我把海報貼在牆上。"
       }
     ]
   },
@@ -11814,8 +11814,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "川の向こう側にある",
-        "zh": "在河的對岸"
+        "ja": "道の右側を歩いてください。",
+        "zh": "請走道路右側。"
       }
     ]
   },
@@ -11837,8 +11837,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "ズボンをはく",
-        "zh": "穿褲子"
+        "ja": "今日は黒いズボンをはいています。",
+        "zh": "我今天穿著黑色褲子。"
       }
     ]
   },
@@ -11849,8 +11849,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "代",
     "examples": [
       {
-        "ja": "誰かに聞いてみてください",
-        "zh": "請試著問問看別人"
+        "ja": "誰か手伝ってくれませんか。",
+        "zh": "有人可以幫忙嗎？"
       }
     ]
   },
@@ -11872,8 +11872,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "ピアノを弾く",
-        "zh": "彈鋼琴"
+        "ja": "妹はピアノを弾くのが好きです。",
+        "zh": "妹妹喜歡彈鋼琴。"
       }
     ]
   },
@@ -11884,8 +11884,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "その後どうなりましたか",
-        "zh": "後來怎麼樣了？"
+        "ja": "大学を卒業しました。その後、会社に入りました。",
+        "zh": "我大學畢業了。之後進了公司。"
       }
     ]
   },
@@ -11896,8 +11896,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "私は毎日みそ汁を飲みます",
-        "zh": "我每天都會喝味噌湯"
+        "ja": "朝ご飯にみそ汁を飲みました。",
+        "zh": "我早餐喝了味噌湯。"
       }
     ]
   },
@@ -11919,8 +11919,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "考え方が違う",
-        "zh": "想法不同"
+        "ja": "この答えは少し違います。",
+        "zh": "這個答案有點不一樣。"
       }
     ]
   },
@@ -11931,8 +11931,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "体育館を使用する",
-        "zh": "使用體育館"
+        "ja": "体育館でバスケットボールをしました。",
+        "zh": "我在體育館打了籃球。"
       }
     ]
   },
@@ -11954,8 +11954,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "写真を撮る",
-        "zh": "照相"
+        "ja": "旅行でたくさん写真を撮りました。",
+        "zh": "旅行時我拍了很多照片。"
       }
     ]
   },
@@ -11966,8 +11966,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "外国の地を踏む",
-        "zh": "踏上外國土地"
+        "ja": "この地で新しい生活を始めました。",
+        "zh": "我在這個地方開始了新生活。"
       }
     ]
   },
@@ -11978,8 +11978,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "接",
     "examples": [
       {
-        "ja": "次に大事なことは…",
-        "zh": "其次重要的是……"
+        "ja": "次に本文を読んでください。",
+        "zh": "接著請閱讀本文。"
       }
     ]
   },
@@ -11990,8 +11990,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・接尾",
     "examples": [
       {
-        "ja": "勉強会",
-        "zh": "學習會，培訓"
+        "ja": "来週の会に参加します。",
+        "zh": "我會參加下週的聚會。"
       }
     ]
   },
@@ -12002,8 +12002,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "無事に帰る",
-        "zh": "平安回來"
+        "ja": "全員無事に家へ帰りました。",
+        "zh": "所有人都平安回家了。"
       }
     ]
   },
@@ -12014,8 +12014,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "夕飯は和食にしますか洋食にしますか",
-        "zh": "晚餐吃日餐還是吃西餐？"
+        "ja": "旅行中に和食をたくさん食べました。",
+        "zh": "旅行中我吃了很多日式料理。"
       }
     ]
   },
@@ -12037,8 +12037,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "このお菓子は要冷蔵だ",
-        "zh": "這個點心要冷藏"
+        "ja": "肉は冷蔵で保存してください。",
+        "zh": "肉請冷藏保存。"
       }
     ]
   },
@@ -12049,8 +12049,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "正確に発音する",
-        "zh": "準確發音"
+        "ja": "正確な時間を教えてください。",
+        "zh": "請告訴我正確時間。"
       }
     ]
   },
@@ -12061,8 +12061,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "折り紙で鶴を折りました",
-        "zh": "用摺紙摺了紙鶴"
+        "ja": "子供のころ折り紙で遊びました。",
+        "zh": "小時候我玩過摺紙。"
       }
     ]
   },
@@ -12073,8 +12073,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "お昼にそばを食べた",
-        "zh": "中午吃了蕎麥麵"
+        "ja": "昼ご飯にそばを食べました。",
+        "zh": "我午餐吃了蕎麥麵。"
       }
     ]
   },
@@ -12085,8 +12085,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "非常用食料を用意しておく",
-        "zh": "準備好緊急狀態時用的食物"
+        "ja": "災害のために食料を準備しました。",
+        "zh": "我為了災害準備了食物。"
       }
     ]
   },
@@ -12097,8 +12097,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼自身の問題だ",
-        "zh": "是他自己的問題"
+        "ja": "この問題は自分自身で考えてください。",
+        "zh": "這個問題請自己思考。"
       }
     ]
   },
@@ -12109,8 +12109,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "正しい使い方",
-        "zh": "正確的用法"
+        "ja": "この機械の使い方を説明します。",
+        "zh": "我來說明這台機器的使用方法。"
       }
     ]
   },
@@ -12121,8 +12121,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "空き缶を拾う",
-        "zh": "撿空罐"
+        "ja": "空き缶はここに捨ててください。",
+        "zh": "空罐請丟在這裡。"
       }
     ]
   },
@@ -12133,8 +12133,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "大勢で食事に出かけました",
-        "zh": "我們一大群人一起去吃飯了"
+        "ja": "駅前には大勢の人がいました。",
+        "zh": "車站前有很多人。"
       }
     ]
   },
@@ -12145,8 +12145,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "お名前に仮名を振ってください",
-        "zh": "請在名字上標假名"
+        "ja": "この言葉は仮名で書いてください。",
+        "zh": "這個詞請用假名寫。"
       }
     ]
   },
@@ -12157,8 +12157,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "着物の着付けを習う",
-        "zh": "學習和服穿著"
+        "ja": "祖母に着付けを習いました。",
+        "zh": "我跟祖母學了和服穿法。"
       }
     ]
   },
@@ -12169,8 +12169,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "駅前に交番があります",
-        "zh": "車站前有派出所"
+        "ja": "駅前で友達と待ち合わせました。",
+        "zh": "我在車站前和朋友碰面。"
       }
     ]
   },
@@ -12192,8 +12192,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "客を接待する",
-        "zh": "招待客人"
+        "ja": "お客様を丁寧に接待しました。",
+        "zh": "我仔細接待了客人。"
       }
     ]
   },
@@ -12204,8 +12204,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "子供に絵本を読んであげる",
-        "zh": "唸繪本給小朋友聽"
+        "ja": "妹に絵本を読んであげました。",
+        "zh": "我唸繪本給妹妹聽。"
       }
     ]
   },
@@ -12216,8 +12216,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "ネコもうちでは家族の一員だ",
-        "zh": "貓也是我們家的一員"
+        "ja": "彼はチームの一員です。",
+        "zh": "他是團隊的一員。"
       }
     ]
   },
@@ -12228,8 +12228,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "精密機械",
-        "zh": "精密機器"
+        "ja": "この機械は使い方が簡単です。",
+        "zh": "這台機器的使用方法很簡單。"
       }
     ]
   },
@@ -12240,8 +12240,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "両手を挙げて賛成する",
-        "zh": "舉雙手贊成"
+        "ja": "両手で荷物を持ちました。",
+        "zh": "我用雙手拿行李。"
       }
     ]
   },
@@ -12252,8 +12252,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "夕食は鍋料理にしましょう",
-        "zh": "晚餐吃（日式）火鍋吧"
+        "ja": "夕食は家族と一緒に食べます。",
+        "zh": "晚餐我和家人一起吃。"
       }
     ]
   },
@@ -12264,8 +12264,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "日本に来て半年になります",
-        "zh": "來到日本已經半年了"
+        "ja": "日本に来て半年になります。",
+        "zh": "我來日本已經半年了。"
       }
     ]
   },
@@ -12276,8 +12276,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "この字の読み方がわからない",
-        "zh": "不知道這個字的唸法"
+        "ja": "この漢字の読み方を教えてください。",
+        "zh": "請告訴我這個漢字的讀法。"
       }
     ]
   },
@@ -12288,8 +12288,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "電子レンジで加熱する",
-        "zh": "用微波爐加熱"
+        "ja": "電子レンジで弁当を温めました。",
+        "zh": "我用微波爐加熱便當。"
       }
     ]
   },
@@ -12300,8 +12300,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "これは世界最大の船です",
-        "zh": "這是世界上最大的船"
+        "ja": "この会場には最大で百人入れます。",
+        "zh": "這個會場最多可以容納一百人。"
       }
     ]
   },
@@ -12312,8 +12312,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "入り口は向こうです",
-        "zh": "入口在對面"
+        "ja": "入り口でチケットを見せてください。",
+        "zh": "請在入口出示票券。"
       }
     ]
   },
@@ -12324,8 +12324,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼は卓球ができますか",
-        "zh": "他會不會打桌球？"
+        "ja": "放課後に友達と卓球をしました。",
+        "zh": "放學後我和朋友打桌球。"
       }
     ]
   },
@@ -12347,8 +12347,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "有利な位置を占める",
-        "zh": "佔有利地位"
+        "ja": "地図でホテルの位置を確認しました。",
+        "zh": "我在地圖上確認了飯店的位置。"
       }
     ]
   },
@@ -12359,8 +12359,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "疑問を抱く",
-        "zh": "抱有疑問"
+        "ja": "説明を聞いて疑問が一つ残りました。",
+        "zh": "聽完說明後還留下一個疑問。"
       }
     ]
   },
@@ -12371,8 +12371,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "座る場所がない",
-        "zh": "沒有坐的地方"
+        "ja": "静かに勉強できる場所を探しています。",
+        "zh": "我正在找可以安靜讀書的地方。"
       }
     ]
   },
@@ -12383,8 +12383,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "冗談を言う",
-        "zh": "開玩笑"
+        "ja": "冗談を言ってみんなを笑わせました。",
+        "zh": "我說了笑話讓大家笑了。"
       }
     ]
   },
@@ -12395,8 +12395,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "手紙の書き方",
-        "zh": "信的寫法"
+        "ja": "作文の書き方を先生に教わりました。",
+        "zh": "我向老師學了作文的寫法。"
       }
     ]
   },
@@ -12407,8 +12407,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "腕時計をはずす",
-        "zh": "摘（下）手錶"
+        "ja": "新しい腕時計を買いました。",
+        "zh": "我買了新手錶。"
       }
     ]
   },
@@ -12419,8 +12419,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "運動会で一位になった",
-        "zh": "我在運動會上得了第一名"
+        "ja": "土曜日に学校で運動会があります。",
+        "zh": "星期六學校有運動會。"
       }
     ]
   },
@@ -12431,8 +12431,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "救急車を呼んでくれ！",
-        "zh": "快叫救護車！"
+        "ja": "けが人を救急車で病院へ運びました。",
+        "zh": "受傷的人被救護車送到醫院。"
       }
     ]
   },
@@ -12443,8 +12443,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "運動場でサッカーをしよう",
-        "zh": "在運動場踢足球吧"
+        "ja": "運動場でサッカーの練習をしました。",
+        "zh": "我在操場練習足球。"
       }
     ]
   },
@@ -12466,8 +12466,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     },
     "examples": [
       {
-        "ja": "自己紹介します",
-        "zh": "（我來）自我介紹一下"
+        "ja": "授業の初めに自己紹介をしました。",
+        "zh": "上課一開始我做了自我介紹。"
       }
     ]
   },
@@ -12478,8 +12478,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "鳥肉をローストする",
-        "zh": "烤雞肉"
+        "ja": "夕食に鳥肉の料理を作りました。",
+        "zh": "晚餐我做了雞肉料理。"
       }
     ]
   }
