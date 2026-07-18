@@ -22,7 +22,7 @@ BEAT_SECONDS = 60 / BPM
 BEATS_PER_BAR = 4
 BARS = 48
 DURATION_SECONDS = BARS * BEATS_PER_BAR * BEAT_SECONDS
-OUTPUT_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "n5-okinawa-game-bgm.wav"
+OUTPUT_PATH = PROJECT_ROOT / "generated_audio" / "source_audio" / "n5-okinawa-game-bgm.wav"
 
 random.seed(20260717)
 

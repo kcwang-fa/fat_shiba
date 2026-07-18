@@ -57,11 +57,11 @@ BARS = 48
 DURATION_SECONDS = BARS * BEATS_PER_BAR * BEAT_SECONDS
 
 # 這支腳本只輸出 WAV。MP3/OGG 是用 ffmpeg 從 WAV 轉出來的。
-OUTPUT_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "n4-kyushu-shikoku-game-bgm.wav"
+OUTPUT_PATH = PROJECT_ROOT / "generated_audio" / "source_audio" / "n4-kyushu-shikoku-game-bgm.wav"
 
 # 2026-07-17 起，N4 遊戲 BGM 改用外部整理好的低音笛版本。
 # 這個檔案長度已經跟遊戲 loop 對齊，所以腳本只負責驗證、音量對齊與輸出。
-SOURCE_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "low_flute.wav"
+SOURCE_PATH = PROJECT_ROOT / "generated_audio" / "source_audio" / "low_flute.wav"
 
 # low_flute.wav 原始平均音量約 -15.4 dB，N5 遊戲 BGM 約 -19.5 dB。
 # 這裡降低 4.1 dB，讓 N4 遊戲 BGM 的檔案 loudness 對齊 N5。
@@ -686,7 +686,7 @@ def main() -> None:
         python3 tools/audio/generate_n4_game_bgm.py
 
     會重新產生：
-        web/assets/audio/n4-kyushu-shikoku-game-bgm.wav
+        generated_audio/source_audio/n4-kyushu-shikoku-game-bgm.wav
 
     目前 N4 遊戲 BGM 使用 low_flute.wav 作為來源，不再重新合成舊編曲。
     輸出時會套 SOURCE_GAIN_DB，讓 N4 與 N5 遊戲 BGM 的音量接近。

@@ -24,7 +24,7 @@ BEAT_SECONDS = 60 / BPM
 BARS = 48
 BEATS_PER_BAR = 4
 DURATION_SECONDS = BARS * BEATS_PER_BAR * BEAT_SECONDS
-OUTPUT_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "n1-tohoku-hokkaido-bgm.wav"
+OUTPUT_PATH = PROJECT_ROOT / "generated_audio" / "source_audio" / "n1-tohoku-hokkaido-bgm.wav"
 
 random.seed(20260717)
 

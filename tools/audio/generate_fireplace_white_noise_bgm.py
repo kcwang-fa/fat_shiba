@@ -23,7 +23,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SAMPLE_RATE = 44_100
 DEFAULT_DURATION_SECONDS = 127.617
-DEFAULT_OUTPUT_PATH = PROJECT_ROOT / "web" / "assets" / "audio" / "fireplace-white-noise-bgm.wav"
+DEFAULT_OUTPUT_PATH = PROJECT_ROOT / "generated_audio" / "source_audio" / "fireplace-white-noise-bgm.wav"
 
 # Reference values measured from the supplied fireplace ambience file.
 REFERENCE = {

@@ -172,3 +172,5 @@ N3,かそく人,加速,393,left,05,reading_has_non_kana
 N3,ベん人,便,394,right,,reading_has_non_kana
 N3,へヘリコプター,helicopter,397,left,24,writing_has_unexpected_chars
 N3,パンク,puncture之略,399,left,19,suspicious_katakana_writing;writing_has_ocr_artifact
+N3,みょう,明,147,left,22,source_meaning_requires_confirmation
+N3,じょう,晴,150,left,05,source_writing_and_meaning_require_confirmation
