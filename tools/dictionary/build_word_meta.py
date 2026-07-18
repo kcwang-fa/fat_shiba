@@ -945,12 +945,7 @@ def best_eggrolls_example(note: dict[str, str]) -> dict[str, str] | None:
 def deepen_short_n1_example(example: dict[str, str]) -> dict[str, str]:
     ja = example["ja"].strip()
     zh = example["zh"].strip()
-    if len(ja) >= 14 or "、" in ja:
-        return {"ja": japanese_sentence(ja), "zh": zh}
-    return {
-        "ja": f"「{ja.rstrip('。')}」という表現は、文脈と意図を慎重に読み取る必要があります。",
-        "zh": f"「{zh}」這個表達，需要仔細讀出脈絡與意圖。",
-    }
+    return {"ja": japanese_sentence(ja), "zh": zh}
 
 
 def eggrolls_pos_config(source_pos: str) -> tuple[str, str, str]:

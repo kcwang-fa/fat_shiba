@@ -1,19 +1,23 @@
-const CACHE_NAME = "fat-shiba-pwa-v6";
+const CACHE_NAME = "fat-shiba-pwa-v7";
 const DATA_PATHS = [
-  "/data/word_data.js",
+  "/data/word-level-n5.js",
+  "/data/word-level-n4.js",
+  "/data/word-level-n3.js",
+  "/data/word-level-n2.js",
+  "/data/word-level-n1.js",
   "/data/word_meta.js"
 ];
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./data/word_data.js?v=20260717-eggrolls-import",
+  "./data/word-level-n5.js?v=20260717-levels",
   "./assets/app-icon-180.png",
   "./assets/app-icon-192.png",
   "./assets/app-icon-512.png",
   "./assets/home-journey.webp",
-  "./assets/home-journey.png",
   "./assets/jlpt-map-entrance.webp",
-  "./assets/jlpt-map-entrance.png"
+  "./assets/jlpt-map-entrance-mobile.webp",
+  "./assets/jlpt-map-entrance-mobile.png"
 ];
 
 function isDataRequest(url) {
@@ -23,7 +27,7 @@ function isDataRequest(url) {
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(APP_SHELL))
+      .then((cache) => Promise.allSettled(APP_SHELL.map((url) => cache.add(url))))
       .then(() => self.skipWaiting())
   );
 });
@@ -49,24 +53,38 @@ self.addEventListener("fetch", (event) => {
 
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request).catch(() => caches.match("./index.html"))
+      caches.match("./index.html").then((cachedResponse) => {
+        const networkResponse = fetch(request).then((response) => {
+          if (response && response.status === 200 && response.type === "basic") {
+            caches.open(CACHE_NAME).then((cache) => cache.put("./index.html", response.clone()));
+          }
+          return response;
+        });
+        if (cachedResponse) {
+          networkResponse.catch(() => {});
+          return cachedResponse;
+        }
+        return networkResponse.catch(() => caches.match("./index.html"));
+      })
     );
     return;
   }
 
   if (isDataRequest(url)) {
     event.respondWith(
-      fetch(request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== "basic") {
-          return networkResponse;
-        }
-
-        const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(request, responseToCache);
+      caches.match(request).then((cachedResponse) => {
+        const networkResponse = fetch(request).then((response) => {
+          if (response && response.status === 200 && response.type === "basic") {
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, response.clone()));
+          }
+          return response;
         });
-        return networkResponse;
-      }).catch(() => caches.match(request))
+        if (cachedResponse) {
+          networkResponse.catch(() => {});
+          return cachedResponse;
+        }
+        return networkResponse.catch(() => caches.match(request));
+      })
     );
     return;
   }

@@ -1,6 +1,6 @@
 reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,source_entry_no,source_writing
-あいま,合間,あいま,事物中間的、空隙、空聞時間、鱗暇,kanji,527,left,01,合間
-アワー,アワー,あわあ,尖峰時段、小時,katakana,527,left,02,hour
+あいま,合間,あいま,事物之間的空隙、間隔；空檔時間,kanji,527,left,01,合間
+アワー,アワー,あわあ,小時；時段,katakana,527,left,02,hour
 いっきに,一気に,いっきに,一口氣地,kanji,527,left,03,一気に
 いっこく,一刻,いっこく,一刻、片刻,kanji,527,left,04,一刻
 おくらす,遅らす,おくらす,延遲、拖延,kanji,527,left,05,遅らす
@@ -8,23 +8,23 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 ゴールデンタイム,ゴールデンタイム,ごおるでんたいむ,黃金時段,katakana,527,right,09,(和) i golden +十 time
 じこくひょう,時刻表,じこくひょう,時刻表,kanji,528,left,03,時刻表
 じさ,時差,じさ,時差,kanji,528,left,04,時差
-じっくり,じっくり,じっくり,朝優地、仔細地、不慌不忙,hiragana,528,left,05,じっくり
+じっくり,じっくり,じっくり,慢慢地、仔細地、不慌不忙,hiragana,528,left,05,じっくり
 スムーズ,スムーズ,すむうず,順利、流暢,katakana,529,left,24,smooth
-ずるずる,ずるずる,ずるずる,副自、拖拉貌、滑溜、拖拖拉拉,hiragana,529,left,25,ずるずる
+ずるずる,ずるずる,ずるずる,拖拖拉拉；滑溜；吸麵等聲音,hiragana,529,left,25,ずるずる
 ずれ,ずれ,ずれ,位置、時間意見等、不一致、分岐、偏離、背離、不吻合,hiragana,529,left,26,ずれ
 せかす,急かす,せかす,催促,kanji,529,left,27,急かす
 そくざに,即座に,そくざに,立即、馬上,kanji,529,left,29,即座に
-そくする,即する,そくする,時候、時間、時刻,kanji,529,left,30,即する
-タイト,タイト,たいと,緊貼、身、緊身裙之略,katakana,529,right,31,tigh
+そくする,即する,そくする,符合、切合；根據,kanji,529,left,30,即する
+タイト,タイト,たいと,緊的、貼身的；行程緊湊的,katakana,529,right,31,tigh
 タイマー,タイマー,たいまあ,秒錶、計時器、定時器,katakana,529,right,32,timer
-タイム,タイム,たいむ,所需時間、體、比賽暫停,katakana,529,right,34,time
-たんしゅく,短縮,たんしゅく,時間短縮、罩縮短時間,kanji,530,left,03,短縮
+タイム,タイム,たいむ,時間；比賽成績；暫停,katakana,529,right,34,time
+たんしゅく,短縮,たんしゅく,縮短時間；縮短,kanji,530,left,03,短縮
 ついやす,費やす,ついやす,花費、耗費,kanji,530,left,07,費やす
 つかのま,束の間,つかのま,一瞬間、轉眼間、轉瞬,kanji,530,left,38,束の間
-ときおり,時折,ときおり,爺有時、偶爾,kanji,530,left,03,時折
-はやまる,早まる,はやまる,倉促、輕率、貿然、過早、提前,kanji,530,left,42,早まる
+ときおり,時折,ときおり,有時、偶爾,kanji,530,left,03,時折
+はやまる,早まる,はやまる,提前；過早；輕率、貿然,kanji,530,left,42,早まる
 まっき,末期,まっき,末期、最後的時期、最後階段、臨終,kanji,530,right,05,末期
-もちきり,持ち切り,もちきり,某一自時期、始終談論一件事,kanji,531,left,49,持ち切り
+もちきり,持ち切り,もちきり,滿是某個話題；始終談論某事,kanji,531,left,49,持ち切り
 よか,余暇,よか,閒暇、業餘時間,kanji,531,left,50,余暇
 ルーズ,ルーズ,るうず,形動、鬆懈、鬆弛、散漫、吊兒郎當,katakana,531,left,51,loose
 かくしゅう,隔週,かくしゅう,每隔一週、隔週,kanji,531,left,01,隔週
@@ -159,7 +159,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 いっけん,一見,いっけん,一見,kanji,553,left,04,一見
 うつむく,佑く,うつむく,低頭、臉朝下、垂下來、向下彎,kanji,553,left,05,佑く
 かおつき,顔付き,かおつき,相貌、臉龐、表情、神色,kanji,553,left,06,顔付き
-かたむける,傾ける,かたむける,傾注、傾、敗、家、使、國家、滅亡,kanji,553,right,07,傾ける
+かたむける,傾ける,かたむける,使傾斜；傾注；使衰敗、傾覆,kanji,553,right,07,傾ける
 がんきゅう,眼球,がんきゅう,眼球,kanji,553,right,08,眼球
 くっきり,くっきり,くっきり,個-、特別鮮明、清楚,hiragana,553,right,00,くっきり
 コンタクト,コンタクト,こんたくと,隱形眼鏡,katakana,553,right,11,contact lens之略
@@ -173,7 +173,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 できもの,でき物,できもの,疙瘩、腫塊、出色的人,kanji,555,left,25,でき物
 なめらか,滑らか,なめらか,物體的表面滑溜溜的、光滑、光潤、流暢的像流水一樣、順利、流暢,kanji,555,left,26,滑らか
 にきび,にきび,にきび,青春辣、粉刺,hiragana,555,left,27,にきび
-はつみみ,初耳,はつみみ,初聞、初次聴到、前所未聞,kanji,555,left,28,初耳
+はつみみ,初耳,はつみみ,第一次聽說、初次聽到,kanji,555,left,28,初耳
 はり,張り,はり,當力、拉力時張而有力、勁頭,kanji,555,left,29,張り
 ひといき,一息,ひといき,一口氣、喘口氣、一把勁,kanji,555,left,30,一息
 ほっぺた,類っぺた,ほっぺた,人面頰、臉蛋,kanji,555,right,31,類っぺた
@@ -189,7 +189,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 おしこむ,押し込む,おしこむ,導入、硬擠、賠進去行搶、塞進、更往裡塞,kanji,556,right,03,押し込む
 おてあげ,お手上げ,おてあげ,束手無策、毫無辦法、沒輒,kanji,556,right,04,お手上げ
 かけあし,駆け足,かけあし,快跑、快步、跑步似的、急急忙、策馬飛奔,kanji,556,right,05,駆け足
-しのびよる,忍び寄る,しのびよる,和天、偷偷接近、悄悄地靠近,kanji,557,left,07,忍び寄る
+しのびよる,忍び寄る,しのびよる,偷偷接近、悄悄靠近,kanji,557,left,07,忍び寄る
 しもん,指紋,しもん,指紋,kanji,557,left,08,指紋
 ジャンプ,ジャンプ,じゃんぷ,跳躍、商、物價暴漲,katakana,557,left,09,jump
 しょじ,所持,しょじ,所持、所有、攜帶,kanji,557,left,10,所持
@@ -218,7 +218,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 あんぴ,安知,あんぴ,平安興否、起居,kanji,561,left,01,安知
 いしきふめい,意識不明,いしきふめい,失去意識、意識不清,kanji,561,left,02,意識不明
 おとろえる,衰える,おとろえる,仁和、衰落、衰退,kanji,561,right,04,衰える
-くちる,朽ちる,くちる,腐朽、腐爛、腐壞、默默無聞而,kanji,561,right,0e,朽ちる
+くちる,朽ちる,くちる,腐朽、腐爛；默默無聞地結束一生,kanji,561,right,0e,朽ちる
 けんぜん,健全,けんぜん,身心、健康、健全、運動、制度等,kanji,561,right,07,健全
 たえる,絶える,たえる,新旨、終了、停止、滅引、消失,kanji,562,left,13,絶える
 とだえる,途絶える,とだえる,斷絕、杜絕、中斷,kanji,562,left,04,途絶える
@@ -254,7 +254,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 むせる,むせる,むせる,嗆到、噎住,hiragana,566,left,02,むせる
 やすめる,休める,やすめる,活動等、合休息、使停黑、身心等、使休息、使安靜,kanji,566,left,02,休める
 がんがん,がんがん,がんがん,胞生、噹噹、震耳的鐘聲、強烈的頭痛、或耳鳴聲、啪嘆不休的責備貌、店,hiragana,566,left,02,がんがん
-さする,擦る,さする,點摩、擦、搓、撫摸、摩姑、上、四朋,kanji,566,left,03,擦る
+さする,擦る,さする,摩擦、搓揉、撫摸,kanji,566,left,03,擦る
 すれる,擦れる,すれる,摩擦、久經世故、生、油滑、磨損、麻破、失去純真、變、理,kanji,566,right,05,擦れる
 だぼく,打撲,だぼく,他落、打、碰撞,kanji,566,right,06,打撲
 つねる,つねる,つねる,拘住,hiragana,566,right,07,つねる
@@ -270,7 +270,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 きんがん,近眼,きんがん,近視眼、革時,kanji,568,left,04,近眼
 きん,菌,きん,笠汰人細菌、病菌、霉菌、蘑菇,kanji,568,left,07,菌
 けっかく,結核,けっかく,結核、結核病、和,kanji,568,left,,結核
-げっそり,げっそり,げっそり,突然減少、突然消瘦很多、突然、灰心、無精打打、國,hiragana,568,left,09,げっそり
+げっそり,げっそり,げっそり,明顯消瘦；灰心沮喪,hiragana,568,left,09,げっそり
 けつぼう,欠乏,けつぼう,缺乏、不足、生,kanji,568,right,00,欠乏
 げんかく,幻覚,げんかく,幻覺、錯覺,kanji,568,right,02,幻覚
 こうせいぶっしつ,抗生物質,こうせいぶっしつ,抗生物質,kanji,568,right,03,抗生物質
@@ -476,7 +476,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 すうはい,崇拝,すうはい,凶苞崇拜、信仰,kanji,597,right,00,崇拝
 せいしょ,聖書,せいしょ,基督教的、聖經、古聖人的著述,kanji,597,right,40,聖書
 せんきょう,宣教,せんきょう,傳教、佈道,kanji,597,right,11,宣教
-てんごく,天国,てんごく,天國、天堂、理想境界、樂點、詩,kanji,598,left,06,天国
+てんごく,天国,てんごく,天國、天堂；理想境界,kanji,598,left,06,天国
 でんせつ,伝説,でんせつ,各傳說、口傳,kanji,598,left,07,伝説
 とりい,鳥居,とりい,神社入口處的、牌坊,kanji,598,left,04,鳥居
 ばける,化ける,ばける,自蛇美娘化,kanji,598,left,09,化ける
@@ -492,7 +492,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 こじ,孤児,こじ,孤兒、沒有伴兒的人、孤獨的人,kanji,601,left,02,孤児
 こもりうた,子守歌・子守唄,こもりうた,搖籃曲,kanji,601,left,03,子守歌・子守唄
 しそく,子息,しそく,見子、指他人的、令郎,kanji,601,left,04,子息
-せがれ,俸,せがれ,封人謙稲自己的見子、犬子、對他、人見子、晩募的蔵舟、小父仏、小子,kanji,601,left,05,俸
+せがれ,倅,せがれ,對自己兒子的謙稱；小子、年輕男子,kanji,601,left,05,俸
 だっこ,抱っこ,だっこ,他功、抱,kanji,601,left,0e,抱っこ
 ねかす,寝かす,ねかす,使睡覺,kanji,601,left,07,寝かす
 ねかせる,寝かせる,ねかせる,他下還、使睡覺、使躺下、使平倒、存放著,kanji,601,right,08,寝かせる
@@ -546,7 +546,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 さよう,作用,さよう,作用,kanji,611,right,05,作用
 ソーラーシステム,ソーラーシステム,そおらあしすてむ,太陽系、太陽能發電設備,katakana,611,right,0e,the solar ; system
 たきび,たき火,たきび,爐火、灶火、用火、燒落葉,kanji,611,right,07,たき火
-てんか,点火,てんか,衝衝點火,kanji,611,right,0m,点火
+てんか,点火,てんか,點火,kanji,611,right,0m,点火
 どうりょく,動力,どうりょく,動力,kanji,611,right,00,動力
 ねんしょう,燃焼,ねんしょう,所生燃燒、竭盡全力,kanji,611,right,10,燃焼
 ひばな,火花,ひばな,火花,kanji,612,left,04,火花
@@ -572,7 +572,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 きざし,兆し,きざし,預兆、徵兆、跡象、萌芽、頭緒,kanji,615,right,09,兆し
 きょうれつ,強烈,きょうれつ,強烈,kanji,615,right,11,強烈
 ざあざあ,ざあざあ,ざあざあ,大雨、嘩啦嘩啦聲、電視等、雜音,hiragana,616,left,14,ざあざあ
-せいてん,晴天,せいてん,久晴天、四生天恵,kanji,616,left,17,晴天
+せいてん,晴天,せいてん,晴天、好天氣,kanji,616,left,17,晴天
 てりかえす,照り返す,てりかえす,反射、站,kanji,616,left,09,照り返す
 とつじょ,突如,とつじょ,突如其來、突然,kanji,616,right,09,突如
 あいつぐで,相次ぐ・相継ぐ,あいつぐで,接二連三、連續不斷,kanji,616,right,01,相次ぐ・相継ぐ
@@ -613,7 +613,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 たどる,辿る,たどる,沿路前進、邊走邊找、走難行的路、艱難的路、人追尋、追溯、探索、事,kanji,620,right,04,辿る
 ちけい,地形,ちけい,地形、地勢、地貌,kanji,621,left,25,地形
 つらなる,連なる,つらなる,連接、列、參加,kanji,621,left,26,連なる
-てんぼう,展望,てんぼう,展堂、眺常、瞭芝,kanji,621,left,27,展望
+てんぼう,展望,てんぼう,展望、眺望；前景,kanji,621,left,27,展望
 とおまわり,遠回り,とおまわり,色-自、形動、使其繞道、繞遠路,kanji,621,left,28,遠回り
 ないりく,内陸,ないりく,内陸、内地,kanji,621,left,29,内陸
 なぎさ,清,なぎさ,水濱、岸瘍、海沖,kanji,621,left,30,清
@@ -624,7 +624,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 いただき,頂,いただき,物體的、頂部、頂峰、樹尖,kanji,621,right,0z,頂
 かいどう,街道,かいどう,大道、大街,kanji,622,left,00,街道
 がいとう,街豆,がいとう,街頭、大街上,kanji,622,left,00,街豆
-くうかん,空間,くうかん,空間、空了、還選適空間提案,kanji,622,left,08,空間
+くうかん,空間,くうかん,空間,kanji,622,left,08,空間
 げんち,現地,げんち,現場、發生事故的地點、當地,kanji,622,left,00,現地
 コーナー,コーナー,こおなあ,小賣店、専橋、角、拐、拐角、棒、足球、地,katakana,622,right,00,corner
 こてい,固定,こてい,足場固定,kanji,622,right,01,固定
@@ -728,7 +728,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 きゅうでん,宮殿,きゅうでん,宮殿、祭神殿,kanji,634,left,02,宮殿
 しきじょう,式場,しきじょう,仿故址、遺跡、古蹟、手,kanji,634,left,00,式場
 スタジオ,スタジオ,すたじお,藝術家工作室、攝影棚、照相館、播音室、錄音室,katakana,634,left,04,studio
-タワー,タワー,たわあ,國相口一多夕戰一、還,katakana,634,left,00,tower
+タワー,タワー,たわあ,塔、高塔,katakana,634,left,00,tower
 ふうしゃ,風車,ふうしゃ,風車,kanji,634,right,07,風車
 ほんかん,本館,ほんかん,對別館、新館而言、原本的建築物、計、要的樓房、此樓、本樓、本館、關,kanji,634,right,08,本館
 みんしゅく,民宿,みんしゅく,自功、觀光地的、民宿、家庭旅店、旅、在民家投宿,kanji,634,right,09,民宿
@@ -797,7 +797,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 かくさん,拡散,かくさん,擴散、理、漫射,kanji,643,right,93,拡散
 かんこく,勧告,かんこく,勸告、說服,kanji,643,right,04,勧告
 こくち,告知,こくち,告知,kanji,643,right,0e,告知
-ことづて,言伝,ことづて,會傳聞、帶口信,kanji,643,right,08,言伝
+ことづて,言伝,ことづて,口信、傳話,kanji,643,right,08,言伝
 テレックス,テレックス,てれっくす,電報、電傳、和,katakana,644,left,02,telex
 はりがみ,張り紙,はりがみ,貼紙、廣告、標語,kanji,644,left,34,張り紙
 たんば,短波,たんば,短波,kanji,645,left,06,短波
@@ -812,7 +812,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 さかだち,逆立ち,さかだち,各貞、崩操等、倒立、倒堅、顛倒、洗清,kanji,646,left,04,逆立ち
 さらなる,更なる,さらなる,更加、進一步,kanji,646,left,05,更なる
 てつぼう,鉄棒,てつぼう,在空中、旋轉、翻筋斗,kanji,646,right,,鉄棒
-どひょう,土依,どひょう,相撲、比賽場、摔角場、緊要關頭,kanji,647,left,13,土依
+どひょう,土俵,どひょう,相撲、摔角等比賽場地；關鍵局面,kanji,647,left,13,土俵
 ひきずる,引きずる,ひきずる,邊人、拖、拉、硬拉著走、拖延,kanji,647,left,14,引きずる
 びっしょり,びっしょり,びっしょり,溼透,hiragana,647,left,15,びっしょり
 フォーム,フォーム,ふぉおむ,形式、樣式、體育運動的、姿勢、月台、站台,katakana,647,left,16,form
@@ -822,7 +822,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 みうしなう,見失う,みうしなう,迷失、看不見、看丟,kanji,647,right,20,見失う
 みちびく,導く,みちびく,引略、導婚、指導引導、導致、導向,kanji,647,right,21,導く
 めいちゅう,命中,めいちゅう,命中,kanji,647,right,22,命中
-よこづな,横綱,よこづな,相撲、冠軍選手緊在腰間標示身份、的粗繩、相撲冠軍選手稱號、橫網、手,kanji,647,right,23,横綱
+よこづな,横綱,よこづな,相撲最高級力士；首屈一指的人物,kanji,647,right,23,横綱
 あっけない,呆気ない,あっけない,因為太簡單而不過癮、沒意思、簡單、草草,kanji,647,right,01,呆気ない
 ぎゃくてん,逆転,ぎゃくてん,到孜吃、倒轉、逆轉、反過來、惡化、倒退,kanji,648,left,04,逆転
 きゅうせん,休戦,きゅうせん,休戦、停戦,kanji,648,left,05,休戦
@@ -878,7 +878,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 かざぐるま,風車,かざぐるま,風車,kanji,653,right,09,風車
 かんらん,観覧,かんらん,觀覽、參歡,kanji,653,right,40,観覧
 くうぜん,空前,くうぜん,空前,kanji,653,right,01,空前
-ごばん,碁盤,ごばん,園棋盤、圓宴、國涎辦其般,kanji,654,left,03,碁盤
+ごばん,碁盤,ごばん,圍棋棋盤,kanji,654,left,03,碁盤
 にづくり,荷造り,にづくり,準備行李、捆行李、包眉,kanji,654,left,04,荷造り
 パチンコ,パチンコ,ぱちんこ,仿柏青哥、小網珠,katakana,654,left,05,パチンコ
 ひきとる,引き取る,ひきとる,退出、退下、離開、領取、收購、領來照顧,kanji,654,left,04,引き取る
@@ -968,7 +968,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 こげちゃ,焦げ茶,こげちゃ,人濃茶色、深棕色、古銅色、所,kanji,668,left,09,焦げ茶
 コントラスト,コントラスト,こんとらすと,多對比、對照、光、反差、對比度,katakana,668,left,10,contrast
 ずあん,図案,ずあん,全圖案、設計、設計圖,kanji,668,left,12,図案
-いくせい,育成,いくせい,培養、培育、扶植、扶育、國工悶當二了在育成本名,kanji,669,left,01,育成
+いくせい,育成,いくせい,培養、培育、扶植,kanji,669,left,01,育成
 がくせつ,学説,がくせつ,學說,kanji,669,left,02,学説
 きょうしゅう,教習,きょうしゅう,化-他、訓練、教習,kanji,669,left,04,教習
 こうがく,工学,こうがく,分工學、工程學,kanji,669,left,05,工学
@@ -979,7 +979,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 じゅく,塾,じゅく,補習班、私塾,kanji,670,left,02,塾
 しんど,進度,しんど,進度,kanji,670,left,03,進度
 せっきょう,説教,せっきょう,記号、說教、教誨,kanji,670,left,04,説教
-てびき,手引き,てびき,輔導、初學者、啟蒙、入門、初、推薦、介紹、引路、導向,kanji,670,left,05,手引き
+てびき,手引き,てびき,引導、指南、入門手冊；介紹,kanji,670,left,05,手引き
 ドリル,ドリル,どりる,鑽頭、訓練、練習,katakana,670,right,07,dril
 ほうがく,法学,ほうがく,法學、法律學,kanji,670,right,00,法学
 ゆうぼう,有望,ゆうぼう,有希亡、有前途,kanji,670,right,01,有望
@@ -1093,7 +1093,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 システム,システム,しすてむ,組織、體系、系統、制度,katakana,687,left,23,system
 しゅうぎょう,就業,しゅうぎょう,開始工作、上班、就業、有一邊、職業、有工作,kanji,687,left,25,就業
 じゅうじ,従事,じゅうじ,従事,kanji,687,left,26,従事
-しゅえい,守衛,しゅえい,機開等的、警衛、守衛、國會的、警備員,kanji,687,left,27,守衛
+しゅえい,守衛,しゅえい,守衛、警衛,kanji,687,left,27,守衛
 しゅっしゃ,出社,しゅっしゃ,到公司上班,kanji,687,left,28,出社
 しゅつどう,出動,しゅつどう,所四、消防隊、警察等、出動,kanji,687,right,29,出動
 しょうしん,昇進,しょうしん,外貞、電灯、轟趣、高昇,kanji,687,right,30,昇進
@@ -1152,7 +1152,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 しゅっせ,出世,しゅっせ,找自導、下凡、出家、入佛門、出生、出息、上、成功、發跡,kanji,694,left,05,出世
 ポジション,ポジション,ぽじしょん,地位、職位、棒、守備位置,katakana,695,left,13,position
 やくしょく,役職,やくしょく,官職、職務、要職,kanji,695,left,14,役職
-らんよう,沙用,らんよう,濫用、亂用,kanji,695,left,15,沙用
+らんよう,濫用,らんよう,濫用、亂用,kanji,695,left,15,濫用
 あつらえる,誂える,あつらえる,他下、點、訂做,kanji,695,left,01,誂える
 オーダーメイド,オーダーメイド,おおだあめいど,訂做的貨、訂做的西服,katakana,695,left,02,(和) order - made
 からむ,絡む,からむ,纏在上食纏、無理取開、找看、密切相關、緊密糾纏,kanji,695,right,04,絡む
@@ -1219,7 +1219,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 そうきん,送金,そうきん,和上分、匯款、寄錢,kanji,704,left,08,送金
 とりひき,取引,とりひき,各計、交易、劉易,kanji,704,left,00,取引
 なりたつ,成り立つ,なりたつ,成立、談妥、達成協議、划得來、有利可圖、能維持、古、成長,kanji,704,left,10,成り立つ
-はいぶん,配分,はいぶん,衝他、分配、分割,kanji,704,left,01,配分
+はいぶん,配分,はいぶん,分配、分派,kanji,704,left,01,配分
 ボイコット,ボイコット,ぼいこっと,聯合抵制、拒絕交易、某貨物、聯、合排斥、某勢力,katakana,704,left,12,boycott
 うりだし,売り出し,うりだし,露頭角,kanji,704,right,01,売り出し
 うりだす,売り出す,うりだす,上市、出笛、出名、紅起來,kanji,704,right,02,売り出す
@@ -1322,10 +1322,10 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 りゃくだつ,略奪,りゃくだつ,掠伏、搶奪、搶劫,kanji,718,right,01,略奪
 かいにゅう,介入,かいにゅう,介入、和干預、參與'、染指,kanji,719,left,02,介入
 ぎょうせい,行政,ぎょうせい,相對於立法、司法而言的、行政、政機關執行的、政務,kanji,719,left,04,行政
-げんしゅ,元首,げんしゅ,國家的、元首、綿統、國王ヽ國家、席等,kanji,719,left,05,元首
+げんしゅ,元首,げんしゅ,國家元首；總統、國王等,kanji,719,left,05,元首
 こうふ,交付,こうふ,客-凶功、交付、交給、發給,kanji,719,left,0e,交付
 こくてい,国定,こくてい,國家制訂、國家規定,kanji,719,left,07,国定
-こくど,国土,こくど,國士、領士、國家的土地、故鄉、行政、公務員,kanji,719,left,08,国土
+こくど,国土,こくど,國土、國家的土地,kanji,719,left,08,国土
 こくゆう,国有,こくゆう,國有,kanji,719,right,0g,国有
 さかえる,栄える,さかえる,繁榮、興盛、昌盛、榮華、顯赫、國前四煙又名,kanji,719,right,11,栄える
 しさつ,視察,しさつ,視察、考察,kanji,719,right,42,視察
@@ -1352,16 +1352,16 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 しりぞける,退ける,しりぞける,斥退、擊退、拒絕、撤銷,kanji,722,left,15,退ける
 しんぎ,審議,しんぎ,審議,kanji,722,left,16,審議
 とうぎ,討議,とうぎ,討論、共同研計,kanji,722,left,17,討議
-とうせん,当選,とうせん,各和、當選、中選、和,kanji,722,left,18,当選
+とうせん,当選,とうせん,當選、中選,kanji,722,left,18,当選
 ないかく,内閣,ないかく,内閣、政府,kanji,722,left,19,内閣
-ひょう,上票,ひょう,選票、用作憑證的、票、表、的票,kanji,722,right,03,上票
+ひょう,票,ひょう,選票；票券；作為憑證的票,kanji,722,right,03,票
 ほうあん,法案,ほうあん,法案可決,kanji,722,right,04,法案
 まんじょう,満場,まんじょう,全場、満場、満党,kanji,722,right,05,満場
-インターナショナル,インターナショナル,いんたあなしょなる,形動、國際、國際歌、國際間的,katakana,723,left,00,インターナショナル
+インターナショナル,インターナショナル,いんたあなしょなる,國際的；國際歌,katakana,723,left,00,インターナショナル
 きょようてい,協定,きょようてい,協定,kanji,723,left,02,協定
 こくれん,国連,こくれん,聯合國,kanji,723,left,03,国連
 こっこう,国交,こっこう,國交、邦交,kanji,723,left,04,国交
-たいがい,対外,たいがい,對外、國、對外、部,kanji,723,left,06,対外
+たいがい,対外,たいがい,對外、對外部,kanji,723,left,06,対外
 ちょういん,調印,ちょういん,中員、簽字、蓋章、簽點,kanji,723,right,08,調印
 どうめい,同盟,どうめい,直人同盟、聯盟、聯合,kanji,723,right,09,同盟
 ほうべい,訪米,ほうべい,所吃、訪美,kanji,723,right,10,訪米
@@ -1486,7 +1486,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 とうてい,到底,とうてい,下接否定、語気強、無諭名何了、怎麼也,kanji,741,right,70,到底
 とうとい,尊い,とうとい,尊貴、珍貴,kanji,741,right,71,尊い
 トラウマ,トラウマ,とらうま,創傷,katakana,741,right,74,trauma
-どんかん,鈍感,どんかん,衝-陳、對事情的威覺或反應遲鈍、反應,kanji,742,left,75,鈍感
+どんかん,鈍感,どんかん,遲鈍、不敏感,kanji,742,left,75,鈍感
 ないしょ,内緒,ないしょ,虎革別人、秘密,kanji,742,left,07,内緒
 ないしん,内心,ないしん,生生內心、心中,kanji,742,left,77,内心
 なごり,名残,なごり,臨別時、難分難捨的心情、依鐵,kanji,742,left,78,名残
@@ -1494,7 +1494,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 なさけ,情け,なさけ,仁慈、同情、人情、情義、男女溼情、愛情,kanji,742,left,80,情け
 なれ,慣れ,なれ,習慣、熟習,kanji,742,right,01,慣れ
 なんだかんだ,なんだかんだ,なんだかんだ,這樣那樣、這個那個、情,hiragana,742,right,02,なんだかんだ
-なんでもかんでも,なんでもかんでも,なんでもかんでも,時一切、仕謙都,hiragana,742,right,03,なんでもかんでも
+なんでもかんでも,なんでもかんでも,なんでもかんでも,什麼都、不管什麼都,hiragana,742,right,03,なんでもかんでも
 にんじょう,人情,にんじょう,人情味、同情心、愛情,kanji,742,right,04,人情
 ねつい,熱意,ねつい,熱情、熱忱,kanji,742,right,05,熱意
 ねんいり,念入り,ねんいり,精心,kanji,742,right,06,念入り
@@ -1549,7 +1549,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 しんぼう,卒抱,しんぼう,心工作,kanji,749,left,33,卒抱
 せいいっぱい,精一杯,せいいっぱい,叉重、動、竭盡全力,kanji,749,left,35,精一杯
 たいぼう,待望,たいぼう,待望雨降,kanji,749,left,36,待望
-たんとうちょくにゅう,単刀直/,たんとうちょくにゅう,名形動、一人揮刀衝入敵陣、直截了當,kanji,749,left,38,単刀直/
+たんとうちょくにゅう,単刀直入,たんとうちょくにゅう,開門見山、直截了當,kanji,749,left,38,単刀直入
 ちゃくもく,着目,ちゃくもく,自幼、著眼'注,kanji,749,right,39,着目
 ちゅうとはんぱ,中途半端,ちゅうとはんぱ,作動、半途而廢、沒有完成、不夠徹底,kanji,749,right,40,中途半端
 ちょくめん,直面,ちょくめん,面對、面臨,kanji,749,right,42,直面
@@ -1578,7 +1578,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 うぬぼれ,自惚れ,うぬぼれ,自滿、自負、自大,kanji,752,left,06,自惚れ
 かたおもい,片思い,かたおもい,單戀、單相思,kanji,752,right,07,片思い
 きずつける,傷付ける,きずつける,弄傷、弄出瑕疵、缺陷、毛病、情、損害、損傷、敗壞,kanji,752,right,08,傷付ける
-けがらわしい,汚らわしい,けがらわしい,一樣航髒、討壓、衝噴,kanji,753,left,13,汚らわしい
+けがらわしい,汚らわしい,けがらわしい,污穢的、令人厭惡的,kanji,753,left,13,汚らわしい
 けがれる,汚れる,けがれる,弄髒、玷汙,kanji,753,left,14,汚れる
 こいする,恋する,こいする,戀愛、愛,kanji,753,left,15,恋する
 このましい,好ましい,このましい,理想的、滿意的,kanji,753,left,18,好ましい
@@ -1630,7 +1630,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 かんかん,かんかん,かんかん,硬物相撞聲、火、陽光等炙熱強、大發脾氣、同,hiragana,758,right,01,かんかん
 きょうい,驚異,きょうい,驚異,kanji,759,left,12,驚異
 こりる,懲りる,こりる,扎包、因為吃過苦頭、不敢再嘗試,kanji,759,left,14,懲りる
-しょうげき,衝撃,しょうげき,精神的、打擊、衝擊、理、衝撞,kanji,759,left,15,衝撃
+しょうげき,衝撃,しょうげき,衝擊、震撼；精神上的打擊,kanji,759,left,15,衝撃
 なんと,なんと,なんと,怎麼'、怎樣,hiragana,759,right,21,なんと
 ののしる,罵る,ののしる,大聲吵鬧、野、説寺話,kanji,759,right,22,罵る
 ばかばかしい,馬鹿馬鹿しい,ばかばかしい,毫無意義與價值、十分無聊、非當、映春,kanji,759,right,23,馬鹿馬鹿しい
@@ -1640,12 +1640,12 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 あしからず,悪しからず,あしからず,還語,kanji,761,left,01,悪しからず
 おおめ,大目,おおめ,寬恕、饒恕、容忍,kanji,761,left,02,大目
 おしむ,惜しむ,おしむ,了書、吝惜、捨不得、忱羿、可惜,kanji,761,left,03,惜しむ
-かなう,叶う,かなう,衝天、適合、符合、合乎、能、能做到、希亡等、能實現、能如願以償,kanji,761,left,04,叶う
+かなう,叶う,かなう,實現、如願；符合；敵得過,kanji,761,left,04,叶う
 かんベべん,勘弁,かんべべん,饒恕、原諒、容忍、明辯是非,kanji,761,left,05,勘弁
 しゃざい,謝罪,しゃざい,自他、謝罪、賠禮,kanji,761,right,0m,謝罪
 たまう,たまう,たまう,賜予、接在動詞、連用形下、表示對長上動作的敬意,hiragana,761,right,09,たまう
 めいよ,名誉,めいよ,頭銜,kanji,761,right,12,名誉
-めぐみ,恵み,めぐみ,因恵、因澤、周注、施近,kanji,762,left,13,恵み
+めぐみ,恵み,めぐみ,恩惠、恩澤,kanji,762,left,13,恵み
 めぐむ,恵む,めぐむ,同情、憐個、施捨、周注,kanji,762,left,34,恵む
 めんぼく・めんもく,面目,めんぼく・めんもく,臉面、面,kanji,762,right,05,面目
 あやぶむ,危ぶむ,あやぶむ,操心、擔心、認為靠不住、有風了,kanji,763,left,01,危ぶむ
@@ -1666,7 +1666,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 とんだ,とんだ,とんだ,意想不到的、災難、意外的、事故、無法挽,hiragana,765,left,26,とんだ
 ネタ,ネタ,ねた,材料、證據,katakana,765,left,27,ネタ
 ねん,念,ねん,尖人念頭、心情、観念、宿願、用心、思念考慮,kanji,765,right,29,念
-ひそか,密か,ひそか,悄悄地不讓人知道的樣子、祕密、上暗中、悄悄、偷偷,kanji,765,right,31,密か
+ひそか,密か,ひそか,祕密地、暗中、悄悄地,kanji,765,right,31,密か
 ひとちがい,人違い,ひとちがい,自認錯人、弄錯人,kanji,765,right,32,人違い
 もうしぶん,申し分,もうしぶん,可挑剔之處、缺點、申辯的理由、意見,kanji,765,right,33,申し分
 あかし,証,あかし,仿證據、證明,kanji,766,left,02,証
@@ -1706,7 +1706,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 だったら,だったら,だったら,央蛤、這樣的話、那樣的話,hiragana,770,left,04,だったら
 だんぜん,断然,だんぜん,加-形、斷然、顯然、確實、堅決、後接否定語、絕、不,kanji,770,left,54,断然
 どうにか,どうにか,どうにか,想點法子、經過一些曲折、總算、了歹、勉勉強強,hiragana,770,right,07,どうにか
-とかく,とかく,とかく,自疙、種種、這樣那樣、流言、風聞等、不動、總是、不知不覺就、沒一會就,hiragana,770,right,08,とかく
+とかく,とかく,とかく,種種；動不動就、往往；總之,hiragana,770,right,08,とかく
 とがめる,谷める,とがめる,責備、挑剔、盤問、仙、傷口等、紅用,kanji,770,right,09,谷める
 なおさら,なおさら,なおさら,更加、越、更,hiragana,771,left,62,なおさら
 なるたけ,なるたけ,なるたけ,盡量、儘可能,hiragana,771,left,63,なるたけ
@@ -1722,7 +1722,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 よし,良し,よし,的文語形式、好、行、可,kanji,773,left,91,良し
 よしあし,善し悪し,よしあし,善惡、好壞、有利有商、善惡難明、理解,kanji,773,left,22,善し悪し
 アプローチ,アプローチ,あぷろおち,所自疙、接近、靠近、探討、研究,katakana,773,right,01,approach
-オプション,オプション,おぷしょん,全選擇、取捨,katakana,773,right,02,option
+オプション,オプション,おぷしょん,選項；附加配備,katakana,773,right,02,option
 かいめい,解明,かいめい,二-他、解釋清楚,kanji,774,left,04,解明
 がたい,難い,がたい,上反動記連用形、表示、搬難、仙,kanji,774,left,05,難い
 ぎんみ,吟味,ぎんみ,他功、吟頌詩歌、仔細體會、玩味、仔、喱酌、考慮、生,kanji,774,left,08,吟味
@@ -1755,7 +1755,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 るい,類,るい,接尾、江種類、類型、同類、類似,kanji,778,left,54,類
 あんじる,案じる,あんじる,掛念、擔心、文、思索,kanji,778,left,00,案じる
 いざしらず,いざ知らず,いざしらず,姑且不談、還情有可原,kanji,778,left,02,いざ知らず
-いたって,至って,いたって,有通選、文、入、極、甚、用、至、的形式、至、至於,kanji,778,right,03,至って
+いたって,至って,いたって,非常、極其,kanji,778,right,03,至って
 いちがいに,一概に,いちがいに,一概、一律、沒有例外地、常和否定、司相應,kanji,778,right,04,一概に
 いちよう,一様,いちよう,一様、平常、平等,kanji,778,right,06,一様
 いちりつ,一筆,いちりつ,同様的音律、一様、一律、千篇一律,kanji,778,right,07,一筆
@@ -1868,7 +1868,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 かかげる,掲げる,かかげる,旬下、懸、掛、升起、舉起、打著、挑、掀起、撩起、刊登、刊載、提出、揭出,kanji,793,left,16,掲げる
 かきとる,書き取る,かきとる,把文章字句等、記下來、紀錄、抄錄,kanji,793,left,17,書き取る
 かわす,交わす,かわす,交交換、交結交叉、互相,kanji,793,left,18,交わす
-きさい,記載,きさい,刊載、寫上、刊登、廚,kanji,793,right,00,記載
+きさい,記載,きさい,記載、寫上、刊登,kanji,793,right,00,記載
 きめい,記名,きめい,記名、身名,kanji,793,right,01,記名
 こくはく,告白,こくはく,名-他、坦白、自白、懐悔、坦白自己、感情,kanji,794,left,29,告白
 ごまかす,ごまかす,ごまかす,掩蓋、擴塞、敷衍、作假、搗鬼、舞弊,hiragana,794,right,32,ごまかす
@@ -1884,7 +1884,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 じょげん,助言,じょげん,建議、忠告、従厚教作出主意,kanji,795,right,05,助言
 しるす,記す,しるす,書寫、記述、記載、記住、銘記,kanji,795,right,06,記す
 しれい,指令,しれい,指令、指示、通知、'命令,kanji,795,right,07,指令
-すすめ,勧め,すすめ,規勸、勸告、勸誠、鼓勵、推薦,kanji,796,left,49,勧め
+すすめ,勧め,すすめ,勸告、建議、推薦,kanji,796,left,49,勧め
 すらすら,すらすら,すらすら,痛快的、流利的、流幅的、順利的,hiragana,796,left,51,すらすら
 せじ,世辞,せじ,奉承、恭維、巴結,kanji,796,left,53,世辞
 せんげん,宣言,せんげん,宣言、宣布、宣告,kanji,796,left,55,宣言
@@ -1900,7 +1900,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 となえる,唱える,となえる,高喊、提倡、提出、'聲明、喊價、報價,kanji,798,left,76,唱える
 とりいそぎ,取り急ぎ,とりいそぎ,書信用語、急速、立即、趕緊,kanji,798,left,77,取り急ぎ
 なにげない,何気ない,なにげない,沒什麼明確、漫不經心的、無意的,kanji,798,left,78,何気ない
-ナンセンス,ナンセンス,なんせんす,無意義的、荒廖的、愚蠢的、圖才恤它之及碟記上想言,katakana,798,right,81,nonsense
+ナンセンス,ナンセンス,なんせんす,無意義、荒謬、愚蠢,katakana,798,right,81,nonsense
 ニュアンス,ニュアンス,にゅあんす,神韻語気、色調、音調、意義、威情等、微妙差別、表達上的、細膩,katakana,798,right,83,(法) nuance
 ばくろ,暴中,ばくろ,人曝曬、風吹日曬、暴露、揭露,kanji,799,left,06,暴中
 はつげん,発言,はつげん,発言,kanji,799,left,87,発言
@@ -1911,7 +1911,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 ひょっとして,ひょっとして,ひょっとして,唔副、該不會是、萬一、一旦、如果,hiragana,799,right,04,ひょっとして
 ひょっとすると,ひょっとすると,ひょっとすると,合并、也許、或許、有可能,hiragana,799,right,05,ひょっとすると
 ふこく,布告,ふこく,名-他、休告、公告、宣告、宣布,kanji,800,left,96,布告
-ふひょう,不評,ふひょう,聲譽不佳、名譽壇、評價低,kanji,800,left,97,不評
+ふひょう,不評,ふひょう,評價不好、名聲不佳,kanji,800,left,97,不評
 プレゼン,プレゼン,ぷれぜん,簡報、對音樂等的、詮釋,katakana,800,left,98,presentation 之略
 ぺこぺこ,ぺこぺこ,ぺこぺこ,形動副、癌、不鼓、空腹、店召,hiragana,800,left,99,ぺこぺこ
 べんかい,弁解,べんかい,自他、辯解'分辯、辯明,kanji,800,left,01,弁解
@@ -1946,7 +1946,7 @@ reading,writing,declaredNormalizedReading,zh,script,source_page,source_column,so
 さんしょう,参照,さんしょう,寢包吃、參照、參看、參閱,kanji,803,left,15,参照
 しゅだい,主題,しゅだい,文章、作品、樂曲的、主題、中心,kanji,803,right,16,主題
 しょはん,初版,しょはん,印刷物、書籍的初版、第一版,kanji,803,right,07,初版
-しょひょう,書評,しょひょう,書評、特指圭新刊的評論,kanji,803,right,08,書評
+しょひょう,書評,しょひょう,書評，特別是對新刊書籍的評論,kanji,803,right,08,書評
 ぜっぱん,絶版,ぜっぱん,絶版,kanji,803,right,00,絶版
 そうかん,創刊,そうかん,創刊、品,kanji,803,right,01,創刊
 ださく,駄作,ださく,拙劣的作品、無價值的作品,kanji,804,left,22,駄作

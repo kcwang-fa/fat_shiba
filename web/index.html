@@ -2193,29 +2193,20 @@
     </div>
   </div>
 
-  <script src="data/word_data.js?v=20260717-eggrolls-import"></script>
+  <script src="data/word-level-n5.js?v=20260717-levels"></script>
 
   <script>
-    (() => {
+    (async () => {
       "use strict";
 
-      const {
-        RAW_WORDS,
-        N4_BASE_WORD_ROWS,
-        N4_EXTRA_WORD_ROWS_TEXT,
-        N4_CSV_WORD_ROWS_TEXT,
-        N3_BASE_WORD_ROWS,
-        N3_RESERVED_UPPER_LEVEL_READING_VALUES,
-        N3_EXTRA_WORD_ROWS_TEXT,
-        N2_EXTRA_WORD_ROWS_TEXT,
-        N1_BASE_WORD_ROWS,
-        N1_EXTRA_WORD_ROWS_TEXT,
-        EGGROLLS_N5_WORD_ROWS_TEXT,
-        EGGROLLS_N4_WORD_ROWS_TEXT,
-        EGGROLLS_N3_WORD_ROWS_TEXT,
-        EGGROLLS_N2_WORD_ROWS_TEXT,
-        EGGROLLS_N1_WORD_ROWS_TEXT
-      } = window.FAT_SHIBA_WORD_DATA;
+      const WORD_DATA_VERSION = "20260717-levels";
+      const WORD_LEVEL_SRC = {
+        N5: `data/word-level-n5.js?v=${WORD_DATA_VERSION}`,
+        N4: `data/word-level-n4.js?v=${WORD_DATA_VERSION}`,
+        N3: `data/word-level-n3.js?v=${WORD_DATA_VERSION}`,
+        N2: `data/word-level-n2.js?v=${WORD_DATA_VERSION}`,
+        N1: `data/word-level-n1.js?v=${WORD_DATA_VERSION}`
+      };
 
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
@@ -2253,6 +2244,7 @@
       const WORD_CARD_VISIBLE_MS = 5000;
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
       const BARK_AUDIO_SRC = "assets/audio/dog-bark-179915.mp3?v=20260715";
+      const STORAGE_WARNING_MESSAGE = "這次進度暫時無法保存，但目前畫面會繼續運作。可能是瀏覽器隱私模式或儲存空間滿了。";
       const N5_REVIEW_BGM_SOURCES = [
         { src: "assets/audio/n5-okinawa-focus-bgm.ogg?v=20260717-ocean-surf", type: "audio/ogg" },
         { src: "assets/audio/n5-okinawa-focus-bgm.mp3?v=20260717-ocean-surf", type: "audio/mpeg" }
@@ -2781,6 +2773,26 @@
 
       const REGION_BY_ID = new Map(REGIONS.map((region) => [region.id, region]));
 
+      const safeStorage = {
+        getItem(key) {
+          try {
+            return window.localStorage.getItem(key);
+          } catch (error) {
+            console.warn(`Cannot read localStorage key: ${key}`, error);
+            return null;
+          }
+        },
+        setItem(key, value) {
+          try {
+            window.localStorage.setItem(key, value);
+            return true;
+          } catch (error) {
+            console.warn(`Cannot write localStorage key: ${key}`, error);
+            return false;
+          }
+        }
+      };
+
 
       let WORD_META = window.FAT_SHIBA_WORD_META || {};
       let wordMetaLoadPromise = null;
@@ -2849,249 +2861,41 @@
           : normalizeKanaReading(reading || declaredNormalizedReading);
       }
 
-      function buildLevelWordRows(prefix, startNumber, rows, excludedReadings = new Set(), limit = Infinity) {
-        const seenReadings = new Set(excludedReadings);
-        return rows.trim().split("\n").map((row) => row.trim()).filter(Boolean).reduce((list, row) => {
-          if (list.length >= limit) return list;
-          const parts = row.split("|").map((part) => part.trim());
-          if (parts.length !== 5) {
-            throw new Error(`Invalid ${prefix} word row: ${row}`);
-          }
-          const [reading, writing, declaredNormalizedReading, zh, script] = parts;
-          const normalizedReading = normalizeKanaReading(reading || declaredNormalizedReading);
-          if (seenReadings.has(normalizedReading)) return list;
-          seenReadings.add(normalizedReading);
-          list.push([
-            `${prefix}_${String(startNumber + list.length).padStart(4, "0")}`,
-            reading,
-            writing,
-            normalizedReading,
-            zh,
-            script
-          ]);
-          return list;
-        }, []);
+      const WORDS_BY_LEVEL = LEVEL_ORDER.reduce((map, level) => {
+        map[level] = [];
+        return map;
+      }, {});
+      const CUMULATIVE_WORDS_BY_LEVEL = LEVEL_ORDER.reduce((map, level) => {
+        map[level] = [];
+        return map;
+      }, {});
+      const WORD_LEVEL_LOAD_PROMISES = new Map();
+      let ALL_WORDS = [];
+      let WORDS_BY_READING = new Map();
+      let AMBIGUOUS_ZH_CLUES = new Set();
+      let wordIndexVersion = 0;
+
+      function loadedWordLevelData(level) {
+        return window.FAT_SHIBA_WORD_LEVELS && Array.isArray(window.FAT_SHIBA_WORD_LEVELS[level])
+          ? window.FAT_SHIBA_WORD_LEVELS[level]
+          : null;
       }
 
-      function wordKeyForParts(reading, writing, declaredNormalizedReading) {
-        return `${normalizeKanaReading(reading || declaredNormalizedReading)}\u0000${normalizeDisplayReading(writing)}`;
+      function isWordLevelLoaded(level) {
+        return Boolean(WORDS_BY_LEVEL[level] && WORDS_BY_LEVEL[level].length);
       }
 
-      function wordKeyForRow(row) {
-        return wordKeyForParts(row[1], row[2], row[3]);
-      }
-
-      function buildImportedWordRows(prefix, rows, excludedKeys = new Set()) {
-        const seenKeys = new Set(excludedKeys);
-        return String(rows || "").trim().split("\n").map((row) => row.trim()).filter(Boolean).reduce((list, row) => {
-          const parts = row.split("|").map((part) => part.trim());
-          if (parts.length !== 5) {
-            throw new Error(`Invalid ${prefix} imported word row: ${row}`);
-          }
-          const [reading, writing, declaredNormalizedReading, zh, script] = parts;
-          const normalizedReading = normalizeKanaReading(reading || declaredNormalizedReading);
-          const key = wordKeyForParts(reading, writing, declaredNormalizedReading);
-          if (seenKeys.has(key)) return list;
-          seenKeys.add(key);
-          list.push([
-            `${prefix}_${String(list.length + 1).padStart(4, "0")}`,
-            reading,
-            writing,
-            normalizedReading,
-            zh,
-            script
-          ]);
-          return list;
-        }, []);
-      }
-
-      const N4_BASE_READINGS = new Set(N4_BASE_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N5_WORD_READINGS = new Set(RAW_WORDS.map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N4_EXTRA_WORD_ROWS = buildLevelWordRows("n4", 61, N4_EXTRA_WORD_ROWS_TEXT, new Set([...N5_WORD_READINGS, ...N4_BASE_READINGS]), 540);
-
-      const N4_CSV_WORD_ROWS = buildLevelWordRows("n4", 601, N4_CSV_WORD_ROWS_TEXT, new Set([
-        ...N5_WORD_READINGS,
-        ...N4_BASE_READINGS,
-        ...N4_EXTRA_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3]))
-      ]));
-
-      const N3_LOWER_LEVEL_READINGS = new Set([
-        ...N5_WORD_READINGS,
-        ...N4_BASE_READINGS,
-        ...N4_EXTRA_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3]))
-      ]);
-
-      const N3_BASE_READINGS = new Set(N3_BASE_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N3_RESERVED_UPPER_LEVEL_READINGS = new Set(N3_RESERVED_UPPER_LEVEL_READING_VALUES.map(normalizeKanaReading));
-
-      const N3_EXTRA_WORD_ROWS = buildLevelWordRows("n3", 61, N3_EXTRA_WORD_ROWS_TEXT, new Set([...N3_LOWER_LEVEL_READINGS, ...N3_BASE_READINGS, ...N3_RESERVED_UPPER_LEVEL_READINGS]));
-
-      const N4_WORD_ROWS = [
-        ...N4_BASE_WORD_ROWS,
-        ...N4_EXTRA_WORD_ROWS,
-        ...N4_CSV_WORD_ROWS
-      ].filter((row) => {
-        const normalizedReading = normalizeKanaReading(row[1] || row[3]);
-        return !N5_WORD_READINGS.has(normalizedReading) && !(normalizedReading === "いっぽう" && row[2] === "一方");
-      });
-
-      const N3_WORD_ROWS = [
-        ...N3_BASE_WORD_ROWS,
-        ...N3_EXTRA_WORD_ROWS
-      ].filter((row) => !N3_LOWER_LEVEL_READINGS.has(normalizeKanaReading(row[1] || row[3])));
-
-      const N2_BASE_WORD_ROWS = [
-        ["n2_0001", "あいまい", "曖昧", "あいまい", "曖昧", "kanji"],
-        ["n2_0002", "あきらか", "明らか", "あきらか", "明顯", "kanji"],
-        ["n2_0003", "あっとう", "圧倒", "あっとう", "壓倒", "kanji"],
-        ["n2_0004", "いじょう", "異常", "いじょう", "異常", "kanji"],
-        ["n2_0005", "いっぽう", "一方", "いっぽう", "另一方面", "kanji"],
-        ["n2_0006", "いらい", "依頼", "いらい", "委託、請求", "kanji"],
-        ["n2_0007", "うんえい", "運営", "うんえい", "營運", "kanji"],
-        ["n2_0008", "えんちょう", "延長", "えんちょう", "延長", "kanji"],
-        ["n2_0009", "おうぼ", "応募", "おうぼ", "報名、應徵", "kanji"],
-        ["n2_0010", "かいご", "介護", "かいご", "照護", "kanji"],
-        ["n2_0011", "かいさい", "開催", "かいさい", "舉辦", "kanji"],
-        ["n2_0012", "かくだい", "拡大", "かくだい", "擴大", "kanji"],
-        ["n2_0013", "かくとく", "獲得", "かくとく", "獲得", "kanji"],
-        ["n2_0014", "かじょう", "過剰", "かじょう", "過剩", "kanji"],
-        ["n2_0015", "かのうせい", "可能性", "かのうせい", "可能性", "kanji"],
-        ["n2_0016", "かんり", "管理", "かんり", "管理", "kanji"],
-        ["n2_0017", "きたい", "期待", "きたい", "期待", "kanji"],
-        ["n2_0018", "きぼ", "規模", "きぼ", "規模", "kanji"],
-        ["n2_0019", "きょうきゅう", "供給", "きょうきゅう", "供給", "kanji"],
-        ["n2_0020", "きょうちょう", "強調", "きょうちょう", "強調", "kanji"],
-        ["n2_0021", "けいこう", "傾向", "けいこう", "傾向", "kanji"],
-        ["n2_0022", "けんとう", "検討", "けんとう", "檢討、研究", "kanji"],
-        ["n2_0023", "こうせい", "構成", "こうせい", "構成", "kanji"],
-        ["n2_0024", "こうりつ", "効率", "こうりつ", "效率", "kanji"],
-        ["n2_0025", "こよう", "雇用", "こよう", "雇用", "kanji"],
-        ["n2_0026", "さいよう", "採用", "さいよう", "採用", "kanji"],
-        ["n2_0027", "さくげん", "削減", "さくげん", "削減", "kanji"],
-        ["n2_0028", "しきゅう", "支給", "しきゅう", "支付、發放", "kanji"],
-        ["n2_0029", "しげん", "資源", "しげん", "資源", "kanji"],
-        ["n2_0030", "しじょう", "市場", "しじょう", "市場", "kanji"],
-        ["n2_0031", "じっし", "実施", "じっし", "實施", "kanji"],
-        ["n2_0032", "じゅよう", "需要", "じゅよう", "需求", "kanji"],
-        ["n2_0033", "しょうめい", "証明", "しょうめい", "證明", "kanji"],
-        ["n2_0034", "じょうしょう", "上昇", "じょうしょう", "上升", "kanji"],
-        ["n2_0035", "すいしん", "推進", "すいしん", "推進", "kanji"],
-        ["n2_0036", "せいげん", "制限", "せいげん", "限制", "kanji"],
-        ["n2_0037", "せいび", "整備", "せいび", "整備", "kanji"],
-        ["n2_0038", "せんたくし", "選択肢", "せんたくし", "選項", "kanji"],
-        ["n2_0039", "そしき", "組織", "そしき", "組織", "kanji"],
-        ["n2_0040", "たいしょう", "対象", "たいしょう", "對象", "kanji"],
-        ["n2_0041", "たっせい", "達成", "たっせい", "達成", "kanji"],
-        ["n2_0042", "ちいき", "地域", "ちいき", "地區", "kanji"],
-        ["n2_0043", "ちょうせい", "調整", "ちょうせい", "調整", "kanji"],
-        ["n2_0044", "てきよう", "適用", "てきよう", "適用", "kanji"],
-        ["n2_0045", "とうし", "投資", "とうし", "投資", "kanji"],
-        ["n2_0046", "どうにゅう", "導入", "どうにゅう", "導入", "kanji"],
-        ["n2_0047", "はんえい", "反映", "はんえい", "反映", "kanji"],
-        ["n2_0048", "ひょうげん", "表現", "ひょうげん", "表現", "kanji"],
-        ["n2_0049", "ふきゅう", "普及", "ふきゅう", "普及", "kanji"],
-        ["n2_0050", "ぶんせき", "分析", "ぶんせき", "分析", "kanji"],
-        ["n2_0051", "へんこう", "変更", "へんこう", "變更", "kanji"],
-        ["n2_0052", "ほしょう", "保証", "ほしょう", "保證", "kanji"],
-        ["n2_0053", "みなおし", "見直し", "みなおし", "重新檢視", "kanji"],
-        ["n2_0054", "ゆうせん", "優先", "ゆうせん", "優先", "kanji"],
-        ["n2_0055", "ようきゅう", "要求", "ようきゅう", "要求", "kanji"],
-        ["n2_0056", "りろん", "理論", "りろん", "理論", "kanji"]
-      ];
-
-      const N2_LOWER_LEVEL_READINGS = new Set([
-        ...RAW_WORDS,
-        ...N4_WORD_ROWS,
-        ...N3_WORD_ROWS
-      ].map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N2_BASE_READINGS = new Set(N2_BASE_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N2_EXTRA_WORD_ROWS = buildLevelWordRows("n2", 57, N2_EXTRA_WORD_ROWS_TEXT, new Set([...N2_LOWER_LEVEL_READINGS, ...N2_BASE_READINGS]));
-
-      const N1_LOWER_LEVEL_READINGS = new Set([
-        ...RAW_WORDS,
-        ...N4_WORD_ROWS,
-        ...N3_WORD_ROWS,
-        ...N2_BASE_WORD_ROWS,
-        ...N2_EXTRA_WORD_ROWS
-      ].map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N1_BASE_READINGS = new Set(N1_BASE_WORD_ROWS.map((row) => normalizeKanaReading(row[1] || row[3])));
-
-      const N1_EXTRA_WORD_ROWS = buildLevelWordRows("n1", 51, N1_EXTRA_WORD_ROWS_TEXT, new Set([...N1_LOWER_LEVEL_READINGS, ...N1_BASE_READINGS]));
-
-      const N5_EGGROLLS_WORD_ROWS = buildImportedWordRows("n5_egg", EGGROLLS_N5_WORD_ROWS_TEXT, new Set(RAW_WORDS.map(wordKeyForRow)));
-
-      const N4_EGGROLLS_WORD_ROWS = buildImportedWordRows("n4_egg", EGGROLLS_N4_WORD_ROWS_TEXT, new Set([
-        ...RAW_WORDS,
-        ...N5_EGGROLLS_WORD_ROWS,
-        ...N4_WORD_ROWS
-      ].map(wordKeyForRow)));
-
-      const N3_EGGROLLS_WORD_ROWS = buildImportedWordRows("n3_egg", EGGROLLS_N3_WORD_ROWS_TEXT, new Set([
-        ...RAW_WORDS,
-        ...N5_EGGROLLS_WORD_ROWS,
-        ...N4_WORD_ROWS,
-        ...N4_EGGROLLS_WORD_ROWS,
-        ...N3_WORD_ROWS
-      ].map(wordKeyForRow)));
-
-      const N2_EGGROLLS_WORD_ROWS = buildImportedWordRows("n2_egg", EGGROLLS_N2_WORD_ROWS_TEXT, new Set([
-        ...RAW_WORDS,
-        ...N5_EGGROLLS_WORD_ROWS,
-        ...N4_WORD_ROWS,
-        ...N4_EGGROLLS_WORD_ROWS,
-        ...N3_WORD_ROWS,
-        ...N3_EGGROLLS_WORD_ROWS,
-        ...N2_BASE_WORD_ROWS,
-        ...N2_EXTRA_WORD_ROWS
-      ].map(wordKeyForRow)));
-
-      const N1_EGGROLLS_WORD_ROWS = buildImportedWordRows("n1_egg", EGGROLLS_N1_WORD_ROWS_TEXT, new Set([
-        ...RAW_WORDS,
-        ...N5_EGGROLLS_WORD_ROWS,
-        ...N4_WORD_ROWS,
-        ...N4_EGGROLLS_WORD_ROWS,
-        ...N3_WORD_ROWS,
-        ...N3_EGGROLLS_WORD_ROWS,
-        ...N2_BASE_WORD_ROWS,
-        ...N2_EXTRA_WORD_ROWS,
-        ...N2_EGGROLLS_WORD_ROWS,
-        ...N1_BASE_WORD_ROWS,
-        ...N1_EXTRA_WORD_ROWS
-      ].map(wordKeyForRow)));
-
-      const RAW_WORDS_BY_LEVEL = {
-        N5: [
-          ...RAW_WORDS,
-          ...N5_EGGROLLS_WORD_ROWS
-        ],
-        N4: [
-          ...N4_WORD_ROWS,
-          ...N4_EGGROLLS_WORD_ROWS
-        ],
-        N3: [
-          ...N3_WORD_ROWS,
-          ...N3_EGGROLLS_WORD_ROWS
-        ],
-        N2: [
-          ...N2_BASE_WORD_ROWS,
-          ...N2_EXTRA_WORD_ROWS,
-          ...N2_EGGROLLS_WORD_ROWS
-        ],
-        N1: [
-          ...N1_BASE_WORD_ROWS,
-          ...N1_EXTRA_WORD_ROWS,
-          ...N1_EGGROLLS_WORD_ROWS
-        ]
-      };
-
-      function isPlayableWord(word) {
-        return Boolean(word.playReading);
+      function normalizeLoadedWord(rawWord, level) {
+        if (!rawWord || typeof rawWord !== "object") return null;
+        const id = String(rawWord.id || "").trim();
+        const reading = String(rawWord.reading || "");
+        const writing = String(rawWord.writing || "");
+        const normalizedReading = String(rawWord.normalizedReading || normalizeKanaReading(reading || rawWord.playReading || ""));
+        const playReading = String(rawWord.playReading || playableReadingForWord(reading, normalizedReading, rawWord.script || ""));
+        const zh = String(rawWord.zh || "");
+        const script = String(rawWord.script || "");
+        if (!id || !playReading) return null;
+        return { id, reading, writing, normalizedReading, playReading, zh, level, script };
       }
 
       function uniqueFirstWordByReadingAndWriting(words) {
@@ -3104,44 +2908,82 @@
         });
       }
 
-      const ALL_WORDS = uniqueFirstWordByReadingAndWriting(LEVEL_ORDER.flatMap((level) =>
-        RAW_WORDS_BY_LEVEL[level].map(([id, reading, writing, declaredNormalizedReading, zh, script]) => {
-          const normalizedReading = normalizeKanaReading(reading || declaredNormalizedReading);
-          const playReading = playableReadingForWord(reading, declaredNormalizedReading, script);
-          return {
-            id,
-            reading,
-            writing,
-            normalizedReading,
-            playReading,
-            zh,
-            level,
-            script
-          };
-        })
-      ).filter(isPlayableWord));
-
-      const WORDS_BY_LEVEL = LEVEL_ORDER.reduce((map, level) => {
-        map[level] = ALL_WORDS.filter((word) => word.level === level);
-        return map;
-      }, {});
-
-      const WORDS_BY_READING = ALL_WORDS.reduce((map, word) => {
-        if (!map.has(word.playReading)) map.set(word.playReading, []);
-        map.get(word.playReading).push(word);
-        return map;
-      }, new Map());
-
-      const AMBIGUOUS_ZH_CLUES = (() => {
+      function rebuildWordIndexes() {
+        ALL_WORDS = uniqueFirstWordByReadingAndWriting(LEVEL_ORDER.flatMap((level) => WORDS_BY_LEVEL[level] || []));
+        for (const level of LEVEL_ORDER) {
+          const rank = LEVEL_ORDER.indexOf(level);
+          CUMULATIVE_WORDS_BY_LEVEL[level] = ALL_WORDS.filter((word) => LEVEL_ORDER.indexOf(word.level) <= rank);
+        }
+        WORDS_BY_READING = ALL_WORDS.reduce((map, word) => {
+          if (!map.has(word.playReading)) map.set(word.playReading, []);
+          map.get(word.playReading).push(word);
+          return map;
+        }, new Map());
         const readingsByZh = ALL_WORDS.reduce((map, word) => {
           if (!map.has(word.zh)) map.set(word.zh, new Set());
           map.get(word.zh).add(word.playReading);
           return map;
         }, new Map());
-        return new Set([...readingsByZh.entries()]
+        AMBIGUOUS_ZH_CLUES = new Set([...readingsByZh.entries()]
           .filter(([, readings]) => readings.size > 1)
           .map(([zh]) => zh));
-      })();
+        wordIndexVersion += 1;
+      }
+
+      function ingestWordLevel(level, words) {
+        WORDS_BY_LEVEL[level] = (words || [])
+          .map((word) => normalizeLoadedWord(word, level))
+          .filter(Boolean);
+        rebuildWordIndexes();
+      }
+
+      function loadWordLevel(level) {
+        if (!LEVEL_ORDER.includes(level)) return Promise.resolve([]);
+        if (isWordLevelLoaded(level)) return Promise.resolve(WORDS_BY_LEVEL[level]);
+        const existingData = loadedWordLevelData(level);
+        if (existingData) {
+          ingestWordLevel(level, existingData);
+          return Promise.resolve(WORDS_BY_LEVEL[level]);
+        }
+        if (WORD_LEVEL_LOAD_PROMISES.has(level)) return WORD_LEVEL_LOAD_PROMISES.get(level);
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = WORD_LEVEL_SRC[level];
+          script.async = true;
+          script.onload = () => {
+            const words = loadedWordLevelData(level);
+            if (!words) {
+              WORD_LEVEL_LOAD_PROMISES.delete(level);
+              reject(new Error(`Missing ${level} word data`));
+              return;
+            }
+            ingestWordLevel(level, words);
+            resolve(WORDS_BY_LEVEL[level]);
+          };
+          script.onerror = () => {
+            WORD_LEVEL_LOAD_PROMISES.delete(level);
+            reject(new Error(`Cannot load ${level} word data`));
+          };
+          document.head.appendChild(script);
+        });
+
+        WORD_LEVEL_LOAD_PROMISES.set(level, promise);
+        return promise;
+      }
+
+      function ensureWordsForLevel(level) {
+        const rank = Math.max(0, LEVEL_ORDER.indexOf(level));
+        return Promise.all(LEVEL_ORDER.slice(0, rank + 1).map(loadWordLevel));
+      }
+
+      function ensureWordsForLevels(levels) {
+        const maxRank = Math.max(0, ...levels.map((level) => LEVEL_ORDER.indexOf(level)).filter((rank) => rank >= 0));
+        return ensureWordsForLevel(LEVEL_ORDER[maxRank]);
+      }
+
+      const initialN5Words = loadedWordLevelData("N5");
+      if (initialN5Words) ingestWordLevel("N5", initialN5Words);
 
       function wordClueLabel(word) {
         if (!word) return "";
@@ -3245,6 +3087,15 @@
       };
 
       let rootSave = loadRootSave();
+      try {
+        const bootRegion = REGION_BY_ID.get(rootSave.currentRegionId) || REGIONS[0];
+        await ensureWordsForLevel(bootRegion.level);
+      } catch (error) {
+        console.warn("Current level word data failed to load, falling back to N5.", error);
+        rootSave.currentRegionId = REGIONS[0].id;
+        await ensureWordsForLevel(REGIONS[0].level);
+        setMessage("詞庫載入不完整，先回到 N5。請重新整理後再試一次。");
+      }
       let save = loadRegionSave(currentRegion().id);
       let board = [];
       let selectedCells = [];
@@ -3273,19 +3124,11 @@
       const reviewBgmAudioByLevel = {};
 
       function loadAudioPreference() {
-        try {
-          return localStorage.getItem(AUDIO_SAVE_KEY) !== "off";
-        } catch (error) {
-          return true;
-        }
+        return safeStorage.getItem(AUDIO_SAVE_KEY) !== "off";
       }
 
       function persistAudioPreference() {
-        try {
-          localStorage.setItem(AUDIO_SAVE_KEY, audioEnabled ? "on" : "off");
-        } catch (error) {
-          // Audio preference is nice to have; gameplay should keep working without storage.
-        }
+        safeStorage.setItem(AUDIO_SAVE_KEY, audioEnabled ? "on" : "off");
       }
 
       function ensureAudioGraph() {
@@ -3691,9 +3534,17 @@
         els.regionRow.focus({ preventScroll: true });
       }
 
-      function enterRegion(regionId) {
+      async function enterRegion(regionId) {
         const region = REGION_BY_ID.get(regionId);
         if (!region || !isRegionOpen(region)) return;
+        setMessage(`準備 ${region.level} 詞庫中...`);
+        try {
+          await ensureWordsForLevel(region.level);
+        } catch (error) {
+          console.warn(`${region.level} word data failed to load.`, error);
+          setMessage(`${region.level} 詞庫暫時載入失敗，請重新整理後再試一次。`);
+          return;
+        }
         const changedRegion = regionId !== currentRegion().id;
         if (changedRegion) {
           persistSave();
@@ -3765,7 +3616,7 @@
 
       function loadRootSave() {
         try {
-          const raw = localStorage.getItem(ROOT_SAVE_KEY);
+          const raw = safeStorage.getItem(ROOT_SAVE_KEY);
           if (!raw) return createInitialRootSave();
           const parsed = JSON.parse(raw);
           if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return createInitialRootSave();
@@ -3780,7 +3631,9 @@
       }
 
       function persistRootSave() {
-        localStorage.setItem(ROOT_SAVE_KEY, JSON.stringify(rootSave));
+        if (!safeStorage.setItem(ROOT_SAVE_KEY, JSON.stringify(rootSave))) {
+          setMessage(STORAGE_WARNING_MESSAGE);
+        }
       }
 
       function normalizePoseIds(value) {
@@ -3892,7 +3745,7 @@
 
       function migrateLegacyN5Save() {
         try {
-          const raw = localStorage.getItem(LEGACY_SAVE_KEY);
+          const raw = safeStorage.getItem(LEGACY_SAVE_KEY);
           if (!raw) return null;
           const parsed = JSON.parse(raw);
           if (!REGIONS[0].stations.some((station) => station.id === parsed.currentStationId)) return null;
@@ -3907,7 +3760,7 @@
       function loadRegionSave(regionId) {
         const region = REGION_BY_ID.get(regionId) || REGIONS[0];
         try {
-          const raw = localStorage.getItem(regionSaveKey(region.id));
+          const raw = safeStorage.getItem(regionSaveKey(region.id));
           if (!raw && region.id === REGIONS[0].id) {
             const migrated = migrateLegacyN5Save();
             if (migrated) return migrated;
@@ -3923,7 +3776,9 @@
 
       function persistSave() {
         save = normalizeRegionSave(currentRegion(), save);
-        localStorage.setItem(regionSaveKey(currentRegion().id), JSON.stringify(save));
+        if (!safeStorage.setItem(regionSaveKey(currentRegion().id), JSON.stringify(save))) {
+          setMessage(STORAGE_WARNING_MESSAGE);
+        }
       }
 
       function currentStation() {
@@ -4001,7 +3856,7 @@
 
       function loadReviewStats(level = reviewLevel) {
         try {
-          const raw = localStorage.getItem(reviewSaveKey(level));
+          const raw = safeStorage.getItem(reviewSaveKey(level));
           if (!raw) return normalizeReviewStats(level);
           return normalizeReviewStats(level, JSON.parse(raw));
         } catch (error) {
@@ -4011,7 +3866,9 @@
       }
 
       function persistReviewStats(level, stats) {
-        localStorage.setItem(reviewSaveKey(level), JSON.stringify(normalizeReviewStats(level, stats)));
+        if (!safeStorage.setItem(reviewSaveKey(level), JSON.stringify(normalizeReviewStats(level, stats)))) {
+          setMessage(STORAGE_WARNING_MESSAGE);
+        }
       }
 
       function nextReviewIntervalDays(result, correctStreak) {
@@ -4072,7 +3929,9 @@
         } else {
           regionSave.reviewWordIds = existingIds.filter((id) => id !== word.id).slice(0, REVIEW_WORD_LIMIT);
         }
-        localStorage.setItem(regionSaveKey(region.id), JSON.stringify(normalizeRegionSave(region, regionSave)));
+        if (!safeStorage.setItem(regionSaveKey(region.id), JSON.stringify(normalizeRegionSave(region, regionSave)))) {
+          setMessage(STORAGE_WARNING_MESSAGE);
+        }
         if (currentRegion().id === region.id) save = normalizeRegionSave(region, regionSave);
       }
 
@@ -4151,7 +4010,7 @@
           label.textContent = level;
           const count = document.createElement("span");
           count.className = "review-level-count";
-          count.textContent = `${reviewLevelWordCount(level)} 字`;
+          count.textContent = isWordLevelLoaded(level) ? `${reviewLevelWordCount(level)} 字` : "載入中";
           button.append(label, count);
 
           button.addEventListener("click", () => startReviewSession(level));
@@ -4176,7 +4035,7 @@
         renderReviewLevelSelect();
       }
 
-      function showReviewLevelSelect() {
+      async function showReviewLevelSelect() {
         loadWordMeta();
         els.homeScreen.classList.add("hidden");
         els.gameApp.hidden = false;
@@ -4190,6 +4049,13 @@
         renderReviewSession();
         const activeButton = els.reviewLevelSelect.querySelector(".review-level-button.active");
         if (activeButton) activeButton.focus({ preventScroll: true });
+        try {
+          await ensureWordsForLevels(REVIEW_LEVELS);
+          updateReviewHeader();
+        } catch (error) {
+          console.warn("Review word data failed to load.", error);
+          setMessage("複習詞庫暫時載入失敗，請重新整理後再試一次。");
+        }
       }
 
       function showHomeScreen() {
@@ -4205,7 +4071,7 @@
         updateStationMusic();
       }
 
-      function startReviewSession(level = reviewLevel) {
+      async function startReviewSession(level = reviewLevel) {
         if (!REVIEW_LEVEL_CONFIG[level]) level = "N5";
         if (reviewLevel !== level) {
           stopReviewBgm();
@@ -4217,6 +4083,13 @@
         reviewFocusMusicEnabled = false;
         updateReviewFocusMusicButton();
         closePostcardAlbum();
+        try {
+          await ensureWordsForLevel(reviewLevel);
+        } catch (error) {
+          console.warn(`${reviewLevel} review word data failed to load.`, error);
+          setMessage(`${reviewLevel} 詞庫暫時載入失敗，請重新整理後再試一次。`);
+          return;
+        }
         reviewSession = {
           level: reviewLevel,
           words: pickReviewWords(reviewLevel),
@@ -4393,17 +4266,30 @@
         return Array.from(text);
       }
 
+      let playableWordsCacheLevel = "";
+      let playableWordsCacheVersion = -1;
+      let playableWordsCache = [];
+      let kanaBagCacheLevel = "";
+      let kanaBagCacheVersion = -1;
+      let kanaBagCache = [];
+
       function levelRank(level) {
         return LEVEL_ORDER.indexOf(level);
       }
 
       function cumulativeWordsForLevel(level) {
-        const rank = levelRank(level);
-        return ALL_WORDS.filter((word) => levelRank(word.level) <= rank);
+        return CUMULATIVE_WORDS_BY_LEVEL[level] || [];
       }
 
       function currentPlayableWords() {
-        return cumulativeWordsForLevel(currentLevel());
+        const level = currentLevel();
+        if (playableWordsCacheLevel === level && playableWordsCacheVersion === wordIndexVersion) {
+          return playableWordsCache;
+        }
+        playableWordsCacheLevel = level;
+        playableWordsCacheVersion = wordIndexVersion;
+        playableWordsCache = cumulativeWordsForLevel(level);
+        return playableWordsCache;
       }
 
       function currentLevelWords() {
@@ -4481,7 +4367,17 @@
       }
 
       function randomKana(currentGrid) {
-        const kanaBag = buildKanaBag(currentPlayableWords());
+        const level = currentLevel();
+        if (kanaBagCacheLevel !== level || kanaBagCacheVersion !== wordIndexVersion) {
+          kanaBagCacheLevel = level;
+          kanaBagCacheVersion = wordIndexVersion;
+          kanaBagCache = buildKanaBag(currentPlayableWords());
+        }
+        const kanaBag = kanaBagCache;
+        const fallbackKana = "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわん";
+        if (!kanaBag.length) {
+          return fallbackKana[Math.floor(Math.random() * fallbackKana.length)];
+        }
         const smallCount = currentGrid.filter((cell) => KANA_SMALL.has(cell)).length;
         const voicedCount = currentGrid.filter((cell) => KANA_VOICED.test(cell || "")).length;
         const smallLimit = currentBoardSize() >= 6 ? 6 : currentBoardSize() >= 5 ? 4 : 3;
@@ -4493,7 +4389,7 @@
           if (KANA_VOICED.test(kana) && voicedCount >= voicedLimit) continue;
           return kana;
         }
-        return "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわん"[Math.floor(Math.random() * 46)];
+        return fallbackKana[Math.floor(Math.random() * fallbackKana.length)];
       }
 
       function chooseTargets() {
@@ -5663,12 +5559,12 @@
         clueHidden: () => els.cluePanel.classList.contains("hidden"),
         hintsLeft: () => hintsLeft,
         reviewWordIds: () => [...(save.reviewWordIds || [])],
-        showReviewLevelSelect: () => {
-          showReviewLevelSelect();
+        showReviewLevelSelect: async () => {
+          await showReviewLevelSelect();
           return [...els.reviewLevelSelect.querySelectorAll(".review-level-button")].map((button) => button.textContent);
         },
-        startReviewSession: (level = reviewLevel) => {
-          startReviewSession(level);
+        startReviewSession: async (level = reviewLevel) => {
+          await startReviewSession(level);
           return reviewSession.words.map((word) => word.id);
         },
         getReviewLevel: () => reviewLevel,
