@@ -174,3 +174,7 @@ N3,へヘリコプター,helicopter,397,left,24,writing_has_unexpected_chars
 N3,パンク,puncture之略,399,left,19,suspicious_katakana_writing;writing_has_ocr_artifact
 N3,みょう,明,147,left,22,source_meaning_requires_confirmation
 N3,じょう,晴,150,left,05,source_writing_and_meaning_require_confirmation
+N3,しょよくりょう,食料,155,left,15,reading_requires_confirmation_before_fixing
+N3,しょくりょよう,食糧,155,left,16,reading_requires_confirmation_before_fixing
+N3,ぼう,防,171,right,,source_usage_requires_confirmation
+N3,ミス,ミス,176,left,00,meaning_requires_context_confirmation

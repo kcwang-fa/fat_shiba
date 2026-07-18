@@ -15,6 +15,7 @@ N5_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n5_examples.csv"
 N4_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n4_examples.csv"
 N1_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n1_examples.csv"
 WORD_DATA_JS = PROJECT_ROOT / "web" / "data" / "word_data.js"
+WORD_LEVEL_BUILDER_JS = PROJECT_ROOT / "tools" / "dictionary" / "build_word_level_data.js"
 INDEX_HTML = PROJECT_ROOT / "web" / "index.html"
 OUTPUT_JS = PROJECT_ROOT / "web" / "data" / "word_meta.js"
 EGGROLLS_IMPORTED_CSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_word_import" / "eggrolls_imported_words.csv"
@@ -442,8 +443,13 @@ def key_set(rows: list[dict[str, str]]) -> set[tuple[str, str]]:
 
 def load_word_index() -> dict[str, dict[str, str]]:
     word_data = WORD_DATA_JS.read_text(encoding="utf-8")
+    word_level_builder = WORD_LEVEL_BUILDER_JS.read_text(encoding="utf-8")
     index_html = INDEX_HTML.read_text(encoding="utf-8")
-    explicit_rows = explicit_word_rows(word_data) + explicit_word_rows(index_html)
+    explicit_rows = (
+        explicit_word_rows(word_data)
+        + explicit_word_rows(word_level_builder)
+        + explicit_word_rows(index_html)
+    )
     rows_by_prefix = {
         prefix: [row for row in explicit_rows if row["id"].startswith(f"{prefix}_")]
         for prefix in ("n1", "n2", "n3", "n4", "n5")

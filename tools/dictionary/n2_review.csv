@@ -1,0 +1,10 @@
+id,reading,writing,reason,suggested_reading,suggested_writing,note
+n2_0246,ばしゅう,募集,source_reading_looks_like_ocr_typo,ぼしゅう,募集,Correcting reading may affect generated IDs; migrate intentionally.
+n2_0248,かいせっ,解説,source_reading_looks_incomplete,かいせつ,解説,Correcting reading may affect generated IDs; migrate intentionally.
+n2_0269,しょうはい,騰敗,source_writing_looks_like_ocr_typo,しょうはい,勝敗,Meaning/example use 勝敗.
+n2_0274,にゅゆうじょう,入場,source_reading_looks_like_ocr_typo_and_duplicates_n2_0195_if_fixed,にゅうじょう,入場,Fixing this will likely remove duplicate and shift later generated IDs.
+n2_0286,のうぅ,能,source_reading_looks_like_ocr_typo,のう,能,Meaning/example use 能.
+n2_0298,じゃんけん,じゃん湖,source_writing_looks_like_ocr_typo,じゃんけん,じゃんけん,Meaning/example use じゃんけん.
+n2_0302,なでぞなぞ,謎々,source_reading_looks_like_ocr_typo,なぞなぞ,謎々,Meaning/example use なぞなぞ.
+n2_0325,テンボ,テンボ,source_katakana_looks_like_ocr_typo,テンポ,テンポ,Meaning/example use テンポ.
+n2_0386,ようせき,容策,source_writing_looks_like_ocr_typo,ようせき,容積,Meaning/example use 容積.

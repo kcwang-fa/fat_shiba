@@ -3457,6 +3457,7 @@
         stopN5GameBgm();
         stopN4Bgm();
         stopN1Bgm();
+        stopReviewBgm();
       }
 
       function showGameApp() {
@@ -4062,6 +4063,7 @@
         appView = APP_VIEW_MAP;
         reviewFocusMusicEnabled = false;
         updateReviewFocusMusicButton();
+        stopReviewBgm();
         closePostcardAlbum();
         els.stationModal.classList.remove("open");
         document.body.classList.remove("map-view");
