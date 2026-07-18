@@ -16,7 +16,6 @@ N4_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n4_examples.csv"
 N1_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n1_examples.csv"
 SOURCE_WORD_DIR = PROJECT_ROOT / "tools" / "dictionary" / "sources" / "words"
 OUTPUT_DIR = PROJECT_ROOT / "web" / "data"
-OUTPUT_JS = OUTPUT_DIR / "word_meta.js"
 EGGROLLS_IMPORTED_CSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_word_import" / "eggrolls_imported_words.csv"
 EGGROLLS_NOTES_TSV = PROJECT_ROOT / "outputs" / "eggrolls_JLPT10k_v3_5_apkg_parse" / "notes.tsv"
 LEVEL_ORDER = ("N5", "N4", "N3", "N2", "N1")
@@ -1084,8 +1083,6 @@ def write_meta_file(path: Path, level: str | None, metadata: dict[str, dict[str,
 
 
 def write_meta_outputs(metadata: dict[str, dict[str, object]]) -> None:
-    write_meta_file(OUTPUT_JS, None, metadata)
-
     for level in LEVEL_ORDER:
         prefix = level.lower()
         level_metadata = {

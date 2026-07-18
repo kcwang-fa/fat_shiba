@@ -46,7 +46,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--list-missing-examples",
         action="store_true",
-        help="Print words that currently have no generated example in word_meta.js.",
+        help="Print words that currently have no generated metadata example.",
     )
     parser.add_argument(
         "--limit",

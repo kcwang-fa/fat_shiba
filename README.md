@@ -67,13 +67,28 @@ python3 tools/ocr/merge_n3_csv_wordlist.py
 python3 tools/ocr/fill_n3_zh_from_ocr_context.py
 ```
 
+檢查目前詞庫產物與例句覆蓋率：
+
+```bash
+python3 tools/dictionary/validate_dictionary.py
+python3 tools/dictionary/validate_dictionary.py --list-missing-examples
+```
+
+詞庫 canonical source 放在 `tools/dictionary/sources/words/`，依等級拆成 `n*_core.csv` 與 `n*_eggrolls.csv`。`web/data/word-level-n*.js` 是網站讀取的產物，不要手動改。
+
+重新產生等級詞庫產物：
+
+```bash
+node tools/dictionary/build_word_level_data.js
+```
+
 產生詞性、例句與動詞變化補充資料：
 
 ```bash
 python3 tools/dictionary/build_word_meta.py
 ```
 
-補充資料來源在 `tools/dictionary/word_meta.csv`，產物是網站讀取的 `web/data/word_meta.js`。
+補充資料來源在 `tools/dictionary/word_meta.csv`，產物是網站讀取的 `web/data/word-meta-n*.js`。前端會依等級 lazy load 分級 meta 檔。
 產生器會自動補齊所有 N5 單字的基本詞性與例句；CSV 內的資料會優先覆寫自動結果，適合用來精修特定單字的例句、詞性、動詞類型或備註。
 N5 的學習例句集中維護在 `tools/dictionary/n5_examples.csv`；修改後重新執行產生器即可更新網站資料。
 N4 的學習例句集中維護在 `tools/dictionary/n4_examples.csv`；修改後重新執行產生器即可更新網站資料。
