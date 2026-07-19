@@ -2449,6 +2449,14 @@
         { src: "assets/audio/n4-kyushu-shikoku-game-bgm.ogg?v=20260717", type: "audio/ogg" },
         { src: "assets/audio/n4-kyushu-shikoku-game-bgm.mp3?v=20260717", type: "audio/mpeg" }
       ];
+      const N3_GAME_BGM_SOURCES = [
+        { src: "assets/audio/n3-chugoku-kansai-game-bgm.ogg?v=20260718-kansai-street-festival", type: "audio/ogg" },
+        { src: "assets/audio/n3-chugoku-kansai-game-bgm.mp3?v=20260718-kansai-street-festival", type: "audio/mpeg" }
+      ];
+      const N3_REVIEW_BGM_SOURCES = [
+        { src: "assets/audio/n3-chugoku-kansai-review-bgm.ogg?v=20260719-brown-noise-bell", type: "audio/ogg" },
+        { src: "assets/audio/n3-chugoku-kansai-review-bgm.mp3?v=20260719-brown-noise-bell", type: "audio/mpeg" }
+      ];
       const N1_GAME_BGM_SOURCES = [
         { src: "assets/audio/n1-tohoku-hokkaido-bgm.ogg?v=20260717-nebuta-game", type: "audio/ogg" },
         { src: "assets/audio/n1-tohoku-hokkaido-bgm.mp3?v=20260717-nebuta-game", type: "audio/mpeg" }
@@ -2509,7 +2517,7 @@
           title: "N3 單字複習",
           regionId: "n3_chugoku_kansai",
           background: N3_REVIEW_BACKGROUND,
-          bgmSources: []
+          bgmSources: N3_REVIEW_BGM_SOURCES
         },
         N2: {
           label: "N2",
@@ -2531,6 +2539,7 @@
       const APP_VIEW_REVIEW = "review";
       const FIRST_REGION_ID = "n5_okinawa";
       const N4_REGION_ID = "n4_kyushu_shikoku";
+      const N3_REGION_ID = "n3_chugoku_kansai";
       const N1_REGION_ID = "n1_tohoku_hokkaido";
       const KANA_SMALL = new Set(["ゃ", "ゅ", "ょ", "っ", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ", "ャ", "ュ", "ョ", "ッ", "ァ", "ィ", "ゥ", "ェ", "ォ"]);
       const KANA_VOICED = /[がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゔガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポヴ]/;
@@ -3322,6 +3331,7 @@
       let barkSamplePromise = null;
       let n5GameBgmAudio = null;
       let n4BgmAudio = null;
+      let n3BgmAudio = null;
       let n1BgmAudio = null;
       const reviewBgmAudioByLevel = {};
 
@@ -3426,6 +3436,21 @@
         return n1BgmAudio;
       }
 
+      function ensureN3BgmAudio() {
+        if (n3BgmAudio) return n3BgmAudio;
+        n3BgmAudio = document.createElement("audio");
+        n3BgmAudio.loop = true;
+        n3BgmAudio.preload = "auto";
+        n3BgmAudio.volume = 0.33;
+        N3_GAME_BGM_SOURCES.forEach((sourceConfig) => {
+          const source = document.createElement("source");
+          source.src = sourceConfig.src;
+          source.type = sourceConfig.type;
+          n3BgmAudio.appendChild(source);
+        });
+        return n3BgmAudio;
+      }
+
       function ensureN5GameBgmAudio() {
         if (n5GameBgmAudio) return n5GameBgmAudio;
         n5GameBgmAudio = document.createElement("audio");
@@ -3493,6 +3518,7 @@
           rampGain(masterGain, 0);
           stopN5GameBgm();
           stopN4Bgm();
+          stopN3Bgm();
           stopN1Bgm();
           stopReviewBgm();
           return;
@@ -3534,6 +3560,10 @@
         return audioEnabled && appView === APP_VIEW_GAME && currentRegion().id === N4_REGION_ID;
       }
 
+      function shouldPlayN3Bgm() {
+        return audioEnabled && appView === APP_VIEW_GAME && currentRegion().id === N3_REGION_ID;
+      }
+
       function shouldPlayN1Bgm() {
         return audioEnabled && appView === APP_VIEW_GAME && currentRegion().id === N1_REGION_ID;
       }
@@ -3549,6 +3579,19 @@
         if (!n4BgmAudio) return;
         n4BgmAudio.pause();
         n4BgmAudio.currentTime = 0;
+      }
+
+      function startN3Bgm() {
+        const audio = ensureN3BgmAudio();
+        audio.volume = 0.33;
+        if (!audio.paused) return;
+        audio.play().catch(() => {});
+      }
+
+      function stopN3Bgm() {
+        if (!n3BgmAudio) return;
+        n3BgmAudio.pause();
+        n3BgmAudio.currentTime = 0;
       }
 
       function startN1Bgm() {
@@ -3582,6 +3625,7 @@
         if (!audio) return;
         stopN5GameBgm();
         stopN4Bgm();
+        stopN3Bgm();
         stopN1Bgm();
         stopReviewBgm(reviewLevel);
         audio.volume = reviewLevel === "N5" ? 0.34 : 0.32;
@@ -3603,26 +3647,37 @@
           if (shouldPlayReviewBgm()) {
             stopN5GameBgm();
             stopN4Bgm();
+            stopN3Bgm();
             stopN1Bgm();
             startReviewBgm();
           } else if (shouldPlayN5GameBgm()) {
             stopN4Bgm();
+            stopN3Bgm();
             stopN1Bgm();
             stopReviewBgm();
             startN5GameBgm();
           } else if (shouldPlayN4Bgm()) {
             stopN5GameBgm();
+            stopN3Bgm();
             stopN1Bgm();
             stopReviewBgm();
             startN4Bgm();
+          } else if (shouldPlayN3Bgm()) {
+            stopN5GameBgm();
+            stopN4Bgm();
+            stopN1Bgm();
+            stopReviewBgm();
+            startN3Bgm();
           } else if (shouldPlayN1Bgm()) {
             stopN5GameBgm();
             stopN4Bgm();
+            stopN3Bgm();
             stopReviewBgm();
             startN1Bgm();
           } else {
             stopN5GameBgm();
             stopN4Bgm();
+            stopN3Bgm();
             stopN1Bgm();
             stopReviewBgm();
           }
@@ -3631,12 +3686,14 @@
         if (shouldPlayReviewBgm()) {
           stopN5GameBgm();
           stopN4Bgm();
+          stopN3Bgm();
           stopN1Bgm();
           startReviewBgm();
           return;
         }
         if (shouldPlayN5GameBgm()) {
           stopN4Bgm();
+          stopN3Bgm();
           stopN1Bgm();
           stopReviewBgm();
           startN5GameBgm();
@@ -3644,20 +3701,31 @@
         }
         if (shouldPlayN4Bgm()) {
           stopN5GameBgm();
+          stopN3Bgm();
           stopN1Bgm();
           stopReviewBgm();
           startN4Bgm();
           return;
         }
+        if (shouldPlayN3Bgm()) {
+          stopN5GameBgm();
+          stopN4Bgm();
+          stopN1Bgm();
+          stopReviewBgm();
+          startN3Bgm();
+          return;
+        }
         if (shouldPlayN1Bgm()) {
           stopN5GameBgm();
           stopN4Bgm();
+          stopN3Bgm();
           stopReviewBgm();
           startN1Bgm();
           return;
         }
         stopN5GameBgm();
         stopN4Bgm();
+        stopN3Bgm();
         stopN1Bgm();
         stopReviewBgm();
       }
