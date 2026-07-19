@@ -3084,7 +3084,6 @@
       const WORD_LEVEL_LOAD_PROMISES = new Map();
       let ALL_WORDS = [];
       let WORDS_BY_READING = new Map();
-      let AMBIGUOUS_ZH_CLUES = new Set();
       let wordIndexVersion = 0;
 
       function loadedWordLevelData(level) {
@@ -3131,14 +3130,6 @@
           map.get(word.playReading).push(word);
           return map;
         }, new Map());
-        const readingsByZh = ALL_WORDS.reduce((map, word) => {
-          if (!map.has(word.zh)) map.set(word.zh, new Set());
-          map.get(word.zh).add(word.playReading);
-          return map;
-        }, new Map());
-        AMBIGUOUS_ZH_CLUES = new Set([...readingsByZh.entries()]
-          .filter(([, readings]) => readings.size > 1)
-          .map(([zh]) => zh));
         wordIndexVersion += 1;
       }
 
@@ -3198,10 +3189,7 @@
       if (initialN5Words) ingestWordLevel("N5", initialN5Words);
 
       function wordClueLabel(word) {
-        if (!word) return "";
-        if (!AMBIGUOUS_ZH_CLUES.has(word.zh)) return word.zh;
-        const detail = word.writing || word.reading || word.playReading;
-        return detail ? `${word.zh}（${detail}）` : word.zh;
+        return word ? word.zh : "";
       }
 
       const els = {
