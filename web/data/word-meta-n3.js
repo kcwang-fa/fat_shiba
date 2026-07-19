@@ -10436,8 +10436,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはコットンです。",
-        "zh": "這是「棉、棉花」。"
+        "ja": "このシャツはコットンでできています。",
+        "zh": "這件襯衫是棉製的。"
       }
     ]
   },
@@ -10446,8 +10446,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはシルクです。",
-        "zh": "這是「絲、絲綱、生絲」。"
+        "ja": "シルクのスカーフは手触りがいいです。",
+        "zh": "絲綢圍巾摸起來很舒服。"
       }
     ]
   },
@@ -10456,8 +10456,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鉄鋼です。",
-        "zh": "這是「鋼鐵」。"
+        "ja": "この工場では鉄鋼を生産しています。",
+        "zh": "這間工廠生產鋼鐵。"
       }
     ]
   },
@@ -10466,8 +10466,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはビニールです。",
-        "zh": "這是「乙烯基、乙烯基樹脂、塑膠」。"
+        "ja": "濡れた服をビニール袋に入れました。",
+        "zh": "我把濕掉的衣服放進塑膠袋裡。"
       }
     ]
   },
@@ -10476,8 +10476,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプラスチックです。",
-        "zh": "這是「塑膠」。"
+        "ja": "使い捨てのプラスチックを減らしたいです。",
+        "zh": "我想減少使用一次性塑膠。"
       }
     ]
   },
@@ -10486,8 +10486,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはポリエステルです。",
-        "zh": "這是「聚乙稀、人工纖維」。"
+        "ja": "この服はポリエステルなので乾きやすいです。",
+        "zh": "這件衣服是聚酯纖維，所以容易乾。"
       }
     ]
   },
@@ -10496,8 +10496,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは異常気象です。",
-        "zh": "這是「気候異常」。"
+        "ja": "今年は異常気象の影響で雨が多いです。",
+        "zh": "今年因為異常氣象的影響，雨很多。"
       }
     ]
   },
@@ -10506,8 +10506,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは引力です。",
-        "zh": "這是「物體互相吸引的力量」。"
+        "ja": "地球には物を引く引力があります。",
+        "zh": "地球有吸引物體的引力。"
       }
     ]
   },
@@ -10516,8 +10516,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは温度です。",
-        "zh": "這是「温度、熱度」。"
+        "ja": "部屋の温度を二十度に設定しました。",
+        "zh": "我把房間溫度設定成二十度。"
       }
     ]
   },
@@ -10526,8 +10526,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは暮れです。",
-        "zh": "這是「日暮傍晩、季末、年末」。"
+        "ja": "年の暮れに家族で集まりました。",
+        "zh": "年底時家人聚在一起。"
       }
     ]
   },
@@ -10536,8 +10536,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは湿気です。",
-        "zh": "這是「濕氣」。"
+        "ja": "雨の日は部屋の湿気が気になります。",
+        "zh": "下雨天會在意房間裡的濕氣。"
       }
     ]
   },
@@ -10546,8 +10546,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは湿度です。",
-        "zh": "這是「濕度」。"
+        "ja": "今日は湿度が高くて蒸し暑いです。",
+        "zh": "今天濕度高，很悶熱。"
       }
     ]
   },
@@ -10556,8 +10556,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地球です。",
-        "zh": "這是「地球、我們居住的星球」。"
+        "ja": "地球の環境を守ることは大切です。",
+        "zh": "保護地球環境很重要。"
       }
     ]
   },
@@ -10566,58 +10566,80 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは梅雨です。",
-        "zh": "這是「梅雨、梅雨季」。"
+        "ja": "梅雨の時期は洗濯物が乾きにくいです。",
+        "zh": "梅雨季時衣服不容易乾。"
       }
     ]
   },
   "n3_0815": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "深まる",
+      "masu": "深まります",
+      "te": "深まって",
+      "ta": "深まった",
+      "nai": "深まらない"
+    },
     "examples": [
       {
-        "ja": "これは深まるです。",
-        "zh": "這是「加深、變深」。"
+        "ja": "秋が進むにつれて夜の寒さが深まります。",
+        "zh": "隨著秋天推進，夜晚的寒意加深。"
       }
     ]
   },
   "n3_0816": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは真っ暗です。",
-        "zh": "這是「黯淡」。"
+        "ja": "停電で部屋が真っ暗になりました。",
+        "zh": "停電後房間變得一片漆黑。"
       }
     ]
   },
   "n3_0817": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは敗しいです。",
-        "zh": "這是「耀眼、刺眼的華麗礁目的、鮮諸的」。"
+        "ja": "外に出ると太陽が眩しかったです。",
+        "zh": "一走到外面，太陽很刺眼。"
       }
     ]
   },
   "n3_0818": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは蒸し暑いです。",
-        "zh": "這是「悶熱的」。"
+        "ja": "今日は風がなくて蒸し暑いです。",
+        "zh": "今天沒有風，很悶熱。"
       }
     ]
   },
   "n3_0819": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "埋まる",
+      "masu": "埋まります",
+      "te": "埋まって",
+      "ta": "埋まった",
+      "nai": "埋まらない"
+    },
     "examples": [
       {
-        "ja": "これは埋まるです。",
-        "zh": "這是「被埋上、填滿、堵住、彌補、補齊」。"
+        "ja": "大雪で道が埋まりました。",
+        "zh": "道路被大雪埋住了。"
       }
     ]
   },
@@ -10626,98 +10648,197 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水滴です。",
-        "zh": "這是「水滴、硯水壺」。"
+        "ja": "葉の上に小さな水滴が残っています。",
+        "zh": "葉子上還留著小水滴。"
       }
     ]
   },
   "n3_0821": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "散らす",
+      "masu": "散らします",
+      "te": "散らして",
+      "ta": "散らした",
+      "nai": "散らさない"
+    },
     "examples": [
       {
-        "ja": "これは散らすです。",
-        "zh": "這是「把...分散開、騙散、吹散、濡」。"
+        "ja": "子どもが部屋におもちゃを散らしました。",
+        "zh": "孩子把玩具弄得到處都是。"
       }
     ]
   },
   "n3_0822": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "散る",
+      "masu": "散ります",
+      "te": "散って",
+      "ta": "散った",
+      "nai": "散らない"
+    },
     "examples": [
       {
-        "ja": "これは散るです。",
-        "zh": "這是「凋謝散漫落離散、分散、遍佈」。"
+        "ja": "桜の花びらが風で散っています。",
+        "zh": "櫻花花瓣正被風吹散。"
       }
     ]
   },
   "n3_0823": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "積もる",
+      "masu": "積もります",
+      "te": "積もって",
+      "ta": "積もった",
+      "nai": "積もらない"
+    },
     "examples": [
       {
-        "ja": "これは積もるです。",
-        "zh": "這是「積堆積、累積、佑計、計算」。"
+        "ja": "庭に雪が十センチほど積もりました。",
+        "zh": "院子裡積了大約十公分的雪。"
       }
     ]
   },
   "n3_0824": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "強まる",
+      "masu": "強まります",
+      "te": "強まって",
+      "ta": "強まった",
+      "nai": "強まらない"
+    },
     "examples": [
       {
-        "ja": "これは強まるです。",
-        "zh": "這是「強起來、加強、增強」。"
+        "ja": "風がだんだん強まってきました。",
+        "zh": "風漸漸變強了。"
       }
     ]
   },
   "n3_0825": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "溶く",
+      "masu": "溶きます",
+      "te": "溶いて",
+      "ta": "溶いた",
+      "nai": "溶かない"
+    },
     "examples": [
       {
-        "ja": "これは溶くです。",
-        "zh": "這是「溶解、化開、溶入」。"
+        "ja": "小麦粉を水で溶いて生地を作ります。",
+        "zh": "把麵粉用水調開來做麵糊。"
       }
     ]
   },
   "n3_0826": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "溶ける",
+      "masu": "溶けます",
+      "te": "溶けて",
+      "ta": "溶けた",
+      "nai": "溶けない"
+    },
     "examples": [
       {
-        "ja": "これは溶けるです。",
-        "zh": "這是「溶解、融化」。"
+        "ja": "暑さでアイスクリームが溶けました。",
+        "zh": "冰淇淋因為天氣熱而融化了。"
       }
     ]
   },
   "n3_0827": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "流す",
+      "masu": "流します",
+      "te": "流して",
+      "ta": "流した",
+      "nai": "流さない"
+    },
     "examples": [
       {
-        "ja": "これは流すです。",
-        "zh": "這是「使流動、沖走、使漂走、流、放逐、使流產、傳播、洗掉」。"
+        "ja": "汗を流してから家に帰りました。",
+        "zh": "流了一身汗後回家了。"
       }
     ]
   },
   "n3_0828": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "流れる",
+      "masu": "流れます",
+      "te": "流れて",
+      "ta": "流れた",
+      "nai": "流れない"
+    },
     "examples": [
       {
-        "ja": "これは流れるです。",
-        "zh": "這是「中〒流動漂流、飄動、傳布、流禾、流浪、傾向、流產、作罷、偏」。"
+        "ja": "川の水が静かに流れています。",
+        "zh": "河水正靜靜地流動。"
       }
     ]
   },
   "n3_0829": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "破れる",
+      "masu": "破れます",
+      "te": "破れて",
+      "ta": "破れた",
+      "nai": "破れない"
+    },
     "examples": [
       {
-        "ja": "これは破れるです。",
-        "zh": "這是「破損損傷、破壊破裂被打破、失敗」。"
+        "ja": "古い紙が破れてしまいました。",
+        "zh": "舊紙張破掉了。"
       }
     ]
   },
@@ -10726,8 +10847,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは穴です。",
-        "zh": "這是「洞、孔、缺點」。"
+        "ja": "壁に小さな穴が開いています。",
+        "zh": "牆上有一個小洞。"
       }
     ]
   },
@@ -10736,8 +10857,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは故郷です。",
-        "zh": "這是「故鄉」。"
+        "ja": "正月には故郷へ帰ります。",
+        "zh": "過年時會回故鄉。"
       }
     ]
   },
@@ -10746,8 +10867,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは自然です。",
-        "zh": "這是「副自然、天然、大自然自然界」。"
+        "ja": "休日は自然の中で過ごしたいです。",
+        "zh": "假日想在大自然中度過。"
       }
     ]
   },
@@ -10756,8 +10877,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地盤です。",
-        "zh": "這是「地基、地麵、地盤勢力範園」。"
+        "ja": "雨で地盤が弱くなっています。",
+        "zh": "地基因為下雨變得鬆弱。"
       }
     ]
   },
@@ -10766,8 +10887,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは湾です。",
-        "zh": "這是「灣、海灣」。"
+        "ja": "船は静かな湾に入りました。",
+        "zh": "船進入了平靜的海灣。"
       }
     ]
   },
@@ -10776,18 +10897,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地方です。",
-        "zh": "這是「地方、地區」。"
+        "ja": "地方によって食文化が違います。",
+        "zh": "不同地區的飲食文化不一樣。"
       }
     ]
   },
   "n3_0836": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはどこかです。",
-        "zh": "這是「售春哪裡是、豈止、非但」。"
+        "ja": "財布をどこかに忘れてきました。",
+        "zh": "我把錢包忘在某個地方了。"
       }
     ]
   },
@@ -10796,18 +10917,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは畑です。",
-        "zh": "這是「田地早田、専業的領域」。"
+        "ja": "祖父は畑で野菜を作っています。",
+        "zh": "祖父在田裡種蔬菜。"
       }
     ]
   },
   "n3_0838": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "囲む",
+      "masu": "囲みます",
+      "te": "囲んで",
+      "ta": "囲んだ",
+      "nai": "囲まない"
+    },
     "examples": [
       {
-        "ja": "これは囲むです。",
-        "zh": "這是「圍上、包圍、圍攻」。"
+        "ja": "子どもたちは先生を囲んで話を聞いています。",
+        "zh": "孩子們圍著老師聽他說話。"
       }
     ]
   },
@@ -10816,8 +10948,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは世間です。",
-        "zh": "這是「世間、社會」。"
+        "ja": "世間ではそのニュースが話題になっています。",
+        "zh": "那則新聞在社會上成為話題。"
       }
     ]
   },
@@ -10826,8 +10958,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地下です。",
-        "zh": "這是「地下、陰間、地下」。"
+        "ja": "この店は地下にあります。",
+        "zh": "這家店在地下。"
       }
     ]
   },
@@ -10836,8 +10968,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは地区です。",
-        "zh": "這是「地區、地區苦家殘」。"
+        "ja": "この地区は夜も人通りが多いです。",
+        "zh": "這個地區晚上也有很多人經過。"
       }
     ]
   },
@@ -10846,8 +10978,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中心です。",
-        "zh": "這是「中心、當中、中心、重點、焦點、心地、中心人物」。"
+        "ja": "駅を中心に町が発展しました。",
+        "zh": "城鎮以車站為中心發展起來。"
       }
     ]
   },
@@ -10856,18 +10988,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは東洋です。",
-        "zh": "這是「東洋、亞洲東方」。"
+        "ja": "彼は東洋の歴史を研究しています。",
+        "zh": "他研究東洋歷史。"
       }
     ]
   },
   "n3_0844": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは所々です。",
-        "zh": "這是「處處、各處、到處都是」。"
+        "ja": "古い建物が所々に残っています。",
+        "zh": "老建築還零星留在各處。"
       }
     ]
   },
@@ -10876,28 +11008,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは範囲です。",
-        "zh": "這是「範圍界線」。"
+        "ja": "試験の範囲を先生に確認しました。",
+        "zh": "我向老師確認了考試範圍。"
       }
     ]
   },
   "n3_0846": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "広まる",
+      "masu": "広まります",
+      "te": "広まって",
+      "ta": "広まった",
+      "nai": "広まらない"
+    },
     "examples": [
       {
-        "ja": "これは広まるです。",
-        "zh": "這是「擴大、傳播、遍及」。"
+        "ja": "そのうわさはすぐに学校中に広まりました。",
+        "zh": "那個傳聞很快傳遍全校。"
       }
     ]
   },
   "n3_0847": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "広める",
+      "masu": "広めます",
+      "te": "広めて",
+      "ta": "広めた",
+      "nai": "広めない"
+    },
     "examples": [
       {
-        "ja": "これは広めるです。",
-        "zh": "這是「擴大、增廣、普有及、推廣、披洲」。"
+        "ja": "新しい習慣を広めるには時間がかかります。",
+        "zh": "推廣新的習慣需要時間。"
       }
     ]
   },
@@ -10906,8 +11060,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは世の中です。",
-        "zh": "這是「社會、世間」。"
+        "ja": "世の中にはいろいろな考え方があります。",
+        "zh": "社會上有各式各樣的想法。"
       }
     ]
   },
@@ -10916,18 +11070,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは箇所です。",
-        "zh": "這是「地方、處所」。"
+        "ja": "間違っている箇所に線を引いてください。",
+        "zh": "請在錯誤的地方畫線。"
       }
     ]
   },
   "n3_0850": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "下る",
+      "masu": "下ります",
+      "te": "下って",
+      "ta": "下った",
+      "nai": "下らない"
+    },
     "examples": [
       {
-        "ja": "これは下るです。",
-        "zh": "這是「下降、下去、下達」。"
+        "ja": "坂を下る時はスピードに注意してください。",
+        "zh": "下坡時請注意速度。"
       }
     ]
   },
@@ -10936,8 +11101,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは正面です。",
-        "zh": "這是「正麵、對麵、直接、麵對麵」。"
+        "ja": "駅の正面で友達を待っています。",
+        "zh": "我在車站正面等朋友。"
       }
     ]
   },
@@ -10946,8 +11111,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは印です。",
-        "zh": "這是「記號、符號、象徴、標記、微章、表示、紀念、商標」。"
+        "ja": "地図の印を見て場所を確認しました。",
+        "zh": "我看著地圖上的標記確認位置。"
       }
     ]
   },
@@ -10956,18 +11121,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは途上です。",
-        "zh": "這是「路上、中塗」。"
+        "ja": "旅行の途上で昔の友人に会いました。",
+        "zh": "旅途中遇見了以前的朋友。"
       }
     ]
   },
   "n3_0854": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは斜めです。",
-        "zh": "這是「斜、傾斜、不一般、不同往常」。"
+        "ja": "写真が少し斜めになっています。",
+        "zh": "照片有點歪斜。"
       }
     ]
   },
@@ -10976,8 +11141,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは二手です。",
-        "zh": "這是「各兩路」。"
+        "ja": "警察は二手に分かれて犯人を探しました。",
+        "zh": "警察分成兩路尋找犯人。"
       }
     ]
   },
@@ -10986,8 +11151,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは向かいです。",
-        "zh": "這是「正對麵」。"
+        "ja": "銀行は郵便局の向かいにあります。",
+        "zh": "銀行在郵局對面。"
       }
     ]
   },
@@ -10996,8 +11161,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは向きです。",
-        "zh": "這是「方向、適合」。"
+        "ja": "この靴は山登り向きではありません。",
+        "zh": "這雙鞋不適合爬山。"
       }
     ]
   },
@@ -11006,8 +11171,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは目的地です。",
-        "zh": "這是「目的地、要到達的地方」。"
+        "ja": "目的地まであと十分です。",
+        "zh": "到目的地還有十分鐘。"
       }
     ]
   },
@@ -11016,18 +11181,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは両側です。",
-        "zh": "這是「兩側」。"
+        "ja": "道の両側に桜の木があります。",
+        "zh": "道路兩側都有櫻花樹。"
       }
     ]
   },
   "n3_0860": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは館です。",
-        "zh": "這是「館、建築物」。"
+        "ja": "図書館は駅前の大きな館の中にあります。",
+        "zh": "圖書館在車站前那棟大建築物裡。"
       }
     ]
   },
@@ -11036,8 +11201,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは区役所です。",
-        "zh": "這是「東京都特別區與政令指定都市所屬、區公所」。"
+        "ja": "引っ越しの手続きを区役所でしました。",
+        "zh": "我在區公所辦了搬家手續。"
       }
     ]
   },
@@ -11046,8 +11211,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは警察署です。",
-        "zh": "這是「今警察點」。"
+        "ja": "財布をなくしたので警察署へ行きました。",
+        "zh": "因為錢包不見了，所以去了警察署。"
       }
     ]
   },
@@ -11056,8 +11221,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは公民館です。",
-        "zh": "這是「文化館、活動中心」。"
+        "ja": "公民館で地域の会議が開かれました。",
+        "zh": "社區會議在公民館舉行。"
       }
     ]
   },
@@ -11066,8 +11231,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは市役所です。",
-        "zh": "這是「市政府、市政廳人」。"
+        "ja": "住所の変更を市役所に届けました。",
+        "zh": "我向市公所申報地址變更。"
       }
     ]
   },
@@ -11076,8 +11241,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは消防署です。",
-        "zh": "這是「消防局、消防署」。"
+        "ja": "火事を見つけたら消防署に連絡してください。",
+        "zh": "發現火災時請聯絡消防署。"
       }
     ]
   },
@@ -11086,8 +11251,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは入管理局です。",
-        "zh": "這是「入國管理局」。"
+        "ja": "ビザのことで入国管理局へ行きました。",
+        "zh": "因為簽證的事情去了入國管理局。"
       }
     ]
   },
@@ -11096,8 +11261,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは保健所です。",
-        "zh": "這是「保健所、衛生所」。"
+        "ja": "保健所で健康相談を受けました。",
+        "zh": "我在保健所接受了健康諮詢。"
       }
     ]
   },
@@ -11106,8 +11271,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは劇場です。",
-        "zh": "這是「劇院、劇場、電影院」。"
+        "ja": "週末に劇場で芝居を見ました。",
+        "zh": "週末在劇場看了戲。"
       }
     ]
   },
@@ -11116,8 +11281,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは風呂屋です。",
-        "zh": "這是「浴池、澡堂」。"
+        "ja": "昔は近所の風呂屋によく行きました。",
+        "zh": "以前常去附近的澡堂。"
       }
     ]
   },
@@ -11126,8 +11291,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはホールです。",
-        "zh": "這是「大廳、會場」。"
+        "ja": "コンサートは駅前のホールで行われます。",
+        "zh": "演唱會會在車站前的大廳舉行。"
       }
     ]
   },
@@ -11136,8 +11301,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは保育園です。",
-        "zh": "這是「幼稚園、保育園」。"
+        "ja": "妹は保育園で働いています。",
+        "zh": "妹妹在保育園工作。"
       }
     ]
   },
@@ -11146,8 +11311,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは集まりです。",
-        "zh": "這是「聚會、集合」。"
+        "ja": "駅前に人の集まりができていました。",
+        "zh": "車站前聚集了一群人。"
       }
     ]
   },
@@ -11156,8 +11321,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはオープンです。",
-        "zh": "這是「開放、公開、無蓋、散符、露天、野外」。"
+        "ja": "新しい店は来月オープンします。",
+        "zh": "新店下個月開幕。"
       }
     ]
   },
@@ -11166,8 +11331,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはコンビニです。",
-        "zh": "這是「便利商店」。"
+        "ja": "帰りにコンビニで牛乳を買いました。",
+        "zh": "回家路上在便利商店買了牛奶。"
       }
     ]
   },
@@ -11176,8 +11341,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは商売です。",
-        "zh": "這是「軍人經商、買賣、生意、職業、行業」。"
+        "ja": "父は駅前で小さな商売をしています。",
+        "zh": "爸爸在車站前做小生意。"
       }
     ]
   },
@@ -11186,18 +11351,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはチケットです。",
-        "zh": "這是「偶票、券車票、入坦券、機飄」。"
+        "ja": "映画のチケットを二枚買いました。",
+        "zh": "我買了兩張電影票。"
       }
     ]
   },
   "n3_0877": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "注文する",
+      "masu": "注文します",
+      "te": "注文して",
+      "ta": "注文した",
+      "nai": "注文しない"
+    },
     "examples": [
       {
-        "ja": "これは注文です。",
-        "zh": "這是「點餐、訂購」。"
+        "ja": "店員にコーヒーを注文しました。",
+        "zh": "我向店員點了咖啡。"
       }
     ]
   },
@@ -11206,8 +11382,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバーゲンセールです。",
-        "zh": "這是「廉價出售、大拍賣生」。"
+        "ja": "バーゲンセールで靴を安く買いました。",
+        "zh": "我在特賣時便宜買到鞋子。"
       }
     ]
   },
@@ -11216,8 +11392,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは売店です。",
-        "zh": "這是「小賣店入」。"
+        "ja": "駅の売店で新聞を買いました。",
+        "zh": "我在車站的販賣部買了報紙。"
       }
     ]
   },
@@ -11226,28 +11402,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは社です。",
-        "zh": "這是「公司、報社」。"
+        "ja": "この社では多くの若者が働いています。",
+        "zh": "這家公司有許多年輕人在工作。"
       }
     ]
   },
   "n3_0881": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "倒産する",
+      "masu": "倒産します",
+      "te": "倒産して",
+      "ta": "倒産した",
+      "nai": "倒産しない"
+    },
     "examples": [
       {
-        "ja": "これは倒産です。",
-        "zh": "這是「百破產、倒閉」。"
+        "ja": "不況で会社が倒産しました。",
+        "zh": "公司因不景氣而倒閉了。"
       }
     ]
   },
   "n3_0882": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "訪問する",
+      "masu": "訪問します",
+      "te": "訪問して",
+      "ta": "訪問した",
+      "nai": "訪問しない"
+    },
     "examples": [
       {
-        "ja": "これは訪問です。",
-        "zh": "這是「拜訪、訪問」。"
+        "ja": "午後に取引先を訪問します。",
+        "zh": "下午要拜訪客戶。"
       }
     ]
   },
@@ -11256,8 +11454,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは片道です。",
-        "zh": "這是「單程、單方麵」。"
+        "ja": "片道の切符を一枚ください。",
+        "zh": "請給我一張單程票。"
       }
     ]
   },
@@ -11266,18 +11464,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは経由です。",
-        "zh": "這是「經過、經由」。"
+        "ja": "大阪経由で東京へ行きます。",
+        "zh": "經由大阪前往東京。"
       }
     ]
   },
   "n3_0885": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "渋滞する",
+      "masu": "渋滞します",
+      "te": "渋滞して",
+      "ta": "渋滞した",
+      "nai": "渋滞しない"
+    },
     "examples": [
       {
-        "ja": "これは渋滞です。",
-        "zh": "這是「塞車、停滯」。"
+        "ja": "雨の日は道路がよく渋滞します。",
+        "zh": "下雨天道路常常塞車。"
       }
     ]
   },
@@ -11286,8 +11495,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスピードです。",
-        "zh": "這是「速度」。"
+        "ja": "車のスピードを落としてください。",
+        "zh": "請降低車速。"
       }
     ]
   },
@@ -11296,8 +11505,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは速度です。",
-        "zh": "這是「速度、快慢程度」。"
+        "ja": "この道路は速度制限があります。",
+        "zh": "這條道路有限速。"
       }
     ]
   },
@@ -11306,18 +11515,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはダイヤです。",
-        "zh": "這是「仙石、列」。"
+        "ja": "事故の影響で電車のダイヤが乱れました。",
+        "zh": "因為事故影響，電車班表亂了。"
       }
     ]
   },
   "n3_0889": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "高める",
+      "masu": "高めます",
+      "te": "高めて",
+      "ta": "高めた",
+      "nai": "高めない"
+    },
     "examples": [
       {
-        "ja": "これは高めるです。",
-        "zh": "這是「提高、提升」。"
+        "ja": "毎日の練習で技術を高めたいです。",
+        "zh": "我想透過每天練習提升技術。"
       }
     ]
   },
@@ -11326,8 +11546,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは定期券です。",
-        "zh": "這是「信定期車票、月票」。"
+        "ja": "会社まで通うために定期券を買いました。",
+        "zh": "為了通勤到公司，我買了定期票。"
       }
     ]
   },
@@ -11336,28 +11556,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは停留所です。",
-        "zh": "這是「公車站、電車站區」。"
+        "ja": "次の停留所で降ります。",
+        "zh": "我會在下一站下車。"
       }
     ]
   },
   "n3_0892": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "通り越す",
+      "masu": "通り越します",
+      "te": "通り越して",
+      "ta": "通り越した",
+      "nai": "通り越さない"
+    },
     "examples": [
       {
-        "ja": "これは通り越すです。",
-        "zh": "這是「送思、越組、停通越」。"
+        "ja": "駅を通り越してしまいました。",
+        "zh": "我不小心坐過站了。"
       }
     ]
   },
   "n3_0893": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "飛ばす",
+      "masu": "飛ばします",
+      "te": "飛ばして",
+      "ta": "飛ばした",
+      "nai": "飛ばさない"
+    },
     "examples": [
       {
-        "ja": "これは飛ばすです。",
-        "zh": "這是「使飛起、跳過」。"
+        "ja": "強い風が帽子を飛ばしました。",
+        "zh": "強風吹走了帽子。"
       }
     ]
   },
@@ -11366,18 +11608,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはドライブです。",
-        "zh": "這是「功開車遊玩、和兜風」。"
+        "ja": "週末に海までドライブしました。",
+        "zh": "週末開車兜風到海邊。"
       }
     ]
   },
   "n3_0895": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "乗せる",
+      "masu": "乗せます",
+      "te": "乗せて",
+      "ta": "乗せた",
+      "nai": "乗せない"
+    },
     "examples": [
       {
-        "ja": "これは乗せるです。",
-        "zh": "這是「二放在高處、放到...、裝載、使搭乘、參加、騙人、誘揚、記載、刊登、合」。"
+        "ja": "駅まで友達を車に乗せました。",
+        "zh": "我讓朋友搭車到車站。"
       }
     ]
   },
@@ -11386,8 +11639,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプレーキです。",
-        "zh": "這是「煞車、制止、控制、潑冷水」。"
+        "ja": "危ないので早めにブレーキをかけました。",
+        "zh": "因為很危險，所以提早煞車。"
       }
     ]
   },
@@ -11396,8 +11649,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは免許です。",
-        "zh": "這是「批准許可許可證」。"
+        "ja": "車を運転するには免許が必要です。",
+        "zh": "開車需要駕照。"
       }
     ]
   },
@@ -11406,8 +11659,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはラッシュです。",
-        "zh": "這是「尖峰時段、擁擠」。"
+        "ja": "朝のラッシュを避けて早く家を出ました。",
+        "zh": "為了避開早上尖峰，我提早出門。"
       }
     ]
   },
@@ -11416,8 +11669,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはロケットです。",
-        "zh": "這是「火箭發動機、火箭彈、狼煙火」。"
+        "ja": "ロケットが空へ打ち上げられました。",
+        "zh": "火箭被發射到天空。"
       }
     ]
   },
@@ -11426,8 +11679,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは改札口です。",
-        "zh": "這是「剪票口」。"
+        "ja": "改札口で友達と待ち合わせました。",
+        "zh": "我和朋友約在剪票口碰面。"
       }
     ]
   },
@@ -11436,8 +11689,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは快速です。",
-        "zh": "這是「外形動快速、高速度」。"
+        "ja": "快速に乗れば三十分で着きます。",
+        "zh": "搭快速列車的話三十分鐘就會到。"
       }
     ]
   },
@@ -11446,8 +11699,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは各駅停車です。",
-        "zh": "這是「指電車各站都停車、普通車」。"
+        "ja": "各駅停車はこの駅にも止まります。",
+        "zh": "各站停車也會停靠這一站。"
       }
     ]
   },
@@ -11456,18 +11709,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは新幹線です。",
-        "zh": "這是「日本鐵道新幹線」。"
+        "ja": "新幹線で京都へ行きました。",
+        "zh": "我搭新幹線去了京都。"
       }
     ]
   },
   "n3_0904": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "繋げる",
+      "masu": "繋げます",
+      "te": "繋げて",
+      "ta": "繋げた",
+      "nai": "繋げない"
+    },
     "examples": [
       {
-        "ja": "これは繋げるです。",
-        "zh": "這是「連接、維臣」。"
+        "ja": "二つの文章を自然につなげてください。",
+        "zh": "請把兩個句子自然地接起來。"
       }
     ]
   },
@@ -11476,8 +11740,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは特別急行です。",
-        "zh": "這是「特別快車、特快車」。"
+        "ja": "特別急行に乗って目的地へ向かいました。",
+        "zh": "搭特急列車前往目的地。"
       }
     ]
   },
@@ -11486,8 +11750,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは上りです。",
-        "zh": "這是「上行、往上」。"
+        "ja": "上りの電車は三番線に来ます。",
+        "zh": "上行電車會進三號月台。"
       }
     ]
   },
@@ -11496,8 +11760,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは乗り換えです。",
-        "zh": "這是「換乗、履乗、履描」。"
+        "ja": "次の駅で地下鉄に乗り換えます。",
+        "zh": "下一站要轉乘地下鐵。"
       }
     ]
   },
@@ -11506,8 +11770,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは乗り越しです。",
-        "zh": "這是「坐過站」。"
+        "ja": "乗り越しをしたので駅員に料金を払いました。",
+        "zh": "因為坐過站，所以向站員補票。"
       }
     ]
   },
@@ -11516,8 +11780,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは踏切です。",
-        "zh": "這是「平交道、道口、決心」。"
+        "ja": "踏切の前で電車が通るのを待ちました。",
+        "zh": "我在平交道前等電車通過。"
       }
     ]
   },
@@ -11526,8 +11790,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはホームです。",
-        "zh": "這是「月臺」。"
+        "ja": "電車は二番ホームに到着します。",
+        "zh": "電車會抵達二號月台。"
       }
     ]
   },
@@ -11536,8 +11800,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは迎えです。",
-        "zh": "這是「迎接、去迎接的人、接、請」。"
+        "ja": "空港まで母を迎えに行きます。",
+        "zh": "我要去機場接媽媽。"
       }
     ]
   },
@@ -11546,18 +11810,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは列車です。",
-        "zh": "這是「列車火車」。"
+        "ja": "列車は予定より十分遅れています。",
+        "zh": "列車比預定時間晚了十分鐘。"
       }
     ]
   },
   "n3_0913": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "積む",
+      "masu": "積みます",
+      "te": "積んで",
+      "ta": "積んだ",
+      "nai": "積まない"
+    },
     "examples": [
       {
-        "ja": "これは積むです。",
-        "zh": "這是「累積、堆積、装載、積蓄積」。"
+        "ja": "トラックに荷物を積みました。",
+        "zh": "把行李裝上卡車。"
       }
     ]
   },
@@ -11566,8 +11841,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは道路です。",
-        "zh": "這是「道路、車輛行走的路」。"
+        "ja": "この道路は夜になると暗いです。",
+        "zh": "這條道路到了晚上會很暗。"
       }
     ]
   },
@@ -11576,18 +11851,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパイクです。",
-        "zh": "這是「胸踏車、摩批車」。"
+        "ja": "駅までバイクで行きました。",
+        "zh": "我騎機車去了車站。"
       }
     ]
   },
   "n3_0916": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "ぶつける",
+      "masu": "ぶつけます",
+      "te": "ぶつけて",
+      "ta": "ぶつけた",
+      "nai": "ぶつけない"
+    },
     "examples": [
       {
-        "ja": "これはぶつけるです。",
-        "zh": "這是「扔、投、碰、撞碰上、崗上、正當、恰逢、衝突矛盾」。"
+        "ja": "壁に頭をぶつけてしまいました。",
+        "zh": "我不小心把頭撞到牆了。"
       }
     ]
   },
@@ -11596,8 +11882,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはレンタルです。",
-        "zh": "這是「出租、出賃、租金」。"
+        "ja": "旅行先で車をレンタルしました。",
+        "zh": "在旅遊地租了車。"
       }
     ]
   },
@@ -11606,8 +11892,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは宛名です。",
-        "zh": "這是「收件人姓名地址」。"
+        "ja": "封筒に宛名を書いてください。",
+        "zh": "請在信封上寫收件人姓名與地址。"
       }
     ]
   },
@@ -11616,8 +11902,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはインターネットです。",
-        "zh": "這是「綱路蝦」。"
+        "ja": "インターネットでホテルを予約しました。",
+        "zh": "我在網路上訂了飯店。"
       }
     ]
   },
@@ -11626,8 +11912,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは書留です。",
-        "zh": "這是「掛號信」。"
+        "ja": "大切な書類を書留で送りました。",
+        "zh": "我用掛號寄出了重要文件。"
       }
     ]
   },
@@ -11636,8 +11922,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは航空便です。",
-        "zh": "這是「航空郵件空運列」。"
+        "ja": "急ぎの荷物を航空便で送りました。",
+        "zh": "我用航空郵件寄了急件。"
       }
     ]
   },
@@ -11646,8 +11932,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは小包です。",
-        "zh": "這是「所寄理、回」。"
+        "ja": "母から小包が届きました。",
+        "zh": "媽媽寄來了一個包裹。"
       }
     ]
   },
@@ -11656,8 +11942,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは速達です。",
-        "zh": "這是「本功快速信件導」。"
+        "ja": "手紙を速達で送りました。",
+        "zh": "我用限時郵件寄了信。"
       }
     ]
   },
@@ -11666,18 +11952,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは宅配便です。",
-        "zh": "這是「宅急便」。"
+        "ja": "宅配便で新しい本が届きました。",
+        "zh": "新書透過宅急便送到了。"
       }
     ]
   },
   "n3_0925": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "繋がる",
+      "masu": "繋がります",
+      "te": "繋がって",
+      "ta": "繋がった",
+      "nai": "繋がらない"
+    },
     "examples": [
       {
-        "ja": "これは繋がるです。",
-        "zh": "這是「相連、連接、聯繫、排隊、排」。"
+        "ja": "この道は駅前の通りにつながっています。",
+        "zh": "這條路連到車站前的大街。"
       }
     ]
   },
@@ -11686,8 +11983,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは船便です。",
-        "zh": "這是「船運」。"
+        "ja": "船便は航空便より時間がかかります。",
+        "zh": "船運比航空郵件花時間。"
       }
     ]
   },
@@ -11696,18 +11993,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはやり取りです。",
-        "zh": "這是「交換、互換、授受」。"
+        "ja": "メールで資料のやり取りをしました。",
+        "zh": "用電子郵件往來資料。"
       }
     ]
   },
   "n3_0928": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "郵送する",
+      "masu": "郵送します",
+      "te": "郵送して",
+      "ta": "郵送した",
+      "nai": "郵送しない"
+    },
     "examples": [
       {
-        "ja": "これは郵送です。",
-        "zh": "這是「郵寄」。"
+        "ja": "申込書を郵送してください。",
+        "zh": "請把申請表郵寄過來。"
       }
     ]
   },
@@ -11716,8 +12024,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは郵便です。",
-        "zh": "這是「郵政、郵件」。"
+        "ja": "郵便がまだ届いていません。",
+        "zh": "郵件還沒有送到。"
       }
     ]
   },
@@ -11726,8 +12034,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアンケートです。",
-        "zh": "這是「問卷調查、民意測驗」。"
+        "ja": "授業の後でアンケートに答えました。",
+        "zh": "課後填了問卷。"
       }
     ]
   },
@@ -11736,38 +12044,71 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは知らせです。",
-        "zh": "這是「通知、預兆、前兆」。"
+        "ja": "合格の知らせを聞いて安心しました。",
+        "zh": "聽到合格的消息後放心了。"
       }
     ]
   },
   "n3_0932": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "宣伝する",
+      "masu": "宣伝します",
+      "te": "宣伝して",
+      "ta": "宣伝した",
+      "nai": "宣伝しない"
+    },
     "examples": [
       {
-        "ja": "これは宣伝です。",
-        "zh": "這是「宣傳、廣告」。"
+        "ja": "新商品の宣伝をテレビで見ました。",
+        "zh": "在電視上看到了新商品的廣告。"
       }
     ]
   },
   "n3_0933": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "流行る",
+      "masu": "流行ります",
+      "te": "流行って",
+      "ta": "流行った",
+      "nai": "流行らない"
+    },
     "examples": [
       {
-        "ja": "これは流行るです。",
-        "zh": "這是「流行、興盛」。"
+        "ja": "今年はこの色の服が流行っています。",
+        "zh": "今年流行這個顏色的衣服。"
       }
     ]
   },
   "n3_0934": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "寄せる",
+      "masu": "寄せます",
+      "te": "寄せて",
+      "ta": "寄せた",
+      "nai": "寄せない"
+    },
     "examples": [
       {
-        "ja": "これは寄せるです。",
-        "zh": "這是「本一他二靠近、移近、聚集、匯集、集中、加、投靠、寄身」。"
+        "ja": "椅子を壁の方へ寄せました。",
+        "zh": "我把椅子往牆邊靠。"
       }
     ]
   },
@@ -11776,8 +12117,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアナウンスです。",
-        "zh": "這是「廣播、報告還知」。"
+        "ja": "駅で列車の遅れをアナウンスしていました。",
+        "zh": "車站正在廣播列車延誤。"
       }
     ]
   },
@@ -11786,8 +12127,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはインタビューです。",
-        "zh": "這是「旬時會麵接見、訪問、採訪」。"
+        "ja": "新聞社が選手にインタビューしました。",
+        "zh": "報社採訪了選手。"
       }
     ]
   },
@@ -11796,8 +12137,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは朝刊です。",
-        "zh": "這是「早報」。"
+        "ja": "朝刊を読みながら朝ご飯を食べます。",
+        "zh": "一邊看晨報一邊吃早餐。"
       }
     ]
   },
@@ -11806,8 +12147,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはドキュメンタリーです。",
-        "zh": "這是「紀錄、紀實、紀錄片」。"
+        "ja": "環境問題のドキュメンタリーを見ました。",
+        "zh": "看了關於環境問題的紀錄片。"
       }
     ]
   },
@@ -11816,8 +12157,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはマスコミです。",
-        "zh": "這是「透過報紙、廣告、電視或電影等向」。"
+        "ja": "その事件はマスコミで大きく報道されました。",
+        "zh": "那起事件被大眾媒體大幅報導。"
       }
     ]
   },
@@ -11826,8 +12167,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは夕刊です。",
-        "zh": "這是「晚報」。"
+        "ja": "父は毎日夕刊を読んでいます。",
+        "zh": "爸爸每天看晚報。"
       }
     ]
   },
@@ -11836,8 +12177,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはオリンピックです。",
-        "zh": "這是「奧林匹克」。"
+        "ja": "次のオリンピックを楽しみにしています。",
+        "zh": "我很期待下一屆奧林匹克。"
       }
     ]
   },
@@ -11846,8 +12187,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはチームです。",
-        "zh": "這是「隊伍、團隊」。"
+        "ja": "私たちのチームは決勝に進みました。",
+        "zh": "我們的隊伍進入了決賽。"
       }
     ]
   },
@@ -11856,8 +12197,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはトレーニングです。",
-        "zh": "這是「各色訓練、練習、回週二日」。"
+        "ja": "試合に向けて毎日トレーニングしています。",
+        "zh": "為了比賽每天都在訓練。"
       }
     ]
   },
@@ -11866,18 +12207,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバレエです。",
-        "zh": "這是「芭蕾舞、生國作工劑習」。"
+        "ja": "妹は子どもの頃からバレエを習っています。",
+        "zh": "妹妹從小就學芭蕾。"
       }
     ]
   },
   "n3_0945": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "争う",
+      "masu": "争います",
+      "te": "争って",
+      "ta": "争った",
+      "nai": "争わない"
+    },
     "examples": [
       {
-        "ja": "これは争うです。",
-        "zh": "這是「爭礁、爭辯、奮鬥、對抗、競爭」。"
+        "ja": "二つのチームが優勝を争っています。",
+        "zh": "兩支隊伍正在爭奪冠軍。"
       }
     ]
   },
@@ -11886,38 +12238,49 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは勝ちです。",
-        "zh": "這是「勝利本」。"
+        "ja": "今日の試合は私たちの勝ちです。",
+        "zh": "今天的比賽是我們贏了。"
       }
     ]
   },
   "n3_0947": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは完全です。",
-        "zh": "這是「完全、完整、完美、圓滿」。"
+        "ja": "宿題を完全に終わらせました。",
+        "zh": "我把作業完全做完了。"
       }
     ]
   },
   "n3_0948": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは勝です。",
-        "zh": "這是「勝利、名勝」。"
+        "ja": "今年のチーム成績は十勝五敗です。",
+        "zh": "今年的隊伍戰績是十勝五敗。"
       }
     ]
   },
   "n3_0949": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "蹴る",
+      "masu": "蹴ります",
+      "te": "蹴って",
+      "ta": "蹴った",
+      "nai": "蹴らない"
+    },
     "examples": [
       {
-        "ja": "これは蹴るです。",
-        "zh": "這是「踢、沖破、拒絕、駁回」。"
+        "ja": "ボールを強く蹴りました。",
+        "zh": "用力踢了球。"
       }
     ]
   },
@@ -11926,8 +12289,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは球です。",
-        "zh": "這是「太二」。"
+        "ja": "子どもたちが公園で球を投げています。",
+        "zh": "孩子們正在公園丟球。"
       }
     ]
   },
@@ -11936,8 +12299,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはトラックです。",
-        "zh": "這是「卡車、跑道」。"
+        "ja": "選手たちはトラックを走っています。",
+        "zh": "選手們正在跑道上跑步。"
       }
     ]
   },
@@ -11946,8 +12309,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはボールです。",
-        "zh": "這是「球、壊球」。"
+        "ja": "犬がボールを追いかけています。",
+        "zh": "狗正在追球。"
       }
     ]
   },
@@ -11956,8 +12319,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはラケットです。",
-        "zh": "這是「球拍」。"
+        "ja": "テニスのラケットを新しく買いました。",
+        "zh": "新買了網球拍。"
       }
     ]
   },
@@ -11966,8 +12329,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアニメです。",
-        "zh": "這是「動畫」。"
+        "ja": "週末は家でアニメを見ます。",
+        "zh": "週末會在家看動畫。"
       }
     ]
   },
@@ -11976,8 +12339,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはクイズです。",
-        "zh": "這是「問答遊戲、猜謎」。"
+        "ja": "友達と歴史のクイズをしました。",
+        "zh": "和朋友玩了歷史問答。"
       }
     ]
   },
@@ -11986,8 +12349,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは籤です。",
-        "zh": "這是「抽籤、籤」。"
+        "ja": "祭りでくじを引きました。",
+        "zh": "在祭典上抽了籤。"
       }
     ]
   },
@@ -11996,8 +12359,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはゲームです。",
-        "zh": "這是「遊戲、娛樂、比賽」。"
+        "ja": "弟は新しいゲームに夢中です。",
+        "zh": "弟弟沉迷於新的遊戲。"
       }
     ]
   },
@@ -12006,8 +12369,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはドラマです。",
-        "zh": "這是「劇、連戲劇、戲劇、劇本、戲劇文學、戲劇性的事件」。"
+        "ja": "このドラマは家族の話です。",
+        "zh": "這部連續劇是在講家人的故事。"
       }
     ]
   },
@@ -12016,8 +12379,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはハイキングです。",
-        "zh": "這是「健行、遠足」。"
+        "ja": "友達と山へハイキングに行きました。",
+        "zh": "和朋友去山上健行。"
       }
     ]
   },
@@ -12026,8 +12389,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバラエティーです。",
-        "zh": "這是「綜藝、多樣化」。"
+        "ja": "週末にバラエティー番組を見ました。",
+        "zh": "週末看了綜藝節目。"
       }
     ]
   },
@@ -12036,8 +12399,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはピクニックです。",
-        "zh": "這是「郊遊、野餐、圖已夕二必夕選行」。"
+        "ja": "公園で友達とピクニックをしました。",
+        "zh": "和朋友在公園野餐。"
       }
     ]
   },
@@ -12046,18 +12409,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは芸術です。",
-        "zh": "這是「藝術」。"
+        "ja": "芸術に興味があるので美術館へ行きました。",
+        "zh": "因為對藝術有興趣，所以去了美術館。"
       }
     ]
   },
   "n3_0963": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "出場する",
+      "masu": "出場します",
+      "te": "出場して",
+      "ta": "出場した",
+      "nai": "出場しない"
+    },
     "examples": [
       {
-        "ja": "これは出場です。",
-        "zh": "這是「出場、參賽」。"
+        "ja": "兄は全国大会に出場します。",
+        "zh": "哥哥要參加全國大賽。"
       }
     ]
   },
@@ -12066,8 +12440,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはデザインです。",
-        "zh": "這是「設計、圖案」。"
+        "ja": "このポスターのデザインは目立ちます。",
+        "zh": "這張海報的設計很醒目。"
       }
     ]
   },
@@ -12076,8 +12450,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは美術です。",
-        "zh": "這是「美術、視覺藝術」。"
+        "ja": "高校で美術を勉強しました。",
+        "zh": "高中時學了美術。"
       }
     ]
   },
@@ -12086,18 +12460,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは演歌です。",
-        "zh": "這是「演歌、日本通俗歌曲」。"
+        "ja": "祖母は演歌を聞くのが好きです。",
+        "zh": "祖母喜歡聽演歌。"
       }
     ]
   },
   "n3_0967": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "演奏する",
+      "masu": "演奏します",
+      "te": "演奏して",
+      "ta": "演奏した",
+      "nai": "演奏しない"
+    },
     "examples": [
       {
-        "ja": "これは演奏です。",
-        "zh": "這是「演奏、演奏樂器」。"
+        "ja": "彼女はピアノを演奏しました。",
+        "zh": "她演奏了鋼琴。"
       }
     ]
   },
@@ -12106,8 +12491,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは曲です。",
-        "zh": "這是「曲調、歌曲、彎曲」。"
+        "ja": "この曲を聞くと元気になります。",
+        "zh": "聽到這首歌就會有精神。"
       }
     ]
   },
@@ -12116,8 +12501,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはクラシックです。",
-        "zh": "這是「經典作品、古典作品、古典音樂、典的」。"
+        "ja": "父はクラシックをよく聞きます。",
+        "zh": "爸爸常聽古典音樂。"
       }
     ]
   },
@@ -12126,8 +12511,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはジャズです。",
-        "zh": "這是「爵士音樂」。"
+        "ja": "この店では夜にジャズが流れています。",
+        "zh": "這家店晚上會播放爵士樂。"
       }
     ]
   },
@@ -12136,8 +12521,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバイオリンです。",
-        "zh": "這是「小提琴」。"
+        "ja": "妹はバイオリンを習っています。",
+        "zh": "妹妹正在學小提琴。"
       }
     ]
   },
@@ -12146,8 +12531,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはポップスです。",
-        "zh": "這是「流行歌曲」。"
+        "ja": "最近のポップスには詳しくありません。",
+        "zh": "我不太熟最近的流行歌曲。"
       }
     ]
   },
@@ -12156,8 +12541,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアクションです。",
-        "zh": "這是「行動動作、格門等演技」。"
+        "ja": "アクション映画を見ると気分がすっきりします。",
+        "zh": "看動作片會覺得心情很暢快。"
       }
     ]
   },
@@ -12166,8 +12551,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはエスエフです。",
-        "zh": "這是「科幻」。"
+        "ja": "彼はエスエフ小説をよく読みます。",
+        "zh": "他常看科幻小說。"
       }
     ]
   },
@@ -12176,8 +12561,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはオペラです。",
-        "zh": "這是「糧表」。"
+        "ja": "初めて劇場でオペラを見ました。",
+        "zh": "第一次在劇場看了歌劇。"
       }
     ]
   },
@@ -12186,8 +12571,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは歌劇です。",
-        "zh": "這是「歌劇、歌劇表演」。"
+        "ja": "歌劇には歌と演技の両方が必要です。",
+        "zh": "歌劇需要歌唱和演技兩者。"
       }
     ]
   },
@@ -12196,8 +12581,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはコメディーです。",
-        "zh": "這是「合喜劇回語」。"
+        "ja": "疲れた日はコメディーを見ることにしています。",
+        "zh": "累的日子我會看喜劇。"
       }
     ]
   },
@@ -12206,8 +12591,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはストーリーです。",
-        "zh": "這是「故事小説、劇情、結構」。"
+        "ja": "この映画はストーリーが分かりやすいです。",
+        "zh": "這部電影的劇情很容易懂。"
       }
     ]
   },
@@ -12216,8 +12601,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは舞台です。",
-        "zh": "這是「舞台、表演場所」。"
+        "ja": "俳優が舞台に上がりました。",
+        "zh": "演員登上了舞台。"
       }
     ]
   },
@@ -12226,8 +12611,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはホラーです。",
-        "zh": "這是「恐怖作品」。"
+        "ja": "ホラー映画は夜に見ると怖いです。",
+        "zh": "恐怖電影晚上看會很可怕。"
       }
     ]
   },
@@ -12236,8 +12621,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはミュージカルです。",
-        "zh": "這是「音樂劇、音樂的、配樂的」。"
+        "ja": "友達とミュージカルを見に行きました。",
+        "zh": "和朋友去看了音樂劇。"
       }
     ]
   },
@@ -12246,8 +12631,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは数です。",
-        "zh": "這是「數、數目、多數、種種」。"
+        "ja": "参加者の数を確認してください。",
+        "zh": "請確認參加者的人數。"
       }
     ]
   },
@@ -12256,8 +12641,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは奇数です。",
-        "zh": "這是「奇數」。"
+        "ja": "一、三、五は奇数です。",
+        "zh": "一、三、五是奇數。"
       }
     ]
   },
@@ -12266,8 +12651,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは桁です。",
-        "zh": "這是「横様桁架、算、的主柱、數字的位數」。"
+        "ja": "この数字は桁が多くて読みにくいです。",
+        "zh": "這個數字位數很多，很難讀。"
       }
     ]
   },
@@ -12276,8 +12661,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは数字です。",
-        "zh": "這是「數字、各個數字」。"
+        "ja": "電話番号を数字で書いてください。",
+        "zh": "請用數字寫電話號碼。"
       }
     ]
   },
@@ -12286,8 +12671,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは整数です。",
-        "zh": "這是「整數」。"
+        "ja": "ゼロは整数に含まれます。",
+        "zh": "零包含在整數裡。"
       }
     ]
   },
@@ -12296,8 +12681,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはナンバーです。",
-        "zh": "這是「數字、號碼、牌照」。"
+        "ja": "受付でナンバーを呼ばれるまで待ちます。",
+        "zh": "在櫃台等到號碼被叫到。"
       }
     ]
   },
@@ -12306,8 +12691,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパーセントです。",
-        "zh": "這是「百分率」。"
+        "ja": "出席率は九十パーセントでした。",
+        "zh": "出席率是百分之九十。"
       }
     ]
   },
@@ -12316,8 +12701,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは秒です。",
-        "zh": "這是「江秒」。"
+        "ja": "あと十秒で試合が終わります。",
+        "zh": "比賽再十秒就結束。"
       }
     ]
   },
@@ -12326,8 +12711,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプラスです。",
-        "zh": "這是「加號、正號、正數、有好處、利益、加、陽性」。"
+        "ja": "この経験は私にとってプラスになりました。",
+        "zh": "這個經驗對我來說成了好處。"
       }
     ]
   },
@@ -12336,8 +12721,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはマイナスです。",
-        "zh": "這是「負數、扣分」。"
+        "ja": "寝不足は健康にマイナスです。",
+        "zh": "睡眠不足對健康有負面影響。"
       }
     ]
   },
@@ -12346,8 +12731,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはイコールです。",
-        "zh": "這是「相等、等號」。"
+        "ja": "三プラス二イコール五です。",
+        "zh": "三加二等於五。"
       }
     ]
   },
@@ -12356,28 +12741,37 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは掛け算です。",
-        "zh": "這是「及科法、四歳掛算」。"
+        "ja": "弟は学校で掛け算を習っています。",
+        "zh": "弟弟正在學校學乘法。"
       }
     ]
   },
   "n3_0994": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは計です。",
-        "zh": "這是「絶計、合計、計書、計」。"
+        "ja": "参加者は計三十人です。",
+        "zh": "參加者合計三十人。"
       }
     ]
   },
   "n3_0995": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "四捨五入する",
+      "masu": "四捨五入します",
+      "te": "四捨五入して",
+      "ta": "四捨五入した",
+      "nai": "四捨五入しない"
+    },
     "examples": [
       {
-        "ja": "これは四捨五入です。",
-        "zh": "這是「四捨五入、取近似值」。"
+        "ja": "答えは四捨五入して書いてください。",
+        "zh": "請把答案四捨五入後寫出來。"
       }
     ]
   },
@@ -12386,8 +12780,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは小数です。",
-        "zh": "這是「小數」。"
+        "ja": "小数を分数に直してください。",
+        "zh": "請把小數改成分數。"
       }
     ]
   },
@@ -12396,8 +12790,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは小数点です。",
-        "zh": "這是「小數點」。"
+        "ja": "小数点の位置を間違えました。",
+        "zh": "小數點的位置弄錯了。"
       }
     ]
   },
@@ -12406,8 +12800,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは足し算です。",
-        "zh": "這是「加法、加算」。"
+        "ja": "妹は足し算の練習をしています。",
+        "zh": "妹妹正在練習加法。"
       }
     ]
   },
@@ -12416,8 +12810,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電卓です。",
-        "zh": "這是「計算機」。"
+        "ja": "電卓を使って合計を出しました。",
+        "zh": "用計算機算出了合計。"
       }
     ]
   },
@@ -12426,8 +12820,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは引き算です。",
-        "zh": "這是「減法」。"
+        "ja": "引き算の問題を十問解きました。",
+        "zh": "解了十題減法題。"
       }
     ]
   },
@@ -12436,8 +12830,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは分数です。",
-        "zh": "這是「分數」。"
+        "ja": "分数の計算は少し苦手です。",
+        "zh": "我有點不擅長分數計算。"
       }
     ]
   },
@@ -12446,8 +12840,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは割り・割です。",
-        "zh": "這是「比例、分配」。"
+        "ja": "この店は値段の割に量が多いです。",
+        "zh": "這家店以價格來說份量很多。"
       }
     ]
   },
@@ -12456,8 +12850,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは割り算です。",
-        "zh": "這是「除法」。"
+        "ja": "割り算の答えをノートに書きました。",
+        "zh": "我把除法的答案寫在筆記本上。"
       }
     ]
   },
@@ -12466,28 +12860,28 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアップです。",
-        "zh": "這是「生、增高、提高、上傳」。"
+        "ja": "写真をサイトにアップしました。",
+        "zh": "我把照片上傳到網站。"
       }
     ]
   },
   "n3_1005": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは一度にです。",
-        "zh": "這是「加同時地、一塊地、一下子」。"
+        "ja": "荷物を一度に運ぶのは大変です。",
+        "zh": "一次搬完行李很辛苦。"
       }
     ]
   },
   "n3_1006": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは多くです。",
-        "zh": "這是「多數、許多、多半、大多」。"
+        "ja": "多くの学生が説明会に参加しました。",
+        "zh": "許多學生參加了說明會。"
       }
     ]
   },
@@ -12496,68 +12890,79 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは距離です。",
-        "zh": "這是「距離、間隔、差距凋」。"
+        "ja": "駅から学校までの距離を調べました。",
+        "zh": "我查了從車站到學校的距離。"
       }
     ]
   },
   "n3_1008": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "切らす",
+      "masu": "切らします",
+      "te": "切らして",
+      "ta": "切らした",
+      "nai": "切らさない"
+    },
     "examples": [
       {
-        "ja": "これは切らすです。",
-        "zh": "這是「點用盡、用光」。"
+        "ja": "牛乳を切らしたので買いに行きます。",
+        "zh": "牛奶用完了，所以要去買。"
       }
     ]
   },
   "n3_1009": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは毎です。",
-        "zh": "這是「每、各」。"
+        "ja": "この薬は三時間ごとに飲んでください。",
+        "zh": "這個藥請每三小時吃一次。"
       }
     ]
   },
   "n3_1010": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは様々です。",
-        "zh": "這是「種種、各式各樣的、形形色色的」。"
+        "ja": "様々な意見を聞いてから決めましょう。",
+        "zh": "先聽聽各種意見再決定吧。"
       }
     ]
   },
   "n3_1011": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは初です。",
-        "zh": "這是「初、始、首次、最初」。"
+        "ja": "初参加でも安心して申し込めます。",
+        "zh": "即使是第一次參加也可以放心報名。"
       }
     ]
   },
   "n3_1012": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは少なくともです。",
-        "zh": "這是「至少、對低、最低限度」。"
+        "ja": "少なくとも十人は必要です。",
+        "zh": "至少需要十個人。"
       }
     ]
   },
   "n3_1013": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは全です。",
-        "zh": "這是「全部、全」。"
+        "ja": "全ページをもう一度確認しました。",
+        "zh": "我又確認了一遍所有頁面。"
       }
     ]
   },
@@ -12566,48 +12971,81 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはセンチです。",
-        "zh": "這是「厘米、公分」。"
+        "ja": "机の幅は八十センチです。",
+        "zh": "桌子的寬度是八十公分。"
       }
     ]
   },
   "n3_1015": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "揃う",
+      "masu": "揃います",
+      "te": "揃って",
+      "ta": "揃った",
+      "nai": "揃わない"
+    },
     "examples": [
       {
-        "ja": "これは揃うです。",
-        "zh": "這是「備齊、成套、一致、樣、整齊、到齊、齊聚」。"
+        "ja": "必要な資料が全部揃いました。",
+        "zh": "需要的資料都齊了。"
       }
     ]
   },
   "n3_1016": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "揃える",
+      "masu": "揃えます",
+      "te": "揃えて",
+      "ta": "揃えた",
+      "nai": "揃えない"
+    },
     "examples": [
       {
-        "ja": "これは揃えるです。",
-        "zh": "這是「備齊、使一致」。"
+        "ja": "机の上の資料をきれいに揃えてください。",
+        "zh": "請把桌上的資料排整齊。"
       }
     ]
   },
   "n3_1017": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは縦長です。",
-        "zh": "這是「知形、長形」。"
+        "ja": "このノートは縦長で持ちやすいです。",
+        "zh": "這本筆記本是直長形，很好拿。"
       }
     ]
   },
   "n3_1018": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "縮める",
+      "masu": "縮めます",
+      "te": "縮めて",
+      "ta": "縮めた",
+      "nai": "縮めない"
+    },
     "examples": [
       {
-        "ja": "これは縮めるです。",
-        "zh": "這是「縮小、縮短縮減、縮回捲縮、起皺紋」。"
+        "ja": "会議の時間を三十分に縮めました。",
+        "zh": "會議時間縮短為三十分鐘。"
       }
     ]
   },
@@ -12616,18 +13054,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは続きです。",
-        "zh": "這是「接續、後續」。"
+        "ja": "続きは明日説明します。",
+        "zh": "後續明天再說明。"
       }
     ]
   },
   "n3_1020": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは等です。",
-        "zh": "這是「等等」。"
+        "ja": "名前と住所等を記入してください。",
+        "zh": "請填寫姓名、地址等資料。"
       }
     ]
   },
@@ -12636,8 +13074,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはトンです。",
-        "zh": "這是「噸、公噸、一千公斤」。"
+        "ja": "この荷物は一トン近くあります。",
+        "zh": "這件貨物接近一公噸。"
       }
     ]
   },
@@ -12646,8 +13084,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中身です。",
-        "zh": "這是「裝在容器裡的內容物、內容刀身形」。"
+        "ja": "箱の中身を確認してください。",
+        "zh": "請確認箱子裡的內容物。"
       }
     ]
   },
@@ -12656,8 +13094,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは濃度です。",
-        "zh": "這是「濃度、濃淡程度」。"
+        "ja": "この液体は濃度が高いです。",
+        "zh": "這個液體濃度很高。"
       }
     ]
   },
@@ -12666,8 +13104,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは表面です。",
-        "zh": "這是「表麵」。"
+        "ja": "水の表面に葉が浮いています。",
+        "zh": "葉子浮在水面上。"
       }
     ]
   },
@@ -12676,38 +13114,60 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは広さです。",
-        "zh": "這是「寬度、幅度、廣度」。"
+        "ja": "部屋の広さを測りました。",
+        "zh": "我量了房間的大小。"
       }
     ]
   },
   "n3_1026": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "含める",
+      "masu": "含めます",
+      "te": "含めて",
+      "ta": "含めた",
+      "nai": "含めない"
+    },
     "examples": [
       {
-        "ja": "これは含めるです。",
-        "zh": "這是「包含、包括」。"
+        "ja": "送料を含めると三千円になります。",
+        "zh": "包含運費的話是三千日圓。"
       }
     ]
   },
   "n3_1027": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "増やす",
+      "masu": "増やします",
+      "te": "増やして",
+      "ta": "増やした",
+      "nai": "増やさない"
+    },
     "examples": [
       {
-        "ja": "これは増やすです。",
-        "zh": "這是「繁殖、増加添加、遼人手増」。"
+        "ja": "利用者を増やすために宣伝します。",
+        "zh": "為了增加使用者，我們會做宣傳。"
       }
     ]
   },
   "n3_1028": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは益々です。",
-        "zh": "這是「轉越發、益發、更加」。"
+        "ja": "駅前はますます便利になりました。",
+        "zh": "車站前變得越來越方便。"
       }
     ]
   },
@@ -12716,18 +13176,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはミリです。",
-        "zh": "這是「說還、名毫、千分之一、毫米、公厘本」。"
+        "ja": "一ミリだけ線を右に動かしてください。",
+        "zh": "請把線往右移一公厘。"
       }
     ]
   },
   "n3_1030": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはややです。",
-        "zh": "這是「稍微、略、片刻、一會兒財」。"
+        "ja": "今日は昨日よりやや寒いです。",
+        "zh": "今天比昨天稍微冷一點。"
       }
     ]
   },
@@ -12736,28 +13196,28 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは一列です。",
-        "zh": "這是「一列、一排」。"
+        "ja": "学生たちは一列に並びました。",
+        "zh": "學生們排成一列。"
       }
     ]
   },
   "n3_1032": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "counter",
+    "posLabel": "助數詞",
     "examples": [
       {
-        "ja": "これは着です。",
-        "zh": "這是「到達、穿著量詞」。"
+        "ja": "コートを一着買いました。",
+        "zh": "我買了一件外套。"
       }
     ]
   },
   "n3_1033": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは次々・次々に・次々とです。",
-        "zh": "這是「接連不斷、一個接一個」。"
+        "ja": "客が次々と店に入ってきました。",
+        "zh": "客人接連走進店裡。"
       }
     ]
   },
@@ -12766,28 +13226,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはトップです。",
-        "zh": "這是「尖端、第一樟、領頭率先、第一位、首位、首席」。"
+        "ja": "彼はクラスでトップの成績です。",
+        "zh": "他在班上成績第一。"
       }
     ]
   },
   "n3_1035": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは再びです。",
-        "zh": "這是「再一次、又、重新」。"
+        "ja": "再び同じ問題が起きました。",
+        "zh": "同樣的問題再次發生了。"
       }
     ]
   },
   "n3_1036": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "連続する",
+      "masu": "連続します",
+      "te": "連続して",
+      "ta": "連続した",
+      "nai": "連続しない"
+    },
     "examples": [
       {
-        "ja": "これは連続です。",
-        "zh": "這是「連續、接連」。"
+        "ja": "雨の日が三日連続で続きました。",
+        "zh": "雨天連續持續了三天。"
       }
     ]
   },
@@ -12796,8 +13267,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカラーです。",
-        "zh": "這是「顏色、彩色」。"
+        "ja": "カラーの資料を印刷しました。",
+        "zh": "我印了彩色資料。"
       }
     ]
   },
@@ -12806,8 +13277,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは三角です。",
-        "zh": "這是「三角形」。"
+        "ja": "三角の形に紙を切りました。",
+        "zh": "把紙剪成三角形。"
       }
     ]
   },
@@ -12816,8 +13287,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは結柄です。",
-        "zh": "這是「條紋花樣」。"
+        "ja": "縞柄のシャツを買いました。",
+        "zh": "我買了條紋圖案的襯衫。"
       }
     ]
   },
@@ -12826,18 +13297,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは結模様です。",
-        "zh": "這是「條紋花欄」。"
+        "ja": "このカーテンは細い縞模様です。",
+        "zh": "這個窗簾是細條紋圖案。"
       }
     ]
   },
   "n3_1041": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは地味です。",
-        "zh": "這是「素氣、樸素、不華美、保守」。"
+        "ja": "地味な服ですが着やすいです。",
+        "zh": "雖然是樸素的衣服，但很好穿。"
       }
     ]
   },
@@ -12846,8 +13317,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはストライプです。",
-        "zh": "這是「條紋、條紋布」。"
+        "ja": "ストライプのネクタイを選びました。",
+        "zh": "我選了條紋領帶。"
       }
     ]
   },
@@ -12856,18 +13327,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは図表です。",
-        "zh": "這是「圖表」。"
+        "ja": "図表を使って結果を説明します。",
+        "zh": "會用圖表說明結果。"
       }
     ]
   },
   "n3_1044": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは茶色いです。",
-        "zh": "這是「茶色形」。"
+        "ja": "茶色い靴を探しています。",
+        "zh": "我在找咖啡色的鞋子。"
       }
     ]
   },
@@ -12876,8 +13347,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは灰色です。",
-        "zh": "這是「灰色、介於黑白之間的顏色」。"
+        "ja": "空がだんだん灰色になりました。",
+        "zh": "天空漸漸變成灰色。"
       }
     ]
   },
@@ -12886,8 +13357,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは花柄です。",
-        "zh": "這是「花的園様」。"
+        "ja": "花柄のワンピースを着ています。",
+        "zh": "她穿著花紋洋裝。"
       }
     ]
   },
@@ -12896,8 +13367,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは花模様です。",
-        "zh": "這是「花的圖樣」。"
+        "ja": "花模様の皿を祖母にもらいました。",
+        "zh": "我從祖母那裡拿到花紋盤子。"
       }
     ]
   },
@@ -12906,58 +13377,69 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはピンクです。",
-        "zh": "這是「桃紅色、粉紅色、桃色」。"
+        "ja": "ピンクの封筒を買いました。",
+        "zh": "我買了粉紅色信封。"
       }
     ]
   },
   "n3_1049": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "混じる",
+      "masu": "混じります",
+      "te": "混じって",
+      "ta": "混じった",
+      "nai": "混じらない"
+    },
     "examples": [
       {
-        "ja": "これは混じる・交じるです。",
-        "zh": "這是「奏雜、混雜、加入、交往交際」。"
+        "ja": "白い髪が少し混じっています。",
+        "zh": "裡面夾雜著一些白髮。"
       }
     ]
   },
   "n3_1050": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは上真っ黒です。",
-        "zh": "這是「漆黑、烏黑」。"
+        "ja": "夜の道は真っ黒で何も見えません。",
+        "zh": "夜晚的路一片漆黑，什麼都看不見。"
       }
     ]
   },
   "n3_1051": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは真っ青です。",
-        "zh": "這是「蔚藍、深藍、蒼白」。"
+        "ja": "急に名前を呼ばれて真っ青になりました。",
+        "zh": "突然被叫到名字，臉色都發白了。"
       }
     ]
   },
   "n3_1052": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは真っ白です。",
-        "zh": "這是「雪白、淨白、皓白」。"
+        "ja": "雪で庭が真っ白になりました。",
+        "zh": "院子因為下雪變得一片雪白。"
       }
     ]
   },
   "n3_1053": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは真っ白いです。",
-        "zh": "這是「侈雪白的、淨白的、皓白的」。"
+        "ja": "真っ白いシャツにコーヒーをこぼしました。",
+        "zh": "我把咖啡灑在雪白的襯衫上。"
       }
     ]
   },
@@ -12966,8 +13448,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは丸です。",
-        "zh": "這是「圓形、圓圈」。"
+        "ja": "正しい答えに丸を付けてください。",
+        "zh": "請在正確答案上畫圈。"
       }
     ]
   },
@@ -12976,8 +13458,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは無地です。",
-        "zh": "這是「素色」。"
+        "ja": "無地のTシャツが好きです。",
+        "zh": "我喜歡素色T恤。"
       }
     ]
   },
@@ -12986,8 +13468,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは教えです。",
-        "zh": "這是「教導、教誨」。"
+        "ja": "先生の教えを今でも覚えています。",
+        "zh": "我到現在還記得老師的教導。"
       }
     ]
   },
@@ -12996,8 +13478,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは家庭科です。",
-        "zh": "這是「所家事、家政」。"
+        "ja": "家庭科で料理の基本を習いました。",
+        "zh": "家政課學了料理的基本。"
       }
     ]
   },
@@ -13006,8 +13488,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは教科書です。",
-        "zh": "這是「教科書、教材」。"
+        "ja": "新しい教科書を忘れました。",
+        "zh": "我忘了帶新教科書。"
       }
     ]
   },
@@ -13016,8 +13498,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは公民です。",
-        "zh": "這是「公民、國民成員」。"
+        "ja": "公民の授業で選挙について学びました。",
+        "zh": "公民課學了關於選舉的事。"
       }
     ]
   },
@@ -13026,8 +13508,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは算数です。",
-        "zh": "這是「算數、初等數學、計算數量」。"
+        "ja": "算数の宿題を先に終わらせました。",
+        "zh": "我先把算數作業做完了。"
       }
     ]
   },
@@ -13036,8 +13518,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは物理です。",
-        "zh": "這是「事物的道理、物理」。"
+        "ja": "物理の実験は準備が大切です。",
+        "zh": "物理實驗的準備很重要。"
       }
     ]
   },
@@ -13046,8 +13528,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは保健体育です。",
-        "zh": "這是「保健體育」。"
+        "ja": "保健体育の授業で応急手当を学びました。",
+        "zh": "保健體育課學了急救處理。"
       }
     ]
   },
@@ -13056,8 +13538,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはマスターです。",
-        "zh": "這是「老闇、精妊」。"
+        "ja": "新しいソフトの使い方をマスターしました。",
+        "zh": "我掌握了新軟體的使用方式。"
       }
     ]
   },
@@ -13066,18 +13548,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは理科です。",
-        "zh": "這是「理科、自然科學科目」。"
+        "ja": "理科の授業で植物を観察しました。",
+        "zh": "理科課觀察了植物。"
       }
     ]
   },
   "n3_1065": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "留学する",
+      "masu": "留学します",
+      "te": "留学して",
+      "ta": "留学した",
+      "nai": "留学しない"
+    },
     "examples": [
       {
-        "ja": "これは留学です。",
-        "zh": "這是「留學」。"
+        "ja": "兄は来年フランスへ留学します。",
+        "zh": "哥哥明年要去法國留學。"
       }
     ]
   },
@@ -13086,8 +13579,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは学歴です。",
-        "zh": "這是「學歷」。"
+        "ja": "履歴書に学歴を書きました。",
+        "zh": "我在履歷表上寫了學歷。"
       }
     ]
   },
@@ -13096,28 +13589,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは小学生です。",
-        "zh": "這是「小晃生」。"
+        "ja": "小学生の弟は毎朝早く起きます。",
+        "zh": "讀小學的弟弟每天早上很早起。"
       }
     ]
   },
   "n3_1068": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは新です。",
-        "zh": "這是「新、新的」。"
+        "ja": "新学期が来週から始まります。",
+        "zh": "新學期下週開始。"
       }
     ]
   },
   "n3_1069": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "進学する",
+      "masu": "進学します",
+      "te": "進学して",
+      "ta": "進学した",
+      "nai": "進学しない"
+    },
     "examples": [
       {
-        "ja": "これは進学です。",
-        "zh": "這是「店升學、進修學問」。"
+        "ja": "卒業後は大学へ進学する予定です。",
+        "zh": "畢業後預計升大學。"
       }
     ]
   },
@@ -13126,18 +13630,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは専門学校です。",
-        "zh": "這是「専科抑校」。"
+        "ja": "専門学校でデザインを学んでいます。",
+        "zh": "我在專門學校學設計。"
       }
     ]
   },
   "n3_1071": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "退学する",
+      "masu": "退学します",
+      "te": "退学して",
+      "ta": "退学した",
+      "nai": "退学しない"
+    },
     "examples": [
       {
-        "ja": "これは退学です。",
-        "zh": "這是「結退學、肖党企重探」。"
+        "ja": "病気で大学を退学しました。",
+        "zh": "因病從大學退學了。"
       }
     ]
   },
@@ -13146,8 +13661,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは大学院です。",
-        "zh": "這是「研究所、研究生院」。"
+        "ja": "大学院で日本文学を研究しています。",
+        "zh": "我在研究所研究日本文學。"
       }
     ]
   },
@@ -13156,8 +13671,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは短期大学です。",
-        "zh": "這是「短期大學」。"
+        "ja": "姉は短期大学を卒業しました。",
+        "zh": "姊姊從短期大學畢業了。"
       }
     ]
   },
@@ -13166,8 +13681,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中学です。",
-        "zh": "這是「中學」。"
+        "ja": "中学の友達と今でも会います。",
+        "zh": "我到現在還會和國中朋友見面。"
       }
     ]
   },
@@ -13176,8 +13691,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは書き取りです。",
-        "zh": "這是「功抄寫、記錄、聽寫、默寫、書取行」。"
+        "ja": "漢字の書き取りテストがあります。",
+        "zh": "有漢字聽寫測驗。"
       }
     ]
   },
@@ -13186,8 +13701,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは課題です。",
-        "zh": "這是「提出的題目、課題、任務」。"
+        "ja": "今日の課題は作文を書くことです。",
+        "zh": "今天的課題是寫作文。"
       }
     ]
   },
@@ -13196,28 +13711,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはクラスメートです。",
-        "zh": "這是「同班同學」。"
+        "ja": "クラスメートと一緒に発表しました。",
+        "zh": "我和同班同學一起發表。"
       }
     ]
   },
   "n3_1078": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "在学する",
+      "masu": "在学します",
+      "te": "在学して",
+      "ta": "在学した",
+      "nai": "在学しない"
+    },
     "examples": [
       {
-        "ja": "これは在学です。",
-        "zh": "這是「所自尖在校學習、上學」。"
+        "ja": "彼はこの大学に在学しています。",
+        "zh": "他目前就讀這所大學。"
       }
     ]
   },
   "n3_1079": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは時間目です。",
-        "zh": "這是「第...小時」。"
+        "ja": "二時間目は数学です。",
+        "zh": "第二節課是數學。"
       }
     ]
   },
@@ -13226,68 +13752,112 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはチャイムです。",
-        "zh": "這是「組鐘、門鈴」。"
+        "ja": "授業の終わりにチャイムが鳴りました。",
+        "zh": "下課時鐘聲響了。"
       }
     ]
   },
   "n3_1081": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは年生です。",
-        "zh": "這是「年級生」。"
+        "ja": "妹は小学三年生です。",
+        "zh": "妹妹是小學三年級生。"
       }
     ]
   },
   "n3_1082": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "counter",
+    "posLabel": "助數詞",
     "examples": [
       {
-        "ja": "これは問です。",
-        "zh": "這是「國問問正解」。"
+        "ja": "このテストは全部で十問あります。",
+        "zh": "這份考試總共有十題。"
       }
     ]
   },
   "n3_1083": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "落第する",
+      "masu": "落第します",
+      "te": "落第して",
+      "ta": "落第した",
+      "nai": "落第しない"
+    },
     "examples": [
       {
-        "ja": "これは落第です。",
-        "zh": "這是「不及格、落榜」。"
+        "ja": "勉強しなかったので落第しました。",
+        "zh": "因為沒有讀書，所以不及格了。"
       }
     ]
   },
   "n3_1084": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "祝う",
+      "masu": "祝います",
+      "te": "祝って",
+      "ta": "祝った",
+      "nai": "祝わない"
+    },
     "examples": [
       {
-        "ja": "これは祝うです。",
-        "zh": "這是「祝圓、慶祝、祝福、送賀禮、致賀詞、回成人在祝」。"
+        "ja": "家族みんなで誕生日を祝いました。",
+        "zh": "全家一起慶祝生日。"
       }
     ]
   },
   "n3_1085": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "帰省する",
+      "masu": "帰省します",
+      "te": "帰省して",
+      "ta": "帰省した",
+      "nai": "帰省しない"
+    },
     "examples": [
       {
-        "ja": "これは帰省です。",
-        "zh": "這是「歸省、回家、探親」。"
+        "ja": "正月には実家へ帰省します。",
+        "zh": "新年時會回老家。"
       }
     ]
   },
   "n3_1086": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "招く",
+      "masu": "招きます",
+      "te": "招いて",
+      "ta": "招いた",
+      "nai": "招かない"
+    },
     "examples": [
       {
-        "ja": "これは招くです。",
-        "zh": "這是「招呼、招待、宣請、招聘、聘請、招菩、招至」。"
+        "ja": "友人を夕食に招きました。",
+        "zh": "我邀請朋友來吃晚餐。"
       }
     ]
   },
@@ -13296,8 +13866,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは缶詰です。",
-        "zh": "這是「罐頭、被關起來」。"
+        "ja": "缶詰のトマトをスープに使いました。",
+        "zh": "我用了罐頭番茄煮湯。"
       }
     ]
   },
@@ -13306,18 +13876,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはゴムです。",
-        "zh": "這是「樹膠、橡皮、橡膠」。"
+        "ja": "消しゴムを机の上に置きました。",
+        "zh": "我把橡皮擦放在桌上。"
       }
     ]
   },
   "n3_1089": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "刺さる",
+      "masu": "刺さります",
+      "te": "刺さって",
+      "ta": "刺さった",
+      "nai": "刺さらない"
+    },
     "examples": [
       {
-        "ja": "これは刺さるです。",
-        "zh": "這是「刺在.、在、扎進、刺入」。"
+        "ja": "指に小さなとげが刺さりました。",
+        "zh": "手指扎進了一根小刺。"
       }
     ]
   },
@@ -13326,8 +13907,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは柱字です。",
-        "zh": "這是「村子、飯村」。"
+        "ja": "ご飯をしゃもじでよそいました。",
+        "zh": "我用飯杓盛飯。"
       }
     ]
   },
@@ -13336,8 +13917,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは性能です。",
-        "zh": "這是「性能、機能、數能」。"
+        "ja": "このカメラは性能がいいです。",
+        "zh": "這台相機性能很好。"
       }
     ]
   },
@@ -13346,8 +13927,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは製品です。",
-        "zh": "這是「製品産品」。"
+        "ja": "新しい製品が来月発売されます。",
+        "zh": "新產品下個月上市。"
       }
     ]
   },
@@ -13356,8 +13937,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは洗剤です。",
-        "zh": "這是「洗劑」。"
+        "ja": "洗剤を入れすぎないでください。",
+        "zh": "請不要放太多洗劑。"
       }
     ]
   },
@@ -13366,8 +13947,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中華なべです。",
-        "zh": "這是「中華鍋」。"
+        "ja": "中華なべで野菜を炒めました。",
+        "zh": "我用中華鍋炒了蔬菜。"
       }
     ]
   },
@@ -13376,8 +13957,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電池です。",
-        "zh": "這是「電池、供電的小型裝置」。"
+        "ja": "時計の電池を交換しました。",
+        "zh": "我換了手錶的電池。"
       }
     ]
   },
@@ -13386,8 +13967,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはテントです。",
-        "zh": "這是「帳篷」。"
+        "ja": "キャンプ場にテントを張りました。",
+        "zh": "在露營場搭了帳篷。"
       }
     ]
   },
@@ -13396,8 +13977,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鍋です。",
-        "zh": "這是「鍋子、火鍋、四鋼野菜炒」。"
+        "ja": "鍋に水を入れて火にかけます。",
+        "zh": "把水倒進鍋子裡加熱。"
       }
     ]
   },
@@ -13406,8 +13987,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは銀です。",
-        "zh": "這是「鋸子、板引」。"
+        "ja": "父はのこぎりで木を切りました。",
+        "zh": "爸爸用鋸子鋸木頭。"
       }
     ]
   },
@@ -13416,8 +13997,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは歯車です。",
-        "zh": "這是「齒輪」。"
+        "ja": "古い機械の歯車が壊れました。",
+        "zh": "舊機器的齒輪壞了。"
       }
     ]
   },
@@ -13426,8 +14007,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは旗です。",
-        "zh": "這是「旗、旗幟、幡」。"
+        "ja": "校庭に旗が立っています。",
+        "zh": "校園裡立著旗子。"
       }
     ]
   },
@@ -13436,8 +14017,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは紐です。",
-        "zh": "這是「繩子、帶子」。"
+        "ja": "箱を紐でしっかり結びました。",
+        "zh": "用繩子把箱子牢牢綁好。"
       }
     ]
   },
@@ -13446,8 +14027,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはファスナーです。",
-        "zh": "這是「拉錬」。"
+        "ja": "かばんのファスナーが壊れました。",
+        "zh": "包包的拉鍊壞了。"
       }
     ]
   },
@@ -13456,8 +14037,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは蓋です。",
-        "zh": "這是「蓋子」。"
+        "ja": "瓶の蓋を開けてください。",
+        "zh": "請打開瓶蓋。"
       }
     ]
   },
@@ -13466,8 +14047,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはフライバパンです。",
-        "zh": "這是「平底鍋」。"
+        "ja": "フライパンで卵を焼きました。",
+        "zh": "我用平底鍋煎了蛋。"
       }
     ]
   },
@@ -13476,8 +14057,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはペンキです。",
-        "zh": "這是「油漆」。"
+        "ja": "壁に白いペンキを塗りました。",
+        "zh": "我在牆上塗了白色油漆。"
       }
     ]
   },
@@ -13486,8 +14067,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはベンチです。",
-        "zh": "這是「故坐到長椅上」。"
+        "ja": "公園のベンチで少し休みました。",
+        "zh": "我在公園長椅上休息了一下。"
       }
     ]
   },
@@ -13496,8 +14077,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは包丁です。",
-        "zh": "這是「菜刀、廚師、烹調手藝」。"
+        "ja": "包丁で野菜を細かく切ります。",
+        "zh": "用菜刀把蔬菜切細。"
       }
     ]
   },
@@ -13506,8 +14087,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはまな板です。",
-        "zh": "這是「砧板」。"
+        "ja": "まな板を洗ってから使ってください。",
+        "zh": "請先洗砧板再使用。"
       }
     ]
   },
@@ -13516,8 +14097,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはライターです。",
-        "zh": "這是「打火機」。"
+        "ja": "ライターでろうそくに火をつけました。",
+        "zh": "我用打火機點了蠟燭。"
       }
     ]
   },
@@ -13526,8 +14107,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはリボンです。",
-        "zh": "這是「緞帶、蝴蝶結」。"
+        "ja": "プレゼントに赤いリボンをかけました。",
+        "zh": "我在禮物上綁了紅色緞帶。"
       }
     ]
   },
@@ -13536,8 +14117,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはレインコートです。",
-        "zh": "這是「麵忘了常雨衣」。"
+        "ja": "雨が強いのでレインコートを着ました。",
+        "zh": "因為雨很大，所以穿了雨衣。"
       }
     ]
   },
@@ -13546,8 +14127,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはロボットです。",
-        "zh": "這是「機器人」。"
+        "ja": "工場ではロボットが部品を運んでいます。",
+        "zh": "工廠裡機器人正在搬運零件。"
       }
     ]
   },
@@ -13556,8 +14137,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアイロンです。",
-        "zh": "這是「雇用熨斗燙」。"
+        "ja": "シャツにアイロンをかけました。",
+        "zh": "我燙了襯衫。"
       }
     ]
   },
@@ -13566,8 +14147,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアルバムです。",
-        "zh": "這是「相簿、記念冊」。"
+        "ja": "旅行の写真をアルバムに入れました。",
+        "zh": "我把旅行照片放進相簿。"
       }
     ]
   },
@@ -13576,8 +14157,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはインキです。",
-        "zh": "這是「墨水」。"
+        "ja": "ペンのインキがなくなりました。",
+        "zh": "筆的墨水用完了。"
       }
     ]
   },
@@ -13586,8 +14167,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはインクです。",
-        "zh": "這是「墨水、油墨、醮墨水」。"
+        "ja": "プリンターのインクを交換しました。",
+        "zh": "我換了印表機墨水。"
       }
     ]
   },
@@ -13596,8 +14177,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカードです。",
-        "zh": "這是「卡片」。"
+        "ja": "図書館のカードを作りました。",
+        "zh": "我辦了圖書館卡。"
       }
     ]
   },
@@ -13606,8 +14187,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカーペットです。",
-        "zh": "這是「地午」。"
+        "ja": "床に新しいカーペットを敷きました。",
+        "zh": "我在地板鋪了新地毯。"
       }
     ]
   },
@@ -13616,8 +14197,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは家電製品です。",
-        "zh": "這是「家用電器」。"
+        "ja": "家電製品は保証書を保管してください。",
+        "zh": "家電產品請保管保固書。"
       }
     ]
   },
@@ -13626,8 +14207,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは金植です。",
-        "zh": "這是「釘鍾、榔頭、早鴨子」。"
+        "ja": "金槌で釘を打ちました。",
+        "zh": "我用鐵鎚敲釘子。"
       }
     ]
   },
@@ -13636,8 +14217,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはクーラーです。",
-        "zh": "這是「冷氣設備」。"
+        "ja": "暑いのでクーラーをつけました。",
+        "zh": "因為很熱，所以開了冷氣。"
       }
     ]
   },
@@ -13646,8 +14227,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは定規です。",
-        "zh": "這是「尺、規尺、標準」。"
+        "ja": "定規で線を引いてください。",
+        "zh": "請用尺畫線。"
       }
     ]
   },
@@ -13656,8 +14237,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは炊飯器です。",
-        "zh": "這是「電子鋼同蟬」。"
+        "ja": "炊飯器でご飯を炊きました。",
+        "zh": "我用電子鍋煮了飯。"
       }
     ]
   },
@@ -13666,8 +14247,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは瀬戸物です。",
-        "zh": "這是「陶瓷品」。"
+        "ja": "瀬戸物の茶わんを割ってしまいました。",
+        "zh": "不小心打破了陶瓷碗。"
       }
     ]
   },
@@ -13676,8 +14257,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは扇風機です。",
-        "zh": "這是「風扇、電選」。"
+        "ja": "扇風機を窓の近くに置きました。",
+        "zh": "我把電風扇放在窗戶附近。"
       }
     ]
   },
@@ -13686,8 +14267,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは掃除機です。",
-        "zh": "這是「除塵機、吸塵器」。"
+        "ja": "掃除機で部屋を掃除しました。",
+        "zh": "我用吸塵器打掃房間。"
       }
     ]
   },
@@ -13696,8 +14277,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはソファーです。",
-        "zh": "這是「沙發」。"
+        "ja": "ソファーに座って映画を見ました。",
+        "zh": "我坐在沙發上看電影。"
       }
     ]
   },
@@ -13706,8 +14287,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはチョークです。",
-        "zh": "這是「粉筆」。"
+        "ja": "黒板にチョークで名前を書きました。",
+        "zh": "我用粉筆在黑板上寫名字。"
       }
     ]
   },
@@ -13716,8 +14297,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは手帳です。",
-        "zh": "這是「筆記本、雑記本」。"
+        "ja": "予定を手帳に書きました。",
+        "zh": "我把行程寫在手帳裡。"
       }
     ]
   },
@@ -13726,8 +14307,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはトースターです。",
-        "zh": "這是「烤麵包機生」。"
+        "ja": "トースターでパンを焼きます。",
+        "zh": "用烤麵包機烤麵包。"
       }
     ]
   },
@@ -13736,8 +14317,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは灸です。",
-        "zh": "這是「剪刀、剪票鉗頁」。"
+        "ja": "はさみで紙を半分に切りました。",
+        "zh": "我用剪刀把紙剪成一半。"
       }
     ]
   },
@@ -13746,8 +14327,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはヒーターです。",
-        "zh": "這是「裝暖氣」。"
+        "ja": "寒いのでヒーターをつけました。",
+        "zh": "因為很冷，所以開了暖爐。"
       }
     ]
   },
@@ -13756,8 +14337,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは便箋です。",
-        "zh": "這是「信紙、便箋」。"
+        "ja": "便箋に短い手紙を書きました。",
+        "zh": "我在信紙上寫了一封短信。"
       }
     ]
   },
@@ -13766,8 +14347,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは文房具です。",
-        "zh": "這是「文具、文房四寶」。"
+        "ja": "文房具を引き出しにしまいました。",
+        "zh": "我把文具收進抽屜。"
       }
     ]
   },
@@ -13776,8 +14357,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはミシンです。",
-        "zh": "這是「縫紉機、着物縫上」。"
+        "ja": "母はミシンで服を直しました。",
+        "zh": "媽媽用縫紉機修改衣服。"
       }
     ]
   },
@@ -13786,8 +14367,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水筒です。",
-        "zh": "這是「水筒、水壺」。"
+        "ja": "水筒にお茶を入れて持って行きます。",
+        "zh": "我把茶裝進水壺帶去。"
       }
     ]
   },
@@ -13796,8 +14377,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは瓶です。",
-        "zh": "這是「瓶子」。"
+        "ja": "空き瓶をリサイクルに出しました。",
+        "zh": "我把空瓶拿去回收。"
       }
     ]
   },
@@ -13806,8 +14387,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはロッカーです。",
-        "zh": "這是「置物櫃」。"
+        "ja": "荷物をロッカーに入れました。",
+        "zh": "我把行李放進置物櫃。"
       }
     ]
   },
@@ -13816,8 +14397,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは懐中電灯です。",
-        "zh": "這是「手電筒」。"
+        "ja": "停電に備えて懐中電灯を用意しました。",
+        "zh": "為了因應停電，準備了手電筒。"
       }
     ]
   },
@@ -13826,8 +14407,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカセットです。",
-        "zh": "這是「加小暗含、録音磁帯録音」。"
+        "ja": "昔のカセットを久しぶりに聞きました。",
+        "zh": "久違地聽了以前的卡帶。"
       }
     ]
   },
@@ -13836,8 +14417,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは画面です。",
-        "zh": "這是「書麵、照片、相片、畫麵、鏡豆」。"
+        "ja": "画面を見ながら説明を聞いてください。",
+        "zh": "請一邊看畫面一邊聽說明。"
       }
     ]
   },
@@ -13846,8 +14427,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは蛍光灯です。",
-        "zh": "這是「螢光燈、日光燈」。"
+        "ja": "蛍光灯が切れたので交換しました。",
+        "zh": "螢光燈壞了，所以換掉了。"
       }
     ]
   },
@@ -13856,8 +14437,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは携帯です。",
-        "zh": "這是「手機、攜帶」。"
+        "ja": "携帯を家に忘れてしまいました。",
+        "zh": "我把手機忘在家裡了。"
       }
     ]
   },
@@ -13866,8 +14447,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはテープです。",
-        "zh": "這是「窄帶、線帶、布帶、卷尺、錄音帶」。"
+        "ja": "箱をテープでとめました。",
+        "zh": "我用膠帶封住箱子。"
       }
     ]
   },
@@ -13876,18 +14457,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはディスプレイです。",
-        "zh": "這是「陳列、展覧題示、題示器」。"
+        "ja": "新しいディスプレイは画面が大きいです。",
+        "zh": "新的顯示器畫面很大。"
       }
     ]
   },
   "n3_1146": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "停電する",
+      "masu": "停電します",
+      "te": "停電して",
+      "ta": "停電した",
+      "nai": "停電しない"
+    },
     "examples": [
       {
-        "ja": "これは停電です。",
-        "zh": "這是「停電停止供電」。"
+        "ja": "台風で町全体が停電しました。",
+        "zh": "因為颱風，整個城鎮停電了。"
       }
     ]
   },
@@ -13896,8 +14488,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはデジタルです。",
-        "zh": "這是「數位的、數字的、計量的」。"
+        "ja": "デジタルの時計を買いました。",
+        "zh": "我買了數位時鐘。"
       }
     ]
   },
@@ -13906,8 +14498,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電球です。",
-        "zh": "這是「電燈泡」。"
+        "ja": "電球を明るいものに替えました。",
+        "zh": "我把燈泡換成比較亮的。"
       }
     ]
   },
@@ -13916,8 +14508,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはハードディスクです。",
-        "zh": "這是「硬森」。"
+        "ja": "パソコンのハードディスクを交換しました。",
+        "zh": "我更換了電腦硬碟。"
       }
     ]
   },
@@ -13926,8 +14518,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはビデオです。",
-        "zh": "這是「影像、錄影、錄影機、錄影帶」。"
+        "ja": "子どものころのビデオを見ました。",
+        "zh": "我看了小時候的錄影。"
       }
     ]
   },
@@ -13936,8 +14528,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはファックスです。",
-        "zh": "這是「傳真」。"
+        "ja": "書類をファックスで送りました。",
+        "zh": "我用傳真寄了文件。"
       }
     ]
   },
@@ -13946,8 +14538,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプリンターです。",
-        "zh": "這是「印表機、印相片機」。"
+        "ja": "プリンターで資料を印刷しました。",
+        "zh": "我用印表機列印資料。"
       }
     ]
   },
@@ -13956,18 +14548,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはライトです。",
-        "zh": "這是「燈光」。"
+        "ja": "机の上のライトをつけました。",
+        "zh": "我打開了桌上的燈。"
       }
     ]
   },
   "n3_1154": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "録画する",
+      "masu": "録画します",
+      "te": "録画して",
+      "ta": "録画した",
+      "nai": "録画しない"
+    },
     "examples": [
       {
-        "ja": "これは録画です。",
-        "zh": "這是「旬錄影」。"
+        "ja": "番組を録画して後で見ます。",
+        "zh": "我會把節目錄下來之後看。"
       }
     ]
   },
@@ -13976,48 +14579,81 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはオフィスです。",
-        "zh": "這是「辦公室、辦事處、公司政府機関」。"
+        "ja": "午前九時にオフィスへ着きました。",
+        "zh": "上午九點到了辦公室。"
       }
     ]
   },
   "n3_1156": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお目に掛かるです。",
-        "zh": "這是「拜見、見到」。"
+        "ja": "先生にお目に掛かれて光栄です。",
+        "zh": "能見到老師我很榮幸。"
       }
     ]
   },
   "n3_1157": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "片付く",
+      "masu": "片付きます",
+      "te": "片付いて",
+      "ta": "片付いた",
+      "nai": "片付かない"
+    },
     "examples": [
       {
-        "ja": "これは片付くです。",
-        "zh": "這是「収拾、整理好、得到解決、處裡好」。"
+        "ja": "部屋がやっと片付きました。",
+        "zh": "房間終於整理好了。"
       }
     ]
   },
   "n3_1158": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "残業する",
+      "masu": "残業します",
+      "te": "残業して",
+      "ta": "残業した",
+      "nai": "残業しない"
+    },
     "examples": [
       {
-        "ja": "これは残業です。",
-        "zh": "這是「計加班作」。"
+        "ja": "今日は二時間残業しました。",
+        "zh": "今天加班了兩小時。"
       }
     ]
   },
   "n3_1159": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "失業する",
+      "masu": "失業します",
+      "te": "失業して",
+      "ta": "失業した",
+      "nai": "失業しない"
+    },
     "examples": [
       {
-        "ja": "これは和失業です。",
-        "zh": "這是「邊失業」。"
+        "ja": "父は会社が倒産して失業しました。",
+        "zh": "爸爸因為公司倒閉而失業了。"
       }
     ]
   },
@@ -14026,38 +14662,71 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは上司です。",
-        "zh": "這是「上司、工作上的主管」。"
+        "ja": "上司に資料を確認してもらいました。",
+        "zh": "請主管幫我確認了資料。"
       }
     ]
   },
   "n3_1161": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "済ます",
+      "masu": "済まします",
+      "te": "済まして",
+      "ta": "済ました",
+      "nai": "済まさない"
+    },
     "examples": [
       {
-        "ja": "これは済ますです。",
-        "zh": "這是「完成、辦完」。"
+        "ja": "用事を早く済ませて帰ります。",
+        "zh": "我會早點辦完事情回家。"
       }
     ]
   },
   "n3_1162": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "済ませる",
+      "masu": "済ませます",
+      "te": "済ませて",
+      "ta": "済ませた",
+      "nai": "済ませない"
+    },
     "examples": [
       {
-        "ja": "これは済ませるです。",
-        "zh": "這是「弄完辦完、償還、還清、將詢、手続済」。"
+        "ja": "支払いを今日中に済ませます。",
+        "zh": "今天之內會把付款辦完。"
       }
     ]
   },
   "n3_1163": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "退職する",
+      "masu": "退職します",
+      "te": "退職して",
+      "ta": "退職した",
+      "nai": "退職しない"
+    },
     "examples": [
       {
-        "ja": "これは退職です。",
-        "zh": "這是「退休、離職」。"
+        "ja": "祖父は六十五歳で退職しました。",
+        "zh": "祖父六十五歲退休。"
       }
     ]
   },
@@ -14066,8 +14735,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは働きです。",
-        "zh": "這是「勞動工作、作用、功效、功勞、功續、功能、機能」。"
+        "ja": "この薬の働きを説明します。",
+        "zh": "說明這個藥的作用。"
       }
     ]
   },
@@ -14076,28 +14745,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは名刺です。",
-        "zh": "這是「名片」。"
+        "ja": "初対面の人と名刺を交換しました。",
+        "zh": "和第一次見面的人交換了名片。"
       }
     ]
   },
   "n3_1166": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "命令する",
+      "masu": "命令します",
+      "te": "命令して",
+      "ta": "命令した",
+      "nai": "命令しない"
+    },
     "examples": [
       {
-        "ja": "これは命令です。",
-        "zh": "這是「命令、規定、指令、回命令受」。"
+        "ja": "医者の命令を守って休みました。",
+        "zh": "遵守醫師的指示休息了。"
       }
     ]
   },
   "n3_1167": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "面接する",
+      "masu": "面接します",
+      "te": "面接して",
+      "ta": "面接した",
+      "nai": "面接しない"
+    },
     "examples": [
       {
-        "ja": "これは面接です。",
-        "zh": "這是「試、接見會麵」。"
+        "ja": "明日アルバイトの面接があります。",
+        "zh": "明天有打工面試。"
       }
     ]
   },
@@ -14106,18 +14797,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは戻りです。",
-        "zh": "這是「恢復原狀、回家、歸途」。"
+        "ja": "駅からの戻りにスーパーへ寄りました。",
+        "zh": "從車站回來的路上去了超市。"
       }
     ]
   },
   "n3_1169": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "役に立てる",
+      "masu": "役に立てます",
+      "te": "役に立てて",
+      "ta": "役に立てた",
+      "nai": "役に立てない"
+    },
     "examples": [
       {
-        "ja": "これは役に立てるです。",
-        "zh": "這是「使用、使...有用」。"
+        "ja": "自分の経験を仕事に役に立てたいです。",
+        "zh": "我想把自己的經驗用在工作上。"
       }
     ]
   },
@@ -14126,8 +14828,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはレベルです。",
-        "zh": "這是「水平水準、水平線、水平儀」。"
+        "ja": "日本語のレベルを上げたいです。",
+        "zh": "我想提升日文程度。"
       }
     ]
   },
@@ -14136,8 +14838,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは割り当てです。",
-        "zh": "這是「分配、分派」。"
+        "ja": "仕事の割り当てを確認しました。",
+        "zh": "我確認了工作的分配。"
       }
     ]
   },
@@ -14146,8 +14848,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアナウンサーです。",
-        "zh": "這是「播音員、主播」。"
+        "ja": "アナウンサーがニュースを読みました。",
+        "zh": "主播播報了新聞。"
       }
     ]
   },
@@ -14156,8 +14858,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは運転士です。",
-        "zh": "這是「司機、駕駛員、船員」。"
+        "ja": "運転士は安全を確認して発車しました。",
+        "zh": "駕駛員確認安全後發車。"
       }
     ]
   },
@@ -14166,8 +14868,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは駅員です。",
-        "zh": "這是「車站工作人員站務員、回膠員間」。"
+        "ja": "駅員に乗り換えを聞きました。",
+        "zh": "我向站務員詢問轉乘方式。"
       }
     ]
   },
@@ -14176,8 +14878,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはエンジニアです。",
-        "zh": "這是「工程師、技師」。"
+        "ja": "兄はシステムエンジニアです。",
+        "zh": "哥哥是系統工程師。"
       }
     ]
   },
@@ -14186,8 +14888,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは音楽家です。",
-        "zh": "這是「音樂家」。"
+        "ja": "音楽家として海外でも活動しています。",
+        "zh": "他以音樂家的身分也在海外活動。"
       }
     ]
   },
@@ -14196,8 +14898,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは画家です。",
-        "zh": "這是「畫家」。"
+        "ja": "その画家の絵は色が美しいです。",
+        "zh": "那位畫家的畫顏色很美。"
       }
     ]
   },
@@ -14206,18 +14908,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカメラマンです。",
-        "zh": "這是「攝影師、攝影記者」。"
+        "ja": "カメラマンが結婚式の写真を撮りました。",
+        "zh": "攝影師拍了婚禮照片。"
       }
     ]
   },
   "n3_1179": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは業です。",
-        "zh": "這是「性在金融業工作」。"
+        "ja": "父は建設業で働いています。",
+        "zh": "爸爸在建設業工作。"
       }
     ]
   },
@@ -14226,8 +14928,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは警察官です。",
-        "zh": "這是「警察官警官」。"
+        "ja": "警察官が道を案内してくれました。",
+        "zh": "警察幫我指路。"
       }
     ]
   },
@@ -14236,8 +14938,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは建築家です。",
-        "zh": "這是「建築師」。"
+        "ja": "建築家に家の設計を頼みました。",
+        "zh": "請建築師設計房子。"
       }
     ]
   },
@@ -14246,8 +14948,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは作曲家です。",
-        "zh": "這是「作曲家、創作樂曲的人」。"
+        "ja": "有名な作曲家の曲を演奏しました。",
+        "zh": "演奏了知名作曲家的曲子。"
       }
     ]
   },
@@ -14256,8 +14958,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは自営業です。",
-        "zh": "這是「獨立經營、獨資」。"
+        "ja": "叔父は自営業で店を開いています。",
+        "zh": "叔叔自行開業，經營一家店。"
       }
     ]
   },
@@ -14266,8 +14968,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは車掌です。",
-        "zh": "這是「車掌列車貞」。"
+        "ja": "車掌が切符を確認しました。",
+        "zh": "列車長確認了車票。"
       }
     ]
   },
@@ -14276,8 +14978,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは巡査です。",
-        "zh": "這是「巡警」。"
+        "ja": "巡査が交番の前に立っています。",
+        "zh": "巡警站在派出所前。"
       }
     ]
   },
@@ -14286,8 +14988,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは女優です。",
-        "zh": "這是「女演員」。"
+        "ja": "彼女は人気の女優です。",
+        "zh": "她是很受歡迎的女演員。"
       }
     ]
   },
@@ -14296,8 +14998,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは政治家です。",
-        "zh": "這是「政治家、從事政治的人」。"
+        "ja": "その政治家は教育問題に詳しいです。",
+        "zh": "那位政治家熟悉教育問題。"
       }
     ]
   },
@@ -14306,8 +15008,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは大工です。",
-        "zh": "這是「木匠、木工」。"
+        "ja": "大工が棚を作ってくれました。",
+        "zh": "木匠幫我做了架子。"
       }
     ]
   },
@@ -14316,8 +15018,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはデザイナーです。",
-        "zh": "這是「設計師、圖案家」。"
+        "ja": "デザイナーにロゴを依頼しました。",
+        "zh": "我委託設計師設計標誌。"
       }
     ]
   },
@@ -14326,8 +15028,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは農家です。",
-        "zh": "這是「農民、農戸、農民的家上」。"
+        "ja": "農家の人から野菜を買いました。",
+        "zh": "我向農家買了蔬菜。"
       }
     ]
   },
@@ -14336,8 +15038,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは俳優です。",
-        "zh": "這是「演員」。"
+        "ja": "好きな俳優が新しい映画に出ます。",
+        "zh": "喜歡的演員會出演新電影。"
       }
     ]
   },
@@ -14346,8 +15048,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパイロットです。",
-        "zh": "這是「領航員、飛行駕駛只、實驗性的」。"
+        "ja": "兄はパイロットを目指しています。",
+        "zh": "哥哥以成為飛行員為目標。"
       }
     ]
   },
@@ -14356,8 +15058,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはピアニストです。",
-        "zh": "這是「鍋琴師、鋼琴家、回方演圧」。"
+        "ja": "彼女は有名なピアニストです。",
+        "zh": "她是知名鋼琴家。"
       }
     ]
   },
@@ -14366,8 +15068,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは美容師です。",
-        "zh": "這是「美容師、美髮師」。"
+        "ja": "美容師に髪を短く切ってもらいました。",
+        "zh": "請美髮師把頭髮剪短。"
       }
     ]
   },
@@ -14376,8 +15078,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはフライトアテンダントです。",
-        "zh": "這是「空服員」。"
+        "ja": "フライトアテンダントが飲み物を配りました。",
+        "zh": "空服員發了飲料。"
       }
     ]
   },
@@ -14386,8 +15088,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプロです。",
-        "zh": "這是「專業人士、職業選手」。"
+        "ja": "彼は料理のプロです。",
+        "zh": "他是料理的專業人士。"
       }
     ]
   },
@@ -14396,8 +15098,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは保育士です。",
-        "zh": "這是「保育士、幼保人員」。"
+        "ja": "保育士が子どもたちを見守っています。",
+        "zh": "保育士照顧著孩子們。"
       }
     ]
   },
@@ -14406,8 +15108,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはミュージシャンです。",
-        "zh": "這是「音樂家」。"
+        "ja": "友人はジャズミュージシャンです。",
+        "zh": "朋友是爵士音樂家。"
       }
     ]
   },
@@ -14416,8 +15118,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは漁師です。",
-        "zh": "這是「漁夫、漁民」。"
+        "ja": "漁師は朝早く海に出ます。",
+        "zh": "漁夫一大早就出海。"
       }
     ]
   },
@@ -14426,68 +15128,134 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは片付けです。",
-        "zh": "這是「整理、整頓、收拾」。"
+        "ja": "食事の後で片付けを手伝いました。",
+        "zh": "飯後幫忙收拾。"
       }
     ]
   },
   "n3_1201": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "乾かす",
+      "masu": "乾かします",
+      "te": "乾かして",
+      "ta": "乾かした",
+      "nai": "乾かさない"
+    },
     "examples": [
       {
-        "ja": "これは乾かすです。",
-        "zh": "這是「曬乾、晾乾、烤乾」。"
+        "ja": "雨でぬれた靴を玄関で乾かしました。",
+        "zh": "我在玄關把被雨淋濕的鞋子弄乾。"
       }
     ]
   },
   "n3_1202": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "裁縫する",
+      "masu": "裁縫します",
+      "te": "裁縫して",
+      "ta": "裁縫した",
+      "nai": "裁縫しない"
+    },
     "examples": [
       {
-        "ja": "これは裁疑です。",
-        "zh": "這是「裁縫縫紉」。"
+        "ja": "祖母は裁縫がとても上手です。",
+        "zh": "祖母很擅長裁縫。"
       }
     ]
   },
   "n3_1203": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "畳む",
+      "masu": "畳みます",
+      "te": "畳んで",
+      "ta": "畳んだ",
+      "nai": "畳まない"
+    },
     "examples": [
       {
-        "ja": "これは畳むです。",
-        "zh": "這是「柚折、開、閣上、開閉結束、藏在心裡」。"
+        "ja": "洗濯物を畳んで棚にしまいました。",
+        "zh": "我把洗好的衣服摺好收進架子。"
       }
     ]
   },
   "n3_1204": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "詰める",
+      "masu": "詰めます",
+      "te": "詰めて",
+      "ta": "詰めた",
+      "nai": "詰めない"
+    },
     "examples": [
       {
-        "ja": "これは詰めるです。",
-        "zh": "這是「塞進、縮短、守候」。"
+        "ja": "かばんに荷物を詰めすぎました。",
+        "zh": "我在包包裡塞太多東西了。"
       }
     ]
   },
   "n3_1205": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "縫う",
+      "masu": "縫います",
+      "te": "縫って",
+      "ta": "縫った",
+      "nai": "縫わない"
+    },
     "examples": [
       {
-        "ja": "これは縫うです。",
-        "zh": "這是「縫、縫補、刺繡、穿過、穿行、縫合」。"
+        "ja": "破れた袖を自分で縫いました。",
+        "zh": "我自己把破掉的袖子縫好了。"
       }
     ]
   },
   "n3_1206": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "工事する",
+      "masu": "工事します",
+      "te": "工事して",
+      "ta": "工事した",
+      "nai": "工事しない"
+    },
     "examples": [
       {
-        "ja": "これは工事です。",
-        "zh": "這是「時工程、工事」。"
+        "ja": "駅前で道路工事をしています。",
+        "zh": "車站前正在進行道路施工。"
       }
     ]
   },
@@ -14496,8 +15264,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはサンプルです。",
-        "zh": "這是「所也疙樣品、樣本」。"
+        "ja": "化粧品のサンプルをもらいました。",
+        "zh": "我拿到了化妝品樣品。"
       }
     ]
   },
@@ -14506,18 +15274,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは農業です。",
-        "zh": "這是「農耕、農業」。"
+        "ja": "この町では農業が盛んです。",
+        "zh": "這個城鎮農業很興盛。"
       }
     ]
   },
   "n3_1209": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "交ざる",
+      "masu": "交ざります",
+      "te": "交ざって",
+      "ta": "交ざった",
+      "nai": "交ざらない"
+    },
     "examples": [
       {
-        "ja": "これは交ざるです。",
-        "zh": "這是「混雜、交雜、夾雜」。"
+        "ja": "白い米に玄米が少し交ざっています。",
+        "zh": "白米裡夾雜著一些糙米。"
       }
     ]
   },
@@ -14526,8 +15305,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは回数券です。",
-        "zh": "這是「回數票」。"
+        "ja": "通勤のためにバスの回数券を買いました。",
+        "zh": "為了通勤買了公車回數票。"
       }
     ]
   },
@@ -14536,8 +15315,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはセットです。",
-        "zh": "這是「一組、一套」。"
+        "ja": "コーヒーとケーキのセットを注文しました。",
+        "zh": "我點了咖啡和蛋糕的套餐。"
       }
     ]
   },
@@ -14546,8 +15325,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプランドです。",
-        "zh": "這是「牌子、商標」。"
+        "ja": "このブランドの靴は丈夫です。",
+        "zh": "這個品牌的鞋子很耐穿。"
       }
     ]
   },
@@ -14556,18 +15335,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプリペイドカードです。",
-        "zh": "這是「預付卡」。"
+        "ja": "駅でプリペイドカードにお金を入れました。",
+        "zh": "我在車站替預付卡加值。"
       }
     ]
   },
   "n3_1214": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "両替する",
+      "masu": "両替します",
+      "te": "両替して",
+      "ta": "両替した",
+      "nai": "両替しない"
+    },
     "examples": [
       {
-        "ja": "これは両替です。",
-        "zh": "這是「衝季吃兌換、換錢、兌幣」。"
+        "ja": "空港で円をドルに両替しました。",
+        "zh": "我在機場把日圓換成美元。"
       }
     ]
   },
@@ -14576,8 +15366,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはレシートです。",
-        "zh": "這是「收據、發票、國選芝一下在也必。人」。"
+        "ja": "返品にはレシートが必要です。",
+        "zh": "退貨需要收據。"
       }
     ]
   },
@@ -14586,8 +15376,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは貸しです。",
-        "zh": "這是「借出、貸款、貸方給別人的思恵」。"
+        "ja": "この前の貸しはいつか返してね。",
+        "zh": "上次欠我的人情哪天要還喔。"
       }
     ]
   },
@@ -14596,58 +15386,91 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは貸し賃です。",
-        "zh": "這是「租金、賃費」。"
+        "ja": "道具の貸し賃を先に払いました。",
+        "zh": "我先付了工具的出租費。"
       }
     ]
   },
   "n3_1218": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "支出する",
+      "masu": "支出します",
+      "te": "支出して",
+      "ta": "支出した",
+      "nai": "支出しない"
+    },
     "examples": [
       {
-        "ja": "これは支出です。",
-        "zh": "這是「開支支出」。"
+        "ja": "今月の支出を表にまとめました。",
+        "zh": "我把這個月的支出整理成表格。"
       }
     ]
   },
   "n3_1219": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは助です。",
-        "zh": "這是「幫助、協助」。"
+        "ja": "助動詞の使い方を復習しました。",
+        "zh": "我複習了助動詞的用法。"
       }
     ]
   },
   "n3_1220": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはただです。",
-        "zh": "這是「免費、普通、只是」。"
+        "ja": "このイベントはただで参加できます。",
+        "zh": "這個活動可以免費參加。"
       }
     ]
   },
   "n3_1221": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "値上がりする",
+      "masu": "値上がりします",
+      "te": "値上がりして",
+      "ta": "値上がりした",
+      "nai": "値上がりしない"
+    },
     "examples": [
       {
-        "ja": "これは値上がりです。",
-        "zh": "這是「價格上漲、漲價」。"
+        "ja": "野菜の値上がりで食費が増えました。",
+        "zh": "因為蔬菜漲價，餐費增加了。"
       }
     ]
   },
   "n3_1222": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "値上げする",
+      "masu": "値上げします",
+      "te": "値上げして",
+      "ta": "値上げした",
+      "nai": "値上げしない"
+    },
     "examples": [
       {
-        "ja": "これは値上げです。",
-        "zh": "這是「提高價格、漲價」。"
+        "ja": "店は来月から商品の値上げをします。",
+        "zh": "店家下個月開始調漲商品價格。"
       }
     ]
   },
@@ -14656,8 +15479,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはボーナスです。",
-        "zh": "這是「特別紅利、花紅、獎金、額外津貼、紅利」。"
+        "ja": "冬のボーナスで新しいパソコンを買いました。",
+        "zh": "我用冬季獎金買了新電腦。"
       }
     ]
   },
@@ -14666,18 +15489,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは衣料費です。",
-        "zh": "這是「服裝費」。"
+        "ja": "毎月の衣料費を少し減らしたいです。",
+        "zh": "我想稍微減少每月的服裝費。"
       }
     ]
   },
   "n3_1225": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "納める",
+      "masu": "納めます",
+      "te": "納めて",
+      "ta": "納めた",
+      "nai": "納めない"
+    },
     "examples": [
       {
-        "ja": "これは納めるです。",
-        "zh": "這是「交、繳納」。"
+        "ja": "税金を期限までに納めてください。",
+        "zh": "請在期限前繳納稅金。"
       }
     ]
   },
@@ -14686,8 +15520,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは学費です。",
-        "zh": "這是「學費」。"
+        "ja": "大学の学費をアルバイトで貯めています。",
+        "zh": "我靠打工存大學學費。"
       }
     ]
   },
@@ -14696,8 +15530,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは薬代です。",
-        "zh": "這是「藥費」。"
+        "ja": "今月は薬代がいつもより高かったです。",
+        "zh": "這個月的藥費比平常高。"
       }
     ]
   },
@@ -14706,8 +15540,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは交際費です。",
-        "zh": "這是「應酬費用」。"
+        "ja": "会社の交際費は領収書が必要です。",
+        "zh": "公司的交際費需要收據。"
       }
     ]
   },
@@ -14716,8 +15550,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは交通費です。",
-        "zh": "這是「交通費、交通花費」。"
+        "ja": "交通費は会社が出してくれます。",
+        "zh": "交通費由公司支付。"
       }
     ]
   },
@@ -14726,8 +15560,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは光熱費です。",
-        "zh": "這是「電費和瓦斯費等」。"
+        "ja": "冬は光熱費が高くなります。",
+        "zh": "冬天水電瓦斯費會變高。"
       }
     ]
   },
@@ -14736,8 +15570,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは住居費です。",
-        "zh": "這是「久住宅費、居住費和」。"
+        "ja": "家計の中で住居費が一番大きいです。",
+        "zh": "家計中居住費最大。"
       }
     ]
   },
@@ -14746,8 +15580,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは修理代です。",
-        "zh": "這是「修理費」。"
+        "ja": "自転車の修理代が五千円かかりました。",
+        "zh": "腳踏車修理費花了五千日圓。"
       }
     ]
   },
@@ -14756,8 +15590,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは授業料です。",
-        "zh": "這是「學費經」。"
+        "ja": "授業料は月末までに払ってください。",
+        "zh": "請在月底前繳授課費。"
       }
     ]
   },
@@ -14766,8 +15600,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは使用料です。",
-        "zh": "這是「使用費」。"
+        "ja": "会議室の使用料を受付で払いました。",
+        "zh": "我在櫃台付了會議室使用費。"
       }
     ]
   },
@@ -14776,8 +15610,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食事代です。",
-        "zh": "這是「餐費、飯錢」。"
+        "ja": "今日の食事代は私が払います。",
+        "zh": "今天的餐費我來付。"
       }
     ]
   },
@@ -14786,8 +15620,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食費です。",
-        "zh": "這是「伙食費、飯錢」。"
+        "ja": "一人暮らしを始めて食費が増えました。",
+        "zh": "開始一個人住之後餐費增加了。"
       }
     ]
   },
@@ -14796,8 +15630,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水道代です。",
-        "zh": "這是「水費」。"
+        "ja": "水道代をコンビニで払いました。",
+        "zh": "我在便利商店繳了水費。"
       }
     ]
   },
@@ -14806,8 +15640,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水道料金です。",
-        "zh": "這是「水費」。"
+        "ja": "水道料金の請求書が届きました。",
+        "zh": "水費帳單寄來了。"
       }
     ]
   },
@@ -14816,8 +15650,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは生活費です。",
-        "zh": "這是「生活費、生活開銷」。"
+        "ja": "留学中の生活費を計算しました。",
+        "zh": "我計算了留學期間的生活費。"
       }
     ]
   },
@@ -14826,8 +15660,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは税金です。",
-        "zh": "這是「税金、税款」。"
+        "ja": "給料から税金が引かれます。",
+        "zh": "薪水會扣稅金。"
       }
     ]
   },
@@ -14836,8 +15670,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは送料です。",
-        "zh": "這是「郵費、運費」。"
+        "ja": "送料込みで二千円です。",
+        "zh": "含運費是兩千日圓。"
       }
     ]
   },
@@ -14846,8 +15680,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは手数料です。",
-        "zh": "這是「手續費、回扣、遼手數料」。"
+        "ja": "振り込みには手数料がかかります。",
+        "zh": "匯款會產生手續費。"
       }
     ]
   },
@@ -14856,8 +15690,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電気代です。",
-        "zh": "這是「電費」。"
+        "ja": "今月の電気代は去年より安いです。",
+        "zh": "這個月電費比去年便宜。"
       }
     ]
   },
@@ -14866,8 +15700,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電気料金です。",
-        "zh": "這是「電費」。"
+        "ja": "電気料金をスマホで確認しました。",
+        "zh": "我用手機確認了電費。"
       }
     ]
   },
@@ -14876,8 +15710,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電車代です。",
-        "zh": "這是「電車費用」。"
+        "ja": "駅までの電車代はいくらですか。",
+        "zh": "到車站的電車費是多少？"
       }
     ]
   },
@@ -14886,8 +15720,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電車賃です。",
-        "zh": "這是「電車費用」。"
+        "ja": "電車賃を節約するために自転車で通っています。",
+        "zh": "為了節省電車車資，我都騎腳踏車通勤。"
       }
     ]
   },
@@ -14896,8 +15730,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは電話代です。",
-        "zh": "這是「電話費」。"
+        "ja": "国際電話の電話代が高くなりました。",
+        "zh": "國際電話的電話費變高了。"
       }
     ]
   },
@@ -14906,8 +15740,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは入場料です。",
-        "zh": "這是「入場蒼、鈴坦費」。"
+        "ja": "この美術館の入場料は千円です。",
+        "zh": "這間美術館的入場費是一千日圓。"
       }
     ]
   },
@@ -14916,8 +15750,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは部屋代です。",
-        "zh": "這是「房租、住宿費」。"
+        "ja": "ホテルの部屋代を先に払いました。",
+        "zh": "我先付了飯店住宿費。"
       }
     ]
   },
@@ -14926,8 +15760,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは本代です。",
-        "zh": "這是「到買書錢」。"
+        "ja": "今月は本代だけで一万円使いました。",
+        "zh": "這個月光書費就花了一萬日圓。"
       }
     ]
   },
@@ -14936,8 +15770,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは家賃です。",
-        "zh": "這是「房租」。"
+        "ja": "家賃は毎月二十五日に払います。",
+        "zh": "房租每月二十五日繳。"
       }
     ]
   },
@@ -14946,8 +15780,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは郵送料です。",
-        "zh": "這是「郵費」。"
+        "ja": "海外への郵送料を調べました。",
+        "zh": "我查了寄到海外的郵資。"
       }
     ]
   },
@@ -14956,18 +15790,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは洋服代です。",
-        "zh": "這是「服裝費」。"
+        "ja": "洋服代を抑えるためにセールを利用します。",
+        "zh": "為了控制買衣服的錢，我會利用特價。"
       }
     ]
   },
   "n3_1254": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "預ける",
+      "masu": "預けます",
+      "te": "預けて",
+      "ta": "預けた",
+      "nai": "預けない"
+    },
     "examples": [
       {
-        "ja": "これは預けるです。",
-        "zh": "這是「寄放、存放、委託、託付」。"
+        "ja": "旅行中は犬を友人に預けました。",
+        "zh": "旅行時把狗託給朋友照顧。"
       }
     ]
   },
@@ -14976,8 +15821,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは金です。",
-        "zh": "這是「金屬、錢、金錢」。"
+        "ja": "財布に金がほとんど残っていません。",
+        "zh": "錢包裡幾乎沒有錢了。"
       }
     ]
   },
@@ -14986,8 +15831,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは小銭です。",
-        "zh": "這是「零錢、零用錢、少量資金」。"
+        "ja": "自動販売機で使う小銭を用意しました。",
+        "zh": "我準備了投販賣機用的零錢。"
       }
     ]
   },
@@ -14996,28 +15841,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは賞金です。",
-        "zh": "這是「賞金、獎金」。"
+        "ja": "大会で優勝して賞金をもらいました。",
+        "zh": "在比賽中奪冠後拿到了賞金。"
       }
     ]
   },
   "n3_1258": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "溜める",
+      "masu": "溜めます",
+      "te": "溜めて",
+      "ta": "溜めた",
+      "nai": "溜めない"
+    },
     "examples": [
       {
-        "ja": "これは溜めるです。",
-        "zh": "這是「積、存、鞭、積磨停滞」。"
+        "ja": "疲れを溜めないように早く寝ます。",
+        "zh": "為了不要累積疲勞，我會早點睡。"
       }
     ]
   },
   "n3_1259": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "貯金する",
+      "masu": "貯金します",
+      "te": "貯金して",
+      "ta": "貯金した",
+      "nai": "貯金しない"
+    },
     "examples": [
       {
-        "ja": "これは貯金です。",
-        "zh": "這是「存款、儲蓄」。"
+        "ja": "将来のために毎月貯金しています。",
+        "zh": "為了將來每個月都在存錢。"
       }
     ]
   },
@@ -15026,18 +15893,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは県庁です。",
-        "zh": "這是「縣政府」。"
+        "ja": "県庁で必要な書類を受け取りました。",
+        "zh": "我在縣政府領了必要文件。"
       }
     ]
   },
   "n3_1261": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは国際的です。",
-        "zh": "這是「吧國際的」。"
+        "ja": "この会社は国際的な活動をしています。",
+        "zh": "這家公司從事國際性的活動。"
       }
     ]
   },
@@ -15046,8 +15913,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは道店です。",
-        "zh": "這是「北海道的地方政府」。"
+        "ja": "北海道の道庁を見学しました。",
+        "zh": "我參觀了北海道政府。"
       }
     ]
   },
@@ -15056,8 +15923,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは都庁です。",
-        "zh": "這是「東京都政府」。"
+        "ja": "都庁の展望室から町を見ました。",
+        "zh": "我從都廳的展望室看了城市。"
       }
     ]
   },
@@ -15066,8 +15933,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパスポートです。",
-        "zh": "這是「護照」。"
+        "ja": "海外旅行にはパスポートが必要です。",
+        "zh": "出國旅行需要護照。"
       }
     ]
   },
@@ -15076,8 +15943,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは民間です。",
-        "zh": "這是「民間、民営私営」。"
+        "ja": "民間の会社で働いています。",
+        "zh": "我在民間公司工作。"
       }
     ]
   },
@@ -15086,8 +15953,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは民主です。",
-        "zh": "這是「民主、民主主義」。"
+        "ja": "民主主義について授業で学びました。",
+        "zh": "課堂上學了民主主義。"
       }
     ]
   },
@@ -15096,18 +15963,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは兵隊です。",
-        "zh": "這是「士兵軍人軍隊」。"
+        "ja": "兵隊たちは朝早く訓練を始めました。",
+        "zh": "士兵們一大早開始訓練。"
       }
     ]
   },
   "n3_1268": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "殺す",
+      "masu": "殺します",
+      "te": "殺して",
+      "ta": "殺した",
+      "nai": "殺さない"
+    },
     "examples": [
       {
-        "ja": "これは殺すです。",
-        "zh": "這是「殺死、致死、抑制、忍住、消除、埋沒、浪費、犧牲、典當、殺」。"
+        "ja": "時間を殺すために本屋に入りました。",
+        "zh": "為了打發時間，我走進書店。"
       }
     ]
   },
@@ -15116,8 +15994,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは事件です。",
-        "zh": "這是「事件、案件、回事件起」。"
+        "ja": "警察は事件の原因を調べています。",
+        "zh": "警方正在調查事件的原因。"
       }
     ]
   },
@@ -15126,28 +16004,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは条件です。",
-        "zh": "這是「了條件、條文、條款」。"
+        "ja": "この仕事には経験という条件があります。",
+        "zh": "這份工作有經驗這項條件。"
       }
     ]
   },
   "n3_1271": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "捕まる",
+      "masu": "捕まります",
+      "te": "捕まって",
+      "ta": "捕まった",
+      "nai": "捕まらない"
+    },
     "examples": [
       {
-        "ja": "これは捕まるです。",
-        "zh": "這是「抓住、被捉住、逮捕、抓緊、揪住」。"
+        "ja": "犯人は駅の近くで捕まりました。",
+        "zh": "犯人在車站附近被逮捕了。"
       }
     ]
   },
   "n3_1272": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは偽です。",
-        "zh": "這是「假、假冒、廣品」。"
+        "ja": "偽のメールに注意してください。",
+        "zh": "請注意假冒的電子郵件。"
       }
     ]
   },
@@ -15156,8 +16045,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはプライバシーです。",
-        "zh": "這是「私生活個人私密」。"
+        "ja": "他人のプライバシーを守ることは大切です。",
+        "zh": "保護他人的隱私很重要。"
       }
     ]
   },
@@ -15166,28 +16055,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはルールです。",
-        "zh": "這是「規章、章程、尺、界尺」。"
+        "ja": "試合のルールを先に確認しましょう。",
+        "zh": "先確認比賽規則吧。"
       }
     ]
   },
   "n3_1275": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "飽きる",
+      "masu": "飽きます",
+      "te": "飽きて",
+      "ta": "飽きた",
+      "nai": "飽きない"
+    },
     "examples": [
       {
-        "ja": "これは飽きるです。",
-        "zh": "這是「厭倦、膩」。"
+        "ja": "同じ料理ばかりで少し飽きました。",
+        "zh": "一直吃同樣的料理，有點膩了。"
       }
     ]
   },
   "n3_1276": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは羨ましいです。",
-        "zh": "這是「羨慕、令人嫉妒、眼紅」。"
+        "ja": "海外で働く友人が羨ましいです。",
+        "zh": "我很羨慕在海外工作的朋友。"
       }
     ]
   },
@@ -15196,28 +16096,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは思い出です。",
-        "zh": "這是「回憶」。"
+        "ja": "この歌を聞くと学生時代の思い出がよみがえります。",
+        "zh": "聽到這首歌就會想起學生時代的回憶。"
       }
     ]
   },
   "n3_1278": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "思いやる",
+      "masu": "思いやります",
+      "te": "思いやって",
+      "ta": "思いやった",
+      "nai": "思いやらない"
+    },
     "examples": [
       {
-        "ja": "これは思いやるです。",
-        "zh": "這是「體諒、表同情、想像、推測」。"
+        "ja": "相手の気持ちを思いやることが必要です。",
+        "zh": "需要體諒對方的心情。"
       }
     ]
   },
   "n3_1279": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは幸福です。",
-        "zh": "這是「幸福、快樂滿足」。"
+        "ja": "家族と過ごす時間に幸福を感じます。",
+        "zh": "和家人相處時感到幸福。"
       }
     ]
   },
@@ -15226,98 +16137,120 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは宗教です。",
-        "zh": "這是「款教」。"
+        "ja": "世界には様々な宗教があります。",
+        "zh": "世界上有各式各樣的宗教。"
       }
     ]
   },
   "n3_1281": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは素朴です。",
-        "zh": "這是「樸素、純樸、質樸、純樸」。"
+        "ja": "彼の素朴な人柄にひかれました。",
+        "zh": "我被他純樸的人品吸引。"
       }
     ]
   },
   "n3_1282": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは退屈です。",
-        "zh": "這是「無聊、厭倦」。"
+        "ja": "長い説明で少し退屈しました。",
+        "zh": "冗長的說明讓我有點無聊。"
       }
     ]
   },
   "n3_1283": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは不自由です。",
-        "zh": "這是「形動、自不自由不如意、不充裕、不聽使喚、不方便」。"
+        "ja": "足をけがしてしばらく不自由でした。",
+        "zh": "腳受傷後有一陣子很不方便。"
       }
     ]
   },
   "n3_1284": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは平気です。",
-        "zh": "這是「鎮定、冷靜、不在乎、不介意、無動於衷」。"
+        "ja": "彼は失敗しても平気な顔をしています。",
+        "zh": "他即使失敗也一副不在乎的樣子。"
       }
     ]
   },
   "n3_1285": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはほっとです。",
-        "zh": "這是「放心、鬆一口氣」。"
+        "ja": "試験が終わってほっとしました。",
+        "zh": "考試結束後鬆了一口氣。"
       }
     ]
   },
   "n3_1286": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これはもったいないです。",
-        "zh": "這是「可惜的、浪費的、過傍的、慢剖、不敢當」。"
+        "ja": "まだ使えるのに捨てるのはもったいないです。",
+        "zh": "明明還能用卻丟掉很浪費。"
       }
     ]
   },
   "n3_1287": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "我慢する",
+      "masu": "我慢します",
+      "te": "我慢して",
+      "ta": "我慢した",
+      "nai": "我慢しない"
+    },
     "examples": [
       {
-        "ja": "これは我慢です。",
-        "zh": "這是「忍耐、克制、將就、原諒、四我慢」。"
+        "ja": "痛かったけれど最後まで我慢しました。",
+        "zh": "雖然很痛，但忍到了最後。"
       }
     ]
   },
   "n3_1288": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは我慢強いです。",
-        "zh": "這是「忍耐性強、有忍耐力」。"
+        "ja": "彼女は我慢強く結果を待ちました。",
+        "zh": "她很有耐心地等待結果。"
       }
     ]
   },
   "n3_1289": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "強調する",
+      "masu": "強調します",
+      "te": "強調して",
+      "ta": "強調した",
+      "nai": "強調しない"
+    },
     "examples": [
       {
-        "ja": "これは強調です。",
-        "zh": "這是「強調、樺力主張、看漲」。"
+        "ja": "先生は発音の大切さを強調しました。",
+        "zh": "老師強調了發音的重要性。"
       }
     ]
   },
@@ -15326,68 +16259,123 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは癖です。",
-        "zh": "這是「癖好、脾氣、習慣、摺線、髪員著」。"
+        "ja": "寝る前にスマホを見る癖があります。",
+        "zh": "我有睡前看手機的習慣。"
       }
     ]
   },
   "n3_1291": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "避ける",
+      "masu": "避けます",
+      "te": "避けて",
+      "ta": "避けた",
+      "nai": "避けない"
+    },
     "examples": [
       {
-        "ja": "これは避けるです。",
-        "zh": "這是「躲避」。"
+        "ja": "混雑を避けるために早く出発しました。",
+        "zh": "為了避開人潮，我很早出發。"
       }
     ]
   },
   "n3_1292": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "実行する",
+      "masu": "実行します",
+      "te": "実行して",
+      "ta": "実行した",
+      "nai": "実行しない"
+    },
     "examples": [
       {
-        "ja": "これは実行です。",
-        "zh": "這是「實行、落實、施行、実行移」。"
+        "ja": "計画をすぐに実行しました。",
+        "zh": "我立刻執行了計畫。"
       }
     ]
   },
   "n3_1293": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはじっとです。",
-        "zh": "這是「男自保持穩定、一動不動、凝神、精會神、一聲不響地忍住、無所做」。"
+        "ja": "子どもはじっと椅子に座っていました。",
+        "zh": "孩子一動也不動地坐在椅子上。"
       }
     ]
   },
   "n3_1294": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "騙す",
+      "masu": "騙します",
+      "te": "騙して",
+      "ta": "騙した",
+      "nai": "騙さない"
+    },
     "examples": [
       {
-        "ja": "これは騙すです。",
-        "zh": "這是「偶騙、欺肪、誰肪、矇騙、哄」。"
+        "ja": "人を騙すような広告はよくありません。",
+        "zh": "欺騙人的廣告不好。"
       }
     ]
   },
   "n3_1295": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "挑戦する",
+      "masu": "挑戦します",
+      "te": "挑戦して",
+      "ta": "挑戦した",
+      "nai": "挑戦しない"
+    },
     "examples": [
       {
-        "ja": "これは挑戦です。",
-        "zh": "這是「挑戰」。"
+        "ja": "新しい仕事に挑戦したいです。",
+        "zh": "我想挑戰新的工作。"
       }
     ]
   },
   "n3_1296": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "申し込む",
+      "masu": "申し込みます",
+      "te": "申し込んで",
+      "ta": "申し込んだ",
+      "nai": "申し込まない"
+    },
     "examples": [
       {
-        "ja": "これは申し込むです。",
-        "zh": "這是「提議、提出、申請、報名、訂購、預約」。"
+        "ja": "来月の講座に申し込みました。",
+        "zh": "我報名了下個月的課程。"
       }
     ]
   },
@@ -15396,8 +16384,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは勇気です。",
-        "zh": "這是「勇氣」。"
+        "ja": "一歩踏み出す勇気が必要です。",
+        "zh": "需要踏出第一步的勇氣。"
       }
     ]
   },
@@ -15406,8 +16394,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは愛です。",
-        "zh": "這是「江守愛、愛情、友情、因情愛好、愛、喜愛、喜歡、愛惜」。"
+        "ja": "彼は音楽への愛を語りました。",
+        "zh": "他談了對音樂的熱愛。"
       }
     ]
   },
@@ -15416,68 +16404,112 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは粗です。",
-        "zh": "這是「缺點、毛病」。"
+        "ja": "人の粗ばかり探すのはやめましょう。",
+        "zh": "別老是挑別人的缺點。"
       }
     ]
   },
   "n3_1300": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "熱中する",
+      "masu": "熱中します",
+      "te": "熱中して",
+      "ta": "熱中した",
+      "nai": "熱中しない"
+    },
     "examples": [
       {
-        "ja": "これは熱中です。",
-        "zh": "這是「熱中、著迷」。"
+        "ja": "弟はゲームに熱中しています。",
+        "zh": "弟弟沉迷於遊戲。"
       }
     ]
   },
   "n3_1301": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは夢中です。",
-        "zh": "這是「形動夢中、在睡夢福不願一切」。"
+        "ja": "小説を読むのに夢中で電車を乗り過ごしました。",
+        "zh": "我讀小說讀得太入迷，坐過站了。"
       }
     ]
   },
   "n3_1302": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "恋愛する",
+      "masu": "恋愛します",
+      "te": "恋愛して",
+      "ta": "恋愛した",
+      "nai": "恋愛しない"
+    },
     "examples": [
       {
-        "ja": "これは恋愛です。",
-        "zh": "這是「戀愛」。"
+        "ja": "彼女は恋愛について相談しました。",
+        "zh": "她找人商量戀愛的事。"
       }
     ]
   },
   "n3_1303": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "興奮する",
+      "masu": "興奮します",
+      "te": "興奮して",
+      "ta": "興奮した",
+      "nai": "興奮しない"
+    },
     "examples": [
       {
-        "ja": "これは興奮です。",
-        "zh": "這是「興奮、情緒高昂」。"
+        "ja": "試合の後も興奮がなかなか冷めませんでした。",
+        "zh": "比賽後興奮感一直沒有平復。"
       }
     ]
   },
   "n3_1304": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "高まる",
+      "masu": "高まります",
+      "te": "高まって",
+      "ta": "高まった",
+      "nai": "高まらない"
+    },
     "examples": [
       {
-        "ja": "これは高まるです。",
-        "zh": "這是「高漲、提高、增長、興鶴」。"
+        "ja": "発表が近づいて緊張が高まりました。",
+        "zh": "發表快到了，緊張感升高了。"
       }
     ]
   },
   "n3_1305": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは愉快です。",
-        "zh": "這是「愉快、暢快、令人愉快、討人喜、歡、令人意想不到」。"
+        "ja": "友人との会話はいつも愉快です。",
+        "zh": "和朋友聊天總是很愉快。"
       }
     ]
   },
@@ -15486,8 +16518,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは喜び・慶びです。",
-        "zh": "這是「高興、歡喜、喜悅、喜事、喜慶事、道喜、賀喜」。"
+        "ja": "合格の喜びを家族と分かち合いました。",
+        "zh": "和家人分享了考上的喜悅。"
       }
     ]
   },
@@ -15496,8 +16528,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは笑いです。",
-        "zh": "這是「估笑、笑聲、嘲笑、譏笑、冷笑」。"
+        "ja": "教室から大きな笑いが聞こえました。",
+        "zh": "從教室傳來很大的笑聲。"
       }
     ]
   },
@@ -15506,18 +16538,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは悲しみです。",
-        "zh": "這是「悲哀、悲傷、憂各、悲痛」。"
+        "ja": "彼女は別れの悲しみを歌にしました。",
+        "zh": "她把離別的悲傷寫成了歌。"
       }
     ]
   },
   "n3_1309": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは苦しいです。",
-        "zh": "這是「艱苦、困難、難過、勉強」。"
+        "ja": "熱があって息をするのも苦しいです。",
+        "zh": "發燒後連呼吸都很難受。"
       }
     ]
   },
@@ -15526,8 +16558,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはストレスです。",
-        "zh": "這是「重音、壓力、緊張、回入上上入寢骨碎痛」。"
+        "ja": "仕事のストレスで眠れませんでした。",
+        "zh": "因為工作壓力睡不著。"
       }
     ]
   },
@@ -15536,8 +16568,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは負けです。",
-        "zh": "這是「輸、失敗、減價、贈品」。"
+        "ja": "試合の負けを認めるしかありません。",
+        "zh": "只能承認比賽輸了。"
       }
     ]
   },
@@ -15546,8 +16578,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは別れです。",
-        "zh": "這是「別、離別、分離、分支、旁系」。"
+        "ja": "駅で友人との別れを惜しみました。",
+        "zh": "在車站捨不得和朋友分別。"
       }
     ]
   },
@@ -15556,8 +16588,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは怒りです。",
-        "zh": "這是「憤怒」。"
+        "ja": "彼の失礼な言葉に怒りを感じました。",
+        "zh": "我對他失禮的話感到憤怒。"
       }
     ]
   },
@@ -15566,8 +16598,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは騒ぎです。",
-        "zh": "這是「騷動、吵鬧」。"
+        "ja": "夜中の騒ぎで目が覚めました。",
+        "zh": "半夜的騷動把我吵醒了。"
       }
     ]
   },
@@ -15576,8 +16608,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはショックです。",
-        "zh": "這是「震動、刺激打撃」。"
+        "ja": "突然の知らせに大きなショックを受けました。",
+        "zh": "突然的消息讓我受到很大的打擊。"
       }
     ]
   },
@@ -15586,8 +16618,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは暴力です。",
-        "zh": "這是「暴力、武力」。"
+        "ja": "暴力で問題を解決してはいけません。",
+        "zh": "不能用暴力解決問題。"
       }
     ]
   },
@@ -15596,58 +16628,91 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは文句です。",
-        "zh": "這是「異議」。"
+        "ja": "彼は料理に文句を言いました。",
+        "zh": "他抱怨了料理。"
       }
     ]
   },
   "n3_1318": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "後悔する",
+      "masu": "後悔します",
+      "te": "後悔して",
+      "ta": "後悔した",
+      "nai": "後悔しない"
+    },
     "examples": [
       {
-        "ja": "これは後悔です。",
-        "zh": "這是「後悔、懊悔」。"
+        "ja": "早く謝らなかったことを後悔しています。",
+        "zh": "我後悔沒有早點道歉。"
       }
     ]
   },
   "n3_1319": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "助かる",
+      "masu": "助かります",
+      "te": "助かって",
+      "ta": "助かった",
+      "nai": "助からない"
+    },
     "examples": [
       {
-        "ja": "これは助かるです。",
-        "zh": "這是「得救、有幫助」。"
+        "ja": "手伝ってもらえると本当に助かります。",
+        "zh": "如果能得到幫忙真的會很有幫助。"
       }
     ]
   },
   "n3_1320": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは憎らしいです。",
-        "zh": "這是「討厭的、可恨的」。"
+        "ja": "彼のわざとらしい態度が少し憎らしいです。",
+        "zh": "他那種刻意的態度有點討厭。"
       }
     ]
   },
   "n3_1321": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "反省する",
+      "masu": "反省します",
+      "te": "反省して",
+      "ta": "反省した",
+      "nai": "反省しない"
+    },
     "examples": [
       {
-        "ja": "これは反省です。",
-        "zh": "這是「反省、檢討自己」。"
+        "ja": "失敗の原因を反省しました。",
+        "zh": "我檢討了失敗的原因。"
       }
     ]
   },
   "n3_1322": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは申し訳ないです。",
-        "zh": "這是「實在抱歉、非常對不起、十分對不起」。"
+        "ja": "お待たせして申し訳ないです。",
+        "zh": "讓您久等了，非常抱歉。"
       }
     ]
   },
@@ -15656,8 +16721,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは礼儀です。",
-        "zh": "這是「禮儀、禮節、禮法、禮貌」。"
+        "ja": "礼儀を守って話しましょう。",
+        "zh": "說話時要遵守禮貌。"
       }
     ]
   },
@@ -15666,8 +16731,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは詫びです。",
-        "zh": "這是「賠不是、道歉、表示歉意」。"
+        "ja": "彼は心から詫びの言葉を述べました。",
+        "zh": "他真心說出了道歉的話。"
       }
     ]
   },
@@ -15676,38 +16741,60 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアイディアです。",
-        "zh": "這是「主意、想法、構想、觀念較」。"
+        "ja": "新しい商品のアイディアを出しました。",
+        "zh": "我提出了新商品的點子。"
       }
     ]
   },
   "n3_1326": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは案外です。",
-        "zh": "這是「意想不到、出平意外」。"
+        "ja": "この店は案外安くておいしいです。",
+        "zh": "這家店意外地便宜又好吃。"
       }
     ]
   },
   "n3_1327": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "思い描く",
+      "masu": "思い描きます",
+      "te": "思い描いて",
+      "ta": "思い描いた",
+      "nai": "思い描かない"
+    },
     "examples": [
       {
-        "ja": "これは思い描くです。",
-        "zh": "這是「在心神描給想像」。"
+        "ja": "十年後の自分を思い描いてみました。",
+        "zh": "我試著想像十年後的自己。"
       }
     ]
   },
   "n3_1328": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "思い付く",
+      "masu": "思い付きます",
+      "te": "思い付いて",
+      "ta": "思い付いた",
+      "nai": "思い付かない"
+    },
     "examples": [
       {
-        "ja": "これは思い付くです。",
-        "zh": "這是「想起、想起來言」。"
+        "ja": "いい方法を思いつきました。",
+        "zh": "我想到了好方法。"
       }
     ]
   },
@@ -15716,28 +16803,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは考えです。",
-        "zh": "這是「思想、想法、意見、念頭観念、信念」。"
+        "ja": "あなたの考えを聞かせてください。",
+        "zh": "請讓我聽聽你的想法。"
       }
     ]
   },
   "n3_1330": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "誤解する",
+      "masu": "誤解します",
+      "te": "誤解して",
+      "ta": "誤解した",
+      "nai": "誤解しない"
+    },
     "examples": [
       {
-        "ja": "これは誤解です。",
-        "zh": "這是「誤解、誤會」。"
+        "ja": "説明が足りず誤解を招きました。",
+        "zh": "因為說明不足而造成誤解。"
       }
     ]
   },
   "n3_1331": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはついです。",
-        "zh": "這是「不知不覺、無意中」。"
+        "ja": "疲れていてつい寝てしまいました。",
+        "zh": "因為太累，不小心睡著了。"
       }
     ]
   },
@@ -15746,118 +16844,173 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは狙いです。",
-        "zh": "這是「目標、目的、暗準、幸準、回獲外」。"
+        "ja": "この企画の狙いは若い人に商品を知ってもらうことです。",
+        "zh": "這個企劃的目標是讓年輕人認識商品。"
       }
     ]
   },
   "n3_1333": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "迷う",
+      "masu": "迷います",
+      "te": "迷って",
+      "ta": "迷った",
+      "nai": "迷わない"
+    },
     "examples": [
       {
-        "ja": "これは迷うです。",
-        "zh": "這是「迷、迷失、困惑、迷戀、執迷、加亂、錯亂」。"
+        "ja": "道に迷って駅に戻りました。",
+        "zh": "迷路後回到了車站。"
       }
     ]
   },
   "n3_1334": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはもしかしたらです。",
-        "zh": "這是「信語人或許、萬一可能、說不定」。"
+        "ja": "もしかしたら明日は雨かもしれません。",
+        "zh": "明天說不定會下雨。"
       }
     ]
   },
   "n3_1335": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはもしかしてです。",
-        "zh": "這是「佃輸一或許、可能」。"
+        "ja": "もしかして田中さんですか。",
+        "zh": "難道您是田中先生嗎？"
       }
     ]
   },
   "n3_1336": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはもしかするとです。",
-        "zh": "這是「也許、或、可能」。"
+        "ja": "もしかすると電車が遅れているのかもしれません。",
+        "zh": "電車也許誤點了。"
       }
     ]
   },
   "n3_1337": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "予想する",
+      "masu": "予想します",
+      "te": "予想して",
+      "ta": "予想した",
+      "nai": "予想しない"
+    },
     "examples": [
       {
-        "ja": "これは予想です。",
-        "zh": "這是「預想、預測」。"
+        "ja": "売り上げは予想より高くなりました。",
+        "zh": "銷售額比預測更高。"
       }
     ]
   },
   "n3_1338": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは思い切りです。",
-        "zh": "這是「衝動斷念、死心、果斷、下決心、狠、随地、書情地、徹底的」。"
+        "ja": "休みの日は思い切り寝たいです。",
+        "zh": "休假日想盡情睡覺。"
       }
     ]
   },
   "n3_1339": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは思わずです。",
-        "zh": "這是「禁不住、不由得、意想不到地、下、意識地」。"
+        "ja": "映画の最後で思わず泣いてしまいました。",
+        "zh": "電影最後我不由得哭了。"
       }
     ]
   },
   "n3_1340": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "隠す",
+      "masu": "隠します",
+      "te": "隠して",
+      "ta": "隠した",
+      "nai": "隠さない"
+    },
     "examples": [
       {
-        "ja": "これは隠すです。",
-        "zh": "這是「時藏起來、隱瞞、掩蓋」。"
+        "ja": "彼は失敗を隠そうとしました。",
+        "zh": "他試圖隱瞞失敗。"
       }
     ]
   },
   "n3_1341": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはかもしれないです。",
-        "zh": "這是「二也許、也未可知、四言堂」。"
+        "ja": "午後から雪が降るかもしれない。",
+        "zh": "下午可能會下雪。"
       }
     ]
   },
   "n3_1342": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "削除する",
+      "masu": "削除します",
+      "te": "削除して",
+      "ta": "削除した",
+      "nai": "削除しない"
+    },
     "examples": [
       {
-        "ja": "これは削除です。",
-        "zh": "這是「刪除」。"
+        "ja": "不要なファイルを削除しました。",
+        "zh": "我刪除了不需要的檔案。"
       }
     ]
   },
   "n3_1343": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "省略する",
+      "masu": "省略します",
+      "te": "省略して",
+      "ta": "省略した",
+      "nai": "省略しない"
+    },
     "examples": [
       {
-        "ja": "これは省略です。",
-        "zh": "這是「省略、略去不寫」。"
+        "ja": "時間がないので説明を少し省略します。",
+        "zh": "因為時間不夠，說明會稍微省略。"
       }
     ]
   },
@@ -15866,118 +17019,151 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは頼みです。",
-        "zh": "這是「懇求、請求、拜託、信賴、依靠」。"
+        "ja": "友人から大事な頼みを受けました。",
+        "zh": "我接受了朋友重要的請託。"
       }
     ]
   },
   "n3_1345": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "徹底する",
+      "masu": "徹底します",
+      "te": "徹底して",
+      "ta": "徹底した",
+      "nai": "徹底しない"
+    },
     "examples": [
       {
-        "ja": "これは徹底です。",
-        "zh": "這是「徹底、傳遍、普遍、落實」。"
+        "ja": "店内の掃除を徹底してください。",
+        "zh": "請徹底做好店內清潔。"
       }
     ]
   },
   "n3_1346": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは当然です。",
-        "zh": "這是「當然、理所當然」。"
+        "ja": "努力したのだから成功して当然です。",
+        "zh": "既然努力了，成功是理所當然的。"
       }
     ]
   },
   "n3_1347": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは温いです。",
-        "zh": "這是「微溫、不冷不熱、不夠熱」。"
+        "ja": "このお茶は少し温いです。",
+        "zh": "這杯茶有點溫，不夠熱。"
       }
     ]
   },
   "n3_1348": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "残す",
+      "masu": "残します",
+      "te": "残して",
+      "ta": "残した",
+      "nai": "残さない"
+    },
     "examples": [
       {
-        "ja": "これは残すです。",
-        "zh": "這是「留下、剩下」。"
+        "ja": "大切な記録を後世に残したいです。",
+        "zh": "想把重要紀錄留給後世。"
       }
     ]
   },
   "n3_1349": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはかなりです。",
-        "zh": "這是「相党、眼」。"
+        "ja": "この問題はかなり難しいです。",
+        "zh": "這個問題相當難。"
       }
     ]
   },
   "n3_1350": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは最高です。",
-        "zh": "這是「最高、至高、上、頂、極、最」。"
+        "ja": "今日の試合は最高でした。",
+        "zh": "今天的比賽最棒了。"
       }
     ]
   },
   "n3_1351": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは最低です。",
-        "zh": "這是「最低最差、最壊」。"
+        "ja": "遅刻したうえに宿題も忘れるなんて最低です。",
+        "zh": "遲到之外還忘了作業，真是糟透了。"
       }
     ]
   },
   "n3_1352": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "conjunction",
+    "posLabel": "接續詞",
     "examples": [
       {
-        "ja": "これはその上です。",
-        "zh": "這是「又、而且、加之、兼之」。"
+        "ja": "雨が強くなりました。その上風も出てきました。",
+        "zh": "雨變大了，而且風也開始吹了。"
       }
     ]
   },
   "n3_1353": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはその内です。",
-        "zh": "這是「最近、過幾天、不久、其中」。"
+        "ja": "その内また会えるでしょう。",
+        "zh": "過一陣子應該還會再見吧。"
       }
     ]
   },
   "n3_1354": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはそれぞれです。",
-        "zh": "這是「各自、分別」。"
+        "ja": "参加者はそれぞれ意見を述べました。",
+        "zh": "參加者各自陳述了意見。"
       }
     ]
   },
   "n3_1355": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "注目する",
+      "masu": "注目します",
+      "te": "注目して",
+      "ta": "注目した",
+      "nai": "注目しない"
+    },
     "examples": [
       {
-        "ja": "これは注目です。",
-        "zh": "這是「注目、注視」。"
+        "ja": "新しい制度に注目が集まっています。",
+        "zh": "新的制度受到關注。"
       }
     ]
   },
@@ -15986,38 +17172,49 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは纏めです。",
-        "zh": "這是「整理、總結」。"
+        "ja": "会議のまとめをメールで送りました。",
+        "zh": "我用電子郵件寄出了會議總結。"
       }
     ]
   },
   "n3_1357": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "得る",
+      "masu": "得ます",
+      "te": "得て",
+      "ta": "得た",
+      "nai": "得ない"
+    },
     "examples": [
       {
-        "ja": "これは得るです。",
-        "zh": "這是「本得、得到、領悟、理解、能夠」。"
+        "ja": "この経験から多くのことを得ました。",
+        "zh": "我從這次經驗中獲得了許多東西。"
       }
     ]
   },
   "n3_1358": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは絶対です。",
-        "zh": "這是「絕對、無與倫比、堅絕、斷然、一定」。"
+        "ja": "約束は絶対に守ってください。",
+        "zh": "請一定要遵守約定。"
       }
     ]
   },
   "n3_1359": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは的です。",
-        "zh": "這是「關於、對於、表示、態或性質」。"
+        "ja": "この表現は少し文学的です。",
+        "zh": "這個表達有點文學性。"
       }
     ]
   },
@@ -16026,38 +17223,71 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは出来事です。",
-        "zh": "這是「事件變故」。"
+        "ja": "今日あった出来事を日記に書きました。",
+        "zh": "我把今天發生的事情寫進日記。"
       }
     ]
   },
   "n3_1361": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "似せる",
+      "masu": "似せます",
+      "te": "似せて",
+      "ta": "似せた",
+      "nai": "似せない"
+    },
     "examples": [
       {
-        "ja": "これは似せるです。",
-        "zh": "這是「模仿仿效、偽千」。"
+        "ja": "本物に似せて作った模型です。",
+        "zh": "這是仿照真品製作的模型。"
       }
     ]
   },
   "n3_1362": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "発明する",
+      "masu": "発明します",
+      "te": "発明して",
+      "ta": "発明した",
+      "nai": "発明しない"
+    },
     "examples": [
       {
-        "ja": "これは発明です。",
-        "zh": "這是「發明」。"
+        "ja": "彼は新しい機械を発明しました。",
+        "zh": "他發明了新的機器。"
       }
     ]
   },
   "n3_1363": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "間違う",
+      "masu": "間違います",
+      "te": "間違って",
+      "ta": "間違った",
+      "nai": "間違わない"
+    },
     "examples": [
       {
-        "ja": "これは間違うです。",
-        "zh": "這是「做錯、搞錯、錯誤」。"
+        "ja": "電話番号を間違ってしまいました。",
+        "zh": "我把電話號碼弄錯了。"
       }
     ]
   },
@@ -16066,8 +17296,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは語学です。",
-        "zh": "這是「外語的學習、外語、外語課」。"
+        "ja": "語学を学ぶには毎日の練習が大切です。",
+        "zh": "學語言時每天練習很重要。"
       }
     ]
   },
@@ -16076,8 +17306,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは国語です。",
-        "zh": "這是「一國的語吉、本國語吉、言」。"
+        "ja": "国語の授業で随筆を読みました。",
+        "zh": "國語課讀了隨筆。"
       }
     ]
   },
@@ -16086,8 +17316,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは氏名です。",
-        "zh": "這是「姓與名、姓名」。"
+        "ja": "申込書に氏名を書いてください。",
+        "zh": "請在申請表上寫姓名。"
       }
     ]
   },
@@ -16096,8 +17326,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは随筆です。",
-        "zh": "這是「隨筆、小品文、散文、雜文」。"
+        "ja": "この本には有名な随筆が入っています。",
+        "zh": "這本書收錄了知名隨筆。"
       }
     ]
   },
@@ -16106,8 +17336,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは標語です。",
-        "zh": "這是「標語、宣傳口號」。"
+        "ja": "交通安全の標語を考えました。",
+        "zh": "我想了交通安全的標語。"
       }
     ]
   },
@@ -16116,18 +17346,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは文体です。",
-        "zh": "這是「文體、文章風格」。"
+        "ja": "この作家の文体は読みやすいです。",
+        "zh": "這位作家的文體很好讀。"
       }
     ]
   },
   "n3_1370": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "訳す",
+      "masu": "訳します",
+      "te": "訳して",
+      "ta": "訳した",
+      "nai": "訳さない"
+    },
     "examples": [
       {
-        "ja": "これは訳すです。",
-        "zh": "這是「翻譯」。"
+        "ja": "この文章を日本語に訳してください。",
+        "zh": "請把這篇文章翻成日文。"
       }
     ]
   },
@@ -16136,8 +17377,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは読みです。",
-        "zh": "這是「吟、讀、訓讀、判斷、盤算」。"
+        "ja": "この漢字の読みを教えてください。",
+        "zh": "請告訴我這個漢字的讀法。"
       }
     ]
   },
@@ -16146,8 +17387,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはアドバイスです。",
-        "zh": "這是「課提出建議」。"
+        "ja": "先生から進路についてアドバイスをもらいました。",
+        "zh": "我從老師那裡得到升學就業方向的建議。"
       }
     ]
   },
@@ -16156,128 +17397,128 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは噂です。",
-        "zh": "這是「傳聞、謠言」。"
+        "ja": "そのうわさは本当かどうかわかりません。",
+        "zh": "那個傳聞不知道是不是真的。"
       }
     ]
   },
   "n3_1374": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお帰りなさいです。",
-        "zh": "這是「王回來了言」。"
+        "ja": "母は玄関でお帰りなさいと言いました。",
+        "zh": "媽媽在玄關說了歡迎回來。"
       }
     ]
   },
   "n3_1375": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはおかけくださいです。",
-        "zh": "這是「請坐」。"
+        "ja": "どうぞこちらにおかけください。",
+        "zh": "請坐這邊。"
       }
     ]
   },
   "n3_1376": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお構いなくです。",
-        "zh": "這是「不管不在平、不介意」。"
+        "ja": "お茶は自分で入れますのでお構いなく。",
+        "zh": "茶我自己倒就好，請別費心。"
       }
     ]
   },
   "n3_1377": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお元気ですかです。",
-        "zh": "這是「你好嗎」。"
+        "ja": "お久しぶりです。お元気ですか。",
+        "zh": "好久不見。您近來好嗎？"
       }
     ]
   },
   "n3_1378": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお先にです。",
-        "zh": "這是「先離開了、先告辭了」。"
+        "ja": "用事があるのでお先に失礼します。",
+        "zh": "因為有事，我先告辭。"
       }
     ]
   },
   "n3_1379": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお邪魔しますです。",
-        "zh": "這是「打援了是、邪魔」。"
+        "ja": "友人の家に入る時にお邪魔しますと言いました。",
+        "zh": "進朋友家時說了打擾了。"
       }
     ]
   },
   "n3_1380": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお世になりましたです。",
-        "zh": "這是「貧受您照顧了」。"
+        "ja": "一年間本当にお世話になりました。",
+        "zh": "這一年真的承蒙您照顧。"
       }
     ]
   },
   "n3_1381": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお待ちくださいです。",
-        "zh": "這是「請等一下」。"
+        "ja": "少々お待ちください。",
+        "zh": "請稍等一下。"
       }
     ]
   },
   "n3_1382": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお待ち遠様です。",
-        "zh": "這是「久等了」。"
+        "ja": "お待ちどおさま。料理をお持ちしました。",
+        "zh": "久等了。餐點送來了。"
       }
     ]
   },
   "n3_1383": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはおめでとうです。",
-        "zh": "這是「恭喜」。"
+        "ja": "合格おめでとうございます。",
+        "zh": "恭喜你合格。"
       }
     ]
   },
   "n3_1384": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはお休みです。",
-        "zh": "這是「遼休休」。"
+        "ja": "寝る前に家族へお休みと言いました。",
+        "zh": "睡前對家人說了晚安。"
       }
     ]
   },
   "n3_1385": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは御です。",
-        "zh": "這是「表示敬意」。"
+        "ja": "御中は会社や団体宛ての手紙で使います。",
+        "zh": "「御中」用在寄給公司或團體的信件上。"
       }
     ]
   },
@@ -16286,78 +17527,68 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは敬語です。",
-        "zh": "這是「敬語、禮貌語」。"
+        "ja": "敬語を正しく使うのは難しいです。",
+        "zh": "正確使用敬語很難。"
       }
     ]
   },
   "n3_1387": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはご遠慮なくです。",
-        "zh": "這是「請不用客氣、回、遠慮」。"
+        "ja": "質問があればご遠慮なく聞いてください。",
+        "zh": "如果有問題請不用客氣，直接問。"
       }
     ]
   },
   "n3_1388": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これはごめんくださいです。",
-        "zh": "這是「皿形和重半不起有人」。"
+        "ja": "玄関でごめんくださいと声をかけました。",
+        "zh": "我在玄關喊了有人在嗎。"
       }
     ]
   },
   "n3_1389": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは実はです。",
-        "zh": "這是「卓說真的、老實說、事實是、說實在的」。"
+        "ja": "実は来月引っ越すことになりました。",
+        "zh": "其實我下個月要搬家了。"
       }
     ]
   },
   "n3_1390": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これは失礼しますです。",
-        "zh": "這是「告辭、打擾了」。"
-      }
-    ]
-  },
-  "n3_1391": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは元談です。",
-        "zh": "這是「玩笑」。"
+        "ja": "会議中に失礼しますと言って部屋を出ました。",
+        "zh": "會議中說了失禮了之後離開房間。"
       }
     ]
   },
   "n3_1392": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは是非です。",
-        "zh": "這是「務必、好與壇」。"
+        "ja": "ぜひ一度遊びに来てください。",
+        "zh": "請務必來玩一次。"
       }
     ]
   },
   "n3_1393": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "conjunction",
+    "posLabel": "接續詞",
     "examples": [
       {
-        "ja": "これはつまりです。",
-        "zh": "這是「阻塞、困罕、到頭、盡頭、總」。"
+        "ja": "つまり彼は参加しないということです。",
+        "zh": "也就是說，他不參加。"
       }
     ]
   },
@@ -16366,28 +17597,28 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは伝言です。",
-        "zh": "這是「傳話、口信、帶口信」。"
+        "ja": "母からの伝言を妹に伝えました。",
+        "zh": "我把媽媽的留言轉告給妹妹。"
       }
     ]
   },
   "n3_1395": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはどんなにです。",
-        "zh": "這是「法様、多摩如何、無論如何」。"
+        "ja": "どんなに忙しくても朝ご飯は食べます。",
+        "zh": "無論多忙都會吃早餐。"
       }
     ]
   },
   "n3_1396": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "pronoun",
+    "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "これは何かです。",
-        "zh": "這是「某物、某事」。"
+        "ja": "何か飲み物を持ってきましょうか。",
+        "zh": "要不要我拿點喝的來？"
       }
     ]
   },
@@ -16396,38 +17627,60 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバイバイです。",
-        "zh": "這是「再見」。"
+        "ja": "友達にバイバイと言って手を振りました。",
+        "zh": "我對朋友說拜拜並揮了手。"
       }
     ]
   },
   "n3_1398": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "評論する",
+      "masu": "評論します",
+      "te": "評論して",
+      "ta": "評論した",
+      "nai": "評論しない"
+    },
     "examples": [
       {
-        "ja": "これは評論です。",
-        "zh": "這是「評論、批評討論」。"
+        "ja": "彼は映画の評論を書いています。",
+        "zh": "他在寫電影評論。"
       }
     ]
   },
   "n3_1399": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "真似る",
+      "masu": "真似ます",
+      "te": "真似て",
+      "ta": "真似た",
+      "nai": "真似ない"
+    },
     "examples": [
       {
-        "ja": "これは真似るです。",
-        "zh": "這是「模效、仿效、和人和」。"
+        "ja": "子どもは親の話し方を真似ます。",
+        "zh": "孩子會模仿父母的說話方式。"
       }
     ]
   },
   "n3_1400": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはまるでです。",
-        "zh": "這是「簡直、全部、完全、好像、宛如、恰如」。"
+        "ja": "彼女の声はまるで歌のようです。",
+        "zh": "她的聲音簡直像歌聲一樣。"
       }
     ]
   },
@@ -16436,18 +17689,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはメッセージです。",
-        "zh": "這是「訊息、留言」。"
+        "ja": "友人からメッセージが届きました。",
+        "zh": "朋友傳來了訊息。"
       }
     ]
   },
   "n3_1402": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "interjection",
+    "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "これはよいしょです。",
-        "zh": "這是「嘿咻人」。"
+        "ja": "重い荷物を持ち上げる時によいしょと言いました。",
+        "zh": "搬起重物時喊了一聲嘿咻。"
       }
     ]
   },
@@ -16456,8 +17709,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは書物です。",
-        "zh": "這是「書書籍園書」。"
+        "ja": "図書館で古い書物を調べました。",
+        "zh": "我在圖書館查了古老書籍。"
       }
     ]
   },
@@ -16466,8 +17719,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはタイトルです。",
-        "zh": "這是「題目、標題、稲納、職稱」。"
+        "ja": "レポートのタイトルを短くしました。",
+        "zh": "我把報告的標題改短了。"
       }
     ]
   },
@@ -16476,8 +17729,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは題名です。",
-        "zh": "這是「題名、標題」。"
+        "ja": "本の題名を見て内容を想像しました。",
+        "zh": "看了書名後想像了內容。"
       }
     ]
   },
@@ -16486,8 +17739,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはデータです。",
-        "zh": "這是「論據、論證的事實、材料、資料、敷」。"
+        "ja": "実験のデータを表にまとめました。",
+        "zh": "我把實驗數據整理成表格。"
       }
     ]
   },
@@ -16496,8 +17749,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは図書です。",
-        "zh": "這是「圖書」。"
+        "ja": "図書の貸し出しは三冊までです。",
+        "zh": "圖書借閱最多三本。"
       }
     ]
   },
@@ -16506,8 +17759,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはパンフレットです。",
-        "zh": "這是「小冊子」。"
+        "ja": "受付でパンフレットをもらいました。",
+        "zh": "我在櫃台拿了小冊子。"
       }
     ]
   },
@@ -16516,48 +17769,59 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはぴらです。",
-        "zh": "這是「傳單」。"
+        "ja": "駅前で店のぴらを配っていました。",
+        "zh": "車站前有人在發店家的傳單。"
       }
     ]
   },
   "n3_1410": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "捲る",
+      "masu": "捲ります",
+      "te": "捲って",
+      "ta": "捲った",
+      "nai": "捲らない"
+    },
     "examples": [
       {
-        "ja": "これは捲るです。",
-        "zh": "這是「翻、翻開、揭開、掀開」。"
+        "ja": "ページをめくる音だけが聞こえました。",
+        "zh": "只聽得到翻頁的聲音。"
       }
     ]
   },
   "n3_1411": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "determiner",
+    "posLabel": "連體詞",
     "examples": [
       {
-        "ja": "これは明くるです。",
-        "zh": "這是「次、翌、明、第二」。"
+        "ja": "明くる朝、雨はやんでいました。",
+        "zh": "隔天早上，雨已經停了。"
       }
     ]
   },
   "n3_1412": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは何時でもです。",
-        "zh": "這是「入無論什麼時候、隨時、經常、總是」。"
+        "ja": "困ったらいつでも連絡してください。",
+        "zh": "有困難的話隨時聯絡我。"
       }
     ]
   },
   "n3_1413": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは今にです。",
-        "zh": "這是「時就要、即將、馬上、至今、直到現」。"
+        "ja": "今に努力の結果が出るでしょう。",
+        "zh": "努力的成果早晚會出現吧。"
       }
     ]
   },
@@ -16566,8 +17830,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは永遠です。",
-        "zh": "這是「永遠、永恆、永久」。"
+        "ja": "この友情は永遠に続くと思います。",
+        "zh": "我覺得這份友情會永遠持續。"
       }
     ]
   },
@@ -16576,18 +17840,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは永久です。",
-        "zh": "這是「永久、永遠」。"
+        "ja": "永久に保存できる資料ではありません。",
+        "zh": "這不是可以永久保存的資料。"
       }
     ]
   },
   "n3_1416": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "起床する",
+      "masu": "起床します",
+      "te": "起床して",
+      "ta": "起床した",
+      "nai": "起床しない"
+    },
     "examples": [
       {
-        "ja": "これは起床です。",
-        "zh": "這是「起床、起身下床」。"
+        "ja": "毎朝六時に起床します。",
+        "zh": "每天早上六點起床。"
       }
     ]
   },
@@ -16596,28 +17871,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは時期です。",
-        "zh": "這是「時期、時候、期間季節」。"
+        "ja": "旅行にいい時期を選びました。",
+        "zh": "選了適合旅行的時期。"
       }
     ]
   },
   "n3_1418": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "指定する",
+      "masu": "指定します",
+      "te": "指定して",
+      "ta": "指定した",
+      "nai": "指定しない"
+    },
     "examples": [
       {
-        "ja": "これは指定です。",
-        "zh": "這是「指定、指定選定」。"
+        "ja": "指定された席に座ってください。",
+        "zh": "請坐在指定的座位。"
       }
     ]
   },
   "n3_1419": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "縛る",
+      "masu": "縛ります",
+      "te": "縛って",
+      "ta": "縛った",
+      "nai": "縛らない"
+    },
     "examples": [
       {
-        "ja": "これは縛るです。",
-        "zh": "這是「綁、束縛」。"
+        "ja": "荷物をひもでしっかり縛りました。",
+        "zh": "用繩子把行李牢牢綁好。"
       }
     ]
   },
@@ -16626,18 +17923,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは瞬間です。",
-        "zh": "這是「有間、測那間、測那當時。的」。"
+        "ja": "その瞬間、会場が静かになりました。",
+        "zh": "那一瞬間，會場安靜了下來。"
       }
     ]
   },
   "n3_1421": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは少々です。",
-        "zh": "這是「少許、一點、稍稍、片刻、少々待」。"
+        "ja": "少々お待ちください。",
+        "zh": "請稍等片刻。"
       }
     ]
   },
@@ -16646,78 +17943,100 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは正味です。",
-        "zh": "這是「實質內容、淨剩部分、淨重、實數、價、不折不扣的價格、批發價」。"
+        "ja": "正味一時間で作業が終わりました。",
+        "zh": "實際上一小時就完成了作業。"
       }
     ]
   },
   "n3_1423": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "ずれる",
+      "masu": "ずれます",
+      "te": "ずれて",
+      "ta": "ずれた",
+      "nai": "ずれない"
+    },
     "examples": [
       {
-        "ja": "これはずれるです。",
-        "zh": "這是「錯位、動、離題、背離」。"
+        "ja": "写真の位置が少しずれています。",
+        "zh": "照片的位置稍微偏掉了。"
       }
     ]
   },
   "n3_1424": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはそのころです。",
-        "zh": "這是「當時、那時」。"
+        "ja": "そのころ私はまだ学生でした。",
+        "zh": "那時我還是學生。"
       }
     ]
   },
   "n3_1425": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは直ちにです。",
-        "zh": "這是「立即、立刻、直接、親自、臣困」。"
+        "ja": "問題があれば直ちに知らせてください。",
+        "zh": "如果有問題請立刻通知我。"
       }
     ]
   },
   "n3_1426": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはたちまちです。",
-        "zh": "這是「轉眼間一瞬間、很快、立刻、忽多、突然」。"
+        "ja": "空はたちまち暗くなりました。",
+        "zh": "天空轉眼間暗了下來。"
       }
     ]
   },
   "n3_1427": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは足らずです。",
-        "zh": "這是「加分足着」。"
+        "ja": "参加者は十人足らずでした。",
+        "zh": "參加者不到十人。"
       }
     ]
   },
   "n3_1428": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは近々です。",
-        "zh": "這是「近日、不久」。"
+        "ja": "近々新しい店が開くそうです。",
+        "zh": "聽說近日會開新店。"
       }
     ]
   },
   "n3_1429": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "潰す",
+      "masu": "潰します",
+      "te": "潰して",
+      "ta": "潰した",
+      "nai": "潰さない"
+    },
     "examples": [
       {
-        "ja": "これは潰すです。",
-        "zh": "這是「毀壞、弄碎、熔毀、熔化、消磨、消耗、宰殺、堵死、填滿」。"
+        "ja": "空き缶を足で潰しました。",
+        "zh": "我用腳把空罐踩扁。"
       }
     ]
   },
@@ -16726,8 +18045,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは同時です。",
-        "zh": "這是「同時、同一時間」。"
+        "ja": "二つの作業を同時に進めます。",
+        "zh": "兩項作業同時進行。"
       }
     ]
   },
@@ -16736,48 +18055,70 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは途端です。",
-        "zh": "這是「正曽...的時候、剛...的時」。"
+        "ja": "家を出た途端、雨が降り出しました。",
+        "zh": "剛出門雨就下了起來。"
       }
     ]
   },
   "n3_1432": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "長引く",
+      "masu": "長引きます",
+      "te": "長引いて",
+      "ta": "長引いた",
+      "nai": "長引かない"
+    },
     "examples": [
       {
-        "ja": "これは長引くです。",
-        "zh": "這是「拖長、延長」。"
+        "ja": "会議が長引いて昼食が遅れました。",
+        "zh": "會議拖長，午餐延後了。"
       }
     ]
   },
   "n3_1433": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは発です。",
-        "zh": "這是「出發、發出」。"
+        "ja": "この電車は八時発です。",
+        "zh": "這班電車八點出發。"
       }
     ]
   },
   "n3_1434": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは不規則です。",
-        "zh": "這是「不規則、無規律、不整齊、凌亂」。"
+        "ja": "生活が不規則になると体調を崩します。",
+        "zh": "生活不規律的話會搞壞身體。"
       }
     ]
   },
   "n3_1435": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "無沙汰する",
+      "masu": "無沙汰します",
+      "te": "無沙汰して",
+      "ta": "無沙汰した",
+      "nai": "無沙汰しない"
+    },
     "examples": [
       {
-        "ja": "これは無沙汰です。",
-        "zh": "這是「久末通信、久違、久疏問候」。"
+        "ja": "長い間ご無沙汰してすみません。",
+        "zh": "很久沒聯絡，真不好意思。"
       }
     ]
   },
@@ -16786,28 +18127,28 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは普段です。",
-        "zh": "這是「平常、平日」。"
+        "ja": "普段は自転車で通勤しています。",
+        "zh": "平常騎腳踏車通勤。"
       }
     ]
   },
   "n3_1437": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは上真っ先です。",
-        "zh": "這是「最前麵、首先、最先」。"
+        "ja": "知らせを聞いて真っ先に母へ電話しました。",
+        "zh": "聽到消息後第一個打電話給媽媽。"
       }
     ]
   },
   "n3_1438": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは間も無くです。",
-        "zh": "這是「馬上、一會見、不久」。"
+        "ja": "電車は間もなく到着します。",
+        "zh": "電車即將抵達。"
       }
     ]
   },
@@ -16816,8 +18157,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお昼です。",
-        "zh": "這是「白天、中飯、午餐」。"
+        "ja": "お昼は近くの店で食べました。",
+        "zh": "午餐在附近的店吃了。"
       }
     ]
   },
@@ -16826,8 +18167,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは元日です。",
-        "zh": "這是「元旦」。"
+        "ja": "元日は家族で神社へ行きました。",
+        "zh": "元旦全家去了神社。"
       }
     ]
   },
@@ -16836,8 +18177,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは元旦です。",
-        "zh": "這是「元旦、新年第一天」。"
+        "ja": "元旦の朝に年賀状が届きました。",
+        "zh": "元旦早上收到了賀年卡。"
       }
     ]
   },
@@ -16846,8 +18187,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは一昨昨日です。",
-        "zh": "這是「大前天、前三天、人宮」。"
+        "ja": "一昨昨日から熱が続いています。",
+        "zh": "從大前天開始一直發燒。"
       }
     ]
   },
@@ -16856,8 +18197,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは初旬です。",
-        "zh": "這是「初旬、上旬」。"
+        "ja": "四月初旬に桜が咲きました。",
+        "zh": "四月上旬櫻花開了。"
       }
     ]
   },
@@ -16866,8 +18207,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは新年です。",
-        "zh": "這是「新年、新的一年」。"
+        "ja": "新年のあいさつをしました。",
+        "zh": "我做了新年問候。"
       }
     ]
   },
@@ -16876,8 +18217,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは西暦です。",
-        "zh": "這是「西居、西元」。"
+        "ja": "この建物は西暦一九八〇年に建てられました。",
+        "zh": "這棟建築是在西元一九八〇年建造的。"
       }
     ]
   },
@@ -16886,8 +18227,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは先々月です。",
-        "zh": "這是「上上個月」。"
+        "ja": "先々月に引っ越しました。",
+        "zh": "上上個月搬家了。"
       }
     ]
   },
@@ -16896,8 +18237,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは先々週です。",
-        "zh": "這是「上上週」。"
+        "ja": "先々週の会議を欠席しました。",
+        "zh": "上上週的會議我缺席了。"
       }
     ]
   },
@@ -16906,8 +18247,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは月日です。",
-        "zh": "這是「日奥月、歳月、時光、日月、日期」。"
+        "ja": "月日がたつのは早いです。",
+        "zh": "歲月流逝得很快。"
       }
     ]
   },
@@ -16916,8 +18257,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは当日です。",
-        "zh": "這是「當天、當日、那一天」。"
+        "ja": "当日は受付で名前を言ってください。",
+        "zh": "當天請在櫃台報上姓名。"
       }
     ]
   },
@@ -16926,8 +18267,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは年月です。",
-        "zh": "這是「年和月、歳月、光陰、長期長年、羅月、多年來」。"
+        "ja": "長い年月をかけて研究を続けました。",
+        "zh": "花了漫長歲月持續研究。"
       }
     ]
   },
@@ -16936,18 +18277,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日時です。",
-        "zh": "這是「日期時間」。"
+        "ja": "面接の日時を確認しました。",
+        "zh": "我確認了面試的日期與時間。"
       }
     ]
   },
   "n3_1452": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは日夜です。",
-        "zh": "這是「日夜、綿是経常不斷地」。"
+        "ja": "日夜努力して資格を取りました。",
+        "zh": "日日夜夜努力後取得了證照。"
       }
     ]
   },
@@ -16956,8 +18297,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日中です。",
-        "zh": "這是「白天、日本與中國」。"
+        "ja": "日中は気温がかなり上がります。",
+        "zh": "白天氣溫會升高不少。"
       }
     ]
   },
@@ -16966,8 +18307,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日程です。",
-        "zh": "這是「日程毎天的計書」。"
+        "ja": "旅行の日程をもう一度確認しました。",
+        "zh": "我再次確認了旅行行程。"
       }
     ]
   },
@@ -16976,8 +18317,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは年間です。",
-        "zh": "這是「年間、一年期間」。"
+        "ja": "年間の売り上げを計算しました。",
+        "zh": "我計算了全年的銷售額。"
       }
     ]
   },
@@ -16986,18 +18327,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは年月です。",
-        "zh": "這是「年月、光除、時間、長年月」。"
+        "ja": "年月がたっても思い出は消えません。",
+        "zh": "即使歲月流逝，回憶也不會消失。"
       }
     ]
   },
   "n3_1457": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは年中です。",
-        "zh": "這是「全年、一年到頭」。"
+        "ja": "この店は年中休まず営業しています。",
+        "zh": "這家店全年無休營業。"
       }
     ]
   },
@@ -17006,18 +18347,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは年度です。",
-        "zh": "這是「年度、會計或學校年度」。"
+        "ja": "新しい年度の計画を立てました。",
+        "zh": "制定了新年度的計畫。"
       }
     ]
   },
   "n3_1459": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "早起きする",
+      "masu": "早起きします",
+      "te": "早起きして",
+      "ta": "早起きした",
+      "nai": "早起きしない"
+    },
     "examples": [
       {
-        "ja": "これは早起きです。",
-        "zh": "這是「早起」。"
+        "ja": "早起きして散歩に行きました。",
+        "zh": "早起去散步了。"
       }
     ]
   },
@@ -17026,8 +18378,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは半月です。",
-        "zh": "這是「半個月、半月形、上弦月」。"
+        "ja": "半月ほど海外に滞在しました。",
+        "zh": "在海外停留了大約半個月。"
       }
     ]
   },
@@ -17036,8 +18388,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは半日です。",
-        "zh": "這是「半天」。"
+        "ja": "半日かけて部屋を掃除しました。",
+        "zh": "花了半天打掃房間。"
       }
     ]
   },
@@ -17046,8 +18398,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日帰りです。",
-        "zh": "這是「當天來回」。"
+        "ja": "京都へ日帰りで旅行しました。",
+        "zh": "當天來回去京都旅行。"
       }
     ]
   },
@@ -17056,8 +18408,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは日付です。",
-        "zh": "這是「日期」。"
+        "ja": "書類に日付を書いてください。",
+        "zh": "請在文件上寫日期。"
       }
     ]
   },
@@ -17066,8 +18418,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昼過ぎです。",
-        "zh": "這是「過午、中午過後」。"
+        "ja": "昼過ぎに荷物が届きました。",
+        "zh": "中午過後行李送到了。"
       }
     ]
   },
@@ -17076,8 +18428,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昼前です。",
-        "zh": "這是「上午、中午前」。"
+        "ja": "昼前に銀行へ行きました。",
+        "zh": "中午前去了銀行。"
       }
     ]
   },
@@ -17086,8 +18438,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは平成です。",
-        "zh": "這是「平成、日本年號」。"
+        "ja": "平成の時代に生まれました。",
+        "zh": "出生於平成時代。"
       }
     ]
   },
@@ -17096,8 +18448,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは真冬です。",
-        "zh": "這是「隆冬、正冬天」。"
+        "ja": "真冬でもこの部屋は暖かいです。",
+        "zh": "即使是隆冬，這個房間也很暖。"
       }
     ]
   },
@@ -17106,8 +18458,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは夜中です。",
-        "zh": "這是「半夜深夜、午夜」。"
+        "ja": "夜中に電話が鳴りました。",
+        "zh": "半夜電話響了。"
       }
     ]
   },
@@ -17116,28 +18468,28 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは以降です。",
-        "zh": "這是「以後之後」。"
+        "ja": "来週以降にもう一度連絡します。",
+        "zh": "下週之後會再聯絡一次。"
       }
     ]
   },
   "n3_1470": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは何時かです。",
-        "zh": "這是「末來的不定時間、改天、過去的不、時間以前、不知不覺」。"
+        "ja": "いつか海外で働いてみたいです。",
+        "zh": "總有一天想在海外工作看看。"
       }
     ]
   },
   "n3_1471": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは何時までもです。",
-        "zh": "這是「到什麼時候也...、始終、永遠」。"
+        "ja": "この気持ちをいつまでも忘れません。",
+        "zh": "我永遠不會忘記這份心情。"
       }
     ]
   },
@@ -17146,8 +18498,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは以来です。",
-        "zh": "這是「以來、以後、今後、將來」。"
+        "ja": "卒業以来、彼には会っていません。",
+        "zh": "畢業以來就沒見過他。"
       }
     ]
   },
@@ -17156,18 +18508,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは近代です。",
-        "zh": "這是「近代、現代」。"
+        "ja": "近代の歴史を勉強しています。",
+        "zh": "正在學習近代歷史。"
       }
     ]
   },
   "n3_1474": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは現です。",
-        "zh": "這是「現、現在的」。"
+        "ja": "現社長は海外経験が豊富です。",
+        "zh": "現任社長有豐富的海外經驗。"
       }
     ]
   },
@@ -17176,28 +18528,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは原始です。",
-        "zh": "這是「原始、自然」。"
+        "ja": "原始の生活について調べました。",
+        "zh": "我查了原始生活的相關資料。"
       }
     ]
   },
   "n3_1476": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "逆らう",
+      "masu": "逆らいます",
+      "te": "逆らって",
+      "ta": "逆らった",
+      "nai": "逆らわない"
+    },
     "examples": [
       {
-        "ja": "これは逆らうです。",
-        "zh": "這是「逆、反方向、人違背、違抗、抗、違荔」。"
+        "ja": "親の意見に逆らって一人で決めました。",
+        "zh": "違背父母的意見，自己決定了。"
       }
     ]
   },
   "n3_1477": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは先程です。",
-        "zh": "這是「側剛、方」。"
+        "ja": "先程お電話した者です。",
+        "zh": "我是剛才打電話的人。"
       }
     ]
   },
@@ -17206,8 +18569,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは末です。",
-        "zh": "這是「結尾、末了、末端、盡頭、將來、未來、前途、不重要的、瑣事」。"
+        "ja": "長い話し合いの末、計画を変更しました。",
+        "zh": "長時間討論之後，改變了計畫。"
       }
     ]
   },
@@ -17216,8 +18579,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは戦後です。",
-        "zh": "這是「戰後」。"
+        "ja": "戦後の社会について発表しました。",
+        "zh": "發表了關於戰後社會的內容。"
       }
     ]
   },
@@ -17226,8 +18589,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは中世です。",
-        "zh": "這是「中世紀」。"
+        "ja": "中世の城を見学しました。",
+        "zh": "參觀了中世紀的城堡。"
       }
     ]
   },
@@ -17236,28 +18599,28 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは当時です。",
-        "zh": "這是「現在、目前、営時、那時」。"
+        "ja": "当時の写真がまだ残っています。",
+        "zh": "當時的照片還留著。"
       }
     ]
   },
   "n3_1482": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは後程です。",
-        "zh": "這是「稍後、過一會兒」。"
+        "ja": "後程こちらから連絡いたします。",
+        "zh": "稍後由我們這邊聯絡您。"
       }
     ]
   },
   "n3_1483": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "これは来です。",
-        "zh": "這是「下個、未來」。"
+        "ja": "来年度の予定を確認しました。",
+        "zh": "確認了下個年度的預定。"
       }
     ]
   },
@@ -17266,18 +18629,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは一時です。",
-        "zh": "這是「某時期、一段時間、那時、暫時、點鐘、同時、一下子」。"
+        "ja": "一時はどうなるか心配しました。",
+        "zh": "有一段時間很擔心事情會變成怎樣。"
       }
     ]
   },
   "n3_1485": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "延長する",
+      "masu": "延長します",
+      "te": "延長して",
+      "ta": "延長した",
+      "nai": "延長しない"
+    },
     "examples": [
       {
-        "ja": "これは延長です。",
-        "zh": "這是「延長、拉長時間」。"
+        "ja": "締め切りを一週間延長しました。",
+        "zh": "把截止期限延長了一週。"
       }
     ]
   },
@@ -17286,18 +18660,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは短期です。",
-        "zh": "這是「短期、短時間」。"
+        "ja": "短期のアルバイトを探しています。",
+        "zh": "正在找短期打工。"
       }
     ]
   },
   "n3_1487": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは定期的です。",
-        "zh": "這是「定期、一定的期間」。"
+        "ja": "定期的に歯医者へ行っています。",
+        "zh": "我定期去看牙醫。"
       }
     ]
   },
@@ -17306,18 +18680,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは井戸です。",
-        "zh": "這是「井」。"
+        "ja": "昔はこの村の井戸を使っていました。",
+        "zh": "以前使用這個村子的水井。"
       }
     ]
   },
   "n3_1489": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "外出する",
+      "masu": "外出します",
+      "te": "外出して",
+      "ta": "外出した",
+      "nai": "外出しない"
+    },
     "examples": [
       {
-        "ja": "これは外出です。",
-        "zh": "這是「出門、外出」。"
+        "ja": "母は買い物に外出しています。",
+        "zh": "媽媽外出買東西了。"
       }
     ]
   },
@@ -17326,8 +18711,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは家屋です。",
-        "zh": "這是「房屋、家屋」。"
+        "ja": "古い家屋を修理しました。",
+        "zh": "修理了老舊房屋。"
       }
     ]
   },
@@ -17336,8 +18721,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは暮らしです。",
-        "zh": "這是「度日、生活、生計、家境」。"
+        "ja": "田舎での暮らしに慣れてきました。",
+        "zh": "漸漸習慣鄉下生活了。"
       }
     ]
   },
@@ -17346,8 +18731,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは自宅です。",
-        "zh": "這是「自己家」。"
+        "ja": "今日は自宅で仕事をします。",
+        "zh": "今天在家工作。"
       }
     ]
   },
@@ -17356,18 +18741,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは住居です。",
-        "zh": "這是「住所、住宅」。"
+        "ja": "新しい住居を探しています。",
+        "zh": "正在找新的住處。"
       }
     ]
   },
   "n3_1494": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "修繕する",
+      "masu": "修繕します",
+      "te": "修繕して",
+      "ta": "修繕した",
+      "nai": "修繕しない"
+    },
     "examples": [
       {
-        "ja": "これは修繕です。",
-        "zh": "這是「修繕、修理」。"
+        "ja": "屋根の修繕を業者に頼みました。",
+        "zh": "請業者修繕屋頂。"
       }
     ]
   },
@@ -17376,8 +18772,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは住宅です。",
-        "zh": "這是「住宅、住人的房子」。"
+        "ja": "この辺りは住宅が多いです。",
+        "zh": "這一帶住宅很多。"
       }
     ]
   },
@@ -17386,8 +18782,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは住宅地です。",
-        "zh": "這是「住宅區」。"
+        "ja": "駅の近くに新しい住宅地ができました。",
+        "zh": "車站附近形成了新的住宅區。"
       }
     ]
   },
@@ -17396,18 +18792,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはスタートです。",
-        "zh": "這是「開始、出發」。"
+        "ja": "試合は午後三時にスタートします。",
+        "zh": "比賽下午三點開始。"
       }
     ]
   },
   "n3_1498": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "取り壊す",
+      "masu": "取り壊します",
+      "te": "取り壊して",
+      "ta": "取り壊した",
+      "nai": "取り壊さない"
+    },
     "examples": [
       {
-        "ja": "これは取り壊すです。",
-        "zh": "這是「拆除」。"
+        "ja": "古いビルを取り壊すことになりました。",
+        "zh": "決定拆除老舊大樓。"
       }
     ]
   },
@@ -17416,8 +18823,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは軒です。",
-        "zh": "這是「屋簷」。"
+        "ja": "軒の下で雨宿りしました。",
+        "zh": "在屋簷下躲雨。"
       }
     ]
   },
@@ -17426,8 +18833,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは雨戸です。",
-        "zh": "這是「木板套、滑窗」。"
+        "ja": "台風に備えて雨戸を閉めました。",
+        "zh": "為了防颱，把防雨拉門關上了。"
       }
     ]
   },
@@ -17436,8 +18843,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは石垣です。",
-        "zh": "這是「石牆」。"
+        "ja": "城の周りに石垣が残っています。",
+        "zh": "城的周圍還留有石牆。"
       }
     ]
   },
@@ -17446,8 +18853,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは垣根です。",
-        "zh": "這是「禿色、柵欄、圍牆」。"
+        "ja": "庭の垣根をきれいに整えました。",
+        "zh": "把庭院的圍籬整理好了。"
       }
     ]
   },
@@ -17456,8 +18863,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは瓦です。",
-        "zh": "這是「瓦、屋頂瓦片」。"
+        "ja": "古い瓦を新しいものに替えました。",
+        "zh": "把舊屋瓦換成新的。"
       }
     ]
   },
@@ -17466,18 +18873,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは隙間です。",
-        "zh": "這是「空隙、隙継、空間、開中」。"
+        "ja": "ドアの隙間から光が入っています。",
+        "zh": "光從門縫透進來。"
       }
     ]
   },
   "n3_1505": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "涼む",
+      "masu": "涼みます",
+      "te": "涼んで",
+      "ta": "涼んだ",
+      "nai": "涼まない"
+    },
     "examples": [
       {
-        "ja": "これは涼むです。",
-        "zh": "這是「乗涼、納涼」。"
+        "ja": "夕方、庭で涼みました。",
+        "zh": "傍晚在庭院乘涼。"
       }
     ]
   },
@@ -17486,8 +18904,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは堀です。",
-        "zh": "這是「圍牆、牆院、柵欄」。"
+        "ja": "家の周りに高い塀があります。",
+        "zh": "房子周圍有高高的圍牆。"
       }
     ]
   },
@@ -17496,8 +18914,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは物置です。",
-        "zh": "這是「庫房、倉房」。"
+        "ja": "使わない道具を物置に入れました。",
+        "zh": "把不用的工具放進儲藏室。"
       }
     ]
   },
@@ -17506,8 +18924,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは煉瓦です。",
-        "zh": "這是「磚瓦」。"
+        "ja": "煉瓦の壁がとてもおしゃれです。",
+        "zh": "磚牆很有風格。"
       }
     ]
   },
@@ -17516,8 +18934,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは泡です。",
-        "zh": "這是「泡、沫、水花」。"
+        "ja": "石けんの泡が手につきました。",
+        "zh": "肥皂泡沫沾在手上。"
       }
     ]
   },
@@ -17526,28 +18944,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは板です。",
-        "zh": "這是「木板、薄板」。"
+        "ja": "板を二枚買って棚を作りました。",
+        "zh": "買了兩片木板做架子。"
       }
     ]
   },
   "n3_1511": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは似適です。",
-        "zh": "這是「舒適、暢快愉快」。"
+        "ja": "このホテルは部屋が広くて快適です。",
+        "zh": "這間飯店房間寬敞又舒適。"
       }
     ]
   },
   "n3_1512": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "換気する",
+      "masu": "換気します",
+      "te": "換気して",
+      "ta": "換気した",
+      "nai": "換気しない"
+    },
     "examples": [
       {
-        "ja": "これは換気です。",
-        "zh": "這是「換氣、通風、使空氣流通」。"
+        "ja": "窓を開けて換気してください。",
+        "zh": "請打開窗戶換氣。"
       }
     ]
   },
@@ -17556,8 +18985,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは客間です。",
-        "zh": "這是「客廳」。"
+        "ja": "客間にお客様を案内しました。",
+        "zh": "把客人帶到客房。"
       }
     ]
   },
@@ -17566,18 +18995,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは座敷です。",
-        "zh": "這是「日本式客廳、酒席、宴會、應酬、宴客的時間、接待客人」。"
+        "ja": "座敷で親戚が集まりました。",
+        "zh": "親戚們聚在和室裡。"
       }
     ]
   },
   "n3_1515": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "敷く",
+      "masu": "敷きます",
+      "te": "敷いて",
+      "ta": "敷いた",
+      "nai": "敷かない"
+    },
     "examples": [
       {
-        "ja": "これは敷くです。",
-        "zh": "這是「鋪、布置」。"
+        "ja": "床に布団を敷きました。",
+        "zh": "在地板上鋪了棉被。"
       }
     ]
   },
@@ -17586,8 +19026,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは障子です。",
-        "zh": "這是「日本式紙拉門、隔羽」。"
+        "ja": "障子を開けると庭が見えます。",
+        "zh": "打開紙拉門就看得到庭院。"
       }
     ]
   },
@@ -17596,8 +19036,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食卓です。",
-        "zh": "這是「餐桌」。"
+        "ja": "家族が食卓を囲みました。",
+        "zh": "家人圍坐在餐桌旁。"
       }
     ]
   },
@@ -17606,38 +19046,71 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは書斎です。",
-        "zh": "這是「書房、書齋」。"
+        "ja": "父は書斎で本を読んでいます。",
+        "zh": "爸爸在書房看書。"
       }
     ]
   },
   "n3_1519": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "洗面する",
+      "masu": "洗面します",
+      "te": "洗面して",
+      "ta": "洗面した",
+      "nai": "洗面しない"
+    },
     "examples": [
       {
-        "ja": "これは洗面です。",
-        "zh": "這是「洗臉」。"
+        "ja": "朝起きたらすぐ洗面します。",
+        "zh": "早上起床後馬上洗臉。"
       }
     ]
   },
   "n3_1520": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "散らかす",
+      "masu": "散らかします",
+      "te": "散らかして",
+      "ta": "散らかした",
+      "nai": "散らかさない"
+    },
     "examples": [
       {
-        "ja": "これは散らかすです。",
-        "zh": "這是「吧弄得生華人本、到處亂放、亂扔」。"
+        "ja": "子どもがおもちゃを散らかしました。",
+        "zh": "孩子把玩具弄得到處都是。"
       }
     ]
   },
   "n3_1521": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "散らかる",
+      "masu": "散らかります",
+      "te": "散らかって",
+      "ta": "散らかった",
+      "nai": "散らからない"
+    },
     "examples": [
       {
-        "ja": "これは散らかるです。",
-        "zh": "這是「旺.凌亂、亂七八糟、到處都是」。"
+        "ja": "机の上が書類で散らかっています。",
+        "zh": "桌上被文件弄得很亂。"
       }
     ]
   },
@@ -17646,8 +19119,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは手洗いです。",
-        "zh": "這是「洗手洗手盆、洗手用的水洗手間、手洗行。匣」。"
+        "ja": "手洗いは廊下の奥にあります。",
+        "zh": "廁所在走廊深處。"
       }
     ]
   },
@@ -17656,18 +19129,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは床の間です。",
-        "zh": "這是「壁龕、和室裝飾空間」。"
+        "ja": "床の間に花が飾ってあります。",
+        "zh": "和室壁龕裡裝飾著花。"
       }
     ]
   },
   "n3_1524": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "引っ込む",
+      "masu": "引っ込みます",
+      "te": "引っ込んで",
+      "ta": "引っ込んだ",
+      "nai": "引っ込まない"
+    },
     "examples": [
       {
-        "ja": "これは引っ込むです。",
-        "zh": "這是「引退、隱居、縮進、縮入、入、拉進、拉攏」。"
+        "ja": "犬が小屋の中に引っ込みました。",
+        "zh": "狗縮回小屋裡了。"
       }
     ]
   },
@@ -17676,8 +19160,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは袂です。",
-        "zh": "這是「袖口、橋邊」。"
+        "ja": "橋の袂で友人を待ちました。",
+        "zh": "在橋邊等朋友。"
       }
     ]
   },
@@ -17686,18 +19170,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは便所です。",
-        "zh": "這是「廁所、便所」。"
+        "ja": "古い駅の便所を新しくしました。",
+        "zh": "把舊車站的廁所翻新了。"
       }
     ]
   },
   "n3_1527": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは銘々です。",
-        "zh": "這是「各自毎個人」。"
+        "ja": "参加者は銘々好きな席に座りました。",
+        "zh": "參加者各自坐在喜歡的座位。"
       }
     ]
   },
@@ -17706,28 +19190,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは物音です。",
-        "zh": "這是「響聲、響動、聲音」。"
+        "ja": "夜中に物音がして目が覚めました。",
+        "zh": "半夜有聲響，把我吵醒了。"
       }
     ]
   },
   "n3_1529": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "破く",
+      "masu": "破きます",
+      "te": "破いて",
+      "ta": "破いた",
+      "nai": "破かない"
+    },
     "examples": [
       {
-        "ja": "これは破くです。",
-        "zh": "這是「撕破、弄破」。"
+        "ja": "封筒を破いて中の手紙を出しました。",
+        "zh": "撕開信封拿出裡面的信。"
       }
     ]
   },
   "n3_1530": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは薄暗いです。",
-        "zh": "這是「微暗的、陰暗的」。"
+        "ja": "薄暗い部屋で本を読みました。",
+        "zh": "在昏暗的房間裡看書。"
       }
     ]
   },
@@ -17736,8 +19231,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは貸問です。",
-        "zh": "這是「出租的房間」。"
+        "ja": "駅の近くで貸間を探しています。",
+        "zh": "正在車站附近找出租套房。"
       }
     ]
   },
@@ -17746,8 +19241,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは貸家です。",
-        "zh": "這是「出租的房子」。"
+        "ja": "この辺りには貸家が多いです。",
+        "zh": "這一帶出租住宅很多。"
       }
     ]
   },
@@ -17756,8 +19251,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは住まいです。",
-        "zh": "這是「居住、住處、寓所、地址」。"
+        "ja": "新しい住まいに引っ越しました。",
+        "zh": "搬到了新的住處。"
       }
     ]
   },
@@ -17766,28 +19261,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは団地です。",
-        "zh": "這是「工業區、住宅區」。"
+        "ja": "駅前の団地に友人が住んでいます。",
+        "zh": "朋友住在車站前的集合住宅區。"
       }
     ]
   },
   "n3_1535": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは旺盛です。",
-        "zh": "這是「旺盛、非常有活力」。"
+        "ja": "彼は好奇心が旺盛です。",
+        "zh": "他好奇心旺盛。"
       }
     ]
   },
   "n3_1536": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "お代わりする",
+      "masu": "お代わりします",
+      "te": "お代わりして",
+      "ta": "お代わりした",
+      "nai": "お代わりしない"
+    },
     "examples": [
       {
-        "ja": "これはお代わりです。",
-        "zh": "這是「再來一杯、一碗」。"
+        "ja": "ご飯のお代わりをお願いします。",
+        "zh": "請再給我添一碗飯。"
       }
     ]
   },
@@ -17796,8 +19302,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは器具です。",
-        "zh": "這是「器具、用具」。"
+        "ja": "料理に使う器具を洗いました。",
+        "zh": "把料理用具洗好了。"
       }
     ]
   },
@@ -17806,28 +19312,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはカロリーです。",
-        "zh": "這是「卡路里、熱量」。"
+        "ja": "このケーキはカロリーが高いです。",
+        "zh": "這個蛋糕熱量很高。"
       }
     ]
   },
   "n3_1539": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "食う",
+      "masu": "食います",
+      "te": "食って",
+      "ta": "食った",
+      "nai": "食わない"
+    },
     "examples": [
       {
-        "ja": "これは食うです。",
-        "zh": "這是「吃、咬」。"
+        "ja": "虫に足を食われました。",
+        "zh": "腳被蟲咬了。"
       }
     ]
   },
   "n3_1540": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは高級です。",
-        "zh": "這是「高高級、高」。"
+        "ja": "高級なレストランで食事しました。",
+        "zh": "在高級餐廳用餐了。"
       }
     ]
   },
@@ -17836,8 +19353,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは献立です。",
-        "zh": "這是「菜單、計畫」。"
+        "ja": "一週間の献立を考えました。",
+        "zh": "想了一週的菜單。"
       }
     ]
   },
@@ -17846,48 +19363,48 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは刺身です。",
-        "zh": "這是「生魚片」。"
+        "ja": "新鮮な刺身を食べました。",
+        "zh": "吃了新鮮的生魚片。"
       }
     ]
   },
   "n3_1543": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはさっぱりです。",
-        "zh": "這是「清爽、乾脆」。"
+        "ja": "運動した後は気分がさっぱりします。",
+        "zh": "運動後心情很清爽。"
       }
     ]
   },
   "n3_1544": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これは塩辛いです。",
-        "zh": "這是「吧鹹的」。"
+        "ja": "このスープは少し塩辛いです。",
+        "zh": "這碗湯有點鹹。"
       }
     ]
   },
   "n3_1545": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "これはしつこいです。",
-        "zh": "這是「過於濃的、油膩、執近、糾纏不休」。"
+        "ja": "このソースはしつこくなくて食べやすいです。",
+        "zh": "這個醬汁不濃膩，很好入口。"
       }
     ]
   },
   "n3_1546": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは上品です。",
-        "zh": "這是「高雅、上等」。"
+        "ja": "上品な味の和菓子です。",
+        "zh": "這是味道高雅的和菓子。"
       }
     ]
   },
@@ -17896,8 +19413,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食生活です。",
-        "zh": "這是「飲食生活」。"
+        "ja": "健康のために食生活を見直しました。",
+        "zh": "為了健康重新檢視飲食生活。"
       }
     ]
   },
@@ -17906,18 +19423,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食欲です。",
-        "zh": "這是「食慾」。"
+        "ja": "暑さで食欲がありません。",
+        "zh": "因為天氣熱沒有食慾。"
       }
     ]
   },
   "n3_1549": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは粗末です。",
-        "zh": "這是「粗糖、不精緻、疏忽、簡慢、糟中」。"
+        "ja": "粗末な食事でも感謝して食べました。",
+        "zh": "即使是簡陋的餐點也心懷感謝地吃了。"
       }
     ]
   },
@@ -17926,8 +19443,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは昼食です。",
-        "zh": "這是「午飯、午餐、中飯、中餐」。"
+        "ja": "昼食は会社の近くで食べます。",
+        "zh": "午餐在公司附近吃。"
       }
     ]
   },
@@ -17936,28 +19453,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは朝食です。",
-        "zh": "這是「早餐」。"
+        "ja": "朝食にパンと卵を食べました。",
+        "zh": "早餐吃了麵包和蛋。"
       }
     ]
   },
   "n3_1552": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "注ぐ",
+      "masu": "注ぎます",
+      "te": "注いで",
+      "ta": "注いだ",
+      "nai": "注がない"
+    },
     "examples": [
       {
-        "ja": "これは注ぐです。",
-        "zh": "這是「倒入、注入」。"
+        "ja": "コップに水を注ぎました。",
+        "zh": "把水倒進杯子裡。"
       }
     ]
   },
   "n3_1553": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは残らずです。",
-        "zh": "這是「部、笑通、一個不剰和」。"
+        "ja": "皿の料理を残らず食べました。",
+        "zh": "把盤子裡的料理全部吃完了。"
       }
     ]
   },
@@ -17966,8 +19494,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは飲み会です。",
-        "zh": "這是「喝酒的聚會」。"
+        "ja": "金曜日に職場の飲み会があります。",
+        "zh": "星期五有職場酒會。"
       }
     ]
   },
@@ -17976,28 +19504,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバイキングです。",
-        "zh": "這是「自助餐、吃到飽」。"
+        "ja": "ホテルの朝食はバイキングです。",
+        "zh": "飯店早餐是自助餐。"
       }
     ]
   },
   "n3_1556": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "賄う",
+      "masu": "賄います",
+      "te": "賄って",
+      "ta": "賄った",
+      "nai": "賄わない"
+    },
     "examples": [
       {
-        "ja": "これは賭うです。",
-        "zh": "這是「供給飯食供給、供應、維持」。"
+        "ja": "会費で会場費を賄いました。",
+        "zh": "用會費支付了場地費。"
       }
     ]
   },
   "n3_1557": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "欲張る",
+      "masu": "欲張ります",
+      "te": "欲張って",
+      "ta": "欲張った",
+      "nai": "欲張らない"
+    },
     "examples": [
       {
-        "ja": "これは欲張るです。",
-        "zh": "這是「貪婪、貪心、貪得無壓」。"
+        "ja": "欲張って料理を取りすぎました。",
+        "zh": "太貪心拿了太多料理。"
       }
     ]
   },
@@ -18006,8 +19556,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはウィスキーです。",
-        "zh": "這是「威士忌」。"
+        "ja": "父はウィスキーを少しだけ飲みます。",
+        "zh": "爸爸只喝一點威士忌。"
       }
     ]
   },
@@ -18016,8 +19566,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これはお数・お葉です。",
-        "zh": "這是「菜飯、菜館」。"
+        "ja": "今日のおかずは焼き魚です。",
+        "zh": "今天的配菜是烤魚。"
       }
     ]
   },
@@ -18026,18 +19576,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはクリームです。",
-        "zh": "這是「鮮妨油、奶酪、膏狀化妝品、皮鞋油、冰淇淋」。"
+        "ja": "ケーキにクリームをのせました。",
+        "zh": "在蛋糕上放了鮮奶油。"
       }
     ]
   },
   "n3_1561": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "持参する",
+      "masu": "持参します",
+      "te": "持参して",
+      "ta": "持参した",
+      "nai": "持参しない"
+    },
     "examples": [
       {
-        "ja": "これは持参です。",
-        "zh": "這是「自備、攜帶」。"
+        "ja": "昼食は各自持参してください。",
+        "zh": "午餐請各自自備。"
       }
     ]
   },
@@ -18046,8 +19607,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食塩です。",
-        "zh": "這是「遼食塩砂糖味付」。"
+        "ja": "食塩を少し加えて味を調えます。",
+        "zh": "加一點食鹽調味。"
       }
     ]
   },
@@ -18056,8 +19617,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは食物です。",
-        "zh": "這是「食物、可吃的東西」。"
+        "ja": "冷蔵庫に食物を保存します。",
+        "zh": "把食物保存在冰箱裡。"
       }
     ]
   },
@@ -18066,8 +19627,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは豆腐です。",
-        "zh": "這是「還豆腐很便宜」。"
+        "ja": "豆腐を味噌汁に入れました。",
+        "zh": "把豆腐放進味噌湯。"
       }
     ]
   },
@@ -18076,18 +19637,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは飯です。",
-        "zh": "這是「飯、餐」。"
+        "ja": "温かい飯を茶わんに盛りました。",
+        "zh": "把熱飯盛進碗裡。"
       }
     ]
   },
   "n3_1566": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "盛る",
+      "masu": "盛ります",
+      "te": "盛って",
+      "ta": "盛った",
+      "nai": "盛らない"
+    },
     "examples": [
       {
-        "ja": "これは盛るです。",
-        "zh": "這是「盛滿、裝滿、堆滿、堆高、配藥、下毒、刻劃、標刻度由」。"
+        "ja": "皿にサラダを盛りました。",
+        "zh": "把沙拉盛到盤子裡。"
       }
     ]
   },
@@ -18096,58 +19668,113 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは冷凍食品です。",
-        "zh": "這是「冷凍食品、冷凍保存的食品」。"
+        "ja": "忙しい日は冷凍食品を使います。",
+        "zh": "忙碌的日子會使用冷凍食品。"
       }
     ]
   },
   "n3_1568": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "薄める",
+      "masu": "薄めます",
+      "te": "薄めて",
+      "ta": "薄めた",
+      "nai": "薄めない"
+    },
     "examples": [
       {
-        "ja": "これは薄めるです。",
-        "zh": "這是「稀釋、弄淡」。"
+        "ja": "濃いジュースを水で薄めました。",
+        "zh": "把濃果汁用水稀釋了。"
       }
     ]
   },
   "n3_1569": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "加熱する",
+      "masu": "加熱します",
+      "te": "加熱して",
+      "ta": "加熱した",
+      "nai": "加熱しない"
+    },
     "examples": [
       {
-        "ja": "これは加熱です。",
-        "zh": "這是「加熱、高溫處理」。"
+        "ja": "食べる前に十分に加熱してください。",
+        "zh": "吃之前請充分加熱。"
       }
     ]
   },
   "n3_1570": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "焦がす",
+      "masu": "焦がします",
+      "te": "焦がして",
+      "ta": "焦がした",
+      "nai": "焦がさない"
+    },
     "examples": [
       {
-        "ja": "これは焦がすです。",
-        "zh": "這是「弄糊、烤焦、燒焦、焦急、慮、用香薰」。"
+        "ja": "パンを焦がしてしまいました。",
+        "zh": "不小心把麵包烤焦了。"
       }
     ]
   },
   "n3_1571": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "炊事する",
+      "masu": "炊事します",
+      "te": "炊事して",
+      "ta": "炊事した",
+      "nai": "炊事しない"
+    },
     "examples": [
       {
-        "ja": "これは炊事です。",
-        "zh": "這是「高調、煮飯」。"
+        "ja": "キャンプではみんなで炊事をしました。",
+        "zh": "露營時大家一起煮飯。"
       }
     ]
   },
   "n3_1572": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "注ぐ",
+      "masu": "注ぎます",
+      "te": "注いで",
+      "ta": "注いだ",
+      "nai": "注がない"
+    },
     "examples": [
       {
-        "ja": "これは注ぐです。",
-        "zh": "這是「注入、傾注」。"
+        "ja": "コップにお茶を注ぎました。",
+        "zh": "把茶倒進杯子裡。"
       }
     ]
   },
@@ -18156,8 +19783,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは調味料です。",
-        "zh": "這是「調味料、佐料」。"
+        "ja": "料理に合う調味料を選びました。",
+        "zh": "選了適合料理的調味料。"
       }
     ]
   },
@@ -18166,38 +19793,60 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは出来上がりです。",
-        "zh": "這是「完成、做好的結果」。"
+        "ja": "料理の出来上がりを写真に撮りました。",
+        "zh": "把完成的料理拍了照。"
       }
     ]
   },
   "n3_1575": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "出来上がる",
+      "masu": "出来上がります",
+      "te": "出来上がって",
+      "ta": "出来上がった",
+      "nai": "出来上がらない"
+    },
     "examples": [
       {
-        "ja": "これは出来上がるです。",
-        "zh": "這是「完成、做好、天性、生來就」。"
+        "ja": "ケーキがきれいに出来上がりました。",
+        "zh": "蛋糕漂亮地完成了。"
       }
     ]
   },
   "n3_1576": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "熱する",
+      "masu": "熱します",
+      "te": "熱して",
+      "ta": "熱した",
+      "nai": "熱しない"
+    },
     "examples": [
       {
-        "ja": "これは熱するです。",
-        "zh": "這是「加熱、變熱、發熱、熱中於、興奮激動」。"
+        "ja": "鍋を強火で熱します。",
+        "zh": "用大火加熱鍋子。"
       }
     ]
   },
   "n3_1577": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "これは火を通すです。",
-        "zh": "這是「加熱、煮熟」。"
+        "ja": "肉にはしっかり火を通してください。",
+        "zh": "肉請確實煮熟。"
       }
     ]
   },
@@ -18206,28 +19855,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは湯気です。",
-        "zh": "這是「蒸氣、熱氣、水珠、水滴」。"
+        "ja": "鍋から白い湯気が上がっています。",
+        "zh": "鍋子冒出白色蒸氣。"
       }
     ]
   },
   "n3_1579": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "冷凍する",
+      "masu": "冷凍します",
+      "te": "冷凍して",
+      "ta": "冷凍した",
+      "nai": "冷凍しない"
+    },
     "examples": [
       {
-        "ja": "これは冷凍です。",
-        "zh": "這是「冷凍、低溫凍結」。"
+        "ja": "魚を冷凍して保存しました。",
+        "zh": "把魚冷凍保存了。"
       }
     ]
   },
   "n3_1580": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "これは済みです。",
-        "zh": "這是「完了、完結、付清、付族」。"
+        "ja": "支払い済みの印を付けました。",
+        "zh": "蓋上了已付款的章。"
       }
     ]
   },
@@ -18236,8 +19896,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは鯉・交です。",
-        "zh": "這是「裂痕、龜裂」。"
+        "ja": "壁に細かいひびが入っています。",
+        "zh": "牆上有細小裂痕。"
       }
     ]
   },
@@ -18246,18 +19906,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは衣料品です。",
-        "zh": "這是「衣料、衣服」。"
+        "ja": "衣料品売り場は三階です。",
+        "zh": "衣料品賣場在三樓。"
       }
     ]
   },
   "n3_1583": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "お出掛けする",
+      "masu": "お出掛けします",
+      "te": "お出掛けして",
+      "ta": "お出掛けした",
+      "nai": "お出掛けしない"
+    },
     "examples": [
       {
-        "ja": "これはお出掛けです。",
-        "zh": "這是「出門正要出門」。"
+        "ja": "週末は家族でお出掛けします。",
+        "zh": "週末會和家人出門。"
       }
     ]
   },
@@ -18266,8 +19937,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは香りです。",
-        "zh": "這是「芳香、香気」。"
+        "ja": "花の香りが部屋に広がりました。",
+        "zh": "花香在房間裡散開。"
       }
     ]
   },
@@ -18276,8 +19947,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは切れです。",
-        "zh": "這是「衣料、布頭、碎布」。"
+        "ja": "布の切れで小さな袋を作りました。",
+        "zh": "用碎布做了小袋子。"
       }
     ]
   },
@@ -18286,8 +19957,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは毛皮です。",
-        "zh": "這是「毛皮、動物皮毛」。"
+        "ja": "毛皮のコートは暖かいです。",
+        "zh": "毛皮大衣很暖和。"
       }
     ]
   },
@@ -18296,18 +19967,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは染みです。",
-        "zh": "這是「汗垢、玉沖」。"
+        "ja": "シャツにコーヒーの染みが残りました。",
+        "zh": "襯衫上留下了咖啡污漬。"
       }
     ]
   },
   "n3_1588": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "吊るす",
+      "masu": "吊るします",
+      "te": "吊るして",
+      "ta": "吊るした",
+      "nai": "吊るさない"
+    },
     "examples": [
       {
-        "ja": "これは吊るすです。",
-        "zh": "這是「懸起、吊起、掛著」。"
+        "ja": "洗濯物をベランダに吊るしました。",
+        "zh": "把洗好的衣服吊在陽台。"
       }
     ]
   },
@@ -18316,8 +19998,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはドレスです。",
-        "zh": "這是「女西服、洋裝、女禮服」。"
+        "ja": "結婚式に着るドレスを選びました。",
+        "zh": "選了婚禮要穿的禮服。"
       }
     ]
   },
@@ -18326,8 +20008,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは寝間着です。",
-        "zh": "這是「睡衣」。"
+        "ja": "寝る前に寝間着に着替えました。",
+        "zh": "睡前換上睡衣。"
       }
     ]
   },
@@ -18336,18 +20018,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは肌着です。",
-        "zh": "這是「襯衣、汗衫」。"
+        "ja": "汗をかいたので肌着を替えました。",
+        "zh": "因為流汗，所以換了內衣。"
       }
     ]
   },
   "n3_1592": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "これは華やかです。",
-        "zh": "這是「華鹿、輝糧、活躍、引人注目」。"
+        "ja": "華やかな着物を着ています。",
+        "zh": "她穿著華麗的和服。"
       }
     ]
   },
@@ -18356,18 +20038,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは服装です。",
-        "zh": "這是「服裝、服餓」。"
+        "ja": "面接に合う服装を選びました。",
+        "zh": "選了適合面試的服裝。"
       }
     ]
   },
   "n3_1594": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "膨らむ",
+      "masu": "膨らみます",
+      "te": "膨らんで",
+      "ta": "膨らんだ",
+      "nai": "膨らまない"
+    },
     "examples": [
       {
-        "ja": "これは膨らむです。",
-        "zh": "這是「鼓起、膨脹、岩嘴」。"
+        "ja": "風船が大きく膨らみました。",
+        "zh": "氣球膨脹得很大。"
       }
     ]
   },
@@ -18376,8 +20069,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは水着です。",
-        "zh": "這是「泳裝」。"
+        "ja": "海へ行くために水着を買いました。",
+        "zh": "為了去海邊買了泳裝。"
       }
     ]
   },
@@ -18386,8 +20079,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはモダンです。",
-        "zh": "這是「現代的、流行的、時髦的」。"
+        "ja": "この建物はモダンなデザインです。",
+        "zh": "這棟建築是現代風設計。"
       }
     ]
   },
@@ -18396,18 +20089,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは浴衣です。",
-        "zh": "這是「浴衣着」。"
+        "ja": "夏祭りに浴衣を着て行きました。",
+        "zh": "穿浴衣去了夏日祭典。"
       }
     ]
   },
   "n3_1598": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これはゆったりです。",
-        "zh": "這是「六寬敞舒適、記服着」。"
+        "ja": "ゆったりした服が好きです。",
+        "zh": "我喜歡寬鬆舒適的衣服。"
       }
     ]
   },
@@ -18416,8 +20109,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは和服です。",
-        "zh": "這是「日本和服、和服」。"
+        "ja": "祖母は和服をきれいに着ます。",
+        "zh": "祖母把和服穿得很漂亮。"
       }
     ]
   },
@@ -18426,8 +20119,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはワンピースです。",
-        "zh": "這是「連身裙、洋裝」。"
+        "ja": "白いワンピースを買いました。",
+        "zh": "買了一件白色洋裝。"
       }
     ]
   },
@@ -18436,8 +20129,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはエプロンです。",
-        "zh": "這是「圍裙」。"
+        "ja": "料理をする時はエプロンを着けます。",
+        "zh": "做菜時會穿圍裙。"
       }
     ]
   },
@@ -18446,18 +20139,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは帯です。",
-        "zh": "這是「衣帶、腰帶、帶、的簡稱」。"
+        "ja": "着物の帯をきれいに結びました。",
+        "zh": "把和服腰帶綁得很漂亮。"
       }
     ]
   },
   "n3_1603": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "被せる",
+      "masu": "被せます",
+      "te": "被せて",
+      "ta": "被せた",
+      "nai": "被せない"
+    },
     "examples": [
       {
-        "ja": "これは被せるです。",
-        "zh": "這是「蓋上、戴上」。"
+        "ja": "料理にふたを被せて少し待ちます。",
+        "zh": "把蓋子蓋在料理上後稍等一下。"
       }
     ]
   },
@@ -18466,18 +20170,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは下駄です。",
-        "zh": "這是「木履」。"
+        "ja": "祭りで下駄を履きました。",
+        "zh": "在祭典上穿了木屐。"
       }
     ]
   },
   "n3_1605": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは直にです。",
-        "zh": "這是「三接地、親自地、貼身」。"
+        "ja": "説明を聞くだけでなく直に見てください。",
+        "zh": "不要只聽說明，請直接看。"
       }
     ]
   },
@@ -18486,18 +20190,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは足袋です。",
-        "zh": "這是「日式白布襪」。"
+        "ja": "着物には足袋を合わせます。",
+        "zh": "和服會搭配日式分趾襪。"
       }
     ]
   },
   "n3_1607": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "垂れ下がる",
+      "masu": "垂れ下がります",
+      "te": "垂れ下がって",
+      "ta": "垂れ下がった",
+      "nai": "垂れ下がらない"
+    },
     "examples": [
       {
-        "ja": "これは垂れ下がるです。",
-        "zh": "這是「垂下」。"
+        "ja": "枝が道の上に垂れ下がっています。",
+        "zh": "樹枝垂在路上方。"
       }
     ]
   },
@@ -18506,8 +20221,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "これは長袖です。",
-        "zh": "這是「長袖、袖子較長的衣服」。"
+        "ja": "今日は寒いので長袖を着ました。",
+        "zh": "今天很冷，所以穿了長袖。"
       }
     ]
   },
@@ -18516,8 +20231,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはバンドです。",
-        "zh": "這是「樂團、帶子」。"
+        "ja": "弟は学校でバンドを組んでいます。",
+        "zh": "弟弟在學校組了樂團。"
       }
     ]
   },
@@ -18526,7841 +20241,35 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "外來語",
     "examples": [
       {
-        "ja": "これはブローチです。",
-        "zh": "這是「胸針」。"
+        "ja": "母は上着に小さなブローチを付けました。",
+        "zh": "媽媽在外套上別了小胸針。"
       }
     ]
   },
   "n3_1611": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "綻びる",
+      "masu": "綻びます",
+      "te": "綻びて",
+      "ta": "綻びた",
+      "nai": "綻びない"
+    },
     "examples": [
       {
-        "ja": "これは綻びるです。",
-        "zh": "這是「脫線、使微微地張開、綻放」。"
+        "ja": "古い服の袖がほころびています。",
+        "zh": "舊衣服的袖子開線了。"
       }
     ]
   },
   "n3_1612": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは解くです。",
-        "zh": "這是「拆解」。"
-      }
-    ]
-  },
-  "n3_1613": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは毛系です。",
-        "zh": "這是「毛線」。"
-      }
-    ]
-  },
-  "n3_1614": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは手ぬぐいです。",
-        "zh": "這是「布手中」。"
-      }
-    ]
-  },
-  "n3_1615": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは羊毛です。",
-        "zh": "這是「羊毛、羊身上的毛」。"
-      }
-    ]
-  },
-  "n3_1616": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは綿です。",
-        "zh": "這是「棉、棉花、柳囚、絲棉」。"
-      }
-    ]
-  },
-  "n3_1617": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは担ぐです。",
-        "zh": "這是「扛、挑、推舉、擁戴、受騙」。"
-      }
-    ]
-  },
-  "n3_1618": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは筋肉です。",
-        "zh": "這是「肌肉」。"
-      }
-    ]
-  },
-  "n3_1619": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは腰掛けるです。",
-        "zh": "這是「坐下」。"
-      }
-    ]
-  },
-  "n3_1620": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは転ぶです。",
-        "zh": "這是「跌倒」。"
-      }
-    ]
-  },
-  "n3_1621": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは姿勢です。",
-        "zh": "這是「姿勢、態度」。"
-      }
-    ]
-  },
-  "n3_1622": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはしゃがむです。",
-        "zh": "這是「語蹲下撿小石頭」。"
-      }
-    ]
-  },
-  "n3_1623": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは心身です。",
-        "zh": "這是「身和心、精神和肉體」。"
-      }
-    ]
-  },
-  "n3_1624": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは手入れです。",
-        "zh": "這是「収拾、修整、検里、捜捕時」。"
-      }
-    ]
-  },
-  "n3_1625": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは動作です。",
-        "zh": "這是「時動作」。"
-      }
-    ]
-  },
-  "n3_1626": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは飛び跳ねるです。",
-        "zh": "這是「跳躍」。"
-      }
-    ]
-  },
-  "n3_1627": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鈍いです。",
-        "zh": "這是「鈍、不鋒利、慢、遲鈍、動作緩慢、朦朧」。"
-      }
-    ]
-  },
-  "n3_1628": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは裸です。",
-        "zh": "這是「裸體、沒有外皮的東西、精光、身無、文、不存先入之見、不裝飾門麵」。"
-      }
-    ]
-  },
-  "n3_1629": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見上げるです。",
-        "zh": "這是「仰視、仰誼、欽佩、尊敬、景仰」。"
-      }
-    ]
-  },
-  "n3_1630": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはもたれるです。",
-        "zh": "這是「依靠、憑靠、消化不良」。"
-      }
-    ]
-  },
-  "n3_1631": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは脇です。",
-        "zh": "這是「腋下、旁邊」。"
-      }
-    ]
-  },
-  "n3_1632": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは編むです。",
-        "zh": "這是「編、織、編輯、編纂」。"
-      }
-    ]
-  },
-  "n3_1633": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはうがいです。",
-        "zh": "這是「漱口」。"
-      }
-    ]
-  },
-  "n3_1634": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは面長です。",
-        "zh": "這是「長臉」。"
-      }
-    ]
-  },
-  "n3_1635": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは煙いです。",
-        "zh": "這是「煙撲到臉上使人無法呼吸、嗆人」。"
-      }
-    ]
-  },
-  "n3_1636": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは呼吸です。",
-        "zh": "這是「呼吸、吐納歩調、說、回呼吸」。"
-      }
-    ]
-  },
-  "n3_1637": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは白髪です。",
-        "zh": "這是「日頭胡」。"
-      }
-    ]
-  },
-  "n3_1638": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは透き通るです。",
-        "zh": "這是「透明、清澈」。"
-      }
-    ]
-  },
-  "n3_1639": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鋭いです。",
-        "zh": "這是「尖的、鋒利的、舌鋭的、烈、強烈、敏銳、聰明回」。"
-      }
-    ]
-  },
-  "n3_1640": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは剃るです。",
-        "zh": "這是「剃、刮」。"
-      }
-    ]
-  },
-  "n3_1641": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはため息です。",
-        "zh": "這是「嘆氣、長吁短嘆」。"
-      }
-    ]
-  },
-  "n3_1642": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは垂らすです。",
-        "zh": "這是「滴、垂」。"
-      }
-    ]
-  },
-  "n3_1643": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは縮れるです。",
-        "zh": "這是「捲曲、起皺、出摺、毛縮」。"
-      }
-    ]
-  },
-  "n3_1644": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは突っ込むです。",
-        "zh": "這是「衝入、閣入、深入、塞進、插入、沒入、深入追究」。"
-      }
-    ]
-  },
-  "n3_1645": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは湯です。",
-        "zh": "這是「光澤、潤澤、興趣精彩弁事、風流事」。"
-      }
-    ]
-  },
-  "n3_1646": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは覗くです。",
-        "zh": "這是「嗲視、探視、往下看、晃一眼、暑探他人秘」。"
-      }
-    ]
-  },
-  "n3_1647": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは挟まるです。",
-        "zh": "這是「夾在中間」。"
-      }
-    ]
-  },
-  "n3_1648": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはばっちりです。",
-        "zh": "這是「眼大而水汪汪、睜大眼睛、轅目訪!了五戰世紀工必」。"
-      }
-    ]
-  },
-  "n3_1649": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは瞳です。",
-        "zh": "這是「瞳孔、眼睛」。"
-      }
-    ]
-  },
-  "n3_1650": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは微笑むです。",
-        "zh": "這是「微笑、含笑、微開、條開」。"
-      }
-    ]
-  },
-  "n3_1651": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはぼんやりです。",
-        "zh": "這是「模糊、不清楚、迷糊、傻查、楞、心不在焉、笨蛋、呆子」。"
-      }
-    ]
-  },
-  "n3_1652": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見下ろすです。",
-        "zh": "這是「俯視、往下看、輕視、萄視、看、不起、視線從上往下移動」。"
-      }
-    ]
-  },
-  "n3_1653": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見詰めるです。",
-        "zh": "這是「三二凝視、注視、盯著、國顏砷見選鄉召」。"
-      }
-    ]
-  },
-  "n3_1654": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは扇ぐです。",
-        "zh": "這是「搧、仰望」。"
-      }
-    ]
-  },
-  "n3_1655": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは足跡です。",
-        "zh": "這是「胸印、蹤跡、事蹟、業績」。"
-      }
-    ]
-  },
-  "n3_1656": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは足元です。",
-        "zh": "這是「腳下、腳步、身旁、附近」。"
-      }
-    ]
-  },
-  "n3_1657": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは足を運ぶです。",
-        "zh": "這是「去、前往拜訪」。"
-      }
-    ]
-  },
-  "n3_1658": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは器用です。",
-        "zh": "這是「形靈巧、精巧、手藝巧妙、精明、六人介全人誠久」。"
-      }
-    ]
-  },
-  "n3_1659": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは波むです。",
-        "zh": "這是「打水、汲取」。"
-      }
-    ]
-  },
-  "n3_1660": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは汗ぐです。",
-        "zh": "這是「劃船、搖檔、蕩槳、蹤」。"
-      }
-    ]
-  },
-  "n3_1661": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは擦るです。",
-        "zh": "這是「摩擦、搓」。"
-      }
-    ]
-  },
-  "n3_1662": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは痺れるです。",
-        "zh": "這是「麻木、因強烈刺激而興奮」。"
-      }
-    ]
-  },
-  "n3_1663": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは絞るです。",
-        "zh": "這是「擰、擠、榨」。"
-      }
-    ]
-  },
-  "n3_1664": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはすっとです。",
-        "zh": "這是「動作迅速地、和飛快、輕快、輕鬆、痛快、輕鬆」。"
-      }
-    ]
-  },
-  "n3_1665": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは立ち止まるです。",
-        "zh": "這是「站住、停步、停下」。"
-      }
-    ]
-  },
-  "n3_1666": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはちぎるです。",
-        "zh": "這是「摘取、揪、接動」。"
-      }
-    ]
-  },
-  "n3_1667": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはのろのろです。",
-        "zh": "這是「遲緩、慢吞吞地」。"
-      }
-    ]
-  },
-  "n3_1668": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは剥がすです。",
-        "zh": "這是「剝下、揭下」。"
-      }
-    ]
-  },
-  "n3_1669": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは塞がるです。",
-        "zh": "這是「阻塞、關閉、佑用、佑満」。"
-      }
-    ]
-  },
-  "n3_1670": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは節です。",
-        "zh": "這是「節、關節、曲調」。"
-      }
-    ]
-  },
-  "n3_1671": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはぶら下げるです。",
-        "zh": "這是「佩帶、懸掛、手提、挫」。"
-      }
-    ]
-  },
-  "n3_1672": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは触れるです。",
-        "zh": "這是「接觸、提到」。"
-      }
-    ]
-  },
-  "n3_1673": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは持ち上げるです。",
-        "zh": "這是「舉起、抬起」。"
-      }
-    ]
-  },
-  "n3_1674": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは遺伝です。",
-        "zh": "這是「遺傳」。"
-      }
-    ]
-  },
-  "n3_1675": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは遺伝子です。",
-        "zh": "這是「基因」。"
-      }
-    ]
-  },
-  "n3_1676": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人命です。",
-        "zh": "這是「人命、人的生命」。"
-      }
-    ]
-  },
-  "n3_1677": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは生命です。",
-        "zh": "這是「生命、壽命、重要的東西、關鍵、命、根子」。"
-      }
-    ]
-  },
-  "n3_1678": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは自殺です。",
-        "zh": "這是「自殺、自己結束生命」。"
-      }
-    ]
-  },
-  "n3_1679": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは死者です。",
-        "zh": "這是「死者、死人」。"
-      }
-    ]
-  },
-  "n3_1680": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは死体です。",
-        "zh": "這是「屍體」。"
-      }
-    ]
-  },
-  "n3_1681": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは寿命です。",
-        "zh": "這是「壽命、耐用期限」。"
-      }
-    ]
-  },
-  "n3_1682": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはしわです。",
-        "zh": "這是「徐紋、纖折、摺子」。"
-      }
-    ]
-  },
-  "n3_1683": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは生存です。",
-        "zh": "這是「生存、活著存在」。"
-      }
-    ]
-  },
-  "n3_1684": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはいけないです。",
-        "zh": "這是「不好、糟糕、沒希革不行、能喝酒、不能喝酒的人、不許、不可」。"
-      }
-    ]
-  },
-  "n3_1685": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはこんなにです。",
-        "zh": "這是「這樣、如此」。"
-      }
-    ]
-  },
-  "n3_1686": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは作法です。",
-        "zh": "這是「禮法、作法」。"
-      }
-    ]
-  },
-  "n3_1687": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは測定です。",
-        "zh": "這是「測定測量」。"
-      }
-    ]
-  },
-  "n3_1688": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは縮むです。",
-        "zh": "這是「縮縮小、抽縮起鍛紋、出拘、畏縮、退縮、惶恐、縮回去、縮進去」。"
-      }
-    ]
-  },
-  "n3_1689": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは発育です。",
-        "zh": "這是「發育、成長」。"
-      }
-    ]
-  },
-  "n3_1690": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは昼寝です。",
-        "zh": "這是「午睡」。"
-      }
-    ]
-  },
-  "n3_1691": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは若々しいです。",
-        "zh": "這是「年輕有朝氣的、年輕輕的富人、氣的」。"
-      }
-    ]
-  },
-  "n3_1692": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは荒れるです。",
-        "zh": "這是「天氣弦壞、變粗糖、芒廢、醫、暴辰、胡鬧、秩序混亂」。"
-      }
-    ]
-  },
-  "n3_1693": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは崩すです。",
-        "zh": "這是「拆毀、打亂」。"
-      }
-    ]
-  },
-  "n3_1694": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは消耗です。",
-        "zh": "這是「消費、消耗、耗盡、勞、磨損」。"
-      }
-    ]
-  },
-  "n3_1695": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは身体です。",
-        "zh": "這是「身體、人體」。"
-      }
-    ]
-  },
-  "n3_1696": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは体温です。",
-        "zh": "這是「體溫」。"
-      }
-    ]
-  },
-  "n3_1697": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは取れるです。",
-        "zh": "這是「脫落、掉下、需要、去掉、刪除、協調、均和」。"
-      }
-    ]
-  },
-  "n3_1698": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは計るです。",
-        "zh": "這是「測量、計量、推測、揣測、徵詢、諮詢」。"
-      }
-    ]
-  },
-  "n3_1699": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは回すです。",
-        "zh": "這是「轉、轉動、傳遞、傳送、調職、各處活動奔走、想辦法、運用」。"
-      }
-    ]
-  },
-  "n3_1700": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは目眩です。",
-        "zh": "這是「頭暈眼花」。"
-      }
-    ]
-  },
-  "n3_1701": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは蘇るです。",
-        "zh": "這是「甦醒、復活、復興復甦、回復、重新想起」。"
-      }
-    ]
-  },
-  "n3_1702": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは痛みです。",
-        "zh": "這是「疼痛、損傷」。"
-      }
-    ]
-  },
-  "n3_1703": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは痛むです。",
-        "zh": "這是「療痛、苦悩、損壌」。"
-      }
-    ]
-  },
-  "n3_1704": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは唸るです。",
-        "zh": "這是「呻吟、吼叫、發出鳴聲、吩、哼、贊同、喝彩」。"
-      }
-    ]
-  },
-  "n3_1705": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは凝るです。",
-        "zh": "這是「凝固、入迷、講究」。"
-      }
-    ]
-  },
-  "n3_1706": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは頭痛です。",
-        "zh": "這是「頭痛、頭部疼痛」。"
-      }
-    ]
-  },
-  "n3_1707": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは虫歯です。",
-        "zh": "這是「王歯星牙」。"
-      }
-    ]
-  },
-  "n3_1708": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは害です。",
-        "zh": "這是「江人為害、損害、災害妨大」。"
-      }
-    ]
-  },
-  "n3_1709": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは風邪薬です。",
-        "zh": "這是「感冒藥」。"
-      }
-    ]
-  },
-  "n3_1710": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは勝ちです。",
-        "zh": "這是「往往、容易、動還大部分是」。"
-      }
-    ]
-  },
-  "n3_1711": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは看病です。",
-        "zh": "這是「看護」。"
-      }
-    ]
-  },
-  "n3_1712": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは苦しめるです。",
-        "zh": "這是「使痛苦、欺負」。"
-      }
-    ]
-  },
-  "n3_1713": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは効果的です。",
-        "zh": "這是「有效的」。"
-      }
-    ]
-  },
-  "n3_1714": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは効力です。",
-        "zh": "這是「效力、效果、效應、二《」。"
-      }
-    ]
-  },
-  "n3_1715": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは克服です。",
-        "zh": "這是「克服、戰勝困難」。"
-      }
-    ]
-  },
-  "n3_1716": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは骨折です。",
-        "zh": "這是「骨折、骨頭斷裂」。"
-      }
-    ]
-  },
-  "n3_1717": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは差し支えです。",
-        "zh": "這是「不方便、障礙、妨礙」。"
-      }
-    ]
-  },
-  "n3_1718": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは重傷です。",
-        "zh": "這是「重傷、嚴重受傷」。"
-      }
-    ]
-  },
-  "n3_1719": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは消毒です。",
-        "zh": "這是「消毒、殺菌處理」。"
-      }
-    ]
-  },
-  "n3_1720": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはせいかつしゅうかんびょうです。",
-        "zh": "這是「文明病」。"
-      }
-    ]
-  },
-  "n3_1721": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは戦う・闘うです。",
-        "zh": "這是「作戦、戦事、門事、競費」。"
-      }
-    ]
-  },
-  "n3_1722": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは低下です。",
-        "zh": "這是「降低、低落」。"
-      }
-    ]
-  },
-  "n3_1723": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは適切です。",
-        "zh": "這是「適當、恰當、妥切有」。"
-      }
-    ]
-  },
-  "n3_1724": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは伝染です。",
-        "zh": "這是「信染、傳染」。"
-      }
-    ]
-  },
-  "n3_1725": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは輸血です。",
-        "zh": "這是「輸血、輸入血液」。"
-      }
-    ]
-  },
-  "n3_1726": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは汗です。",
-        "zh": "這是「汗、汗水」。"
-      }
-    ]
-  },
-  "n3_1727": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは休養です。",
-        "zh": "這是「休養、休息調養」。"
-      }
-    ]
-  },
-  "n3_1728": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは循環です。",
-        "zh": "這是「循環、反覆流動」。"
-      }
-    ]
-  },
-  "n3_1729": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは消化です。",
-        "zh": "這是「掌握、理解、容納、吸收、處理」。"
-      }
-    ]
-  },
-  "n3_1730": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは小便です。",
-        "zh": "這是「小便、尿」。"
-      }
-    ]
-  },
-  "n3_1731": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは神経です。",
-        "zh": "這是「神經、察覺力威覺、神經作用」。"
-      }
-    ]
-  },
-  "n3_1732": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは園児です。",
-        "zh": "這是「幼園章」。"
-      }
-    ]
-  },
-  "n3_1733": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは女の人です。",
-        "zh": "這是「女人、女性」。"
-      }
-    ]
-  },
-  "n3_1734": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは架空です。",
-        "zh": "這是「虛構、空想」。"
-      }
-    ]
-  },
-  "n3_1735": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは各自です。",
-        "zh": "這是「每個人、各自、回各自用意才名」。"
-      }
-    ]
-  },
-  "n3_1736": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは影です。",
-        "zh": "這是「影子、倒影、路影形中」。"
-      }
-    ]
-  },
-  "n3_1737": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは兼ね備えるです。",
-        "zh": "這是「兩者兼備」。"
-      }
-    ]
-  },
-  "n3_1738": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは気配です。",
-        "zh": "這是「跡象、苗頭、氣息」。"
-      }
-    ]
-  },
-  "n3_1739": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは実にです。",
-        "zh": "這是「實在、非常」。"
-      }
-    ]
-  },
-  "n3_1740": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人物です。",
-        "zh": "這是「人物、人品」。"
-      }
-    ]
-  },
-  "n3_1741": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは短です。",
-        "zh": "這是「短、不足、缺點」。"
-      }
-    ]
-  },
-  "n3_1742": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人目です。",
-        "zh": "這是「世人的眼光、旁人看見、一眼章畫、眼看穿」。"
-      }
-    ]
-  },
-  "n3_1743": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは身分です。",
-        "zh": "這是「身份、社會地位、生活狀況、境遇」。"
-      }
-    ]
-  },
-  "n3_1744": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは呼び掛けるです。",
-        "zh": "這是「大招呼、呼喚、號召、呼徐、田人呼」。"
-      }
-    ]
-  },
-  "n3_1745": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはウーマンです。",
-        "zh": "這是「婦女女人」。"
-      }
-    ]
-  },
-  "n3_1746": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは男の人です。",
-        "zh": "這是「男人、男性」。"
-      }
-    ]
-  },
-  "n3_1747": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは青少年です。",
-        "zh": "這是「條消滅青少年的犯罪」。"
-      }
-    ]
-  },
-  "n3_1748": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは性別です。",
-        "zh": "這是「性別記入」。"
-      }
-    ]
-  },
-  "n3_1749": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは男子です。",
-        "zh": "這是「男子、男孩、男人、男子灌」。"
-      }
-    ]
-  },
-  "n3_1750": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは年下です。",
-        "zh": "這是「年幼、年紀小」。"
-      }
-    ]
-  },
-  "n3_1751": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは坊やです。",
-        "zh": "這是「對男孩的親切稱呼、未見過世麵的、青年、對別人男孩的敬般」。"
-      }
-    ]
-  },
-  "n3_1752": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは坊ちゃんです。",
-        "zh": "這是「公子令郎、少爺、不通事故的人、少分作風的人」。"
-      }
-    ]
-  },
-  "n3_1753": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは目下です。",
-        "zh": "這是「部下、下」。"
-      }
-    ]
-  },
-  "n3_1754": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは王です。",
-        "zh": "這是「王、國王」。"
-      }
-    ]
-  },
-  "n3_1755": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは王様です。",
-        "zh": "這是「國王、大王」。"
-      }
-    ]
-  },
-  "n3_1756": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは王子です。",
-        "zh": "這是「王子、王族的男子」。"
-      }
-    ]
-  },
-  "n3_1757": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは王女です。",
-        "zh": "這是「公主、王族的女子」。"
-      }
-    ]
-  },
-  "n3_1758": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大家です。",
-        "zh": "這是「房東、正房、上房、主房」。"
-      }
-    ]
-  },
-  "n3_1759": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはお手伝いさんです。",
-        "zh": "這是「偶人」。"
-      }
-    ]
-  },
-  "n3_1760": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはお前です。",
-        "zh": "這是「你」。"
-      }
-    ]
-  },
-  "n3_1761": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはガールフレンドです。",
-        "zh": "這是「女友」。"
-      }
-    ]
-  },
-  "n3_1762": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは方々です。",
-        "zh": "這是「代前大家、您們、這個那個、種種、各處、總之」。"
-      }
-    ]
-  },
-  "n3_1763": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは患者です。",
-        "zh": "這是「患者、病人」。"
-      }
-    ]
-  },
-  "n3_1764": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは議員です。",
-        "zh": "這是「議員、民意代表」。"
-      }
-    ]
-  },
-  "n3_1765": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは技師です。",
-        "zh": "這是「技師、工程師専業技術人員」。"
-      }
-    ]
-  },
-  "n3_1766": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは議長です。",
-        "zh": "這是「議長、主席」。"
-      }
-    ]
-  },
-  "n3_1767": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはキャプテンです。",
-        "zh": "這是「團體的首領、船長、隊長、主任」。"
-      }
-    ]
-  },
-  "n3_1768": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはギャングです。",
-        "zh": "這是「持榆強盜團體、盜伙」。"
-      }
-    ]
-  },
-  "n3_1769": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは教授です。",
-        "zh": "這是「教授、講授、教物」。"
-      }
-    ]
-  },
-  "n3_1770": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはコーチです。",
-        "zh": "這是「教練、技術指導、教練員」。"
-      }
-    ]
-  },
-  "n3_1771": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは講師です。",
-        "zh": "這是「講師、演講者」。"
-      }
-    ]
-  },
-  "n3_1772": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは国王です。",
-        "zh": "這是「國王、國君」。"
-      }
-    ]
-  },
-  "n3_1773": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはコックです。",
-        "zh": "這是「廚師」。"
-      }
-    ]
-  },
-  "n3_1774": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは作者です。",
-        "zh": "這是「作者、創作者」。"
-      }
-    ]
-  },
-  "n3_1775": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは司会です。",
-        "zh": "這是「司儀、主持會議」。"
-      }
-    ]
-  },
-  "n3_1776": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはジャーナリストです。",
-        "zh": "這是「記者」。"
-      }
-    ]
-  },
-  "n3_1777": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは首相です。",
-        "zh": "這是「首相、内閣綿理大臣」。"
-      }
-    ]
-  },
-  "n3_1778": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは主婦です。",
-        "zh": "這是「主婦、女主人」。"
-      }
-    ]
-  },
-  "n3_1779": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは准教授です。",
-        "zh": "這是「教授」。"
-      }
-    ]
-  },
-  "n3_1780": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは乗客です。",
-        "zh": "這是「乗客旅客」。"
-      }
-    ]
-  },
-  "n3_1781": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは商人です。",
-        "zh": "這是「商人、做生意的人」。"
-      }
-    ]
-  },
-  "n3_1782": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは女王です。",
-        "zh": "這是「女王、王后皇女、王女」。"
-      }
-    ]
-  },
-  "n3_1783": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは助教です。",
-        "zh": "這是「助理教員、代理教員」。"
-      }
-    ]
-  },
-  "n3_1784": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは助手です。",
-        "zh": "這是「助手、幫手、助教」。"
-      }
-    ]
-  },
-  "n3_1785": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは素人です。",
-        "zh": "這是「外行、非專業人士」。"
-      }
-    ]
-  },
-  "n3_1786": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは親友です。",
-        "zh": "這是「各知心朋友」。"
-      }
-    ]
-  },
-  "n3_1787": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大使です。",
-        "zh": "這是「大使、外交代表」。"
-      }
-    ]
-  },
-  "n3_1788": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは著者です。",
-        "zh": "這是「作者、著者」。"
-      }
-    ]
-  },
-  "n3_1789": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは弟子です。",
-        "zh": "這是「弟子、徒弟、門生、學徒」。"
-      }
-    ]
-  },
-  "n3_1790": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは天皇です。",
-        "zh": "這是「天皇、日本天皇」。"
-      }
-    ]
-  },
-  "n3_1791": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは博士です。",
-        "zh": "這是「博士、博學之人入」。"
-      }
-    ]
-  },
-  "n3_1792": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは判事です。",
-        "zh": "這是「審判員、法官」。"
-      }
-    ]
-  },
-  "n3_1793": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは律者です。",
-        "zh": "這是「作者、筆者」。"
-      }
-    ]
-  },
-  "n3_1794": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは武士です。",
-        "zh": "這是「武士、日本古代武人」。"
-      }
-    ]
-  },
-  "n3_1795": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは婦人です。",
-        "zh": "這是「婦女、女子」。"
-      }
-    ]
-  },
-  "n3_1796": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはボーイフレンドです。",
-        "zh": "這是「男朋友」。"
-      }
-    ]
-  },
-  "n3_1797": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは坊さんです。",
-        "zh": "這是「和尚」。"
-      }
-    ]
-  },
-  "n3_1798": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは迷子です。",
-        "zh": "這是「迷路的孩子、走失的孩子」。"
-      }
-    ]
-  },
-  "n3_1799": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは名人です。",
-        "zh": "這是「名人名家、大師、専家」。"
-      }
-    ]
-  },
-  "n3_1800": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは役者です。",
-        "zh": "這是「演員、善於做戲的人、手段高明的人」。"
-      }
-    ]
-  },
-  "n3_1801": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは住民です。",
-        "zh": "這是「居民」。"
-      }
-    ]
-  },
-  "n3_1802": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人類です。",
-        "zh": "這是「人類、人這個物種」。"
-      }
-    ]
-  },
-  "n3_1803": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは農民です。",
-        "zh": "這是「農民、務農的人」。"
-      }
-    ]
-  },
-  "n3_1804": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは我々です。",
-        "zh": "這是「我們、我」。"
-      }
-    ]
-  },
-  "n3_1805": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは下品です。",
-        "zh": "這是「卑痢、下流、低俗低級較」。"
-      }
-    ]
-  },
-  "n3_1806": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはスタイルです。",
-        "zh": "這是「文購、様式、風格、姿態、購態」。"
-      }
-    ]
-  },
-  "n3_1807": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはスマートです。",
-        "zh": "這是「漠澤、時蛋、漂高、苗條知能型、智慧型」。"
-      }
-    ]
-  },
-  "n3_1808": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは中肉中背です。",
-        "zh": "這是「中等身材物」。"
-      }
-    ]
-  },
-  "n3_1809": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはハンサムです。",
-        "zh": "這是「帥、英俊、美男子」。"
-      }
-    ]
-  },
-  "n3_1810": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは美容です。",
-        "zh": "這是「美容、美化容貌」。"
-      }
-    ]
-  },
-  "n3_1811": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは平凡です。",
-        "zh": "這是「平凡顔美」。"
-      }
-    ]
-  },
-  "n3_1812": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはほっそりです。",
-        "zh": "這是「纖細、苗條」。"
-      }
-    ]
-  },
-  "n3_1813": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはぽっちゃりです。",
-        "zh": "這是「豐滿、胖」。"
-      }
-    ]
-  },
-  "n3_1814": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見掛けです。",
-        "zh": "這是「今外貌、外觀、外表」。"
-      }
-    ]
-  },
-  "n3_1815": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見っとも無しです。",
-        "zh": "這是「學難看的、不像樣的、不體麵的、成體統、醒」。"
-      }
-    ]
-  },
-  "n3_1816": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは醒いです。",
-        "zh": "這是「難看的、醜的、醜陋、醜惡」。"
-      }
-    ]
-  },
-  "n3_1817": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは厚かましいです。",
-        "zh": "這是「厚臉皮、無恥」。"
-      }
-    ]
-  },
-  "n3_1818": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人怪しいです。",
-        "zh": "這是「奇怪的、可疑的、靠不住的、難以、置信、奇異、特別、笨拙、關係暖昧的」。"
-      }
-    ]
-  },
-  "n3_1819": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは慌ただしいです。",
-        "zh": "這是「匆匆忙忙的、慌慌張張的」。"
-      }
-    ]
-  },
-  "n3_1820": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは生き生きです。",
-        "zh": "這是「活潑、生氣勃勃、栩栩如生」。"
-      }
-    ]
-  },
-  "n3_1821": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは勇ましいです。",
-        "zh": "這是「勇敢的、振奮人心的、活潑的、有勇無謀」。"
-      }
-    ]
-  },
-  "n3_1822": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは一段とです。",
-        "zh": "這是「更加、越發」。"
-      }
-    ]
-  },
-  "n3_1823": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは成張るです。",
-        "zh": "這是「誇詞、得威風」。"
-      }
-    ]
-  },
-  "n3_1824": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは賢いです。",
-        "zh": "這是「聰明、伶俐」。"
-      }
-    ]
-  },
-  "n3_1825": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは勝手です。",
-        "zh": "這是「任意、任性、隨便」。"
-      }
-    ]
-  },
-  "n3_1826": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは可愛がるです。",
-        "zh": "這是「喜愛、疼愛、嚴加管教、教訓」。"
-      }
-    ]
-  },
-  "n3_1827": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは可愛らしいです。",
-        "zh": "這是「可愛的、討人喜歡、小巧玲瓏」。"
-      }
-    ]
-  },
-  "n3_1828": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは歓迎です。",
-        "zh": "這是「歡迎」。"
-      }
-    ]
-  },
-  "n3_1829": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは行儀です。",
-        "zh": "這是「禮儀、禮節、舉止」。"
-      }
-    ]
-  },
-  "n3_1830": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはくどいです。",
-        "zh": "這是「哆冗長迄味的、過於膩的、表現」。"
-      }
-    ]
-  },
-  "n3_1831": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは欠点です。",
-        "zh": "這是「缺點、欠缺、毛病、欠點改」。"
-      }
-    ]
-  },
-  "n3_1832": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは謙怖です。",
-        "zh": "這是「謙丈、謙虚」。"
-      }
-    ]
-  },
-  "n3_1833": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは強引です。",
-        "zh": "這是「強行強制強勢」。"
-      }
-    ]
-  },
-  "n3_1834": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは自分勝手です。",
-        "zh": "這是「任性、自私」。"
-      }
-    ]
-  },
-  "n3_1835": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは純情です。",
-        "zh": "這是「純情、純真感情」。"
-      }
-    ]
-  },
-  "n3_1836": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは純粋です。",
-        "zh": "這是「純粹的、道地、純真、純潔、無雜念的」。"
-      }
-    ]
-  },
-  "n3_1837": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは図々しいです。",
-        "zh": "這是「厚顏、厚皮臉、無恥」。"
-      }
-    ]
-  },
-  "n3_1838": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは素直です。",
-        "zh": "這是「坦率、聽話」。"
-      }
-    ]
-  },
-  "n3_1839": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは責任感です。",
-        "zh": "這是「責任感、負責任的意識」。"
-      }
-    ]
-  },
-  "n3_1840": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大層です。",
-        "zh": "這是「非常、很」。"
-      }
-    ]
-  },
-  "n3_1841": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは頼もしいです。",
-        "zh": "這是「靠得住的、前途有為的、有出息的、國賴訪好埋志」。"
-      }
-    ]
-  },
-  "n3_1842": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは短所です。",
-        "zh": "這是「缺點、短處」。"
-      }
-    ]
-  },
-  "n3_1843": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは長所です。",
-        "zh": "這是「長所生」。"
-      }
-    ]
-  },
-  "n3_1844": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは強気です。",
-        "zh": "這是「強硬、看漲」。"
-      }
-    ]
-  },
-  "n3_1845": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは特色です。",
-        "zh": "這是「特色、特徵、特點、特長」。"
-      }
-    ]
-  },
-  "n3_1846": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは怠けるです。",
-        "zh": "這是「懶惰怠情」。"
-      }
-    ]
-  },
-  "n3_1847": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはにごにごです。",
-        "zh": "這是「笑嘻嘻、笑容満麵」。"
-      }
-    ]
-  },
-  "n3_1848": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはにっこりです。",
-        "zh": "這是「微笑貌、莞爾、嫣然一笑、微一笑」。"
-      }
-    ]
-  },
-  "n3_1849": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは呑気です。",
-        "zh": "這是「悠閑、無憂無慮、不拘小節、不慌不忙、蠻不在乎、漫不經心」。"
-      }
-    ]
-  },
-  "n3_1850": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはパターンです。",
-        "zh": "這是「形式、様式、模型、紙様、園案、花欄」。"
-      }
-    ]
-  },
-  "n3_1851": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは不潔です。",
-        "zh": "這是「不潔、不乾淨」。"
-      }
-    ]
-  },
-  "n3_1852": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはまごまごです。",
-        "zh": "這是「慌張、不知所措」。"
-      }
-    ]
-  },
-  "n3_1853": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはもともとです。",
-        "zh": "這是「本來、原本」。"
-      }
-    ]
-  },
-  "n3_1854": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは優柔不断です。",
-        "zh": "這是「形生優柔寡斷」。"
-      }
-    ]
-  },
-  "n3_1855": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは悠々です。",
-        "zh": "這是「悠然、不位不忙、綽弱有餘」。"
-      }
-    ]
-  },
-  "n3_1856": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは陽気です。",
-        "zh": "這是「天氣、開朗」。"
-      }
-    ]
-  },
-  "n3_1857": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは用心です。",
-        "zh": "這是「注意、留神、警性小心」。"
-      }
-    ]
-  },
-  "n3_1858": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは幼稚です。",
-        "zh": "這是「年幼的、不成熟的、幼稚的」。"
-      }
-    ]
-  },
-  "n3_1859": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは欲張りです。",
-        "zh": "這是「貪婪、貪得無厭」。"
-      }
-    ]
-  },
-  "n3_1860": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは楽天的です。",
-        "zh": "這是「樂觀的」。"
-      }
-    ]
-  },
-  "n3_1861": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは利己主義です。",
-        "zh": "這是「利己主義、自私的想法」。"
-      }
-    ]
-  },
-  "n3_1862": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはお互い様です。",
-        "zh": "這是「彼此、互相」。"
-      }
-    ]
-  },
-  "n3_1863": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは強力です。",
-        "zh": "這是「力量大、強力、強大」。"
-      }
-    ]
-  },
-  "n3_1864": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは交際です。",
-        "zh": "這是「交際、交往、鹿本」。"
-      }
-    ]
-  },
-  "n3_1865": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは上下です。",
-        "zh": "這是「高低、上下、低賤」。"
-      }
-    ]
-  },
-  "n3_1866": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは相互です。",
-        "zh": "這是「相互彼比輸流、輸班、交替交互」。"
-      }
-    ]
-  },
-  "n3_1867": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは尊重です。",
-        "zh": "這是「時全尊重、重視」。"
-      }
-    ]
-  },
-  "n3_1868": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは他人です。",
-        "zh": "這是「別人、他人、陌生人、外人、局外人」。"
-      }
-    ]
-  },
-  "n3_1869": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは偶々です。",
-        "zh": "這是「偶然、碰巧、無意間、偶爾、有時」。"
-      }
-    ]
-  },
-  "n3_1870": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは便りです。",
-        "zh": "這是「音信、消息、人」。"
-      }
-    ]
-  },
-  "n3_1871": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは頼るです。",
-        "zh": "這是「依靠依頼、仰佐、拉著、投村、門路」。"
-      }
-    ]
-  },
-  "n3_1872": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは付き合いです。",
-        "zh": "這是「交際、交往、打交道、應、付合」。"
-      }
-    ]
-  },
-  "n3_1873": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは同一です。",
-        "zh": "這是「同一、相同」。"
-      }
-    ]
-  },
-  "n3_1874": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは溶け込むです。",
-        "zh": "這是「融化溶解燈化、融合」。"
-      }
-    ]
-  },
-  "n3_1875": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは友です。",
-        "zh": "這是「友人、朋友、良師益友」。"
-      }
-    ]
-  },
-  "n3_1876": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは仲直りです。",
-        "zh": "這是「和好、言歸於好」。"
-      }
-    ]
-  },
-  "n3_1877": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは仲間です。",
-        "zh": "這是「伙伴、同事、朋友、同類」。"
-      }
-    ]
-  },
-  "n3_1878": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは仲良しです。",
-        "zh": "這是「好朋友、友好、相好」。"
-      }
-    ]
-  },
-  "n3_1879": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはばったりです。",
-        "zh": "這是「物體突然倒下貌、突然相手、突然終止貌」。"
-      }
-    ]
-  },
-  "n3_1880": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは話しかけるです。",
-        "zh": "這是「跟人說話、攀談、開始談、開始說」。"
-      }
-    ]
-  },
-  "n3_1881": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは甚だしいです。",
-        "zh": "這是「非常、很、甚」。"
-      }
-    ]
-  },
-  "n3_1882": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは引っ掛かるです。",
-        "zh": "這是「掛起來、掛上、卡住、連累、率累、受騙、上當、心裡不痛快」。"
-      }
-    ]
-  },
-  "n3_1883": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは隔てるです。",
-        "zh": "這是「隔開、分開、相隔、拭檔、離間、不同、有差別」。"
-      }
-    ]
-  },
-  "n3_1884": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは窒複です。",
-        "zh": "這是「破布破爛衣服!破爛的狀態、破綻、抽點時」。"
-      }
-    ]
-  },
-  "n3_1885": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは摩擦です。",
-        "zh": "這是「摩擦不和睦、意見紛歧、不合」。"
-      }
-    ]
-  },
-  "n3_1886": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは待ち合わせるです。",
-        "zh": "這是「本等候、了、會麵、碰頭」。"
-      }
-    ]
-  },
-  "n3_1887": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは友情です。",
-        "zh": "這是「友情、朋友情誼」。"
-      }
-    ]
-  },
-  "n3_1888": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは悪魔です。",
-        "zh": "這是「悪魔魔鬼」。"
-      }
-    ]
-  },
-  "n3_1889": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは拝むです。",
-        "zh": "這是「叩拜、合掌作扣、懇求、央求、瞻、見識」。"
-      }
-    ]
-  },
-  "n3_1890": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鬼です。",
-        "zh": "這是「鬼、人何想像中的怪物、的形狀、有角和狼牙。也指沒有」。"
-      }
-    ]
-  },
-  "n3_1891": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはお化けです。",
-        "zh": "這是「鬼、怪物」。"
-      }
-    ]
-  },
-  "n3_1892": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはお参りです。",
-        "zh": "這是「參拜神佛或祖墳」。"
-      }
-    ]
-  },
-  "n3_1893": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはお神奥・お御です。",
-        "zh": "這是「神輌、腰」。"
-      }
-    ]
-  },
-  "n3_1894": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは信仰です。",
-        "zh": "這是「信仰、信奉」。"
-      }
-    ]
-  },
-  "n3_1895": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは神話です。",
-        "zh": "這是「神話、傳說故事」。"
-      }
-    ]
-  },
-  "n3_1896": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは仏です。",
-        "zh": "這是「佛、佛傢、溫厚、仁慈的人、死者、亡魂」。"
-      }
-    ]
-  },
-  "n3_1897": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは甘やかすです。",
-        "zh": "這是「三嬌生慣養、縱容放任、嬌養、嬌寵」。"
-      }
-    ]
-  },
-  "n3_1898": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは一家です。",
-        "zh": "這是「今一所房子、一家人、一個團體、一派」。"
-      }
-    ]
-  },
-  "n3_1899": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは箇です。",
-        "zh": "這是「個、箇」。"
-      }
-    ]
-  },
-  "n3_1900": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは虐待です。",
-        "zh": "這是「虐待課」。"
-      }
-    ]
-  },
-  "n3_1901": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは支えるです。",
-        "zh": "這是「支授維持支持、阻止防止」。"
-      }
-    ]
-  },
-  "n3_1902": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは姉妹です。",
-        "zh": "這是「姊妹」。"
-      }
-    ]
-  },
-  "n3_1903": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは親戚です。",
-        "zh": "這是「親戚親属」。"
-      }
-    ]
-  },
-  "n3_1904": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは親類です。",
-        "zh": "這是「親戚、親屬、同類、類似、請類」。"
-      }
-    ]
-  },
-  "n3_1905": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは全般です。",
-        "zh": "這是「全麵、全盤、通盤」。"
-      }
-    ]
-  },
-  "n3_1906": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは連れです。",
-        "zh": "這是「同伴」。"
-      }
-    ]
-  },
-  "n3_1907": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは母親です。",
-        "zh": "這是「母親、媽媽」。"
-      }
-    ]
-  },
-  "n3_1908": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは奥様です。",
-        "zh": "這是「尊夫人、太太」。"
-      }
-    ]
-  },
-  "n3_1909": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは婚約です。",
-        "zh": "這是「訂婚、婚約」。"
-      }
-    ]
-  },
-  "n3_1910": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは共にです。",
-        "zh": "這是「信共同、一起、都、随著随同人、都、均」。"
-      }
-    ]
-  },
-  "n3_1911": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは女房です。",
-        "zh": "這是「太太、老婆」。"
-      }
-    ]
-  },
-  "n3_1912": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは花嫁です。",
-        "zh": "這是「新娘」。"
-      }
-    ]
-  },
-  "n3_1913": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは夫妻です。",
-        "zh": "這是「夫妻、丈夫和妻子」。"
-      }
-    ]
-  },
-  "n3_1914": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは嫁です。",
-        "zh": "這是「兒媳婦、妻、新娘」。"
-      }
-    ]
-  },
-  "n3_1915": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは先祖です。",
-        "zh": "這是「始祖、祖先、先人」。"
-      }
-    ]
-  },
-  "n3_1916": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは祖先です。",
-        "zh": "這是「祖先、先人」。"
-      }
-    ]
-  },
-  "n3_1917": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは父親です。",
-        "zh": "這是「父親、爸爸」。"
-      }
-    ]
-  },
-  "n3_1918": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは務めです。",
-        "zh": "這是「本分義務責任」。"
-      }
-    ]
-  },
-  "n3_1919": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは独立です。",
-        "zh": "這是「孤立、軍獲存在、自立猫立、受他人援助」。"
-      }
-    ]
-  },
-  "n3_1920": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは墓です。",
-        "zh": "這是「墓地墳墓」。"
-      }
-    ]
-  },
-  "n3_1921": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは父母です。",
-        "zh": "這是「父母、雙親」。"
-      }
-    ]
-  },
-  "n3_1922": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは祭るです。",
-        "zh": "這是「祭祀、祭奠、供奉」。"
-      }
-    ]
-  },
-  "n3_1923": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは幼いです。",
-        "zh": "這是「幼小的、年幼的爽子押、幼稚的」。"
-      }
-    ]
-  },
-  "n3_1924": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは子孫です。",
-        "zh": "這是「子孫、後代」。"
-      }
-    ]
-  },
-  "n3_1925": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは示っ子です。",
-        "zh": "這是「最小的孩子」。"
-      }
-    ]
-  },
-  "n3_1926": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは姿です。",
-        "zh": "這是「身姿身段、装束、風來、形昌、身影、麵貌、狀態、姿勢形象」。"
-      }
-    ]
-  },
-  "n3_1927": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは適するです。",
-        "zh": "這是「適宜、適、適當、適宜於、具有做某事」。"
-      }
-    ]
-  },
-  "n3_1928": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは双子です。",
-        "zh": "這是「雙胞胎、學生、雙」。"
-      }
-    ]
-  },
-  "n3_1929": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは向けです。",
-        "zh": "這是「向、對」。"
-      }
-    ]
-  },
-  "n3_1930": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは兎です。",
-        "zh": "這是「兔子呈」。"
-      }
-    ]
-  },
-  "n3_1931": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは金魚です。",
-        "zh": "這是「金魚、觀賞魚」。"
-      }
-    ]
-  },
-  "n3_1932": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは絶滅です。",
-        "zh": "這是「滅絕、消滅、根除」。"
-      }
-    ]
-  },
-  "n3_1933": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは象です。",
-        "zh": "這是「大象」。"
-      }
-    ]
-  },
-  "n3_1934": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは属するです。",
-        "zh": "這是「屬於」。"
-      }
-    ]
-  },
-  "n3_1935": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは翼です。",
-        "zh": "這是「翅膀、翼」。"
-      }
-    ]
-  },
-  "n3_1936": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは虎です。",
-        "zh": "這是「老虎」。"
-      }
-    ]
-  },
-  "n3_1937": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは撫でるです。",
-        "zh": "這是「摸、撫摸、梳理、撫屆」。"
-      }
-    ]
-  },
-  "n3_1938": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鶏です。",
-        "zh": "這是「雞」。"
-      }
-    ]
-  },
-  "n3_1939": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはねずみです。",
-        "zh": "這是「老鼠」。"
-      }
-    ]
-  },
-  "n3_1940": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは駆け回るです。",
-        "zh": "這是「到處亂跑、二人怒家和」。"
-      }
-    ]
-  },
-  "n3_1941": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは牙です。",
-        "zh": "這是「獠牙、牙」。"
-      }
-    ]
-  },
-  "n3_1942": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは尻尾です。",
-        "zh": "這是「尾巴」。"
-      }
-    ]
-  },
-  "n3_1943": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは羽です。",
-        "zh": "這是「羽毛、翅膀」。"
-      }
-    ]
-  },
-  "n3_1944": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは跳ねるです。",
-        "zh": "這是「蹦想、飛濺、散開散場、爆、馬。區」。"
-      }
-    ]
-  },
-  "n3_1945": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは梅です。",
-        "zh": "這是「梅花、梅樹梅子」。"
-      }
-    ]
-  },
-  "n3_1946": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは西瓜です。",
-        "zh": "這是「西瓜、夏天常見水果」。"
-      }
-    ]
-  },
-  "n3_1947": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは実るです。",
-        "zh": "這是「成熟、結果、取得成人、獲得成果、結果實」。"
-      }
-    ]
-  },
-  "n3_1948": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは稲です。",
-        "zh": "這是「注水稻、稻子」。"
-      }
-    ]
-  },
-  "n3_1949": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは街路村です。",
-        "zh": "這是「行道樹」。"
-      }
-    ]
-  },
-  "n3_1950": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは粗物です。",
-        "zh": "這是「五穀糧食」。"
-      }
-    ]
-  },
-  "n3_1951": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは小麦です。",
-        "zh": "這是「小次、加小麥粉在二柜名」。"
-      }
-    ]
-  },
-  "n3_1952": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはしなやかです。",
-        "zh": "這是「柔軟、柔和」。"
-      }
-    ]
-  },
-  "n3_1953": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは芝生です。",
-        "zh": "這是「草皮、草地」。"
-      }
-    ]
-  },
-  "n3_1954": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは杉です。",
-        "zh": "這是「杉樹杉林」。"
-      }
-    ]
-  },
-  "n3_1955": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大木です。",
-        "zh": "這是「大樹巨樹」。"
-      }
-    ]
-  },
-  "n3_1956": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは竹です。",
-        "zh": "這是「竹子」。"
-      }
-    ]
-  },
-  "n3_1957": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは並木です。",
-        "zh": "這是「街樹、路樹並排的樹木」。"
-      }
-    ]
-  },
-  "n3_1958": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは紅葉です。",
-        "zh": "這是「紅葉、楓樹」。"
-      }
-    ]
-  },
-  "n3_1959": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは植わるです。",
-        "zh": "這是「種著、栽植著」。"
-      }
-    ]
-  },
-  "n3_1960": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは園芸です。",
-        "zh": "這是「園藝」。"
-      }
-    ]
-  },
-  "n3_1961": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは温室です。",
-        "zh": "這是「溫室、暖房」。"
-      }
-    ]
-  },
-  "n3_1962": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは刈るです。",
-        "zh": "這是「割、剪、詣」。"
-      }
-    ]
-  },
-  "n3_1963": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは作物です。",
-        "zh": "這是「農作物、太稼」。"
-      }
-    ]
-  },
-  "n3_1964": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは茂るです。",
-        "zh": "這是「繁茂、茂密」。"
-      }
-    ]
-  },
-  "n3_1965": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鞭む・洞むです。",
-        "zh": "這是「枯萎、凋謝」。"
-      }
-    ]
-  },
-  "n3_1966": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは散らばるです。",
-        "zh": "這是「分散、散亂」。"
-      }
-    ]
-  },
-  "n3_1967": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは匂うです。",
-        "zh": "這是「散琶香味、有香味、鮮中、美麗、隱約發出、使人威到似乎」。"
-      }
-    ]
-  },
-  "n3_1968": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鉢植えです。",
-        "zh": "這是「公栽」。"
-      }
-    ]
-  },
-  "n3_1969": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは蜜です。",
-        "zh": "這是「花蜜、蜂蜜」。"
-      }
-    ]
-  },
-  "n3_1970": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは養分です。",
-        "zh": "這是「養分、營養成分」。"
-      }
-    ]
-  },
-  "n3_1971": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは若葉です。",
-        "zh": "這是「表葉新葉」。"
-      }
-    ]
-  },
-  "n3_1972": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは液体です。",
-        "zh": "這是「液體」。"
-      }
-    ]
-  },
-  "n3_1973": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは塊です。",
-        "zh": "這是「塊狀、疹座、集園、極端...的」。"
-      }
-    ]
-  },
-  "n3_1974": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは固まるです。",
-        "zh": "這是「變硬、凝歡、固定、成形、集在一起、成群、熱中」。"
-      }
-    ]
-  },
-  "n3_1975": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは気体です。",
-        "zh": "這是「氣體」。"
-      }
-    ]
-  },
-  "n3_1976": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは金属です。",
-        "zh": "這是「金属、五金」。"
-      }
-    ]
-  },
-  "n3_1977": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは下水です。",
-        "zh": "這是「污水、髒水、下水、下水道的簡稱」。"
-      }
-    ]
-  },
-  "n3_1978": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鉱物です。",
-        "zh": "這是「礦物」。"
-      }
-    ]
-  },
-  "n3_1979": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは固体です。",
-        "zh": "這是「固體」。"
-      }
-    ]
-  },
-  "n3_1980": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは粉です。",
-        "zh": "這是「粉、粉末」。"
-      }
-    ]
-  },
-  "n3_1981": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは混合です。",
-        "zh": "這是「混合、混在一起」。"
-      }
-    ]
-  },
-  "n3_1982": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは錆です。",
-        "zh": "這是「鏽」。"
-      }
-    ]
-  },
-  "n3_1983": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは酸素です。",
-        "zh": "這是「氧氣」。"
-      }
-    ]
-  },
-  "n3_1984": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水素です。",
-        "zh": "這是「氫氣」。"
-      }
-    ]
-  },
-  "n3_1985": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは成分です。",
-        "zh": "這是「成分、元素、成分、時半」。"
-      }
-    ]
-  },
-  "n3_1986": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは宝です。",
-        "zh": "這是「財寶、珍寶、寶貝、金錢」。"
-      }
-    ]
-  },
-  "n3_1987": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは地質です。",
-        "zh": "這是「地質、土地岩層性質」。"
-      }
-    ]
-  },
-  "n3_1988": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは土です。",
-        "zh": "這是「土地大地、土壌土質、地麵地表」。"
-      }
-    ]
-  },
-  "n3_1989": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは粒です。",
-        "zh": "這是「穀粒、粒、丸、珠、數、粒、滴、丸」。"
-      }
-    ]
-  },
-  "n3_1990": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鉄です。",
-        "zh": "這是「鐵」。"
-      }
-    ]
-  },
-  "n3_1991": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは透明です。",
-        "zh": "這是「透明、純潔、晶純」。"
-      }
-    ]
-  },
-  "n3_1992": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは毒です。",
-        "zh": "這是「毒、毒藥、毒害、有害、惡毒、毒辣」。"
-      }
-    ]
-  },
-  "n3_1993": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは花火です。",
-        "zh": "這是「花火打上」。"
-      }
-    ]
-  },
-  "n3_1994": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは破片です。",
-        "zh": "這是「碎片、破片」。"
-      }
-    ]
-  },
-  "n3_1995": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは餅めるです。",
-        "zh": "這是「峙上、鑲上、使陷入、欺騙、入、使沈入」。"
-      }
-    ]
-  },
-  "n3_1996": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは物質です。",
-        "zh": "這是「物質、構成東西的實體」。"
-      }
-    ]
-  },
-  "n3_1997": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは宝石です。",
-        "zh": "這是「寶石」。"
-      }
-    ]
-  },
-  "n3_1998": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは薬品です。",
-        "zh": "這是「薬品、化學試剤」。"
-      }
-    ]
-  },
-  "n3_1999": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはオイルです。",
-        "zh": "這是「油、油類油唱、油書顔料、石油」。"
-      }
-    ]
-  },
-  "n3_2000": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水蒸気です。",
-        "zh": "這是「水蒸氣、霧氣、水霧本」。"
-      }
-    ]
-  },
-  "n3_2001": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水分です。",
-        "zh": "這是「物體中的含水量、液體、含水量、汁點」。"
-      }
-    ]
-  },
-  "n3_2002": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水面です。",
-        "zh": "這是「水麵、上」。"
-      }
-    ]
-  },
-  "n3_2003": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは石炭です。",
-        "zh": "這是「煤炭」。"
-      }
-    ]
-  },
-  "n3_2004": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは石油です。",
-        "zh": "這是「石油齊」。"
-      }
-    ]
-  },
-  "n3_2005": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは断水です。",
-        "zh": "這是「斷水、停水開」。"
-      }
-    ]
-  },
-  "n3_2006": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは直流です。",
-        "zh": "這是「直流電、直流、沒有彎、的河流、嫡系」。"
-      }
-    ]
-  },
-  "n3_2007": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは電流です。",
-        "zh": "這是「電流、電的流動」。"
-      }
-    ]
-  },
-  "n3_2008": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは電力です。",
-        "zh": "這是「電力、電能」。"
-      }
-    ]
-  },
-  "n3_2009": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは灯油です。",
-        "zh": "這是「燈油、爆油」。"
-      }
-    ]
-  },
-  "n3_2010": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは爆発です。",
-        "zh": "這是「爆炸、爆發」。"
-      }
-    ]
-  },
-  "n3_2011": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは発電です。",
-        "zh": "這是「發電」。"
-      }
-    ]
-  },
-  "n3_2012": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは溶岩です。",
-        "zh": "這是「深央」。"
-      }
-    ]
-  },
-  "n3_2013": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは原料です。",
-        "zh": "這是「原料、製作材料」。"
-      }
-    ]
-  },
-  "n3_2014": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはコンクリートです。",
-        "zh": "這是「混凝土」。"
-      }
-    ]
-  },
-  "n3_2015": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは材木です。",
-        "zh": "這是「木材、木料」。"
-      }
-    ]
-  },
-  "n3_2016": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはセメントです。",
-        "zh": "這是「水泥」。"
-      }
-    ]
-  },
-  "n3_2017": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは泥です。",
-        "zh": "這是「泥、泥巴」。"
-      }
-    ]
-  },
-  "n3_2018": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはビタミンです。",
-        "zh": "這是「維他命、維生素、遼富」。"
-      }
-    ]
-  },
-  "n3_2019": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは木材です。",
-        "zh": "這是「木材、木料」。"
-      }
-    ]
-  },
-  "n3_2020": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは輝くです。",
-        "zh": "這是「閃光、閃耀、洋溢、光榮、顯林」。"
-      }
-    ]
-  },
-  "n3_2021": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは観測です。",
-        "zh": "這是「觀測」。"
-      }
-    ]
-  },
-  "n3_2022": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは気圧です。",
-        "zh": "這是「氣壓、大氣壓」。"
-      }
-    ]
-  },
-  "n3_2023": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは高気圧です。",
-        "zh": "這是「高氣壓」。"
-      }
-    ]
-  },
-  "n3_2024": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは光線です。",
-        "zh": "這是「光線、光的線」。"
-      }
-    ]
-  },
-  "n3_2025": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大気です。",
-        "zh": "這是「大気、空気」。"
-      }
-    ]
-  },
-  "n3_2026": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは三日月です。",
-        "zh": "這是「新月、月牙新月形」。"
-      }
-    ]
-  },
-  "n3_2027": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは満ちるです。",
-        "zh": "這是「充満月急、月園、満」。"
-      }
-    ]
-  },
-  "n3_2028": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは明け方です。",
-        "zh": "這是「黎明、拂曉」。"
-      }
-    ]
-  },
-  "n3_2029": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは嵐です。",
-        "zh": "這是「風暴、暴風雨」。"
-      }
-    ]
-  },
-  "n3_2030": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは一層です。",
-        "zh": "這是「側更、越發」。"
-      }
-    ]
-  },
-  "n3_2031": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは穏やかです。",
-        "zh": "這是「平穩、溫和」。"
-      }
-    ]
-  },
-  "n3_2032": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは劣るです。",
-        "zh": "這是「劣、不加、不及、比不上」。"
-      }
-    ]
-  },
-  "n3_2033": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは温暖です。",
-        "zh": "這是「溫暖」。"
-      }
-    ]
-  },
-  "n3_2034": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは快晴です。",
-        "zh": "這是「晴朗、晴朗無雲」。"
-      }
-    ]
-  },
-  "n3_2035": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは格別です。",
-        "zh": "這是「轉特別顯著、格外、姑且不論」。"
-      }
-    ]
-  },
-  "n3_2036": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは強風です。",
-        "zh": "這是「入強風回」。"
-      }
-    ]
-  },
-  "n3_2037": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは愚図つくです。",
-        "zh": "這是「吧陰天、動作遲緩拖延」。"
-      }
-    ]
-  },
-  "n3_2038": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは崩れるです。",
-        "zh": "這是「畫月站散去、當敗、抽碎、上天気月」。"
-      }
-    ]
-  },
-  "n3_2039": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは凍えるです。",
-        "zh": "這是「了手足放凍叉名」。"
-      }
-    ]
-  },
-  "n3_2040": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは寒さです。",
-        "zh": "這是「寒冷」。"
-      }
-    ]
-  },
-  "n3_2041": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは爽やかです。",
-        "zh": "這是「爽朗的、清爽的、聲、口齒鮮明的、清楚的、巧妙的」。"
-      }
-    ]
-  },
-  "n3_2042": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは静まるです。",
-        "zh": "這是「變平靜平靜、平息、減弱、平靜」。"
-      }
-    ]
-  },
-  "n3_2043": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは照るです。",
-        "zh": "這是「照耀、曬、晴天、點日該照名」。"
-      }
-    ]
-  },
-  "n3_2044": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはにわかです。",
-        "zh": "這是「形突然騒然、立刻、馬上、陣子、臨時、暫時」。"
-      }
-    ]
-  },
-  "n3_2045": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは梅雨です。",
-        "zh": "這是「梅雨、初夏雨季」。"
-      }
-    ]
-  },
-  "n3_2046": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは日差しです。",
-        "zh": "這是「陽光照射、光線」。"
-      }
-    ]
-  },
-  "n3_2047": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは日の入りです。",
-        "zh": "這是「日暮時分日落、黄皆、諸多」。"
-      }
-    ]
-  },
-  "n3_2048": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは日の出です。",
-        "zh": "這是「日出」。"
-      }
-    ]
-  },
-  "n3_2049": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはふわっとです。",
-        "zh": "這是「輕軟蓬鬆貌、輕飄貌」。"
-      }
-    ]
-  },
-  "n3_2050": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは舞うです。",
-        "zh": "這是「飛舞」。"
-      }
-    ]
-  },
-  "n3_2051": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これはめっきりです。",
-        "zh": "這是「急變化明顯、顯著的、突然、劇烈」。"
-      }
-    ]
-  },
-  "n3_2052": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは物凄いです。",
-        "zh": "這是「工人怖的、令人恐懼的、猛、四寒」。"
-      }
-    ]
-  },
-  "n3_2053": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは夕立です。",
-        "zh": "這是「雷陣雨」。"
-      }
-    ]
-  },
-  "n3_2054": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは予報です。",
-        "zh": "這是「預報旬」。"
-      }
-    ]
-  },
-  "n3_2055": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは落雷です。",
-        "zh": "這是「打雷、雷擊」。"
-      }
-    ]
-  },
-  "n3_2056": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは火災です。",
-        "zh": "這是「火災遭」。"
-      }
-    ]
-  },
-  "n3_2057": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは清いです。",
-        "zh": "這是「清激的、清潔的、峠快的、問心無愧的、正派的、光明磊落、乾有」。"
-      }
-    ]
-  },
-  "n3_2058": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは霧です。",
-        "zh": "這是「霧、霧氣、噴霧」。"
-      }
-    ]
-  },
-  "n3_2059": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは砕けるです。",
-        "zh": "這是「粉々砕」。"
-      }
-    ]
-  },
-  "n3_2060": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは曇るです。",
-        "zh": "這是「天気陰肛、騰」。"
-      }
-    ]
-  },
-  "n3_2061": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは霜です。",
-        "zh": "這是「霜、低溫結成的白色冰晶」。"
-      }
-    ]
-  },
-  "n3_2062": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは重力です。",
-        "zh": "這是「重力、吸引物體的力」。"
-      }
-    ]
-  },
-  "n3_2063": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは蒸発です。",
-        "zh": "這是「蒸發、失蹤」。"
-      }
-    ]
-  },
-  "n3_2064": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは接近です。",
-        "zh": "這是「接近、靠近」。"
-      }
-    ]
-  },
-  "n3_2065": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは増水です。",
-        "zh": "這是「氾濫、漲水」。"
-      }
-    ]
-  },
-  "n3_2066": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは天然です。",
-        "zh": "這是「天然自然」。"
-      }
-    ]
-  },
-  "n3_2067": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは土砂崩れです。",
-        "zh": "這是「土石流人」。"
-      }
-    ]
-  },
-  "n3_2068": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは突風です。",
-        "zh": "這是「突然論起的暴風人」。"
-      }
-    ]
-  },
-  "n3_2069": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは濁るです。",
-        "zh": "這是「混濁、不清晰、嘶啞、賠明、污濁、起邪念」。"
-      }
-    ]
-  },
-  "n3_2070": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは虹です。",
-        "zh": "這是「虹、彩虹」。"
-      }
-    ]
-  },
-  "n3_2071": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは独りでにです。",
-        "zh": "這是「行地、自動地、自然而然也」。"
-      }
-    ]
-  },
-  "n3_2072": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは噴火です。",
-        "zh": "這是「噴火、火山噴發」。"
-      }
-    ]
-  },
-  "n3_2073": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは法則です。",
-        "zh": "這是「規律、定律、規定、規則」。"
-      }
-    ]
-  },
-  "n3_2074": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは万一です。",
-        "zh": "這是「萬一」。"
-      }
-    ]
-  },
-  "n3_2075": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは泉です。",
-        "zh": "這是「泉、泉水、泉源、話是說」。"
-      }
-    ]
-  },
-  "n3_2076": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは運河です。",
-        "zh": "這是「運河、人工河道」。"
-      }
-    ]
-  },
-  "n3_2077": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは丘です。",
-        "zh": "這是「小山」。"
-      }
-    ]
-  },
-  "n3_2078": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは溺れるです。",
-        "zh": "這是「取二湯水、尖死、沉溺於、迷弦於」。"
-      }
-    ]
-  },
-  "n3_2079": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは温泉です。",
-        "zh": "這是「溫泉方」。"
-      }
-    ]
-  },
-  "n3_2080": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは海洋です。",
-        "zh": "這是「海洋、大海」。"
-      }
-    ]
-  },
-  "n3_2081": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは火口です。",
-        "zh": "這是「噴火口、爐口」。"
-      }
-    ]
-  },
-  "n3_2082": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは岸です。",
-        "zh": "這是「岸、岸邊、崖」。"
-      }
-    ]
-  },
-  "n3_2083": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは旧跡です。",
-        "zh": "這是「古蹟」。"
-      }
-    ]
-  },
-  "n3_2084": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは経度です。",
-        "zh": "這是「經度」。"
-      }
-    ]
-  },
-  "n3_2085": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは険しいです。",
-        "zh": "這是「侈陡峭、險峻、險惡、危險、表情等、嚴融、可怕、粗暴」。"
-      }
-    ]
-  },
-  "n3_2086": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは耕地です。",
-        "zh": "這是「耕地、可耕作土地」。"
-      }
-    ]
-  },
-  "n3_2087": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは越す・超すです。",
-        "zh": "這是「越過跨越、渡過、超越、勝於」。"
-      }
-    ]
-  },
-  "n3_2088": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは砂漠です。",
-        "zh": "這是「沙漠」。"
-      }
-    ]
-  },
-  "n3_2089": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは山林です。",
-        "zh": "這是「山上的樹林、山和樹林」。"
-      }
-    ]
-  },
-  "n3_2090": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは地面です。",
-        "zh": "這是「地麵、地表、土地、地皮、地自」。"
-      }
-    ]
-  },
-  "n3_2091": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは森林です。",
-        "zh": "這是「森林、大片樹林」。"
-      }
-    ]
-  },
-  "n3_2092": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水平線です。",
-        "zh": "這是「水平線、地平線」。"
-      }
-    ]
-  },
-  "n3_2093": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは赤道です。",
-        "zh": "這是「亦首」。"
-      }
-    ]
-  },
-  "n3_2094": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大陸です。",
-        "zh": "這是「大陸、大洲、中國、歐洲大陸二」。"
-      }
-    ]
-  },
-  "n3_2095": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは谷です。",
-        "zh": "這是「山谷、山潤、山洞」。"
-      }
-    ]
-  },
-  "n3_2096": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは谷底です。",
-        "zh": "這是「谷底、山谷底部」。"
-      }
-    ]
-  },
-  "n3_2097": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは淡水です。",
-        "zh": "這是「淡水、不含鹽的水」。"
-      }
-    ]
-  },
-  "n3_2098": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは地平線です。",
-        "zh": "這是「地平線、天地交界線」。"
-      }
-    ]
-  },
-  "n3_2099": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは地名です。",
-        "zh": "這是「地名、地方名稱」。"
-      }
-    ]
-  },
-  "n3_2100": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは頂上です。",
-        "zh": "這是「山頂、峰頂、極點、頂點」。"
-      }
-    ]
-  },
-  "n3_2101": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは頂点です。",
-        "zh": "這是「頂點、頂峰、最高處、極點」。"
-      }
-    ]
-  },
-  "n3_2102": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは釣り橋・吊り橋です。",
-        "zh": "這是「吊橋」。"
-      }
-    ]
-  },
-  "n3_2103": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは峠です。",
-        "zh": "這是「山路最高點山間」。"
-      }
-    ]
-  },
-  "n3_2104": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは灯台です。",
-        "zh": "這是「燈塔」。"
-      }
-    ]
-  },
-  "n3_2105": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは飛び込むです。",
-        "zh": "這是「跳准、飛入、突然閣入、主動投入、加入」。"
-      }
-    ]
-  },
-  "n3_2106": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは眺めです。",
-        "zh": "這是「眺堂、瞭堂、視野、景致、景色」。"
-      }
-    ]
-  },
-  "n3_2107": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは波です。",
-        "zh": "這是「波浪、波溥、波瀾、風波、聲波、電波、潮流、浪潮、起伏、波動」。"
-      }
-    ]
-  },
-  "n3_2108": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは野原です。",
-        "zh": "這是「原野」。"
-      }
-    ]
-  },
-  "n3_2109": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは半島です。",
-        "zh": "這是「半島、三面臨海的陸地」。"
-      }
-    ]
-  },
-  "n3_2110": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは風景です。",
-        "zh": "這是「風景、景致、情景、光景、狀況、美」。"
-      }
-    ]
-  },
-  "n3_2111": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは平野です。",
-        "zh": "這是「平原」。"
-      }
-    ]
-  },
-  "n3_2112": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは盆地です。",
-        "zh": "這是「盆地、四周較高的地形」。"
-      }
-    ]
-  },
-  "n3_2113": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは岬です。",
-        "zh": "這是「海角、岬」。"
-      }
-    ]
-  },
-  "n3_2114": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見慣れるです。",
-        "zh": "這是「看慣、熟悉」。"
-      }
-    ]
-  },
-  "n3_2115": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは陸です。",
-        "zh": "這是「陸地、早地、陸軍的通稱」。"
-      }
-    ]
-  },
-  "n3_2116": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは流域です。",
-        "zh": "這是「流域、河川流經區域」。"
-      }
-    ]
-  },
-  "n3_2117": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは列島です。",
-        "zh": "這是「列島、群島」。"
-      }
-    ]
-  },
-  "n3_2118": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは下町です。",
-        "zh": "這是「小工商業區、都、低窪地属」。"
-      }
-    ]
-  },
-  "n3_2119": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは真空です。",
-        "zh": "這是「真空、空白、真空狀態」。"
-      }
-    ]
-  },
-  "n3_2120": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは転々です。",
-        "zh": "這是「轉來轉去、輾轉、不斷移動、滾轉貌、嘰哩咕嚕」。"
-      }
-    ]
-  },
-  "n3_2121": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは東西です。",
-        "zh": "這是「東和西、東方和西方、方向、事理、道理」。"
-      }
-    ]
-  },
-  "n3_2122": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは土地です。",
-        "zh": "這是「土地、耕地、土壌土質、某地属、當地、地麵、地區」。"
-      }
-    ]
-  },
-  "n3_2123": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはバックです。",
-        "zh": "這是「後面、倒車」。"
-      }
-    ]
-  },
-  "n3_2124": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは広場です。",
-        "zh": "這是「廣場、場所」。"
-      }
-    ]
-  },
-  "n3_2125": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは方々です。",
-        "zh": "這是「各處、到處」。"
-      }
-    ]
-  },
-  "n3_2126": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは方面です。",
-        "zh": "這是「方面、方向」。"
-      }
-    ]
-  },
-  "n3_2127": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは街角です。",
-        "zh": "這是「街角、街口、拐朋」。"
-      }
-    ]
-  },
-  "n3_2128": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは向こう側です。",
-        "zh": "這是「對麵、對方」。"
-      }
-    ]
-  },
-  "n3_2129": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは名所です。",
-        "zh": "這是「名勝、名所」。"
-      }
-    ]
-  },
-  "n3_2130": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは他所です。",
-        "zh": "這是「別處、他處、遠方、別的他的、不願、謂」。"
-      }
-    ]
-  },
-  "n3_2131": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは至るです。",
-        "zh": "這是「到、來臨、達到、周到」。"
-      }
-    ]
-  },
-  "n3_2132": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは欧米です。",
-        "zh": "這是「歐美」。"
-      }
-    ]
-  },
-  "n3_2133": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは屋外です。",
-        "zh": "這是「外運動靴必要」。"
-      }
-    ]
-  },
-  "n3_2134": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは温帯です。",
-        "zh": "這是「溫帶」。"
-      }
-    ]
-  },
-  "n3_2135": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは海外です。",
-        "zh": "這是「海外、國外」。"
-      }
-    ]
-  },
-  "n3_2136": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは拡充です。",
-        "zh": "這是「擴充」。"
-      }
-    ]
-  },
-  "n3_2137": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは拡大です。",
-        "zh": "這是「擴大、放大」。"
-      }
-    ]
-  },
-  "n3_2138": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは拡張です。",
-        "zh": "這是「擴大、擴張」。"
-      }
-    ]
-  },
-  "n3_2139": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは関東です。",
-        "zh": "這是「關東地區」。"
-      }
-    ]
-  },
-  "n3_2140": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは空中です。",
-        "zh": "這是「空中、天空」。"
-      }
-    ]
-  },
-  "n3_2141": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは国境です。",
-        "zh": "這是「國境、混境、湯界」。"
-      }
-    ]
-  },
-  "n3_2142": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは敷地です。",
-        "zh": "這是「建築用地、地皮」。"
-      }
-    ]
-  },
-  "n3_2143": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは周囲です。",
-        "zh": "這是「周圍、四周、周園的人、環境」。"
-      }
-    ]
-  },
-  "n3_2144": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは周辺です。",
-        "zh": "這是「周邊」。"
-      }
-    ]
-  },
-  "n3_2145": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは首都です。",
-        "zh": "這是「首都、國家中央城市」。"
-      }
-    ]
-  },
-  "n3_2146": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは首都圏です。",
-        "zh": "這是「首都圈」。"
-      }
-    ]
-  },
-  "n3_2147": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは地域です。",
-        "zh": "這是「地區同」。"
-      }
-    ]
-  },
-  "n3_2148": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは丁目です。",
-        "zh": "這是「段、巷、條」。"
-      }
-    ]
-  },
-  "n3_2149": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは都会です。",
-        "zh": "這是「都會、城市都市」。"
-      }
-    ]
-  },
-  "n3_2150": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは特定です。",
-        "zh": "這是「特定、指定」。"
-      }
-    ]
-  },
-  "n3_2151": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは都心です。",
-        "zh": "這是「市中心」。"
-      }
-    ]
-  },
-  "n3_2152": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは南極です。",
-        "zh": "這是「南極、南極、磁針指南的一端」。"
-      }
-    ]
-  },
-  "n3_2153": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは南米です。",
-        "zh": "這是「南美洲」。"
-      }
-    ]
-  },
-  "n3_2154": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは南北です。",
-        "zh": "這是「南興北南北」。"
-      }
-    ]
-  },
-  "n3_2155": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは熱帯です。",
-        "zh": "這是「熱帶」。"
-      }
-    ]
-  },
-  "n3_2156": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは番地です。",
-        "zh": "這是「門牌號、住址」。"
-      }
-    ]
-  },
-  "n3_2157": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人込み・人混みです。",
-        "zh": "這是「人群、擁擠人潮」。"
-      }
-    ]
-  },
-  "n3_2158": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは分布です。",
-        "zh": "這是「分布、散布狀態」。"
-      }
-    ]
-  },
-  "n3_2159": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは北極です。",
-        "zh": "這是「北、加、北極是謀見名、本」。"
-      }
-    ]
-  },
-  "n3_2160": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは都です。",
-        "zh": "這是「城間都、大都市、繁華的都市加」。"
-      }
-    ]
-  },
-  "n3_2161": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはヨーロッパです。",
-        "zh": "這是「歐洲理、行。地」。"
-      }
-    ]
-  },
-  "n3_2162": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは逆です。",
-        "zh": "這是「反、相反、倒、叛逆」。"
-      }
-    ]
-  },
-  "n3_2163": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは逆さです。",
-        "zh": "這是「逆、倒顛倒、相反」。"
-      }
-    ]
-  },
-  "n3_2164": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは逆様です。",
-        "zh": "這是「逆、倒、顛倒、相反」。"
-      }
-    ]
-  },
-  "n3_2165": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは遡るです。",
-        "zh": "這是「源、犯流麵上、銘湖、回湖」。"
-      }
-    ]
-  },
-  "n3_2166": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは左右です。",
-        "zh": "這是「左右、左邊和右邊」。"
-      }
-    ]
-  },
-  "n3_2167": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水平です。",
-        "zh": "這是「水平、橫向平坦」。"
-      }
-    ]
-  },
-  "n3_2168": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは前後です。",
-        "zh": "這是「前和後前、後、相繼、先後、前因後果」。"
-      }
-    ]
-  },
-  "n3_2169": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは先端です。",
-        "zh": "這是「頂端、尖端、時代的尖端、時置、流行、前衛」。"
-      }
-    ]
-  },
-  "n3_2170": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは逸れるです。",
-        "zh": "這是「三二偏離正軌、歪向一旁、不合調、!胃、回話」。"
-      }
-    ]
-  },
-  "n3_2171": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは平らです。",
-        "zh": "這是「平平坦平原平地、廊、隨意坐、盤腿作、平靜、坦然」。"
-      }
-    ]
-  },
-  "n3_2172": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは地点です。",
-        "zh": "這是「地量」。"
-      }
-    ]
-  },
-  "n3_2173": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは中間です。",
-        "zh": "這是「兩者之間、中途、順、加中間左取名、課」。"
-      }
-    ]
-  },
-  "n3_2174": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは退けるです。",
-        "zh": "這是「移開」。"
-      }
-    ]
-  },
-  "n3_2175": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは終です。",
-        "zh": "這是「斜的、和歪斜」。"
-      }
-    ]
-  },
-  "n3_2176": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは左側です。",
-        "zh": "這是「左邊、左側」。"
-      }
-    ]
-  },
-  "n3_2177": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは引っくり返です。",
-        "zh": "這是「翻倒、顛倒、翻過來、逆轉、倒過來加」。"
-      }
-    ]
-  },
-  "n3_2178": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは縁です。",
-        "zh": "這是「邊緣、框、榴、旁側」。"
-      }
-    ]
-  },
-  "n3_2179": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは振り向くです。",
-        "zh": "這是「回頭看」。"
-      }
-    ]
-  },
-  "n3_2180": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは平行です。",
-        "zh": "這是「平行、並行」。"
-      }
-    ]
-  },
-  "n3_2181": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは曲がり角です。",
-        "zh": "這是「街角、轉折點、千本」。"
-      }
-    ]
-  },
-  "n3_2182": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは右側です。",
-        "zh": "這是「右側、右方」。"
-      }
-    ]
-  },
-  "n3_2183": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは目印です。",
-        "zh": "這是「目標、標記、記號、加自生記名」。"
-      }
-    ]
-  },
-  "n3_2184": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは戻すです。",
-        "zh": "這是「退還、歸還、送回、退回、使倒退、市場價格急境回升」。"
-      }
-    ]
-  },
-  "n3_2185": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは矢印です。",
-        "zh": "這是「箭頭、箭形符號」。"
-      }
-    ]
-  },
-  "n3_2186": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは両端です。",
-        "zh": "這是「兩端」。"
-      }
-    ]
-  },
-  "n3_2187": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは会員です。",
-        "zh": "這是「瀬上員」。"
-      }
-    ]
-  },
-  "n3_2188": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは会館です。",
-        "zh": "這是「會館、公共館舍」。"
-      }
-    ]
-  },
-  "n3_2189": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは係・係りです。",
-        "zh": "這是「負責人、職務」。"
-      }
-    ]
-  },
-  "n3_2190": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは貸し出しです。",
-        "zh": "這是「出借出租、貸、借出」。"
-      }
-    ]
-  },
-  "n3_2191": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは官庁です。",
-        "zh": "這是「政府機開、二上」。"
-      }
-    ]
-  },
-  "n3_2192": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは建築です。",
-        "zh": "這是「建築、建造」。"
-      }
-    ]
-  },
-  "n3_2193": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは高層です。",
-        "zh": "這是「高空高所層、高層」。"
-      }
-    ]
-  },
-  "n3_2194": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは小屋です。",
-        "zh": "這是「今簡隔的小房茅舍、斉、棚子、齊全」。"
-      }
-    ]
-  },
-  "n3_2195": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは設備です。",
-        "zh": "這是「設備、裝設、裝設」。"
-      }
-    ]
-  },
-  "n3_2196": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはセンターです。",
-        "zh": "這是「中心機構、中心攻、中場」。"
-      }
-    ]
-  },
-  "n3_2197": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは出入り口です。",
-        "zh": "這是「還站在出入口。社」。"
-      }
-    ]
-  },
-  "n3_2198": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは噴水です。",
-        "zh": "這是「水、噴泉内」。"
-      }
-    ]
-  },
-  "n3_2199": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは役所です。",
-        "zh": "這是「署、政府機關」。"
-      }
-    ]
-  },
-  "n3_2200": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは落とし物です。",
-        "zh": "這是「遺失物」。"
-      }
-    ]
-  },
-  "n3_2201": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはクラブです。",
-        "zh": "這是「俱樂部、夜店、課外活動、活動」。"
-      }
-    ]
-  },
-  "n3_2202": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは校舎です。",
-        "zh": "這是「校舍」。"
-      }
-    ]
-  },
-  "n3_2203": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは酒場です。",
-        "zh": "這是「酒館、酒家、酒」。"
-      }
-    ]
-  },
-  "n3_2204": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは寺院です。",
-        "zh": "這是「寺院、佛寺」。"
-      }
-    ]
-  },
-  "n3_2205": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは支店です。",
-        "zh": "這是「分店、分公司」。"
-      }
-    ]
-  },
-  "n3_2206": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは宿泊です。",
-        "zh": "這是「投宿住宿」。"
-      }
-    ]
-  },
-  "n3_2207": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは書店です。",
-        "zh": "這是「遙書店、出版社書局」。"
-      }
-    ]
-  },
-  "n3_2208": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは水車です。",
-        "zh": "這是「水車、以水力轉動的輪」。"
-      }
-    ]
-  },
-  "n3_2209": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは展望台です。",
-        "zh": "這是「瞭堂臺」。"
-      }
-    ]
-  },
-  "n3_2210": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは美容院です。",
-        "zh": "這是「美容院、著了、國美容院行」。"
-      }
-    ]
-  },
-  "n3_2211": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはビルディングです。",
-        "zh": "這是「大樓、建築物」。"
-      }
-    ]
-  },
-  "n3_2212": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはボーイです。",
-        "zh": "這是「少年、男孩、男服務員」。"
-      }
-    ]
-  },
-  "n3_2213": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは堀です。",
-        "zh": "這是「潮染、幸溝」。"
-      }
-    ]
-  },
-  "n3_2214": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは待合室です。",
-        "zh": "這是「候車室、候診室、等修室」。"
-      }
-    ]
-  },
-  "n3_2215": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは窓口です。",
-        "zh": "這是「窗口、與外、管道、窗品」。"
-      }
-    ]
-  },
-  "n3_2216": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは遊園地です。",
-        "zh": "這是「遊樂坦龍」。"
-      }
-    ]
-  },
-  "n3_2217": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは幼稚園です。",
-        "zh": "這是「幼稚轅」。"
-      }
-    ]
-  },
-  "n3_2218": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはロビーです。",
-        "zh": "這是「大廳」。"
-      }
-    ]
-  },
-  "n3_2219": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは医療です。",
-        "zh": "這是「醫療」。"
-      }
-    ]
-  },
-  "n3_2220": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは休診です。",
-        "zh": "這是「停診」。"
-      }
-    ]
-  },
-  "n3_2221": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは外科です。",
-        "zh": "這是「外科、開刀治療科別」。"
-      }
-    ]
-  },
-  "n3_2222": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは診察です。",
-        "zh": "這是「診察診斷」。"
-      }
-    ]
-  },
-  "n3_2223": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは整形です。",
-        "zh": "這是「遙整形」。"
-      }
-    ]
-  },
-  "n3_2224": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは内科です。",
-        "zh": "這是「內科」。"
-      }
-    ]
-  },
-  "n3_2225": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはフリーです。",
-        "zh": "這是「自由、免費」。"
-      }
-    ]
-  },
-  "n3_2226": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見舞いです。",
-        "zh": "這是「探望、慰問、昔受、挨、遭受、圖見舞」。"
-      }
-    ]
-  },
-  "n3_2227": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは見舞うです。",
-        "zh": "這是「探望、慰問」。"
-      }
-    ]
-  },
-  "n3_2228": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは市場です。",
-        "zh": "這是「市場、商場」。"
-      }
-    ]
-  },
-  "n3_2229": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは移転です。",
-        "zh": "這是「搬遷、遷移」。"
-      }
-    ]
-  },
-  "n3_2230": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは看板です。",
-        "zh": "這是「招牌、牌子、幌子、關門、停止營業時間」。"
-      }
-    ]
-  },
-  "n3_2231": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは喫茶です。",
-        "zh": "這是「喝茶、喫茶、飲茶」。"
-      }
-    ]
-  },
-  "n3_2232": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは共同です。",
-        "zh": "這是「共同、一起做」。"
-      }
-    ]
-  },
-  "n3_2233": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは行列です。",
-        "zh": "這是「入貶行列、隊伍、列隊、矩陣」。"
-      }
-    ]
-  },
-  "n3_2234": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはクリーニングです。",
-        "zh": "這是「洗滌」。"
-      }
-    ]
-  },
-  "n3_2235": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはサービスです。",
-        "zh": "這是「生後服務服務、接待、侍候、關、廉價出售、附帶贈品出售位」。"
-      }
-    ]
-  },
-  "n3_2236": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはシャッターです。",
-        "zh": "這是「鐵捲門、照相機快門」。"
-      }
-    ]
-  },
-  "n3_2237": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは商店です。",
-        "zh": "這是「商店、店鋪」。"
-      }
-    ]
-  },
-  "n3_2238": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは上等です。",
-        "zh": "這是「上等、優質」。"
-      }
-    ]
-  },
-  "n3_2239": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは蕎麦屋です。",
-        "zh": "這是「蕎麥麵店」。"
-      }
-    ]
-  },
-  "n3_2240": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは定休日です。",
-        "zh": "這是「定期公休日」。"
-      }
-    ]
-  },
-  "n3_2241": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは出迎えるです。",
-        "zh": "這是「迎接」。"
-      }
-    ]
-  },
-  "n3_2242": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは登場です。",
-        "zh": "這是「出場登臺、上場演出、登場出現」。"
-      }
-    ]
-  },
-  "n3_2243": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは引き止めるです。",
-        "zh": "這是「留、挽留、制止、拉信」。"
-      }
-    ]
-  },
-  "n3_2244": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは評判です。",
-        "zh": "這是「評信、評論!名聲名有、受到注目」。"
-      }
-    ]
-  },
-  "n3_2245": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは閉店です。",
-        "zh": "這是「關門、倒閉」。"
-      }
-    ]
-  },
-  "n3_2246": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは店屋です。",
-        "zh": "這是「店舗、商店」。"
-      }
-    ]
-  },
-  "n3_2247": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは薬局です。",
-        "zh": "這是「藥局、藥鋪、藥店」。"
-      }
-    ]
-  },
-  "n3_2248": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは洋品店です。",
-        "zh": "這是「舶來品店、精品店、西裝店」。"
-      }
-    ]
-  },
-  "n3_2249": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは運搬です。",
-        "zh": "這是「搬運、運輸」。"
-      }
-    ]
-  },
-  "n3_2250": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは加速です。",
-        "zh": "這是「加速、速度變快」。"
-      }
-    ]
-  },
-  "n3_2251": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは貨物です。",
-        "zh": "這是「貨物、貨車」。"
-      }
-    ]
-  },
-  "n3_2252": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは下車です。",
-        "zh": "這是「下車、從車上下來」。"
-      }
-    ]
-  },
-  "n3_2253": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは交通機関です。",
-        "zh": "這是「交通機關、交通設施」。"
-      }
-    ]
-  },
-  "n3_2254": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは座席です。",
-        "zh": "這是「座位、座席、乘坐、席位」。"
-      }
-    ]
-  },
-  "n3_2255": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは時速です。",
-        "zh": "這是「時速、每小時速度」。"
-      }
-    ]
-  },
-  "n3_2256": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは車輪です。",
-        "zh": "這是「排命、勢力表現、排、命於、盡力於」。"
-      }
-    ]
-  },
-  "n3_2257": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは速力です。",
-        "zh": "這是「急速率、速度」。"
-      }
-    ]
-  },
-  "n3_2258": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは出迎えです。",
-        "zh": "這是「還接、迎接的人、回出迎元-上旋名」。"
-      }
-    ]
-  },
-  "n3_2259": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはトンネルです。",
-        "zh": "這是「隧道」。"
-      }
-    ]
-  },
-  "n3_2260": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは発車です。",
-        "zh": "這是「發車、開車」。"
-      }
-    ]
-  },
-  "n3_2261": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはハンドルです。",
-        "zh": "這是「把手、方向盤」。"
-      }
-    ]
-  },
-  "n3_2262": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは標識です。",
-        "zh": "這是「標誌、標記、記號、信號」。"
-      }
-    ]
-  },
-  "n3_2263": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは免許証です。",
-        "zh": "這是「批准、許可證、執照」。"
-      }
-    ]
-  },
-  "n3_2264": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは輸送です。",
-        "zh": "這是「輸送、傳送」。"
-      }
-    ]
-  },
-  "n3_2265": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはヨットです。",
-        "zh": "這是「遊艇、快艇」。"
-      }
-    ]
-  },
-  "n3_2266": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは往復です。",
-        "zh": "這是「往返、來往、通行量」。"
-      }
-    ]
-  },
-  "n3_2267": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは改札です。",
-        "zh": "這是「的驗飄」。"
-      }
-    ]
-  },
-  "n3_2268": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは機関車です。",
-        "zh": "這是「機車火車」。"
-      }
-    ]
-  },
-  "n3_2269": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは航空です。",
-        "zh": "這是「航空、航空公司的簡稱」。"
-      }
-    ]
-  },
-  "n3_2270": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは最終です。",
-        "zh": "這是「最後、最終、最末、示下車」。"
-      }
-    ]
-  },
-  "n3_2271": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは私鉄です。",
-        "zh": "這是「私營鐵路」。"
-      }
-    ]
-  },
-  "n3_2272": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは終点です。",
-        "zh": "這是「終証」。"
-      }
-    ]
-  },
-  "n3_2273": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは乗車です。",
-        "zh": "這是「乘車、上車」。"
-      }
-    ]
-  },
-  "n3_2274": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは乗車券です。",
-        "zh": "這是「車村」。"
-      }
-    ]
-  },
-  "n3_2275": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは寝台です。",
-        "zh": "這是「床鋪、臥鋪」。"
-      }
-    ]
-  },
-  "n3_2276": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは線路です。",
-        "zh": "這是「線路、火車、軌道」。"
-      }
-    ]
-  },
-  "n3_2277": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは脱線です。",
-        "zh": "這是「脫軌、偏離常軌」。"
-      }
-    ]
-  },
-  "n3_2278": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは停車です。",
-        "zh": "這是「停車、車輛停止」。"
-      }
-    ]
-  },
-  "n3_2279": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは鉄道です。",
-        "zh": "這是「鐵道、鐵路」。"
-      }
-    ]
-  },
-  "n3_2280": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは通りかかるです。",
-        "zh": "這是「碰巧路過」。"
-      }
-    ]
-  },
-  "n3_2281": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは飛行です。",
-        "zh": "這是「飛行、航空」。"
-      }
-    ]
-  },
-  "n3_2282": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはヘリコプターです。",
-        "zh": "這是「直升機」。"
-      }
-    ]
-  },
-  "n3_2283": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはボートです。",
-        "zh": "這是「小船、小艇」。"
-      }
-    ]
-  },
-  "n3_2284": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは満員です。",
-        "zh": "這是「滿員」。"
-      }
-    ]
-  },
-  "n3_2285": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは夜行です。",
-        "zh": "這是「夜行、夜間列車、夜間活動」。"
-      }
-    ]
-  },
-  "n3_2286": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは遊覧船です。",
-        "zh": "這是「遊覽船」。"
-      }
-    ]
-  },
-  "n3_2287": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは横断です。",
-        "zh": "這是「橫越、橫斷」。"
-      }
-    ]
-  },
-  "n3_2288": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは凹凸です。",
-        "zh": "這是「凹凸、高低不平」。"
-      }
-    ]
-  },
-  "n3_2289": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは大通りです。",
-        "zh": "這是「大街、大馬路」。"
-      }
-    ]
-  },
-  "n3_2290": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはカーです。",
-        "zh": "這是「車、汽車」。"
-      }
-    ]
-  },
-  "n3_2291": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはカープです。",
-        "zh": "這是「彎道、曲線」。"
-      }
-    ]
-  },
-  "n3_2292": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは開通です。",
-        "zh": "這是「開通、開始通行」。"
-      }
-    ]
-  },
-  "n3_2293": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは交差です。",
-        "zh": "這是「交叉」。"
-      }
-    ]
-  },
-  "n3_2294": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは高速です。",
-        "zh": "這是「高速、速度很快」。"
-      }
-    ]
-  },
-  "n3_2295": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは車庫です。",
-        "zh": "這是「車庫、停車庫」。"
-      }
-    ]
-  },
-  "n3_2296": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは車道です。",
-        "zh": "這是「車道、車輛通行道路」。"
-      }
-    ]
-  },
-  "n3_2297": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは乗用車です。",
-        "zh": "這是「自小客車」。"
-      }
-    ]
-  },
-  "n3_2298": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは整備です。",
-        "zh": "這是「整備、保養」。"
-      }
-    ]
-  },
-  "n3_2299": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは通行です。",
-        "zh": "這是「通行、往來」。"
-      }
-    ]
-  },
-  "n3_2300": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは通路です。",
-        "zh": "這是「通路、通道」。"
-      }
-    ]
-  },
-  "n3_2301": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは飛び出すです。",
-        "zh": "這是「飛出、跑出」。"
-      }
-    ]
-  },
-  "n3_2302": {
-    "pos": "katakana",
-    "posLabel": "外來語",
-    "examples": [
-      {
-        "ja": "これはパンクです。",
-        "zh": "這是「爆胎、破裂」。"
-      }
-    ]
-  },
-  "n3_2303": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは引き返すです。",
-        "zh": "這是「返回、折回」。"
-      }
-    ]
-  },
-  "n3_2304": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは人通りです。",
-        "zh": "這是「人來人往、通行、來往行人」。"
-      }
-    ]
-  },
-  "n3_2305": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは凹むです。",
-        "zh": "這是「凹陷、屈服、虧空」。"
-      }
-    ]
-  },
-  "n3_2306": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは舗装です。",
-        "zh": "這是「鋪路」。"
-      }
-    ]
-  },
-  "n3_2307": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは歩道です。",
-        "zh": "這是「人行道」。"
-      }
-    ]
-  },
-  "n3_2308": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは回り道です。",
-        "zh": "這是「繞道、繞遠路」。"
-      }
-    ]
-  },
-  "n3_2309": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは道順です。",
-        "zh": "這是「會順路、路線、步驟、程序」。"
-      }
-    ]
-  },
-  "n3_2310": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは緩いです。",
-        "zh": "這是「鬆、不緊、徐緩不陡、不急、不嚴格、稀薄」。"
-      }
-    ]
-  },
-  "n3_2311": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは横切るです。",
-        "zh": "這是「橫越」。"
-      }
-    ]
-  },
-  "n3_egg_0001": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "行きは地下鉄で、帰りはバスだ",
-        "zh": "去時坐地鐵，回來坐公車"
-      }
-    ]
-  },
-  "n3_egg_0002": {
-    "pos": "conjunction",
-    "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
-    "examples": [
-      {
-        "ja": "失敗した。だが、いい経験となった",
-        "zh": "失敗了，但是這成為了很好的經驗"
-      }
-    ]
-  },
-  "n3_egg_0003": {
-    "pos": "conjunction",
-    "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
-    "examples": [
-      {
-        "ja": "天気は悪かったが、それでも彼は出かけた",
-        "zh": "天氣不好，但他還是出去了"
-      }
-    ]
-  },
-  "n3_egg_0004": {
-    "pos": "particle",
-    "posLabel": "助詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副助",
-    "examples": [
-      {
-        "ja": "映画なんかあまり興味がない",
-        "zh": "電影之類的不怎麼感興趣"
-      }
-    ]
-  },
-  "n3_egg_0005": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "感・副",
-    "examples": [
-      {
-        "ja": "まあ、きれい",
-        "zh": "哎呀，好漂亮"
-      }
-    ]
-  },
-  "n3_egg_0006": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "余った分は捨てる",
-        "zh": "多餘的部分丟掉"
-      }
-    ]
-  },
-  "n3_egg_0007": {
-    "pos": "pronoun",
-    "posLabel": "代名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "代",
-    "examples": [
-      {
-        "ja": "俺が教えてやるよ",
-        "zh": "我來教你吧"
-      }
-    ]
-  },
-  "n3_egg_0008": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "感",
-    "examples": [
-      {
-        "ja": "ほら、壊れたでしょ",
-        "zh": "你看，壞了吧"
-      }
-    ]
-  },
-  "n3_egg_0009": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "敵と戦う",
-        "zh": "與敵人戰鬥"
-      }
-    ]
-  },
-  "n3_egg_0010": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "目の前にあるのに気がつかない",
-        "zh": "就在眼前卻注意不到"
-      }
-    ]
-  },
-  "n3_egg_0011": {
-    "pos": "expression",
-    "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "成句",
-    "examples": [
-      {
-        "ja": "息子の行く末がたいへん気になる",
-        "zh": "非常擔心兒子的將來"
-      }
-    ]
-  },
-  "n3_egg_0012": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動2",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "向ける",
-      "masu": "向けます",
-      "te": "向けて",
-      "ta": "向けた",
-      "nai": "向けない"
-    },
-    "examples": [
-      {
-        "ja": "ロンドンに向けて飛ぶ",
-        "zh": "飛往倫敦"
-      }
-    ]
-  },
-  "n3_egg_0013": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "こういう例は今までにない",
-        "zh": "以前沒有過這樣的例子"
-      }
-    ]
-  },
-  "n3_egg_0014": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "ようやく合格できた",
-        "zh": "總算及格了"
-      }
-    ]
-  },
-  "n3_egg_0015": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "クラス全員が参加する",
-        "zh": "全班同學都參加"
-      }
-    ]
-  },
-  "n3_egg_0016": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "感情を抑える",
-        "zh": "壓抑情感"
-      }
-    ]
-  },
-  "n3_egg_0017": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "済む",
-      "masu": "済みます",
-      "te": "済んで",
-      "ta": "済んだ",
-      "nai": "済まない"
-    },
-    "examples": [
-      {
-        "ja": "宿題が済む",
-        "zh": "寫完作業"
-      }
-    ]
-  },
-  "n3_egg_0018": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "感",
-    "examples": [
-      {
-        "ja": "おお、痛い",
-        "zh": "喔唷，好疼！"
-      }
-    ]
-  },
-  "n3_egg_0019": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "せっかくの努力が無駄になった",
-        "zh": "辛苦付出的努力化為泡影"
-      }
-    ]
-  },
-  "n3_egg_0020": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "どうしてもできない",
-        "zh": "怎麼也做不到"
-      }
-    ]
-  },
-  "n3_egg_0021": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "追う",
-      "masu": "追います",
-      "te": "追って",
-      "ta": "追った",
-      "nai": "追わない"
-    },
-    "examples": [
-      {
-        "ja": "ネコがネズミを追っている",
-        "zh": "貓在追老鼠"
-      }
-    ]
-  },
-  "n3_egg_0022": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形",
-    "examples": [
-      {
-        "ja": "あんまり食べない",
-        "zh": "不太吃"
-      }
-    ]
-  },
-  "n3_egg_0023": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "その場で決める",
-        "zh": "當場決定"
-      }
-    ]
-  },
-  "n3_egg_0024": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "伝わる",
-      "masu": "伝わります",
-      "te": "伝わって",
-      "ta": "伝わった",
-      "nai": "伝わらない"
-    },
-    "examples": [
-      {
-        "ja": "うわさが伝わる",
-        "zh": "流言傳開"
-      }
-    ]
-  },
-  "n3_egg_0025": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "振る",
-      "masu": "振ります",
-      "te": "振って",
-      "ta": "振った",
-      "nai": "振らない"
-    },
-    "examples": [
-      {
-        "ja": "手を振る",
-        "zh": "揮手"
-      }
-    ]
-  },
-  "n3_egg_0026": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "離す",
-      "masu": "離します",
-      "te": "離して",
-      "ta": "離した",
-      "nai": "離さない"
-    },
-    "examples": [
-      {
-        "ja": "手を離す",
-        "zh": "放開手"
-      }
-    ]
-  },
-  "n3_egg_0027": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "例の件ですが、…",
-        "zh": "關於上次說的事情，…"
-      }
-    ]
-  },
-  "n3_egg_0028": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・名",
-    "examples": [
-      {
-        "ja": "どれだけの資金が必要なのだろう",
-        "zh": "需要多少資金呢？"
-      }
-    ]
-  },
-  "n3_egg_0029": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "何度も失敗したが、ついに成功した",
-        "zh": "經過多次失敗終於成功了"
-      }
-    ]
-  },
-  "n3_egg_0030": {
-    "pos": "expression",
-    "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
-    "examples": [
-      {
-        "ja": "景気は徐々に回復してきていると言われるが、私には一時的な現象のように思われる",
-        "zh": "雖然有人說景氣正在逐漸回復，但在我看來這似乎只是暫時的現象"
-      }
-    ]
-  },
-  "n3_egg_0031": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "いつまでもあなたを忘れません",
-        "zh": "我永遠都不會忘記你"
-      }
-    ]
-  },
-  "n3_egg_0032": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・副・名",
-    "examples": [
-      {
-        "ja": "偶然の出来事",
-        "zh": "偶然的事件"
-      }
-    ]
-  },
-  "n3_egg_0033": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "…を型にして作る",
-        "zh": "以……為模型製作"
-      }
-    ]
-  },
-  "n3_egg_0034": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "抑える",
-      "masu": "抑えます",
-      "te": "抑えて",
-      "ta": "抑えた",
-      "nai": "抑えない"
-    },
-    "examples": [
-      {
-        "ja": "出費を抑える",
-        "zh": "控制支出"
-      }
-    ]
-  },
-  "n3_egg_0035": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "たった3日間",
-        "zh": "僅僅三天"
-      }
-    ]
-  },
-  "n3_egg_0036": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "価値が高い",
-        "zh": "價值高"
-      }
-    ]
-  },
-  "n3_egg_0037": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "ドアをそっとしめる",
-        "zh": "輕輕地關上門"
-      }
-    ]
-  },
-  "n3_egg_0038": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "見つめる",
-      "masu": "見つめます",
-      "te": "見つめて",
-      "ta": "見つめた",
-      "nai": "見つめない"
-    },
-    "examples": [
-      {
-        "ja": "相手の顔を見つめる",
-        "zh": "凝視對方的面孔"
-      }
-    ]
-  },
-  "n3_egg_0039": {
-    "pos": "i_adjective",
-    "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形・補形",
-    "examples": [
-      {
-        "ja": "しかたなくあきらめる",
-        "zh": "不得已而放棄"
-      }
-    ]
-  },
-  "n3_egg_0040": {
-    "pos": "conjunction",
-    "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
-    "examples": [
-      {
-        "ja": "ちなみに言う",
-        "zh": "附帶說一下"
-      }
-    ]
-  },
-  "n3_egg_0041": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "鳴る",
-      "masu": "鳴ります",
-      "te": "鳴って",
-      "ta": "鳴った",
-      "nai": "鳴らない"
-    },
-    "examples": [
-      {
-        "ja": "ベルが鳴る",
-        "zh": "鈴響"
-      }
-    ]
-  },
-  "n3_egg_0042": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "彼はなぜか発言しなかった",
-        "zh": "他不知道為什麼沒有發言"
-      }
-    ]
-  },
-  "n3_egg_0043": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "女子高生",
-        "zh": "女高中生"
-      }
-    ]
-  },
-  "n3_egg_0044": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "日本の城は、ほり、石がき、天守閣などがある",
-        "zh": "日本的城有護城河、石牆和天守閣等"
-      }
-    ]
-  },
-  "n3_egg_0045": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "舌を出してください",
-        "zh": "請伸出舌頭"
-      }
-    ]
-  },
-  "n3_egg_0046": {
-    "pos": "i_adjective",
-    "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
-    "examples": [
-      {
-        "ja": "怪しい男",
-        "zh": "可疑的男子"
-      }
-    ]
-  },
-  "n3_egg_0047": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "経つ",
-      "masu": "経ちます",
-      "te": "経って",
-      "ta": "経った",
-      "nai": "経たない"
-    },
-    "examples": [
-      {
-        "ja": "あれから14年が経ちました",
-        "zh": "從那之後已經過了十四年"
-      }
-    ]
-  },
-  "n3_egg_0048": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "癒し系",
-        "zh": "治癒系"
-      }
-    ]
-  },
-  "n3_egg_0049": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "仲良く暮らす",
-        "zh": "和睦相處"
-      }
-    ]
-  },
-  "n3_egg_0050": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "言い方に気をつける",
-        "zh": "注意說話方式"
-      }
-    ]
-  },
-  "n3_egg_0051": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "引っ張る",
-      "masu": "引っ張ります",
-      "te": "引っ張って",
-      "ta": "引っ張った",
-      "nai": "引っ張らない"
-    },
-    "examples": [
-      {
-        "ja": "ロープを引っ張る",
-        "zh": "拉繩子"
-      }
-    ]
-  },
-  "n3_egg_0052": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "張る",
-      "masu": "張ります",
-      "te": "張って",
-      "ta": "張った",
-      "nai": "張らない"
-    },
-    "examples": [
-      {
-        "ja": "ロープを張る",
-        "zh": "拉起繩子"
-      }
-    ]
-  },
-  "n3_egg_0053": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "大量の品物",
-        "zh": "大量的物品"
-      }
-    ]
-  },
-  "n3_egg_0054": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "感",
-    "examples": [
-      {
-        "ja": "わあ、きれい",
-        "zh": "哇，可真漂亮！"
-      }
-    ]
-  },
-  "n3_egg_0055": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "つかむ",
-      "masu": "つかみます",
-      "te": "つかんで",
-      "ta": "つかんだ",
-      "nai": "つかまない"
-    },
-    "examples": [
-      {
-        "ja": "チャンスをつかむ",
-        "zh": "抓住機會"
-      }
-    ]
-  },
-  "n3_egg_0056": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "旅に出る",
-        "zh": "出去旅遊"
-      }
-    ]
-  },
-  "n3_egg_0057": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -26374,16 +20283,9677 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "靴の紐を解く",
-        "zh": "解開鞋帶"
+        "ja": "靴ひもをほどいてから脱ぎました。",
+        "zh": "解開鞋帶後脫了鞋。"
+      }
+    ]
+  },
+  "n3_1613": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "毛糸でマフラーを編みました。",
+        "zh": "用毛線織了圍巾。"
+      }
+    ]
+  },
+  "n3_1614": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "汗を手拭いで拭きました。",
+        "zh": "用手巾擦了汗。"
+      }
+    ]
+  },
+  "n3_1615": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "このセーターは羊毛でできています。",
+        "zh": "這件毛衣是羊毛做的。"
+      }
+    ]
+  },
+  "n3_1616": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "枕の中に綿が入っています。",
+        "zh": "枕頭裡裝著棉花。"
+      }
+    ]
+  },
+  "n3_1617": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "担ぐ",
+      "masu": "担ぎます",
+      "te": "担いで",
+      "ta": "担いだ",
+      "nai": "担がない"
+    },
+    "examples": [
+      {
+        "ja": "父は重い荷物を肩に担ぎました。",
+        "zh": "爸爸把重行李扛在肩上。"
+      }
+    ]
+  },
+  "n3_1618": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "運動すると足の筋肉が痛くなります。",
+        "zh": "運動後腿部肌肉會痛。"
+      }
+    ]
+  },
+  "n3_1619": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "腰掛ける",
+      "masu": "腰掛けます",
+      "te": "腰掛けて",
+      "ta": "腰掛けた",
+      "nai": "腰掛けない"
+    },
+    "examples": [
+      {
+        "ja": "疲れたのでベンチに腰掛けました。",
+        "zh": "因為累了，就坐在長椅上。"
+      }
+    ]
+  },
+  "n3_1620": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "転ぶ",
+      "masu": "転びます",
+      "te": "転んで",
+      "ta": "転んだ",
+      "nai": "転ばない"
+    },
+    "examples": [
+      {
+        "ja": "雨の日に駅の階段で転びました。",
+        "zh": "下雨天在車站樓梯跌倒了。"
+      }
+    ]
+  },
+  "n3_1621": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "姿勢を正して座ってください。",
+        "zh": "請坐正姿勢。"
+      }
+    ]
+  },
+  "n3_1622": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "しゃがむ",
+      "masu": "しゃがみます",
+      "te": "しゃがんで",
+      "ta": "しゃがんだ",
+      "nai": "しゃがまない"
+    },
+    "examples": [
+      {
+        "ja": "子どもがしゃがんで石を拾いました。",
+        "zh": "孩子蹲下來撿石頭。"
+      }
+    ]
+  },
+  "n3_1623": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "休暇を取って心身を休めました。",
+        "zh": "請假讓身心休息。"
+      }
+    ]
+  },
+  "n3_1624": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "手入れする",
+      "masu": "手入れします",
+      "te": "手入れして",
+      "ta": "手入れした",
+      "nai": "手入れしない"
+    },
+    "examples": [
+      {
+        "ja": "庭の木を手入れしました。",
+        "zh": "整理修剪了庭院的樹。"
+      }
+    ]
+  },
+  "n3_1625": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "ロボットの動作を確認しました。",
+        "zh": "確認了機器人的動作。"
+      }
+    ]
+  },
+  "n3_1626": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "飛び跳ねる",
+      "masu": "飛び跳ねます",
+      "te": "飛び跳ねて",
+      "ta": "飛び跳ねた",
+      "nai": "飛び跳ねない"
+    },
+    "examples": [
+      {
+        "ja": "犬がうれしそうに飛び跳ねています。",
+        "zh": "狗開心地蹦蹦跳跳。"
+      }
+    ]
+  },
+  "n3_1627": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "この包丁は刃が鈍いです。",
+        "zh": "這把菜刀刀刃不利。"
+      }
+    ]
+  },
+  "n3_1628": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "赤ちゃんは裸で体重を量りました。",
+        "zh": "嬰兒赤裸著量體重。"
+      }
+    ]
+  },
+  "n3_1629": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "見上げる",
+      "masu": "見上げます",
+      "te": "見上げて",
+      "ta": "見上げた",
+      "nai": "見上げない"
+    },
+    "examples": [
+      {
+        "ja": "夜空を見上げると星が見えました。",
+        "zh": "仰望夜空就看見了星星。"
+      }
+    ]
+  },
+  "n3_1630": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "もたれる",
+      "masu": "もたれます",
+      "te": "もたれて",
+      "ta": "もたれた",
+      "nai": "もたれない"
+    },
+    "examples": [
+      {
+        "ja": "壁にもたれて少し休みました。",
+        "zh": "靠著牆稍微休息。"
+      }
+    ]
+  },
+  "n3_1631": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "かばんを脇に置きました。",
+        "zh": "把包包放在旁邊。"
+      }
+    ]
+  },
+  "n3_1632": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "編む",
+      "masu": "編みます",
+      "te": "編んで",
+      "ta": "編んだ",
+      "nai": "編まない"
+    },
+    "examples": [
+      {
+        "ja": "祖母は毎冬セーターを編みます。",
+        "zh": "祖母每年冬天都會織毛衣。"
+      }
+    ]
+  },
+  "n3_1633": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "うがいする",
+      "masu": "うがいします",
+      "te": "うがいして",
+      "ta": "うがいした",
+      "nai": "うがいしない"
+    },
+    "examples": [
+      {
+        "ja": "外から帰ったらうがいをしてください。",
+        "zh": "從外面回來後請漱口。"
+      }
+    ]
+  },
+  "n3_1634": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "彼は面長で落ち着いた印象です。",
+        "zh": "他是長臉，給人沉穩的印象。"
+      }
+    ]
+  },
+  "n3_1635": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "台所が煙くて窓を開けました。",
+        "zh": "廚房煙很嗆，所以打開了窗戶。"
+      }
+    ]
+  },
+  "n3_1636": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "呼吸する",
+      "masu": "呼吸します",
+      "te": "呼吸して",
+      "ta": "呼吸した",
+      "nai": "呼吸しない"
+    },
+    "examples": [
+      {
+        "ja": "走った後は呼吸が乱れます。",
+        "zh": "跑步後呼吸會亂。"
+      }
+    ]
+  },
+  "n3_1637": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "父は白髪が増えました。",
+        "zh": "爸爸白髮變多了。"
+      }
+    ]
+  },
+  "n3_1638": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "透き通る",
+      "masu": "透き通ります",
+      "te": "透き通って",
+      "ta": "透き通った",
+      "nai": "透き通らない"
+    },
+    "examples": [
+      {
+        "ja": "川の水が透き通っています。",
+        "zh": "河水很清澈。"
+      }
+    ]
+  },
+  "n3_1639": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "彼女は鋭い質問をしました。",
+        "zh": "她提出了敏銳的問題。"
+      }
+    ]
+  },
+  "n3_1640": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "剃る",
+      "masu": "剃ります",
+      "te": "剃って",
+      "ta": "剃った",
+      "nai": "剃らない"
+    },
+    "examples": [
+      {
+        "ja": "父は毎朝ひげを剃ります。",
+        "zh": "爸爸每天早上刮鬍子。"
+      }
+    ]
+  },
+  "n3_1641": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は深いため息をつきました。",
+        "zh": "他深深嘆了一口氣。"
+      }
+    ]
+  },
+  "n3_1642": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "垂らす",
+      "masu": "垂らします",
+      "te": "垂らして",
+      "ta": "垂らした",
+      "nai": "垂らさない"
+    },
+    "examples": [
+      {
+        "ja": "洗濯物から水が垂れています。",
+        "zh": "洗好的衣服正在滴水。"
+      }
+    ]
+  },
+  "n3_1643": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "縮れる",
+      "masu": "縮れます",
+      "te": "縮れて",
+      "ta": "縮れた",
+      "nai": "縮れない"
+    },
+    "examples": [
+      {
+        "ja": "湿気で髪が縮れました。",
+        "zh": "頭髮因為濕氣而捲曲。"
+      }
+    ]
+  },
+  "n3_1644": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "突っ込む",
+      "masu": "突っ込みます",
+      "te": "突っ込んで",
+      "ta": "突っ込んだ",
+      "nai": "突っ込まない"
+    },
+    "examples": [
+      {
+        "ja": "ポケットに手を突っ込みました。",
+        "zh": "把手插進口袋。"
+      }
+    ]
+  },
+  "n3_1645": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この髪は艶があります。",
+        "zh": "這頭髮很有光澤。"
+      }
+    ]
+  },
+  "n3_1646": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "覗く",
+      "masu": "覗きます",
+      "te": "覗いて",
+      "ta": "覗いた",
+      "nai": "覗かない"
+    },
+    "examples": [
+      {
+        "ja": "ドアのすき間から中を覗きました。",
+        "zh": "從門縫往裡看。"
+      }
+    ]
+  },
+  "n3_1647": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "挟まる",
+      "masu": "挟まります",
+      "te": "挟まって",
+      "ta": "挟まった",
+      "nai": "挟まらない"
+    },
+    "examples": [
+      {
+        "ja": "紙がドアに挟まりました。",
+        "zh": "紙被門夾住了。"
+      }
+    ]
+  },
+  "n3_1648": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "準備はばっちりです。",
+        "zh": "準備非常充分。"
+      }
+    ]
+  },
+  "n3_1649": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼女の瞳はとてもきれいです。",
+        "zh": "她的眼睛很漂亮。"
+      }
+    ]
+  },
+  "n3_1650": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "微笑む",
+      "masu": "微笑みます",
+      "te": "微笑んで",
+      "ta": "微笑んだ",
+      "nai": "微笑まない"
+    },
+    "examples": [
+      {
+        "ja": "赤ちゃんが母親に微笑みました。",
+        "zh": "嬰兒對媽媽微笑了。"
+      }
+    ]
+  },
+  "n3_1651": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "寝不足で頭がぼんやりしています。",
+        "zh": "睡眠不足讓頭腦昏沉。"
+      }
+    ]
+  },
+  "n3_1652": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "見下ろす",
+      "masu": "見下ろします",
+      "te": "見下ろして",
+      "ta": "見下ろした",
+      "nai": "見下ろさない"
+    },
+    "examples": [
+      {
+        "ja": "展望台から町を見下ろしました。",
+        "zh": "從展望台俯視城市。"
+      }
+    ]
+  },
+  "n3_1653": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "見詰める",
+      "masu": "見詰めます",
+      "te": "見詰めて",
+      "ta": "見詰めた",
+      "nai": "見詰めない"
+    },
+    "examples": [
+      {
+        "ja": "彼は写真をじっと見詰めていました。",
+        "zh": "他一直凝視著照片。"
+      }
+    ]
+  },
+  "n3_1654": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "扇ぐ",
+      "masu": "扇ぎます",
+      "te": "扇いで",
+      "ta": "扇いだ",
+      "nai": "扇がない"
+    },
+    "examples": [
+      {
+        "ja": "暑いのでうちわで扇ぎました。",
+        "zh": "因為很熱，就用扇子搧風。"
+      }
+    ]
+  },
+  "n3_1655": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "雪の上に足跡が残っています。",
+        "zh": "雪上留下了腳印。"
+      }
+    ]
+  },
+  "n3_1656": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "足元に気を付けてください。",
+        "zh": "請注意腳下。"
+      }
+    ]
+  },
+  "n3_1657": {
+    "pos": "expression",
+    "posLabel": "慣用表現",
+    "examples": [
+      {
+        "ja": "遠いところまで足を運んでくれてありがとう。",
+        "zh": "謝謝你特地遠道而來。"
+      }
+    ]
+  },
+  "n3_1658": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "彼は手先が器用です。",
+        "zh": "他手很巧。"
+      }
+    ]
+  },
+  "n3_1659": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "汲む",
+      "masu": "汲みます",
+      "te": "汲んで",
+      "ta": "汲んだ",
+      "nai": "汲まない"
+    },
+    "examples": [
+      {
+        "ja": "井戸から水を汲みました。",
+        "zh": "從井裡打了水。"
+      }
+    ]
+  },
+  "n3_1660": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "漕ぐ",
+      "masu": "漕ぎます",
+      "te": "漕いで",
+      "ta": "漕いだ",
+      "nai": "漕がない"
+    },
+    "examples": [
+      {
+        "ja": "湖でボートを漕ぎました。",
+        "zh": "在湖上划了船。"
+      }
+    ]
+  },
+  "n3_1661": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "擦る",
+      "masu": "擦ります",
+      "te": "擦って",
+      "ta": "擦った",
+      "nai": "擦らない"
+    },
+    "examples": [
+      {
+        "ja": "汚れた部分を布で擦りました。",
+        "zh": "用布搓了髒掉的地方。"
+      }
+    ]
+  },
+  "n3_1662": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "痺れる",
+      "masu": "痺れます",
+      "te": "痺れて",
+      "ta": "痺れた",
+      "nai": "痺れない"
+    },
+    "examples": [
+      {
+        "ja": "長く座っていたので足が痺れました。",
+        "zh": "坐太久所以腳麻了。"
+      }
+    ]
+  },
+  "n3_1663": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "絞る",
+      "masu": "絞ります",
+      "te": "絞って",
+      "ta": "絞った",
+      "nai": "絞らない"
+    },
+    "examples": [
+      {
+        "ja": "ぬれたタオルを強く絞りました。",
+        "zh": "用力擰乾濕毛巾。"
+      }
+    ]
+  },
+  "n3_1664": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "薬を飲んだら痛みがすっと引きました。",
+        "zh": "吃了藥後疼痛一下子退了。"
+      }
+    ]
+  },
+  "n3_1665": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "立ち止まる",
+      "masu": "立ち止まります",
+      "te": "立ち止まって",
+      "ta": "立ち止まった",
+      "nai": "立ち止まらない"
+    },
+    "examples": [
+      {
+        "ja": "店の前で立ち止まりました。",
+        "zh": "在店門口停下腳步。"
+      }
+    ]
+  },
+  "n3_1666": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "ちぎる",
+      "masu": "ちぎります",
+      "te": "ちぎって",
+      "ta": "ちぎった",
+      "nai": "ちぎらない"
+    },
+    "examples": [
+      {
+        "ja": "パンを小さくちぎって食べました。",
+        "zh": "把麵包撕成小塊吃。"
+      }
+    ]
+  },
+  "n3_1667": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "車がのろのろ進んでいます。",
+        "zh": "車子慢吞吞地前進。"
+      }
+    ]
+  },
+  "n3_1668": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "剥がす",
+      "masu": "剥がします",
+      "te": "剥がして",
+      "ta": "剥がした",
+      "nai": "剥がさない"
+    },
+    "examples": [
+      {
+        "ja": "古いポスターを壁から剥がしました。",
+        "zh": "把舊海報從牆上撕下來。"
+      }
+    ]
+  },
+  "n3_1669": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "塞がる",
+      "masu": "塞がります",
+      "te": "塞がって",
+      "ta": "塞がった",
+      "nai": "塞がらない"
+    },
+    "examples": [
+      {
+        "ja": "排水口がごみで塞がっています。",
+        "zh": "排水孔被垃圾堵住了。"
+      }
+    ]
+  },
+  "n3_1670": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "指の節が少し痛いです。",
+        "zh": "手指關節有點痛。"
+      }
+    ]
+  },
+  "n3_1671": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "ぶら下げる",
+      "masu": "ぶら下げます",
+      "te": "ぶら下げて",
+      "ta": "ぶら下げた",
+      "nai": "ぶら下げない"
+    },
+    "examples": [
+      {
+        "ja": "かばんを肩にぶら下げました。",
+        "zh": "把包包掛在肩上。"
+      }
+    ]
+  },
+  "n3_1672": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "触れる",
+      "masu": "触れます",
+      "te": "触れて",
+      "ta": "触れた",
+      "nai": "触れない"
+    },
+    "examples": [
+      {
+        "ja": "展示品には触れないでください。",
+        "zh": "請不要碰觸展示品。"
+      }
+    ]
+  },
+  "n3_1673": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "持ち上げる",
+      "masu": "持ち上げます",
+      "te": "持ち上げて",
+      "ta": "持ち上げた",
+      "nai": "持ち上げない"
+    },
+    "examples": [
+      {
+        "ja": "重い箱を二人で持ち上げました。",
+        "zh": "兩個人一起抬起重箱子。"
+      }
+    ]
+  },
+  "n3_1674": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "遺伝する",
+      "masu": "遺伝します",
+      "te": "遺伝して",
+      "ta": "遺伝した",
+      "nai": "遺伝しない"
+    },
+    "examples": [
+      {
+        "ja": "この病気は遺伝することがあります。",
+        "zh": "這種病有時會遺傳。"
+      }
+    ]
+  },
+  "n3_1675": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "遺伝子の研究が進んでいます。",
+        "zh": "基因研究正在進展。"
+      }
+    ]
+  },
+  "n3_1676": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "救助隊は人命を守るために働きました。",
+        "zh": "救難隊為了保護人命而行動。"
+      }
+    ]
+  },
+  "n3_1677": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "水は生命に欠かせません。",
+        "zh": "水是生命不可或缺的。"
+      }
+    ]
+  },
+  "n3_1678": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "自殺する",
+      "masu": "自殺します",
+      "te": "自殺して",
+      "ta": "自殺した",
+      "nai": "自殺しない"
+    },
+    "examples": [
+      {
+        "ja": "自殺を防ぐための相談窓口があります。",
+        "zh": "有防止自殺的諮詢管道。"
+      }
+    ]
+  },
+  "n3_1679": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "事故の死者は三人でした。",
+        "zh": "事故死者有三人。"
+      }
+    ]
+  },
+  "n3_1680": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "警察は死体の身元を確認しました。",
+        "zh": "警方確認了遺體身分。"
+      }
+    ]
+  },
+  "n3_1681": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この電池の寿命は長いです。",
+        "zh": "這個電池的使用期限很長。"
+      }
+    ]
+  },
+  "n3_1682": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "シャツのしわをアイロンで伸ばしました。",
+        "zh": "用熨斗把襯衫皺摺燙平。"
+      }
+    ]
+  },
+  "n3_1683": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "生存する",
+      "masu": "生存します",
+      "te": "生存して",
+      "ta": "生存した",
+      "nai": "生存しない"
+    },
+    "examples": [
+      {
+        "ja": "厳しい環境で生存する力が必要です。",
+        "zh": "需要在嚴苛環境中生存的能力。"
+      }
+    ]
+  },
+  "n3_1684": {
+    "pos": "expression",
+    "posLabel": "慣用表現",
+    "examples": [
+      {
+        "ja": "ここで写真を撮ってはいけません。",
+        "zh": "這裡不可以拍照。"
+      }
+    ]
+  },
+  "n3_1685": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "こんなに暑い日は久しぶりです。",
+        "zh": "這麼熱的日子很久沒遇到了。"
+      }
+    ]
+  },
+  "n3_1686": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "茶道の作法を学びました。",
+        "zh": "學了茶道的禮法。"
+      }
+    ]
+  },
+  "n3_1687": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "測定する",
+      "masu": "測定します",
+      "te": "測定して",
+      "ta": "測定した",
+      "nai": "測定しない"
+    },
+    "examples": [
+      {
+        "ja": "血圧を測定しました。",
+        "zh": "測量了血壓。"
+      }
+    ]
+  },
+  "n3_1688": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "縮む",
+      "masu": "縮みます",
+      "te": "縮んで",
+      "ta": "縮んだ",
+      "nai": "縮まない"
+    },
+    "examples": [
+      {
+        "ja": "洗濯したらセーターが縮みました。",
+        "zh": "洗了之後毛衣縮水了。"
+      }
+    ]
+  },
+  "n3_1689": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "発育する",
+      "masu": "発育します",
+      "te": "発育して",
+      "ta": "発育した",
+      "nai": "発育しない"
+    },
+    "examples": [
+      {
+        "ja": "子どもの発育には睡眠が大切です。",
+        "zh": "睡眠對孩子的發育很重要。"
+      }
+    ]
+  },
+  "n3_1690": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "昼寝する",
+      "masu": "昼寝します",
+      "te": "昼寝して",
+      "ta": "昼寝した",
+      "nai": "昼寝しない"
+    },
+    "examples": [
+      {
+        "ja": "昼寝をしたので少し元気になりました。",
+        "zh": "睡了午覺後精神好了一點。"
+      }
+    ]
+  },
+  "n3_1691": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "祖父は今も若々しいです。",
+        "zh": "祖父現在仍然很有年輕活力。"
+      }
+    ]
+  },
+  "n3_1692": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "荒れる",
+      "masu": "荒れます",
+      "te": "荒れて",
+      "ta": "荒れた",
+      "nai": "荒れない"
+    },
+    "examples": [
+      {
+        "ja": "強い風で海が荒れています。",
+        "zh": "因為強風，海面很洶湧。"
+      }
+    ]
+  },
+  "n3_1693": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "崩す",
+      "masu": "崩します",
+      "te": "崩して",
+      "ta": "崩した",
+      "nai": "崩さない"
+    },
+    "examples": [
+      {
+        "ja": "風邪で体調を崩しました。",
+        "zh": "因為感冒身體狀況變差了。"
+      }
+    ]
+  },
+  "n3_1694": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "消耗する",
+      "masu": "消耗します",
+      "te": "消耗して",
+      "ta": "消耗した",
+      "nai": "消耗しない"
+    },
+    "examples": [
+      {
+        "ja": "長い運動で体力を消耗しました。",
+        "zh": "長時間運動消耗了體力。"
+      }
+    ]
+  },
+  "n3_1695": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "身体を大切にしてください。",
+        "zh": "請保重身體。"
+      }
+    ]
+  },
+  "n3_1696": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "体温を毎朝測っています。",
+        "zh": "每天早上都量體溫。"
+      }
+    ]
+  },
+  "n3_1697": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "取れる",
+      "masu": "取れます",
+      "te": "取れて",
+      "ta": "取れた",
+      "nai": "取れない"
+    },
+    "examples": [
+      {
+        "ja": "シャツのボタンが取れました。",
+        "zh": "襯衫的鈕扣掉了。"
+      }
+    ]
+  },
+  "n3_1698": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "計る",
+      "masu": "計ります",
+      "te": "計って",
+      "ta": "計った",
+      "nai": "計らない"
+    },
+    "examples": [
+      {
+        "ja": "時間を計って作業しました。",
+        "zh": "計時進行了作業。"
+      }
+    ]
+  },
+  "n3_1699": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "回す",
+      "masu": "回します",
+      "te": "回して",
+      "ta": "回した",
+      "nai": "回さない"
+    },
+    "examples": [
+      {
+        "ja": "資料を全員に回してください。",
+        "zh": "請把資料傳給所有人。"
+      }
+    ]
+  },
+  "n3_1700": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "急に立ち上がって目眩がしました。",
+        "zh": "突然站起來後頭暈了。"
+      }
+    ]
+  },
+  "n3_1701": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "蘇る",
+      "masu": "蘇ります",
+      "te": "蘇って",
+      "ta": "蘇った",
+      "nai": "蘇らない"
+    },
+    "examples": [
+      {
+        "ja": "昔の記憶がよみがえりました。",
+        "zh": "以前的記憶重新浮現。"
+      }
+    ]
+  },
+  "n3_1702": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "腰の痛みが続いています。",
+        "zh": "腰痛持續著。"
+      }
+    ]
+  },
+  "n3_1703": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "痛む",
+      "masu": "痛みます",
+      "te": "痛んで",
+      "ta": "痛んだ",
+      "nai": "痛まない"
+    },
+    "examples": [
+      {
+        "ja": "傷口がまだ痛みます。",
+        "zh": "傷口還會痛。"
+      }
+    ]
+  },
+  "n3_1704": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "唸る",
+      "masu": "唸ります",
+      "te": "唸って",
+      "ta": "唸った",
+      "nai": "唸らない"
+    },
+    "examples": [
+      {
+        "ja": "患者は痛みで低く唸りました。",
+        "zh": "患者因疼痛低聲呻吟。"
+      }
+    ]
+  },
+  "n3_1705": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "凝る",
+      "masu": "凝ります",
+      "te": "凝って",
+      "ta": "凝った",
+      "nai": "凝らない"
+    },
+    "examples": [
+      {
+        "ja": "肩が凝ってつらいです。",
+        "zh": "肩膀僵硬痠痛，很難受。"
+      }
+    ]
+  },
+  "n3_1706": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "頭痛がひどいので薬を飲みました。",
+        "zh": "頭痛很嚴重，所以吃了藥。"
+      }
+    ]
+  },
+  "n3_1707": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "虫歯を治療してもらいました。",
+        "zh": "請醫師治療了蛀牙。"
+      }
+    ]
+  },
+  "n3_1708": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "たばこは健康に害があります。",
+        "zh": "菸對健康有害。"
+      }
+    ]
+  },
+  "n3_1709": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "風邪薬を飲んで早く寝ました。",
+        "zh": "吃了感冒藥後早點睡。"
+      }
+    ]
+  },
+  "n3_1710": {
+    "pos": "suffix",
+    "posLabel": "接尾語",
+    "examples": [
+      {
+        "ja": "彼は病気がちで学校を休みやすいです。",
+        "zh": "他容易生病，常請假不上學。"
+      }
+    ]
+  },
+  "n3_1711": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "看病する",
+      "masu": "看病します",
+      "te": "看病して",
+      "ta": "看病した",
+      "nai": "看病しない"
+    },
+    "examples": [
+      {
+        "ja": "母の看病で病院に通いました。",
+        "zh": "為了照護媽媽，我常去醫院。"
+      }
+    ]
+  },
+  "n3_1712": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "苦しめる",
+      "masu": "苦しめます",
+      "te": "苦しめて",
+      "ta": "苦しめた",
+      "nai": "苦しめない"
+    },
+    "examples": [
+      {
+        "ja": "長い痛みが彼を苦しめました。",
+        "zh": "長期疼痛折磨著他。"
+      }
+    ]
+  },
+  "n3_1713": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "この薬はとても効果的です。",
+        "zh": "這個藥很有效。"
+      }
+    ]
+  },
+  "n3_1714": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "薬の効力が弱くなりました。",
+        "zh": "藥的效力變弱了。"
+      }
+    ]
+  },
+  "n3_1715": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "克服する",
+      "masu": "克服します",
+      "te": "克服して",
+      "ta": "克服した",
+      "nai": "克服しない"
+    },
+    "examples": [
+      {
+        "ja": "苦手な発音を克服しました。",
+        "zh": "克服了不擅長的發音。"
+      }
+    ]
+  },
+  "n3_1716": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "骨折する",
+      "masu": "骨折します",
+      "te": "骨折して",
+      "ta": "骨折した",
+      "nai": "骨折しない"
+    },
+    "examples": [
+      {
+        "ja": "転んで腕を骨折しました。",
+        "zh": "跌倒後手臂骨折了。"
+      }
+    ]
+  },
+  "n3_1717": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "差し支えなければ理由を教えてください。",
+        "zh": "如果不方便也沒關係，但可以告訴我理由嗎？"
+      }
+    ]
+  },
+  "n3_1718": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "事故で重傷を負いました。",
+        "zh": "在事故中受了重傷。"
+      }
+    ]
+  },
+  "n3_1719": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "消毒する",
+      "masu": "消毒します",
+      "te": "消毒して",
+      "ta": "消毒した",
+      "nai": "消毒しない"
+    },
+    "examples": [
+      {
+        "ja": "傷口を消毒してください。",
+        "zh": "請消毒傷口。"
+      }
+    ]
+  },
+  "n3_1720": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "生活習慣病を防ぐために運動しています。",
+        "zh": "為了預防生活習慣病而運動。"
+      }
+    ]
+  },
+  "n3_1721": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "戦う",
+      "masu": "戦います",
+      "te": "戦って",
+      "ta": "戦った",
+      "nai": "戦わない"
+    },
+    "examples": [
+      {
+        "ja": "病気と闘う患者を支えたいです。",
+        "zh": "想支持與疾病對抗的患者。"
+      }
+    ]
+  },
+  "n3_1722": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "低下する",
+      "masu": "低下します",
+      "te": "低下して",
+      "ta": "低下した",
+      "nai": "低下しない"
+    },
+    "examples": [
+      {
+        "ja": "気温が急に低下しました。",
+        "zh": "氣溫突然下降。"
+      }
+    ]
+  },
+  "n3_1723": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "適切な言葉を選んでください。",
+        "zh": "請選擇適切的詞語。"
+      }
+    ]
+  },
+  "n3_1724": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "伝染する",
+      "masu": "伝染します",
+      "te": "伝染して",
+      "ta": "伝染した",
+      "nai": "伝染しない"
+    },
+    "examples": [
+      {
+        "ja": "この病気は人から人へ伝染します。",
+        "zh": "這種病會人傳人。"
+      }
+    ]
+  },
+  "n3_1725": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "輸血する",
+      "masu": "輸血します",
+      "te": "輸血して",
+      "ta": "輸血した",
+      "nai": "輸血しない"
+    },
+    "examples": [
+      {
+        "ja": "手術中に輸血が必要になりました。",
+        "zh": "手術中需要輸血。"
+      }
+    ]
+  },
+  "n3_1726": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "走った後で汗をかきました。",
+        "zh": "跑步後流了汗。"
+      }
+    ]
+  },
+  "n3_1727": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "休養する",
+      "masu": "休養します",
+      "te": "休養して",
+      "ta": "休養した",
+      "nai": "休養しない"
+    },
+    "examples": [
+      {
+        "ja": "週末は家で休養します。",
+        "zh": "週末在家休養。"
+      }
+    ]
+  },
+  "n3_1728": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "循環する",
+      "masu": "循環します",
+      "te": "循環して",
+      "ta": "循環した",
+      "nai": "循環しない"
+    },
+    "examples": [
+      {
+        "ja": "血液の循環をよくする運動です。",
+        "zh": "這是促進血液循環的運動。"
+      }
+    ]
+  },
+  "n3_1729": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "消化する",
+      "masu": "消化します",
+      "te": "消化して",
+      "ta": "消化した",
+      "nai": "消化しない"
+    },
+    "examples": [
+      {
+        "ja": "食べ物の消化を助ける薬です。",
+        "zh": "這是幫助食物消化的藥。"
+      }
+    ]
+  },
+  "n3_1730": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "医師に小便の検査を受けるよう言われました。",
+        "zh": "醫師叫我接受尿液檢查。"
+      }
+    ]
+  },
+  "n3_1731": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は細かいことに神経を使いすぎます。",
+        "zh": "他太在意細節了。"
+      }
+    ]
+  },
+  "n3_1732": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "園児たちは庭で遊んでいます。",
+        "zh": "幼兒園幼童們在庭院玩。"
+      }
+    ]
+  },
+  "n3_1733": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "あの女の人に道を聞きました。",
+        "zh": "我向那位女性問路。"
+      }
+    ]
+  },
+  "n3_1734": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは架空の人物の話です。",
+        "zh": "這是虛構人物的故事。"
+      }
+    ]
+  },
+  "n3_1735": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "資料は各自で用意してください。",
+        "zh": "資料請各自準備。"
+      }
+    ]
+  },
+  "n3_1736": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夕日の影が長く伸びています。",
+        "zh": "夕陽的影子拉得很長。"
+      }
+    ]
+  },
+  "n3_1737": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "兼ね備える",
+      "masu": "兼ね備えます",
+      "te": "兼ね備えて",
+      "ta": "兼ね備えた",
+      "nai": "兼ね備えない"
+    },
+    "examples": [
+      {
+        "ja": "彼女は知識と経験を兼ね備えています。",
+        "zh": "她兼具知識與經驗。"
+      }
+    ]
+  },
+  "n3_1738": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "部屋に人の気配がありません。",
+        "zh": "房間裡沒有人的氣息。"
+      }
+    ]
+  },
+  "n3_1739": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "今日は実に楽しい一日でした。",
+        "zh": "今天實在是很開心的一天。"
+      }
+    ]
+  },
+  "n3_1740": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "歴史上の人物について調べました。",
+        "zh": "查了歷史人物。"
+      }
+    ]
+  },
+  "n3_1741": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "短所を直す努力をしています。",
+        "zh": "正在努力改正短處。"
+      }
+    ]
+  },
+  "n3_1742": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "人目を気にして大きな声を出せませんでした。",
+        "zh": "在意旁人眼光，所以不敢大聲說話。"
+      }
+    ]
+  },
+  "n3_1743": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "身分を証明する書類が必要です。",
+        "zh": "需要證明身分的文件。"
+      }
+    ]
+  },
+  "n3_1744": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "呼び掛ける",
+      "masu": "呼び掛けます",
+      "te": "呼び掛けて",
+      "ta": "呼び掛けた",
+      "nai": "呼び掛けない"
+    },
+    "examples": [
+      {
+        "ja": "市は節水を市民に呼び掛けました。",
+        "zh": "市政府號召市民節約用水。"
+      }
+    ]
+  },
+  "n3_1745": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "彼女はビジネスウーマンとして働いています。",
+        "zh": "她以職業女性的身分工作。"
+      }
+    ]
+  },
+  "n3_1746": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅の前に男の人が立っています。",
+        "zh": "車站前站著一位男性。"
+      }
+    ]
+  },
+  "n3_1747": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "青少年向けのイベントを開きました。",
+        "zh": "舉辦了面向青少年的活動。"
+      }
+    ]
+  },
+  "n3_1748": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "申込書に性別を書く欄があります。",
+        "zh": "申請表上有填寫性別的欄位。"
+      }
+    ]
+  },
+  "n3_1749": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "男子トイレは右側です。",
+        "zh": "男廁在右側。"
+      }
+    ]
+  },
+  "n3_1750": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は私より三歳年下です。",
+        "zh": "他比我小三歲。"
+      }
+    ]
+  },
+  "n3_1751": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "坊や、ここで走ると危ないよ。",
+        "zh": "小弟弟，在這裡跑很危險喔。"
+      }
+    ]
+  },
+  "n3_1752": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "坊ちゃんは大切に育てられました。",
+        "zh": "少爺被細心地養大。"
+      }
+    ]
+  },
+  "n3_1753": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "目下の人にも丁寧に話します。",
+        "zh": "對晚輩也會有禮貌地說話。"
+      }
+    ]
+  },
+  "n3_1754": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "物語の王は国を守りました。",
+        "zh": "故事裡的王保護了國家。"
+      }
+    ]
+  },
+  "n3_1755": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "王様は家来に命令しました。",
+        "zh": "國王命令了臣子。"
+      }
+    ]
+  },
+  "n3_1756": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "王子は城を出て旅に出ました。",
+        "zh": "王子離開城堡去旅行。"
+      }
+    ]
+  },
+  "n3_1757": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "王女は国民にあいさつしました。",
+        "zh": "公主向人民問候。"
+      }
+    ]
+  },
+  "n3_1758": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "大家に家賃を払いました。",
+        "zh": "把房租付給房東。"
+      }
+    ]
+  },
+  "n3_1759": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "祖母の家にはお手伝いさんがいます。",
+        "zh": "祖母家有家事幫手。"
+      }
+    ]
+  },
+  "n3_1760": {
+    "pos": "pronoun",
+    "posLabel": "代名詞",
+    "examples": [
+      {
+        "ja": "お前は本当に友達思いだな。",
+        "zh": "你真的很替朋友著想。"
+      }
+    ]
+  },
+  "n3_1761": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "彼はガールフレンドと映画を見に行きました。",
+        "zh": "他和女朋友去看電影。"
+      }
+    ]
+  },
+  "n3_1762": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "お世話になった方々に手紙を書きました。",
+        "zh": "寫信給照顧過我的各位。"
+      }
+    ]
+  },
+  "n3_1763": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "病院には多くの患者が待っていました。",
+        "zh": "醫院裡有許多患者在等候。"
+      }
+    ]
+  },
+  "n3_1764": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "市議会の議員に意見を伝えました。",
+        "zh": "向市議會議員表達了意見。"
+      }
+    ]
+  },
+  "n3_1765": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "技師が機械を点検しました。",
+        "zh": "技師檢查了機器。"
+      }
+    ]
+  },
+  "n3_1766": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "議長が会議の開始を告げました。",
+        "zh": "議長宣布會議開始。"
+      }
+    ]
+  },
+  "n3_1767": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "チームのキャプテンが全員をまとめました。",
+        "zh": "隊長統整了全隊。"
+      }
+    ]
+  },
+  "n3_1768": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "映画にギャングが登場します。",
+        "zh": "電影裡有幫派登場。"
+      }
+    ]
+  },
+  "n3_1769": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "教授する",
+      "masu": "教授します",
+      "te": "教授して",
+      "ta": "教授した",
+      "nai": "教授しない"
+    },
+    "examples": [
+      {
+        "ja": "大学で経済学を教授しています。",
+        "zh": "在大學講授經濟學。"
+      }
+    ]
+  },
+  "n3_1770": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "コーチの指導で泳ぎが上達しました。",
+        "zh": "在教練指導下游泳進步了。"
+      }
+    ]
+  },
+  "n3_1771": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "外部の講師を招いて講演を行いました。",
+        "zh": "邀請外部講師進行演講。"
+      }
+    ]
+  },
+  "n3_1772": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "国王は国民の前で話しました。",
+        "zh": "國王在人民面前說話。"
+      }
+    ]
+  },
+  "n3_1773": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "この店のコックは料理が上手です。",
+        "zh": "這家店的廚師很會做菜。"
+      }
+    ]
+  },
+  "n3_1774": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この漫画の作者は有名です。",
+        "zh": "這部漫畫的作者很有名。"
+      }
+    ]
+  },
+  "n3_1775": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "司会する",
+      "masu": "司会します",
+      "te": "司会して",
+      "ta": "司会した",
+      "nai": "司会しない"
+    },
+    "examples": [
+      {
+        "ja": "彼女が式の司会を務めました。",
+        "zh": "她擔任典禮主持。"
+      }
+    ]
+  },
+  "n3_1776": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "ジャーナリストが現地で取材しました。",
+        "zh": "記者在當地採訪。"
+      }
+    ]
+  },
+  "n3_1777": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "首相は新しい政策を発表しました。",
+        "zh": "首相發表了新政策。"
+      }
+    ]
+  },
+  "n3_1778": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "母は長年主婦として家を支えてきました。",
+        "zh": "媽媽多年來以家庭主婦的身分支撐家庭。"
+      }
+    ]
+  },
+  "n3_1779": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "准教授が研究内容を説明しました。",
+        "zh": "副教授說明了研究內容。"
+      }
+    ]
+  },
+  "n3_1780": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "乗客は静かに電車を待っています。",
+        "zh": "乘客安靜地等著電車。"
+      }
+    ]
+  },
+  "n3_1781": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "昔この町には多くの商人が集まりました。",
+        "zh": "以前這個城鎮聚集了很多商人。"
+      }
+    ]
+  },
+  "n3_1782": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "女王は式典に出席しました。",
+        "zh": "女王出席了典禮。"
+      }
+    ]
+  },
+  "n3_1783": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "助教が実験の準備をしました。",
+        "zh": "助教準備了實驗。"
+      }
+    ]
+  },
+  "n3_1784": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "教授の助手として働いています。",
+        "zh": "以教授助手的身分工作。"
+      }
+    ]
+  },
+  "n3_1785": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "私は料理に関しては素人です。",
+        "zh": "關於料理我是外行。"
+      }
+    ]
+  },
+  "n3_1786": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "親友にだけ本当の気持ちを話しました。",
+        "zh": "只把真正的心情告訴了摯友。"
+      }
+    ]
+  },
+  "n3_1787": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "大使は両国の関係について話しました。",
+        "zh": "大使談了兩國關係。"
+      }
+    ]
+  },
+  "n3_1788": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "著者の考えが本文に表れています。",
+        "zh": "著者的想法表現在正文中。"
+      }
+    ]
+  },
+  "n3_1789": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "師匠は弟子に技を教えました。",
+        "zh": "師傅教弟子技藝。"
+      }
+    ]
+  },
+  "n3_1790": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "天皇に関する歴史を学びました。",
+        "zh": "學了關於天皇的歷史。"
+      }
+    ]
+  },
+  "n3_1791": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は文学博士です。",
+        "zh": "他是文學博士。"
+      }
+    ]
+  },
+  "n3_1792": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "判事は静かに判決を読み上げました。",
+        "zh": "法官平靜地宣讀判決。"
+      }
+    ]
+  },
+  "n3_1793": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "筆者は最後に自分の意見を述べています。",
+        "zh": "筆者最後陳述了自己的意見。"
+      }
+    ]
+  },
+  "n3_1794": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "武士の生活について調べました。",
+        "zh": "查了武士的生活。"
+      }
+    ]
+  },
+  "n3_1795": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "婦人向けの講座が開かれました。",
+        "zh": "開設了面向女性的講座。"
+      }
+    ]
+  },
+  "n3_1796": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "彼女はボーイフレンドにプレゼントを渡しました。",
+        "zh": "她把禮物交給男朋友。"
+      }
+    ]
+  },
+  "n3_1797": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "坊さんがお経を読みました。",
+        "zh": "和尚誦了經。"
+      }
+    ]
+  },
+  "n3_1798": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "迷子を案内所に連れて行きました。",
+        "zh": "把走失的孩子帶到服務台。"
+      }
+    ]
+  },
+  "n3_1799": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は将棋の名人です。",
+        "zh": "他是將棋高手。"
+      }
+    ]
+  },
+  "n3_1800": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "その役者は表情の作り方がうまいです。",
+        "zh": "那位演員很會拿捏表情。"
+      }
+    ]
+  },
+  "n3_1801": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この地域の住民は防災訓練に参加しました。",
+        "zh": "這個地區的居民參加了防災演練。"
+      }
+    ]
+  },
+  "n3_1802": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "人類は長い時間をかけて道具を発達させてきました。",
+        "zh": "人類花了很長的時間發展工具。"
+      }
+    ]
+  },
+  "n3_1803": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "農民たちは朝早くから畑で働いています。",
+        "zh": "農民們一大早就在田裡工作。"
+      }
+    ]
+  },
+  "n3_1804": {
+    "pos": "pronoun",
+    "posLabel": "代名詞",
+    "examples": [
+      {
+        "ja": "我々はこの問題を真剣に考える必要があります。",
+        "zh": "我們有必要認真思考這個問題。"
+      }
+    ]
+  },
+  "n3_1805": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "人前で下品な冗談を言うのはやめてください。",
+        "zh": "請不要在人前講粗俗的玩笑。"
+      }
+    ]
+  },
+  "n3_1806": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "彼女は自分に合ったスタイルをよく知っています。",
+        "zh": "她很清楚適合自己的風格。"
+      }
+    ]
+  },
+  "n3_1807": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "この時計はスマートなデザインで人気があります。",
+        "zh": "這支手錶因俐落的設計而受歡迎。"
+      }
+    ]
+  },
+  "n3_1808": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は中肉中背で眼鏡をかけています。",
+        "zh": "他中等身材並戴著眼鏡。"
+      }
+    ]
+  },
+  "n3_1809": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "兄は昔からハンサムだと言われています。",
+        "zh": "哥哥從以前就常被說很帥。"
+      }
+    ]
+  },
+  "n3_1810": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "美容のために毎日十分な睡眠を取っています。",
+        "zh": "為了美容我每天都睡得很充足。"
+      }
+    ]
+  },
+  "n3_1811": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "平凡な毎日でも小さな楽しみはあります。",
+        "zh": "即使是平凡的每一天也有小小的樂趣。"
+      }
+    ]
+  },
+  "n3_1812": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "彼女はほっそりした指でピアノを弾きました。",
+        "zh": "她用纖細的手指彈了鋼琴。"
+      }
+    ]
+  },
+  "n3_1813": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "ぽっちゃりした猫が窓辺で寝ています。",
+        "zh": "圓滾滾的貓在窗邊睡覺。"
+      }
+    ]
+  },
+  "n3_1814": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "見掛けだけで人を判断してはいけません。",
+        "zh": "不可以只憑外表判斷一個人。"
+      }
+    ]
+  },
+  "n3_1815": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "そんなみっともない態度を取らないでください。",
+        "zh": "請不要擺出那麼難看的態度。"
+      }
+    ]
+  },
+  "n3_1816": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "みにくい言い争いは見ていてつらいです。",
+        "zh": "看著那種難看的爭吵很難受。"
+      }
+    ]
+  },
+  "n3_1817": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "彼は厚かましくも私にお金を借りに来ました。",
+        "zh": "他竟然厚著臉皮來跟我借錢。"
+      }
+    ]
+  },
+  "n3_1818": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "夜中に怪しい音が聞こえました。",
+        "zh": "半夜聽到了奇怪的聲音。"
+      }
+    ]
+  },
+  "n3_1819": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "出発前の空港はとても慌ただしかったです。",
+        "zh": "出發前的機場非常忙亂。"
+      }
+    ]
+  },
+  "n3_1820": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "子どもたちは公園で生き生きと遊んでいます。",
+        "zh": "孩子們在公園裡生氣勃勃地玩著。"
+      }
+    ]
+  },
+  "n3_1821": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "選手たちは勇ましい姿で入場しました。",
+        "zh": "選手們以勇敢威武的樣子入場。"
+      }
+    ]
+  },
+  "n3_1822": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "新しい照明で部屋が一段と明るくなりました。",
+        "zh": "換了新照明後房間變得更加明亮。"
+      }
+    ]
+  },
+  "n3_1823": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "威張る",
+      "masu": "威張ります",
+      "te": "威張って",
+      "ta": "威張った",
+      "nai": "威張らない"
+    },
+    "examples": [
+      {
+        "ja": "彼は部下の前でいつも威張っています。",
+        "zh": "他總是在部下面前擺架子。"
+      }
+    ]
+  },
+  "n3_1824": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "彼女は賢い選択をしました。",
+        "zh": "她做了聰明的選擇。"
+      }
+    ]
+  },
+  "n3_1825": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "勝手な判断で計画を変えないでください。",
+        "zh": "請不要擅自判斷就更改計畫。"
+      }
+    ]
+  },
+  "n3_1826": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "可愛がる",
+      "masu": "可愛がります",
+      "te": "可愛がって",
+      "ta": "可愛がった",
+      "nai": "可愛がらない"
+    },
+    "examples": [
+      {
+        "ja": "祖父は孫をとても可愛がっています。",
+        "zh": "祖父非常疼愛孫子。"
+      }
+    ]
+  },
+  "n3_1827": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "小さな子どもが可愛らしい声で歌っています。",
+        "zh": "小孩用可愛的聲音唱著歌。"
+      }
+    ]
+  },
+  "n3_1828": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "歓迎する",
+      "masu": "歓迎します",
+      "te": "歓迎して",
+      "ta": "歓迎した",
+      "nai": "歓迎しない"
+    },
+    "examples": [
+      {
+        "ja": "町の人々は観光客を温かく歓迎しました。",
+        "zh": "鎮上的人們熱情歡迎觀光客。"
+      }
+    ]
+  },
+  "n3_1829": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "食事中の行儀には気をつけなさい。",
+        "zh": "用餐時要注意禮貌。"
+      }
+    ]
+  },
+  "n3_1830": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "説明がくどくて途中で疲れてしまいました。",
+        "zh": "說明太囉唆讓我中途就累了。"
+      }
+    ]
+  },
+  "n3_1831": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "自分の欠点を認めることも大切です。",
+        "zh": "承認自己的缺點也很重要。"
+      }
+    ]
+  },
+  "n3_1832": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "謙遜する",
+      "masu": "謙遜します",
+      "te": "謙遜して",
+      "ta": "謙遜した",
+      "nai": "謙遜しない"
+    },
+    "examples": [
+      {
+        "ja": "彼は成功しても謙遜な態度を崩しません。",
+        "zh": "他即使成功了也不改謙虛的態度。"
+      }
+    ]
+  },
+  "n3_1833": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "強引なやり方では誰も納得しません。",
+        "zh": "用強硬的做法誰都不會接受。"
+      }
+    ]
+  },
+  "n3_1834": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "自分勝手な行動は周りに迷惑をかけます。",
+        "zh": "任性的行動會給周遭的人添麻煩。"
+      }
+    ]
+  },
+  "n3_1835": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "彼女の純情な気持ちが手紙に表れています。",
+        "zh": "她純真的心情表現在信裡。"
+      }
+    ]
+  },
+  "n3_1836": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "この水は純粋な成分だけで作られています。",
+        "zh": "這個水只由純粹的成分製成。"
+      }
+    ]
+  },
+  "n3_1837": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "彼は列に割り込むなんて図々しいです。",
+        "zh": "他竟然插隊真是厚臉皮。"
+      }
+    ]
+  },
+  "n3_1838": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "弟は注意されると素直に謝りました。",
+        "zh": "弟弟被提醒後坦率地道歉了。"
+      }
+    ]
+  },
+  "n3_1839": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "責任感のある人にこの仕事を任せたいです。",
+        "zh": "我想把這份工作交給有責任感的人。"
+      }
+    ]
+  },
+  "n3_1840": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "今日はたいそう暑くて外に出るのがつらいです。",
+        "zh": "今天非常熱讓人不太想出門。"
+      }
+    ]
+  },
+  "n3_1841": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "彼は困ったときに頼もしい友人です。",
+        "zh": "他是在困難時很可靠的朋友。"
+      }
+    ]
+  },
+  "n3_1842": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "短所ばかり気にせず長所も見てください。",
+        "zh": "不要只在意短處也請看看長處。"
+      }
+    ]
+  },
+  "n3_1843": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼の長所は最後まで諦めないところです。",
+        "zh": "他的優點是到最後都不放棄。"
+      }
+    ]
+  },
+  "n3_1844": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "社長は交渉で強気の姿勢を見せました。",
+        "zh": "社長在談判中展現強硬態度。"
+      }
+    ]
+  },
+  "n3_1845": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この店の特色は地元の食材を使うことです。",
+        "zh": "這家店的特色是使用當地食材。"
+      }
+    ]
+  },
+  "n3_1846": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "怠ける",
+      "masu": "怠けます",
+      "te": "怠けて",
+      "ta": "怠けた",
+      "nai": "怠けない"
+    },
+    "examples": [
+      {
+        "ja": "練習を怠けるとすぐに差が出ます。",
+        "zh": "如果偷懶不練習很快就會看出差距。"
+      }
+    ]
+  },
+  "n3_1848": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "先生は私の答えを聞いてにっこり笑いました。",
+        "zh": "老師聽了我的回答後微微一笑。"
+      }
+    ]
+  },
+  "n3_1849": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "のんきに構えていたら締め切りを過ぎてしまいました。",
+        "zh": "我太悠哉結果錯過了截止日期。"
+      }
+    ]
+  },
+  "n3_1850": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "この問題には同じパターンが何度も出てきます。",
+        "zh": "這個問題裡同樣的模式反覆出現。"
+      }
+    ]
+  },
+  "n3_1851": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "不潔な環境では病気が広がりやすくなります。",
+        "zh": "在不乾淨的環境裡疾病容易擴散。"
+      }
+    ]
+  },
+  "n3_1852": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "急に名前を呼ばれてまごまごしてしまいました。",
+        "zh": "突然被叫到名字讓我慌了手腳。"
+      }
+    ]
+  },
+  "n3_1853": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "この建物はもともと学校として使われていました。",
+        "zh": "這棟建築原本是作為學校使用。"
+      }
+    ]
+  },
+  "n3_1854": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "優柔不断で昼食の店をなかなか決められません。",
+        "zh": "我優柔寡斷遲遲決定不了午餐店家。"
+      }
+    ]
+  },
+  "n3_1855": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "彼は試験中も悠々と問題を解いていました。",
+        "zh": "他考試時也從容地解題。"
+      }
+    ]
+  },
+  "n3_1856": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "彼女は陽気な性格で周りを明るくします。",
+        "zh": "她個性開朗讓周遭氣氛變明亮。"
+      }
+    ]
+  },
+  "n3_1857": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "用心する",
+      "masu": "用心します",
+      "te": "用心して",
+      "ta": "用心した",
+      "nai": "用心しない"
+    },
+    "examples": [
+      {
+        "ja": "火の扱いには十分用心してください。",
+        "zh": "處理火源時請務必小心。"
+      }
+    ]
+  },
+  "n3_1858": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "そんな幼稚な言い訳は通用しません。",
+        "zh": "那種幼稚的藉口行不通。"
+      }
+    ]
+  },
+  "n3_1859": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "欲張りすぎると大事なものを失います。",
+        "zh": "太貪心會失去重要的東西。"
+      }
+    ]
+  },
+  "n3_1860": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "彼は失敗しても楽天的に考えます。",
+        "zh": "他即使失敗也會樂觀地思考。"
+      }
+    ]
+  },
+  "n3_1861": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "利己主義だけでは周りの信頼を得られません。",
+        "zh": "只顧利己無法得到周遭的信任。"
+      }
+    ]
+  },
+  "n3_1862": {
+    "pos": "expression",
+    "posLabel": "慣用表現",
+    "examples": [
+      {
+        "ja": "助けてもらったのはお互い様です。",
+        "zh": "互相幫忙本來就是彼此都一樣。"
+      }
+    ]
+  },
+  "n3_1863": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "強力な風で看板が倒れました。",
+        "zh": "強風把招牌吹倒了。"
+      }
+    ]
+  },
+  "n3_1864": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "交際する",
+      "masu": "交際します",
+      "te": "交際して",
+      "ta": "交際した",
+      "nai": "交際しない"
+    },
+    "examples": [
+      {
+        "ja": "彼は学生時代から幅広く交際しています。",
+        "zh": "他從學生時代起就有廣泛交往。"
+      }
+    ]
+  },
+  "n3_1865": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "棚の上下を入れ替えて使いやすくしました。",
+        "zh": "我把架子的上下調換讓它更好用。"
+      }
+    ]
+  },
+  "n3_1866": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "相互理解がなければ協力は難しいです。",
+        "zh": "如果沒有相互理解就很難合作。"
+      }
+    ]
+  },
+  "n3_1867": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "尊重する",
+      "masu": "尊重します",
+      "te": "尊重して",
+      "ta": "尊重した",
+      "nai": "尊重しない"
+    },
+    "examples": [
+      {
+        "ja": "相手の意見を尊重する姿勢が大切です。",
+        "zh": "尊重對方意見的態度很重要。"
+      }
+    ]
+  },
+  "n3_1868": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "他人の失敗を笑ってはいけません。",
+        "zh": "不可以嘲笑別人的失敗。"
+      }
+    ]
+  },
+  "n3_1869": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "駅でたまたま昔の友人に会いました。",
+        "zh": "在車站碰巧遇見以前的朋友。"
+      }
+    ]
+  },
+  "n3_1870": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼からの便りがないので少し心配です。",
+        "zh": "因為沒有他的消息所以有點擔心。"
+      }
+    ]
+  },
+  "n3_1871": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "頼る",
+      "masu": "頼ります",
+      "te": "頼って",
+      "ta": "頼った",
+      "nai": "頼らない"
+    },
+    "examples": [
+      {
+        "ja": "何でも親に頼るのではなく自分で考えなさい。",
+        "zh": "不要什麼都依靠父母要自己思考。"
+      }
+    ]
+  },
+  "n3_1872": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "会社の付き合いで食事に行きました。",
+        "zh": "因為公司的應酬去吃了飯。"
+      }
+    ]
+  },
+  "n3_1873": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "二つの書類は同一の内容でした。",
+        "zh": "兩份文件是相同內容。"
+      }
+    ]
+  },
+  "n3_1874": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "溶け込む",
+      "masu": "溶け込みます",
+      "te": "溶け込んで",
+      "ta": "溶け込んだ",
+      "nai": "溶け込まない"
+    },
+    "examples": [
+      {
+        "ja": "転校生はすぐにクラスに溶け込みました。",
+        "zh": "轉學生很快就融入了班上。"
+      }
+    ]
+  },
+  "n3_1875": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "困ったときこそ真の友が分かります。",
+        "zh": "正是在困難時才知道誰是真正的朋友。"
+      }
+    ]
+  },
+  "n3_1876": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "仲直りする",
+      "masu": "仲直りします",
+      "te": "仲直りして",
+      "ta": "仲直りした",
+      "nai": "仲直りしない"
+    },
+    "examples": [
+      {
+        "ja": "けんかした二人は翌日仲直りしました。",
+        "zh": "吵架的兩個人隔天和好了。"
+      }
+    ]
+  },
+  "n3_1877": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "研究仲間と新しい計画を立てました。",
+        "zh": "我和研究夥伴訂了新計畫。"
+      }
+    ]
+  },
+  "n3_1878": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "二人は子どものころからの仲良しです。",
+        "zh": "兩人是從小感情就很好的朋友。"
+      }
+    ]
+  },
+  "n3_1879": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "駅前で先生とばったり会いました。",
+        "zh": "在車站前突然遇見老師。"
+      }
+    ]
+  },
+  "n3_1880": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "話しかける",
+      "masu": "話しかけます",
+      "te": "話しかけて",
+      "ta": "話しかけた",
+      "nai": "話しかけない"
+    },
+    "examples": [
+      {
+        "ja": "知らない人に急に話しかけられました。",
+        "zh": "突然被陌生人搭話了。"
+      }
+    ]
+  },
+  "n3_1881": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "今回のミスは甚だしい確認不足が原因です。",
+        "zh": "這次錯誤的原因是極度缺乏確認。"
+      }
+    ]
+  },
+  "n3_1882": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "引っ掛かる",
+      "masu": "引っ掛かります",
+      "te": "引っ掛かって",
+      "ta": "引っ掛かった",
+      "nai": "引っ掛からない"
+    },
+    "examples": [
+      {
+        "ja": "服がドアの取っ手に引っ掛かりました。",
+        "zh": "衣服卡在門把上了。"
+      }
+    ]
+  },
+  "n3_1883": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "隔てる",
+      "masu": "隔てます",
+      "te": "隔てて",
+      "ta": "隔てた",
+      "nai": "隔てない"
+    },
+    "examples": [
+      {
+        "ja": "川が二つの町を隔てています。",
+        "zh": "河川隔開了兩個城鎮。"
+      }
+    ]
+  },
+  "n3_1884": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "古い上着はもうぼろになっています。",
+        "zh": "舊外套已經破爛了。"
+      }
+    ]
+  },
+  "n3_1885": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "摩擦する",
+      "masu": "摩擦します",
+      "te": "摩擦して",
+      "ta": "摩擦した",
+      "nai": "摩擦しない"
+    },
+    "examples": [
+      {
+        "ja": "考え方の違いから二人の間に摩擦が生じました。",
+        "zh": "因為想法不同兩人之間產生了摩擦。"
+      }
+    ]
+  },
+  "n3_1886": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "待ち合わせる",
+      "masu": "待ち合わせます",
+      "te": "待ち合わせて",
+      "ta": "待ち合わせた",
+      "nai": "待ち合わせない"
+    },
+    "examples": [
+      {
+        "ja": "友人と駅の改札で待ち合わせました。",
+        "zh": "我和朋友約在車站剪票口見面。"
+      }
+    ]
+  },
+  "n3_1887": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "長い友情は簡単には壊れません。",
+        "zh": "長久的友情不會輕易破裂。"
+      }
+    ]
+  },
+  "n3_1888": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "物語には人をだます悪魔が登場します。",
+        "zh": "故事裡出現了欺騙人的惡魔。"
+      }
+    ]
+  },
+  "n3_1889": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "拝む",
+      "masu": "拝みます",
+      "te": "拝んで",
+      "ta": "拝んだ",
+      "nai": "拝まない"
+    },
+    "examples": [
+      {
+        "ja": "祖母は毎朝仏壇の前で拝みます。",
+        "zh": "祖母每天早上都在佛壇前拜拜。"
+      }
+    ]
+  },
+  "n3_1890": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "昔話には怖い鬼がよく出てきます。",
+        "zh": "民間故事裡常出現可怕的鬼。"
+      }
+    ]
+  },
+  "n3_1891": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "子どもはお化けの話を聞いて眠れなくなりました。",
+        "zh": "孩子聽了鬼怪故事後睡不著。"
+      }
+    ]
+  },
+  "n3_1892": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "お参りする",
+      "masu": "お参りします",
+      "te": "お参りして",
+      "ta": "お参りした",
+      "nai": "お参りしない"
+    },
+    "examples": [
+      {
+        "ja": "正月に家族で神社へお参りに行きました。",
+        "zh": "新年時全家一起去神社參拜。"
+      }
+    ]
+  },
+  "n3_1893": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "祭りで大きなお神輿を担ぎました。",
+        "zh": "祭典時大家扛了很大的神轎。"
+      }
+    ]
+  },
+  "n3_1894": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "信仰する",
+      "masu": "信仰します",
+      "te": "信仰して",
+      "ta": "信仰した",
+      "nai": "信仰しない"
+    },
+    "examples": [
+      {
+        "ja": "信仰の自由は大切な権利です。",
+        "zh": "信仰自由是重要的權利。"
+      }
+    ]
+  },
+  "n3_1895": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この島には古い神話が残っています。",
+        "zh": "這座島上留有古老的神話。"
+      }
+    ]
+  },
+  "n3_1896": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "村の人々は古い仏を大切に守っています。",
+        "zh": "村民們珍惜地守護著古老的佛像。"
+      }
+    ]
+  },
+  "n3_1897": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "甘やかす",
+      "masu": "甘やかします",
+      "te": "甘やかして",
+      "ta": "甘やかした",
+      "nai": "甘やかさない"
+    },
+    "examples": [
+      {
+        "ja": "子どもを甘やかしすぎると自分で考えなくなります。",
+        "zh": "太寵孩子會讓孩子不再自己思考。"
+      }
+    ]
+  },
+  "n3_1898": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "その料理店は一家で経営しています。",
+        "zh": "那家餐廳由一家人經營。"
+      }
+    ]
+  },
+  "n3_1899": {
+    "pos": "counter",
+    "posLabel": "助數詞",
+    "examples": [
+      {
+        "ja": "この箱には部品が五箇入っています。",
+        "zh": "這個盒子裡有五個零件。"
+      }
+    ]
+  },
+  "n3_1900": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "虐待する",
+      "masu": "虐待します",
+      "te": "虐待して",
+      "ta": "虐待した",
+      "nai": "虐待しない"
+    },
+    "examples": [
+      {
+        "ja": "動物を虐待する行為は許されません。",
+        "zh": "虐待動物的行為不能被允許。"
+      }
+    ]
+  },
+  "n3_1901": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "支える",
+      "masu": "支えます",
+      "te": "支えて",
+      "ta": "支えた",
+      "nai": "支えない"
+    },
+    "examples": [
+      {
+        "ja": "彼女の言葉が私の心を支えてくれました。",
+        "zh": "她的話支撐了我的心。"
+      }
+    ]
+  },
+  "n3_1902": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "姉妹で同じ大学に通っています。",
+        "zh": "姊妹倆讀同一所大學。"
+      }
+    ]
+  },
+  "n3_1903": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "正月には親戚が祖母の家に集まります。",
+        "zh": "過年時親戚會聚在祖母家。"
+      }
+    ]
+  },
+  "n3_1904": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "遠い親類から久しぶりに電話がありました。",
+        "zh": "久違地接到遠親打來的電話。"
+      }
+    ]
+  },
+  "n3_1905": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "会議では計画全般について話し合いました。",
+        "zh": "會議中討論了整個計畫。"
+      }
+    ]
+  },
+  "n3_1906": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "旅の連れがいると長い道も楽しくなります。",
+        "zh": "旅行有同伴時長路也會變得有趣。"
+      }
+    ]
+  },
+  "n3_1907": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "母親は子どもの帰りを玄関で待っていました。",
+        "zh": "母親在玄關等孩子回家。"
+      }
+    ]
+  },
+  "n3_1908": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "奥様はこちらの席へどうぞ。",
+        "zh": "夫人請坐這個位子。"
+      }
+    ]
+  },
+  "n3_1909": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "婚約する",
+      "masu": "婚約します",
+      "te": "婚約して",
+      "ta": "婚約した",
+      "nai": "婚約しない"
+    },
+    "examples": [
+      {
+        "ja": "二人は来月婚約を発表する予定です。",
+        "zh": "兩人預定下個月公布訂婚。"
+      }
+    ]
+  },
+  "n3_1910": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "友人と共に新しい会社を始めました。",
+        "zh": "我和朋友一起創立了新公司。"
+      }
+    ]
+  },
+  "n3_1911": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は女房と相談して店を開きました。",
+        "zh": "他和妻子商量後開了店。"
+      }
+    ]
+  },
+  "n3_1912": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "花嫁は白い着物を着ていました。",
+        "zh": "新娘穿著白色和服。"
+      }
+    ]
+  },
+  "n3_1913": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "その夫妻は長年同じ町で暮らしています。",
+        "zh": "那對夫妻多年來住在同一個城鎮。"
+      }
+    ]
+  },
+  "n3_1914": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "兄の嫁は料理がとても上手です。",
+        "zh": "哥哥的妻子很會做菜。"
+      }
+    ]
+  },
+  "n3_1915": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "先祖の墓をきれいに掃除しました。",
+        "zh": "我把祖先的墳墓打掃乾淨了。"
+      }
+    ]
+  },
+  "n3_1916": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この祭りは祖先を敬うために行われます。",
+        "zh": "這個祭典是為了敬重祖先而舉行。"
+      }
+    ]
+  },
+  "n3_1917": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "父親は休日によく子どもと公園へ行きます。",
+        "zh": "父親假日常和孩子去公園。"
+      }
+    ]
+  },
+  "n3_1918": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "社会人としての務めを果たしたいです。",
+        "zh": "我想盡到身為社會人的職責。"
+      }
+    ]
+  },
+  "n3_1919": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "独立する",
+      "masu": "独立します",
+      "te": "独立して",
+      "ta": "独立した",
+      "nai": "独立しない"
+    },
+    "examples": [
+      {
+        "ja": "彼は大学卒業後すぐに親から独立しました。",
+        "zh": "他大學畢業後馬上從父母身邊獨立。"
+      }
+    ]
+  },
+  "n3_1920": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "祖父の墓に花を供えました。",
+        "zh": "我在祖父的墓前供了花。"
+      }
+    ]
+  },
+  "n3_1921": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "父母への感謝を手紙に書きました。",
+        "zh": "我把對父母的感謝寫在信裡。"
+      }
+    ]
+  },
+  "n3_1922": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "祭る",
+      "masu": "祭ります",
+      "te": "祭って",
+      "ta": "祭った",
+      "nai": "祭らない"
+    },
+    "examples": [
+      {
+        "ja": "村では山の神を祭っています。",
+        "zh": "村裡供奉著山神。"
+      }
+    ]
+  },
+  "n3_1923": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "幼い弟にはまだ難しい話です。",
+        "zh": "這對年幼的弟弟來說還是很難的話題。"
+      }
+    ]
+  },
+  "n3_1924": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この土地を子孫に残したいです。",
+        "zh": "我想把這片土地留給子孫。"
+      }
+    ]
+  },
+  "n3_1925": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "末っ子なので家族に甘やかされて育ちました。",
+        "zh": "因為我是老么所以從小被家人寵著長大。"
+      }
+    ]
+  },
+  "n3_1926": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼女の後ろ姿を見てすぐに分かりました。",
+        "zh": "我看到她的背影就馬上認出來了。"
+      }
+    ]
+  },
+  "n3_1927": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "適する",
+      "masu": "適します",
+      "te": "適して",
+      "ta": "適した",
+      "nai": "適しない"
+    },
+    "examples": [
+      {
+        "ja": "この仕事は経験のある人に適しています。",
+        "zh": "這份工作適合有經驗的人。"
+      }
+    ]
+  },
+  "n3_1928": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "双子でも性格はかなり違います。",
+        "zh": "即使是雙胞胎個性也差很多。"
+      }
+    ]
+  },
+  "n3_1929": {
+    "pos": "suffix",
+    "posLabel": "接尾語",
+    "examples": [
+      {
+        "ja": "これは初心者向けの説明書です。",
+        "zh": "這是給初學者看的說明書。"
+      }
+    ]
+  },
+  "n3_1930": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "庭で兎を飼っています。",
+        "zh": "我在庭院裡養兔子。"
+      }
+    ]
+  },
+  "n3_1931": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "池の金魚に餌をやりました。",
+        "zh": "我餵了池塘裡的金魚。"
+      }
+    ]
+  },
+  "n3_1932": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "絶滅する",
+      "masu": "絶滅します",
+      "te": "絶滅して",
+      "ta": "絶滅した",
+      "nai": "絶滅しない"
+    },
+    "examples": [
+      {
+        "ja": "その動物は絶滅の危険があります。",
+        "zh": "那種動物有滅絕的危險。"
+      }
+    ]
+  },
+  "n3_1933": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "象は長い鼻で水を飲みます。",
+        "zh": "大象用長鼻子喝水。"
+      }
+    ]
+  },
+  "n3_1934": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "属する",
+      "masu": "属します",
+      "te": "属して",
+      "ta": "属した",
+      "nai": "属しない"
+    },
+    "examples": [
+      {
+        "ja": "この鳥はカラス科に属しています。",
+        "zh": "這種鳥屬於鴉科。"
+      }
+    ]
+  },
+  "n3_1935": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "鳥は翼を広げて空へ飛び立ちました。",
+        "zh": "鳥張開翅膀飛向天空。"
+      }
+    ]
+  },
+  "n3_1936": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "動物園で初めて虎を見ました。",
+        "zh": "我第一次在動物園看見老虎。"
+      }
+    ]
+  },
+  "n3_1937": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "撫でる",
+      "masu": "撫でます",
+      "te": "撫でて",
+      "ta": "撫でた",
+      "nai": "撫でない"
+    },
+    "examples": [
+      {
+        "ja": "母は子どもの頭を優しく撫でました。",
+        "zh": "媽媽溫柔地摸了孩子的頭。"
+      }
+    ]
+  },
+  "n3_1938": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "朝早く鶏の声で目が覚めました。",
+        "zh": "一大早被雞叫聲吵醒了。"
+      }
+    ]
+  },
+  "n3_1939": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "台所にねずみが出て大騒ぎになりました。",
+        "zh": "廚房出現老鼠引起一陣騷動。"
+      }
+    ]
+  },
+  "n3_1940": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "駆け回る",
+      "masu": "駆け回ります",
+      "te": "駆け回って",
+      "ta": "駆け回った",
+      "nai": "駆け回らない"
+    },
+    "examples": [
+      {
+        "ja": "犬が庭を駆け回っています。",
+        "zh": "狗在庭院裡到處跑。"
+      }
+    ]
+  },
+  "n3_1941": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "虎の牙は鋭くて大きいです。",
+        "zh": "老虎的獠牙又尖又大。"
+      }
+    ]
+  },
+  "n3_1942": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "犬は嬉しそうに尻尾を振っています。",
+        "zh": "狗開心地搖著尾巴。"
+      }
+    ]
+  },
+  "n3_1943": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "鳥の羽が道に落ちていました。",
+        "zh": "路上掉著鳥的羽毛。"
+      }
+    ]
+  },
+  "n3_1944": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "跳ねる",
+      "masu": "跳ねます",
+      "te": "跳ねて",
+      "ta": "跳ねた",
+      "nai": "跳ねない"
+    },
+    "examples": [
+      {
+        "ja": "ボールが地面に当たって高く跳ねました。",
+        "zh": "球碰到地面後高高彈起。"
+      }
+    ]
+  },
+  "n3_1945": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "庭の梅が今年もきれいに咲きました。",
+        "zh": "庭院裡的梅花今年也開得很漂亮。"
+      }
+    ]
+  },
+  "n3_1946": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夏になると冷たい西瓜が食べたくなります。",
+        "zh": "到了夏天就會想吃冰涼的西瓜。"
+      }
+    ]
+  },
+  "n3_1947": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "実る",
+      "masu": "実ります",
+      "te": "実って",
+      "ta": "実った",
+      "nai": "実らない"
+    },
+    "examples": [
+      {
+        "ja": "努力がようやく実りました。",
+        "zh": "努力終於有了成果。"
+      }
+    ]
+  },
+  "n3_1948": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "田んぼでは稲が青々と育っています。",
+        "zh": "水田裡的稻子綠油油地成長。"
+      }
+    ]
+  },
+  "n3_1949": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "街路樹の葉が秋色に変わりました。",
+        "zh": "行道樹的葉子變成秋天的顏色。"
+      }
+    ]
+  },
+  "n3_1950": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この地域では多くの穀物が作られています。",
+        "zh": "這個地區生產許多穀物。"
+      }
+    ]
+  },
+  "n3_1951": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "小麦の価格が今年上がりました。",
+        "zh": "今年小麥價格上漲了。"
+      }
+    ]
+  },
+  "n3_1952": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "彼女はしなやかな動きで踊りました。",
+        "zh": "她以柔軟優雅的動作跳舞。"
+      }
+    ]
+  },
+  "n3_1953": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "子どもたちは芝生の上で遊んでいます。",
+        "zh": "孩子們在草地上玩耍。"
+      }
+    ]
+  },
+  "n3_1954": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "山道には大きな杉が並んでいます。",
+        "zh": "山路旁排列著高大的杉樹。"
+      }
+    ]
+  },
+  "n3_1955": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "神社の入口に大木が立っています。",
+        "zh": "神社入口矗立著一棵大樹。"
+      }
+    ]
+  },
+  "n3_1956": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "竹で作ったかごを買いました。",
+        "zh": "我買了用竹子做的籃子。"
+      }
+    ]
+  },
+  "n3_1957": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅前の並木が夜になるとライトアップされます。",
+        "zh": "車站前的路樹到了晚上會點燈。"
+      }
+    ]
+  },
+  "n3_1958": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "秋になると山の紅葉が美しくなります。",
+        "zh": "到了秋天山上的紅葉會變得很美。"
+      }
+    ]
+  },
+  "n3_1959": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "植わる",
+      "masu": "植わります",
+      "te": "植わって",
+      "ta": "植わった",
+      "nai": "植わらない"
+    },
+    "examples": [
+      {
+        "ja": "庭には色々な花が植わっています。",
+        "zh": "庭院裡種著各種花。"
+      }
+    ]
+  },
+  "n3_1960": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "母は趣味で園芸を楽しんでいます。",
+        "zh": "媽媽把園藝當興趣享受。"
+      }
+    ]
+  },
+  "n3_1961": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "温室では一年中トマトを育てています。",
+        "zh": "溫室裡一年四季都種著番茄。"
+      }
+    ]
+  },
+  "n3_1962": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "刈る",
+      "masu": "刈ります",
+      "te": "刈って",
+      "ta": "刈った",
+      "nai": "刈らない"
+    },
+    "examples": [
+      {
+        "ja": "週末に庭の草を刈りました。",
+        "zh": "週末我割除了庭院裡的草。"
+      }
+    ]
+  },
+  "n3_1963": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "台風で作物に大きな被害が出ました。",
+        "zh": "颱風造成農作物嚴重受害。"
+      }
+    ]
+  },
+  "n3_1964": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "茂る",
+      "masu": "茂ります",
+      "te": "茂って",
+      "ta": "茂った",
+      "nai": "茂らない"
+    },
+    "examples": [
+      {
+        "ja": "雨の後で雑草がよく茂っています。",
+        "zh": "雨後雜草長得很茂密。"
+      }
+    ]
+  },
+  "n3_1965": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "萎む",
+      "masu": "萎みます",
+      "te": "萎んで",
+      "ta": "萎んだ",
+      "nai": "萎まない"
+    },
+    "examples": [
+      {
+        "ja": "水をやらなかったので花が萎んでしまいました。",
+        "zh": "因為沒有澆水花枯萎了。"
+      }
+    ]
+  },
+  "n3_1966": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "散らばる",
+      "masu": "散らばります",
+      "te": "散らばって",
+      "ta": "散らばった",
+      "nai": "散らばらない"
+    },
+    "examples": [
+      {
+        "ja": "机の上に書類が散らばっています。",
+        "zh": "桌上散亂著文件。"
+      }
+    ]
+  },
+  "n3_1967": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "匂う",
+      "masu": "匂います",
+      "te": "匂って",
+      "ta": "匂った",
+      "nai": "匂わない"
+    },
+    "examples": [
+      {
+        "ja": "台所から甘い匂いが匂ってきました。",
+        "zh": "廚房傳來甜甜的氣味。"
+      }
+    ]
+  },
+  "n3_1968": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "窓辺に小さな鉢植えを置きました。",
+        "zh": "我在窗邊放了一盆小盆栽。"
+      }
+    ]
+  },
+  "n3_1969": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "蜂は花から蜜を集めます。",
+        "zh": "蜜蜂從花中採集花蜜。"
+      }
+    ]
+  },
+  "n3_1970": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "植物は土から養分を吸収します。",
+        "zh": "植物從土裡吸收養分。"
+      }
+    ]
+  },
+  "n3_1971": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "春になると若葉が一斉に出てきます。",
+        "zh": "到了春天新葉會一起長出來。"
+      }
+    ]
+  },
+  "n3_1972": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "水や油は液体です。",
+        "zh": "水和油是液體。"
+      }
+    ]
+  },
+  "n3_1973": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "砂糖の塊が袋の中に残っていました。",
+        "zh": "砂糖塊留在袋子裡。"
+      }
+    ]
+  },
+  "n3_1974": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "固まる",
+      "masu": "固まります",
+      "te": "固まって",
+      "ta": "固まった",
+      "nai": "固まらない"
+    },
+    "examples": [
+      {
+        "ja": "ゼリーは冷蔵庫で冷やすと固まります。",
+        "zh": "果凍放進冰箱冷卻後會凝固。"
+      }
+    ]
+  },
+  "n3_1975": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "酸素や水素は気体として存在します。",
+        "zh": "氧氣和氫氣以氣體形式存在。"
+      }
+    ]
+  },
+  "n3_1976": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この机の脚は金属でできています。",
+        "zh": "這張桌子的腳是金屬做的。"
+      }
+    ]
+  },
+  "n3_1977": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "大雨で下水があふれました。",
+        "zh": "大雨使下水道滿溢。"
+      }
+    ]
+  },
+  "n3_1978": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "博物館で珍しい鉱物を見ました。",
+        "zh": "我在博物館看到了稀有礦物。"
+      }
+    ]
+  },
+  "n3_1979": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "氷は水が固体になったものです。",
+        "zh": "冰是水變成固體後的東西。"
+      }
+    ]
+  },
+  "n3_1980": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "袋の底に白い粉が残っていました。",
+        "zh": "袋子底部殘留著白色粉末。"
+      }
+    ]
+  },
+  "n3_1981": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "混合する",
+      "masu": "混合します",
+      "te": "混合して",
+      "ta": "混合した",
+      "nai": "混合しない"
+    },
+    "examples": [
+      {
+        "ja": "油と水は簡単には混合しません。",
+        "zh": "油和水不容易混合。"
+      }
+    ]
+  },
+  "n3_1982": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "自転車のチェーンに錆が出ていました。",
+        "zh": "腳踏車鏈條生鏽了。"
+      }
+    ]
+  },
+  "n3_1983": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "人は酸素がなければ生きられません。",
+        "zh": "人沒有氧氣就無法生存。"
+      }
+    ]
+  },
+  "n3_1984": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "水素はとても軽い気体です。",
+        "zh": "氫氣是非常輕的氣體。"
+      }
+    ]
+  },
+  "n3_1985": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "商品の成分を確認してから買いました。",
+        "zh": "我確認商品成分後才購買。"
+      }
+    ]
+  },
+  "n3_1986": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "家族との時間は私にとって宝です。",
+        "zh": "和家人相處的時間對我來說是寶物。"
+      }
+    ]
+  },
+  "n3_1987": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この地域の地質は火山活動の影響を受けています。",
+        "zh": "這個地區的地質受到火山活動影響。"
+      }
+    ]
+  },
+  "n3_1988": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "雨で靴に土がつきました。",
+        "zh": "因為下雨鞋子沾上了土。"
+      }
+    ]
+  },
+  "n3_1989": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "米の粒が床に落ちています。",
+        "zh": "米粒掉在地板上。"
+      }
+    ]
+  },
+  "n3_1990": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "鉄は丈夫ですが錆びやすいです。",
+        "zh": "鐵很堅固但是容易生鏽。"
+      }
+    ]
+  },
+  "n3_1991": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "透明な袋に資料を入れてください。",
+        "zh": "請把資料放進透明袋裡。"
+      }
+    ]
+  },
+  "n3_1992": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この植物には毒があるので触らないでください。",
+        "zh": "這種植物有毒所以請不要碰。"
+      }
+    ]
+  },
+  "n3_1993": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夏祭りの最後に花火が上がりました。",
+        "zh": "夏日祭典最後放了煙火。"
+      }
+    ]
+  },
+  "n3_1994": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "割れたガラスの破片を集めました。",
+        "zh": "我把破掉的玻璃碎片收集起來。"
+      }
+    ]
+  },
+  "n3_1995": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "嵌める",
+      "masu": "嵌めます",
+      "te": "嵌めて",
+      "ta": "嵌めた",
+      "nai": "嵌めない"
+    },
+    "examples": [
+      {
+        "ja": "指輪を薬指にはめました。",
+        "zh": "我把戒指戴在無名指上。"
+      }
+    ]
+  },
+  "n3_1996": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "物質の性質を実験で調べました。",
+        "zh": "透過實驗調查了物質的性質。"
+      }
+    ]
+  },
+  "n3_1997": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼女は小さな宝石の指輪を買いました。",
+        "zh": "她買了一枚小寶石戒指。"
+      }
+    ]
+  },
+  "n3_1998": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "薬品を扱うときは手袋をしてください。",
+        "zh": "處理藥品時請戴手套。"
+      }
+    ]
+  },
+  "n3_1999": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "車のオイルを定期的に交換しています。",
+        "zh": "我定期更換汽車機油。"
+      }
+    ]
+  },
+  "n3_2000": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "やかんの口から水蒸気が出ています。",
+        "zh": "水壺口冒出水蒸氣。"
+      }
+    ]
+  },
+  "n3_2001": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "運動の後は水分を十分に取ってください。",
+        "zh": "運動後請充分補充水分。"
+      }
+    ]
+  },
+  "n3_2002": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "風が止んで湖の水面が静かになりました。",
+        "zh": "風停了湖面變得平靜。"
+      }
+    ]
+  },
+  "n3_2003": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "昔は石炭が重要なエネルギー源でした。",
+        "zh": "以前煤炭是重要的能源。"
+      }
+    ]
+  },
+  "n3_2004": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この国は石油を多く輸入しています。",
+        "zh": "這個國家進口很多石油。"
+      }
+    ]
+  },
+  "n3_2005": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "断水する",
+      "masu": "断水します",
+      "te": "断水して",
+      "ta": "断水した",
+      "nai": "断水しない"
+    },
+    "examples": [
+      {
+        "ja": "工事のため午前中は断水します。",
+        "zh": "因為施工上午會停水。"
+      }
+    ]
+  },
+  "n3_2006": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この装置には直流の電気を使います。",
+        "zh": "這個裝置使用直流電。"
+      }
+    ]
+  },
+  "n3_2007": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "電流が強すぎると機械が壊れることがあります。",
+        "zh": "電流太強時機器可能會壞掉。"
+      }
+    ]
+  },
+  "n3_2008": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夏は電力の使用量が増えます。",
+        "zh": "夏天電力使用量會增加。"
+      }
+    ]
+  },
+  "n3_2009": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "冬になるとストーブ用の灯油を買います。",
+        "zh": "到了冬天會買暖爐用的煤油。"
+      }
+    ]
+  },
+  "n3_2010": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "爆発する",
+      "masu": "爆発します",
+      "te": "爆発して",
+      "ta": "爆発した",
+      "nai": "爆発しない"
+    },
+    "examples": [
+      {
+        "ja": "工場でガスが爆発する事故が起きました。",
+        "zh": "工廠發生了瓦斯爆炸事故。"
+      }
+    ]
+  },
+  "n3_2011": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "発電する",
+      "masu": "発電します",
+      "te": "発電して",
+      "ta": "発電した",
+      "nai": "発電しない"
+    },
+    "examples": [
+      {
+        "ja": "この地域では風の力で発電しています。",
+        "zh": "這個地區利用風力發電。"
+      }
+    ]
+  },
+  "n3_2012": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "火山から赤い溶岩が流れ出しました。",
+        "zh": "紅色熔岩從火山流出。"
+      }
+    ]
+  },
+  "n3_2013": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "このお菓子の原料は米です。",
+        "zh": "這個點心的原料是米。"
+      }
+    ]
+  },
+  "n3_2014": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "道路はコンクリートで固められています。",
+        "zh": "道路用混凝土鋪得很結實。"
+      }
+    ]
+  },
+  "n3_2015": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "倉庫には建築用の材木が積んであります。",
+        "zh": "倉庫裡堆著建築用木材。"
+      }
+    ]
+  },
+  "n3_2016": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "セメントに水を混ぜて壁を作ります。",
+        "zh": "把水泥和水混合後做牆。"
+      }
+    ]
+  },
+  "n3_2017": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "雨の後で靴に泥がつきました。",
+        "zh": "雨後鞋子沾上了泥巴。"
+      }
+    ]
+  },
+  "n3_2018": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "野菜からビタミンを取るようにしています。",
+        "zh": "我盡量從蔬菜攝取維他命。"
+      }
+    ]
+  },
+  "n3_2019": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この家具には良い木材が使われています。",
+        "zh": "這件家具使用了很好的木材。"
+      }
+    ]
+  },
+  "n3_2020": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "輝く",
+      "masu": "輝きます",
+      "te": "輝いて",
+      "ta": "輝いた",
+      "nai": "輝かない"
+    },
+    "examples": [
+      {
+        "ja": "朝日を受けて海が輝いていました。",
+        "zh": "海面映著朝陽閃閃發亮。"
+      }
+    ]
+  },
+  "n3_2021": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "観測する",
+      "masu": "観測します",
+      "te": "観測して",
+      "ta": "観測した",
+      "nai": "観測しない"
+    },
+    "examples": [
+      {
+        "ja": "研究所では毎日気温を観測しています。",
+        "zh": "研究所每天觀測氣溫。"
+      }
+    ]
+  },
+  "n3_2022": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "山の上では気圧が低くなります。",
+        "zh": "山上氣壓會變低。"
+      }
+    ]
+  },
+  "n3_2023": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "高気圧に覆われて今日はよく晴れました。",
+        "zh": "今天受到高氣壓籠罩所以天氣很好。"
+      }
+    ]
+  },
+  "n3_2024": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "窓から細い光線が差し込みました。",
+        "zh": "細細的光線從窗戶照進來。"
+      }
+    ]
+  },
+  "n3_2025": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "地球の大気は生物を守っています。",
+        "zh": "地球的大氣保護著生物。"
+      }
+    ]
+  },
+  "n3_2026": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夜空に細い三日月が見えます。",
+        "zh": "夜空中看得見細細的月牙。"
+      }
+    ]
+  },
+  "n3_2027": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "満ちる",
+      "masu": "満ちます",
+      "te": "満ちて",
+      "ta": "満ちた",
+      "nai": "満ちない"
+    },
+    "examples": [
+      {
+        "ja": "会場は期待に満ちていました。",
+        "zh": "會場充滿了期待。"
+      }
+    ]
+  },
+  "n3_2028": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "明け方に強い雨が降りました。",
+        "zh": "清晨下了一場大雨。"
+      }
+    ]
+  },
+  "n3_2029": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "嵐のため船は港に戻りました。",
+        "zh": "因為暴風雨船回到了港口。"
+      }
+    ]
+  },
+  "n3_2030": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "努力すれば一層成長できます。",
+        "zh": "只要努力就能更加成長。"
+      }
+    ]
+  },
+  "n3_2031": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "今日は海が穏やかで船が出せそうです。",
+        "zh": "今天海面平穩，看起來可以出船。"
+      }
+    ]
+  },
+  "n3_2032": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "劣る",
+      "masu": "劣ります",
+      "te": "劣って",
+      "ta": "劣った",
+      "nai": "劣らない"
+    },
+    "examples": [
+      {
+        "ja": "この製品は性能で新型に劣ります。",
+        "zh": "這項產品在性能上不如新款。"
+      }
+    ]
+  },
+  "n3_2033": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "この地方は一年中温暖です。",
+        "zh": "這個地方一年四季都很溫暖。"
+      }
+    ]
+  },
+  "n3_2034": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "今日は快晴で遠くの山まで見えます。",
+        "zh": "今天大晴天，連遠處的山都看得見。"
+      }
+    ]
+  },
+  "n3_2035": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "今年の桜は格別に美しいです。",
+        "zh": "今年的櫻花格外美麗。"
+      }
+    ]
+  },
+  "n3_2036": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "強風で傘が壊れてしまいました。",
+        "zh": "傘被強風吹壞了。"
+      }
+    ]
+  },
+  "n3_2037": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "ぐずつく",
+      "masu": "ぐずつきます",
+      "te": "ぐずついて",
+      "ta": "ぐずついた",
+      "nai": "ぐずつかない"
+    },
+    "examples": [
+      {
+        "ja": "天気がぐずついて洗濯物が乾きません。",
+        "zh": "天氣陰沉，衣服曬不乾。"
+      }
+    ]
+  },
+  "n3_2038": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "崩れる",
+      "masu": "崩れます",
+      "te": "崩れて",
+      "ta": "崩れた",
+      "nai": "崩れない"
+    },
+    "examples": [
+      {
+        "ja": "古い橋が大雨で崩れました。",
+        "zh": "老橋因大雨倒塌了。"
+      }
+    ]
+  },
+  "n3_2039": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "凍える",
+      "masu": "凍えます",
+      "te": "凍えて",
+      "ta": "凍えた",
+      "nai": "凍えない"
+    },
+    "examples": [
+      {
+        "ja": "寒い夜に手足が凍えました。",
+        "zh": "寒冷的夜晚手腳凍僵了。"
+      }
+    ]
+  },
+  "n3_2040": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "朝の寒さが少しずつ厳しくなっています。",
+        "zh": "早晨的寒意逐漸變得嚴重。"
+      }
+    ]
+  },
+  "n3_2041": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "山の空気は爽やかで気持ちがいいです。",
+        "zh": "山裡的空氣很清爽，讓人舒服。"
+      }
+    ]
+  },
+  "n3_2042": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "静まる",
+      "masu": "静まります",
+      "te": "静まって",
+      "ta": "静まった",
+      "nai": "静まらない"
+    },
+    "examples": [
+      {
+        "ja": "しばらくすると波の音が静まりました。",
+        "zh": "過了一會兒浪聲平靜下來了。"
+      }
+    ]
+  },
+  "n3_2043": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "照る",
+      "masu": "照ります",
+      "te": "照って",
+      "ta": "照った",
+      "nai": "照らない"
+    },
+    "examples": [
+      {
+        "ja": "夏の日が強く照っています。",
+        "zh": "夏日的陽光強烈照耀著。"
+      }
+    ]
+  },
+  "n3_2044": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "にわか雨に降られて服が濡れました。",
+        "zh": "被突如其來的雨淋到，衣服濕了。"
+      }
+    ]
+  },
+  "n3_2045": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "梅雨の時期は洗濯物が乾きにくいです。",
+        "zh": "梅雨季時衣服不容易乾。"
+      }
+    ]
+  },
+  "n3_2046": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "午後の日差しが部屋に入ってきます。",
+        "zh": "午後的陽光照進房間。"
+      }
+    ]
+  },
+  "n3_2047": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "日の入りの時間が少しずつ早くなっています。",
+        "zh": "日落時間逐漸變早。"
+      }
+    ]
+  },
+  "n3_2048": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "山の上で日の出を見ました。",
+        "zh": "我在山上看了日出。"
+      }
+    ]
+  },
+  "n3_2049": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "カーテンが風でふわっと揺れました。",
+        "zh": "窗簾被風吹得輕飄飄地搖動。"
+      }
+    ]
+  },
+  "n3_2050": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "舞う",
+      "masu": "舞います",
+      "te": "舞って",
+      "ta": "舞った",
+      "nai": "舞わない"
+    },
+    "examples": [
+      {
+        "ja": "桜の花びらが風に舞っています。",
+        "zh": "櫻花花瓣在風中飛舞。"
+      }
+    ]
+  },
+  "n3_2051": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "祖父は最近めっきり元気がなくなりました。",
+        "zh": "祖父最近明顯變得沒精神。"
+      }
+    ]
+  },
+  "n3_2052": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "ものすごい音がして皆が驚きました。",
+        "zh": "傳來驚人的聲響，大家都嚇了一跳。"
+      }
+    ]
+  },
+  "n3_2053": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夕立が来そうなので早く帰りましょう。",
+        "zh": "看起來午後雷陣雨要來了，我們早點回去吧。"
+      }
+    ]
+  },
+  "n3_2054": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "天気予報では明日は雪だそうです。",
+        "zh": "天氣預報說明天會下雪。"
+      }
+    ]
+  },
+  "n3_2055": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "山の近くで落雷がありました。",
+        "zh": "山附近發生了雷擊。"
+      }
+    ]
+  },
+  "n3_2056": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "火災を防ぐために電源を確認してください。",
+        "zh": "為了防止火災，請確認電源。"
+      }
+    ]
+  },
+  "n3_2057": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "清い水が山から流れてきます。",
+        "zh": "清澈的水從山裡流下來。"
+      }
+    ]
+  },
+  "n3_2058": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "朝の霧で前がよく見えませんでした。",
+        "zh": "因為早晨的霧，前方看不太清楚。"
+      }
+    ]
+  },
+  "n3_2059": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "砕ける",
+      "masu": "砕けます",
+      "te": "砕けて",
+      "ta": "砕けた",
+      "nai": "砕けない"
+    },
+    "examples": [
+      {
+        "ja": "落とした皿が細かく砕けました。",
+        "zh": "掉下去的盤子碎成小片。"
+      }
+    ]
+  },
+  "n3_2060": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "曇る",
+      "masu": "曇ります",
+      "te": "曇って",
+      "ta": "曇った",
+      "nai": "曇らない"
+    },
+    "examples": [
+      {
+        "ja": "午後から空が曇ってきました。",
+        "zh": "從下午開始天空陰了下來。"
+      }
+    ]
+  },
+  "n3_2061": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "寒い朝に畑へ霜が降りました。",
+        "zh": "寒冷的早晨田裡結了霜。"
+      }
+    ]
+  },
+  "n3_2062": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "地球には重力があります。",
+        "zh": "地球有重力。"
+      }
+    ]
+  },
+  "n3_2063": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "蒸発する",
+      "masu": "蒸発します",
+      "te": "蒸発して",
+      "ta": "蒸発した",
+      "nai": "蒸発しない"
+    },
+    "examples": [
+      {
+        "ja": "水たまりの水が日差しで蒸発しました。",
+        "zh": "水窪裡的水因陽光蒸發了。"
+      }
+    ]
+  },
+  "n3_2064": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "接近する",
+      "masu": "接近します",
+      "te": "接近して",
+      "ta": "接近した",
+      "nai": "接近しない"
+    },
+    "examples": [
+      {
+        "ja": "台風が島に接近しています。",
+        "zh": "颱風正在接近島嶼。"
+      }
+    ]
+  },
+  "n3_2065": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "増水する",
+      "masu": "増水します",
+      "te": "増水して",
+      "ta": "増水した",
+      "nai": "増水しない"
+    },
+    "examples": [
+      {
+        "ja": "大雨で川が増水しました。",
+        "zh": "大雨使河川水位上升。"
+      }
+    ]
+  },
+  "n3_2066": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "この温泉は天然の湯です。",
+        "zh": "這個溫泉是天然泉水。"
+      }
+    ]
+  },
+  "n3_2067": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "大雨で山道に土砂崩れが起きました。",
+        "zh": "大雨導致山路發生山崩。"
+      }
+    ]
+  },
+  "n3_2068": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "突風で自転車が倒れました。",
+        "zh": "腳踏車被突風吹倒了。"
+      }
+    ]
+  },
+  "n3_2069": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "濁る",
+      "masu": "濁ります",
+      "te": "濁って",
+      "ta": "濁った",
+      "nai": "濁らない"
+    },
+    "examples": [
+      {
+        "ja": "大雨の後で川の水が濁っています。",
+        "zh": "大雨後河水變得混濁。"
+      }
+    ]
+  },
+  "n3_2070": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "雨上がりの空に虹が出ました。",
+        "zh": "雨停後天空出現了彩虹。"
+      }
+    ]
+  },
+  "n3_2071": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "ドアが独りでに開いて驚きました。",
+        "zh": "門自己打開了，讓我嚇了一跳。"
+      }
+    ]
+  },
+  "n3_2072": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "噴火する",
+      "masu": "噴火します",
+      "te": "噴火して",
+      "ta": "噴火した",
+      "nai": "噴火しない"
+    },
+    "examples": [
+      {
+        "ja": "火山の噴火で周辺に灰が降りました。",
+        "zh": "火山爆發使周邊降下火山灰。"
+      }
+    ]
+  },
+  "n3_2073": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "自然にはまだ分からない法則が多くあります。",
+        "zh": "自然界還有很多尚未了解的法則。"
+      }
+    ]
+  },
+  "n3_2074": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "万一の時はこの番号に連絡してください。",
+        "zh": "萬一發生狀況時請聯絡這個號碼。"
+      }
+    ]
+  },
+  "n3_2075": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "森の奥に小さな泉があります。",
+        "zh": "森林深處有一座小泉水。"
+      }
+    ]
+  },
+  "n3_2076": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この運河は町の中心を流れています。",
+        "zh": "這條運河流經城鎮中心。"
+      }
+    ]
+  },
+  "n3_2077": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "丘の上から町全体が見えます。",
+        "zh": "從小丘上可以看到整座城鎮。"
+      }
+    ]
+  },
+  "n3_2078": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "溺れる",
+      "masu": "溺れます",
+      "te": "溺れて",
+      "ta": "溺れた",
+      "nai": "溺れない"
+    },
+    "examples": [
+      {
+        "ja": "彼は泳げないので深い川で溺れそうになりました。",
+        "zh": "他不會游泳，所以差點在深河裡溺水。"
+      }
+    ]
+  },
+  "n3_2079": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "旅行先で有名な温泉に入りました。",
+        "zh": "我在旅行地泡了有名的溫泉。"
+      }
+    ]
+  },
+  "n3_2080": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "海洋の環境を守る活動に参加しました。",
+        "zh": "我參加了保護海洋環境的活動。"
+      }
+    ]
+  },
+  "n3_2081": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "火山の火口には近づかないでください。",
+        "zh": "請不要靠近火山口。"
+      }
+    ]
+  },
+  "n3_2082": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "川の岸に小さな花が咲いています。",
+        "zh": "河岸邊開著小花。"
+      }
+    ]
+  },
+  "n3_2083": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この町には古い城の旧跡があります。",
+        "zh": "這座城鎮有古城的遺跡。"
+      }
+    ]
+  },
+  "n3_2084": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "地図には緯度と経度が示されています。",
+        "zh": "地圖上標示著緯度與經度。"
+      }
+    ]
+  },
+  "n3_2085": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "険しい山道を何時間も歩きました。",
+        "zh": "我們走了好幾個小時陡峭的山路。"
+      }
+    ]
+  },
+  "n3_2086": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "川沿いに広い耕地が広がっています。",
+        "zh": "河邊展開著廣闊的農地。"
+      }
+    ]
+  },
+  "n3_2087": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "越す",
+      "masu": "越します",
+      "te": "越して",
+      "ta": "越した",
+      "nai": "越さない"
+    },
+    "examples": [
+      {
+        "ja": "国境を越すにはパスポートが必要です。",
+        "zh": "越過國境需要護照。"
+      }
+    ]
+  },
+  "n3_2088": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "砂漠では昼と夜の温度差が大きいです。",
+        "zh": "沙漠裡白天和夜晚的溫差很大。"
+      }
+    ]
+  },
+  "n3_2089": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この山林は国が管理しています。",
+        "zh": "這片山林由國家管理。"
+      }
+    ]
+  },
+  "n3_2090": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "雨で地面がぬかるんでいます。",
+        "zh": "地面因下雨變得泥濘。"
+      }
+    ]
+  },
+  "n3_2091": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "森林を守るために木を植えました。",
+        "zh": "為了保護森林種了樹。"
+      }
+    ]
+  },
+  "n3_2092": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "海の向こうに水平線が見えます。",
+        "zh": "海的另一頭看得見水平線。"
+      }
+    ]
+  },
+  "n3_2093": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "赤道の近くは一年中暑い地域が多いです。",
+        "zh": "赤道附近有很多全年炎熱的地區。"
+      }
+    ]
+  },
+  "n3_2094": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "大陸を横断する列車に乗りました。",
+        "zh": "我搭了橫越大陸的列車。"
+      }
+    ]
+  },
+  "n3_2095": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "谷を流れる川の音が聞こえます。",
+        "zh": "聽得見流過山谷的河水聲。"
+      }
+    ]
+  },
+  "n3_2096": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "谷底には小さな村がありました。",
+        "zh": "谷底有一座小村莊。"
+      }
+    ]
+  },
+  "n3_2097": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この湖は淡水の湖です。",
+        "zh": "這座湖是淡水湖。"
+      }
+    ]
+  },
+  "n3_2098": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夕方の地平線が赤く染まりました。",
+        "zh": "傍晚的地平線被染成紅色。"
+      }
+    ]
+  },
+  "n3_2099": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "珍しい地名の由来を調べました。",
+        "zh": "我查了少見地名的由來。"
+      }
+    ]
+  },
+  "n3_2100": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "山の頂上で記念写真を撮りました。",
+        "zh": "我們在山頂拍了紀念照。"
+      }
+    ]
+  },
+  "n3_2101": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "三角形の頂点を線で結んでください。",
+        "zh": "請用線連接三角形的頂點。"
+      }
+    ]
+  },
+  "n3_2102": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "川に古い吊り橋が架かっています。",
+        "zh": "河上架著一座老吊橋。"
+      }
+    ]
+  },
+  "n3_2103": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "峠を越えると海が見えてきました。",
+        "zh": "越過山口後看見了海。"
+      }
+    ]
+  },
+  "n3_2104": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "灯台の光が遠くの船を導きます。",
+        "zh": "燈塔的光引導遠方的船。"
+      }
+    ]
+  },
+  "n3_2105": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "飛び込む",
+      "masu": "飛び込みます",
+      "te": "飛び込んで",
+      "ta": "飛び込んだ",
+      "nai": "飛び込まない"
+    },
+    "examples": [
+      {
+        "ja": "子どもがプールに勢いよく飛び込みました。",
+        "zh": "孩子用力跳進游泳池。"
+      }
+    ]
+  },
+  "n3_2106": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この部屋からの眺めは最高です。",
+        "zh": "從這個房間看出去的景色最好。"
+      }
+    ]
+  },
+  "n3_2107": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "台風の後で海の波が高くなりました。",
+        "zh": "颱風過後海浪變高了。"
+      }
+    ]
+  },
+  "n3_2108": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "野原には黄色い花が一面に咲いています。",
+        "zh": "原野上開滿了黃色花朵。"
+      }
+    ]
+  },
+  "n3_2109": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この半島には美しい海岸が多いです。",
+        "zh": "這個半島有很多美麗海岸。"
+      }
+    ]
+  },
+  "n3_2110": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "窓から見える風景が季節ごとに変わります。",
+        "zh": "從窗戶看見的風景會隨季節改變。"
+      }
+    ]
+  },
+  "n3_2111": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "平野には田んぼが広がっています。",
+        "zh": "平原上展開著一片水田。"
+      }
+    ]
+  },
+  "n3_2112": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "盆地の夏はとても暑くなります。",
+        "zh": "盆地的夏天會變得很熱。"
+      }
+    ]
+  },
+  "n3_2113": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "岬の先に小さな灯台があります。",
+        "zh": "海角前端有一座小燈塔。"
+      }
+    ]
+  },
+  "n3_2114": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "見慣れる",
+      "masu": "見慣れます",
+      "te": "見慣れて",
+      "ta": "見慣れた",
+      "nai": "見慣れない"
+    },
+    "examples": [
+      {
+        "ja": "見慣れた道でも夜は違って見えます。",
+        "zh": "即使是看熟的路，晚上看起來也不一樣。"
+      }
+    ]
+  },
+  "n3_2115": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "船が近づくと陸が見えてきました。",
+        "zh": "船靠近後看見了陸地。"
+      }
+    ]
+  },
+  "n3_2116": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この川の流域には多くの町があります。",
+        "zh": "這條河的流域有許多城鎮。"
+      }
+    ]
+  },
+  "n3_2117": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "日本列島は南北に長く伸びています。",
+        "zh": "日本列島南北狹長延伸。"
+      }
+    ]
+  },
+  "n3_2118": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "下町には昔ながらの店が残っています。",
+        "zh": "老街區裡保留著老店。"
+      }
+    ]
+  },
+  "n3_2119": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "真空の状態では音が伝わりません。",
+        "zh": "在真空狀態下聲音無法傳播。"
+      }
+    ]
+  },
+  "n3_2120": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "彼は仕事を求めて各地を転々としました。",
+        "zh": "他為了找工作輾轉到各地。"
+      }
+    ]
+  },
+  "n3_2121": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この道は東西にまっすぐ伸びています。",
+        "zh": "這條路東西向筆直延伸。"
+      }
+    ]
+  },
+  "n3_2122": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "父は田舎に小さな土地を持っています。",
+        "zh": "父親在鄉下有一小塊土地。"
+      }
+    ]
+  },
+  "n3_2123": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "車をゆっくりバックしてください。",
+        "zh": "請慢慢倒車。"
+      }
+    ]
+  },
+  "n3_2124": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅前の広場で友人を待ちました。",
+        "zh": "我在車站前廣場等朋友。"
+      }
+    ]
+  },
+  "n3_2125": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "旅行中に方々を歩き回りました。",
+        "zh": "旅行時我到處走了走。"
+      }
+    ]
+  },
+  "n3_2126": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅はこの方面へまっすぐ進むとあります。",
+        "zh": "車站往這個方向直走就會到。"
+      }
+    ]
+  },
+  "n3_2127": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "街角に新しいカフェができました。",
+        "zh": "街角開了一家新咖啡店。"
+      }
+    ]
+  },
+  "n3_2128": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "川の向こう側に古い寺があります。",
+        "zh": "河的對面有一座古老寺院。"
+      }
+    ]
+  },
+  "n3_2129": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "京都には多くの名所があります。",
+        "zh": "京都有許多名勝。"
+      }
+    ]
+  },
+  "n3_2130": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "よその家に入るときは礼儀を守りましょう。",
+        "zh": "去別人家時要遵守禮貌。"
+      }
+    ]
+  },
+  "n3_2131": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "至る",
+      "masu": "至ります",
+      "te": "至って",
+      "ta": "至った",
+      "nai": "至らない"
+    },
+    "examples": [
+      {
+        "ja": "長い議論の末に結論に至りました。",
+        "zh": "經過長時間討論後得出了結論。"
+      }
+    ]
+  },
+  "n3_2132": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "欧米の文化について授業で学びました。",
+        "zh": "課堂上學了歐美文化。"
+      }
+    ]
+  },
+  "n3_2133": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "屋外で運動するときは水分を取りましょう。",
+        "zh": "在戶外運動時要補充水分。"
+      }
+    ]
+  },
+  "n3_2134": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "日本の多くの地域は温帯に属しています。",
+        "zh": "日本許多地區屬於溫帶。"
+      }
+    ]
+  },
+  "n3_2135": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "海外で働く友人から手紙が届きました。",
+        "zh": "在海外工作的朋友寄來了信。"
+      }
+    ]
+  },
+  "n3_2136": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "拡充する",
+      "masu": "拡充します",
+      "te": "拡充して",
+      "ta": "拡充した",
+      "nai": "拡充しない"
+    },
+    "examples": [
+      {
+        "ja": "市は図書館の設備を拡充しました。",
+        "zh": "市政府擴充了圖書館設備。"
+      }
+    ]
+  },
+  "n3_2137": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "拡大する",
+      "masu": "拡大します",
+      "te": "拡大して",
+      "ta": "拡大した",
+      "nai": "拡大しない"
+    },
+    "examples": [
+      {
+        "ja": "写真を拡大して細かい部分を確認しました。",
+        "zh": "我放大照片確認細節。"
+      }
+    ]
+  },
+  "n3_2138": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "拡張する",
+      "masu": "拡張します",
+      "te": "拡張して",
+      "ta": "拡張した",
+      "nai": "拡張しない"
+    },
+    "examples": [
+      {
+        "ja": "会社は海外事業を拡張する予定です。",
+        "zh": "公司預定擴張海外事業。"
+      }
+    ]
+  },
+  "n3_2139": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "関東では午後から雨が降るでしょう。",
+        "zh": "關東地區下午開始可能會下雨。"
+      }
+    ]
+  },
+  "n3_2140": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "ボールが高く空中へ上がりました。",
+        "zh": "球高高飛到空中。"
+      }
+    ]
+  },
+  "n3_2141": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "国境を越えて多くの人が行き来しています。",
+        "zh": "許多人跨越國境往來。"
+      }
+    ]
+  },
+  "n3_2142": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この学校の敷地はとても広いです。",
+        "zh": "這所學校的用地很大。"
+      }
+    ]
+  },
+  "n3_2143": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "家の周囲に木を植えました。",
+        "zh": "我在房子四周種了樹。"
+      }
+    ]
+  },
+  "n3_2144": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅周辺には飲食店がたくさんあります。",
+        "zh": "車站周邊有很多餐飲店。"
+      }
+    ]
+  },
+  "n3_2145": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "東京は日本の首都です。",
+        "zh": "東京是日本的首都。"
+      }
+    ]
+  },
+  "n3_2146": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "首都圏では家賃が高い傾向があります。",
+        "zh": "首都圈的房租有偏高的傾向。"
+      }
+    ]
+  },
+  "n3_2147": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この地域では冬に雪がよく降ります。",
+        "zh": "這個地區冬天常下雪。"
+      }
+    ]
+  },
+  "n3_2148": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼の住所は三丁目までしか分かりません。",
+        "zh": "他的住址我只知道到三丁目。"
+      }
+    ]
+  },
+  "n3_2149": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "都会の生活は便利ですが忙しいです。",
+        "zh": "都會生活很方便但也很忙碌。"
+      }
+    ]
+  },
+  "n3_2150": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "特定する",
+      "masu": "特定します",
+      "te": "特定して",
+      "ta": "特定した",
+      "nai": "特定しない"
+    },
+    "examples": [
+      {
+        "ja": "特定の人だけを責めるのはよくありません。",
+        "zh": "只責怪特定的人並不好。"
+      }
+    ]
+  },
+  "n3_2151": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "都心まで電車で三十分かかります。",
+        "zh": "到市中心搭電車要三十分鐘。"
+      }
+    ]
+  },
+  "n3_2152": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "南極では厳しい寒さの中で調査が行われています。",
+        "zh": "南極在嚴寒中進行調查。"
+      }
+    ]
+  },
+  "n3_2153": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は南米を半年かけて旅行しました。",
+        "zh": "他花了半年旅行南美洲。"
+      }
+    ]
+  },
+  "n3_2154": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この道路は南北に走っています。",
+        "zh": "這條道路南北向延伸。"
+      }
+    ]
+  },
+  "n3_2155": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "熱帯では雨が急に強く降ることがあります。",
+        "zh": "熱帶有時會突然下起大雨。"
+      }
+    ]
+  },
+  "n3_2156": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "番地を間違えると荷物が届きません。",
+        "zh": "番地寫錯的話包裹不會送達。"
+      }
+    ]
+  },
+  "n3_2157": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅前の人混みで友人を見失いました。",
+        "zh": "我在車站前的人潮中跟朋友走散了。"
+      }
+    ]
+  },
+  "n3_2158": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "分布する",
+      "masu": "分布します",
+      "te": "分布して",
+      "ta": "分布した",
+      "nai": "分布しない"
+    },
+    "examples": [
+      {
+        "ja": "この植物の分布を地図で確認しました。",
+        "zh": "我用地圖確認了這種植物的分布。"
+      }
+    ]
+  },
+  "n3_2159": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "北極の氷が減っていると言われています。",
+        "zh": "據說北極的冰正在減少。"
+      }
+    ]
+  },
+  "n3_2160": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "京都は昔の都として知られています。",
+        "zh": "京都以古都聞名。"
+      }
+    ]
+  },
+  "n3_2161": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "ヨーロッパの歴史を専門に研究しています。",
+        "zh": "我專門研究歐洲歷史。"
+      }
+    ]
+  },
+  "n3_2162": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "答えが逆になっているので直してください。",
+        "zh": "答案顛倒了，請修正。"
+      }
+    ]
+  },
+  "n3_2163": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "絵を逆さに掛けてしまいました。",
+        "zh": "我把畫倒著掛了。"
+      }
+    ]
+  },
+  "n3_2164": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "本を逆様に置かないでください。",
+        "zh": "請不要把書倒過來放。"
+      }
+    ]
+  },
+  "n3_2165": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "遡る",
+      "masu": "遡ります",
+      "te": "遡って",
+      "ta": "遡った",
+      "nai": "遡らない"
+    },
+    "examples": [
+      {
+        "ja": "この制度の始まりは百年前に遡ります。",
+        "zh": "這個制度的起源可以追溯到一百年前。"
+      }
+    ]
+  },
+  "n3_2166": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "左右する",
+      "masu": "左右します",
+      "te": "左右して",
+      "ta": "左右した",
+      "nai": "左右しない"
+    },
+    "examples": [
+      {
+        "ja": "気分に左右されずに判断したいです。",
+        "zh": "我想不受心情左右地判斷。"
+      }
+    ]
+  },
+  "n3_2167": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "机が水平になるように脚を調整しました。",
+        "zh": "我調整桌腳讓桌面保持水平。"
+      }
+    ]
+  },
+  "n3_2168": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "到着は午後三時前後になる予定です。",
+        "zh": "預定抵達時間大約是下午三點前後。"
+      }
+    ]
+  },
+  "n3_2169": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "技術の先端を学ぶために研究会へ行きました。",
+        "zh": "為了學習技術尖端內容去了研究會。"
+      }
+    ]
+  },
+  "n3_2170": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "逸れる",
+      "masu": "逸れます",
+      "te": "逸れて",
+      "ta": "逸れた",
+      "nai": "逸れない"
+    },
+    "examples": [
+      {
+        "ja": "話がそれたので本題に戻りましょう。",
+        "zh": "話題偏掉了，我們回到正題吧。"
+      }
+    ]
+  },
+  "n3_2171": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "平らな場所にテントを張りました。",
+        "zh": "我們在平坦的地方搭了帳篷。"
+      }
+    ]
+  },
+  "n3_2172": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "事故が起きた地点を地図で確認しました。",
+        "zh": "我在地圖上確認了事故發生地點。"
+      }
+    ]
+  },
+  "n3_2173": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "二つの駅の中間に公園があります。",
+        "zh": "兩個車站的中間有一座公園。"
+      }
+    ]
+  },
+  "n3_2174": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "退ける",
+      "masu": "退けます",
+      "te": "退けて",
+      "ta": "退けた",
+      "nai": "退けない"
+    },
+    "examples": [
+      {
+        "ja": "入口の前の荷物をどけてください。",
+        "zh": "請把入口前的行李移開。"
+      }
+    ]
+  },
+  "n3_2175": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "机を斜に置くと部屋が少し広く見えます。",
+        "zh": "把桌子斜放時房間看起來會稍微寬一點。"
+      }
+    ]
+  },
+  "n3_2176": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "銀行は道の左側にあります。",
+        "zh": "銀行在道路左邊。"
+      }
+    ]
+  },
+  "n3_2177": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "引っくり返る",
+      "masu": "引っくり返ります",
+      "te": "引っくり返って",
+      "ta": "引っくり返った",
+      "nai": "引っくり返らない"
+    },
+    "examples": [
+      {
+        "ja": "強い風で看板がひっくり返りました。",
+        "zh": "招牌被強風吹翻了。"
+      }
+    ]
+  },
+  "n3_2178": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "コップの縁に口紅がついています。",
+        "zh": "杯緣沾著口紅。"
+      }
+    ]
+  },
+  "n3_2179": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "振り向く",
+      "masu": "振り向きます",
+      "te": "振り向いて",
+      "ta": "振り向いた",
+      "nai": "振り向かない"
+    },
+    "examples": [
+      {
+        "ja": "名前を呼ばれて思わず振り向きました。",
+        "zh": "被叫到名字時我不由得回頭看。"
+      }
+    ]
+  },
+  "n3_2180": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "平行する",
+      "masu": "平行します",
+      "te": "平行して",
+      "ta": "平行した",
+      "nai": "平行しない"
+    },
+    "examples": [
+      {
+        "ja": "二本の線を平行に引いてください。",
+        "zh": "請畫兩條平行線。"
+      }
+    ]
+  },
+  "n3_2181": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "人生の曲がり角で大きな決断をしました。",
+        "zh": "在人生的轉折點做了重大決定。"
+      }
+    ]
+  },
+  "n3_2182": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "郵便局は駅の右側にあります。",
+        "zh": "郵局在車站右側。"
+      }
+    ]
+  },
+  "n3_2183": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "赤い屋根を目印にしてください。",
+        "zh": "請以紅色屋頂作為標記。"
+      }
+    ]
+  },
+  "n3_2184": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "戻す",
+      "masu": "戻します",
+      "te": "戻して",
+      "ta": "戻した",
+      "nai": "戻さない"
+    },
+    "examples": [
+      {
+        "ja": "使った本は元の場所に戻してください。",
+        "zh": "用過的書請放回原位。"
+      }
+    ]
+  },
+  "n3_2185": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "矢印の方向へ進んでください。",
+        "zh": "請往箭頭的方向前進。"
+      }
+    ]
+  },
+  "n3_2186": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "棒の両端にひもを結びました。",
+        "zh": "我在棒子的兩端綁上繩子。"
+      }
+    ]
+  },
+  "n3_2187": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "会員になると割引が受けられます。",
+        "zh": "成為會員後可以享有折扣。"
+      }
+    ]
+  },
+  "n3_2188": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "地域の会館で説明会が開かれました。",
+        "zh": "說明會在地區會館舉行。"
+      }
+    ]
+  },
+  "n3_2189": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "受付の係に名前を伝えてください。",
+        "zh": "請把名字告訴櫃台負責人。"
+      }
+    ]
+  },
+  "n3_2190": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "図書館の貸し出し期間は二週間です。",
+        "zh": "圖書館的借書期限是兩週。"
+      }
+    ]
+  },
+  "n3_2191": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "官庁の手続きには時間がかかります。",
+        "zh": "政府機關的手續需要花時間。"
+      }
+    ]
+  },
+  "n3_2192": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "建築する",
+      "masu": "建築します",
+      "te": "建築して",
+      "ta": "建築した",
+      "nai": "建築しない"
+    },
+    "examples": [
+      {
+        "ja": "新しい橋の建築が始まりました。",
+        "zh": "新橋的建造開始了。"
+      }
+    ]
+  },
+  "n3_2193": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅前に高層ビルが建っています。",
+        "zh": "車站前蓋著高樓大廈。"
+      }
+    ]
+  },
+  "n3_2194": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "畑のそばに小さな小屋があります。",
+        "zh": "田旁邊有一間小屋。"
+      }
+    ]
+  },
+  "n3_2195": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この体育館は設備が整っています。",
+        "zh": "這座體育館設備完善。"
+      }
+    ]
+  },
+  "n3_2196": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "駅前に観光案内センターがあります。",
+        "zh": "車站前有觀光服務中心。"
+      }
+    ]
+  },
+  "n3_2197": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "出入り口をふさがないでください。",
+        "zh": "請不要堵住出入口。"
+      }
+    ]
+  },
+  "n3_2198": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "公園の中央に大きな噴水があります。",
+        "zh": "公園中央有一座大噴水池。"
+      }
+    ]
+  },
+  "n3_2199": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "住所変更の手続きで役所へ行きました。",
+        "zh": "我為了辦理地址變更手續去了政府機關。"
+      }
+    ]
+  },
+  "n3_2200": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅で落とし物を届けました。",
+        "zh": "我在車站送交了遺失物。"
+      }
+    ]
+  },
+  "n3_2201": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "大学ではテニスのクラブに入っています。",
+        "zh": "我在大學參加網球社。"
+      }
+    ]
+  },
+  "n3_2202": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "新しい校舎は来年完成する予定です。",
+        "zh": "新校舍預定明年完工。"
+      }
+    ]
+  },
+  "n3_2203": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "仕事の後で同僚と酒場に寄りました。",
+        "zh": "下班後我和同事順道去了酒吧。"
+      }
+    ]
+  },
+  "n3_2204": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "古い寺院を見学しました。",
+        "zh": "我參觀了古老的寺院。"
+      }
+    ]
+  },
+  "n3_2205": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "銀行の支店が駅前にあります。",
+        "zh": "銀行分行在車站前。"
+      }
+    ]
+  },
+  "n3_2206": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "宿泊する",
+      "masu": "宿泊します",
+      "te": "宿泊して",
+      "ta": "宿泊した",
+      "nai": "宿泊しない"
+    },
+    "examples": [
+      {
+        "ja": "このホテルは長期宿泊にも対応しています。",
+        "zh": "這家飯店也可接待長期住宿。"
+      }
+    ]
+  },
+  "n3_2207": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅前の書店で雑誌を買いました。",
+        "zh": "我在車站前的書店買了雜誌。"
+      }
+    ]
+  },
+  "n3_2208": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "川のそばで古い水車が回っています。",
+        "zh": "河邊有一座老水車正在轉動。"
+      }
+    ]
+  },
+  "n3_2209": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "展望台から町全体が見えます。",
+        "zh": "從觀景台可以看到整座城鎮。"
+      }
+    ]
+  },
+  "n3_2210": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "週末に美容院で髪を切りました。",
+        "zh": "週末我在美髮店剪了頭髮。"
+      }
+    ]
+  },
+  "n3_2211": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "駅前に高いビルディングが建ちました。",
+        "zh": "車站前蓋了一棟高樓。"
+      }
+    ]
+  },
+  "n3_2212": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "レストランのボーイが席まで案内してくれました。",
+        "zh": "餐廳的男服務生帶我們到座位。"
+      }
+    ]
+  },
+  "n3_2213": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "城の周りには深い堀があります。",
+        "zh": "城堡周圍有深深的護城河。"
+      }
+    ]
+  },
+  "n3_2214": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "病院の待合室で名前を呼ばれるのを待ちました。",
+        "zh": "我在醫院候診室等著被叫名字。"
+      }
+    ]
+  },
+  "n3_2215": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "切符は二番の窓口で買えます。",
+        "zh": "票可以在二號櫃台購買。"
+      }
+    ]
+  },
+  "n3_2216": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "家族で遊園地へ行きました。",
+        "zh": "全家人一起去了遊樂園。"
+      }
+    ]
+  },
+  "n3_2217": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "妹は今年から幼稚園に通っています。",
+        "zh": "妹妹今年開始上幼稚園。"
+      }
+    ]
+  },
+  "n3_2218": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "ホテルのロビーで友人を待ちました。",
+        "zh": "我在飯店大廳等朋友。"
+      }
+    ]
+  },
+  "n3_2219": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この地域では医療サービスが不足しています。",
+        "zh": "這個地區醫療服務不足。"
+      }
+    ]
+  },
+  "n3_2220": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "休診する",
+      "masu": "休診します",
+      "te": "休診して",
+      "ta": "休診した",
+      "nai": "休診しない"
+    },
+    "examples": [
+      {
+        "ja": "今日は休診なので明日また来てください。",
+        "zh": "今天停診，請明天再來。"
+      }
+    ]
+  },
+  "n3_2221": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "けがをしたので外科で診てもらいました。",
+        "zh": "因為受傷，所以去外科看診。"
+      }
+    ]
+  },
+  "n3_2222": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "診察する",
+      "masu": "診察します",
+      "te": "診察して",
+      "ta": "診察した",
+      "nai": "診察しない"
+    },
+    "examples": [
+      {
+        "ja": "医師が丁寧に診察してくれました。",
+        "zh": "醫師仔細地為我看診。"
+      }
+    ]
+  },
+  "n3_2223": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "整形する",
+      "masu": "整形します",
+      "te": "整形して",
+      "ta": "整形した",
+      "nai": "整形しない"
+    },
+    "examples": [
+      {
+        "ja": "整形外科でひざの痛みを相談しました。",
+        "zh": "我在骨科詢問了膝蓋疼痛的問題。"
+      }
+    ]
+  },
+  "n3_2224": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "熱があるので内科を受診しました。",
+        "zh": "因為發燒，所以看了內科。"
+      }
+    ]
+  },
+  "n3_2225": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "この席はフリーなので自由に使えます。",
+        "zh": "這個座位是開放的，可以自由使用。"
+      }
+    ]
+  },
+  "n3_2226": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "入院中の友人へ見舞いに行きました。",
+        "zh": "我去探望住院中的朋友。"
+      }
+    ]
+  },
+  "n3_2227": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "見舞う",
+      "masu": "見舞います",
+      "te": "見舞って",
+      "ta": "見舞った",
+      "nai": "見舞わない"
+    },
+    "examples": [
+      {
+        "ja": "台風が町を見舞い、大きな被害が出ました。",
+        "zh": "颱風襲擊城鎮，造成重大災害。"
+      }
+    ]
+  },
+  "n3_2228": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "朝早く市場で魚を買いました。",
+        "zh": "一大早我在市場買了魚。"
+      }
+    ]
+  },
+  "n3_2229": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "移転する",
+      "masu": "移転します",
+      "te": "移転して",
+      "ta": "移転した",
+      "nai": "移転しない"
+    },
+    "examples": [
+      {
+        "ja": "会社の移転で通勤時間が長くなりました。",
+        "zh": "公司搬遷後通勤時間變長了。"
+      }
+    ]
+  },
+  "n3_2230": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "店の看板が遠くからでもよく見えます。",
+        "zh": "店家的招牌從遠處也看得很清楚。"
+      }
+    ]
+  },
+  "n3_2231": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "喫茶コーナーで少し休みましょう。",
+        "zh": "我們在茶飲區稍微休息一下吧。"
+      }
+    ]
+  },
+  "n3_2232": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "共同する",
+      "masu": "共同します",
+      "te": "共同して",
+      "ta": "共同した",
+      "nai": "共同しない"
+    },
+    "examples": [
+      {
+        "ja": "共同で研究を進めています。",
+        "zh": "我們共同推進研究。"
+      }
+    ]
+  },
+  "n3_2233": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "人気店の前に長い行列ができています。",
+        "zh": "人氣店前排起了長長的隊伍。"
+      }
+    ]
+  },
+  "n3_2234": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "コートをクリーニングに出しました。",
+        "zh": "我把大衣送去洗衣店洗。"
+      }
+    ]
+  },
+  "n3_2235": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "この店はサービスがとてもいいです。",
+        "zh": "這家店的服務很好。"
+      }
+    ]
+  },
+  "n3_2236": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "閉店後に店のシャッターが下ろされました。",
+        "zh": "打烊後店家的鐵捲門被拉下來。"
+      }
+    ]
+  },
+  "n3_2237": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "昔ながらの商店が通りに並んでいます。",
+        "zh": "街上並排著傳統商店。"
+      }
+    ]
+  },
+  "n3_2238": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "上等な肉を使った料理です。",
+        "zh": "這是使用優質肉品做的料理。"
+      }
+    ]
+  },
+  "n3_2239": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "昼に駅前の蕎麦屋で食べました。",
+        "zh": "中午我在車站前的蕎麥麵店吃飯。"
+      }
+    ]
+  },
+  "n3_2240": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この店の定休日は水曜日です。",
+        "zh": "這家店的固定公休日是星期三。"
+      }
+    ]
+  },
+  "n3_2241": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "出迎える",
+      "masu": "出迎えます",
+      "te": "出迎えて",
+      "ta": "出迎えた",
+      "nai": "出迎えない"
+    },
+    "examples": [
+      {
+        "ja": "空港まで友人を出迎えに行きました。",
+        "zh": "我去機場迎接朋友。"
+      }
+    ]
+  },
+  "n3_2242": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "登場する",
+      "masu": "登場します",
+      "te": "登場して",
+      "ta": "登場した",
+      "nai": "登場しない"
+    },
+    "examples": [
+      {
+        "ja": "新しい人物が物語に登場しました。",
+        "zh": "新角色在故事中登場了。"
+      }
+    ]
+  },
+  "n3_2243": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "引き止める",
+      "masu": "引き止めます",
+      "te": "引き止めて",
+      "ta": "引き止めた",
+      "nai": "引き止めない"
+    },
+    "examples": [
+      {
+        "ja": "帰ろうとしたら友人に引き止められました。",
+        "zh": "我正要回家時被朋友挽留了。"
+      }
+    ]
+  },
+  "n3_2244": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "このレストランは地元で評判がいいです。",
+        "zh": "這家餐廳在當地評價很好。"
+      }
+    ]
+  },
+  "n3_2245": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "閉店する",
+      "masu": "閉店します",
+      "te": "閉店して",
+      "ta": "閉店した",
+      "nai": "閉店しない"
+    },
+    "examples": [
+      {
+        "ja": "その店は八時に閉店します。",
+        "zh": "那家店八點打烊。"
+      }
+    ]
+  },
+  "n3_2246": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "通りには小さな店屋が多くあります。",
+        "zh": "街上有很多小店家。"
+      }
+    ]
+  },
+  "n3_2247": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "薬局で風邪薬を買いました。",
+        "zh": "我在藥局買了感冒藥。"
+      }
+    ]
+  },
+  "n3_2248": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "洋品店でシャツを買いました。",
+        "zh": "我在服飾用品店買了襯衫。"
+      }
+    ]
+  },
+  "n3_2249": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "運搬する",
+      "masu": "運搬します",
+      "te": "運搬して",
+      "ta": "運搬した",
+      "nai": "運搬しない"
+    },
+    "examples": [
+      {
+        "ja": "重い荷物の運搬を業者に頼みました。",
+        "zh": "我請業者搬運重物。"
+      }
+    ]
+  },
+  "n3_2250": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "加速する",
+      "masu": "加速します",
+      "te": "加速して",
+      "ta": "加速した",
+      "nai": "加速しない"
+    },
+    "examples": [
+      {
+        "ja": "車が坂道で加速しました。",
+        "zh": "車子在坡道上加速了。"
+      }
+    ]
+  },
+  "n3_2251": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "港には多くの貨物が積まれています。",
+        "zh": "港口堆放著許多貨物。"
+      }
+    ]
+  },
+  "n3_2252": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "下車する",
+      "masu": "下車します",
+      "te": "下車して",
+      "ta": "下車した",
+      "nai": "下車しない"
+    },
+    "examples": [
+      {
+        "ja": "次の駅で下車してください。",
+        "zh": "請在下一站下車。"
+      }
+    ]
+  },
+  "n3_2253": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "通勤には交通機関を利用しています。",
+        "zh": "我通勤時使用大眾運輸。"
+      }
+    ]
+  },
+  "n3_2254": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "座席に荷物を置かないでください。",
+        "zh": "請不要把行李放在座位上。"
+      }
+    ]
+  },
+  "n3_2255": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この道路の制限速度は時速六十キロです。",
+        "zh": "這條道路的速限是時速六十公里。"
+      }
+    ]
+  },
+  "n3_2256": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "自転車の車輪が曲がってしまいました。",
+        "zh": "腳踏車的輪子歪掉了。"
+      }
+    ]
+  },
+  "n3_2257": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "船は速力を落として港に入りました。",
+        "zh": "船降低速度進入港口。"
+      }
+    ]
+  },
+  "n3_2258": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅まで出迎えに行きます。",
+        "zh": "我會去車站接人。"
+      }
+    ]
+  },
+  "n3_2259": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "列車は長いトンネルを通りました。",
+        "zh": "列車通過了長長的隧道。"
+      }
+    ]
+  },
+  "n3_2260": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "発車する",
+      "masu": "発車します",
+      "te": "発車して",
+      "ta": "発車した",
+      "nai": "発車しない"
+    },
+    "examples": [
+      {
+        "ja": "電車はまもなく発車します。",
+        "zh": "電車即將發車。"
+      }
+    ]
+  },
+  "n3_2261": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "運転中はハンドルをしっかり握ってください。",
+        "zh": "開車時請握穩方向盤。"
+      }
+    ]
+  },
+  "n3_2262": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "道路標識をよく確認してください。",
+        "zh": "請仔細確認道路標誌。"
+      }
+    ]
+  },
+  "n3_2263": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "運転するには免許証が必要です。",
+        "zh": "開車需要駕照。"
+      }
+    ]
+  },
+  "n3_2264": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "輸送する",
+      "masu": "輸送します",
+      "te": "輸送して",
+      "ta": "輸送した",
+      "nai": "輸送しない"
+    },
+    "examples": [
+      {
+        "ja": "食料を船で島へ輸送しました。",
+        "zh": "糧食用船運送到島上。"
+      }
+    ]
+  },
+  "n3_2265": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "海でヨットに乗りました。",
+        "zh": "我在海上搭了帆船。"
+      }
+    ]
+  },
+  "n3_2266": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "往復する",
+      "masu": "往復します",
+      "te": "往復して",
+      "ta": "往復した",
+      "nai": "往復しない"
+    },
+    "examples": [
+      {
+        "ja": "東京と大阪を一日で往復しました。",
+        "zh": "我一天內往返東京和大阪。"
+      }
+    ]
+  },
+  "n3_2267": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "改札を通ってホームへ向かいました。",
+        "zh": "我通過剪票口走向月台。"
+      }
+    ]
+  },
+  "n3_2268": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "古い機関車が博物館に展示されています。",
+        "zh": "老火車頭展示在博物館裡。"
+      }
+    ]
+  },
+  "n3_2269": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "航空会社のカウンターで手続きをしました。",
+        "zh": "我在航空公司櫃台辦了手續。"
+      }
+    ]
+  },
+  "n3_2270": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "最終の電車に何とか間に合いました。",
+        "zh": "我總算趕上了最後一班電車。"
+      }
+    ]
+  },
+  "n3_2271": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この地域では私鉄が便利です。",
+        "zh": "這個地區私鐵很方便。"
+      }
+    ]
+  },
+  "n3_2272": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "このバスの終点は駅前です。",
+        "zh": "這班公車的終點是車站前。"
+      }
+    ]
+  },
+  "n3_2273": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "乗車する",
+      "masu": "乗車します",
+      "te": "乗車して",
+      "ta": "乗車した",
+      "nai": "乗車しない"
+    },
+    "examples": [
+      {
+        "ja": "乗車の際は整理券を取ってください。",
+        "zh": "上車時請拿整理券。"
+      }
+    ]
+  },
+  "n3_2274": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "乗車券は改札の前で買えます。",
+        "zh": "車票可以在剪票口前購買。"
+      }
+    ]
+  },
+  "n3_2275": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "寝台列車で夜の間に移動しました。",
+        "zh": "我搭臥鋪列車在夜間移動。"
+      }
+    ]
+  },
+  "n3_2276": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "線路内に入るのは危険です。",
+        "zh": "進入鐵軌內很危險。"
+      }
+    ]
+  },
+  "n3_2277": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "脱線する",
+      "masu": "脱線します",
+      "te": "脱線して",
+      "ta": "脱線した",
+      "nai": "脱線しない"
+    },
+    "examples": [
+      {
+        "ja": "話が脱線したので本題に戻しましょう。",
+        "zh": "話題離題了，我們回到正題吧。"
+      }
+    ]
+  },
+  "n3_2278": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "停車する",
+      "masu": "停車します",
+      "te": "停車して",
+      "ta": "停車した",
+      "nai": "停車しない"
+    },
+    "examples": [
+      {
+        "ja": "バスは病院前で停車します。",
+        "zh": "公車會在醫院前停車。"
+      }
+    ]
+  },
+  "n3_2279": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "鉄道の歴史を資料館で学びました。",
+        "zh": "我在資料館學了鐵路歷史。"
+      }
+    ]
+  },
+  "n3_2280": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "通りかかる",
+      "masu": "通りかかります",
+      "te": "通りかかって",
+      "ta": "通りかかった",
+      "nai": "通りかからない"
+    },
+    "examples": [
+      {
+        "ja": "通りかかった人が道を教えてくれました。",
+        "zh": "路過的人告訴了我路怎麼走。"
+      }
+    ]
+  },
+  "n3_2281": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "飛行する",
+      "masu": "飛行します",
+      "te": "飛行して",
+      "ta": "飛行した",
+      "nai": "飛行しない"
+    },
+    "examples": [
+      {
+        "ja": "鳥の飛行について研究しています。",
+        "zh": "我正在研究鳥類的飛行。"
+      }
+    ]
+  },
+  "n3_2282": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "けが人はヘリコプターで運ばれました。",
+        "zh": "傷者被直升機運走。"
+      }
+    ]
+  },
+  "n3_2283": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "湖で小さなボートに乗りました。",
+        "zh": "我在湖上搭了小船。"
+      }
+    ]
+  },
+  "n3_2284": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "電車は満員で座れませんでした。",
+        "zh": "電車滿員，沒辦法坐下。"
+      }
+    ]
+  },
+  "n3_2285": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夜行バスで大阪へ向かいました。",
+        "zh": "我搭夜間巴士前往大阪。"
+      }
+    ]
+  },
+  "n3_2286": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "港から遊覧船が出ています。",
+        "zh": "遊覽船從港口出發。"
+      }
+    ]
+  },
+  "n3_2287": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "横断する",
+      "masu": "横断します",
+      "te": "横断して",
+      "ta": "横断した",
+      "nai": "横断しない"
+    },
+    "examples": [
+      {
+        "ja": "横断歩道を渡ってください。",
+        "zh": "請走斑馬線橫越道路。"
+      }
+    ]
+  },
+  "n3_2288": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この道は凹凸が多くて歩きにくいです。",
+        "zh": "這條路凹凸不平，很難走。"
+      }
+    ]
+  },
+  "n3_2289": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "大通りに面した店は家賃が高いです。",
+        "zh": "面對大馬路的店租金很高。"
+      }
+    ]
+  },
+  "n3_2290": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "スポーツカーが高速道路を走っています。",
+        "zh": "跑車正在高速公路上行駛。"
+      }
+    ]
+  },
+  "n3_2291": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "急なカーブでは速度を落としてください。",
+        "zh": "急彎時請降低速度。"
+      }
+    ]
+  },
+  "n3_2292": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "開通する",
+      "masu": "開通します",
+      "te": "開通して",
+      "ta": "開通した",
+      "nai": "開通しない"
+    },
+    "examples": [
+      {
+        "ja": "新しい道路が来月開通します。",
+        "zh": "新道路下個月開通。"
+      }
+    ]
+  },
+  "n3_2293": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "交差する",
+      "masu": "交差します",
+      "te": "交差して",
+      "ta": "交差した",
+      "nai": "交差しない"
+    },
+    "examples": [
+      {
+        "ja": "二つの線がここで交差しています。",
+        "zh": "兩條線在這裡交叉。"
+      }
+    ]
+  },
+  "n3_2294": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "高速バスで空港へ行きました。",
+        "zh": "我搭高速巴士去了機場。"
+      }
+    ]
+  },
+  "n3_2295": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "車を車庫に入れてください。",
+        "zh": "請把車停進車庫。"
+      }
+    ]
+  },
+  "n3_2296": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "車道に飛び出すと危険です。",
+        "zh": "衝到車道上很危險。"
+      }
+    ]
+  },
+  "n3_2297": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この駐車場は乗用車専用です。",
+        "zh": "這個停車場限小客車使用。"
+      }
+    ]
+  },
+  "n3_2298": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "整備する",
+      "masu": "整備します",
+      "te": "整備して",
+      "ta": "整備した",
+      "nai": "整備しない"
+    },
+    "examples": [
+      {
+        "ja": "出発前に車を整備しました。",
+        "zh": "出發前我保養了車子。"
+      }
+    ]
+  },
+  "n3_2299": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "通行する",
+      "masu": "通行します",
+      "te": "通行して",
+      "ta": "通行した",
+      "nai": "通行しない"
+    },
+    "examples": [
+      {
+        "ja": "工事中のためこの道は通行できません。",
+        "zh": "因為施工中，這條路不能通行。"
+      }
+    ]
+  },
+  "n3_2300": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "通路に荷物を置かないでください。",
+        "zh": "請不要把行李放在通道上。"
+      }
+    ]
+  },
+  "n3_2301": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "飛び出す",
+      "masu": "飛び出します",
+      "te": "飛び出して",
+      "ta": "飛び出した",
+      "nai": "飛び出さない"
+    },
+    "examples": [
+      {
+        "ja": "子どもが急に道路へ飛び出しました。",
+        "zh": "孩子突然衝到道路上。"
+      }
+    ]
+  },
+  "n3_2302": {
+    "pos": "katakana",
+    "posLabel": "外來語",
+    "examples": [
+      {
+        "ja": "自転車のタイヤがパンクしました。",
+        "zh": "腳踏車輪胎爆胎了。"
+      }
+    ]
+  },
+  "n3_2303": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "引き返す",
+      "masu": "引き返します",
+      "te": "引き返して",
+      "ta": "引き返した",
+      "nai": "引き返さない"
+    },
+    "examples": [
+      {
+        "ja": "雨が強くなったので途中で引き返しました。",
+        "zh": "雨變大了，所以中途折返。"
+      }
+    ]
+  },
+  "n3_2304": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "夜になるとこの道は人通りが少なくなります。",
+        "zh": "到了晚上這條路行人會變少。"
+      }
+    ]
+  },
+  "n3_2305": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "凹む",
+      "masu": "凹みます",
+      "te": "凹んで",
+      "ta": "凹んだ",
+      "nai": "凹まない"
+    },
+    "examples": [
+      {
+        "ja": "ぶつけた車のドアがへこんでしまいました。",
+        "zh": "撞到後車門凹陷了。"
+      }
+    ]
+  },
+  "n3_2306": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "舗装する",
+      "masu": "舗装します",
+      "te": "舗装して",
+      "ta": "舗装した",
+      "nai": "舗装しない"
+    },
+    "examples": [
+      {
+        "ja": "この道路は最近舗装されました。",
+        "zh": "這條道路最近鋪設了路面。"
+      }
+    ]
+  },
+  "n3_2307": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "歩道を自転車で走るときは注意してください。",
+        "zh": "在人行道上騎腳踏車時請注意。"
+      }
+    ]
+  },
+  "n3_2308": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "工事中なので回り道をしました。",
+        "zh": "因為施工中，所以繞了路。"
+      }
+    ]
+  },
+  "n3_2309": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅までの道順を教えてください。",
+        "zh": "請告訴我到車站的路線。"
+      }
+    ]
+  },
+  "n3_2310": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "この坂は緩いので歩きやすいです。",
+        "zh": "這個坡很緩，所以很好走。"
+      }
+    ]
+  },
+  "n3_2311": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "横切る",
+      "masu": "横切ります",
+      "te": "横切って",
+      "ta": "横切った",
+      "nai": "横切らない"
+    },
+    "examples": [
+      {
+        "ja": "猫が道路を横切りました。",
+        "zh": "貓橫越了馬路。"
+      }
+    ]
+  },
+  "n3_egg_0001": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "東京行きの電車は三番線から出ます。",
+        "zh": "開往東京的電車從三號月台出發。"
+      }
+    ]
+  },
+  "n3_egg_0002": {
+    "pos": "conjunction",
+    "posLabel": "接續詞",
+    "examples": [
+      {
+        "ja": "準備は大変だが、やる価値はあります。",
+        "zh": "準備很辛苦，但是有做的價值。"
+      }
+    ]
+  },
+  "n3_egg_0003": {
+    "pos": "conjunction",
+    "posLabel": "接續詞",
+    "examples": [
+      {
+        "ja": "失敗しました。それでも諦めませんでした。",
+        "zh": "失敗了。即使如此，我也沒有放棄。"
+      }
+    ]
+  },
+  "n3_egg_0004": {
+    "pos": "particle",
+    "posLabel": "助詞",
+    "examples": [
+      {
+        "ja": "休みの日なんかはよく図書館へ行きます。",
+        "zh": "像是假日之類的日子，我常去圖書館。"
+      }
+    ]
+  },
+  "n3_egg_0005": {
+    "pos": "interjection",
+    "posLabel": "感動詞",
+    "examples": [
+      {
+        "ja": "まあ、今日はこのくらいで終わりにしましょう。",
+        "zh": "好了，今天就到這裡結束吧。"
+      }
+    ]
+  },
+  "n3_egg_0006": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "自分の分は自分で払います。",
+        "zh": "自己的那一份我自己付。"
+      }
+    ]
+  },
+  "n3_egg_0007": {
+    "pos": "pronoun",
+    "posLabel": "代名詞",
+    "examples": [
+      {
+        "ja": "俺は先に帰るよ。",
+        "zh": "我先回去了。"
+      }
+    ]
+  },
+  "n3_egg_0008": {
+    "pos": "interjection",
+    "posLabel": "感動詞",
+    "examples": [
+      {
+        "ja": "ほら、あそこに虹が出ています。",
+        "zh": "你看，那裡出現彩虹了。"
+      }
+    ]
+  },
+  "n3_egg_0009": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "彼は強い敵にも逃げずに立ち向かいました。",
+        "zh": "他面對強敵也沒有逃跑。"
+      }
+    ]
+  },
+  "n3_egg_0010": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "駅はもう目の前です。",
+        "zh": "車站已經就在眼前了。"
+      }
+    ]
+  },
+  "n3_egg_0011": {
+    "pos": "expression",
+    "posLabel": "慣用表現",
+    "examples": [
+      {
+        "ja": "さっきからその音が気になります。",
+        "zh": "從剛才開始我就很在意那個聲音。"
+      }
+    ]
+  },
+  "n3_egg_0012": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "向ける",
+      "masu": "向けます",
+      "te": "向けて",
+      "ta": "向けた",
+      "nai": "向けない"
+    },
+    "examples": [
+      {
+        "ja": "先生は学生にカメラを向けました。",
+        "zh": "老師把相機朝向學生。"
+      }
+    ]
+  },
+  "n3_egg_0013": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "今まで一度も海外へ行ったことがありません。",
+        "zh": "到目前為止我一次也沒有去過海外。"
+      }
+    ]
+  },
+  "n3_egg_0014": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "長い工事がようやく終わりました。",
+        "zh": "漫長的工程終於結束了。"
+      }
+    ]
+  },
+  "n3_egg_0015": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "会議には全員が出席しました。",
+        "zh": "所有人都出席了會議。"
+      }
+    ]
+  },
+  "n3_egg_0016": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "感情だけで判断してはいけません。",
+        "zh": "不能只憑情緒判斷。"
+      }
+    ]
+  },
+  "n3_egg_0017": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "済む",
+      "masu": "済みます",
+      "te": "済んで",
+      "ta": "済んだ",
+      "nai": "済まない"
+    },
+    "examples": [
+      {
+        "ja": "謝れば済む問題ではありません。",
+        "zh": "這不是道歉就能解決的問題。"
+      }
+    ]
+  },
+  "n3_egg_0018": {
+    "pos": "interjection",
+    "posLabel": "感動詞",
+    "examples": [
+      {
+        "ja": "おお、これはすばらしい景色ですね。",
+        "zh": "喔，這景色真棒。"
+      }
+    ]
+  },
+  "n3_egg_0019": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "せっかく来たので展望台まで行きましょう。",
+        "zh": "難得來了，就到觀景台去吧。"
+      }
+    ]
+  },
+  "n3_egg_0020": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "どうしても今日中に終わらせたいです。",
+        "zh": "我無論如何都想在今天之內完成。"
+      }
+    ]
+  },
+  "n3_egg_0021": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "追う",
+      "masu": "追います",
+      "te": "追って",
+      "ta": "追った",
+      "nai": "追わない"
+    },
+    "examples": [
+      {
+        "ja": "警察は逃げた車を追いました。",
+        "zh": "警察追趕逃走的車。"
+      }
+    ]
+  },
+  "n3_egg_0022": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "あんまり無理をしないでください。",
+        "zh": "請不要太勉強自己。"
+      }
+    ]
+  },
+  "n3_egg_0023": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "その場で返事をすることはできませんでした。",
+        "zh": "我無法當場回覆。"
+      }
+    ]
+  },
+  "n3_egg_0024": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "伝わる",
+      "masu": "伝わります",
+      "te": "伝わって",
+      "ta": "伝わった",
+      "nai": "伝わらない"
+    },
+    "examples": [
+      {
+        "ja": "彼の気持ちが手紙から伝わってきました。",
+        "zh": "他的心情從信中傳達了過來。"
+      }
+    ]
+  },
+  "n3_egg_0025": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "振る",
+      "masu": "振ります",
+      "te": "振って",
+      "ta": "振った",
+      "nai": "振らない"
+    },
+    "examples": [
+      {
+        "ja": "彼女は笑顔で手を振りました。",
+        "zh": "她笑著揮手。"
+      }
+    ]
+  },
+  "n3_egg_0026": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "離す",
+      "masu": "離します",
+      "te": "離して",
+      "ta": "離した",
+      "nai": "離さない"
+    },
+    "examples": [
+      {
+        "ja": "危ないので子どもから目を離さないでください。",
+        "zh": "很危險，所以請不要讓孩子離開視線。"
+      }
+    ]
+  },
+  "n3_egg_0027": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "その件については後で説明します。",
+        "zh": "關於那件事我之後再說明。"
+      }
+    ]
+  },
+  "n3_egg_0028": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "どれだけ練習しても不安は残ります。",
+        "zh": "不管練習多少，還是會有不安。"
+      }
+    ]
+  },
+  "n3_egg_0029": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "彼はついに夢を実現しました。",
+        "zh": "他終於實現了夢想。"
+      }
+    ]
+  },
+  "n3_egg_0030": {
+    "pos": "expression",
+    "posLabel": "慣用表現",
+    "examples": [
+      {
+        "ja": "この結果から安全だと思われます。",
+        "zh": "從這個結果看來應該是安全的。"
+      }
+    ]
+  },
+  "n3_egg_0031": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "いつまでもこの町を忘れません。",
+        "zh": "我永遠不會忘記這座城鎮。"
+      }
+    ]
+  },
+  "n3_egg_0032": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "examples": [
+      {
+        "ja": "駅で偶然昔の先生に会いました。",
+        "zh": "我在車站偶然遇見以前的老師。"
+      }
+    ]
+  },
+  "n3_egg_0033": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この型のスマートフォンはもう売っていません。",
+        "zh": "這個型號的智慧型手機已經不賣了。"
+      }
+    ]
+  },
+  "n3_egg_0034": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "抑える",
+      "masu": "抑えます",
+      "te": "抑えて",
+      "ta": "抑えた",
+      "nai": "抑えない"
+    },
+    "examples": [
+      {
+        "ja": "怒りを抑えるのは簡単ではありません。",
+        "zh": "控制怒氣並不容易。"
+      }
+    ]
+  },
+  "n3_egg_0035": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "財布にはたった千円しかありませんでした。",
+        "zh": "錢包裡只有一千日圓。"
+      }
+    ]
+  },
+  "n3_egg_0036": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "この経験には大きな価値があります。",
+        "zh": "這個經驗有很大的價值。"
+      }
+    ]
+  },
+  "n3_egg_0037": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "赤ちゃんを起こさないようにそっと歩きました。",
+        "zh": "為了不吵醒嬰兒，我輕輕地走路。"
+      }
+    ]
+  },
+  "n3_egg_0038": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
+    "forms": {
+      "dictionary": "見つめる",
+      "masu": "見つめます",
+      "te": "見つめて",
+      "ta": "見つめた",
+      "nai": "見つめない"
+    },
+    "examples": [
+      {
+        "ja": "彼女は写真をじっと見つめていました。",
+        "zh": "她一動也不動地凝視著照片。"
+      }
+    ]
+  },
+  "n3_egg_0039": {
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
+    "examples": [
+      {
+        "ja": "電車が止まったなら仕方ないですね。",
+        "zh": "電車停駛的話也沒辦法。"
+      }
+    ]
+  },
+  "n3_egg_0040": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "ちなみに、明日は休館日です。",
+        "zh": "順帶一提，明天是休館日。"
+      }
+    ]
+  },
+  "n3_egg_0041": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "鳴る",
+      "masu": "鳴ります",
+      "te": "鳴って",
+      "ta": "鳴った",
+      "nai": "鳴らない"
+    },
+    "examples": [
+      {
+        "ja": "遠くで鐘が鳴っています。",
+        "zh": "遠處鐘聲正在響。"
+      }
+    ]
+  },
+  "n3_egg_0042": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "なぜか今日は朝から眠いです。",
+        "zh": "不知為何今天從早上就很想睡。"
+      }
+    ]
+  },
+  "n3_egg_0043": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "女子の参加者が年々増えています。",
+        "zh": "女性參加者逐年增加。"
+      }
+    ]
+  },
+  "n3_egg_0044": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "丘の上に古い城があります。",
+        "zh": "小丘上有一座古城。"
+      }
+    ]
+  },
+  "n3_egg_0045": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "熱いスープで舌をやけどしました。",
+        "zh": "我被熱湯燙到了舌頭。"
+      }
+    ]
+  },
+  "n3_egg_0047": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "経つ",
+      "masu": "経ちます",
+      "te": "経って",
+      "ta": "経った",
+      "nai": "経たない"
+    },
+    "examples": [
+      {
+        "ja": "卒業してから十年が経ちました。",
+        "zh": "畢業後已經過了十年。"
+      }
+    ]
+  },
+  "n3_egg_0048": {
+    "pos": "suffix",
+    "posLabel": "接尾語",
+    "examples": [
+      {
+        "ja": "彼は理科系の学生です。",
+        "zh": "他是理科類的學生。"
+      }
+    ]
+  },
+  "n3_egg_0049": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "examples": [
+      {
+        "ja": "兄弟は仲良く遊んでいます。",
+        "zh": "兄弟感情很好地玩在一起。"
+      }
+    ]
+  },
+  "n3_egg_0050": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "同じ内容でも言い方で印象が変わります。",
+        "zh": "即使內容相同，說法也會改變印象。"
+      }
+    ]
+  },
+  "n3_egg_0051": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "引っ張る",
+      "masu": "引っ張ります",
+      "te": "引っ張って",
+      "ta": "引っ張った",
+      "nai": "引っ張らない"
+    },
+    "examples": [
+      {
+        "ja": "子どもが母の手を強く引っ張りました。",
+        "zh": "孩子用力拉著媽媽的手。"
+      }
+    ]
+  },
+  "n3_egg_0052": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "張る",
+      "masu": "張ります",
+      "te": "張って",
+      "ta": "張った",
+      "nai": "張らない"
+    },
+    "examples": [
+      {
+        "ja": "壁にポスターを張りました。",
+        "zh": "我把海報貼在牆上。"
+      }
+    ]
+  },
+  "n3_egg_0053": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "店には大量の商品が届きました。",
+        "zh": "店裡送來了大量商品。"
+      }
+    ]
+  },
+  "n3_egg_0054": {
+    "pos": "interjection",
+    "posLabel": "感動詞",
+    "examples": [
+      {
+        "ja": "わあ、海がとてもきれいですね。",
+        "zh": "哇，海好漂亮。"
+      }
+    ]
+  },
+  "n3_egg_0055": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "つかむ",
+      "masu": "つかみます",
+      "te": "つかんで",
+      "ta": "つかんだ",
+      "nai": "つかまない"
+    },
+    "examples": [
+      {
+        "ja": "チャンスをしっかりつかみたいです。",
+        "zh": "我想好好抓住機會。"
+      }
+    ]
+  },
+  "n3_egg_0056": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "一人旅で北海道へ行きました。",
+        "zh": "我一個人旅行去了北海道。"
+      }
+    ]
+  },
+  "n3_egg_0057": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "解く",
+      "masu": "解きます",
+      "te": "解いて",
+      "ta": "解いた",
+      "nai": "解かない"
+    },
+    "examples": [
+      {
+        "ja": "靴のひもを解いてから部屋に入りました。",
+        "zh": "我解開鞋帶後進了房間。"
       }
     ]
   },
   "n3_egg_0058": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -26397,16 +29967,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "いいアイデアを思いつく",
-        "zh": "想到一個好主意"
+        "ja": "いい考えを思いつきました。",
+        "zh": "我想到了一個好點子。"
       }
     ]
   },
   "n3_egg_0059": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -26420,30 +29988,26 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "つばを吐く",
-        "zh": "吐口水"
+        "ja": "気分が悪くて少し吐きそうです。",
+        "zh": "我身體不舒服，有點想吐。"
       }
     ]
   },
   "n3_egg_0060": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "内心の驚きを隠せない",
-        "zh": "掩飾不住內心的驚恐"
+        "ja": "突然の知らせに驚きを隠せませんでした。",
+        "zh": "面對突如其來的消息，我藏不住驚訝。"
       }
     ]
   },
   "n3_egg_0061": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -26455,64 +30019,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "自由に発言する",
-        "zh": "自由發表意見"
+        "ja": "会議で彼の発言が注目されました。",
+        "zh": "會議上他的發言受到關注。"
       }
     ]
   },
   "n3_egg_0062": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "以下同様",
-        "zh": "以下相同"
+        "ja": "私も同様の意見です。",
+        "zh": "我也有同樣的意見。"
       }
     ]
   },
   "n3_egg_0063": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "段ボール箱の底のほうに入っている",
-        "zh": "在紙箱最下面放著"
+        "ja": "箱の底に古い写真がありました。",
+        "zh": "箱底有一張舊照片。"
       }
     ]
   },
   "n3_egg_0064": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "出かけたついでに郵便を出す",
-        "zh": "出門順便寄信"
+        "ja": "買い物のついでに郵便局へ寄りました。",
+        "zh": "買東西時我順便去了郵局。"
       }
     ]
   },
   "n3_egg_0065": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・副",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "あの人は私よりいくつか年上だ",
-        "zh": "那個人比我大幾歲"
+        "ja": "質問がいくつかあります。",
+        "zh": "我有幾個問題。"
       }
     ]
   },
   "n3_egg_0066": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -26526,52 +30080,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "材料を選択する",
-        "zh": "選擇材料"
+        "ja": "どちらを選ぶかは自由な選択です。",
+        "zh": "要選哪一個是自由選擇。"
       }
     ]
   },
   "n3_egg_0067": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "意志の強い人",
-        "zh": "意志堅強的人"
+        "ja": "彼女には最後まで続ける強い意志があります。",
+        "zh": "她有堅持到最後的強大意志。"
       }
     ]
   },
   "n3_egg_0068": {
-    "pos": "conjunction",
-    "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・接",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "卒業生A、同じくB、同じくC",
-        "zh": "畢業生A，同B，同C"
+        "ja": "兄は医師です。同じく姉も医師です。",
+        "zh": "哥哥是醫師。同樣地，姊姊也是醫師。"
       }
     ]
   },
   "n3_egg_0069": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "足音が消えた",
-        "zh": "腳步聲消失了"
+        "ja": "廊下から足音が聞こえました。",
+        "zh": "走廊傳來了腳步聲。"
       }
     ]
   },
   "n3_egg_0070": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -26585,16 +30131,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "この製品を使用する前に、説明書をお読みください",
-        "zh": "使用本產品前，請先閱讀說明書"
+        "ja": "この部屋では携帯電話の使用は禁止です。",
+        "zh": "這個房間禁止使用手機。"
       }
     ]
   },
   "n3_egg_0071": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -26608,18 +30152,16 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "警察が踏み込んで容疑者の家を捜す",
-        "zh": "警察破門而入搜索嫌疑人的家"
+        "ja": "なくした鍵を一日中捜しました。",
+        "zh": "我找了一整天遺失的鑰匙。"
       }
     ]
   },
   "n3_egg_0072": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
@@ -26631,16 +30173,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "谷を越える",
-        "zh": "越過山谷"
+        "ja": "山を越えると小さな村があります。",
+        "zh": "越過山後有一座小村莊。"
       }
     ]
   },
   "n3_egg_0073": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -26654,28 +30194,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "足並みがそろう",
-        "zh": "步調一致"
+        "ja": "全員がそろったら出発しましょう。",
+        "zh": "所有人到齊後就出發吧。"
       }
     ]
   },
   "n3_egg_0074": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "この前の日曜日",
-        "zh": "上星期天"
+        "ja": "この前会ったときより元気そうですね。",
+        "zh": "你看起來比上次見面時有精神。"
       }
     ]
   },
   "n3_egg_0075": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名・自動3",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "suru",
@@ -26689,16 +30225,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "彼の我慢強さに感心する",
-        "zh": "佩服他的忍耐力"
+        "ja": "彼の努力には本当に感心しました。",
+        "zh": "我真的很佩服他的努力。"
       }
     ]
   },
   "n3_egg_0076": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -26712,112 +30246,94 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "山を下りる",
-        "zh": "下山"
+        "ja": "やっと許可が下りました。",
+        "zh": "許可終於核准下來了。"
       }
     ]
   },
   "n3_egg_0077": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "時間はいくらでもある",
-        "zh": "時間很多"
+        "ja": "必要なら資料はいくらでも用意します。",
+        "zh": "如果需要，資料要多少我都會準備。"
       }
     ]
   },
   "n3_egg_0078": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "兄のおかげで泳げるようになった",
-        "zh": "多虧了哥哥，我才能學會游泳"
+        "ja": "先生のおかげで合格できました。",
+        "zh": "多虧老師，我才能考上。"
       }
     ]
   },
   "n3_egg_0079": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "助けを求める",
-        "zh": "求助"
+        "ja": "困ったときは友人の助けが必要です。",
+        "zh": "困難時需要朋友的幫助。"
       }
     ]
   },
   "n3_egg_0080": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "数日前",
-        "zh": "前幾天"
+        "ja": "数日後に結果が分かります。",
+        "zh": "幾天後就會知道結果。"
       }
     ]
   },
   "n3_egg_0081": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "動物をいじめるのは情けない人のすることだ",
-        "zh": "虐待動物是沒良心的人才會做的事"
+        "ja": "小さな約束も守れないなんて情けないです。",
+        "zh": "連小小的約定都守不了，真沒出息。"
       }
     ]
   },
   "n3_egg_0082": {
-    "pos": "suffix",
-    "posLabel": "接尾語",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接尾・名",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "安全性",
-        "zh": "安全性"
+        "ja": "年齢や性に関係なく参加できます。",
+        "zh": "不論年齡或性別都可以參加。"
       }
     ]
   },
   "n3_egg_0083": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "値段も安く、その上質もいい",
-        "zh": "價錢便宜且品質優良"
+        "ja": "雨が強く、そのうえ風も出てきました。",
+        "zh": "雨很大，而且風也開始吹了。"
       }
     ]
   },
   "n3_egg_0084": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "次々と作品を発表する",
-        "zh": "陸續發表作品"
+        "ja": "新しい問題が次々と出てきました。",
+        "zh": "新的問題接連不斷地出現。"
       }
     ]
   },
   "n3_egg_0085": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -26831,40 +30347,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "朝早く目覚める",
-        "zh": "早上很早醒來"
+        "ja": "朝の光で目覚めました。",
+        "zh": "我被早晨的光喚醒了。"
       }
     ]
   },
   "n3_egg_0086": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "二人は仲がいい",
-        "zh": "他們倆感情很好"
+        "ja": "二人の仲はとてもいいです。",
+        "zh": "兩人的關係很好。"
       }
     ]
   },
   "n3_egg_0087": {
-    "pos": "pronoun",
-    "posLabel": "代名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "代",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "この植物なら国内のあちこちにある",
-        "zh": "這種植物在國內各地都有"
+        "ja": "旅行中はあちこち歩き回りました。",
+        "zh": "旅行時我到處走動。"
       }
     ]
   },
   "n3_egg_0088": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -26878,64 +30388,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "貸した本が返る",
-        "zh": "借的書還回來了"
+        "ja": "しばらくして返事が返ってきました。",
+        "zh": "過了一會兒回覆傳回來了。"
       }
     ]
   },
   "n3_egg_0089": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "男女を問わず",
-        "zh": "不問男女"
+        "ja": "男女ともに参加できます。",
+        "zh": "男女都可以參加。"
       }
     ]
   },
   "n3_egg_0090": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "実家に帰る",
-        "zh": "回老家"
+        "ja": "週末に実家へ帰りました。",
+        "zh": "週末我回了老家。"
       }
     ]
   },
   "n3_egg_0091": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "岩のように硬い",
-        "zh": "像岩石一般硬"
+        "ja": "海岸には大きな岩が並んでいます。",
+        "zh": "海岸邊排列著大岩石。"
       }
     ]
   },
   "n3_egg_0092": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "参加者の人数を教えてください",
-        "zh": "請告訴我參加者的人數"
+        "ja": "参加する人数を確認してください。",
+        "zh": "請確認參加人數。"
       }
     ]
   },
   "n3_egg_0093": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -26949,64 +30449,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "カエルがたまごを産み出す",
-        "zh": "青蛙產卵"
+        "ja": "その研究は新しい技術を生み出しました。",
+        "zh": "那項研究創造出了新技術。"
       }
     ]
   },
   "n3_egg_0094": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・副",
     "examples": [
       {
-        "ja": "約を結ぶ",
-        "zh": "締約"
+        "ja": "会場までは歩いて約十分です。",
+        "zh": "到會場走路大約十分鐘。"
       }
     ]
   },
   "n3_egg_0095": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "pronoun",
+    "posLabel": "代名詞",
     "examples": [
       {
-        "ja": "自分自身の問題",
-        "zh": "自身的問題"
+        "ja": "自分自身の考えを大切にしてください。",
+        "zh": "請重視自己的想法。"
       }
     ]
   },
   "n3_egg_0096": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "このブドウはよく実がなる",
-        "zh": "這種葡萄結得多"
+        "ja": "この木には赤い実がなります。",
+        "zh": "這棵樹會結紅色果實。"
       }
     ]
   },
   "n3_egg_0097": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大声で叫ぶ",
-        "zh": "大聲叫喊"
+        "ja": "大声で名前を呼ばれました。",
+        "zh": "有人大聲叫了我的名字。"
       }
     ]
   },
   "n3_egg_0098": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -27020,28 +30510,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "階段を上る",
-        "zh": "上樓梯"
+        "ja": "被害額は一億円に上ります。",
+        "zh": "損失金額高達一億日圓。"
       }
     ]
   },
   "n3_egg_0099": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
     "examples": [
       {
-        "ja": "どのような症状ですか",
-        "zh": "什麼樣的症狀呢？"
+        "ja": "どのような方法で調べましたか。",
+        "zh": "你是用什麼樣的方法調查的？"
       }
     ]
   },
   "n3_egg_0100": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -27055,16 +30541,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "靴のひもが解けた",
-        "zh": "鞋帶開了"
+        "ja": "時間がたてば緊張も解けます。",
+        "zh": "時間一久緊張也會消除。"
       }
     ]
   },
   "n3_egg_0101": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -27078,16 +30562,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "雑巾で机を拭く",
-        "zh": "用抹布擦桌子"
+        "ja": "タオルで汗を拭きました。",
+        "zh": "我用毛巾擦了汗。"
       }
     ]
   },
   "n3_egg_0102": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -27101,28 +30583,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "向き合って話をする",
-        "zh": "面對面交談"
+        "ja": "問題と正面から向き合う必要があります。",
+        "zh": "有必要正面面對問題。"
       }
     ]
   },
   "n3_egg_0103": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "根から抜く",
-        "zh": "連根拔"
+        "ja": "植物の根が深く伸びています。",
+        "zh": "植物的根伸得很深。"
       }
     ]
   },
   "n3_egg_0104": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -27136,112 +30614,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "酒に酔う",
-        "zh": "醉酒"
+        "ja": "船に酔ってしまいました。",
+        "zh": "我暈船了。"
       }
     ]
   },
   "n3_egg_0105": {
     "pos": "pronoun",
     "posLabel": "代名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "代",
     "examples": [
       {
-        "ja": "今日はこれらの問題について話し合います",
-        "zh": "今天要討論這些問題"
+        "ja": "これらの資料を明日までに読んでください。",
+        "zh": "請在明天前讀完這些資料。"
       }
     ]
   },
   "n3_egg_0106": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "次第に冬が近づく",
-        "zh": "冬天的腳步漸近"
+        "ja": "空が次第に暗くなってきました。",
+        "zh": "天空逐漸暗了下來。"
       }
     ]
   },
   "n3_egg_0107": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "そのかわいそうな子どもたちは食べるものがない",
-        "zh": "那些可憐的孩子們沒有東西吃"
+        "ja": "捨てられた犬がかわいそうです。",
+        "zh": "被丟棄的狗很可憐。"
       }
     ]
   },
   "n3_egg_0108": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・副",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "はるかに広がるブドウ畑",
-        "zh": "一望無際的葡萄園"
+        "ja": "山の向こうに町がはるかに見えます。",
+        "zh": "山的另一邊遠遠看得見城鎮。"
       }
     ]
   },
   "n3_egg_0109": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・副",
     "examples": [
       {
-        "ja": "今頃学校に着いただろう",
-        "zh": "現在到學校了吧"
-      }
-    ]
-  },
-  "n3_egg_0110": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "表面を滑らかにする",
-        "zh": "將表面弄光滑"
+        "ja": "彼は今頃もう空港に着いているでしょう。",
+        "zh": "他這個時候應該已經到機場了吧。"
       }
     ]
   },
   "n3_egg_0111": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "円満な家庭",
-        "zh": "美滿的家庭"
+        "ja": "家庭での習慣は人によって違います。",
+        "zh": "家庭裡的習慣因人而異。"
       }
     ]
   },
   "n3_egg_0112": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "前回の優勝チーム",
-        "zh": "上一屆的優勝隊"
+        "ja": "前回の会議で決まったことを確認します。",
+        "zh": "確認上次會議決定的事情。"
       }
     ]
   },
   "n3_egg_0113": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -27255,63 +30705,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "棚に荷物が載っている",
-        "zh": "架子上放著行李"
+        "ja": "新聞に彼の記事が載りました。",
+        "zh": "報紙刊登了他的文章。"
       }
     ]
   },
   "n3_egg_0114": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "うっかり",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "うっかりして電車を間違えた",
-        "zh": "不留神上錯了電車"
+        "ja": "うっかり財布を家に忘れました。",
+        "zh": "我一時疏忽把錢包忘在家裡。"
       }
     ]
   },
   "n3_egg_0115": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "counter",
+    "posLabel": "助數詞",
     "examples": [
       {
-        "ja": "キログラム",
-        "zh": "公斤"
+        "ja": "駅まで二キロ歩きました。",
+        "zh": "我走了兩公里到車站。"
       }
     ]
   },
   "n3_egg_0116": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "感・副",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "いざ行かん",
-        "zh": "出發吧！"
+        "ja": "いざという時のために水を用意しています。",
+        "zh": "為了緊急時刻，我準備了水。"
       }
     ]
   },
   "n3_egg_0117": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -27325,40 +30756,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "両親に旅行を勧める",
-        "zh": "勸父母去旅行"
+        "ja": "医師は私に運動を勧めました。",
+        "zh": "醫師建議我運動。"
       }
     ]
   },
   "n3_egg_0118": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "皮を剥く",
-        "zh": "剝皮，削皮"
+        "ja": "りんごの皮をむきました。",
+        "zh": "我削了蘋果皮。"
       }
     ]
   },
   "n3_egg_0119": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "親子ほど年が離れている",
-        "zh": "年齡相差一輩"
+        "ja": "親子で料理教室に参加しました。",
+        "zh": "親子一起參加了料理教室。"
       }
     ]
   },
   "n3_egg_0120": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -27372,52 +30797,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "先輩にやり方を教わる",
-        "zh": "向前輩學習做法"
+        "ja": "私は祖母から編み物を教わりました。",
+        "zh": "我向祖母學了編織。"
       }
     ]
   },
   "n3_egg_0121": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "成句",
     "examples": [
       {
-        "ja": "ネックレスを身につける",
-        "zh": "戴項鍊"
+        "ja": "学生のうちに良い習慣を身につけたいです。",
+        "zh": "我想在學生時期養成好習慣。"
       }
     ]
   },
   "n3_egg_0122": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
     "examples": [
       {
-        "ja": "中にはいいのもある",
-        "zh": "其中也有不錯的"
+        "ja": "中には反対する人もいました。",
+        "zh": "其中也有人反對。"
       }
     ]
   },
   "n3_egg_0123": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "手作り",
-        "zh": "手工製作的"
+        "ja": "この椅子は丈夫な作りです。",
+        "zh": "這張椅子的構造很堅固。"
       }
     ]
   },
   "n3_egg_0124": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -27431,16 +30848,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ご飯の上に天ぷらを載せる",
-        "zh": "在飯上擺上天婦羅"
+        "ja": "机の上に本を載せてください。",
+        "zh": "請把書放到桌上。"
       }
     ]
   },
   "n3_egg_0125": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -27454,100 +30869,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "街道が東西に二つに分かれる",
-        "zh": "街道分成東西兩邊"
+        "ja": "意見が二つに分かれました。",
+        "zh": "意見分成了兩派。"
       }
     ]
   },
   "n3_egg_0126": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "人の性格はさまざまだ",
-        "zh": "人的性格千差萬別"
+        "ja": "店にはさまざまな商品があります。",
+        "zh": "店裡有各式各樣的商品。"
       }
     ]
   },
   "n3_egg_0127": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "全国的に雨が少ない",
-        "zh": "全國普遍降雨很少"
+        "ja": "この番組は全国で放送されています。",
+        "zh": "這個節目在全國播出。"
       }
     ]
   },
   "n3_egg_0128": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "今学期は成績が悪い、中でも数学がひどい",
-        "zh": "這學期的成績不好，其中尤其數學最差"
+        "ja": "中でもこの作品が一番好きです。",
+        "zh": "其中我最喜歡這件作品。"
       }
     ]
   },
   "n3_egg_0129": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "わずか数年で",
-        "zh": "僅僅幾年（之間）"
+        "ja": "数年ぶりに友人と会いました。",
+        "zh": "我隔了幾年和朋友見面。"
       }
     ]
   },
   "n3_egg_0130": {
     "pos": "pronoun",
     "posLabel": "代名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "代",
     "examples": [
       {
-        "ja": "あたし、これ好き！",
-        "zh": "我喜歡這個！"
+        "ja": "あたしも一緒に行きたい。",
+        "zh": "我也想一起去。"
       }
     ]
   },
   "n3_egg_0131": {
     "pos": "pronoun",
     "posLabel": "代名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "代・名",
     "examples": [
       {
-        "ja": "公と私の区別をはっきりする",
-        "zh": "公私分明"
+        "ja": "私が責任を持って対応いたします。",
+        "zh": "我會負責處理。"
       }
     ]
   },
   "n3_egg_0132": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "katakana",
+    "posLabel": "外來語",
     "examples": [
       {
-        "ja": "ママに聞いてみよう",
-        "zh": "去問媽媽吧"
+        "ja": "子どもがママと呼んで走ってきました。",
+        "zh": "孩子喊著媽媽跑了過來。"
       }
     ]
   },
   "n3_egg_0133": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -27561,88 +30960,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "猫がミルクをなめる",
-        "zh": "貓舔牛奶"
+        "ja": "猫が皿のミルクをなめています。",
+        "zh": "貓正在舔盤子裡的牛奶。"
       }
     ]
   },
   "n3_egg_0134": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "大自然を身近に感じる",
-        "zh": "切身感受大自然"
+        "ja": "環境問題は私たちにとって身近な課題です。",
+        "zh": "環境問題對我們來說是切身的課題。"
       }
     ]
   },
   "n3_egg_0135": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "katakana",
+    "posLabel": "外來語",
     "examples": [
       {
-        "ja": "財布をポケットにしまった",
-        "zh": "把錢包放進了口袋"
+        "ja": "鍵をポケットに入れました。",
+        "zh": "我把鑰匙放進口袋。"
       }
     ]
   },
   "n3_egg_0136": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "katakana",
+    "posLabel": "外來語",
     "examples": [
       {
-        "ja": "ママ",
-        "zh": "（兒童用語）媽媽；女老闆，媽媽桑"
+        "ja": "子どもはパパに抱きつきました。",
+        "zh": "孩子抱住了爸爸。"
       }
     ]
   },
   "n3_egg_0137": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "顎髭",
-        "zh": "絡腮鬍子"
+        "ja": "転んで顎を打ちました。",
+        "zh": "跌倒時撞到了下巴。"
       }
     ]
   },
   "n3_egg_0138": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "katakana",
+    "posLabel": "外來語",
     "examples": [
       {
-        "ja": "普通サイズ",
-        "zh": "普通尺碼"
+        "ja": "この靴はサイズが合いません。",
+        "zh": "這雙鞋尺寸不合。"
       }
     ]
   },
   "n3_egg_0139": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "室内競技",
-        "zh": "室內競技"
+        "ja": "雨の日は室内で運動します。",
+        "zh": "下雨天在室內運動。"
       }
     ]
   },
   "n3_egg_0140": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -27656,159 +31041,114 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "全力で駆ける",
-        "zh": "全力奔跑"
+        "ja": "犬が庭を駆けています。",
+        "zh": "狗在庭院裡奔跑。"
       }
     ]
   },
   "n3_egg_0141": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "敵は後方から攻撃してきた",
-        "zh": "敵人從後方攻擊"
+        "ja": "車の後方をよく確認してください。",
+        "zh": "請仔細確認車子的後方。"
       }
     ]
   },
   "n3_egg_0142": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "小声で話す",
-        "zh": "小聲說話"
-      }
-    ]
-  },
-  "n3_egg_0143": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "嚙む",
-      "masu": "嚙みます",
-      "te": "嚙んで",
-      "ta": "嚙んだ",
-      "nai": "嚙まない"
-    },
-    "examples": [
-      {
-        "ja": "犬に嚙まれる",
-        "zh": "被狗咬"
+        "ja": "彼女は小声で答えました。",
+        "zh": "她小聲回答。"
       }
     ]
   },
   "n3_egg_0144": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "道の片方はまだ雪がとけていない",
-        "zh": "道路的一側積雪尚未融化"
+        "ja": "片方の靴下が見つかりません。",
+        "zh": "找不到其中一隻襪子。"
       }
     ]
   },
   "n3_egg_0145": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・副・感",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "まあまあそんなに怒らないで",
-        "zh": "好了好了，別那麼生氣"
+        "ja": "まあまあの点数でした。",
+        "zh": "分數還算可以。"
       }
     ]
   },
   "n3_egg_0146": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "前方に進む",
-        "zh": "向前方出發"
+        "ja": "前方に信号があります。",
+        "zh": "前方有紅綠燈。"
       }
     ]
   },
   "n3_egg_0147": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "針に糸を通す",
-        "zh": "穿針"
+        "ja": "時計の針が止まっています。",
+        "zh": "時鐘的指針停住了。"
       }
     ]
   },
   "n3_egg_0148": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "予想外の大成功",
-        "zh": "出乎意料的巨大成功"
+        "ja": "予想外の結果に驚きました。",
+        "zh": "我對出乎意料的結果感到驚訝。"
       }
     ]
   },
   "n3_egg_0149": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "なぜなら、電車がおくれているからだ",
-        "zh": "因為電車誤點了"
+        "ja": "出発を延期します。なぜなら台風が近づいているからです。",
+        "zh": "我們延期出發。因為颱風正在接近。"
       }
     ]
   },
   "n3_egg_0150": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "棒を立てて目印にする",
-        "zh": "豎了根棍子作標記"
+        "ja": "細い棒で土に線を引きました。",
+        "zh": "我用細棒在土上畫線。"
       }
     ]
   },
   "n3_egg_0151": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "付きの悪い粘着テープ",
-        "zh": "黏性不強的膠帶"
+        "ja": "保証付きの商品を選びました。",
+        "zh": "我選了附保固的商品。"
       }
     ]
   },
   "n3_egg_0152": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
     "verbClass": "suru",
@@ -27822,28 +31162,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "再生の思いがする",
-        "zh": "覺得死裡逃生"
+        "ja": "動画をもう一度再生してください。",
+        "zh": "請再播放一次影片。"
       }
     ]
   },
   "n3_egg_0153": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "katakana",
+    "posLabel": "外來語",
     "examples": [
       {
-        "ja": "ファンで送風する",
-        "zh": "用鼓風機送風"
+        "ja": "彼はその歌手の大ファンです。",
+        "zh": "他是那位歌手的大粉絲。"
       }
     ]
   },
   "n3_egg_0154": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -27857,28 +31193,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "病気を治す",
-        "zh": "治病"
+        "ja": "薬で風邪を治しました。",
+        "zh": "我用藥治好了感冒。"
       }
     ]
   },
   "n3_egg_0155": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "この辺に郵便局はありませんか",
-        "zh": "這附近有沒有郵局？"
+        "ja": "この辺に郵便局はありますか。",
+        "zh": "這附近有郵局嗎？"
       }
     ]
   },
   "n3_egg_0156": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -27892,16 +31224,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "転んで、すぐには起き上がれない",
-        "zh": "跌倒了，一時爬不起來"
+        "ja": "倒れた選手がゆっくり起き上がりました。",
+        "zh": "倒下的選手慢慢爬了起來。"
       }
     ]
   },
   "n3_egg_0157": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -27915,40 +31245,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "お茶をこぼす",
-        "zh": "把茶灑了"
+        "ja": "コーヒーを机にこぼしてしまいました。",
+        "zh": "我把咖啡灑在桌上了。"
       }
     ]
   },
   "n3_egg_0158": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "倉庫に入れる",
-        "zh": "放入倉庫"
+        "ja": "荷物を倉庫に運びました。",
+        "zh": "我把行李搬到倉庫。"
       }
     ]
   },
   "n3_egg_0159": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "万全の策を講じる",
-        "zh": "尋求萬全之策"
+        "ja": "問題を解決する策を考えています。",
+        "zh": "我正在思考解決問題的對策。"
       }
     ]
   },
   "n3_egg_0160": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -27962,40 +31286,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "帽子をかぶる",
-        "zh": "戴帽子"
+        "ja": "雨が降ってきたので帽子をかぶりました。",
+        "zh": "因為下雨了，所以戴上帽子。"
       }
     ]
   },
   "n3_egg_0161": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "katakana",
+    "posLabel": "外來語",
     "examples": [
       {
-        "ja": "ワイングラス",
-        "zh": "葡萄酒杯"
+        "ja": "水をグラスに注ぎました。",
+        "zh": "我把水倒進玻璃杯。"
       }
     ]
   },
   "n3_egg_0162": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "少し早めに行こう",
-        "zh": "早些去吧"
+        "ja": "混むので早めに出発しましょう。",
+        "zh": "會塞車，所以早一點出發吧。"
       }
     ]
   },
   "n3_egg_0163": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -28009,40 +31327,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "鳥が鳴く",
-        "zh": "鳥兒在鳴叫"
+        "ja": "庭で鳥が鳴いています。",
+        "zh": "鳥在庭院裡鳴叫。"
       }
     ]
   },
   "n3_egg_0164": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ネコに餌をやる",
-        "zh": "餵貓"
+        "ja": "魚に餌をやりました。",
+        "zh": "我餵了魚飼料。"
       }
     ]
   },
   "n3_egg_0165": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "飛行機が関東の上空を飛んでいる",
-        "zh": "飛機正在關東地區的上空飛行"
+        "ja": "町の上空を飛行機が飛んでいます。",
+        "zh": "飛機飛過城鎮上空。"
       }
     ]
   },
   "n3_egg_0166": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28056,16 +31368,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "誕生日会のための料理を、朝から作り出す",
-        "zh": "從早上開始就為生日派對準備食物"
+        "ja": "彼らは新しいサービスを作り出しました。",
+        "zh": "他們創造出了新的服務。"
       }
     ]
   },
   "n3_egg_0167": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28079,16 +31389,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "金魚を飼う",
-        "zh": "養金魚"
+        "ja": "家で犬を飼っています。",
+        "zh": "我在家裡養狗。"
       }
     ]
   },
   "n3_egg_0168": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28102,28 +31410,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ワイシャツを汚す",
-        "zh": "弄髒襯衫"
+        "ja": "泥で服を汚してしまいました。",
+        "zh": "我用泥巴把衣服弄髒了。"
       }
     ]
   },
   "n3_egg_0169": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "誘いを受ける",
-        "zh": "接受邀請"
+        "ja": "友人から食事の誘いを受けました。",
+        "zh": "我收到朋友吃飯的邀請。"
       }
     ]
   },
   "n3_egg_0170": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28137,16 +31441,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "プレゼントを贈る",
-        "zh": "贈送禮品"
+        "ja": "退職する先生に花を贈りました。",
+        "zh": "我們送花給退休的老師。"
       }
     ]
   },
   "n3_egg_0171": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -28160,40 +31462,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ネクタイを締める",
-        "zh": "繫好領帶"
+        "ja": "靴のひもをしっかり締めました。",
+        "zh": "我把鞋帶繫緊了。"
       }
     ]
   },
   "n3_egg_0172": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "友達に内緒の話をする",
-        "zh": "跟朋友說悄悄話"
+        "ja": "この話は内緒にしてください。",
+        "zh": "這件事請保密。"
       }
     ]
   },
   "n3_egg_0173": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "医師免許",
-        "zh": "醫師執照"
+        "ja": "医師に詳しく説明してもらいました。",
+        "zh": "醫師為我詳細說明。"
       }
     ]
   },
   "n3_egg_0174": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -28207,16 +31503,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "風呂の水があふれる",
-        "zh": "澡盆裡的水漫出來"
+        "ja": "会場には笑顔があふれていました。",
+        "zh": "會場充滿了笑容。"
       }
     ]
   },
   "n3_egg_0175": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -28230,54 +31524,46 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "涙がほおを伝って流れる",
-        "zh": "淚水從臉頰滑落"
+        "ja": "涙が頬を伝いました。",
+        "zh": "眼淚沿著臉頰流下。"
       }
     ]
   },
   "n3_egg_0176": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "この度はお世話になりました",
-        "zh": "這次承蒙您的關照了"
+        "ja": "会う度に彼は新しい話をしてくれます。",
+        "zh": "每次見面他都會告訴我新的事情。"
       }
     ]
   },
   "n3_egg_0177": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
+    "pos": "interjection",
+    "posLabel": "感動詞",
     "examples": [
       {
-        "ja": "ようこそ沖縄へ",
-        "zh": "歡迎來到沖繩"
+        "ja": "ようこそ台湾へいらっしゃいました。",
+        "zh": "歡迎來到台灣。"
       }
     ]
   },
   "n3_egg_0178": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "大型の台風",
-        "zh": "大型颱風"
+        "ja": "大型の台風が近づいています。",
+        "zh": "大型颱風正在接近。"
       }
     ]
   },
   "n3_egg_0179": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -28289,54 +31575,46 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "列車が進行する",
-        "zh": "列車行駛"
+        "ja": "会議は予定どおり進行しています。",
+        "zh": "會議正按照預定進行。"
       }
     ]
   },
   "n3_egg_0180": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "これ、先日のお返しです",
-        "zh": "這是前幾天的回禮"
+        "ja": "お見舞いのお返しにお菓子を送りました。",
+        "zh": "我送點心作為探病慰問的回禮。"
       }
     ]
   },
   "n3_egg_0181": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "話し合いの上で決める",
-        "zh": "經協商後決定"
+        "ja": "問題を解決するために話し合いをしました。",
+        "zh": "為了解決問題，我們進行了討論。"
       }
     ]
   },
   "n3_egg_0182": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "胃が痛い",
-        "zh": "胃痛"
+        "ja": "胃が痛いので病院へ行きました。",
+        "zh": "因為胃痛，所以去了醫院。"
       }
     ]
   },
   "n3_egg_0183": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -28348,18 +31626,16 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "知り合って3か月で結婚した",
-        "zh": "認識三個月就結婚了"
+        "ja": "二人は大学で知り合いました。",
+        "zh": "兩人在大學認識。"
       }
     ]
   },
   "n3_egg_0184": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -28371,28 +31647,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "負けずに強く言い返した",
-        "zh": "不甘示弱地回嘴"
+        "ja": "失礼なことを言われて思わず言い返しました。",
+        "zh": "被說了沒禮貌的話，我忍不住反駁。"
       }
     ]
   },
   "n3_egg_0185": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "造",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "運動場",
-        "zh": "運動場"
+        "ja": "試験会場には早めに着きました。",
+        "zh": "我提早到了考場。"
       }
     ]
   },
   "n3_egg_0186": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28406,64 +31678,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "警官が現場を取り囲む",
-        "zh": "警察包圍現場"
+        "ja": "記者たちが選手を取り囲みました。",
+        "zh": "記者們包圍了選手。"
       }
     ]
   },
   "n3_egg_0187": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "このごろは何かと忙しい",
-        "zh": "近來這個那個地忙得很"
+        "ja": "彼には何かと助けてもらっています。",
+        "zh": "他在各方面都幫了我很多。"
       }
     ]
   },
   "n3_egg_0188": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名",
     "examples": [
       {
-        "ja": "懸命に努力すれば必ず道は開ける",
-        "zh": "努力奮鬥必有前途"
+        "ja": "彼女は懸命に走り続けました。",
+        "zh": "她拼命地持續奔跑。"
       }
     ]
   },
   "n3_egg_0189": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "意地が悪い",
-        "zh": "心術不正"
+        "ja": "意地を張らずに謝ったほうがいいです。",
+        "zh": "不要固執，還是道歉比較好。"
       }
     ]
   },
   "n3_egg_0190": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "北東の方角",
-        "zh": "東北方向"
+        "ja": "地図で方角を確認しました。",
+        "zh": "我用地圖確認了方向。"
       }
     ]
   },
   "n3_egg_0191": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28477,100 +31739,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "洗濯物を取り込む",
-        "zh": "把曬的衣服拿進來"
+        "ja": "雨が降りそうなので洗濯物を取り込みました。",
+        "zh": "看起來要下雨了，所以我把曬的衣服收進來。"
       }
     ]
   },
   "n3_egg_0192": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "石の段",
-        "zh": "石階"
+        "ja": "階段を一段ずつ上りました。",
+        "zh": "我一階一階地爬樓梯。"
       }
     ]
   },
   "n3_egg_0193": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "魚を油で揚げる",
-        "zh": "用油炸魚"
+        "ja": "フライパンに油を少し入れます。",
+        "zh": "在平底鍋裡倒一點油。"
       }
     ]
   },
   "n3_egg_0194": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "素晴らしい景色ですね",
-        "zh": "真是美麗的景色"
+        "ja": "すばらしい発表でした。",
+        "zh": "那是一場很棒的發表。"
       }
     ]
   },
   "n3_egg_0195": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "費用は自己負担です",
-        "zh": "費用自己負擔"
+        "ja": "自己紹介をしてください。",
+        "zh": "請自我介紹。"
       }
     ]
   },
   "n3_egg_0196": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "先生でも解けないのに、まして僕にできるものか",
-        "zh": "連老師都無法解答，我怎麼可能會呢？"
+        "ja": "大人でも難しいです。まして子どもには無理です。",
+        "zh": "連大人都覺得難，何況是孩子。"
       }
     ]
   },
   "n3_egg_0197": {
     "pos": "suffix",
     "posLabel": "接尾語",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・接尾",
     "examples": [
       {
-        "ja": "生産高",
-        "zh": "生產量"
+        "ja": "売上高が去年より増えました。",
+        "zh": "銷售額比去年增加了。"
       }
     ]
   },
   "n3_egg_0198": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "この情報は不要だ",
-        "zh": "這個資訊是不需要的"
+        "ja": "不要な書類を処分しました。",
+        "zh": "我處理了不需要的文件。"
       }
     ]
   },
   "n3_egg_0199": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -28584,75 +31830,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "川が凍る",
-        "zh": "河流結冰"
+        "ja": "寒さで池の水が凍りました。",
+        "zh": "池水因寒冷結冰了。"
       }
     ]
   },
   "n3_egg_0200": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "一晩考える",
-        "zh": "考慮一晚上"
+        "ja": "一晩考えてから返事をしました。",
+        "zh": "我想了一晚後才回覆。"
       }
     ]
   },
   "n3_egg_0201": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "アイドル歌手",
-        "zh": "偶像歌星，偶像派歌手"
+        "ja": "妹は人気アイドルのコンサートに行きました。",
+        "zh": "妹妹去了人氣偶像的演唱會。"
       }
     ]
   },
   "n3_egg_0202": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ふらふら",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "熱があって少しふらふらする",
-        "zh": "發燒有些頭暈"
+        "ja": "熱があって足元がふらふらします。",
+        "zh": "因為發燒，腳步有點不穩。"
       }
     ]
   },
   "n3_egg_0203": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "浅い眠り",
-        "zh": "淺睡"
+        "ja": "浅い眠りが続いて疲れが取れません。",
+        "zh": "一直淺眠，疲勞消不掉。"
       }
     ]
   },
   "n3_egg_0204": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -28666,52 +31891,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "向かい合って話をする",
-        "zh": "面對面說話"
+        "ja": "二人はテーブルを挟んで向かい合いました。",
+        "zh": "兩人隔著桌子面對面坐著。"
       }
     ]
   },
   "n3_egg_0205": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "高校時代の同級生",
-        "zh": "高中時代的同學"
+        "ja": "高校の同級生と久しぶりに会いました。",
+        "zh": "很久沒見到高中同學了。"
       }
     ]
   },
   "n3_egg_0206": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・名",
     "examples": [
       {
-        "ja": "毎回出席する",
-        "zh": "每次都出席"
+        "ja": "毎回同じミスをしないように注意しています。",
+        "zh": "我注意不要每次犯同樣的錯。"
       }
     ]
   },
   "n3_egg_0207": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "雨または雪の降る確率は20%です",
-        "zh": "降雨或降雪率為百分之二十"
+        "ja": "現金またはカードでお支払いください。",
+        "zh": "請用現金或刷卡付款。"
       }
     ]
   },
   "n3_egg_0208": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28725,123 +31942,94 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "何度もやり直す",
-        "zh": "重做很多次"
+        "ja": "失敗したらもう一度やり直せばいいです。",
+        "zh": "失敗的話，再重新來過就好。"
       }
     ]
   },
   "n3_egg_0209": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "がっかり",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "試験に落ちたと聞いて、がっかりした",
-        "zh": "聽說考試不合格，很沮喪"
+        "ja": "試験に落ちてがっかりしました。",
+        "zh": "考試沒過，我很失望。"
       }
     ]
   },
   "n3_egg_0210": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "造",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "再放送",
-        "zh": "重播"
+        "ja": "再確認してから送信してください。",
+        "zh": "請再次確認後再送出。"
       }
     ]
   },
   "n3_egg_0211": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "猿に芸を教える",
-        "zh": "訓練猴子表演才藝"
+        "ja": "山で猿を見かけました。",
+        "zh": "我在山裡看到了猴子。"
       }
     ]
   },
   "n3_egg_0212": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "花束",
-        "zh": "花束"
+        "ja": "花を一束買って帰りました。",
+        "zh": "我買了一束花回家。"
       }
     ]
   },
   "n3_egg_0213": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "語の意味",
-        "zh": "單字的意思"
+        "ja": "日本語の語順は中国語と違います。",
+        "zh": "日文的語順和中文不同。"
       }
     ]
   },
   "n3_egg_0214": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ヒントを与える",
-        "zh": "給予暗示"
+        "ja": "少しだけヒントをください。",
+        "zh": "請給我一點提示。"
       }
     ]
   },
   "n3_egg_0215": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・造",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "副店長",
-        "zh": "副店長"
+        "ja": "副社長が会議に出席しました。",
+        "zh": "副社長出席了會議。"
       }
     ]
   },
   "n3_egg_0216": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・名",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "一段ずつ階段を上がる",
-        "zh": "一級一級地上樓梯"
+        "ja": "雨で道が一段と滑りやすくなりました。",
+        "zh": "因為下雨，路變得更加容易滑倒。"
       }
     ]
   },
   "n3_egg_0217": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -28855,76 +32043,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "カエルがぴょんぴょんと跳んでいる",
-        "zh": "青蛙跳來跳去"
+        "ja": "子どもが水たまりを跳んで越えました。",
+        "zh": "孩子跳過了水窪。"
       }
     ]
   },
   "n3_egg_0218": {
     "pos": "suffix",
     "posLabel": "接尾語",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・接尾",
     "examples": [
       {
-        "ja": "苦楽を共にする",
-        "zh": "同甘共苦"
+        "ja": "友達と二人共合格しました。",
+        "zh": "我和朋友兩個人都合格了。"
       }
     ]
   },
   "n3_egg_0219": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "リビングルーム",
-        "zh": "起居室"
+        "ja": "家族は夕食後に居間でテレビを見ます。",
+        "zh": "家人晚餐後在客廳看電視。"
       }
     ]
   },
   "n3_egg_0220": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "鉛筆の芯",
-        "zh": "鉛筆芯"
+        "ja": "鉛筆の芯が折れてしまいました。",
+        "zh": "鉛筆芯斷掉了。"
       }
     ]
   },
   "n3_egg_0221": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "衣服を着替える",
-        "zh": "換衣服"
+        "ja": "季節に合った衣服を選びます。",
+        "zh": "選擇適合季節的衣服。"
       }
     ]
   },
   "n3_egg_0222": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "翌朝は大雪だった",
-        "zh": "第二天早上下起了大雪"
+        "ja": "翌朝、彼から返事が届きました。",
+        "zh": "隔天早上，他回覆了。"
       }
     ]
   },
   "n3_egg_0223": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -28938,110 +32114,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "この本は中国から持ち帰ったものです",
-        "zh": "這本書是從中國帶回來的"
-      }
-    ]
-  },
-  "n3_egg_0224": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "サボる",
-      "masu": "サボります",
-      "te": "サボって",
-      "ta": "サボった",
-      "nai": "サボらない"
-    },
-    "examples": [
-      {
-        "ja": "学校をサボる",
-        "zh": "逃學"
+        "ja": "食べきれない料理を持ち帰りました。",
+        "zh": "我把吃不完的料理帶回去了。"
       }
     ]
   },
   "n3_egg_0225": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "マークする",
-      "masu": "マークします",
-      "te": "マークして",
-      "ta": "マークした",
-      "nai": "マークしない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "地図の上にマークをつける",
-        "zh": "在地圖上做上標記"
+        "ja": "書類の大事な所にマークを付けました。",
+        "zh": "我在文件的重要地方做了記號。"
       }
     ]
   },
   "n3_egg_0226": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "エンジンがかかる",
-        "zh": "發動機起動"
+        "ja": "寒い朝は車のエンジンがかかりにくいです。",
+        "zh": "寒冷的早晨，車子的引擎不太容易發動。"
       }
     ]
   },
   "n3_egg_0227": {
-    "pos": "prefix",
-    "posLabel": "接頭語",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・接頭",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "正邪を決する",
-        "zh": "辨明是非"
+        "ja": "答えが正か誤かを確認してください。",
+        "zh": "請確認答案是正確還是錯誤。"
       }
     ]
   },
   "n3_egg_0228": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "（射撃で）弾の当たりが悪い",
-        "zh": "子彈打得不準"
+        "ja": "宝くじに当たりが出ました。",
+        "zh": "彩券中獎了。"
       }
     ]
   },
   "n3_egg_0229": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "コースを変える",
-        "zh": "改變路線"
+        "ja": "初級コースに申し込みました。",
+        "zh": "我報名了初級課程。"
       }
     ]
   },
   "n3_egg_0230": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -29055,76 +32185,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "距離を測る",
-        "zh": "測量距離"
+        "ja": "体温を測ってから入ってください。",
+        "zh": "請量體溫後再進來。"
       }
     ]
   },
   "n3_egg_0231": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "要は本人の努力次第だ",
-        "zh": "關鍵是看本人的努力了"
+        "ja": "要は、無理をしないことが大切です。",
+        "zh": "總之，不要勉強自己很重要。"
       }
     ]
   },
   "n3_egg_0232": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "小型自動車",
-        "zh": "小型汽車"
+        "ja": "小型のカメラを旅行に持って行きました。",
+        "zh": "我帶了小型相機去旅行。"
       }
     ]
   },
   "n3_egg_0233": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "造",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "無人島",
-        "zh": "無人島"
+        "ja": "台湾島の東側には美しい海岸があります。",
+        "zh": "台灣島東側有美麗的海岸。"
       }
     ]
   },
   "n3_egg_0234": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ブラックリスト",
-        "zh": "黑名單"
+        "ja": "買う物をリストにしておきました。",
+        "zh": "我先把要買的東西列成清單。"
       }
     ]
   },
   "n3_egg_0235": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "フランス料理",
-        "zh": "法國菜，法式料理"
+        "ja": "フランスで料理を勉強したいです。",
+        "zh": "我想去法國學料理。"
       }
     ]
   },
   "n3_egg_0236": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -29138,170 +32256,124 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "犬がワンワンと吠える",
-        "zh": "狗汪汪叫"
+        "ja": "犬が知らない人に向かって吠えています。",
+        "zh": "狗正對著陌生人吠叫。"
       }
     ]
   },
   "n3_egg_0237": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "実物大の図",
-        "zh": "與實物一般大的圖"
+        "ja": "この図を見ると仕組みがよく分かります。",
+        "zh": "看這張圖就能清楚了解機制。"
       }
     ]
   },
   "n3_egg_0238": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "この原は自然が豊かだ",
-        "zh": "這個原野自然豐富"
+        "ja": "野原に白い花が咲いています。",
+        "zh": "原野上開著白色的花。"
       }
     ]
   },
   "n3_egg_0239": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "だらしない格好をする",
-        "zh": "邋遢打扮；衣冠不整"
+        "ja": "だらしない生活を続けると体調を崩します。",
+        "zh": "一直過著散漫的生活會弄壞身體。"
       }
     ]
   },
   "n3_egg_0240": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "一昨日",
-        "zh": "前天"
+        "ja": "明後日にまた連絡します。",
+        "zh": "我後天再聯絡。"
       }
     ]
   },
   "n3_egg_0241": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "汚れを取る",
-        "zh": "去除汙跡"
+        "ja": "シャツの汚れがなかなか落ちません。",
+        "zh": "襯衫上的髒汙一直洗不掉。"
       }
     ]
   },
   "n3_egg_0242": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "待ち合わせする",
+      "masu": "待ち合わせします",
+      "te": "待ち合わせして",
+      "ta": "待ち合わせした",
+      "nai": "待ち合わせしない"
+    },
     "examples": [
       {
-        "ja": "駅で待ち合わせをする",
-        "zh": "在車站會合"
+        "ja": "駅前で友達と待ち合わせをしました。",
+        "zh": "我和朋友約在車站前碰面。"
       }
     ]
   },
   "n3_egg_0243": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "高価な化粧品",
-        "zh": "高價化妝品"
-      }
-    ]
-  },
-  "n3_egg_0244": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "枯れる",
-      "masu": "枯れます",
-      "te": "枯れて",
-      "ta": "枯れた",
-      "nai": "枯れない"
-    },
-    "examples": [
-      {
-        "ja": "木が枯れる",
-        "zh": "樹木枯萎"
-      }
-    ]
-  },
-  "n3_egg_0245": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "愚痴をこぼす",
-        "zh": "發牢騷"
+        "ja": "高価な時計なので大切に使っています。",
+        "zh": "因為是昂貴的手錶，所以我很小心使用。"
       }
     ]
   },
   "n3_egg_0246": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "搔く",
-      "masu": "搔きます",
-      "te": "搔いて",
-      "ta": "搔いた",
-      "nai": "搔かない"
+      "dictionary": "掻く",
+      "masu": "掻きます",
+      "te": "掻いて",
+      "ta": "掻いた",
+      "nai": "掻かない"
     },
     "examples": [
       {
-        "ja": "背中をかく",
-        "zh": "撓背"
+        "ja": "暑くて額の汗を掻きました。",
+        "zh": "天氣很熱，我擦了額頭上的汗。"
       }
     ]
   },
   "n3_egg_0247": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "何事も始めが大切だ",
-        "zh": "凡事開頭最重要"
+        "ja": "仕事始めの日は少し緊張しました。",
+        "zh": "開工第一天有點緊張。"
       }
     ]
   },
   "n3_egg_0248": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -29315,16 +32387,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "今度は鳥に生まれ変わりたい",
-        "zh": "下次想轉生成鳥"
+        "ja": "この町は震災後に生まれ変わりました。",
+        "zh": "這座城市在震災後重生了。"
       }
     ]
   },
   "n3_egg_0249": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -29338,90 +32408,76 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "このカメラはよく写る",
-        "zh": "這部照相機照得很好"
+        "ja": "写真に私も小さく写っています。",
+        "zh": "照片裡也拍到了小小的我。"
       }
     ]
   },
   "n3_egg_0250": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "カードの裏側に署名してください",
-        "zh": "請在卡片的背面簽名"
+        "ja": "紙の裏側に名前を書いてください。",
+        "zh": "請在紙的背面寫上名字。"
       }
     ]
   },
   "n3_egg_0251": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "正常な状態",
-        "zh": "正常狀態"
+        "ja": "機械は正常に動いています。",
+        "zh": "機器正常運作。"
       }
     ]
   },
   "n3_egg_0252": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "成句",
     "examples": [
       {
-        "ja": "先生にお目にかかる",
-        "zh": "拜見老師"
+        "ja": "先生にお目にかかれて光栄です。",
+        "zh": "能拜見老師，我很榮幸。"
       }
     ]
   },
   "n3_egg_0253": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "後日改めてお伺いします",
-        "zh": "日後再來拜訪"
+        "ja": "詳しい予定は後日お知らせします。",
+        "zh": "詳細預定日後會通知。"
       }
     ]
   },
   "n3_egg_0254": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "行き先も告げずに出かける",
-        "zh": "不告而別"
+        "ja": "電車の行き先を確認してから乗りました。",
+        "zh": "我確認電車目的地後才上車。"
       }
     ]
   },
   "n3_egg_0255": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "洗ったような青空",
-        "zh": "碧空如洗"
+        "ja": "青空の下で弁当を食べました。",
+        "zh": "我在藍天下吃便當。"
       }
     ]
   },
   "n3_egg_0256": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -29433,75 +32489,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "峠を越す",
-        "zh": "跨越山口；度過最艱難的時期"
+        "ja": "この山を越すと村に着きます。",
+        "zh": "越過這座山就會到村子。"
       }
     ]
   },
   "n3_egg_0257": {
-    "pos": "i_adjective",
-    "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "酒くさい",
-        "zh": "酒氣重"
+        "ja": "彼の話は少し嘘くさいです。",
+        "zh": "他的話聽起來有點像假的。"
       }
     ]
   },
   "n3_egg_0258": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "研究所を創立する",
-        "zh": "創設研究所"
+        "ja": "父は大学の研究所で働いています。",
+        "zh": "爸爸在大學的研究所工作。"
       }
     ]
   },
   "n3_egg_0259": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "お察しのとおり",
-        "zh": "如您所料"
+        "ja": "彼女の気持ちは察しがつきます。",
+        "zh": "我大概能體會她的心情。"
       }
     ]
   },
   "n3_egg_0260": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "貧乏する",
-      "masu": "貧乏します",
-      "te": "貧乏して",
-      "ta": "貧乏した",
-      "nai": "貧乏しない"
-    },
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "examples": [
       {
-        "ja": "貧乏な家に生まれる",
-        "zh": "出生於貧苦的家庭"
+        "ja": "学生のころは貧乏で、よく自炊していました。",
+        "zh": "學生時代很窮，常常自己煮飯。"
       }
     ]
   },
   "n3_egg_0261": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -29515,28 +32550,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "世界を歩き回る",
-        "zh": "周遊世界"
+        "ja": "京都の町を一日中歩き回りました。",
+        "zh": "我在京都市區走了一整天。"
       }
     ]
   },
   "n3_egg_0262": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "レモンの汁",
-        "zh": "檸檬汁"
+        "ja": "魚の汁をご飯にかけて食べました。",
+        "zh": "我把魚湯汁淋在飯上吃。"
       }
     ]
   },
   "n3_egg_0263": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -29550,28 +32581,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ビルが建つ",
-        "zh": "蓋大樓"
+        "ja": "駅前に新しいビルが建ちました。",
+        "zh": "車站前蓋好了新的大樓。"
       }
     ]
   },
   "n3_egg_0264": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "スケジュールを立てる",
-        "zh": "制訂日程表"
+        "ja": "来週のスケジュールを確認しました。",
+        "zh": "我確認了下週的行程。"
       }
     ]
   },
   "n3_egg_0265": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -29585,52 +32612,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "夜が明ける",
-        "zh": "天亮"
+        "ja": "夜が明けるころ、雨がやみました。",
+        "zh": "天快亮時，雨停了。"
       }
     ]
   },
   "n3_egg_0266": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "最新の技術",
-        "zh": "最新技術"
+        "ja": "最新の情報をサイトで確認してください。",
+        "zh": "請在網站確認最新資訊。"
       }
     ]
   },
   "n3_egg_0267": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "この映画は万人に愛されている",
-        "zh": "這部電影受到了大眾的喜愛"
+        "ja": "この薬は万人に合うわけではありません。",
+        "zh": "這種藥不一定適合所有人。"
       }
     ]
   },
   "n3_egg_0268": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・副・ナ形",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "たいていの人がわかる",
-        "zh": "大部分人都明白"
+        "ja": "朝はたいていコーヒーを飲みます。",
+        "zh": "我早上大多會喝咖啡。"
       }
     ]
   },
   "n3_egg_0269": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -29644,52 +32663,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "子どもが公園を走り回る",
-        "zh": "孩子們在公園裡跑來跑去"
+        "ja": "子どもたちが公園を走り回っています。",
+        "zh": "孩子們在公園裡到處跑。"
       }
     ]
   },
   "n3_egg_0270": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "めでたい日",
-        "zh": "喜慶的日子"
+        "ja": "合格とはめでたい知らせですね。",
+        "zh": "合格真是值得慶祝的消息。"
       }
     ]
   },
   "n3_egg_0271": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "そのやり方がベストだ",
-        "zh": "那個辦法最好"
+        "ja": "今日はベストを尽くします。",
+        "zh": "今天我會盡全力。"
       }
     ]
   },
   "n3_egg_0272": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "counter",
+    "posLabel": "助數詞",
     "examples": [
       {
-        "ja": "全3巻の本",
-        "zh": "全套三卷的書"
+        "ja": "この漫画は全十巻です。",
+        "zh": "這套漫畫全十冊。"
       }
     ]
   },
   "n3_egg_0273": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -29703,88 +32714,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "クーラーを取り付ける",
-        "zh": "安裝冷氣"
+        "ja": "壁に棚を取り付けました。",
+        "zh": "我把架子安裝到牆上。"
       }
     ]
   },
   "n3_egg_0274": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "作文のテーマを考える",
-        "zh": "思考作文主題"
+        "ja": "卒業論文のテーマを決めました。",
+        "zh": "我決定了畢業論文的主題。"
       }
     ]
   },
   "n3_egg_0275": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "国際金融の専門家",
-        "zh": "國際金融專家"
+        "ja": "専門家に意見を聞きました。",
+        "zh": "我請教了專家的意見。"
       }
     ]
   },
   "n3_egg_0276": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大きなあくびをする",
-        "zh": "打個大哈欠"
+        "ja": "眠くて何度もあくびが出ました。",
+        "zh": "太想睡了，打了好幾次哈欠。"
       }
     ]
   },
   "n3_egg_0277": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "夕日が沈む",
-        "zh": "夕陽西下"
+        "ja": "海に沈む夕日がきれいでした。",
+        "zh": "沉入海裡的夕陽很美。"
       }
     ]
   },
   "n3_egg_0278": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ドイツ語",
-        "zh": "德語"
+        "ja": "ドイツの友人から手紙が届きました。",
+        "zh": "德國朋友寄來了一封信。"
       }
     ]
   },
   "n3_egg_0279": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "久しく会っていない",
-        "zh": "好久沒見"
+        "ja": "久しい沈黙のあと、彼から返事が来ました。",
+        "zh": "在長久沉默後，他回覆了。"
       }
     ]
   },
   "n3_egg_0280": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -29798,135 +32795,104 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ローマは一日にして成らず",
-        "zh": "羅馬非一日而成"
+        "ja": "この映画は三つの話から成っています。",
+        "zh": "這部電影由三個故事構成。"
       }
     ]
   },
   "n3_egg_0281": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "角に切る",
-        "zh": "切成方形"
+        "ja": "三角形の内側の角を測りました。",
+        "zh": "我量了三角形內側的角。"
       }
     ]
   },
   "n3_egg_0282": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "妹は来年、二十歳になります",
-        "zh": "我妹妹明年就二十歲了"
+        "ja": "今年の春に二十歳になりました。",
+        "zh": "我今年春天滿二十歲。"
       }
     ]
   },
   "n3_egg_0283": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・名",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "繰り返しの部分をもう一度歌う",
-        "zh": "重複的部分再唱一次"
+        "ja": "同じ説明を繰り返し聞きました。",
+        "zh": "我反覆聽了同樣的說明。"
       }
     ]
   },
   "n3_egg_0284": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "炭酸ガス",
-        "zh": "二氧化碳氣體"
+        "ja": "ガスの元栓を閉めてください。",
+        "zh": "請關上瓦斯總開關。"
       }
     ]
   },
   "n3_egg_0285": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・副",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "一人一人の名前を呼ぶ",
-        "zh": "一個一個地叫名字"
+        "ja": "一人一人に資料を配りました。",
+        "zh": "我把資料發給每一個人。"
       }
     ]
   },
   "n3_egg_0286": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "楽器を演奏する",
-        "zh": "演奏樂器"
+        "ja": "妹は楽器を習っています。",
+        "zh": "妹妹正在學樂器。"
       }
     ]
   },
   "n3_egg_0287": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "おととい",
-        "zh": "前天"
+        "ja": "一昨日から熱が続いています。",
+        "zh": "從前天開始一直發燒。"
       }
     ]
   },
   "n3_egg_0288": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "さらさら",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "木の葉のさらさらという音",
-        "zh": "樹葉的沙沙響聲"
+        "ja": "髪がさらさらでうらやましいです。",
+        "zh": "你的頭髮很柔順，真令人羨慕。"
       }
     ]
   },
   "n3_egg_0289": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・造",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "就職氷河期",
-        "zh": "就業難的時期"
+        "ja": "試験期は図書館が混みます。",
+        "zh": "考試期間圖書館很擁擠。"
       }
     ]
   },
   "n3_egg_0290": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -29940,16 +32906,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "目が覚めたら十時だった",
-        "zh": "醒來時已經十點了"
+        "ja": "目が覚めたら昼でした。",
+        "zh": "醒來時已經中午了。"
       }
     ]
   },
   "n3_egg_0291": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -29963,64 +32927,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ゴミを道に投げ捨てるのは良くない",
-        "zh": "在路上亂扔垃圾是不好的"
+        "ja": "彼は古い手紙を投げ捨てました。",
+        "zh": "他把舊信丟掉了。"
       }
     ]
   },
   "n3_egg_0292": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "車内放送",
-        "zh": "車內廣播"
+        "ja": "車内では携帯電話の通話を控えてください。",
+        "zh": "車內請避免講手機。"
       }
     ]
   },
   "n3_egg_0293": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "かいがある",
-        "zh": "值得，有價值"
+        "ja": "苦労したかいがありました。",
+        "zh": "辛苦有了價值。"
       }
     ]
   },
   "n3_egg_0294": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "部屋のコーナーを利用する",
-        "zh": "利用屋角"
+        "ja": "文房具のコーナーは二階にあります。",
+        "zh": "文具專區在二樓。"
       }
     ]
   },
   "n3_egg_0295": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "キャンプサイト",
-        "zh": "露營地"
+        "ja": "公式サイトで予約できます。",
+        "zh": "可以在官方網站預約。"
       }
     ]
   },
   "n3_egg_0296": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -30034,54 +32988,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "かばんを持ち歩く",
-        "zh": "拿著包走"
+        "ja": "パスポートはいつも持ち歩いています。",
+        "zh": "我總是隨身攜帶護照。"
       }
     ]
   },
   "n3_egg_0297": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "細長い指",
-        "zh": "細長的手指"
+        "ja": "細長い箱にポスターを入れました。",
+        "zh": "我把海報放進細長的盒子裡。"
       }
     ]
   },
   "n3_egg_0298": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "太陽がまぶしい",
-        "zh": "太陽晃眼"
+        "ja": "朝日がまぶしくて目を細めました。",
+        "zh": "晨光很刺眼，我瞇起了眼睛。"
       }
     ]
   },
   "n3_egg_0299": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "一人の呼び掛けで大勢が集まる",
-        "zh": "一個人的號召聚集起很多人"
+        "ja": "市は節水への呼びかけを行いました。",
+        "zh": "市政府呼籲大家節約用水。"
       }
     ]
   },
   "n3_egg_0300": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30093,30 +33037,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "髪をカットする",
-        "zh": "剪頭髮"
+        "ja": "前髪を少しカットしました。",
+        "zh": "我稍微剪了瀏海。"
       }
     ]
   },
   "n3_egg_0301": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・造",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "表を作る",
-        "zh": "製表"
+        "ja": "結果を表にまとめました。",
+        "zh": "我把結果整理成表格。"
       }
     ]
   },
   "n3_egg_0302": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30128,40 +33066,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "参加者を募集する",
-        "zh": "徵集參加者"
+        "ja": "アルバイトを募集しています。",
+        "zh": "正在招募打工人員。"
       }
     ]
   },
   "n3_egg_0303": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "長時間にわたって討議する",
-        "zh": "長時間討論"
+        "ja": "長時間座っていると腰が痛くなります。",
+        "zh": "長時間坐著會腰痛。"
       }
     ]
   },
   "n3_egg_0304": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "教師であると同時にまた研究者でもある",
-        "zh": "既是教師，同時也搞研究"
+        "ja": "若い研究者を支援する制度があります。",
+        "zh": "有支援年輕研究者的制度。"
       }
     ]
   },
   "n3_egg_0305": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -30175,76 +33107,55 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "血を採る",
-        "zh": "抽血"
+        "ja": "新しい方法を採ることにしました。",
+        "zh": "我們決定採用新方法。"
       }
     ]
   },
   "n3_egg_0306": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・造",
+    "pos": "prefix",
+    "posLabel": "接頭語",
     "examples": [
       {
-        "ja": "当店",
-        "zh": "本店"
+        "ja": "当店は毎週火曜日が休みです。",
+        "zh": "本店每週二公休。"
       }
     ]
   },
   "n3_egg_0307": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "うろうろ",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "うろうろと歩き回る",
-        "zh": "徘徊"
+        "ja": "駅の中をうろうろしていたら迷いました。",
+        "zh": "我在車站裡轉來轉去，結果迷路了。"
       }
     ]
   },
   "n3_egg_0308": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
     "forms": {
       "dictionary": "かじる",
-      "masu": "かじります",
-      "te": "かじって",
-      "ta": "かじった",
-      "nai": "かじらない"
+      "masu": "かじます",
+      "te": "かじて",
+      "ta": "かじた",
+      "nai": "かじない"
     },
     "examples": [
       {
-        "ja": "りんごをかじる",
-        "zh": "啃蘋果"
+        "ja": "りんごを丸ごとかじりました。",
+        "zh": "我整顆啃了蘋果。"
       }
     ]
   },
   "n3_egg_0309": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30256,52 +33167,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "事実だと仮定する",
-        "zh": "假設是事實"
+        "ja": "仮定の話として聞いてください。",
+        "zh": "請當作假設來聽。"
       }
     ]
   },
   "n3_egg_0310": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "造",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "川沿い",
-        "zh": "河邊，沿岸"
+        "ja": "川沿いの道を散歩しました。",
+        "zh": "我沿著河邊的路散步。"
       }
     ]
   },
   "n3_egg_0311": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "職場の人間関係が重要だ",
-        "zh": "職場的人際關係很重要"
+        "ja": "職場の人間関係に悩んでいます。",
+        "zh": "我正為職場人際關係煩惱。"
       }
     ]
   },
   "n3_egg_0312": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "少数派",
-        "zh": "少數派"
+        "ja": "少数の意見にも耳を傾けるべきです。",
+        "zh": "也應該傾聽少數意見。"
       }
     ]
   },
   "n3_egg_0313": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -30315,64 +33218,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ご飯が焦げる",
-        "zh": "飯燒焦了"
+        "ja": "トーストが焦げてしまいました。",
+        "zh": "吐司烤焦了。"
       }
     ]
   },
   "n3_egg_0314": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "北海道へ旅行する",
-        "zh": "去北海道旅行"
+        "ja": "北海道で雪まつりを見ました。",
+        "zh": "我在北海道看了雪祭。"
       }
     ]
   },
   "n3_egg_0315": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "お話の旨はよくわかりました",
-        "zh": "您說的意思我完全明白了"
+        "ja": "退職したい旨を上司に伝えました。",
+        "zh": "我向主管表達了想離職的意思。"
       }
     ]
   },
   "n3_egg_0316": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "市内に住む",
-        "zh": "住在市內"
+        "ja": "市内のホテルに泊まりました。",
+        "zh": "我住在市內的飯店。"
       }
     ]
   },
   "n3_egg_0317": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "育ちの早い木",
-        "zh": "長得快的樹"
+        "ja": "彼は育ちがいいので言葉遣いが丁寧です。",
+        "zh": "他家教很好，所以用語很有禮貌。"
       }
     ]
   },
   "n3_egg_0318": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -30386,28 +33279,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "疲れた体を休めてください",
-        "zh": "請讓疲憊的身體休息一下"
+        "ja": "疲れたら少し体を休めてください。",
+        "zh": "累了就讓身體稍微休息一下。"
       }
     ]
   },
   "n3_egg_0319": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "会場は話し声でいっぱいだった",
-        "zh": "會場裡滿是說話聲"
+        "ja": "隣の部屋から話し声が聞こえます。",
+        "zh": "從隔壁房間聽得到說話聲。"
       }
     ]
   },
   "n3_egg_0320": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -30421,30 +33310,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "あのホテルは1000人の客を泊められる",
-        "zh": "那家飯店可以住一千名客人"
+        "ja": "友達を一晩泊めました。",
+        "zh": "我讓朋友留宿一晚。"
       }
     ]
   },
   "n3_egg_0321": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "経営者は一様に利益を求めている",
-        "zh": "經營者都一樣追求著利益"
+        "ja": "全員が一様に同じ服を着ています。",
+        "zh": "所有人都一律穿著同樣的衣服。"
       }
     ]
   },
   "n3_egg_0322": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30456,78 +33339,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "有名な作家と同席する",
-        "zh": "與知名作家同席"
+        "ja": "会議には部長も同席しました。",
+        "zh": "部長也出席了會議。"
       }
     ]
   },
   "n3_egg_0323": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "米国産の豚肉",
-        "zh": "美國產的豬肉"
+        "ja": "台湾産の果物を買いました。",
+        "zh": "我買了台灣產的水果。"
       }
     ]
   },
   "n3_egg_0324": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "寝不足でだるい",
-        "zh": "因睡眠不足而懶倦"
+        "ja": "体がだるくて学校を休みました。",
+        "zh": "身體很倦怠，所以請假沒去學校。"
       }
     ]
   },
   "n3_egg_0325": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "1000万円を数回にわたって支払った",
-        "zh": "分數次支付了一千萬日元"
+        "ja": "この店には数回来たことがあります。",
+        "zh": "我來過這家店幾次。"
       }
     ]
   },
   "n3_egg_0326": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "間隔を詰める",
-        "zh": "壓縮間隔"
+        "ja": "電車は五分間隔で走っています。",
+        "zh": "電車每隔五分鐘一班。"
       }
     ]
   },
   "n3_egg_0327": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "感情的になりやすい",
-        "zh": "容易情緒化"
+        "ja": "感情的にならずに話し合いましょう。",
+        "zh": "不要情緒化，我們好好談。"
       }
     ]
   },
   "n3_egg_0328": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30539,28 +33408,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "人口が減少する",
-        "zh": "人口減少"
+        "ja": "人口の減少が問題になっています。",
+        "zh": "人口減少成為問題。"
       }
     ]
   },
   "n3_egg_0329": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "インドの首都ニューデリー",
-        "zh": "印度的首都新德里"
+        "ja": "インド料理を食べに行きました。",
+        "zh": "我去吃了印度料理。"
       }
     ]
   },
   "n3_egg_0330": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -30574,76 +33439,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "会議を早める",
-        "zh": "會議提前"
+        "ja": "出発時間を三十分早めました。",
+        "zh": "我把出發時間提前了三十分鐘。"
       }
     ]
   },
   "n3_egg_0331": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "実物を見てから判断する",
-        "zh": "見過實物之後再判斷"
+        "ja": "写真ではなく実物を見て決めたいです。",
+        "zh": "我想看實物後再決定，不是只看照片。"
       }
     ]
   },
   "n3_egg_0332": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ビジネスアワー",
-        "zh": "營業時間"
+        "ja": "兄は海外でビジネスをしています。",
+        "zh": "哥哥在海外做生意。"
       }
     ]
   },
   "n3_egg_0333": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "外交文書",
-        "zh": "外交公文"
+        "ja": "必要な文書をメールで送ってください。",
+        "zh": "請用電子郵件寄送需要的文件。"
       }
     ]
   },
   "n3_egg_0334": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "造",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "生活費",
-        "zh": "生活費"
+        "ja": "参加費は当日払ってください。",
+        "zh": "參加費請當天支付。"
       }
     ]
   },
   "n3_egg_0335": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "経済的な理由で大学を中退する",
-        "zh": "因經濟因素大學中途退學"
+        "ja": "この車は燃費がよく経済的です。",
+        "zh": "這台車很省油，很經濟。"
       }
     ]
   },
   "n3_egg_0336": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -30657,28 +33510,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "法律に基づいて罰する",
-        "zh": "依法懲處"
+        "ja": "事実に基づいて判断してください。",
+        "zh": "請根據事實判斷。"
       }
     ]
   },
   "n3_egg_0337": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "店長おすすめ商品",
-        "zh": "店長特薦品"
+        "ja": "店長に返品について相談しました。",
+        "zh": "我向店長詢問退貨的事。"
       }
     ]
   },
   "n3_egg_0338": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -30692,114 +33541,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "警察に訊ねられる",
-        "zh": "被警察盤問"
+        "ja": "道を訊ねると、親切に教えてくれました。",
+        "zh": "我問路時，對方親切地告訴我。"
       }
     ]
   },
   "n3_egg_0339": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "クライマーたちはロープで結ばれていた",
-        "zh": "登山運動員們用繩索綁在一起"
+        "ja": "荷物をロープで固定しました。",
+        "zh": "我用繩子固定行李。"
       }
     ]
   },
   "n3_egg_0340": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "カフェラテ",
-        "zh": "拿鐵咖啡"
+        "ja": "駅前のカフェで友達を待っています。",
+        "zh": "我在車站前的咖啡廳等朋友。"
       }
     ]
   },
   "n3_egg_0341": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "マイクが壊れて使えない",
-        "zh": "麥克風壞了，不能用"
-      }
-    ]
-  },
-  "n3_egg_0342": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "バイクに乗る",
-        "zh": "騎摩托車，騎機車"
+        "ja": "マイクの音量を少し上げてください。",
+        "zh": "請把麥克風音量調大一點。"
       }
     ]
   },
   "n3_egg_0343": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "野球部の部員",
-        "zh": "棒球社的成員"
+        "ja": "サッカー部の部員が増えました。",
+        "zh": "足球社的社員增加了。"
       }
     ]
   },
   "n3_egg_0344": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ばらの花束",
-        "zh": "玫瑰花束"
+        "ja": "庭に赤いばらが咲いています。",
+        "zh": "院子裡開著紅玫瑰。"
       }
     ]
   },
   "n3_egg_0345": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "営業課",
-        "zh": "銷售科"
+        "ja": "次の課を予習しておいてください。",
+        "zh": "請先預習下一課。"
       }
     ]
   },
   "n3_egg_0346": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "アイスティー",
-        "zh": "冰紅茶"
+        "ja": "食後にアイスを食べました。",
+        "zh": "飯後吃了冰淇淋。"
       }
     ]
   },
   "n3_egg_0347": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30811,30 +33630,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "担任教師",
-        "zh": "班導師"
+        "ja": "山田先生が三年生の担任です。",
+        "zh": "山田老師是三年級的班導師。"
       }
     ]
   },
   "n3_egg_0348": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "社長秘書",
-        "zh": "總裁秘書"
+        "ja": "社長の秘書が会議室を予約しました。",
+        "zh": "社長的秘書預約了會議室。"
       }
     ]
   },
   "n3_egg_0349": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30846,125 +33659,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "扉を開閉する",
-        "zh": "開門和關門"
+        "ja": "この窓は自動で開閉します。",
+        "zh": "這扇窗會自動開關。"
       }
     ]
   },
   "n3_egg_0350": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "研究室の室長",
-        "zh": "研究室主任"
+        "ja": "先生の研究室を訪ねました。",
+        "zh": "我拜訪了老師的研究室。"
       }
     ]
   },
   "n3_egg_0351": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "住所がわからないので連絡の仕様がない",
-        "zh": "因為不知道住處，所以無法聯繫"
+        "ja": "製品の仕様を確認してください。",
+        "zh": "請確認產品規格。"
       }
     ]
   },
   "n3_egg_0352": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "血液",
-        "zh": "血液"
+        "ja": "透明な液を容器に入れます。",
+        "zh": "把透明液體倒進容器裡。"
       }
     ]
   },
   "n3_egg_0353": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "料理人にレシピを教わる",
-        "zh": "向廚師請教菜譜"
+        "ja": "このレシピなら初心者でも作れます。",
+        "zh": "照這份食譜，初學者也做得出來。"
       }
     ]
   },
   "n3_egg_0354": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "かわいらしい娘",
-        "zh": "可愛的姑娘"
+        "ja": "子どものかわいらしい笑顔に癒やされました。",
+        "zh": "孩子可愛的笑容讓我感到療癒。"
       }
     ]
   },
   "n3_egg_0355": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "勝者には賞金が与えられる",
-        "zh": "獲勝者將得到獎金"
+        "ja": "最後まで諦めなかった人が勝者です。",
+        "zh": "堅持到最後的人就是勝利者。"
       }
     ]
   },
   "n3_egg_0356": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "人体解剖",
-        "zh": "人體解剖"
-      }
-    ]
-  },
-  "n3_egg_0357": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1・補動",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "たまる",
-      "masu": "たまります",
-      "te": "たまって",
-      "ta": "たまった",
-      "nai": "たまらない"
-    },
-    "examples": [
-      {
-        "ja": "そんなことをされてたまるものか",
-        "zh": "怎麼能忍受那種事呢"
+        "ja": "人体の仕組みを学びました。",
+        "zh": "我學了人體的構造。"
       }
     ]
   },
   "n3_egg_0358": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -30976,136 +33748,114 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "速やかに応答する",
-        "zh": "迅速作出回答"
+        "ja": "問い合わせに自動で応答する仕組みです。",
+        "zh": "這是會自動回應詢問的機制。"
       }
     ]
   },
   "n3_egg_0359": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "カルシウムを多めにとる",
-        "zh": "多補點鈣"
+        "ja": "塩を多めに入れると味がはっきりします。",
+        "zh": "鹽多放一點，味道會更明顯。"
       }
     ]
   },
   "n3_egg_0360": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "進学塾",
-        "zh": "升學補習班"
+        "ja": "弟は数学の塾に通っています。",
+        "zh": "弟弟在上數學補習班。"
       }
     ]
   },
   "n3_egg_0361": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大雪で山道が閉ざされる",
-        "zh": "大雪封山"
+        "ja": "雨の後の山道は滑りやすいです。",
+        "zh": "雨後的山路很容易滑。"
       }
     ]
   },
   "n3_egg_0362": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "その方法を可とする",
-        "zh": "認為那個方法可以"
+        "ja": "この答案は可に近い評価でした。",
+        "zh": "這份答案的評價接近及格。"
       }
     ]
   },
   "n3_egg_0363": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ポータブルスピーカー",
-        "zh": "隨身揚聲器"
+        "ja": "スピーカーから音が出ません。",
+        "zh": "喇叭沒有聲音。"
       }
     ]
   },
   "n3_egg_0364": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "正門から入る",
-        "zh": "從正門進去"
+        "ja": "正門の前で待ち合わせましょう。",
+        "zh": "我們在正門前碰面吧。"
       }
     ]
   },
   "n3_egg_0365": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "お祝いに花束を贈る",
-        "zh": "贈送花束表示祝賀"
+        "ja": "母の日に花束を贈りました。",
+        "zh": "母親節送了一束花。"
       }
     ]
   },
   "n3_egg_0366": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "諦めがつく",
-        "zh": "死心，想開"
+        "ja": "諦めが早すぎると言われました。",
+        "zh": "有人說我太快放棄了。"
       }
     ]
   },
   "n3_egg_0367": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "自分の持ち物にはきちんと名前を書いてください",
-        "zh": "請在自己的攜帶物品上寫明姓名"
+        "ja": "忘れ物がないように持ち物を確認しました。",
+        "zh": "為了不要忘東西，我確認了隨身物品。"
       }
     ]
   },
   "n3_egg_0368": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "4月から東京で一人暮らしを始める",
-        "zh": "從四月開始在東京單身生活"
+        "ja": "大学に入ってから一人暮らしを始めました。",
+        "zh": "上大學後開始一個人生活。"
       }
     ]
   },
   "n3_egg_0369": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -31119,18 +33869,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ねじが固く締まっている",
-        "zh": "螺絲擰得很緊"
+        "ja": "ねじがしっかり締まっています。",
+        "zh": "螺絲鎖得很緊。"
       }
     ]
   },
   "n3_egg_0370": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -31142,76 +33888,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "湯が沸騰した",
-        "zh": "水開了"
+        "ja": "お湯が沸騰したら火を弱めます。",
+        "zh": "熱水沸騰後把火轉小。"
       }
     ]
   },
   "n3_egg_0371": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "洗濯物をクリーニングに出す",
-        "zh": "把衣服送到洗衣店去"
+        "ja": "雨で洗濯物が乾きません。",
+        "zh": "因為下雨，洗好的衣服乾不了。"
       }
     ]
   },
   "n3_egg_0372": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "校庭で野球をする",
-        "zh": "在操場上打棒球"
+        "ja": "昼休みに校庭で遊びました。",
+        "zh": "午休時在操場玩。"
       }
     ]
   },
   "n3_egg_0373": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "電子掲示板",
-        "zh": "電子佈告欄"
+        "ja": "試験の日程は掲示板に出ています。",
+        "zh": "考試日程公告在公布欄上。"
       }
     ]
   },
   "n3_egg_0374": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "慣れからくる油断",
-        "zh": "因習慣化而麻痺大意"
+        "ja": "新しい生活への慣れには時間がかかります。",
+        "zh": "要習慣新生活需要時間。"
       }
     ]
   },
   "n3_egg_0375": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "飲料水を容器に移す",
-        "zh": "把飲用水倒入容器中"
+        "ja": "空の容器はここに捨ててください。",
+        "zh": "空容器請丟在這裡。"
       }
     ]
   },
   "n3_egg_0376": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -31225,220 +33959,164 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "大根を煮る",
-        "zh": "煮蘿蔔"
+        "ja": "野菜を柔らかく煮ました。",
+        "zh": "我把蔬菜煮軟了。"
       }
     ]
   },
   "n3_egg_0377": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ごちそうする",
-      "masu": "ごちそうします",
-      "te": "ごちそうして",
-      "ta": "ごちそうした",
-      "nai": "ごちそうしない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "ごちそうになる",
-        "zh": "被請客"
+        "ja": "昨日はごちそうになりました。",
+        "zh": "昨天謝謝你的款待。"
       }
     ]
   },
   "n3_egg_0378": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "飼い主のいない猫",
-        "zh": "無主的貓"
+        "ja": "犬の飼い主を探しています。",
+        "zh": "正在尋找狗的飼主。"
       }
     ]
   },
   "n3_egg_0379": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ぶらぶら",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "ちょうちんが風でぶらぶらしている",
-        "zh": "燈籠在風中搖曳"
+        "ja": "休みの日は町をぶらぶら歩きます。",
+        "zh": "休假日會在街上閒逛。"
       }
     ]
   },
   "n3_egg_0380": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "家庭教師について勉強する",
-        "zh": "跟家教學習"
+        "ja": "高校生のころ家庭教師に英語を教わりました。",
+        "zh": "高中時跟家教學英文。"
       }
     ]
   },
   "n3_egg_0381": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "西の空が夕焼けで赤くなった",
-        "zh": "西邊天空被晚霞映紅"
+        "ja": "夕焼けを見ながら家に帰りました。",
+        "zh": "我一邊看晚霞一邊回家。"
       }
     ]
   },
   "n3_egg_0382": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "申し訳が立たない",
-        "zh": "對不起"
+        "ja": "遅刻の申し訳を考えても仕方がありません。",
+        "zh": "想遲到的藉口也沒有用。"
       }
     ]
   },
   "n3_egg_0383": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ペットボトルをリユースする",
-        "zh": "重複使用塑膠瓶"
+        "ja": "空のペットボトルをリサイクルに出しました。",
+        "zh": "我把空寶特瓶拿去回收。"
       }
     ]
   },
   "n3_egg_0384": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "長靴",
-        "zh": "雨靴，長靴"
+        "ja": "雪の日はブーツを履いて出かけます。",
+        "zh": "下雪天會穿靴子出門。"
       }
     ]
   },
   "n3_egg_0385": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大好物",
-        "zh": "特別喜歡的東西"
+        "ja": "祖母の好物は甘いまんじゅうです。",
+        "zh": "祖母愛吃的東西是甜饅頭。"
       }
     ]
   },
   "n3_egg_0386": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "急な坂道を登る",
-        "zh": "爬上陡坡"
+        "ja": "この坂道を上ると駅に着きます。",
+        "zh": "爬上這個坡道就會到車站。"
       }
     ]
   },
   "n3_egg_0387": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "サラリーマンにも手の届く価格",
-        "zh": "工薪階層也買得起的價格"
+        "ja": "父は普通のサラリーマンです。",
+        "zh": "爸爸是一般上班族。"
       }
     ]
   },
   "n3_egg_0388": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "荷物の運びを手伝う",
-        "zh": "幫助搬東西"
+        "ja": "交渉は順調な運びとなりました。",
+        "zh": "交涉進展順利。"
       }
     ]
   },
   "n3_egg_0389": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ライオンがほえる",
-        "zh": "獅子吼叫"
+        "ja": "動物園でライオンを見ました。",
+        "zh": "我在動物園看了獅子。"
       }
     ]
   },
   "n3_egg_0390": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼はサングラスが似合うね",
-        "zh": "他很適合戴太陽眼鏡呢"
+        "ja": "日差しが強いのでサングラスをかけました。",
+        "zh": "陽光很強，所以我戴了太陽眼鏡。"
       }
     ]
   },
   "n3_egg_0391": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "花壇に花を植える",
-        "zh": "在花圃裡種花"
+        "ja": "花壇にチューリップを植えました。",
+        "zh": "我在花壇種了鬱金香。"
       }
     ]
   },
   "n3_egg_0392": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -31450,42 +34128,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "長財布を愛用する",
-        "zh": "喜歡用長款的錢包"
+        "ja": "このペンを十年以上愛用しています。",
+        "zh": "這枝筆我愛用了十年以上。"
       }
     ]
   },
   "n3_egg_0393": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "契約が無効となる",
-        "zh": "合約無效"
+        "ja": "期限を過ぎた券は無効です。",
+        "zh": "過期的票券無效。"
       }
     ]
   },
   "n3_egg_0394": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ファッションにこだわる",
-        "zh": "講究穿著"
+        "ja": "彼女はファッションに詳しいです。",
+        "zh": "她很懂時尚。"
       }
     ]
   },
   "n3_egg_0395": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -31497,52 +34167,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "データベースにアクセスする",
-        "zh": "存取資料庫"
+        "ja": "駅から会場までのアクセスを調べました。",
+        "zh": "我查了從車站到會場的交通方式。"
       }
     ]
   },
   "n3_egg_0396": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "変人扱いされる",
-        "zh": "被當作古怪的人看待"
+        "ja": "彼は変人と言われても気にしません。",
+        "zh": "他就算被說是怪人也不在意。"
       }
     ]
   },
   "n3_egg_0397": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "くしゃみが出る",
-        "zh": "打噴嚏"
+        "ja": "くしゃみが止まりません。",
+        "zh": "噴嚏停不下來。"
       }
     ]
   },
   "n3_egg_0398": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "名字は林で名前は正男です",
-        "zh": "姓林，名正男"
+        "ja": "申込書に名字を書いてください。",
+        "zh": "請在報名表上寫姓氏。"
       }
     ]
   },
   "n3_egg_0399": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -31556,54 +34218,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "線路を延ばす",
-        "zh": "延長鐵軌"
+        "ja": "締め切りを一週間延ばしました。",
+        "zh": "截止日期延後了一週。"
       }
     ]
   },
   "n3_egg_0400": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "二つの話には共通点がある",
-        "zh": "兩個故事有共同點"
+        "ja": "二つの意見には共通点があります。",
+        "zh": "兩個意見有共同點。"
       }
     ]
   },
   "n3_egg_0401": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "新入生を迎える",
-        "zh": "迎接新生"
+        "ja": "新入生のための説明会があります。",
+        "zh": "有為新生舉辦的說明會。"
       }
     ]
   },
   "n3_egg_0402": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "来月イタリアに観光に行く予定です",
-        "zh": "下個月預定去義大利觀光"
+        "ja": "イタリア料理の店で夕食を食べました。",
+        "zh": "我在義大利料理店吃了晚餐。"
       }
     ]
   },
   "n3_egg_0403": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -31615,112 +34267,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "あの書店は九時に開店する",
-        "zh": "那間書店九點開門"
+        "ja": "この店は朝十時に開店します。",
+        "zh": "這家店早上十點開始營業。"
       }
     ]
   },
   "n3_egg_0404": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "一位を占める",
-        "zh": "居首位"
+        "ja": "彼女は大会で一位になりました。",
+        "zh": "她在大賽中得了第一名。"
       }
     ]
   },
   "n3_egg_0405": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "原稿用紙",
-        "zh": "稿紙"
+        "ja": "申込用紙に名前を書いてください。",
+        "zh": "請在申請表上寫姓名。"
       }
     ]
   },
   "n3_egg_0406": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "特売のチラシを配る",
-        "zh": "派發特賣傳單"
+        "ja": "駅前で新しい店のちらしを配っていました。",
+        "zh": "車站前有人在發新店的傳單。"
       }
     ]
   },
   "n3_egg_0407": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "それだけできればじゅうぶんだ",
-        "zh": "只要能做到那樣就足夠了"
+        "ja": "努力したならそれだけ結果に表れます。",
+        "zh": "有努力的話，成果就會相應地表現出來。"
       }
     ]
   },
   "n3_egg_0408": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "それによって感じたものを音楽や絵で表すことのできる人が、芸術家なのではないでしょうか",
-        "zh": "能夠將這種感覺用音樂或繪畫表現出來的人，不就是藝術家嗎？"
-      }
-    ]
-  },
-  "n3_egg_0409": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ブレーキをかける",
-        "zh": "踩剎車；制止"
+        "ja": "彼は若いころから芸術家を目指していました。",
+        "zh": "他年輕時就立志成為藝術家。"
       }
     ]
   },
   "n3_egg_0410": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ビルの最上階",
-        "zh": "大樓頂樓"
+        "ja": "最上階のレストランから夜景が見えます。",
+        "zh": "從最高樓層的餐廳看得到夜景。"
       }
     ]
   },
   "n3_egg_0411": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "車輪の回りが速い",
-        "zh": "車輪轉得快"
+        "ja": "池の周りを一回り歩きました。",
+        "zh": "我繞著池塘走了一圈。"
       }
     ]
   },
   "n3_egg_0412": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
@@ -31734,28 +34358,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "15キロも走ったのでほんとうにくたびれてしまった",
-        "zh": "跑了十五公里路，真累壞了"
+        "ja": "一日中歩いてくたびれました。",
+        "zh": "走了一整天，累壞了。"
       }
     ]
   },
   "n3_egg_0413": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "現在のレートは1ドル何円ですか",
-        "zh": "現在的匯率是一美元換多少日元？"
+        "ja": "この本は十ドルで買えます。",
+        "zh": "這本書十美元就能買到。"
       }
     ]
   },
   "n3_egg_0414": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -31769,112 +34389,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "入学試験に受かる",
-        "zh": "通過入學考試"
+        "ja": "第一志望の大学に受かりました。",
+        "zh": "我考上了第一志願的大學。"
       }
     ]
   },
   "n3_egg_0415": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "新型のスマートフォンが人気を集めている",
-        "zh": "新型智慧型手機受到了大家的歡迎"
+        "ja": "新型のスマートフォンが発売されました。",
+        "zh": "新型智慧型手機上市了。"
       }
     ]
   },
   "n3_egg_0416": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "一回りする",
-      "masu": "一回りします",
-      "te": "一回りして",
-      "ta": "一回りした",
-      "nai": "一回りしない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "朝近くの公園を一回り散歩する",
-        "zh": "早上在附近的公園散步一圈"
+        "ja": "弟は去年より一回り大きくなりました。",
+        "zh": "弟弟比去年大了一圈。"
       }
     ]
   },
   "n3_egg_0417": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "公園の芝でピクニックをする",
-        "zh": "在公園的草地上野餐"
+        "ja": "庭の芝を短く刈りました。",
+        "zh": "我把庭院的草皮剪短了。"
       }
     ]
   },
   "n3_egg_0418": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "屋内運動場",
-        "zh": "室內運動場"
+        "ja": "雨の日でも屋内で遊べます。",
+        "zh": "下雨天也可以在室內玩。"
       }
     ]
   },
   "n3_egg_0419": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "市長は市の発展に貢献している",
-        "zh": "市長為城市發展做出了貢獻"
+        "ja": "市長が式典であいさつしました。",
+        "zh": "市長在典禮上致詞。"
       }
     ]
   },
   "n3_egg_0420": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "オーバーする",
-      "masu": "オーバーします",
-      "te": "オーバーして",
-      "ta": "オーバーした",
-      "nai": "オーバーしない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "予算をオーバーする",
-        "zh": "超出預算"
+        "ja": "予算を少しオーバーしてしまいました。",
+        "zh": "預算稍微超支了。"
       }
     ]
   },
   "n3_egg_0421": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -31886,16 +34468,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "日本語能力試験にチャレンジする",
-        "zh": "挑戰日語能力考試"
+        "ja": "新しい仕事にチャレンジしたいです。",
+        "zh": "我想挑戰新的工作。"
       }
     ]
   },
   "n3_egg_0422": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -31909,64 +34489,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "前の車を追い抜く",
-        "zh": "超車"
-      }
-    ]
-  },
-  "n3_egg_0423": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "テフロン加工のフライパン",
-        "zh": "鐵氟龍塗層的平底鍋"
+        "ja": "最後の直線で前の選手を追い抜きました。",
+        "zh": "在最後的直線上追過了前面的選手。"
       }
     ]
   },
   "n3_egg_0424": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "飲食店を経営する",
-        "zh": "經營餐飲店"
+        "ja": "駅の近くには飲食店が多いです。",
+        "zh": "車站附近有很多餐飲店。"
       }
     ]
   },
   "n3_egg_0425": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "冬物衣類",
-        "zh": "冬天的衣服"
+        "ja": "衣類はこの袋に入れてください。",
+        "zh": "衣物請放進這個袋子。"
       }
     ]
   },
   "n3_egg_0426": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "三対零で勝つ",
-        "zh": "三比零獲勝"
+        "ja": "気温は零度まで下がりました。",
+        "zh": "氣溫降到了零度。"
       }
     ]
   },
   "n3_egg_0427": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -31980,65 +34540,55 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "セメントをかき混ぜる",
-        "zh": "攪拌水泥"
+        "ja": "卵と牛乳をよくかき混ぜてください。",
+        "zh": "請把蛋和牛奶充分攪拌。"
       }
     ]
   },
   "n3_egg_0428": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "雑巾で拭く",
-        "zh": "用抹布擦"
+        "ja": "雑巾で床を拭きました。",
+        "zh": "我用抹布擦了地板。"
       }
     ]
   },
   "n3_egg_0429": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "体の不調を訴える",
-        "zh": "（感覺）身體不適"
+        "ja": "体調が不調なので今日は早く帰ります。",
+        "zh": "因為身體狀況不好，今天要早點回去。"
       }
     ]
   },
   "n3_egg_0430": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "剝く",
-      "masu": "剝きます",
-      "te": "剝いて",
-      "ta": "剝いた",
-      "nai": "剝かない"
+      "dictionary": "剥く",
+      "masu": "剥きます",
+      "te": "剥いて",
+      "ta": "剥いた",
+      "nai": "剥かない"
     },
     "examples": [
       {
-        "ja": "栗の皮をむく",
-        "zh": "剝栗子皮"
+        "ja": "りんごの皮を剝いて食べました。",
+        "zh": "我削了蘋果皮後吃。"
       }
     ]
   },
   "n3_egg_0431": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -32050,42 +34600,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "返却期限",
-        "zh": "歸還期限"
+        "ja": "読み終わった本を図書館に返却しました。",
+        "zh": "我把看完的書歸還給圖書館。"
       }
     ]
   },
   "n3_egg_0432": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "木の葉が散る",
-        "zh": "樹葉散落"
+        "ja": "秋になると木の葉が赤くなります。",
+        "zh": "到了秋天，樹葉會變紅。"
       }
     ]
   },
   "n3_egg_0433": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "コインロッカー",
-        "zh": "投幣式物品存放櫃"
+        "ja": "自動販売機にコインを入れました。",
+        "zh": "我把硬幣投進自動販賣機。"
       }
     ]
   },
   "n3_egg_0434": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -32097,28 +34639,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "バッティングオーダー",
-        "zh": "擊球順序"
+        "ja": "店員がオーダーを確認しました。",
+        "zh": "店員確認了點餐內容。"
       }
     ]
   },
   "n3_egg_0435": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・代・名",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "あちらこちらへ遠出をして遊ぶ",
-        "zh": "四處遠遊"
+        "ja": "旅行中はあちらこちらを見て回りました。",
+        "zh": "旅行時到處參觀了一番。"
       }
     ]
   },
   "n3_egg_0436": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -32132,253 +34670,174 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "名前を間違えてすぐ言い直した",
-        "zh": "叫錯了名字馬上又重說了一遍"
+        "ja": "分かりにくかったので言い直しました。",
+        "zh": "因為不好懂，所以我換個說法。"
       }
     ]
   },
   "n3_egg_0437": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "コカコーラ",
-        "zh": "可口可樂"
+        "ja": "暑い日に冷たいコーラを飲みました。",
+        "zh": "炎熱的日子喝了冰可樂。"
       }
     ]
   },
   "n3_egg_0438": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "一泊する",
-      "masu": "一泊します",
-      "te": "一泊して",
-      "ta": "一泊した",
-      "nai": "一泊しない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "一泊料金は税込みで1万円",
-        "zh": "一晚的費用含稅一萬日元"
+        "ja": "京都で一泊してから大阪へ行きました。",
+        "zh": "在京都住了一晚後去了大阪。"
       }
     ]
   },
   "n3_egg_0439": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "キャベツ炒め",
-        "zh": "炒高麗菜"
+        "ja": "キャベツを細く切ってサラダにします。",
+        "zh": "把高麗菜切細後做成沙拉。"
       }
     ]
   },
   "n3_egg_0440": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "東側の駐車場は現在工事中のため、南側の駐車場をご利用ください",
-        "zh": "東側的停車場目前正在施工，請使用南側的停車場"
+        "ja": "建物の東側に入口があります。",
+        "zh": "建築物的東側有入口。"
       }
     ]
   },
   "n3_egg_0441": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ピアノのレッスンに通う",
-        "zh": "去學習鋼琴"
-      }
-    ]
-  },
-  "n3_egg_0442": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "カーブする",
-      "masu": "カーブします",
-      "te": "カーブして",
-      "ta": "カーブした",
-      "nai": "カーブしない"
-    },
-    "examples": [
-      {
-        "ja": "急カーブ",
-        "zh": "急轉彎"
+        "ja": "週に一回ピアノのレッスンを受けています。",
+        "zh": "我每週上一堂鋼琴課。"
       }
     ]
   },
   "n3_egg_0443": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "竿で木の実を打ち落とす",
-        "zh": "用竿子打落樹上的果實"
+        "ja": "森で木の実を拾いました。",
+        "zh": "我在森林裡撿了樹果。"
       }
     ]
   },
   "n3_egg_0444": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ビルの一部分を建て直す",
-        "zh": "改建大樓的一部分"
+        "ja": "説明の一部分だけを引用しました。",
+        "zh": "我只引用了說明的一部分。"
       }
     ]
   },
   "n3_egg_0445": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "レモンジュース",
-        "zh": "檸檬汁"
+        "ja": "紅茶にレモンを入れました。",
+        "zh": "我在紅茶裡加了檸檬。"
       }
     ]
   },
   "n3_egg_0446": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "明日おうかがいしてもよろしいでしょうか",
-        "zh": "明天去拜望您，可以嗎？"
+        "ja": "明日の予定を確認しました。",
+        "zh": "我確認了明天的行程。"
       }
     ]
   },
   "n3_egg_0447": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・副",
     "examples": [
       {
-        "ja": "したたかなやつ",
-        "zh": "難對付的傢伙"
+        "ja": "彼女はしたたかな人で簡単には負けません。",
+        "zh": "她是個強韌的人，不會輕易認輸。"
       }
     ]
   },
   "n3_egg_0448": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "交通事故に遭う",
-        "zh": "遭遇交通事故"
+        "ja": "交通事故で道路が混んでいます。",
+        "zh": "因為交通事故，道路很塞。"
       }
     ]
   },
   "n3_egg_0449": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "週末に銀座で買い物をした",
-        "zh": "週末在銀座買了東西"
+        "ja": "週末に銀座で買い物をしました。",
+        "zh": "週末在銀座買了東西。"
       }
     ]
   },
   "n3_egg_0450": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "勤めに出る",
-        "zh": "去上班"
+        "ja": "父は長年の勤めを終えて退職しました。",
+        "zh": "父親結束多年工作後退休了。"
       }
     ]
   },
   "n3_egg_0451": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "母校に愛着を感じる",
-        "zh": "對母校感到留戀"
+        "ja": "古い家には強い愛着があります。",
+        "zh": "我對老家有很深的依戀。"
       }
     ]
   },
   "n3_egg_0452": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "いとも簡単にやってのけた",
-        "zh": "輕而易舉地完成"
+        "ja": "彼は難しい問題をいとも簡単に解きました。",
+        "zh": "他非常輕鬆地解開了難題。"
       }
     ]
   },
   "n3_egg_0453": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "遠足する",
-      "masu": "遠足します",
-      "te": "遠足して",
-      "ta": "遠足した",
-      "nai": "遠足しない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "遠足に行く",
-        "zh": "去郊遊"
+        "ja": "小学生のころ遠足で動物園へ行きました。",
+        "zh": "小學時遠足去了動物園。"
       }
     ]
   },
   "n3_egg_0454": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -32392,100 +34851,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "カードをなくしても、1年以内であれば、無料で作り直してもらえる",
-        "zh": "就算弄丟了卡片，只要在一年之內都可以免費補辦"
+        "ja": "失敗した料理を作り直しました。",
+        "zh": "我把失敗的料理重新做了一次。"
       }
     ]
   },
   "n3_egg_0455": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "大阪府",
-        "zh": "大阪府"
+        "ja": "京都府に住んでいます。",
+        "zh": "我住在京都府。"
       }
     ]
   },
   "n3_egg_0456": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大空へはばたく",
-        "zh": "振翅飛向天空"
+        "ja": "大空を飛ぶ飛行機を見上げました。",
+        "zh": "我仰望在廣闊天空飛行的飛機。"
       }
     ]
   },
   "n3_egg_0457": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ソフトドリンク",
-        "zh": "清涼飲料，軟飲料"
+        "ja": "ドリンクはセルフサービスです。",
+        "zh": "飲料是自助式的。"
       }
     ]
   },
   "n3_egg_0458": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
     "examples": [
       {
-        "ja": "そのほかのことはよく知りません",
-        "zh": "此外的事，我不太清楚"
+        "ja": "そのほかに質問はありますか。",
+        "zh": "除此之外還有問題嗎？"
       }
     ]
   },
   "n3_egg_0459": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "突然の大雨にびっくりする",
-        "zh": "被突如其來的大雨嚇了一跳"
+        "ja": "大雨で電車が遅れました。",
+        "zh": "因為大雨，電車誤點了。"
       }
     ]
   },
   "n3_egg_0460": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "お決まり文句",
-        "zh": "陳詞老調"
+        "ja": "彼の話はいつもお決まりの冗談で始まります。",
+        "zh": "他的話總是從固定套路的玩笑開始。"
       }
     ]
   },
   "n3_egg_0461": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "小麦粉をこねる",
-        "zh": "揉麵粉"
+        "ja": "小麦粉に水を少しずつ加えます。",
+        "zh": "把水一點一點加入麵粉。"
       }
     ]
   },
   "n3_egg_0462": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -32499,114 +34942,94 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "カレンダーを壁に引っ掛ける",
-        "zh": "把日曆掛在牆上"
+        "ja": "かばんを椅子に引っ掛けました。",
+        "zh": "我把包包掛在椅子上。"
       }
     ]
   },
   "n3_egg_0463": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "五目焼きそば",
-        "zh": "什錦炒麵"
+        "ja": "昼ご飯に焼きそばを作りました。",
+        "zh": "午餐做了炒麵。"
       }
     ]
   },
   "n3_egg_0464": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
     "examples": [
       {
-        "ja": "大会は北京において1週間にわたって開かれた",
-        "zh": "大會在北京舉行，為期一週"
+        "ja": "会議において重要な決定がありました。",
+        "zh": "在會議中做出了重要決定。"
       }
     ]
   },
   "n3_egg_0465": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "税込み",
-        "zh": "含稅"
+        "ja": "送料込みで三千円です。",
+        "zh": "含運費三千日圓。"
       }
     ]
   },
   "n3_egg_0466": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "甥っ子",
-        "zh": "外甥，侄子"
+        "ja": "甥に誕生日プレゼントを送りました。",
+        "zh": "我送了生日禮物給姪子。"
       }
     ]
   },
   "n3_egg_0467": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "翌年の計画",
-        "zh": "下一年的計劃"
+        "ja": "会社は翌年に海外進出しました。",
+        "zh": "公司隔年進軍海外。"
       }
     ]
   },
   "n3_egg_0468": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "段ボール箱",
-        "zh": "紙板箱"
+        "ja": "荷物を段ボールに詰めました。",
+        "zh": "我把行李裝進紙箱。"
       }
     ]
   },
   "n3_egg_0469": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "子どもたちは水族館に行くのをとても楽しみにしている",
-        "zh": "孩子們非常期待去水族館"
+        "ja": "週末に水族館へ行きました。",
+        "zh": "週末去了水族館。"
       }
     ]
   },
   "n3_egg_0470": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・代・名",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "あっちこっちふらつく",
-        "zh": "到處閒逛"
+        "ja": "子どもが部屋の中をあっちこっち走っています。",
+        "zh": "孩子在房間裡到處跑。"
       }
     ]
   },
   "n3_egg_0471": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -32618,184 +35041,124 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "新商品の試食会を行う",
-        "zh": "舉行新產品試吃會"
+        "ja": "新商品の試食ができます。",
+        "zh": "可以試吃新商品。"
       }
     ]
   },
   "n3_egg_0472": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "木の幹の内部が腐ってうつろになる",
-        "zh": "樹幹內部腐爛變成空洞"
-      }
-    ]
-  },
-  "n3_egg_0473": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "引き出しの取っ手",
-        "zh": "抽屜的把手"
+        "ja": "彼はうつろな目で窓の外を見ていました。",
+        "zh": "他眼神茫然地看著窗外。"
       }
     ]
   },
   "n3_egg_0474": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "はらはら",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "サクラの花びらがはらはらと散る",
-        "zh": "櫻花花瓣紛紛飄落"
+        "ja": "合格発表まで一日中はらはらしていました。",
+        "zh": "到放榜前一整天都很緊張。"
       }
     ]
   },
   "n3_egg_0475": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "音量をしぼる",
-        "zh": "把音量調小"
+        "ja": "テレビの音量を下げてください。",
+        "zh": "請把電視音量調小。"
       }
     ]
   },
   "n3_egg_0476": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "基礎教科",
-        "zh": "基礎課程"
+        "ja": "好きな教科は歴史です。",
+        "zh": "我喜歡的科目是歷史。"
       }
     ]
   },
   "n3_egg_0477": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "電動車椅子",
-        "zh": "電動輪椅"
+        "ja": "この駅には車椅子用の入口があります。",
+        "zh": "這個車站有輪椅專用入口。"
       }
     ]
   },
   "n3_egg_0478": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "中級英語",
-        "zh": "中級英語"
+        "ja": "中級クラスで会話を練習しています。",
+        "zh": "我在中級班練習會話。"
       }
     ]
   },
   "n3_egg_0479": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "乗車券",
-        "zh": "車票"
+        "ja": "この券は当日だけ使えます。",
+        "zh": "這張券只能當天使用。"
       }
     ]
   },
   "n3_egg_0480": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "造",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "包装紙",
-        "zh": "包裝紙"
+        "ja": "新聞紙で窓を拭きました。",
+        "zh": "我用報紙擦窗戶。"
       }
     ]
   },
   "n3_egg_0481": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "からすが鳴く",
-        "zh": "烏鴉叫"
+        "ja": "電線にからすが止まっています。",
+        "zh": "電線上停著烏鴉。"
       }
     ]
   },
   "n3_egg_0482": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "血圧を測る",
-        "zh": "量血壓"
+        "ja": "毎朝血圧を測っています。",
+        "zh": "我每天早上量血壓。"
       }
     ]
   },
   "n3_egg_0483": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ぐらぐら",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "地震で家がぐらぐら揺れる",
-        "zh": "地震把房子震得搖搖晃晃"
+        "ja": "地震で棚がぐらぐら揺れました。",
+        "zh": "地震時架子搖搖晃晃。"
       }
     ]
   },
   "n3_egg_0484": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -32807,16 +35170,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "私は毎朝ラジオ体操をする",
-        "zh": "我每天早晨做廣播操"
+        "ja": "朝の体操で体を伸ばしました。",
+        "zh": "早晨做體操伸展身體。"
       }
     ]
   },
   "n3_egg_0485": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -32830,16 +35191,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "火がつく",
-        "zh": "火點著"
+        "ja": "暗くなると自動で電気が点きます。",
+        "zh": "天暗後燈會自動亮起來。"
       }
     ]
   },
   "n3_egg_0486": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -32853,76 +35212,73 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "野菜を炒める",
-        "zh": "炒蔬菜"
+        "ja": "野菜を強火で炒めます。",
+        "zh": "用大火炒蔬菜。"
       }
     ]
   },
   "n3_egg_0487": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "学生の学生たる所以は勉学にはげむところにある",
-        "zh": "學生之所以為學生，在於努力學習"
+        "ja": "これが彼が尊敬される所以です。",
+        "zh": "這就是他受人尊敬的原因。"
       }
     ]
   },
   "n3_egg_0488": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "子供たちは空き地で遊んでいる",
-        "zh": "孩子們在空地上玩耍"
+        "ja": "空き地に新しい家が建ちました。",
+        "zh": "空地上蓋了新房子。"
       }
     ]
   },
   "n3_egg_0489": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "条約の本文",
-        "zh": "條約的正文"
+        "ja": "本文を読んでから問題に答えてください。",
+        "zh": "請讀完本文後回答問題。"
       }
     ]
   },
   "n3_egg_0490": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "朝食はドーナツにコーヒーだった",
-        "zh": "早餐是甜甜圈和咖啡"
+        "ja": "子どもにドーナツを買いました。",
+        "zh": "我買了甜甜圈給孩子。"
       }
     ]
   },
   "n3_egg_0491": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "申し込みする",
+      "masu": "申し込みします",
+      "te": "申し込みして",
+      "ta": "申し込みした",
+      "nai": "申し込みしない"
+    },
     "examples": [
       {
-        "ja": "試合の申し込みをする",
-        "zh": "提議進行比賽"
+        "ja": "講座の申し込みは今日までです。",
+        "zh": "課程報名到今天為止。"
       }
     ]
   },
   "n3_egg_0492": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -32936,30 +35292,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "図書館が本を貸し出す",
-        "zh": "圖書館借出書籍"
+        "ja": "図書館では自転車の鍵も貸し出しています。",
+        "zh": "圖書館也有出借腳踏車鎖。"
       }
     ]
   },
   "n3_egg_0493": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "宿題がとんとんかたづく",
-        "zh": "作業順利完成"
+        "ja": "交渉はとんとん拍子に進みました。",
+        "zh": "交涉順利地進行。"
       }
     ]
   },
   "n3_egg_0494": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -32971,77 +35321,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "プレールーム",
-        "zh": "遊戲室"
+        "ja": "選手のプレーに観客が拍手しました。",
+        "zh": "觀眾為選手的比賽表現鼓掌。"
       }
     ]
   },
   "n3_egg_0495": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "アイドル歌手",
-        "zh": "偶像歌星"
+        "ja": "彼女は有名な歌手です。",
+        "zh": "她是有名的歌手。"
       }
     ]
   },
   "n3_egg_0496": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "日替わり定食",
-        "zh": "每日不同的套餐"
+        "ja": "昼は駅前で定食を食べました。",
+        "zh": "中午在車站前吃了套餐。"
       }
     ]
   },
   "n3_egg_0497": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "トーストする",
-      "masu": "トーストします",
-      "te": "トーストして",
-      "ta": "トーストした",
-      "nai": "トーストしない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "トースト1枚",
-        "zh": "一片吐司"
+        "ja": "朝食にトーストを二枚食べました。",
+        "zh": "早餐吃了兩片吐司。"
       }
     ]
   },
   "n3_egg_0498": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "運動用具",
-        "zh": "運動器材"
+        "ja": "掃除用具は倉庫にあります。",
+        "zh": "清潔用具在倉庫裡。"
       }
     ]
   },
   "n3_egg_0499": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33053,101 +35380,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "道路の右側を歩行する",
-        "zh": "靠道路右側行走"
+        "ja": "歩行者は右側を歩いてください。",
+        "zh": "行人請靠右行走。"
       }
     ]
   },
   "n3_egg_0500": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
     "examples": [
       {
-        "ja": "短気な性格",
-        "zh": "急性子"
+        "ja": "彼は短気なので、すぐ怒ります。",
+        "zh": "他急性子，所以很快就生氣。"
       }
     ]
   },
   "n3_egg_0501": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "館内を清掃する",
-        "zh": "對館內進行清掃"
+        "ja": "館内では静かにしてください。",
+        "zh": "館內請保持安靜。"
       }
     ]
   },
   "n3_egg_0502": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "パンダは外国では珍しいものだ",
-        "zh": "熊貓在國外是很稀有的東西"
+        "ja": "動物園でパンダを見ました。",
+        "zh": "我在動物園看了貓熊。"
       }
     ]
   },
   "n3_egg_0503": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "厳禁する",
-      "masu": "厳禁します",
-      "te": "厳禁して",
-      "ta": "厳禁した",
-      "nai": "厳禁しない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "校内での喫煙は厳禁です",
-        "zh": "校內禁止吸菸"
+        "ja": "ここは撮影厳禁です。",
+        "zh": "這裡嚴禁拍照。"
       }
     ]
   },
   "n3_egg_0504": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "友情の結びを深める",
-        "zh": "加深友誼的紐帶"
+        "ja": "話の結びに感謝の言葉を述べました。",
+        "zh": "在談話的結尾表達了感謝。"
       }
     ]
   },
   "n3_egg_0505": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "僕は観光地に行くより、地図を持って、自分の知らない町を歩くのが好きなんだ",
-        "zh": "比起去觀光景點，我更喜歡拿著地圖，在自己不熟悉的城鎮裡漫步"
+        "ja": "京都は人気の観光地です。",
+        "zh": "京都是很受歡迎的觀光地。"
       }
     ]
   },
   "n3_egg_0506": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33159,30 +35459,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "イメージチェンジ",
-        "zh": "改變形象"
+        "ja": "予定を少しチェンジしました。",
+        "zh": "我稍微更改了預定。"
       }
     ]
   },
   "n3_egg_0507": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "子供の世話を祖父母に任せる",
-        "zh": "讓祖父母幫忙帶小孩"
+        "ja": "夏休みに祖父母の家へ行きます。",
+        "zh": "暑假要去祖父母家。"
       }
     ]
   },
   "n3_egg_0508": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33194,101 +35488,76 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "用事で早退する",
-        "zh": "有事而早退"
+        "ja": "熱が出たので学校を早退しました。",
+        "zh": "因為發燒，所以從學校早退。"
       }
     ]
   },
   "n3_egg_0509": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "顔合わせ",
-        "zh": "碰頭，碰面"
+        "ja": "色合わせをしてから服を選びました。",
+        "zh": "先配色後再選衣服。"
       }
     ]
   },
   "n3_egg_0510": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "蚊に刺されたところがかゆい",
-        "zh": "被蚊子叮的地方很癢"
+        "ja": "虫に刺されて腕がかゆいです。",
+        "zh": "被蟲咬了，手臂很癢。"
       }
     ]
   },
   "n3_egg_0511": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "四角に切る",
-        "zh": "切成四方形"
+        "ja": "紙を四角に切ってください。",
+        "zh": "請把紙剪成方形。"
       }
     ]
   },
   "n3_egg_0512": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "洋室",
-        "zh": "西式房間"
+        "ja": "旅館の和室に泊まりました。",
+        "zh": "住在旅館的和室。"
       }
     ]
   },
   "n3_egg_0513": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "会場は空席が目立った",
-        "zh": "會場上空位子很多"
+        "ja": "この電車にはまだ空席があります。",
+        "zh": "這班電車還有空位。"
       }
     ]
   },
   "n3_egg_0514": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ぺらぺら",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "彼は日本語がぺらぺらだ",
-        "zh": "他的日語說得很流利"
+        "ja": "彼は英語がぺらぺらです。",
+        "zh": "他的英文很流利。"
       }
     ]
   },
   "n3_egg_0515": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -33300,18 +35569,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "声を掛け合う",
-        "zh": "互相打招呼"
+        "ja": "店と値段について掛け合いました。",
+        "zh": "我和店家交涉了價格。"
       }
     ]
   },
   "n3_egg_0516": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33323,64 +35588,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "現存する世界最古の城",
-        "zh": "現存世界最古老的城堡"
+        "ja": "現存する最古の建物だそうです。",
+        "zh": "聽說這是現存最古老的建築。"
       }
     ]
   },
   "n3_egg_0517": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ぶらんこをこぐ",
-        "zh": "盪鞦韆"
+        "ja": "公園で子どもがぶらんこに乗っています。",
+        "zh": "孩子在公園盪鞦韆。"
       }
     ]
   },
   "n3_egg_0518": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "町内活動",
-        "zh": "街道活動"
+        "ja": "町内の祭りに参加しました。",
+        "zh": "我參加了社區內的祭典。"
       }
     ]
   },
   "n3_egg_0519": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "賛成と反対が半々だ",
-        "zh": "一半贊成一半反對"
+        "ja": "費用は二人で半々にしました。",
+        "zh": "費用由兩個人各付一半。"
       }
     ]
   },
   "n3_egg_0520": {
-    "pos": "bound_morpheme",
-    "posLabel": "造語成分",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・造",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "注をつける",
-        "zh": "標明註解，加註"
+        "ja": "ページの下に注があります。",
+        "zh": "頁面下方有註解。"
       }
     ]
   },
   "n3_egg_0521": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -33394,111 +35649,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "授業料を振り込む",
-        "zh": "繳交學費"
+        "ja": "家賃を銀行口座に振り込みました。",
+        "zh": "我把房租匯進銀行帳戶。"
       }
     ]
   },
   "n3_egg_0522": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ホスト役を務める",
-        "zh": "當東道主；作東"
+        "ja": "彼は番組のホストを務めています。",
+        "zh": "他擔任節目主持人。"
       }
     ]
   },
   "n3_egg_0523": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ぺこぺこ",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "ボールがぺこぺこになる",
-        "zh": "球癟了"
+        "ja": "お腹がぺこぺこです。",
+        "zh": "肚子餓扁了。"
       }
     ]
   },
   "n3_egg_0524": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "不動産屋",
-        "zh": "房仲"
+        "ja": "駅前の不動産会社に相談しました。",
+        "zh": "我去車站前的不動產公司諮詢。"
       }
     ]
   },
   "n3_egg_0525": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ポークソーセージ",
-        "zh": "豬肉香腸"
+        "ja": "朝食にソーセージを焼きました。",
+        "zh": "早餐煎了香腸。"
       }
     ]
   },
   "n3_egg_0526": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "四季咲きの花",
-        "zh": "一年四季都開的花"
+        "ja": "日本には四季があります。",
+        "zh": "日本有四季。"
       }
     ]
   },
   "n3_egg_0527": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "マットを敷く",
-        "zh": "鋪上墊子"
+        "ja": "玄関にマットを敷きました。",
+        "zh": "在玄關鋪了地墊。"
       }
     ]
   },
   "n3_egg_0528": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "牛肉より豚肉が軟らかい",
-        "zh": "豬肉比牛肉軟嫩"
+        "ja": "豚肉と野菜を炒めました。",
+        "zh": "炒了豬肉和蔬菜。"
       }
     ]
   },
   "n3_egg_0529": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -33512,42 +35740,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "この雨はいつまで降り続くのだろうか",
-        "zh": "這場雨要下到什麼時候呢？"
+        "ja": "雨が三日間降り続いています。",
+        "zh": "雨連續下了三天。"
       }
     ]
   },
   "n3_egg_0530": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ろうそくを点す",
-        "zh": "點亮蠟燭"
+        "ja": "ろうそくに火をつけました。",
+        "zh": "點燃了蠟燭。"
       }
     ]
   },
   "n3_egg_0531": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ワンルームマンション",
-        "zh": "一室公寓，單間公寓"
+        "ja": "会議ルームを予約しました。",
+        "zh": "預約了會議室。"
       }
     ]
   },
   "n3_egg_0532": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33559,64 +35779,54 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "飲食店",
-        "zh": "餐飲店"
+        "ja": "店内での飲食は禁止です。",
+        "zh": "店內禁止飲食。"
       }
     ]
   },
   "n3_egg_0533": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "腹痛のため学校を休む",
-        "zh": "因肚子痛而請假不去上學"
+        "ja": "腹痛で病院へ行きました。",
+        "zh": "因為肚子痛去了醫院。"
       }
     ]
   },
   "n3_egg_0534": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ポストに空きができた",
-        "zh": "職位上有空缺"
+        "ja": "明日の午後なら少し空きがあります。",
+        "zh": "明天下午的話有一點空檔。"
       }
     ]
   },
   "n3_egg_0535": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "フロントガラス",
-        "zh": "擋風玻璃"
+        "ja": "ホテルのフロントで鍵を受け取りました。",
+        "zh": "在飯店櫃台拿了鑰匙。"
       }
     ]
   },
   "n3_egg_0536": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "煮物に味付けをする",
-        "zh": "為燉菜調味"
+        "ja": "祖母の煮物は味がしみています。",
+        "zh": "祖母做的燉菜很入味。"
       }
     ]
   },
   "n3_egg_0537": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -33630,18 +35840,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "不便を来す",
-        "zh": "造成不便"
+        "ja": "寝不足は仕事に支障を来します。",
+        "zh": "睡眠不足會造成工作上的障礙。"
       }
     ]
   },
   "n3_egg_0538": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33653,18 +35859,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "彼らは総力を結集して難局に当たった",
-        "zh": "他們集結全部力量應付了困難局面"
+        "ja": "各地から専門家が結集しました。",
+        "zh": "專家從各地集結而來。"
       }
     ]
   },
   "n3_egg_0539": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -33676,16 +35878,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "学会での講演",
-        "zh": "在學會做的報告"
+        "ja": "先生の講演を聞きました。",
+        "zh": "聽了老師的演講。"
       }
     ]
   },
   "n3_egg_0540": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -33699,100 +35899,84 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "作文を書き直す",
-        "zh": "重寫作文"
+        "ja": "作文をもう一度書き直しました。",
+        "zh": "我把作文重新寫了一次。"
       }
     ]
   },
   "n3_egg_0541": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ポテトサラダ",
-        "zh": "馬鈴薯沙拉"
+        "ja": "ポテトを追加で注文しました。",
+        "zh": "又追加點了薯條。"
       }
     ]
   },
   "n3_egg_0542": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "歯ブラシ",
-        "zh": "牙刷"
+        "ja": "ブラシで靴の汚れを落としました。",
+        "zh": "用刷子刷掉鞋子的髒汙。"
       }
     ]
   },
   "n3_egg_0543": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "下手なしゃれで人を笑わせる",
-        "zh": "說拙劣的笑話引人發笑"
+        "ja": "彼のしゃれにみんなが笑いました。",
+        "zh": "大家都被他的俏皮話逗笑了。"
       }
     ]
   },
   "n3_egg_0544": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ふるさとに帰る",
-        "zh": "回故鄉"
+        "ja": "ふるさとの海が懐かしいです。",
+        "zh": "我很懷念故鄉的海。"
       }
     ]
   },
   "n3_egg_0545": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "酢でもむ",
-        "zh": "醋拌"
+        "ja": "酢を少し入れると味がさっぱりします。",
+        "zh": "加一點醋味道會更清爽。"
       }
     ]
   },
   "n3_egg_0546": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "牡蠣フライ",
-        "zh": "炸牡蠣"
+        "ja": "白身魚のフライを食べました。",
+        "zh": "吃了炸白身魚。"
       }
     ]
   },
   "n3_egg_0547": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "電子レンジ",
-        "zh": "微波爐"
+        "ja": "電子レンジで弁当を温めました。",
+        "zh": "用微波爐加熱便當。"
       }
     ]
   },
   "n3_egg_0548": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -33806,87 +35990,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "箒で庭を掃く",
-        "zh": "用掃帚打掃院子"
+        "ja": "ほうきで庭を掃きました。",
+        "zh": "用掃把掃了庭院。"
       }
     ]
   },
   "n3_egg_0549": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "新聞紙で弁当箱を包む",
-        "zh": "用報紙包便當盒"
+        "ja": "荷物を新聞紙で包みました。",
+        "zh": "用報紙包了行李。"
       }
     ]
   },
   "n3_egg_0550": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "体力には個人差がある",
-        "zh": "體力因人而異"
+        "ja": "薬の効き方には個人差があります。",
+        "zh": "藥效因人而異。"
       }
     ]
   },
   "n3_egg_0551": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "4キロメートル以内は無料配達いたします",
-        "zh": "四公里以內免費送貨"
+        "ja": "駅まで二キロメートルあります。",
+        "zh": "到車站有兩公里。"
       }
     ]
   },
   "n3_egg_0552": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ガイドする",
-      "masu": "ガイドします",
-      "te": "ガイドして",
-      "ta": "ガイドした",
-      "nai": "ガイドしない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "外国人相手のガイドになる",
-        "zh": "為外國人當導遊"
+        "ja": "観光ガイドに町を案内してもらいました。",
+        "zh": "請觀光導遊帶我們逛城市。"
       }
     ]
   },
   "n3_egg_0553": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ぼくは魚アレルギーだ",
-        "zh": "我吃魚就過敏"
+        "ja": "卵のアレルギーがあります。",
+        "zh": "我對蛋過敏。"
       }
     ]
   },
   "n3_egg_0554": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -33900,40 +36061,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "彼は東京から地方へ移り住んだ",
-        "zh": "他從東京搬到了鄉下"
+        "ja": "結婚を機に地方へ移り住みました。",
+        "zh": "以結婚為契機搬到地方定居。"
       }
     ]
   },
   "n3_egg_0555": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "焼肉をレタスにくるんで食べる",
-        "zh": "用生菜包著烤肉吃"
+        "ja": "サラダにレタスを入れました。",
+        "zh": "沙拉裡加了生菜。"
       }
     ]
   },
   "n3_egg_0556": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "干し柿",
-        "zh": "柿餅"
+        "ja": "秋になると柿が甘くなります。",
+        "zh": "到了秋天，柿子會變甜。"
       }
     ]
   },
   "n3_egg_0557": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -33947,148 +36102,124 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "遠くの人に大声で呼びかける",
-        "zh": "向遠處的人大聲呼喊"
+        "ja": "市は節電を呼びかけています。",
+        "zh": "市政府正在呼籲節電。"
       }
     ]
   },
   "n3_egg_0558": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・接",
+    "pos": "conjunction",
+    "posLabel": "接續詞",
     "examples": [
       {
-        "ja": "たんぱく質は体にいい。もっとも、摂りすぎてはいけない",
-        "zh": "蛋白質對身體有益，但也不能攝取過量"
+        "ja": "彼の言うことはもっともです。",
+        "zh": "他說的話很合理。"
       }
     ]
   },
   "n3_egg_0559": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "横断歩道を渡る",
-        "zh": "過斑馬線"
+        "ja": "横断歩道を渡ってください。",
+        "zh": "請走行人穿越道。"
       }
     ]
   },
   "n3_egg_0560": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "図書館で調べ物をする",
-        "zh": "在圖書館查資料"
+        "ja": "図書館で調べ物をしました。",
+        "zh": "我在圖書館查資料。"
       }
     ]
   },
   "n3_egg_0561": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "あの家はいま空き家になっている",
-        "zh": "那所房子現在空著"
+        "ja": "近所の空き家が取り壊されました。",
+        "zh": "附近的空屋被拆掉了。"
       }
     ]
   },
   "n3_egg_0562": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大学入試",
-        "zh": "大學入學考試；大學入學考"
+        "ja": "弟は高校入試の準備をしています。",
+        "zh": "弟弟正在準備高中入學考試。"
       }
     ]
   },
   "n3_egg_0563": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "国立の大学",
-        "zh": "國立大學"
+        "ja": "国立大学を受験しました。",
+        "zh": "我報考了國立大學。"
       }
     ]
   },
   "n3_egg_0564": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "スポーツ用品",
-        "zh": "體育用品"
+        "ja": "旅行用品をそろえました。",
+        "zh": "我備齊了旅行用品。"
       }
     ]
   },
   "n3_egg_0565": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ピーマンが大嫌いだ",
-        "zh": "最討厭吃青椒"
+        "ja": "ピーマンを細く切って炒めます。",
+        "zh": "把青椒切細後炒。"
       }
     ]
   },
   "n3_egg_0566": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "カタログを請求する",
-        "zh": "索取商品目錄"
+        "ja": "家具のカタログを見ています。",
+        "zh": "正在看家具型錄。"
       }
     ]
   },
   "n3_egg_0567": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "図書の受け入れ",
-        "zh": "（圖書館）書籍的收進"
+        "ja": "留学生の受け入れが増えています。",
+        "zh": "接收的留學生正在增加。"
       }
     ]
   },
   "n3_egg_0568": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "高速道路を逆走する",
-        "zh": "在高速公路上逆行"
+        "ja": "高速道路を使うと早く着きます。",
+        "zh": "走高速公路會比較快到。"
       }
     ]
   },
   "n3_egg_0569": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -34102,42 +36233,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "費用は各自が出し合った",
-        "zh": "費用是由每個人攤的"
+        "ja": "みんなでお金を出し合って花を買いました。",
+        "zh": "大家一起出錢買了花。"
       }
     ]
   },
   "n3_egg_0570": {
     "pos": "interjection",
     "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "感",
     "examples": [
       {
-        "ja": "やった、合格した！",
-        "zh": "太棒了，合格了！"
+        "ja": "やった、試験に合格した。",
+        "zh": "太好了，考試合格了。"
       }
     ]
   },
   "n3_egg_0571": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "飲料水",
-        "zh": "飲用水"
+        "ja": "冷たい飲料を買いました。",
+        "zh": "買了冰涼的飲料。"
       }
     ]
   },
   "n3_egg_0572": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34149,125 +36272,103 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ショッピングセンター",
-        "zh": "購物中心"
+        "ja": "週末は母とショッピングに行きます。",
+        "zh": "週末要和媽媽去購物。"
       }
     ]
   },
   "n3_egg_0573": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "入門する",
-      "masu": "入門します",
-      "te": "入門して",
-      "ta": "入門した",
-      "nai": "入門しない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "哲学入門",
-        "zh": "哲學入門"
+        "ja": "これはプログラミング入門の本です。",
+        "zh": "這是程式設計入門書。"
       }
     ]
   },
   "n3_egg_0574": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "週刊誌",
-        "zh": "週刊雜誌"
+        "ja": "週刊誌を駅の売店で買いました。",
+        "zh": "在車站小賣店買了週刊雜誌。"
       }
     ]
   },
   "n3_egg_0575": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "会議で名札を付ける",
-        "zh": "在會議上佩戴名牌"
+        "ja": "受付で名札を受け取ってください。",
+        "zh": "請在櫃台領取名牌。"
       }
     ]
   },
   "n3_egg_0576": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "examples": [
       {
-        "ja": "ご覧に入れる",
-        "zh": "請您看"
+        "ja": "こちらの資料をご覧ください。",
+        "zh": "請看這份資料。"
       }
     ]
   },
   "n3_egg_0577": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ほろ苦い抹茶風味の和菓子が人気だ",
-        "zh": "微苦的抹茶風味日式點心很受歡迎"
+        "ja": "お茶と和菓子をいただきました。",
+        "zh": "享用了茶和日式點心。"
       }
     ]
   },
   "n3_egg_0578": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "幸せの現れ",
-        "zh": "幸福的體現"
+        "ja": "彼の涙は悔しさの現れです。",
+        "zh": "他的眼淚是懊悔的表現。"
       }
     ]
   },
   "n3_egg_0579": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "バーゲンセール",
-        "zh": "特賣會"
+        "ja": "セールで靴を安く買いました。",
+        "zh": "在特價時便宜買了鞋子。"
       }
     ]
   },
   "n3_egg_0580": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "カウンセリングする",
+      "masu": "カウンセリングします",
+      "te": "カウンセリングして",
+      "ta": "カウンセリングした",
+      "nai": "カウンセリングしない"
+    },
     "examples": [
       {
-        "ja": "カウンセリングを受ける",
-        "zh": "接受心理諮商"
+        "ja": "学校でカウンセリングを受けました。",
+        "zh": "在學校接受了心理諮商。"
       }
     ]
   },
   "n3_egg_0581": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34279,42 +36380,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "来日公演",
-        "zh": "來日演出"
+        "ja": "彼は十年前に初めて来日しました。",
+        "zh": "他十年前第一次來日本。"
       }
     ]
   },
   "n3_egg_0582": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "のり巻き",
-        "zh": "紫菜卷壽司"
+        "ja": "ご飯に海苔を巻いて食べました。",
+        "zh": "把海苔捲在飯上吃。"
       }
     ]
   },
   "n3_egg_0583": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "文の組み立て方がおかしい",
-        "zh": "句子結構不自然"
+        "ja": "机の組み立てに一時間かかりました。",
+        "zh": "組裝桌子花了一個小時。"
       }
     ]
   },
   "n3_egg_0584": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34326,160 +36419,104 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ご来店をお待ちいたしております",
-        "zh": "恭候光顧本店"
+        "ja": "ご来店ありがとうございます。",
+        "zh": "感謝您光臨本店。"
       }
     ]
   },
   "n3_egg_0585": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "新入社員",
-        "zh": "新來的公司職員"
-      }
-    ]
-  },
-  "n3_egg_0586": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "この文の筆者は明らかでない",
-        "zh": "此文作者不詳"
+        "ja": "新入社員の研修が始まりました。",
+        "zh": "新進員工的研修開始了。"
       }
     ]
   },
   "n3_egg_0587": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "洋食の食べ方には不慣れだ",
-        "zh": "我不習慣西餐的吃法"
+        "ja": "洋食より和食が好きです。",
+        "zh": "比起西式餐點，我更喜歡日式餐點。"
       }
     ]
   },
   "n3_egg_0588": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "欠席届け",
-        "zh": "請假條"
+        "ja": "退職届を提出しました。",
+        "zh": "提交了離職申請。"
       }
     ]
   },
   "n3_egg_0589": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ずきずき",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "虫歯がずきずき痛む",
-        "zh": "蛀牙一跳一跳地痛"
+        "ja": "虫歯がずきずき痛みます。",
+        "zh": "蛀牙一陣一陣地痛。"
       }
     ]
   },
   "n3_egg_0590": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "麻婆茄子",
-        "zh": "麻婆茄子"
+        "ja": "なすを味噌で炒めました。",
+        "zh": "用味噌炒了茄子。"
       }
     ]
   },
   "n3_egg_0591": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大雪で交通が麻痺した",
-        "zh": "大雪導致交通癱瘓"
+        "ja": "大雪で学校が休みになりました。",
+        "zh": "因為大雪，學校停課了。"
       }
     ]
   },
   "n3_egg_0592": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "木登り",
-        "zh": "爬樹"
+        "ja": "この道は登りがきついです。",
+        "zh": "這條路上坡很陡。"
       }
     ]
   },
   "n3_egg_0593": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "一流プレーヤーの仲間入りを果たす",
-        "zh": "躋身於一流選手的行列"
+        "ja": "音楽プレーヤーで曲を聞いています。",
+        "zh": "用音樂播放器聽歌。"
       }
     ]
   },
   "n3_egg_0594": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ちかちか",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "星がちかちか光る",
-        "zh": "星光閃爍"
+        "ja": "画面がちかちかして見にくいです。",
+        "zh": "畫面一直閃爍，很難看清楚。"
       }
     ]
   },
   "n3_egg_0595": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34491,16 +36528,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "日程を掲示する",
-        "zh": "公佈日期"
+        "ja": "結果は掲示で知らせます。",
+        "zh": "結果會以公告通知。"
       }
     ]
   },
   "n3_egg_0596": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -34514,16 +36549,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "災難にかかる",
-        "zh": "遭遇災難"
+        "ja": "インフルエンザに罹りました。",
+        "zh": "得了流感。"
       }
     ]
   },
   "n3_egg_0597": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -34537,100 +36570,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ゆで卵をゆでる",
-        "zh": "煮水煮蛋"
+        "ja": "卵を七分ゆでます。",
+        "zh": "把蛋煮七分鐘。"
       }
     ]
   },
   "n3_egg_0598": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "リュックサックを背負う",
-        "zh": "背背包"
+        "ja": "リュックサックに水を入れました。",
+        "zh": "把水放進背包裡。"
       }
     ]
   },
   "n3_egg_0599": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "のりではる",
-        "zh": "用漿糊貼"
+        "ja": "封筒にのりを付けました。",
+        "zh": "在信封上塗了漿糊。"
       }
     ]
   },
   "n3_egg_0600": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "雪に閉ざされて孤絶した山村",
-        "zh": "大雪封山、與世隔絕的山村"
+        "ja": "その山村には古い家が多く残っています。",
+        "zh": "那座山村裡還保留著很多老房子。"
       }
     ]
   },
   "n3_egg_0601": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "唐辛子を入れすぎて辛くて食べられない",
-        "zh": "辣椒放太多了，辣到吃不下去"
+        "ja": "唐辛子を入れすぎて、とても辛くなりました。",
+        "zh": "辣椒放太多，變得非常辣。"
       }
     ]
   },
   "n3_egg_0602": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "農産物は地方から都会の消費者に送られる",
-        "zh": "農產品從產地送到都市的消費者手中"
+        "ja": "消費者の意見を商品開発に生かします。",
+        "zh": "把消費者的意見用在商品開發上。"
       }
     ]
   },
   "n3_egg_0603": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "お年玉をもらう",
-        "zh": "收壓歲錢"
-      }
-    ]
-  },
-  "n3_egg_0604": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "文房具のセット",
-        "zh": "一套文具"
+        "ja": "子どものころ、お年玉を貯金していました。",
+        "zh": "小時候我會把壓歲錢存起來。"
       }
     ]
   },
   "n3_egg_0605": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -34644,28 +36651,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "大量のハクサイが売れ残った",
-        "zh": "大量的白菜滯銷了"
-      }
-    ]
-  },
-  "n3_egg_0606": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "はさみがよく切れない",
-        "zh": "剪刀不快"
+        "ja": "売れ残ったパンを安く売っています。",
+        "zh": "賣剩的麵包正在便宜出售。"
       }
     ]
   },
   "n3_egg_0607": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -34679,174 +36672,134 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "古い家を建て直す",
-        "zh": "重建舊房子"
+        "ja": "古い家を建て直すことにしました。",
+        "zh": "決定重建老房子。"
       }
     ]
   },
   "n3_egg_0608": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "実際的な人",
-        "zh": "務實的人"
+        "ja": "彼の提案は実際的で役に立ちます。",
+        "zh": "他的提案很務實，也很有用。"
       }
     ]
   },
   "n3_egg_0609": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "朝焼けは雨、夕焼けは晴れ",
-        "zh": "朝霞雨，晚霞晴；朝霞不出門，晚霞行千里"
+        "ja": "早起きして朝焼けを見ました。",
+        "zh": "我早起看了朝霞。"
       }
     ]
   },
   "n3_egg_0610": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ビデオカメラで写す",
-        "zh": "用攝影機拍"
+        "ja": "旅行の様子をビデオカメラで撮りました。",
+        "zh": "用攝影機拍下旅行的樣子。"
       }
     ]
   },
   "n3_egg_0611": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "株式会社を設立する",
-        "zh": "成立股份公司"
+        "ja": "株式に投資する前に仕組みを勉強しました。",
+        "zh": "投資股票前先學了相關機制。"
       }
     ]
   },
   "n3_egg_0612": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ケーキ、プディング、クッキー、ビスケット、チョコレートなどは洋菓子です",
-        "zh": "蛋糕、布丁、餅乾、比司吉、巧克力等都是西式點心"
+        "ja": "この店は洋菓子が有名です。",
+        "zh": "這家店以西式甜點聞名。"
       }
     ]
   },
   "n3_egg_0613": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "健康のために山登りをする",
-        "zh": "為了健康去爬山"
+        "ja": "週末に友達と山登りに行きます。",
+        "zh": "週末要和朋友去登山。"
       }
     ]
   },
   "n3_egg_0614": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "持ち運びに便利なノートパソコン",
-        "zh": "方便攜帶的筆記型電腦"
+        "ja": "このパソコンは軽くて持ち運びに便利です。",
+        "zh": "這台電腦很輕，方便攜帶。"
       }
     ]
   },
   "n3_egg_0615": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "紙おむつ",
-        "zh": "紙尿布"
+        "ja": "赤ちゃんのおむつを替えました。",
+        "zh": "幫寶寶換了尿布。"
       }
     ]
   },
   "n3_egg_0616": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "言葉遊びを使って面白いサービスをしている",
-        "zh": "利用文字遊戲提供有趣的服務"
+        "ja": "授業で日本語の言葉遊びを紹介しました。",
+        "zh": "課堂上介紹了日文的文字遊戲。"
       }
     ]
   },
   "n3_egg_0617": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "海外旅行のガイドブック",
-        "zh": "海外旅行指南"
-      }
-    ]
-  },
-  "n3_egg_0618": {
-    "pos": "prefix",
-    "posLabel": "接頭語",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接頭",
-    "examples": [
-      {
-        "ja": "グランドオペラ",
-        "zh": "大型歌劇"
+        "ja": "旅行前にガイドブックを買いました。",
+        "zh": "旅行前買了旅遊指南。"
       }
     ]
   },
   "n3_egg_0619": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "古着屋",
-        "zh": "古著店"
+        "ja": "古着屋でジャケットを買いました。",
+        "zh": "在二手衣店買了外套。"
       }
     ]
   },
   "n3_egg_0620": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大都会の片隅に生きる",
-        "zh": "在大城市的角落生活"
+        "ja": "東京は世界有数の大都会です。",
+        "zh": "東京是世界數一數二的大都市。"
       }
     ]
   },
   "n3_egg_0621": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34858,90 +36811,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "ホテルにチェックインする",
-        "zh": "辦理飯店入住"
+        "ja": "ホテルでチェックインを済ませました。",
+        "zh": "在飯店辦好了入住登記。"
       }
     ]
   },
   "n3_egg_0622": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "キャッシュカードの暗証番号",
-        "zh": "提款卡密碼"
+        "ja": "暗証番号を他人に教えないでください。",
+        "zh": "請不要把密碼告訴別人。"
       }
     ]
   },
   "n3_egg_0623": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "カウンセラーと話し合う",
-        "zh": "和心理醫師商談"
+        "ja": "悩みをカウンセラーに相談しました。",
+        "zh": "把煩惱向心理諮商師諮詢。"
       }
     ]
   },
   "n3_egg_0624": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "会議は翌週に延期された",
-        "zh": "會議延期到下週了"
+        "ja": "翌週にもう一度会議を開きます。",
+        "zh": "下一週會再開一次會。"
       }
     ]
   },
   "n3_egg_0625": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "海外旅行で時差ボケになる",
-        "zh": "海外旅行時差倒不過來"
+        "ja": "日本と台湾には一時間の時差があります。",
+        "zh": "日本和台灣有一小時的時差。"
       }
     ]
   },
   "n3_egg_0626": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "聞き取り調査",
-        "zh": "詢問調查"
+        "ja": "聞き取りの練習を毎日しています。",
+        "zh": "每天都在練習聽力理解。"
       }
     ]
   },
   "n3_egg_0627": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "始発駅",
-        "zh": "起點站"
+        "ja": "始発に乗るために早く起きました。",
+        "zh": "為了搭首班車，很早就起床了。"
       }
     ]
   },
   "n3_egg_0628": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34953,30 +36890,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "事故で開場が遅れた",
-        "zh": "由於事故入場時間推遲了"
+        "ja": "開場は午後六時です。",
+        "zh": "開放入場是下午六點。"
       }
     ]
   },
   "n3_egg_0629": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "期末試験",
-        "zh": "期末考"
+        "ja": "期末試験の準備を始めました。",
+        "zh": "開始準備期末考。"
       }
     ]
   },
   "n3_egg_0630": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -34988,90 +36919,74 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "日本から出国する",
-        "zh": "從日本出境"
+        "ja": "出国の手続きに時間がかかりました。",
+        "zh": "出境手續花了不少時間。"
       }
     ]
   },
   "n3_egg_0631": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "白菜の漬物",
-        "zh": "醃白菜"
+        "ja": "白菜を鍋に入れて煮ました。",
+        "zh": "把白菜放進鍋裡煮。"
       }
     ]
   },
   "n3_egg_0632": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "書類をクリップで留める",
-        "zh": "用迴紋針夾住文件"
+        "ja": "書類をクリップで留めました。",
+        "zh": "用迴紋針把文件夾起來。"
       }
     ]
   },
   "n3_egg_0633": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "獣類と鳥類",
-        "zh": "獸類和鳥類"
+        "ja": "鳥類についての本を読みました。",
+        "zh": "讀了關於鳥類的書。"
       }
     ]
   },
   "n3_egg_0634": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "球場で野球の試合が行われた",
-        "zh": "在棒球場進行了一場棒球比賽"
+        "ja": "日曜日に球場で試合を見ます。",
+        "zh": "星期天要在球場看比賽。"
       }
     ]
   },
   "n3_egg_0635": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "きゅうりもみ",
-        "zh": "涼拌黃瓜；日式鹹黃瓜"
+        "ja": "きゅうりを薄く切ってサラダにしました。",
+        "zh": "把小黃瓜切薄做成沙拉。"
       }
     ]
   },
   "n3_egg_0636": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "記念品を贈る",
-        "zh": "贈送紀念品"
+        "ja": "卒業式で記念品をもらいました。",
+        "zh": "畢業典禮上收到了紀念品。"
       }
     ]
   },
   "n3_egg_0637": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35083,16 +36998,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "駐車料金はいくらですか",
-        "zh": "停車費是多少錢？"
+        "ja": "駅前での駐車は禁止されています。",
+        "zh": "車站前禁止停車。"
       }
     ]
   },
   "n3_egg_0638": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -35106,126 +37019,104 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "カエルの卵が孵った",
-        "zh": "青蛙的卵孵化了"
+        "ja": "卵からひなが孵りました。",
+        "zh": "雛鳥從蛋裡孵出來了。"
       }
     ]
   },
   "n3_egg_0639": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "自動車が歩行者をはねた",
-        "zh": "汽車撞了行人"
+        "ja": "歩行者は信号を守ってください。",
+        "zh": "行人請遵守號誌。"
       }
     ]
   },
   "n3_egg_0640": {
     "pos": "expression",
     "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "成句",
     "examples": [
       {
-        "ja": "君はついているね",
-        "zh": "你運氣真好"
+        "ja": "今日はついている。財布をなくさずに済みました。",
+        "zh": "今天很走運，沒有弄丟錢包。"
       }
     ]
   },
   "n3_egg_0641": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "牡蠣フライ",
-        "zh": "炸牡蠣"
+        "ja": "冬になると牡蠣が食べたくなります。",
+        "zh": "到了冬天就會想吃牡蠣。"
       }
     ]
   },
   "n3_egg_0642": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "左利きだが右手も利く",
-        "zh": "雖然是左撇子，但右手也很靈活"
+        "ja": "彼は左利きなので左手で字を書きます。",
+        "zh": "他是左撇子，所以用左手寫字。"
       }
     ]
   },
   "n3_egg_0643": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "本場の中華料理を堪能する",
-        "zh": "享用道地的中華料理"
+        "ja": "昼は中華料理を食べました。",
+        "zh": "中午吃了中華料理。"
       }
     ]
   },
   "n3_egg_0644": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "かびが生える",
-        "zh": "發霉"
+        "ja": "パンにかびが生えていました。",
+        "zh": "麵包發霉了。"
       }
     ]
   },
   "n3_egg_0645": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "最多出場記録",
-        "zh": "最多出場紀錄"
+        "ja": "今年の参加者数は過去最多でした。",
+        "zh": "今年的參加人數是歷年最多。"
       }
     ]
   },
   "n3_egg_0646": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ビジネスマン必携の書",
-        "zh": "商務人士必備之書"
+        "ja": "兄は海外を飛び回るビジネスマンです。",
+        "zh": "哥哥是在海外奔走的商務人士。"
       }
     ]
   },
   "n3_egg_0647": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "黒い油でべっとりした換気扇は汚くて掃除しにくい",
-        "zh": "沾滿黑黑油垢的抽油煙機，又髒又難清理"
+        "ja": "料理中は換気扇を回してください。",
+        "zh": "做菜時請打開排風扇。"
       }
     ]
   },
   "n3_egg_0648": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35237,18 +37128,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "右折禁止",
-        "zh": "禁止右轉"
+        "ja": "次の交差点を右折してください。",
+        "zh": "請在下一個十字路口右轉。"
       }
     ]
   },
   "n3_egg_0649": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35260,18 +37147,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "図書館は午後5時に閉館する",
-        "zh": "圖書館五點關門"
+        "ja": "図書館は月曜日に閉館します。",
+        "zh": "圖書館星期一休館。"
       }
     ]
   },
   "n3_egg_0650": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35283,138 +37166,114 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "二つ目の信号を左折する",
-        "zh": "在第二個紅綠燈處左轉"
+        "ja": "信号を過ぎたら左折してください。",
+        "zh": "過了紅綠燈後請左轉。"
       }
     ]
   },
   "n3_egg_0651": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "列車の時刻表",
-        "zh": "列車的行車時刻表"
+        "ja": "駅で時刻表を確認しました。",
+        "zh": "在車站確認了時刻表。"
       }
     ]
   },
   "n3_egg_0652": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "一度に50キログラム買った",
-        "zh": "一次就買了五十公斤"
+        "ja": "荷物は二十キログラムまでです。",
+        "zh": "行李最多二十公斤。"
       }
     ]
   },
   "n3_egg_0653": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "古本屋",
-        "zh": "舊書店"
+        "ja": "古本をまとめて売りました。",
+        "zh": "把舊書整理後賣掉了。"
       }
     ]
   },
   "n3_egg_0654": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "エビフライ",
-        "zh": "炸大蝦"
+        "ja": "えびの天ぷらが好きです。",
+        "zh": "我喜歡蝦子的天婦羅。"
       }
     ]
   },
   "n3_egg_0655": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "番組の途中にコマーシャルが入る",
-        "zh": "節目中途插入廣告"
+        "ja": "テレビのコマーシャルで見た商品です。",
+        "zh": "是在電視廣告上看到的商品。"
       }
     ]
   },
   "n3_egg_0656": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "このクラブの会費は月に2000円です",
-        "zh": "這個俱樂部的會費是每月2000日元"
+        "ja": "会費は月に千円です。",
+        "zh": "會費每月一千日圓。"
       }
     ]
   },
   "n3_egg_0657": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "判子を押す",
-        "zh": "蓋章"
+        "ja": "書類にはんこを押してください。",
+        "zh": "請在文件上蓋印章。"
       }
     ]
   },
   "n3_egg_0658": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "家賃の振り込みを忘れてしまった",
-        "zh": "忘了匯房租了"
+        "ja": "家賃の振り込みを忘れました。",
+        "zh": "忘了匯房租。"
       }
     ]
   },
   "n3_egg_0659": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "スパゲッティナポリタン",
-        "zh": "拿坡里義大利麵"
+        "ja": "昼食にスパゲッティを作りました。",
+        "zh": "午餐做了義大利麵。"
       }
     ]
   },
   "n3_egg_0660": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "リンゴシャーベット",
-        "zh": "蘋果汁冰淇淋"
+        "ja": "食後にシャーベットを食べました。",
+        "zh": "飯後吃了雪酪。"
       }
     ]
   },
   "n3_egg_0661": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35426,136 +37285,114 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "上場企業",
-        "zh": "上市公司"
+        "ja": "その会社は去年上場しました。",
+        "zh": "那家公司去年上市了。"
       }
     ]
   },
   "n3_egg_0662": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "聞き上手の人は話もうまい",
-        "zh": "善於傾聽的人也擅長說話"
+        "ja": "聞き上手な友達に相談しました。",
+        "zh": "向很會傾聽的朋友諮詢了。"
       }
     ]
   },
   "n3_egg_0663": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名",
     "examples": [
       {
-        "ja": "それはもう不用です",
-        "zh": "那個已經沒用了"
+        "ja": "予約は不用です。",
+        "zh": "不需要預約。"
       }
     ]
   },
   "n3_egg_0664": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "機長は最後のフライトを終えて退職した",
-        "zh": "機長完成了最後一次飛行後退休了"
+        "ja": "機長が機内放送であいさつしました。",
+        "zh": "機長透過機內廣播致詞。"
       }
     ]
   },
   "n3_egg_0665": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "洋式トイレ",
-        "zh": "西式廁所，坐便"
+        "ja": "洋式のトイレを探しています。",
+        "zh": "正在找西式廁所。"
       }
     ]
   },
   "n3_egg_0666": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "蛍光灯",
-        "zh": "螢光燈；日光燈"
+        "ja": "蛍光ペンで大事な所に線を引きました。",
+        "zh": "用螢光筆在重要的地方畫線。"
       }
     ]
   },
   "n3_egg_0667": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "新入生に対するオリエンテーション",
-        "zh": "為新生舉辦的說明會"
+        "ja": "入学前にオリエンテーションがあります。",
+        "zh": "入學前有新生說明會。"
       }
     ]
   },
   "n3_egg_0668": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "各人の特長を生かす",
-        "zh": "發揮各人的特長"
+        "ja": "この商品の特長は軽さです。",
+        "zh": "這項商品的特長是輕。"
       }
     ]
   },
   "n3_egg_0669": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "持ち帰りの弁当",
-        "zh": "外賣的便當"
+        "ja": "持ち帰りでお願いします。",
+        "zh": "請幫我做外帶。"
       }
     ]
   },
   "n3_egg_0670": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ガイドブック",
-        "zh": "旅行指南；參考手冊"
+        "ja": "ガイドブックを一冊買いました。",
+        "zh": "買了一本旅遊指南書。"
       }
     ]
   },
   "n3_egg_0671": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
     "examples": [
       {
-        "ja": "動的に表現する",
-        "zh": "生動地表現"
+        "ja": "動的な画面で情報を分かりやすく見せます。",
+        "zh": "用動態畫面讓資訊更容易理解。"
       }
     ]
   },
   "n3_egg_0672": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -35569,65 +37406,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "タバコをくわえる",
-        "zh": "叼香菸"
+        "ja": "犬が骨をくわえて走っています。",
+        "zh": "狗叼著骨頭跑著。"
       }
     ]
   },
   "n3_egg_0673": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "学部生",
-        "zh": "大學部學生"
+        "ja": "兄は大学院の院生です。",
+        "zh": "哥哥是研究所學生。"
       }
     ]
   },
   "n3_egg_0674": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "御無沙汰する",
-      "masu": "御無沙汰します",
-      "te": "御無沙汰して",
-      "ta": "御無沙汰した",
-      "nai": "御無沙汰しない"
-    },
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "御無沙汰しております",
-        "zh": "好久不見了"
+        "ja": "長い間ご無沙汰しております。",
+        "zh": "好久沒有向您問候了。"
       }
     ]
   },
   "n3_egg_0675": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "消化酵素",
-        "zh": "酵母"
+        "ja": "酵素の働きを実験で調べました。",
+        "zh": "用實驗調查酵素的作用。"
       }
     ]
   },
   "n3_egg_0676": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35639,40 +37455,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "来週の授業は休講にします",
-        "zh": "下週的課停課"
+        "ja": "先生が出張のため、明日の授業は休講です。",
+        "zh": "因為老師出差，明天的課停課。"
       }
     ]
   },
   "n3_egg_0677": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副①・自動3①・ナ形⓪",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "だぶだぶとしたズボン",
-        "zh": "肥大的褲子"
+        "ja": "この服は私にはだぶだぶです。",
+        "zh": "這件衣服對我來說太寬鬆了。"
       }
     ]
   },
   "n3_egg_0678": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "CD付きラジカセ",
-        "zh": "雷射唱盤收錄機"
+        "ja": "昔はラジカセで音楽を聞いていました。",
+        "zh": "以前用收錄音機聽音樂。"
       }
     ]
   },
   "n3_egg_0679": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "godan",
@@ -35686,54 +37496,53 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "蛇がはう",
-        "zh": "蛇爬行"
+        "ja": "赤ちゃんが床をはっています。",
+        "zh": "寶寶正在地板上爬。"
       }
     ]
   },
   "n3_egg_0680": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "ホームステイする",
+      "masu": "ホームステイします",
+      "te": "ホームステイして",
+      "ta": "ホームステイした",
+      "nai": "ホームステイしない"
+    },
     "examples": [
       {
-        "ja": "夏休みはアメリカへホームステイに行くつもりだ",
-        "zh": "暑假期間打算到美國去寄宿留學"
+        "ja": "留学中はホームステイをしました。",
+        "zh": "留學期間住在寄宿家庭。"
       }
     ]
   },
   "n3_egg_0681": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suffix",
+    "posLabel": "接尾語",
     "examples": [
       {
-        "ja": "通行止め",
-        "zh": "禁止通行"
+        "ja": "この薬は痛み止めです。",
+        "zh": "這個藥是止痛藥。"
       }
     ]
   },
   "n3_egg_0682": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ここに朝市が立つ",
-        "zh": "這裡有早市"
+        "ja": "朝市で新鮮な野菜を買いました。",
+        "zh": "在早市買了新鮮蔬菜。"
       }
     ]
   },
   "n3_egg_0683": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35745,90 +37554,83 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "彼女は保育士として働いている",
-        "zh": "她作為保育師工作"
+        "ja": "この園では乳幼児の保育を行っています。",
+        "zh": "這間園所提供嬰幼兒托育。"
       }
     ]
   },
   "n3_egg_0684": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "彼は月間のベストエンプロイーに選ばれた",
-        "zh": "他被選為月度最佳員工"
+        "ja": "一か月間の売上をまとめました。",
+        "zh": "整理了一個月期間的銷售額。"
       }
     ]
   },
   "n3_egg_0685": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "辞書の例文",
-        "zh": "詞典例句"
+        "ja": "例文を読んで使い方を確認しました。",
+        "zh": "讀例句確認用法。"
       }
     ]
   },
   "n3_egg_0686": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "サイクリングする",
+      "masu": "サイクリングします",
+      "te": "サイクリングして",
+      "ta": "サイクリングした",
+      "nai": "サイクリングしない"
+    },
     "examples": [
       {
-        "ja": "郊外へサイクリングに出かける",
-        "zh": "騎自行車去郊遊"
+        "ja": "湖の周りをサイクリングしました。",
+        "zh": "沿著湖邊騎自行車兜風。"
       }
     ]
   },
   "n3_egg_0687": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "五目炒飯",
-        "zh": "什錦炒飯"
+        "ja": "昼にチャーハンを作りました。",
+        "zh": "中午做了炒飯。"
       }
     ]
   },
   "n3_egg_0688": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "カセットテープの両面",
-        "zh": "磁帶的反正面"
+        "ja": "古いカセットテープを整理しました。",
+        "zh": "整理了舊卡式錄音帶。"
       }
     ]
   },
   "n3_egg_0689": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "大都市の緑地化計画を進める",
-        "zh": "推進大城市的綠化計劃"
+        "ja": "駅前に広い緑地があります。",
+        "zh": "車站前有一大片綠地。"
       }
     ]
   },
   "n3_egg_0690": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35840,42 +37642,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "新しい映画館が開館する",
-        "zh": "新電影院開業"
+        "ja": "博物館の開館は午前九時です。",
+        "zh": "博物館上午九點開館。"
       }
     ]
   },
   "n3_egg_0691": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "雨がざあざあ降る",
-        "zh": "雨嘩啦嘩啦地下著"
+        "ja": "雨がざあざあ降っています。",
+        "zh": "雨嘩啦嘩啦地下著。"
       }
     ]
   },
   "n3_egg_0692": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "こしょうを入れ過ぎてスープが辛い",
-        "zh": "湯裡放太多胡椒太辣了"
+        "ja": "スープにこしょうを少し入れました。",
+        "zh": "在湯裡加了一點胡椒。"
       }
     ]
   },
   "n3_egg_0693": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35887,28 +37681,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "電車の運休で歩いて帰る",
-        "zh": "電車停駛，所以走路回去"
+        "ja": "台風のため電車は運休しています。",
+        "zh": "因為颱風，電車停駛。"
       }
     ]
   },
   "n3_egg_0694": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "生け花を習う",
-        "zh": "學習插花"
+        "ja": "母は生け花を習っています。",
+        "zh": "媽媽在學插花。"
       }
     ]
   },
   "n3_egg_0695": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -35922,40 +37712,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "割り引いて安く売る",
-        "zh": "打折便宜賣"
+        "ja": "学生証を見せると料金が割り引かれます。",
+        "zh": "出示學生證的話費用會打折。"
       }
     ]
   },
   "n3_egg_0696": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "下記の通りに進める",
-        "zh": "按照下文進行"
+        "ja": "下記の住所までお送りください。",
+        "zh": "請寄到下列地址。"
       }
     ]
   },
   "n3_egg_0697": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "荷物を網棚に載せる",
-        "zh": "將行李放到行李架上"
+        "ja": "荷物を電車の網棚に置きました。",
+        "zh": "把行李放在電車的行李架上。"
       }
     ]
   },
   "n3_egg_0698": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "godan",
@@ -35969,18 +37753,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "電気料金を引き落とす",
-        "zh": "從銀行帳戶扣除電費"
+        "ja": "電気代が口座から引き落とされました。",
+        "zh": "電費從帳戶自動扣款了。"
       }
     ]
   },
   "n3_egg_0699": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -35992,78 +37772,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "テープをダビングする",
-        "zh": "拷貝磁帶；轉錄磁帶"
+        "ja": "古いビデオをDVDにダビングしました。",
+        "zh": "把舊錄影帶轉錄成 DVD。"
       }
     ]
   },
   "n3_egg_0700": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
-        "ja": "店のご主人が話し上手で、いつも楽しい話を聞かせてくれるんです",
-        "zh": "店老闆很健談，總是說些有趣的事情給我聽"
+        "ja": "彼は話し上手で、会議をうまく進めます。",
+        "zh": "他很會說話，能順利推進會議。"
       }
     ]
   },
   "n3_egg_0701": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "飲み薬の用量を守る",
-        "zh": "遵守口服藥的劑量"
+        "ja": "薬の用量を守って飲んでください。",
+        "zh": "請遵守藥物用量服用。"
       }
     ]
   },
   "n3_egg_0702": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "円高が進んで1ドルが100円をきった",
-        "zh": "日圓不斷升值，一美元已不到一百日元"
+        "ja": "円高の影響で輸出企業は苦しんでいます。",
+        "zh": "受日圓升值影響，出口企業很辛苦。"
       }
     ]
   },
   "n3_egg_0703": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ホチキスで書類をとじる",
-        "zh": "用釘書機裝訂文件"
+        "ja": "書類をホチキスで留めました。",
+        "zh": "用釘書機把文件訂起來。"
       }
     ]
   },
   "n3_egg_0704": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "インフォメーションセンター",
-        "zh": "問訊處"
+        "ja": "空港のインフォメーションで聞きました。",
+        "zh": "在機場服務台詢問了。"
       }
     ]
   },
   "n3_egg_0705": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -36075,30 +37841,24 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "発券機",
-        "zh": "售票機"
+        "ja": "駅の券売機で発券できます。",
+        "zh": "可以在車站售票機出票。"
       }
     ]
   },
   "n3_egg_0706": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "カルチャーショック",
-        "zh": "文化衝擊"
+        "ja": "地域のカルチャーを学びました。",
+        "zh": "學了當地文化。"
       }
     ]
   },
   "n3_egg_0707": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -36110,18 +37870,14 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "美術館の休館日",
-        "zh": "美術館休館日"
+        "ja": "美術館は展示替えのため休館です。",
+        "zh": "美術館因更換展覽而休館。"
       }
     ]
   },
   "n3_egg_0708": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -36133,90 +37889,76 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "書画を展覧する",
-        "zh": "展覽書畫"
+        "ja": "展覧会の準備が進んでいます。",
+        "zh": "展覽會的準備正在進行。"
       }
     ]
   },
   "n3_egg_0709": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "ラッシュアワーを避けて早めに出勤する",
-        "zh": "避開尖峰時段提早出勤"
+        "ja": "ラッシュアワーを避けて出勤しました。",
+        "zh": "避開尖峰時段上班。"
       }
     ]
   },
   "n3_egg_0710": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "昨日",
-        "zh": "昨天"
+        "ja": "昨日の会議で決まったことを確認します。",
+        "zh": "確認昨天會議決定的事項。"
       }
     ]
   },
   "n3_egg_0711": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・感",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "これは一体なんとしたことか",
-        "zh": "這到底是怎麼回事？"
+        "ja": "なんと彼は一人で全部作りました。",
+        "zh": "他竟然一個人全部做完了。"
       }
     ]
   },
   "n3_egg_0712": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "冬物をたんすにしまう",
-        "zh": "把冬天的衣物收進衣櫥裡"
+        "ja": "たんすに冬服をしまいました。",
+        "zh": "把冬天衣服收進衣櫃。"
       }
     ]
   },
   "n3_egg_0713": {
-    "pos": "expression",
-    "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "examples": [
       {
-        "ja": "入場者合わせて50万人",
-        "zh": "入場人數共計50萬人次"
+        "ja": "参加者は合わせて三十人です。",
+        "zh": "參加者合計三十人。"
       }
     ]
   },
   "n3_egg_0714": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "行いを慎む",
-        "zh": "謹言慎行"
+        "ja": "彼の行いはみんなに評価されました。",
+        "zh": "他的行為受到大家肯定。"
       }
     ]
   },
   "n3_egg_0715": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動2",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
@@ -36228,40 +37970,34 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "彼の様子が変に思える",
-        "zh": "覺得他的樣子奇怪"
+        "ja": "この道具は便利だと思えます。",
+        "zh": "我覺得這個工具很方便。"
       }
     ]
   },
   "n3_egg_0716": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "重ねてお願いいたします",
-        "zh": "再次懇請"
+        "ja": "重ねてお礼申し上げます。",
+        "zh": "再次向您致謝。"
       }
     ]
   },
   "n3_egg_0717": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "考え方を変える",
-        "zh": "改變想法；改變觀點"
+        "ja": "考え方を少し変える必要があります。",
+        "zh": "有必要稍微改變想法。"
       }
     ]
   },
   "n3_egg_0718": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -36275,124 +38011,104 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "子どもに音楽を聞かせる",
-        "zh": "給孩子聽音樂"
+        "ja": "その話を子どもたちに聞かせました。",
+        "zh": "把那個故事說給孩子們聽。"
       }
     ]
   },
   "n3_egg_0719": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "雨の日は、決まって遅れてくる学生がいる",
-        "zh": "一到雨天，總有學生遲到"
+        "ja": "彼は決まって朝七時に家を出ます。",
+        "zh": "他總是早上七點出門。"
       }
     ]
   },
   "n3_egg_0720": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "賛成60票、反対55票。したがって本件は可決されました",
-        "zh": "贊成60票，反對55票。因此本案獲得通過"
+        "ja": "雨が強くなりました。したがって試合は中止です。",
+        "zh": "雨變大了。因此比賽取消。"
       }
     ]
   },
   "n3_egg_0721": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "仕事の進みが速い",
-        "zh": "工作進度快"
+        "ja": "工事の進みが遅れています。",
+        "zh": "工程進度落後了。"
       }
     ]
   },
   "n3_egg_0722": {
     "pos": "adverb",
     "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
     "examples": [
       {
-        "ja": "進んで参加する",
-        "zh": "主動參加"
+        "ja": "彼女は進んで手伝ってくれました。",
+        "zh": "她主動來幫忙。"
       }
     ]
   },
   "n3_egg_0723": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "雨が降りそうだった。そこで、傘を持って出かけた",
-        "zh": "好像要下雨了，所以帶上傘出門了"
+        "ja": "電車が止まりました。そこでバスで行くことにしました。",
+        "zh": "電車停駛了。於是決定搭公車去。"
       }
     ]
   },
   "n3_egg_0724": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "君はいらないと言った。それを今頃返せだなんて",
-        "zh": "你說你不需要。現在卻又說要還給你"
+        "ja": "何度も説明しました。それを彼は聞こうとしませんでした。",
+        "zh": "我說明了很多次。然而他不肯聽。"
       }
     ]
   },
   "n3_egg_0725": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "審議会を開きます。ついては午後一時までに御参集ください",
-        "zh": "將召開審議會。請於下午一點前集合"
+        "ja": "会場が変更になりました。ついては下記をご確認ください。",
+        "zh": "會場變更了。因此請確認下列內容。"
       }
     ]
   },
   "n3_egg_0726": {
     "pos": "conjunction",
     "posLabel": "接續詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "接",
     "examples": [
       {
-        "ja": "ところで、昨日はどうだった？",
-        "zh": "對了，昨天的事怎麼樣了？"
+        "ja": "ところで、明日の予定は決まりましたか。",
+        "zh": "對了，明天的行程決定了嗎？"
       }
     ]
   },
   "n3_egg_0727": {
     "pos": "noun",
     "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
     "examples": [
       {
-        "ja": "10センチずつ間を置いて並べる",
-        "zh": "每隔十公分擺放"
+        "ja": "会話の間が少し長くなりました。",
+        "zh": "對話中的停頓變得有點長。"
       }
     ]
   },
   "n3_egg_0728": {
     "pos": "verb",
     "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
@@ -36406,8 +38122,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     },
     "examples": [
       {
-        "ja": "冗談を言ってみんなを笑わせる",
-        "zh": "說笑話逗大家笑"
+        "ja": "彼の冗談はみんなを笑わせました。",
+        "zh": "他的玩笑逗笑了大家。"
       }
     ]
   }

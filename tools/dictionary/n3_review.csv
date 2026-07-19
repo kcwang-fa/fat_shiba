@@ -1,0 +1,3 @@
+id,reading,writing,reason,suggested_reading,suggested_writing,note
+n3_egg_0357,たまる,たまる,lemma_semantics_uncertain,たまる,たまる,Raw meaning points to 堪る or たまらない usage rather than the common 溜まる sense; confirm intended lemma before adding example/meta.
+n3_egg_0618,グランド,グランド,lemma_semantics_uncertain,グランド,グランド,Standalone グランド with source meaning grand/large is not natural enough to confirm; it may also be confused with グラウンド already present as n2_0281.
