@@ -1656,6 +1656,7 @@
       padding: 18px;
       background: rgba(37, 48, 66, 0.36);
       z-index: 20;
+      overscroll-behavior: contain;
     }
 
     .modal-backdrop.open {
@@ -1664,6 +1665,7 @@
 
     .modal {
       width: min(100%, 440px);
+      max-height: calc(100svh - 36px);
       border-radius: var(--radius);
       background: var(--paper-strong);
       border: 1px solid var(--line);
@@ -1671,6 +1673,7 @@
       padding: 18px;
       display: grid;
       gap: 14px;
+      overflow: hidden;
     }
 
     .modal h2 {
@@ -1810,6 +1813,16 @@
       font-weight: 900;
     }
 
+    .modal-travel-log-text {
+      display: block;
+      color: #3b4657;
+      font-family: var(--font-travel);
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.55;
+      overflow-wrap: anywhere;
+    }
+
     .modal-actions {
       display: grid;
       grid-template-columns: 1fr;
@@ -1934,11 +1947,16 @@
 
       .album-backdrop {
         align-items: start;
+        overflow: hidden;
         padding: max(10px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(10px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+        background:
+          radial-gradient(circle at 50% 12%, rgba(255, 253, 248, 0.14), transparent 28%),
+          rgba(37, 48, 66, 0.64);
       }
 
       .album-book {
         width: 100%;
+        height: calc(100svh - 20px);
         max-height: calc(100svh - 20px);
       }
 
@@ -1952,24 +1970,58 @@
       }
 
       .album-book .postcard-panel {
+        height: calc(100svh - 20px);
         max-height: calc(100svh - 20px);
-        padding: 14px 10px 16px 14px;
+        grid-template-rows: auto auto minmax(0, 1fr);
+        gap: 8px;
+        overflow: hidden;
+        padding: 12px 10px 12px 14px;
+        background:
+          linear-gradient(90deg, rgba(189, 75, 54, 0.05) 0 9px, transparent 9px 100%),
+          radial-gradient(circle at 13% 18%, rgba(227, 167, 47, 0.12), transparent 24%),
+          radial-gradient(circle at 84% 4%, rgba(45, 155, 159, 0.1), transparent 27%),
+          linear-gradient(180deg, rgba(255, 253, 248, 0.98), rgba(255, 248, 239, 0.96));
       }
 
       .album-close-button {
-        top: -8px;
-        right: -6px;
-        width: 38px;
-        min-height: 38px;
+        top: 6px;
+        right: 6px;
+        width: 34px;
+        min-height: 34px;
+        font-size: 1.12rem;
       }
 
       .postcard-album-head {
         gap: 8px;
+        padding-bottom: 7px;
+        padding-right: 38px;
+      }
+
+      .album-eyebrow {
+        padding: 2px 7px;
+        font-size: 0.66rem;
+      }
+
+      .postcard-album-title {
+        gap: 2px;
+      }
+
+      .postcard-album-title h2 {
+        font-size: 1.05rem;
+      }
+
+      .postcard-album-title p {
+        font-size: 0.74rem;
+        line-height: 1.25;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
 
       .album-stamp {
-        width: 54px;
-        font-size: 0.9rem;
+        width: 48px;
+        font-size: 0.82rem;
       }
 
       .postcard-album-progress {
@@ -1978,28 +2030,152 @@
 
       .album-progress-text {
         white-space: normal;
+        font-size: 0.74rem;
       }
 
       .postcard-grid {
-        gap: 8px;
+        grid-template-columns: repeat(var(--postcard-mobile-columns, 5), minmax(0, 1fr));
+        grid-template-rows: repeat(var(--postcard-mobile-rows, 2), minmax(0, 1fr));
+        gap: 5px;
+        min-height: 0;
+      }
+
+      .postcard-entry {
+        position: relative;
+        gap: 0;
+        min-height: 0;
       }
 
       .postcard {
-        min-height: 104px;
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+        aspect-ratio: auto;
+        border-radius: 6px;
+        box-shadow: 0 5px 12px rgba(79, 55, 31, 0.12);
+      }
+
+      .postcard::before {
+        inset: 5px;
       }
 
       .postcard-caption {
-        min-height: 66px;
-        padding: 7px 8px;
+        position: absolute;
+        inset: auto 3px 3px;
+        min-height: 0;
+        padding: 2px 4px;
+        border-radius: 5px;
+        display: block;
+        background: rgba(255, 253, 248, 0.84);
+        pointer-events: none;
+      }
+
+      .postcard-caption-head {
+        display: block;
       }
 
       .postcard-title {
-        font-size: 0.95rem;
+        display: block;
+        font-size: clamp(0.52rem, 2.15vw, 0.68rem);
+        line-height: 1.1;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       .postcard-food,
-      .postcard-note {
+      .postcard-note,
+      .pose-menu-button,
+      .pose-picker {
+        display: none;
+      }
+
+      .modal-backdrop {
+        padding: max(8px, env(safe-area-inset-top)) max(8px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left));
+        overflow: hidden;
+      }
+
+      .modal {
+        width: min(100%, 420px);
+        max-height: calc(100svh - 16px);
+        padding: 12px;
+        gap: 8px;
+      }
+
+      .modal h2 {
+        font-size: 1.08rem;
+        line-height: 1.15;
+      }
+
+      .modal > p {
+        font-size: 0.84rem;
+        line-height: 1.3;
+      }
+
+      .modal-postcard {
+        width: 100%;
+        min-height: 0;
+      }
+
+      .modal-postcard-info {
+        gap: 3px;
+        padding: 8px 9px;
+        min-height: 0;
+      }
+
+      .modal-postcard-badge {
+        padding: 3px 7px;
+        font-size: 0.68rem;
+      }
+
+      .modal-postcard-title {
+        font-size: 0.98rem;
+      }
+
+      .modal-postcard-meta,
+      .modal-postcard-note {
         font-size: 0.76rem;
+        line-height: 1.25;
+      }
+
+      .modal-pose-progress {
+        font-size: 0.72rem;
+        padding-top: 2px;
+      }
+
+      .modal-pose-switch {
+        gap: 5px;
+        padding: 2px 0;
+      }
+
+      .modal-pose-switch .pose-option {
+        min-height: 36px;
+      }
+
+      .modal-travel-log-label {
+        margin-bottom: 1px;
+        font-size: 0.68rem;
+      }
+
+      .modal-travel-log-text {
+        font-size: 0.78rem;
+        line-height: 1.38;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      .modal-actions {
+        grid-template-columns: 1fr 1fr;
+        gap: 7px;
+      }
+
+      .modal-actions .primary-button,
+      .modal-actions .ghost-button {
+        min-height: 40px;
+        padding-inline: 8px;
+        font-size: 0.86rem;
       }
     }
   </style>
@@ -2184,7 +2360,7 @@
         <div class="modal-pose-progress" id="modalPoseProgress"></div>
         <div class="modal-pose-switch" id="modalPoseSwitch" aria-label="姿勢切換列"></div>
         <span class="modal-travel-log-label">呷胖旅遊紀錄</span>
-        <span id="modalTravelLogText">今天也有好好吃飯。</span>
+        <span class="modal-travel-log-text" id="modalTravelLogText">今天也有好好吃飯。</span>
       </div>
       <div class="modal-actions">
         <button class="primary-button" type="button" id="modalNextButton">前往下一站</button>
@@ -4965,6 +5141,9 @@
         const collectedCount = currentStations().filter((station) => collected.has(station.id)).length;
         const totalCount = currentStations().length;
         const progress = totalCount ? (collectedCount / totalCount) * 100 : 0;
+        const mobileColumns = 5;
+        els.postcardGrid.style.setProperty("--postcard-mobile-columns", mobileColumns);
+        els.postcardGrid.style.setProperty("--postcard-mobile-rows", Math.max(1, Math.ceil(totalCount / mobileColumns)));
         els.postcardAlbumStamp.textContent = `${collectedCount} / ${totalCount}`;
         els.postcardAlbumFill.style.width = `${progress}%`;
         els.postcardAlbumText.textContent = collectedCount === totalCount
