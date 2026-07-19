@@ -2421,6 +2421,7 @@
       const REVIEW_MISSED_INTERVAL_DAYS = 1;
       const MIN_ROUND_TARGETS = 3;
       const MAX_ROUND_TARGETS = 5;
+      const RECENT_ROUND_WORD_LIMIT = MAX_ROUND_TARGETS * 4;
       const WORD_CARD_VISIBLE_MS = 5000;
       const WEBP_CANDIDATE_RE = /^assets\/.+\.png$/i;
       const BARK_AUDIO_SRC = "assets/audio/dog-bark-179915.mp3?v=20260715";
@@ -3993,6 +3994,7 @@
           collectedPostcardIds,
           foundWordIds: normalizeWordIdList(parsed.foundWordIds, new Set(cumulativeWordsForLevel(region.level).map((word) => word.id))),
           reviewWordIds: normalizeReviewWordIds(region, parsed.reviewWordIds),
+          recentRoundWordIds: normalizeWordIdList(parsed.recentRoundWordIds, new Set(cumulativeWordsForLevel(region.level).map((word) => word.id)), RECENT_ROUND_WORD_LIMIT),
           stationWordCounts: normalizeStationWordCounts(region, parsed.stationWordCounts),
           stationFoundWordIds: normalizeStationFoundWordIds(region, parsed.stationFoundWordIds),
           stationPoseIds,
@@ -4007,6 +4009,7 @@
           collectedPostcardIds: [],
           foundWordIds: [],
           reviewWordIds: [],
+          recentRoundWordIds: [],
           stationWordCounts: {},
           stationFoundWordIds: {},
           stationPoseIds: {},
@@ -4607,6 +4610,35 @@
           .filter(Boolean);
       }
 
+      function currentRecentRoundWordIds() {
+        return new Set(Array.isArray(save.recentRoundWordIds) ? save.recentRoundWordIds : []);
+      }
+
+      function preferWordsNotInRecentRound(words, recentIds = currentRecentRoundWordIds(), shuffleGroups = false) {
+        const fresh = [];
+        const recent = [];
+
+        for (const word of words) {
+          if (recentIds.has(word.id)) {
+            recent.push(word);
+          } else {
+            fresh.push(word);
+          }
+        }
+
+        return [
+          ...(shuffleGroups ? shuffled(fresh) : fresh),
+          ...(shuffleGroups ? shuffled(recent) : recent)
+        ];
+      }
+
+      function rememberRoundTargets(targets) {
+        const targetIds = targets.map((target) => target.word.id);
+        if (!targetIds.length) return;
+        const nextIds = [...targetIds, ...(save.recentRoundWordIds || []).filter((id) => !targetIds.includes(id))];
+        save.recentRoundWordIds = nextIds.slice(0, RECENT_ROUND_WORD_LIMIT);
+      }
+
       function addReviewWord(word) {
         if (levelRank(word.level) > levelRank(currentLevel())) return;
         const nextIds = [word.id, ...(save.reviewWordIds || []).filter((id) => id !== word.id)];
@@ -4666,16 +4698,17 @@
 
       function chooseTargets() {
         const foundGlobal = new Set(save.foundWordIds);
+        const recentIds = currentRecentRoundWordIds();
         const maxLength = currentBoardSize() * currentBoardSize();
         const currentWords = currentLevelWords().filter((word) => kanaUnits(word.playReading).length <= maxLength);
-        const spacedReviewWords = currentSpacedReviewWords(maxLength);
-        const reviewWords = currentReviewWords(maxLength);
-        const unseen = shuffled(currentWords.filter((word) => !foundGlobal.has(word.id)));
-        const seen = shuffled(currentWords.filter((word) => foundGlobal.has(word.id)));
+        const spacedReviewWords = preferWordsNotInRecentRound(currentSpacedReviewWords(maxLength), recentIds);
+        const reviewWords = preferWordsNotInRecentRound(currentReviewWords(maxLength), recentIds);
+        const unseen = preferWordsNotInRecentRound(currentWords.filter((word) => !foundGlobal.has(word.id)), recentIds, true);
+        const seen = preferWordsNotInRecentRound(currentWords.filter((word) => foundGlobal.has(word.id)), recentIds, true);
         const desiredCount = 3 + Math.floor(Math.random() * 3);
         const targets = [];
 
-        if (currentLevel() === "N5" && save.currentStationId === currentStations()[0].id && foundGlobal.size === 0) {
+        if (currentLevel() === "N5" && save.currentStationId === currentStations()[0].id && foundGlobal.size === 0 && recentIds.size === 0) {
           for (const id of ["n5_0011", "n5_0012", "n5_0001"]) {
             const word = ALL_WORDS.find((item) => item.id === id);
             if (word) targets.push(word);
@@ -4709,9 +4742,10 @@
 
       function roundTargetCandidatePool(priorityWords, maxLength) {
         const foundGlobal = new Set(save.foundWordIds);
+        const recentIds = currentRecentRoundWordIds();
         const currentWords = currentLevelWords().filter((word) => kanaUnits(word.playReading).length <= maxLength);
-        const unseen = shuffled(currentWords.filter((word) => !foundGlobal.has(word.id)));
-        const seen = shuffled(currentWords.filter((word) => foundGlobal.has(word.id)));
+        const unseen = preferWordsNotInRecentRound(currentWords.filter((word) => !foundGlobal.has(word.id)), recentIds, true);
+        const seen = preferWordsNotInRecentRound(currentWords.filter((word) => foundGlobal.has(word.id)), recentIds, true);
         return uniqueWords([...priorityWords, ...unseen, ...seen]);
       }
 
@@ -4820,6 +4854,8 @@
         }
         board = grid;
         roundTargets = best.placedTargets.slice(0, MAX_ROUND_TARGETS);
+        rememberRoundTargets(roundTargets);
+        persistSave();
         roundFoundIds = new Set();
         hintedTargetIds = new Set();
         selectedCells = [];
