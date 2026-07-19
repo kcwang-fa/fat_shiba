@@ -76,6 +76,8 @@ python3 tools/dictionary/validate_dictionary.py --list-missing-examples
 
 詞庫 canonical source 放在 `tools/dictionary/sources/words/`，依等級拆成 `n*_core.csv` 與 `n*_eggrolls.csv`。`web/data/word-level-n*.js` 是網站讀取的產物，不要手動改。
 
+各等級可另外維護人工排除清單 `tools/dictionary/n{level}_review.csv`（如 `n3_review.csv`、`n2_review.csv`）：檔案存在時，兩支產生器會在去重前把清單中的 id 從詞表與 meta 一併排除；檔案不存在則視為該等級沒有排除詞。產生器跳過的不明 id 會完整寫入 `tools/dictionary/build_warnings.txt`，請定期檢查是否有 id 漂移。
+
 重新產生等級詞庫產物：
 
 ```bash
@@ -120,6 +122,18 @@ python3 tools/audio/generate_n4_bgm.py
 
 ```bash
 python3 tools/audio/generate_n4_game_bgm.py
+```
+
+重新產生 N3 中國關西遊戲背景音樂 WAV：
+
+```bash
+python3 tools/audio/generate_n3_game_bgm.py
+```
+
+重新產生 N3 中國關西複習夜晚小雨與遠處鐘聲白噪音 WAV：
+
+```bash
+python3 tools/audio/generate_n3_review_bgm.py
 ```
 
 重新產生 N1 東北北海道複習壁爐柴火主題背景音樂 WAV：

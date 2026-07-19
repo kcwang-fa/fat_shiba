@@ -16,6 +16,12 @@ N4_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n4_examples.csv"
 N3_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n3_examples.csv"
 N2_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n2_examples.csv"
 N1_EXAMPLES_CSV = PROJECT_ROOT / "tools" / "dictionary" / "n1_examples.csv"
+# 每個等級可各自有一份人工排除清單 n{level}_review.csv（如 n3_review.csv、n2_review.csv）。
+# 檔案存在才會被讀取；不存在代表該等級沒有要排除的詞（未來加 n1_review.csv 也不用改程式）。
+REVIEW_CSV_DIR = PROJECT_ROOT / "tools" / "dictionary"
+# word_meta.csv 出現不明 id 時只會跳過並記 warning（不中斷 build），
+# 終端只印前 20 筆，完整清單固定落到這個報告檔，避免資料靜默失效卻沒人發現。
+WARNINGS_REPORT = PROJECT_ROOT / "tools" / "dictionary" / "build_warnings.txt"
 SOURCE_WORD_DIR = PROJECT_ROOT / "tools" / "dictionary" / "sources" / "words"
 OUTPUT_DIR = PROJECT_ROOT / "web" / "data"
 LEGACY_OUTPUT_JS = OUTPUT_DIR / "word_meta.js"
@@ -370,11 +376,16 @@ def source_word_files_for_level(level: str) -> tuple[Path, Path]:
     )
 
 
-def load_word_index() -> dict[str, dict[str, str]]:
+def load_word_index(review_ids: set[str]) -> dict[str, dict[str, str]]:
     words: dict[str, dict[str, str]] = {}
-    seen_keys: set[tuple[str, str]] = set()
 
     for level in LEVEL_ORDER:
+        # 去重集合放在等級迴圈「裡面」，每一級重新歸零。
+        # 為什麼：word-level 產生器（build_word_level_data.js）是逐級去重，
+        # 兩邊範圍必須一致。之前這個 set 放在迴圈外變成跨級去重，
+        # 導致同字出現在兩級時，詞表兩級都有、meta 卻只剩第一級，
+        # 前端複習高等級那個字就查不到詞性與例句。
+        seen_keys: set[tuple[str, str]] = set()
         for path in source_word_files_for_level(level):
             with path.open(newline="", encoding="utf-8-sig") as source:
                 reader = csv.DictReader(source)
@@ -389,6 +400,12 @@ def load_word_index() -> dict[str, dict[str, str]]:
                         raise ValueError(
                             f"{path.relative_to(PROJECT_ROOT)}:{line_no}: level is {declared_level}, expected {level}"
                         )
+
+                    # 排除清單要在去重「之前」套用（與 JS 端順序一致）。
+                    # 為什麼：若被排除的詞剛好是重複組的第一筆，先排除
+                    # 才能讓後面同音同字的另一個詞正常留下來。
+                    if word_id in review_ids:
+                        continue
 
                     word = {
                         "id": word_id,
@@ -700,7 +717,11 @@ def is_level_example_id(word_id: str, level: str) -> bool:
     return bool(match and match.group(1) == level)
 
 
-def load_level_examples(level: str, words: dict[str, dict[str, str]]) -> dict[str, dict[str, str]]:
+def load_level_examples(
+    level: str,
+    words: dict[str, dict[str, str]],
+    review_ids: set[str],
+) -> dict[str, dict[str, str]]:
     examples_path = LEVEL_EXAMPLE_CSVS[level]
     examples: dict[str, dict[str, str]] = {}
     if not examples_path.exists():
@@ -719,6 +740,11 @@ def load_level_examples(level: str, words: dict[str, dict[str, str]]) -> dict[st
                 raise ValueError(f"Line {line_no}: id is required")
             if word_id in examples:
                 raise ValueError(f"Line {line_no}: duplicate example id {word_id}")
+            # 被 n{level}_review.csv 排除的詞不會進 words 索引，
+            # 它的例句要「安靜跳過」而不是誤報成 unknown id——
+            # 這樣 warning 報告裡剩下的才都是真正需要人工處理的 id 漂移。
+            if word_id in review_ids:
+                continue
             if word_id not in words:
                 BUILD_WARNINGS.append(f"{examples_path.relative_to(PROJECT_ROOT)}:{line_no}: skipped unknown example id {word_id}")
                 continue
@@ -740,11 +766,39 @@ def load_level_examples(level: str, words: dict[str, dict[str, str]]) -> dict[st
     return examples
 
 
-def load_examples(words: dict[str, dict[str, str]]) -> dict[str, dict[str, str]]:
+def load_examples(words: dict[str, dict[str, str]], review_ids: set[str]) -> dict[str, dict[str, str]]:
     examples: dict[str, dict[str, str]] = {}
     for level in LEVEL_EXAMPLE_CSVS:
-        examples.update(load_level_examples(level, words))
+        examples.update(load_level_examples(level, words, review_ids))
     return examples
+
+
+def review_csv_path_for_level(level: str) -> Path:
+    # 例如 level="N3" 對到 tools/dictionary/n3_review.csv。
+    return REVIEW_CSV_DIR / f"{level.lower()}_review.csv"
+
+
+def load_review_ids() -> set[str]:
+    """讀入所有等級的排除清單，合併成一個 id 集合。
+
+    為什麼可以合併成單一集合：id 本身帶等級前綴（如 n3_0123、n2_0007），
+    不同等級的 id 不會互撞，用一個 set 查詢最單純。
+    """
+    review_ids: set[str] = set()
+    for level in LEVEL_ORDER:
+        csv_path = review_csv_path_for_level(level)
+        if not csv_path.exists():
+            continue
+        with csv_path.open(newline="", encoding="utf-8-sig") as source:
+            reader = csv.DictReader(source)
+            if not reader.fieldnames or "id" not in reader.fieldnames:
+                raise ValueError(f"{csv_path.relative_to(PROJECT_ROOT)} is missing id field")
+            review_ids.update(
+                (row.get("id") or "").strip()
+                for row in reader
+                if (row.get("id") or "").strip()
+            )
+    return review_ids
 
 
 def first_eggrolls_example(note: dict[str, str]) -> dict[str, str] | None:
@@ -996,8 +1050,10 @@ def validate_headers(fieldnames: list[str] | None) -> None:
 
 
 def build_meta() -> dict[str, dict[str, object]]:
-    words = load_word_index()
-    examples = load_examples(words)
+    # 排除清單先讀，因為 load_word_index 要在去重前套用它。
+    review_ids = load_review_ids()
+    words = load_word_index(review_ids)
+    examples = load_examples(words, review_ids)
     seen_ids: set[str] = set()
     metadata: dict[str, dict[str, object]] = {}
 
@@ -1017,6 +1073,11 @@ def build_meta() -> dict[str, dict[str, object]]:
                 raise ValueError(f"Line {line_no}: id is required")
             if word_id in seen_ids:
                 raise ValueError(f"Line {line_no}: duplicate id {word_id}")
+            # 被排除的詞已不在 words 索引裡；這裡另外判斷是為了讓
+            # word_meta.csv 中對應的列「安靜跳過」，而不是被誤報成 unknown id。
+            if word_id in review_ids:
+                seen_ids.add(word_id)
+                continue
             if word_id not in words:
                 BUILD_WARNINGS.append(f"{SOURCE_CSV.relative_to(PROJECT_ROOT)}:{line_no}: skipped unknown word id {word_id}")
                 continue
@@ -1063,11 +1124,17 @@ def build_meta() -> dict[str, dict[str, object]]:
             seen_ids.add(word_id)
             metadata[word_id] = item
 
+    # 下面兩處 guard 是雙重保險：words 索引理論上已排除 review 詞，
+    # 但 eggrolls 中繼資料另有自己的 id 來源，保留判斷比較穩。
     for word_id, item in load_eggrolls_metadata(words, examples).items():
+        if word_id in review_ids:
+            continue
         metadata.setdefault(word_id, item)
 
     for word_id in sorted(words, key=word_sort_key):
         if word_id in metadata:
+            continue
+        if word_id in review_ids:
             continue
         metadata[word_id] = auto_meta_for_word(words[word_id], examples)
 
@@ -1111,10 +1178,19 @@ def write_meta_outputs(metadata: dict[str, dict[str, object]]) -> None:
 def main() -> None:
     metadata = build_meta()
     write_meta_outputs(metadata)
+    # 終端只印前 20 筆避免洗版，但完整清單一定寫進報告檔。
+    # 為什麼：不明 id 只會被跳過、不會讓 build 失敗，
+    # 若清單被截斷，覆蓋資料靜默失效就很難被發現。
     for warning in BUILD_WARNINGS[:20]:
         print(f"warning: {warning}")
     if len(BUILD_WARNINGS) > 20:
         print(f"warning: ... {len(BUILD_WARNINGS) - 20} more skipped rows")
+    if BUILD_WARNINGS:
+        WARNINGS_REPORT.write_text("\n".join(BUILD_WARNINGS) + "\n", encoding="utf-8")
+        print(f"warning: full list ({len(BUILD_WARNINGS)} rows) written to {WARNINGS_REPORT.relative_to(PROJECT_ROOT)}")
+    elif WARNINGS_REPORT.exists():
+        # 這次 build 沒有 warning 就移除舊報告，避免留下過期清單誤導人。
+        WARNINGS_REPORT.unlink()
     counts = {
         level: sum(1 for word_id in metadata if meta_level_for_word_id(word_id) == level)
         for level in LEVEL_ORDER

@@ -31,15 +31,16 @@
 - `tools/dictionary/build_word_meta.py` 已擴充到 N4/N1 例句資料、Eggrolls note metadata、更多詞性分類與動詞類型推斷。`tools/dictionary/n4_examples.csv` 目前 820 筆資料列，`tools/dictionary/n1_examples.csv` 目前 2,125 筆資料列。
 - `web/data/word_meta.js` 已重新產生，目前約 9,837 筆 metadata，可供單字卡/複習模式讀取詞性、例句、備註等輔助資訊。
 - `README.md` 已補上 N4/N1 例句維護方式，以及 N5 game BGM、N1 review BGM 的重新產生指令。
-- `web/index.html` 已把 N5 複習 BGM 與 N5 遊戲 BGM 分開；N4 遊戲/複習 BGM 維持獨立；N1 已新增遊戲 BGM 與複習壁爐 BGM。切換遊戲/複習/區域時會停止其他場景音訊，避免多條音軌疊在一起。
+- `web/index.html` 已把 N5 複習 BGM 與 N5 遊戲 BGM 分開；N4 遊戲/複習 BGM 維持獨立；N3 已新增中國關西遊戲 BGM 與複習夜晚小雨/遠處鐘聲白噪音；N1 已新增遊戲 BGM 與複習壁爐 BGM。切換遊戲/複習/區域時會停止其他場景音訊，避免多條音軌疊在一起。
 - N1 東北北海道 35 站已補 `travelLog` 文案，過站明信片 modal 可顯示完整旅遊日記，不再只靠 fallback 句。
 - `web/service-worker.js` 快取版本已升到 `fat-shiba-pwa-v5`，並更新 `word_data.js` / `word_meta.js` 查詢字串，避免舊快取卡住新詞庫。快取這東西很乖的時候像工具，不乖的時候像考驗修養。
 - 音訊資產已更新或新增：
   - N5：`n5-okinawa-focus-bgm.*`、`n5-okinawa-game-bgm.*`。
   - N4：`n4-kyushu-shikoku-bgm.*`、`n4-kyushu-shikoku-game-bgm.*`。
+  - N3：`n3-chugoku-kansai-game-bgm.*`、`n3-chugoku-kansai-review-bgm.*`。
   - N1：`n1-tohoku-hokkaido-bgm.*`、`n1-tohoku-hokkaido-review-bgm.*`。
   - 另有 `fireplace-white-noise-bgm.*` 作為壁爐/白噪音素材方向。
-- `tools/audio/` 目前有多個 deterministic 產生器，包含 N5/N4/N1 遊戲與複習方向、溪流、壁爐白噪音等；`audio_analysis/` 與 `generated_audio/` 內留有波形、頻譜與測試輸出，供音訊調整對照。
+- `tools/audio/` 目前有多個 deterministic 產生器，包含 N5/N4/N3/N1 遊戲與複習方向、溪流、壁爐白噪音等；`audio_analysis/` 與 `generated_audio/` 內留有波形、頻譜與測試輸出，供音訊調整對照。
 
 ### 待驗證與風險
 

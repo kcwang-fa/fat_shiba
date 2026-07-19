@@ -2828,3 +2828,5 @@ N1,ベストセラー,bestseller,804,right,33,,,| 33 | ベストセラー 【bes
 N1,ほんぶん,本文,804,right,34,,,"| 34 | ほんぶん【本文】 / i る)本文・正文 / ,,,  ほんぶん さんしょう"
 N1,素寢約,檀約,805,left,35,,,"、 35 | 素寢約【檀約】    | / 全總結,歸納;匯集 : 解決・有結果!"
 N1,めいぼ,名簿,805,right,07,,,"7 | めいぼ【名簿】 / 全名簿,名冊                                  N1"
+N1,そり,機,678,right,07,1,reading_writing_meaning_mismatch; verify_original_page_before_edit,"n1_1201 | source has reading そり but writing 機 and zh 電機; possible OCR mismatch, verify original page before correction"
+まんご,満語,まんご,漢字的、筆劃,kanji,788,right,08,"n1_1994 | source has reading まんご / writing 満語 / zh 漢字的、筆劃; likely OCR mismatch in grammar-vocabulary section, verify original page before correction"

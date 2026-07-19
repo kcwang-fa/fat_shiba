@@ -3876,27 +3876,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_0246": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "募集する",
-      "masu": "募集します",
-      "te": "募集して",
-      "ta": "募集した",
-      "nai": "募集しない"
-    },
-    "examples": [
-      {
-        "ja": "会社は新しいスタッフを募集しています。",
-        "zh": "公司正在招募新員工。"
-      }
-    ]
-  },
   "n2_0247": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3904,27 +3883,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "駅の壁に映画のポスターが貼ってあります。",
         "zh": "車站牆上貼著電影海報。"
-      }
-    ]
-  },
-  "n2_0248": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "解説する",
-      "masu": "解説します",
-      "te": "解説して",
-      "ta": "解説した",
-      "nai": "解説しない"
-    },
-    "examples": [
-      {
-        "ja": "先生がグラフの見方を解説しました。",
-        "zh": "老師解說了圖表的看法。"
       }
     ]
   },
@@ -4205,16 +4163,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_0269": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "勝敗にこだわりすぎず、試合を楽しみましょう。",
-        "zh": "不要太拘泥輸贏，好好享受比賽吧。"
-      }
-    ]
-  },
   "n2_0270": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4252,27 +4200,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "今が新しいことを始めるチャンスです。",
         "zh": "現在是開始新事物的好機會。"
-      }
-    ]
-  },
-  "n2_0274": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "入場する",
-      "masu": "入場します",
-      "te": "入場して",
-      "ta": "入場した",
-      "nai": "入場しない"
-    },
-    "examples": [
-      {
-        "ja": "開演の三十分前から入場できます。",
-        "zh": "開演前三十分鐘可以入場。"
       }
     ]
   },
@@ -4452,16 +4379,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_0286": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "初めて能の舞台を見に行きました。",
-        "zh": "我第一次去看能樂舞台。"
-      }
-    ]
-  },
   "n2_0287": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4627,16 +4544,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_0298": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "じゃんけんで掃除当番を決めました。",
-        "zh": "我們用猜拳決定打掃值日生。"
-      }
-    ]
-  },
   "n2_0299": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -4664,16 +4571,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "子どものころ、この童話を何度も読みました。",
         "zh": "小時候我讀過這篇童話很多次。"
-      }
-    ]
-  },
-  "n2_0302": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "子どもたちはなぞなぞを出し合って遊んでいます。",
-        "zh": "孩子們互相出謎語玩。"
       }
     ]
   },
@@ -4982,16 +4879,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "祭りで大きな太鼓の音が響いていました。",
         "zh": "祭典上響著大鼓的聲音。"
-      }
-    ]
-  },
-  "n2_0325": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この曲はテンポが速くて踊りやすいです。",
-        "zh": "這首曲子節奏很快，很適合跳舞。"
       }
     ]
   },
@@ -5713,16 +5600,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "半径五百メートル以内に駅があります。",
         "zh": "半徑五百公尺內有車站。"
-      }
-    ]
-  },
-  "n2_0386": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "この容器の容積は一リットルです。",
-        "zh": "這個容器的容量是一公升。"
       }
     ]
   },
@@ -14389,18 +14266,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     ]
   },
   "n2_egg_0136": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
-    "examples": [
-      {
-        "ja": "強力に推し進める",
-        "zh": "大力推進"
-      }
-    ]
-  },
-  "n2_egg_0137": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14410,11 +14275,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "同意する",
-      "masu": "同意します",
-      "te": "同意して",
-      "ta": "同意した",
-      "nai": "同意しない"
+      "dictionary": "強力する",
+      "masu": "強力します",
+      "te": "強力して",
+      "ta": "強力した",
+      "nai": "強力しない"
     },
     "examples": [
       {
@@ -14423,7 +14288,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0138": {
+  "n2_egg_0137": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14435,7 +14300,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0139": {
+  "n2_egg_0138": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14447,7 +14312,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0140": {
+  "n2_egg_0139": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14459,7 +14324,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0141": {
+  "n2_egg_0140": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14471,7 +14336,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0142": {
+  "n2_egg_0141": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14483,7 +14348,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0143": {
+  "n2_egg_0142": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14495,7 +14360,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0144": {
+  "n2_egg_0143": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14507,7 +14372,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0145": {
+  "n2_egg_0144": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14517,11 +14382,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "開発する",
-      "masu": "開発します",
-      "te": "開発して",
-      "ta": "開発した",
-      "nai": "開発しない"
+      "dictionary": "いったんする",
+      "masu": "いったんします",
+      "te": "いったんして",
+      "ta": "いったんした",
+      "nai": "いったんしない"
     },
     "examples": [
       {
@@ -14530,7 +14395,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0146": {
+  "n2_egg_0145": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14542,22 +14407,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0147": {
+  "n2_egg_0146": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "尽くす",
-      "masu": "尽くします",
-      "te": "尽くして",
-      "ta": "尽くした",
-      "nai": "尽くさない"
-    },
     "examples": [
       {
         "ja": "犯人逮捕に全力を尽くす",
@@ -14565,7 +14421,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0148": {
+  "n2_egg_0147": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14577,7 +14433,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0149": {
+  "n2_egg_0148": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14589,7 +14445,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0150": {
+  "n2_egg_0149": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14601,22 +14457,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0151": {
+  "n2_egg_0150": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "挙げる",
-      "masu": "挙げます",
-      "te": "挙げて",
-      "ta": "挙げた",
-      "nai": "挙げない"
-    },
     "examples": [
       {
         "ja": "手を挙げる",
@@ -14624,7 +14471,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0152": {
+  "n2_egg_0151": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14636,7 +14483,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0153": {
+  "n2_egg_0152": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14648,22 +14495,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0154": {
+  "n2_egg_0153": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "くっつく",
-      "masu": "くっつきます",
-      "te": "くっついて",
-      "ta": "くっついた",
-      "nai": "くっつかない"
-    },
     "examples": [
       {
         "ja": "ペンキがくっつく",
@@ -14671,7 +14509,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0155": {
+  "n2_egg_0154": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14683,22 +14521,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0156": {
+  "n2_egg_0155": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "指す",
-      "masu": "指します",
-      "te": "指して",
-      "ta": "指した",
-      "nai": "指さない"
-    },
     "examples": [
       {
         "ja": "黒板の字を指す",
@@ -14706,7 +14535,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0157": {
+  "n2_egg_0156": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14718,7 +14547,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0158": {
+  "n2_egg_0157": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14730,22 +14559,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0159": {
+  "n2_egg_0158": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "除く",
-      "masu": "除きます",
-      "te": "除いて",
-      "ta": "除いた",
-      "nai": "除かない"
-    },
     "examples": [
       {
         "ja": "制限を除く",
@@ -14753,7 +14573,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0160": {
+  "n2_egg_0159": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14765,7 +14585,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0161": {
+  "n2_egg_0160": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14777,7 +14597,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0162": {
+  "n2_egg_0161": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14789,7 +14609,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0163": {
+  "n2_egg_0162": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14799,11 +14619,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "拒否する",
-      "masu": "拒否します",
-      "te": "拒否して",
-      "ta": "拒否した",
-      "nai": "拒否しない"
+      "dictionary": "にもかかわらずする",
+      "masu": "にもかかわらずします",
+      "te": "にもかかわらずして",
+      "ta": "にもかかわらずした",
+      "nai": "にもかかわらずしない"
     },
     "examples": [
       {
@@ -14812,7 +14632,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0164": {
+  "n2_egg_0163": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14824,7 +14644,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0165": {
+  "n2_egg_0164": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14834,11 +14654,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "提供する",
-      "masu": "提供します",
-      "te": "提供して",
-      "ta": "提供した",
-      "nai": "提供しない"
+      "dictionary": "悩みする",
+      "masu": "悩みします",
+      "te": "悩みして",
+      "ta": "悩みした",
+      "nai": "悩みしない"
     },
     "examples": [
       {
@@ -14847,22 +14667,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0166": {
+  "n2_egg_0165": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "生かす",
-      "masu": "生かします",
-      "te": "生かして",
-      "ta": "生かした",
-      "nai": "生かさない"
-    },
     "examples": [
       {
         "ja": "とった魚を池に入れて生かす",
@@ -14870,7 +14681,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0167": {
+  "n2_egg_0166": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14880,11 +14691,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "再開する",
-      "masu": "再開します",
-      "te": "再開して",
-      "ta": "再開した",
-      "nai": "再開しない"
+      "dictionary": "生かすする",
+      "masu": "生かすします",
+      "te": "生かすして",
+      "ta": "生かすした",
+      "nai": "生かすしない"
     },
     "examples": [
       {
@@ -14893,22 +14704,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0168": {
+  "n2_egg_0167": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "添える",
-      "masu": "添えます",
-      "te": "添えて",
-      "ta": "添えた",
-      "nai": "添えない"
-    },
     "examples": [
       {
         "ja": "履歴書に写真を添えて送る",
@@ -14916,7 +14718,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0169": {
+  "n2_egg_0168": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14926,11 +14728,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "入り込む",
-      "masu": "入り込みます",
-      "te": "入り込んで",
-      "ta": "入り込んだ",
-      "nai": "入り込まない"
+      "dictionary": "添える",
+      "masu": "添えります",
+      "te": "添えって",
+      "ta": "添えった",
+      "nai": "添えらない"
     },
     "examples": [
       {
@@ -14939,7 +14741,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0170": {
+  "n2_egg_0169": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14951,7 +14753,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0171": {
+  "n2_egg_0170": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14963,22 +14765,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0172": {
+  "n2_egg_0171": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "下す",
-      "masu": "下します",
-      "te": "下して",
-      "ta": "下した",
-      "nai": "下さない"
-    },
     "examples": [
       {
         "ja": "命令を下す",
@@ -14986,7 +14779,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0173": {
+  "n2_egg_0172": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -14996,11 +14789,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "想定する",
-      "masu": "想定します",
-      "te": "想定して",
-      "ta": "想定した",
-      "nai": "想定しない"
+      "dictionary": "下すする",
+      "masu": "下すします",
+      "te": "下すして",
+      "ta": "下すした",
+      "nai": "下すしない"
     },
     "examples": [
       {
@@ -15009,22 +14802,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0174": {
+  "n2_egg_0173": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "近づける",
-      "masu": "近づけます",
-      "te": "近づけて",
-      "ta": "近づけた",
-      "nai": "近づけない"
-    },
     "examples": [
       {
         "ja": "椅子をテーブルに近づける",
@@ -15032,7 +14816,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0175": {
+  "n2_egg_0174": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15044,7 +14828,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0176": {
+  "n2_egg_0175": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15054,11 +14838,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "設置する",
-      "masu": "設置します",
-      "te": "設置して",
-      "ta": "設置した",
-      "nai": "設置しない"
+      "dictionary": "一面する",
+      "masu": "一面します",
+      "te": "一面して",
+      "ta": "一面した",
+      "nai": "一面しない"
     },
     "examples": [
       {
@@ -15067,22 +14851,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0177": {
+  "n2_egg_0176": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "追い出す",
-      "masu": "追い出します",
-      "te": "追い出して",
-      "ta": "追い出した",
-      "nai": "追い出さない"
-    },
     "examples": [
       {
         "ja": "蠅を台所から追い出すのに苦労した",
@@ -15090,7 +14865,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0178": {
+  "n2_egg_0177": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15100,11 +14875,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "保護する",
-      "masu": "保護します",
-      "te": "保護して",
-      "ta": "保護した",
-      "nai": "保護しない"
+      "dictionary": "追い出すする",
+      "masu": "追い出すします",
+      "te": "追い出すして",
+      "ta": "追い出すした",
+      "nai": "追い出すしない"
     },
     "examples": [
       {
@@ -15113,7 +14888,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0179": {
+  "n2_egg_0178": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15125,22 +14900,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0180": {
+  "n2_egg_0179": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "務める",
-      "masu": "務めます",
-      "te": "務めて",
-      "ta": "務めた",
-      "nai": "務めない"
-    },
     "examples": [
       {
         "ja": "会長を務める",
@@ -15148,7 +14914,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0181": {
+  "n2_egg_0180": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15160,7 +14926,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0182": {
+  "n2_egg_0181": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15172,7 +14938,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0183": {
+  "n2_egg_0182": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15184,22 +14950,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0184": {
+  "n2_egg_0183": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "持ち込む",
-      "masu": "持ち込みます",
-      "te": "持ち込んで",
-      "ta": "持ち込んだ",
-      "nai": "持ち込まない"
-    },
     "examples": [
       {
         "ja": "車内に危険物を持ち込む",
@@ -15207,22 +14964,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0185": {
+  "n2_egg_0184": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "尽きる",
-      "masu": "尽きます",
-      "te": "尽きて",
-      "ta": "尽きた",
-      "nai": "尽きない"
-    },
     "examples": [
       {
         "ja": "資金が尽きる",
@@ -15230,7 +14978,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0186": {
+  "n2_egg_0185": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15242,7 +14990,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0187": {
+  "n2_egg_0186": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15254,13 +15002,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0188": {
+  "n2_egg_0187": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自動3",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "性質する",
+      "masu": "性質します",
+      "te": "性質して",
+      "ta": "性質した",
+      "nai": "性質しない"
+    },
+    "examples": [
+      {
+        "ja": "大型スーパーに対抗する",
+        "zh": "與大型超市抗衡"
+      }
+    ]
+  },
+  "n2_egg_0188": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3・副",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -15272,50 +15043,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "大型スーパーに対抗する",
-        "zh": "與大型超市抗衡"
-      }
-    ]
-  },
-  "n2_egg_0189": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3・副",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "一見する",
-      "masu": "一見します",
-      "te": "一見して",
-      "ta": "一見した",
-      "nai": "一見しない"
-    },
-    "examples": [
-      {
         "ja": "一見の価値がある",
         "zh": "值得一看"
       }
     ]
   },
-  "n2_egg_0190": {
+  "n2_egg_0189": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "固める",
-      "masu": "固めます",
-      "te": "固めて",
-      "ta": "固めた",
-      "nai": "固めない"
-    },
     "examples": [
       {
         "ja": "手で粘土を固める",
@@ -15323,7 +15062,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0191": {
+  "n2_egg_0190": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15333,11 +15072,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "記す",
-      "masu": "記します",
-      "te": "記して",
-      "ta": "記した",
-      "nai": "記さない"
+      "dictionary": "固める",
+      "masu": "固めります",
+      "te": "固めって",
+      "ta": "固めった",
+      "nai": "固めらない"
     },
     "examples": [
       {
@@ -15346,7 +15085,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0192": {
+  "n2_egg_0191": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15358,7 +15097,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0193": {
+  "n2_egg_0192": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15368,11 +15107,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "共有する",
-      "masu": "共有します",
-      "te": "共有して",
-      "ta": "共有した",
-      "nai": "共有しない"
+      "dictionary": "精神的する",
+      "masu": "精神的します",
+      "te": "精神的して",
+      "ta": "精神的した",
+      "nai": "精神的しない"
     },
     "examples": [
       {
@@ -15381,22 +15120,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0194": {
+  "n2_egg_0193": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "思い切る",
-      "masu": "思い切ります",
-      "te": "思い切って",
-      "ta": "思い切った",
-      "nai": "思い切らない"
-    },
     "examples": [
       {
         "ja": "歌手になる夢を思い切る",
@@ -15404,7 +15134,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0195": {
+  "n2_egg_0194": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15416,7 +15146,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0196": {
+  "n2_egg_0195": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15428,7 +15158,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0197": {
+  "n2_egg_0196": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15440,22 +15170,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0198": {
+  "n2_egg_0197": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "つなぐ",
-      "masu": "つなぎます",
-      "te": "つないで",
-      "ta": "つないだ",
-      "nai": "つながない"
-    },
     "examples": [
       {
         "ja": "犬を鎖でつなぐ",
@@ -15463,7 +15184,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0199": {
+  "n2_egg_0198": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15475,7 +15196,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0200": {
+  "n2_egg_0199": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15487,7 +15208,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0201": {
+  "n2_egg_0200": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15499,22 +15220,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0202": {
+  "n2_egg_0201": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "努める",
-      "masu": "努めます",
-      "te": "努めて",
-      "ta": "努めた",
-      "nai": "努めない"
-    },
     "examples": [
       {
         "ja": "研究に努める",
@@ -15522,7 +15234,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0203": {
+  "n2_egg_0202": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15534,7 +15246,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0204": {
+  "n2_egg_0203": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15546,7 +15258,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0205": {
+  "n2_egg_0204": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15558,22 +15270,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0206": {
+  "n2_egg_0205": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "歩む",
-      "masu": "歩みます",
-      "te": "歩んで",
-      "ta": "歩んだ",
-      "nai": "歩まない"
-    },
     "examples": [
       {
         "ja": "秋の信濃路を歩む",
@@ -15581,22 +15284,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0207": {
+  "n2_egg_0206": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "恵まれる",
-      "masu": "恵まれます",
-      "te": "恵まれて",
-      "ta": "恵まれた",
-      "nai": "恵まれない"
-    },
     "examples": [
       {
         "ja": "チャンスに恵まれる",
@@ -15604,7 +15298,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0208": {
+  "n2_egg_0207": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15614,11 +15308,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "非難する",
-      "masu": "非難します",
-      "te": "非難して",
-      "ta": "非難した",
-      "nai": "非難しない"
+      "dictionary": "恵まれるする",
+      "masu": "恵まれるします",
+      "te": "恵まれるして",
+      "ta": "恵まれるした",
+      "nai": "恵まれるしない"
     },
     "examples": [
       {
@@ -15627,7 +15321,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0209": {
+  "n2_egg_0208": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15639,7 +15333,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0210": {
+  "n2_egg_0209": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15651,7 +15345,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0211": {
+  "n2_egg_0210": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15663,22 +15357,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0212": {
+  "n2_egg_0211": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "つぶやく",
-      "masu": "つぶやきます",
-      "te": "つぶやいて",
-      "ta": "つぶやいた",
-      "nai": "つぶやかない"
-    },
     "examples": [
       {
         "ja": "ぼそぼそと意味不明のことばをつぶやく",
@@ -15686,7 +15371,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0213": {
+  "n2_egg_0212": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15698,7 +15383,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0214": {
+  "n2_egg_0213": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15710,7 +15395,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0215": {
+  "n2_egg_0214": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15722,7 +15407,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0216": {
+  "n2_egg_0215": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15734,22 +15419,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0217": {
+  "n2_egg_0216": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "鍛える",
-      "masu": "鍛えます",
-      "te": "鍛えて",
-      "ta": "鍛えた",
-      "nai": "鍛えない"
-    },
     "examples": [
       {
         "ja": "鉄を鍛える",
@@ -15757,7 +15433,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0218": {
+  "n2_egg_0217": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15767,11 +15443,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "脱出する",
-      "masu": "脱出します",
-      "te": "脱出して",
-      "ta": "脱出した",
-      "nai": "脱出しない"
+      "dictionary": "鍛えるする",
+      "masu": "鍛えるします",
+      "te": "鍛えるして",
+      "ta": "鍛えるした",
+      "nai": "鍛えるしない"
     },
     "examples": [
       {
@@ -15780,22 +15456,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0219": {
+  "n2_egg_0218": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見渡す",
-      "masu": "見渡します",
-      "te": "見渡して",
-      "ta": "見渡した",
-      "nai": "見渡さない"
-    },
     "examples": [
       {
         "ja": "見渡す限りの大雪原",
@@ -15803,7 +15470,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0220": {
+  "n2_egg_0219": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15813,11 +15480,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出現する",
-      "masu": "出現します",
-      "te": "出現して",
-      "ta": "出現した",
-      "nai": "出現しない"
+      "dictionary": "見渡すする",
+      "masu": "見渡すします",
+      "te": "見渡すして",
+      "ta": "見渡すした",
+      "nai": "見渡すしない"
     },
     "examples": [
       {
@@ -15826,22 +15493,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0221": {
+  "n2_egg_0220": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "攻める",
-      "masu": "攻めます",
-      "te": "攻めて",
-      "ta": "攻めた",
-      "nai": "攻めない"
-    },
     "examples": [
       {
         "ja": "敵陣を攻める",
@@ -15849,7 +15507,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0222": {
+  "n2_egg_0221": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15859,11 +15517,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "吐き出す",
-      "masu": "吐き出します",
-      "te": "吐き出して",
-      "ta": "吐き出した",
-      "nai": "吐き出さない"
+      "dictionary": "攻める",
+      "masu": "攻めります",
+      "te": "攻めって",
+      "ta": "攻めった",
+      "nai": "攻めらない"
     },
     "examples": [
       {
@@ -15872,7 +15530,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0223": {
+  "n2_egg_0222": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15884,22 +15542,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0224": {
+  "n2_egg_0223": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "染める",
-      "masu": "染めます",
-      "te": "染めて",
-      "ta": "染めた",
-      "nai": "染めない"
-    },
     "examples": [
       {
         "ja": "髪を染める",
@@ -15907,7 +15556,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0225": {
+  "n2_egg_0224": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -15916,6 +15565,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "オンラインシステム",
         "zh": "聯網系統"
+      }
+    ]
+  },
+  "n2_egg_0225": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "飛行機事故で生き残る",
+        "zh": "在空難中倖存下來"
       }
     ]
   },
@@ -15937,8 +15600,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "飛行機事故で生き残る",
-        "zh": "在空難中倖存下來"
+        "ja": "知らない英単語が交じる",
+        "zh": "夾雜著不認識的英語單字"
       }
     ]
   },
@@ -15946,9 +15609,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -15960,35 +15623,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "知らない英単語が交じる",
-        "zh": "夾雜著不認識的英語單字"
-      }
-    ]
-  },
-  "n2_egg_0228": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "言い切る",
-      "masu": "言い切ります",
-      "te": "言い切って",
-      "ta": "言い切った",
-      "nai": "言い切らない"
-    },
-    "examples": [
-      {
         "ja": "まだ言い切らないうちに時間になった",
         "zh": "話沒說完時間就到了"
       }
     ]
   },
-  "n2_egg_0229": {
+  "n2_egg_0228": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16000,22 +15640,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0230": {
+  "n2_egg_0229": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "吸い込む",
-      "masu": "吸い込みます",
-      "te": "吸い込んで",
-      "ta": "吸い込んだ",
-      "nai": "吸い込まない"
-    },
     "examples": [
       {
         "ja": "知らないうちにほこりを吸い込んでいる",
@@ -16023,13 +15654,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0231": {
+  "n2_egg_0230": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自他動3",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "吸い込むする",
+      "masu": "吸い込むします",
+      "te": "吸い込むして",
+      "ta": "吸い込むした",
+      "nai": "吸い込むしない"
+    },
+    "examples": [
+      {
+        "ja": "相手の返答を待つ",
+        "zh": "等對方回話"
+      }
+    ]
+  },
+  "n2_egg_0231": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -16041,35 +15695,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "相手の返答を待つ",
-        "zh": "等對方回話"
-      }
-    ]
-  },
-  "n2_egg_0232": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "再会する",
-      "masu": "再会します",
-      "te": "再会して",
-      "ta": "再会した",
-      "nai": "再会しない"
-    },
-    "examples": [
-      {
         "ja": "20年ぶりに再会する",
         "zh": "時隔二十年再會"
       }
     ]
   },
-  "n2_egg_0233": {
+  "n2_egg_0232": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16081,7 +15712,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0234": {
+  "n2_egg_0233": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16093,7 +15724,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0235": {
+  "n2_egg_0234": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16103,11 +15734,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "反論する",
-      "masu": "反論します",
-      "te": "反論して",
-      "ta": "反論した",
-      "nai": "反論しない"
+      "dictionary": "即座する",
+      "masu": "即座します",
+      "te": "即座して",
+      "ta": "即座した",
+      "nai": "即座しない"
     },
     "examples": [
       {
@@ -16116,7 +15747,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0236": {
+  "n2_egg_0235": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16128,7 +15759,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0237": {
+  "n2_egg_0236": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16140,7 +15771,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0238": {
+  "n2_egg_0237": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16152,7 +15783,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0239": {
+  "n2_egg_0238": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16164,22 +15795,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0240": {
+  "n2_egg_0239": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "叶う",
-      "masu": "叶います",
-      "te": "叶って",
-      "ta": "叶った",
-      "nai": "叶わない"
-    },
     "examples": [
       {
         "ja": "念願がかなう",
@@ -16187,7 +15809,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0241": {
+  "n2_egg_0240": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16197,11 +15819,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "推測する",
-      "masu": "推測します",
-      "te": "推測して",
-      "ta": "推測した",
-      "nai": "推測しない"
+      "dictionary": "叶うする",
+      "masu": "叶うします",
+      "te": "叶うして",
+      "ta": "叶うした",
+      "nai": "叶うしない"
     },
     "examples": [
       {
@@ -16210,22 +15832,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0242": {
+  "n2_egg_0241": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "追い詰める",
-      "masu": "追い詰めます",
-      "te": "追い詰めて",
-      "ta": "追い詰めた",
-      "nai": "追い詰めない"
-    },
     "examples": [
       {
         "ja": "警察は犯人を追い詰めた",
@@ -16233,7 +15846,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0243": {
+  "n2_egg_0242": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16245,7 +15858,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0244": {
+  "n2_egg_0243": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16257,7 +15870,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0245": {
+  "n2_egg_0244": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16269,7 +15882,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0246": {
+  "n2_egg_0245": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16281,22 +15894,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0247": {
+  "n2_egg_0246": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "たどり着く",
-      "masu": "たどり着きます",
-      "te": "たどり着いて",
-      "ta": "たどり着いた",
-      "nai": "たどり着かない"
-    },
     "examples": [
       {
         "ja": "やっと目的地にたどり着く",
@@ -16304,7 +15908,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0248": {
+  "n2_egg_0247": {
     "pos": "conjunction",
     "posLabel": "接續詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16316,7 +15920,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0249": {
+  "n2_egg_0248": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16328,7 +15932,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0250": {
+  "n2_egg_0249": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16340,7 +15944,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0251": {
+  "n2_egg_0250": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16352,22 +15956,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0252": {
+  "n2_egg_0251": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "継ぐ",
-      "masu": "継ぎます",
-      "te": "継いで",
-      "ta": "継いだ",
-      "nai": "継がない"
-    },
     "examples": [
       {
         "ja": "骨を継ぐ",
@@ -16375,7 +15970,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0253": {
+  "n2_egg_0252": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16387,7 +15982,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0254": {
+  "n2_egg_0253": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16399,7 +15994,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0255": {
+  "n2_egg_0254": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16411,7 +16006,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0256": {
+  "n2_egg_0255": {
     "pos": "conjunction",
     "posLabel": "接續詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16423,7 +16018,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0257": {
+  "n2_egg_0256": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16435,7 +16030,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0258": {
+  "n2_egg_0257": {
     "pos": "conjunction",
     "posLabel": "接續詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16447,22 +16042,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0259": {
+  "n2_egg_0258": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "押し付ける",
-      "masu": "押し付けます",
-      "te": "押し付けて",
-      "ta": "押し付けた",
-      "nai": "押し付けない"
-    },
     "examples": [
       {
         "ja": "石で漬物を押し付ける",
@@ -16470,7 +16056,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0260": {
+  "n2_egg_0259": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16482,7 +16068,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0261": {
+  "n2_egg_0260": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16494,22 +16080,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0262": {
+  "n2_egg_0261": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "手渡す",
-      "masu": "手渡します",
-      "te": "手渡して",
-      "ta": "手渡した",
-      "nai": "手渡さない"
-    },
     "examples": [
       {
         "ja": "この手紙を彼に手渡してください",
@@ -16517,7 +16094,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0263": {
+  "n2_egg_0262": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16529,22 +16106,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0264": {
+  "n2_egg_0263": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "考え込む",
-      "masu": "考え込みます",
-      "te": "考え込んで",
-      "ta": "考え込んだ",
-      "nai": "考え込まない"
-    },
     "examples": [
       {
         "ja": "これを聞いて考え込んでしまった",
@@ -16552,26 +16120,40 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0265": {
+  "n2_egg_0264": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "言い聞かせる",
-      "masu": "言い聞かせます",
-      "te": "言い聞かせて",
-      "ta": "言い聞かせた",
-      "nai": "言い聞かせない"
-    },
     "examples": [
       {
         "ja": "しっかりしなければいけないと自分に言い聞かせる",
         "zh": "我對自己說:「一定要堅強」"
+      }
+    ]
+  },
+  "n2_egg_0265": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "言い聞かせるする",
+      "masu": "言い聞かせるします",
+      "te": "言い聞かせるして",
+      "ta": "言い聞かせるした",
+      "nai": "言い聞かせるしない"
+    },
+    "examples": [
+      {
+        "ja": "疲労がたまる",
+        "zh": "積累疲勞；積勞"
       }
     ]
   },
@@ -16593,35 +16175,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "疲労がたまる",
-        "zh": "積累疲勞；積勞"
-      }
-    ]
-  },
-  "n2_egg_0267": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "遭遇する",
-      "masu": "遭遇します",
-      "te": "遭遇して",
-      "ta": "遭遇した",
-      "nai": "遭遇しない"
-    },
-    "examples": [
-      {
         "ja": "危険に遭遇する",
         "zh": "遭遇危險"
       }
     ]
   },
-  "n2_egg_0268": {
+  "n2_egg_0267": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16630,6 +16189,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "被疑者を数人に絞り込む",
         "zh": "將嫌疑人範圍縮小至數人"
+      }
+    ]
+  },
+  "n2_egg_0268": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "手綱を手放す",
+        "zh": "放開韁繩"
       }
     ]
   },
@@ -16651,35 +16224,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "手綱を手放す",
-        "zh": "放開韁繩"
-      }
-    ]
-  },
-  "n2_egg_0270": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見抜く",
-      "masu": "見抜きます",
-      "te": "見抜いて",
-      "ta": "見抜いた",
-      "nai": "見抜かない"
-    },
-    "examples": [
-      {
         "ja": "本心を見抜く",
         "zh": "看透真心"
       }
     ]
   },
-  "n2_egg_0271": {
+  "n2_egg_0270": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16691,7 +16241,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0272": {
+  "n2_egg_0271": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16703,22 +16253,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0273": {
+  "n2_egg_0272": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "そらす",
-      "masu": "そらします",
-      "te": "そらして",
-      "ta": "そらした",
-      "nai": "そらさない"
-    },
     "examples": [
       {
         "ja": "話をそらす",
@@ -16726,7 +16267,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0274": {
+  "n2_egg_0273": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16738,22 +16279,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0275": {
+  "n2_egg_0274": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "利く",
-      "masu": "利きます",
-      "te": "利いて",
-      "ta": "利いた",
-      "nai": "利かない"
-    },
     "examples": [
       {
         "ja": "わたしは左手のほうがよく利く",
@@ -16761,7 +16293,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0276": {
+  "n2_egg_0275": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16773,22 +16305,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0277": {
+  "n2_egg_0276": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "めくる",
-      "masu": "めくります",
-      "te": "めくって",
-      "ta": "めくった",
-      "nai": "めくらない"
-    },
     "examples": [
       {
         "ja": "ページをめくる",
@@ -16796,7 +16319,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0278": {
+  "n2_egg_0277": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16806,11 +16329,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
-      "dictionary": "捕らえる",
-      "masu": "捕らえます",
-      "te": "捕らえて",
-      "ta": "捕らえた",
-      "nai": "捕らえない"
+      "dictionary": "めくる",
+      "masu": "めくます",
+      "te": "めくて",
+      "ta": "めくた",
+      "nai": "めくない"
     },
     "examples": [
       {
@@ -16819,7 +16342,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0279": {
+  "n2_egg_0278": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16829,11 +16352,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "肯定する",
-      "masu": "肯定します",
-      "te": "肯定して",
-      "ta": "肯定した",
-      "nai": "肯定しない"
+      "dictionary": "捕らえるする",
+      "masu": "捕らえるします",
+      "te": "捕らえるして",
+      "ta": "捕らえるした",
+      "nai": "捕らえるしない"
     },
     "examples": [
       {
@@ -16842,7 +16365,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0280": {
+  "n2_egg_0279": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16854,13 +16377,27 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0281": {
+  "n2_egg_0280": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "かしこまってあいさつする",
+        "zh": "畢恭畢敬地問候"
+      }
+    ]
+  },
+  "n2_egg_0281": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -16872,8 +16409,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "かしこまってあいさつする",
-        "zh": "畢恭畢敬地問候"
+        "ja": "北の方角を指差す",
+        "zh": "用手指向北邊"
       }
     ]
   },
@@ -16895,35 +16432,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "北の方角を指差す",
-        "zh": "用手指向北邊"
-      }
-    ]
-  },
-  "n2_egg_0283": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見張る",
-      "masu": "見張ります",
-      "te": "見張って",
-      "ta": "見張った",
-      "nai": "見張らない"
-    },
-    "examples": [
-      {
         "ja": "目を見張る",
         "zh": "瞠目結舌"
       }
     ]
   },
-  "n2_egg_0284": {
+  "n2_egg_0283": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16935,7 +16449,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0285": {
+  "n2_egg_0284": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16947,7 +16461,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0286": {
+  "n2_egg_0285": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -16957,11 +16471,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "固定する",
-      "masu": "固定します",
-      "te": "固定して",
-      "ta": "固定した",
-      "nai": "固定しない"
+      "dictionary": "本能する",
+      "masu": "本能します",
+      "te": "本能して",
+      "ta": "本能した",
+      "nai": "本能しない"
     },
     "examples": [
       {
@@ -16970,22 +16484,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0287": {
+  "n2_egg_0286": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "造る",
-      "masu": "造ります",
-      "te": "造って",
-      "ta": "造った",
-      "nai": "造らない"
-    },
     "examples": [
       {
         "ja": "船舶を造る",
@@ -16993,7 +16498,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0288": {
+  "n2_egg_0287": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17005,7 +16510,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0289": {
+  "n2_egg_0288": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17017,7 +16522,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0290": {
+  "n2_egg_0289": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17029,22 +16534,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0291": {
+  "n2_egg_0290": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "演じる",
-      "masu": "演じます",
-      "te": "演じて",
-      "ta": "演じた",
-      "nai": "演じない"
-    },
     "examples": [
       {
         "ja": "リヤ王を演じる",
@@ -17052,7 +16548,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0292": {
+  "n2_egg_0291": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17062,11 +16558,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "遠ざかる",
-      "masu": "遠ざかります",
-      "te": "遠ざかって",
-      "ta": "遠ざかった",
-      "nai": "遠ざからない"
+      "dictionary": "演じる",
+      "masu": "演じります",
+      "te": "演じって",
+      "ta": "演じった",
+      "nai": "演じらない"
     },
     "examples": [
       {
@@ -17075,7 +16571,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0293": {
+  "n2_egg_0292": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17087,7 +16583,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0294": {
+  "n2_egg_0293": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17099,7 +16595,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0295": {
+  "n2_egg_0294": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17111,13 +16607,27 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0296": {
+  "n2_egg_0295": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "潜水艦が浮かび上がる",
+        "zh": "潛艇浮出水面"
+      }
+    ]
+  },
+  "n2_egg_0296": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自他動1",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -17129,8 +16639,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "潜水艦が浮かび上がる",
-        "zh": "潛艇浮出水面"
+        "ja": "ご用がなければ、どうぞお引き取りください",
+        "zh": "沒事的話，請回去吧"
       }
     ]
   },
@@ -17138,9 +16648,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -17152,35 +16662,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "ご用がなければ、どうぞお引き取りください",
-        "zh": "沒事的話，請回去吧"
-      }
-    ]
-  },
-  "n2_egg_0298": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "感じ取る",
-      "masu": "感じ取ります",
-      "te": "感じ取って",
-      "ta": "感じ取った",
-      "nai": "感じ取らない"
-    },
-    "examples": [
-      {
         "ja": "舌で味を感じ取る",
         "zh": "用舌頭品嚐味道"
       }
     ]
   },
-  "n2_egg_0299": {
+  "n2_egg_0298": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17192,26 +16679,40 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0300": {
+  "n2_egg_0299": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "傾く",
-      "masu": "傾きます",
-      "te": "傾いて",
-      "ta": "傾いた",
-      "nai": "傾かない"
-    },
     "examples": [
       {
         "ja": "右に傾く",
         "zh": "向右邊傾斜"
+      }
+    ]
+  },
+  "n2_egg_0300": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自他動3",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "傾くする",
+      "masu": "傾くします",
+      "te": "傾くして",
+      "ta": "傾くした",
+      "nai": "傾くしない"
+    },
+    "examples": [
+      {
+        "ja": "親に説教される",
+        "zh": "被父母訓斥"
       }
     ]
   },
@@ -17233,8 +16734,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "親に説教される",
-        "zh": "被父母訓斥"
+        "ja": "錯覚に陥る",
+        "zh": "陷入錯覺"
       }
     ]
   },
@@ -17242,9 +16743,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -17256,35 +16757,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "錯覚に陥る",
-        "zh": "陷入錯覺"
-      }
-    ]
-  },
-  "n2_egg_0303": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "到達する",
-      "masu": "到達します",
-      "te": "到達して",
-      "ta": "到達した",
-      "nai": "到達しない"
-    },
-    "examples": [
-      {
         "ja": "目標に到達する",
         "zh": "達到目標"
       }
     ]
   },
-  "n2_egg_0304": {
+  "n2_egg_0303": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17296,7 +16774,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0305": {
+  "n2_egg_0304": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17306,11 +16784,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "攻略する",
-      "masu": "攻略します",
-      "te": "攻略して",
-      "ta": "攻略した",
-      "nai": "攻略しない"
+      "dictionary": "不快する",
+      "masu": "不快します",
+      "te": "不快して",
+      "ta": "不快した",
+      "nai": "不快しない"
     },
     "examples": [
       {
@@ -17319,22 +16797,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0306": {
+  "n2_egg_0305": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "歩み寄る",
-      "masu": "歩み寄ります",
-      "te": "歩み寄って",
-      "ta": "歩み寄った",
-      "nai": "歩み寄らない"
-    },
     "examples": [
       {
         "ja": "互いに歩み寄って争いを解決する",
@@ -17342,7 +16811,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0307": {
+  "n2_egg_0306": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17354,7 +16823,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0308": {
+  "n2_egg_0307": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17366,7 +16835,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0309": {
+  "n2_egg_0308": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17376,11 +16845,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "専用する",
-      "masu": "専用します",
-      "te": "専用して",
-      "ta": "専用した",
-      "nai": "専用しない"
+      "dictionary": "敏感する",
+      "masu": "敏感します",
+      "te": "敏感して",
+      "ta": "敏感した",
+      "nai": "敏感しない"
     },
     "examples": [
       {
@@ -17389,7 +16858,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0310": {
+  "n2_egg_0309": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17401,7 +16870,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0311": {
+  "n2_egg_0310": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17411,11 +16880,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "やりとりする",
-      "masu": "やりとりします",
-      "te": "やりとりして",
-      "ta": "やりとりした",
-      "nai": "やりとりしない"
+      "dictionary": "容姿する",
+      "masu": "容姿します",
+      "te": "容姿して",
+      "ta": "容姿した",
+      "nai": "容姿しない"
     },
     "examples": [
       {
@@ -17424,7 +16893,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0312": {
+  "n2_egg_0311": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17436,7 +16905,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0313": {
+  "n2_egg_0312": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17448,7 +16917,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0314": {
+  "n2_egg_0313": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17460,7 +16929,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0315": {
+  "n2_egg_0314": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17472,7 +16941,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0316": {
+  "n2_egg_0315": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17484,7 +16953,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0317": {
+  "n2_egg_0316": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17493,6 +16962,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "用件を済ます",
         "zh": "辦完事情"
+      }
+    ]
+  },
+  "n2_egg_0317": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "人生の目標を見失う",
+        "zh": "迷失人生的目標"
       }
     ]
   },
@@ -17514,35 +16997,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "人生の目標を見失う",
-        "zh": "迷失人生的目標"
-      }
-    ]
-  },
-  "n2_egg_0319": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "任す",
-      "masu": "任します",
-      "te": "任して",
-      "ta": "任した",
-      "nai": "任さない"
-    },
-    "examples": [
-      {
         "ja": "大事な仕事を任される",
         "zh": "被委以重任"
       }
     ]
   },
-  "n2_egg_0320": {
+  "n2_egg_0319": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17554,7 +17014,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0321": {
+  "n2_egg_0320": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17564,11 +17024,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "振動する",
-      "masu": "振動します",
-      "te": "振動して",
-      "ta": "振動した",
-      "nai": "振動しない"
+      "dictionary": "像する",
+      "masu": "像します",
+      "te": "像して",
+      "ta": "像した",
+      "nai": "像しない"
     },
     "examples": [
       {
@@ -17577,7 +17037,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0322": {
+  "n2_egg_0321": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17589,7 +17049,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0323": {
+  "n2_egg_0322": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17601,7 +17061,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0324": {
+  "n2_egg_0323": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17613,7 +17073,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0325": {
+  "n2_egg_0324": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17625,7 +17085,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0326": {
+  "n2_egg_0325": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17635,11 +17095,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "確定する",
-      "masu": "確定します",
-      "te": "確定して",
-      "ta": "確定した",
-      "nai": "確定しない"
+      "dictionary": "到底する",
+      "masu": "到底します",
+      "te": "到底して",
+      "ta": "到底した",
+      "nai": "到底しない"
     },
     "examples": [
       {
@@ -17648,7 +17108,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0327": {
+  "n2_egg_0326": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17660,7 +17120,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0328": {
+  "n2_egg_0327": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17669,6 +17129,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "先頭を切る",
         "zh": "佔據先導地位，帶頭"
+      }
+    ]
+  },
+  "n2_egg_0328": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "視力が弱る",
+        "zh": "視力變差"
       }
     ]
   },
@@ -17690,35 +17164,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "視力が弱る",
-        "zh": "視力變差"
-      }
-    ]
-  },
-  "n2_egg_0330": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "うつむく",
-      "masu": "うつむきます",
-      "te": "うつむいて",
-      "ta": "うつむいた",
-      "nai": "うつむかない"
-    },
-    "examples": [
-      {
         "ja": "恥ずかしくてうつむく",
         "zh": "羞愧得低下頭"
       }
     ]
   },
-  "n2_egg_0331": {
+  "n2_egg_0330": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17730,7 +17181,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0332": {
+  "n2_egg_0331": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17742,7 +17193,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0333": {
+  "n2_egg_0332": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17754,7 +17205,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0334": {
+  "n2_egg_0333": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17766,7 +17217,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0335": {
+  "n2_egg_0334": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17776,7 +17227,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "うっすら",
+      "dictionary": "狩り",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -17789,7 +17240,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0336": {
+  "n2_egg_0335": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17801,7 +17252,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0337": {
+  "n2_egg_0336": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17813,7 +17264,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0338": {
+  "n2_egg_0337": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17825,7 +17276,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0339": {
+  "n2_egg_0338": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17837,7 +17288,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0340": {
+  "n2_egg_0339": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17849,7 +17300,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0341": {
+  "n2_egg_0340": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17861,7 +17312,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0342": {
+  "n2_egg_0341": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17873,7 +17324,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0343": {
+  "n2_egg_0342": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17885,7 +17336,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0344": {
+  "n2_egg_0343": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17897,7 +17348,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0345": {
+  "n2_egg_0344": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17909,22 +17360,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0346": {
+  "n2_egg_0345": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "思い浮かべる",
-      "masu": "思い浮かべます",
-      "te": "思い浮かべて",
-      "ta": "思い浮かべた",
-      "nai": "思い浮かべない"
-    },
     "examples": [
       {
         "ja": "祖母の姿を思い浮かべる",
@@ -17932,7 +17374,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0347": {
+  "n2_egg_0346": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17944,7 +17386,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0348": {
+  "n2_egg_0347": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17956,7 +17398,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0349": {
+  "n2_egg_0348": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -17965,6 +17407,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "彼は少し焦り気味だ",
         "zh": "他顯得有些焦急"
+      }
+    ]
+  },
+  "n2_egg_0349": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "焦りする",
+      "masu": "焦りします",
+      "te": "焦りして",
+      "ta": "焦りした",
+      "nai": "焦りしない"
+    },
+    "examples": [
+      {
+        "ja": "新規登録",
+        "zh": "新帳號註冊"
       }
     ]
   },
@@ -17986,35 +17451,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "新規登録",
-        "zh": "新帳號註冊"
-      }
-    ]
-  },
-  "n2_egg_0351": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "象徴する",
-      "masu": "象徴します",
-      "te": "象徴して",
-      "ta": "象徴した",
-      "nai": "象徴しない"
-    },
-    "examples": [
-      {
         "ja": "鳩は平和を象徴する",
         "zh": "鴿子是和平的象徵"
       }
     ]
   },
-  "n2_egg_0352": {
+  "n2_egg_0351": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18026,7 +17468,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0353": {
+  "n2_egg_0352": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18038,22 +17480,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0354": {
+  "n2_egg_0353": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "絶える",
-      "masu": "絶えます",
-      "te": "絶えて",
-      "ta": "絶えた",
-      "nai": "絶えない"
-    },
     "examples": [
       {
         "ja": "消息が絶える",
@@ -18061,7 +17494,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0355": {
+  "n2_egg_0354": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18073,7 +17506,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0356": {
+  "n2_egg_0355": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18085,13 +17518,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0357": {
+  "n2_egg_0356": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自他動3",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "位する",
+      "masu": "位します",
+      "te": "位して",
+      "ta": "位した",
+      "nai": "位しない"
+    },
+    "examples": [
+      {
+        "ja": "原水爆禁止のアピール",
+        "zh": "呼籲禁止原子彈氫彈"
+      }
+    ]
+  },
+  "n2_egg_0357": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形・他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -18103,35 +17559,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "原水爆禁止のアピール",
-        "zh": "呼籲禁止原子彈氫彈"
-      }
-    ]
-  },
-  "n2_egg_0358": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "クリアする",
-      "masu": "クリアします",
-      "te": "クリアして",
-      "ta": "クリアした",
-      "nai": "クリアしない"
-    },
-    "examples": [
-      {
         "ja": "クリアな画像",
         "zh": "清晰的影像"
       }
     ]
   },
-  "n2_egg_0359": {
+  "n2_egg_0358": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18143,7 +17576,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0360": {
+  "n2_egg_0359": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18153,11 +17586,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "帰還する",
-      "masu": "帰還します",
-      "te": "帰還して",
-      "ta": "帰還した",
-      "nai": "帰還しない"
+      "dictionary": "分厚いする",
+      "masu": "分厚いします",
+      "te": "分厚いして",
+      "ta": "分厚いした",
+      "nai": "分厚いしない"
     },
     "examples": [
       {
@@ -18166,7 +17599,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0361": {
+  "n2_egg_0360": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18178,22 +17611,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0362": {
+  "n2_egg_0361": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "踏み出す",
-      "masu": "踏み出します",
-      "te": "踏み出して",
-      "ta": "踏み出した",
-      "nai": "踏み出さない"
-    },
     "examples": [
       {
         "ja": "新しい一歩を踏み出すのは時に勇気がいる",
@@ -18201,7 +17625,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0363": {
+  "n2_egg_0362": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18213,7 +17637,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0364": {
+  "n2_egg_0363": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18223,11 +17647,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "反射する",
-      "masu": "反射します",
-      "te": "反射して",
-      "ta": "反射した",
-      "nai": "反射しない"
+      "dictionary": "陰する",
+      "masu": "陰します",
+      "te": "陰して",
+      "ta": "陰した",
+      "nai": "陰しない"
     },
     "examples": [
       {
@@ -18236,7 +17660,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0365": {
+  "n2_egg_0364": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18248,7 +17672,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0366": {
+  "n2_egg_0365": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18260,7 +17684,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0367": {
+  "n2_egg_0366": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18272,7 +17696,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0368": {
+  "n2_egg_0367": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18282,11 +17706,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "限定する",
-      "masu": "限定します",
-      "te": "限定して",
-      "ta": "限定した",
-      "nai": "限定しない"
+      "dictionary": "機嫌する",
+      "masu": "機嫌します",
+      "te": "機嫌して",
+      "ta": "機嫌した",
+      "nai": "機嫌しない"
     },
     "examples": [
       {
@@ -18295,7 +17719,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0369": {
+  "n2_egg_0368": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18307,7 +17731,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0370": {
+  "n2_egg_0369": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18319,7 +17743,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0371": {
+  "n2_egg_0370": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18331,22 +17755,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0372": {
+  "n2_egg_0371": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "混ざる",
-      "masu": "混ざります",
-      "te": "混ざって",
-      "ta": "混ざった",
-      "nai": "混ざらない"
-    },
     "examples": [
       {
         "ja": "白髪が交ざる",
@@ -18354,7 +17769,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0373": {
+  "n2_egg_0372": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18366,7 +17781,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0374": {
+  "n2_egg_0373": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18378,7 +17793,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0375": {
+  "n2_egg_0374": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18388,11 +17803,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "解消する",
-      "masu": "解消します",
-      "te": "解消して",
-      "ta": "解消した",
-      "nai": "解消しない"
+      "dictionary": "同僚する",
+      "masu": "同僚します",
+      "te": "同僚して",
+      "ta": "同僚した",
+      "nai": "同僚しない"
     },
     "examples": [
       {
@@ -18401,7 +17816,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0376": {
+  "n2_egg_0375": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18413,7 +17828,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0377": {
+  "n2_egg_0376": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18425,7 +17840,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0378": {
+  "n2_egg_0377": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18437,7 +17852,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0379": {
+  "n2_egg_0378": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18449,7 +17864,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0380": {
+  "n2_egg_0379": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18461,13 +17876,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0381": {
+  "n2_egg_0380": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "目当てする",
+      "masu": "目当てします",
+      "te": "目当てして",
+      "ta": "目当てした",
+      "nai": "目当てしない"
+    },
+    "examples": [
+      {
+        "ja": "権利を放棄する",
+        "zh": "放棄權利"
+      }
+    ]
+  },
+  "n2_egg_0381": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -18479,50 +17917,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "権利を放棄する",
-        "zh": "放棄權利"
-      }
-    ]
-  },
-  "n2_egg_0382": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "干渉する",
-      "masu": "干渉します",
-      "te": "干渉して",
-      "ta": "干渉した",
-      "nai": "干渉しない"
-    },
-    "examples": [
-      {
         "ja": "私生活に干渉する",
         "zh": "干涉私生活"
       }
     ]
   },
-  "n2_egg_0383": {
+  "n2_egg_0382": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "遭う",
-      "masu": "遭います",
-      "te": "遭って",
-      "ta": "遭った",
-      "nai": "遭わない"
-    },
     "examples": [
       {
         "ja": "交通事故に遭う",
@@ -18530,7 +17936,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0384": {
+  "n2_egg_0383": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18542,7 +17948,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0385": {
+  "n2_egg_0384": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18554,7 +17960,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0386": {
+  "n2_egg_0385": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18564,11 +17970,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "サポートする",
-      "masu": "サポートします",
-      "te": "サポートして",
-      "ta": "サポートした",
-      "nai": "サポートしない"
+      "dictionary": "さっとする",
+      "masu": "さっとします",
+      "te": "さっとして",
+      "ta": "さっとした",
+      "nai": "さっとしない"
     },
     "examples": [
       {
@@ -18577,7 +17983,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0387": {
+  "n2_egg_0386": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18589,7 +17995,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0388": {
+  "n2_egg_0387": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18599,11 +18005,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "決着する",
-      "masu": "決着します",
-      "te": "決着して",
-      "ta": "決着した",
-      "nai": "決着しない"
+      "dictionary": "きっぱりする",
+      "masu": "きっぱりします",
+      "te": "きっぱりして",
+      "ta": "きっぱりした",
+      "nai": "きっぱりしない"
     },
     "examples": [
       {
@@ -18612,7 +18018,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0389": {
+  "n2_egg_0388": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18624,7 +18030,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0390": {
+  "n2_egg_0389": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18636,7 +18042,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0391": {
+  "n2_egg_0390": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18648,7 +18054,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0392": {
+  "n2_egg_0391": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18660,7 +18066,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0393": {
+  "n2_egg_0392": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18672,22 +18078,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0394": {
+  "n2_egg_0393": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "なぞる",
-      "masu": "なぞります",
-      "te": "なぞって",
-      "ta": "なぞった",
-      "nai": "なぞらない"
-    },
     "examples": [
       {
         "ja": "指で文字をなぞる",
@@ -18695,7 +18092,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0395": {
+  "n2_egg_0394": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18707,7 +18104,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0396": {
+  "n2_egg_0395": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18719,7 +18116,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0397": {
+  "n2_egg_0396": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18731,7 +18128,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0398": {
+  "n2_egg_0397": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18743,22 +18140,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0399": {
+  "n2_egg_0398": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "放り出す",
-      "masu": "放り出します",
-      "te": "放り出して",
-      "ta": "放り出した",
-      "nai": "放り出さない"
-    },
     "examples": [
       {
         "ja": "窓の外へ放り出す",
@@ -18766,7 +18154,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0400": {
+  "n2_egg_0399": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18778,7 +18166,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0401": {
+  "n2_egg_0400": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18790,7 +18178,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0402": {
+  "n2_egg_0401": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18802,7 +18190,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0403": {
+  "n2_egg_0402": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18814,7 +18202,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0404": {
+  "n2_egg_0403": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18826,22 +18214,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0405": {
+  "n2_egg_0404": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "読み取る",
-      "masu": "読み取ります",
-      "te": "読み取って",
-      "ta": "読み取った",
-      "nai": "読み取らない"
-    },
     "examples": [
       {
         "ja": "小説のあらすじを読み取る",
@@ -18849,7 +18228,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0406": {
+  "n2_egg_0405": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18859,11 +18238,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "コントロールする",
-      "masu": "コントロールします",
-      "te": "コントロールして",
-      "ta": "コントロールした",
-      "nai": "コントロールしない"
+      "dictionary": "読み取るする",
+      "masu": "読み取るします",
+      "te": "読み取るして",
+      "ta": "読み取るした",
+      "nai": "読み取るしない"
     },
     "examples": [
       {
@@ -18872,7 +18251,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0407": {
+  "n2_egg_0406": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18884,7 +18263,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0408": {
+  "n2_egg_0407": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18896,22 +18275,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0409": {
+  "n2_egg_0408": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "かばう",
-      "masu": "かばいます",
-      "te": "かばって",
-      "ta": "かばった",
-      "nai": "かばわない"
-    },
     "examples": [
       {
         "ja": "息子をかばう",
@@ -18919,7 +18289,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0410": {
+  "n2_egg_0409": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18929,11 +18299,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "企画する",
-      "masu": "企画します",
-      "te": "企画して",
-      "ta": "企画した",
-      "nai": "企画しない"
+      "dictionary": "かばうする",
+      "masu": "かばうします",
+      "te": "かばうして",
+      "ta": "かばうした",
+      "nai": "かばうしない"
     },
     "examples": [
       {
@@ -18942,22 +18312,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0411": {
+  "n2_egg_0410": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "呼び止める",
-      "masu": "呼び止めます",
-      "te": "呼び止めて",
-      "ta": "呼び止めた",
-      "nai": "呼び止めない"
-    },
     "examples": [
       {
         "ja": "後ろから呼び止められる",
@@ -18965,7 +18326,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0412": {
+  "n2_egg_0411": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -18975,11 +18336,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "取材する",
-      "masu": "取材します",
-      "te": "取材して",
-      "ta": "取材した",
-      "nai": "取材しない"
+      "dictionary": "呼び止めるする",
+      "masu": "呼び止めるします",
+      "te": "呼び止めるして",
+      "ta": "呼び止めるした",
+      "nai": "呼び止めるしない"
     },
     "examples": [
       {
@@ -18988,7 +18349,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0413": {
+  "n2_egg_0412": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19000,7 +18361,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0414": {
+  "n2_egg_0413": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19012,7 +18373,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0415": {
+  "n2_egg_0414": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19024,7 +18385,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0416": {
+  "n2_egg_0415": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19036,7 +18397,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0417": {
+  "n2_egg_0416": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19048,22 +18409,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0418": {
+  "n2_egg_0417": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "こする",
-      "masu": "こすります",
-      "te": "こすって",
-      "ta": "こすった",
-      "nai": "こすらない"
-    },
     "examples": [
       {
         "ja": "タオルで体をこする",
@@ -19071,7 +18423,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0419": {
+  "n2_egg_0418": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19083,22 +18435,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0420": {
+  "n2_egg_0419": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "作り上げる",
-      "masu": "作り上げます",
-      "te": "作り上げて",
-      "ta": "作り上げた",
-      "nai": "作り上げない"
-    },
     "examples": [
       {
         "ja": "コンピュータのプログラムを作り上げる",
@@ -19106,7 +18449,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0421": {
+  "n2_egg_0420": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19118,22 +18461,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0422": {
+  "n2_egg_0421": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "上回る",
-      "masu": "上回ります",
-      "te": "上回って",
-      "ta": "上回った",
-      "nai": "上回らない"
-    },
     "examples": [
       {
         "ja": "予想を上回る",
@@ -19141,7 +18475,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0423": {
+  "n2_egg_0422": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19153,7 +18487,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0424": {
+  "n2_egg_0423": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19165,7 +18499,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0425": {
+  "n2_egg_0424": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19177,22 +18511,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0426": {
+  "n2_egg_0425": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "留める",
-      "masu": "留めます",
-      "te": "留めて",
-      "ta": "留めた",
-      "nai": "留めない"
-    },
     "examples": [
       {
         "ja": "紙をピンで留める",
@@ -19200,7 +18525,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0427": {
+  "n2_egg_0426": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19212,7 +18537,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0428": {
+  "n2_egg_0427": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19224,22 +18549,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0429": {
+  "n2_egg_0428": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "駆け抜ける",
-      "masu": "駆け抜けます",
-      "te": "駆け抜けて",
-      "ta": "駆け抜けた",
-      "nai": "駆け抜けない"
-    },
     "examples": [
       {
         "ja": "人込みの中を駆け抜ける",
@@ -19247,7 +18563,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0430": {
+  "n2_egg_0429": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19257,11 +18573,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "なじむ",
-      "masu": "なじみます",
-      "te": "なじんで",
-      "ta": "なじんだ",
-      "nai": "なじまない"
+      "dictionary": "駆け抜ける",
+      "masu": "駆け抜けります",
+      "te": "駆け抜けって",
+      "ta": "駆け抜けった",
+      "nai": "駆け抜けらない"
     },
     "examples": [
       {
@@ -19270,7 +18586,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0431": {
+  "n2_egg_0430": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19282,7 +18598,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0432": {
+  "n2_egg_0431": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19294,7 +18610,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0433": {
+  "n2_egg_0432": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19306,7 +18622,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0434": {
+  "n2_egg_0433": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19318,7 +18634,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0435": {
+  "n2_egg_0434": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19328,11 +18644,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "密着する",
-      "masu": "密着します",
-      "te": "密着して",
-      "ta": "密着した",
-      "nai": "密着しない"
+      "dictionary": "恥する",
+      "masu": "恥します",
+      "te": "恥して",
+      "ta": "恥した",
+      "nai": "恥しない"
     },
     "examples": [
       {
@@ -19341,7 +18657,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0436": {
+  "n2_egg_0435": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19353,7 +18669,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0437": {
+  "n2_egg_0436": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19365,22 +18681,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0438": {
+  "n2_egg_0437": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "繰り広げる",
-      "masu": "繰り広げます",
-      "te": "繰り広げて",
-      "ta": "繰り広げた",
-      "nai": "繰り広げない"
-    },
     "examples": [
       {
         "ja": "絵巻物を繰り広げる",
@@ -19388,7 +18695,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0439": {
+  "n2_egg_0438": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19398,11 +18705,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "中断する",
-      "masu": "中断します",
-      "te": "中断して",
-      "ta": "中断した",
-      "nai": "中断しない"
+      "dictionary": "繰り広げるする",
+      "masu": "繰り広げるします",
+      "te": "繰り広げるして",
+      "ta": "繰り広げるした",
+      "nai": "繰り広げるしない"
     },
     "examples": [
       {
@@ -19411,7 +18718,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0440": {
+  "n2_egg_0439": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19423,7 +18730,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0441": {
+  "n2_egg_0440": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19435,7 +18742,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0442": {
+  "n2_egg_0441": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19445,11 +18752,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "察知する",
-      "masu": "察知します",
-      "te": "察知して",
-      "ta": "察知した",
-      "nai": "察知しない"
+      "dictionary": "前向きする",
+      "masu": "前向きします",
+      "te": "前向きして",
+      "ta": "前向きした",
+      "nai": "前向きしない"
     },
     "examples": [
       {
@@ -19458,7 +18765,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0443": {
+  "n2_egg_0442": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19470,7 +18777,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0444": {
+  "n2_egg_0443": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19479,6 +18786,29 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "レースに勝つ",
         "zh": "比賽取勝"
+      }
+    ]
+  },
+  "n2_egg_0444": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "副・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "レース",
+      "masu": "します",
+      "te": "して",
+      "ta": "した",
+      "nai": "しない"
+    },
+    "examples": [
+      {
+        "ja": "うっとりと見とれる",
+        "zh": "看得入迷"
       }
     ]
   },
@@ -19500,35 +18830,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "うっとりと見とれる",
-        "zh": "看得入迷"
-      }
-    ]
-  },
-  "n2_egg_0446": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ぐったり",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
-    "examples": [
-      {
         "ja": "疲れきってぐったりと横たわる",
         "zh": "累得精疲力盡，癱倒在地"
       }
     ]
   },
-  "n2_egg_0447": {
+  "n2_egg_0446": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19538,11 +18845,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "膨大する",
-      "masu": "膨大します",
-      "te": "膨大して",
-      "ta": "膨大した",
-      "nai": "膨大しない"
+      "dictionary": "ぐったりする",
+      "masu": "ぐったりします",
+      "te": "ぐったりして",
+      "ta": "ぐったりした",
+      "nai": "ぐったりしない"
     },
     "examples": [
       {
@@ -19551,22 +18858,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0448": {
+  "n2_egg_0447": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "聞き取る",
-      "masu": "聞き取ります",
-      "te": "聞き取って",
-      "ta": "聞き取った",
-      "nai": "聞き取らない"
-    },
     "examples": [
       {
         "ja": "声が小さくてよく聞き取れなかった",
@@ -19574,7 +18872,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0449": {
+  "n2_egg_0448": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19584,11 +18882,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
-      "dictionary": "薄れる",
-      "masu": "薄れます",
-      "te": "薄れて",
-      "ta": "薄れた",
-      "nai": "薄れない"
+      "dictionary": "聞き取る",
+      "masu": "聞き取ます",
+      "te": "聞き取て",
+      "ta": "聞き取た",
+      "nai": "聞き取ない"
     },
     "examples": [
       {
@@ -19597,7 +18895,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0450": {
+  "n2_egg_0449": {
     "pos": "pronoun",
     "posLabel": "代名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19609,7 +18907,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0451": {
+  "n2_egg_0450": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19618,6 +18916,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "動画を再生する",
         "zh": "播放影片"
+      }
+    ]
+  },
+  "n2_egg_0451": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "濁流が渦巻く",
+        "zh": "濁流捲起旋渦"
       }
     ]
   },
@@ -19639,8 +18951,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "濁流が渦巻く",
-        "zh": "濁流捲起旋渦"
+        "ja": "水しぶきが飛び散る",
+        "zh": "水花四濺"
       }
     ]
   },
@@ -19662,31 +18974,31 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "水しぶきが飛び散る",
-        "zh": "水花四濺"
+        "ja": "名案が思い浮かんだ",
+        "zh": "想到好主意"
       }
     ]
   },
   "n2_egg_0454": {
-    "pos": "verb",
-    "posLabel": "動詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "思い浮かぶ",
-      "masu": "思い浮かびます",
-      "te": "思い浮かんで",
-      "ta": "思い浮かんだ",
-      "nai": "思い浮かばない"
+      "dictionary": "思い浮かぶする",
+      "masu": "思い浮かぶします",
+      "te": "思い浮かぶして",
+      "ta": "思い浮かぶした",
+      "nai": "思い浮かぶしない"
     },
     "examples": [
       {
-        "ja": "名案が思い浮かんだ",
-        "zh": "想到好主意"
+        "ja": "新しい情報を入手する",
+        "zh": "得到新訊息"
       }
     ]
   },
@@ -19694,9 +19006,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -19708,31 +19020,22 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "新しい情報を入手する",
-        "zh": "得到新訊息"
+        "ja": "初対面",
+        "zh": "初次見面"
       }
     ]
   },
   "n2_egg_0456": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
+    "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "対面する",
-      "masu": "対面します",
-      "te": "対面して",
-      "ta": "対面した",
-      "nai": "対面しない"
-    },
     "examples": [
       {
-        "ja": "初対面",
-        "zh": "初次見面"
+        "ja": "水泳でかれに敵う者はいない",
+        "zh": "在游泳方面，沒有人能與他匹敵"
       }
     ]
   },
@@ -19754,35 +19057,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "水泳でかれに敵う者はいない",
-        "zh": "在游泳方面，沒有人能與他匹敵"
-      }
-    ]
-  },
-  "n2_egg_0458": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "湿る",
-      "masu": "湿ります",
-      "te": "湿って",
-      "ta": "湿った",
-      "nai": "湿らない"
-    },
-    "examples": [
-      {
         "ja": "湿った空気",
         "zh": "潮溼的空氣"
       }
     ]
   },
-  "n2_egg_0459": {
+  "n2_egg_0458": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19794,22 +19074,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0460": {
+  "n2_egg_0459": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "図る",
-      "masu": "図ります",
-      "te": "図って",
-      "ta": "図った",
-      "nai": "図らない"
-    },
     "examples": [
       {
         "ja": "自殺を図る",
@@ -19817,7 +19088,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0461": {
+  "n2_egg_0460": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19829,7 +19100,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0462": {
+  "n2_egg_0461": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19839,11 +19110,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "退治する",
-      "masu": "退治します",
-      "te": "退治して",
-      "ta": "退治した",
-      "nai": "退治しない"
+      "dictionary": "縦する",
+      "masu": "縦します",
+      "te": "縦して",
+      "ta": "縦した",
+      "nai": "縦しない"
     },
     "examples": [
       {
@@ -19852,7 +19123,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0463": {
+  "n2_egg_0462": {
     "pos": "suffix",
     "posLabel": "接尾語",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19864,13 +19135,27 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0464": {
+  "n2_egg_0463": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動2",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "examples": [
+      {
+        "ja": "彼との結婚を夢見る",
+        "zh": "幻想著能和他結婚"
+      }
+    ]
+  },
+  "n2_egg_0464": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
@@ -19882,35 +19167,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "彼との結婚を夢見る",
-        "zh": "幻想著能和他結婚"
-      }
-    ]
-  },
-  "n2_egg_0465": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "丸める",
-      "masu": "丸めます",
-      "te": "丸めて",
-      "ta": "丸めた",
-      "nai": "丸めない"
-    },
-    "examples": [
-      {
         "ja": "紙を丸める",
         "zh": "把紙揉成一團"
       }
     ]
   },
-  "n2_egg_0466": {
+  "n2_egg_0465": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19922,22 +19184,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0467": {
+  "n2_egg_0466": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "割り込む",
-      "masu": "割り込みます",
-      "te": "割り込んで",
-      "ta": "割り込んだ",
-      "nai": "割り込まない"
-    },
     "examples": [
       {
         "ja": "バスを待つ行列の間に割り込む",
@@ -19945,7 +19198,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0468": {
+  "n2_egg_0467": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19957,7 +19210,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0469": {
+  "n2_egg_0468": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19969,7 +19222,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0470": {
+  "n2_egg_0469": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19981,7 +19234,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0471": {
+  "n2_egg_0470": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -19993,22 +19246,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0472": {
+  "n2_egg_0471": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "成り立つ",
-      "masu": "成り立ちます",
-      "te": "成り立って",
-      "ta": "成り立った",
-      "nai": "成り立たない"
-    },
     "examples": [
       {
         "ja": "仮説が成り立つ",
@@ -20016,7 +19260,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0473": {
+  "n2_egg_0472": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20028,7 +19272,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0474": {
+  "n2_egg_0473": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20040,13 +19284,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0475": {
+  "n2_egg_0474": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自他動3",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "好き勝手する",
+      "masu": "好き勝手します",
+      "te": "好き勝手して",
+      "ta": "好き勝手した",
+      "nai": "好き勝手しない"
+    },
+    "examples": [
+      {
+        "ja": "携帯電話で通話する",
+        "zh": "用手機通話"
+      }
+    ]
+  },
+  "n2_egg_0475": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -20058,31 +19325,22 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "携帯電話で通話する",
-        "zh": "用手機通話"
+        "ja": "先生に指名されて答えを言った",
+        "zh": "被老師提問回答問題"
       }
     ]
   },
   "n2_egg_0476": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
+    "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "指名する",
-      "masu": "指名します",
-      "te": "指名して",
-      "ta": "指名した",
-      "nai": "指名しない"
-    },
     "examples": [
       {
-        "ja": "先生に指名されて答えを言った",
-        "zh": "被老師提問回答問題"
+        "ja": "小麦粉を練る",
+        "zh": "揉麵"
       }
     ]
   },
@@ -20104,8 +19362,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "小麦粉を練る",
-        "zh": "揉麵"
+        "ja": "耳元でささやく",
+        "zh": "在耳邊低聲說話"
       }
     ]
   },
@@ -20113,41 +19371,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "ささやく",
-      "masu": "ささやきます",
-      "te": "ささやいて",
-      "ta": "ささやいた",
-      "nai": "ささやかない"
-    },
-    "examples": [
-      {
-        "ja": "耳元でささやく",
-        "zh": "在耳邊低聲說話"
-      }
-    ]
-  },
-  "n2_egg_0479": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "切り捨てる",
-      "masu": "切り捨てます",
-      "te": "切り捨てて",
-      "ta": "切り捨てた",
-      "nai": "切り捨てない"
-    },
     "examples": [
       {
         "ja": "不要な部分を切り捨てる",
@@ -20155,7 +19381,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0480": {
+  "n2_egg_0479": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20165,11 +19391,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "了承する",
-      "masu": "了承します",
-      "te": "了承して",
-      "ta": "了承した",
-      "nai": "了承しない"
+      "dictionary": "切り捨てるする",
+      "masu": "切り捨てるします",
+      "te": "切り捨てるして",
+      "ta": "切り捨てるした",
+      "nai": "切り捨てるしない"
     },
     "examples": [
       {
@@ -20178,7 +19404,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0481": {
+  "n2_egg_0480": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20190,7 +19416,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0482": {
+  "n2_egg_0481": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20200,11 +19426,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "照明する",
-      "masu": "照明します",
-      "te": "照明して",
-      "ta": "照明した",
-      "nai": "照明しない"
+      "dictionary": "埃する",
+      "masu": "埃します",
+      "te": "埃して",
+      "ta": "埃した",
+      "nai": "埃しない"
     },
     "examples": [
       {
@@ -20213,7 +19439,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0483": {
+  "n2_egg_0482": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20225,7 +19451,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0484": {
+  "n2_egg_0483": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20237,7 +19463,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0485": {
+  "n2_egg_0484": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20249,13 +19475,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0486": {
+  "n2_egg_0485": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自他動3",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "日頃する",
+      "masu": "日頃します",
+      "te": "日頃して",
+      "ta": "日頃した",
+      "nai": "日頃しない"
+    },
+    "examples": [
+      {
+        "ja": "選手を交代する",
+        "zh": "取代選手"
+      }
+    ]
+  },
+  "n2_egg_0486": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -20267,8 +19516,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "選手を交代する",
-        "zh": "取代選手"
+        "ja": "子供でもいくらかは手助けになる",
+        "zh": "即使是孩子也能幫上一些忙"
       }
     ]
   },
@@ -20276,7 +19525,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
+    "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -20290,8 +19539,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "子供でもいくらかは手助けになる",
-        "zh": "即使是孩子也能幫上一些忙"
+        "ja": "その島は火山活動によって形成された",
+        "zh": "那個島是由火山活動形成的"
       }
     ]
   },
@@ -20313,50 +19562,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "その島は火山活動によって形成された",
-        "zh": "那個島是由火山活動形成的"
-      }
-    ]
-  },
-  "n2_egg_0489": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "提示する",
-      "masu": "提示します",
-      "te": "提示して",
-      "ta": "提示した",
-      "nai": "提示しない"
-    },
-    "examples": [
-      {
         "ja": "パスポートを提示する",
         "zh": "出示護照"
       }
     ]
   },
-  "n2_egg_0490": {
+  "n2_egg_0489": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "ずらす",
-      "masu": "ずらします",
-      "te": "ずらして",
-      "ta": "ずらした",
-      "nai": "ずらさない"
-    },
     "examples": [
       {
         "ja": "机を少し後ろへずらす",
@@ -20364,7 +19581,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0491": {
+  "n2_egg_0490": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20376,7 +19593,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0492": {
+  "n2_egg_0491": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20388,7 +19605,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0493": {
+  "n2_egg_0492": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20400,7 +19617,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0494": {
+  "n2_egg_0493": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20412,22 +19629,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0495": {
+  "n2_egg_0494": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "臨む",
-      "masu": "臨みます",
-      "te": "臨んで",
-      "ta": "臨んだ",
-      "nai": "臨まない"
-    },
     "examples": [
       {
         "ja": "難局に臨む",
@@ -20435,7 +19643,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0496": {
+  "n2_egg_0495": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20447,22 +19655,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0497": {
+  "n2_egg_0496": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "禁じる",
-      "masu": "禁じます",
-      "te": "禁じて",
-      "ta": "禁じた",
-      "nai": "禁じない"
-    },
     "examples": [
       {
         "ja": "喫煙を禁じる",
@@ -20470,7 +19669,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0498": {
+  "n2_egg_0497": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20480,11 +19679,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "誤る",
-      "masu": "誤ります",
-      "te": "誤って",
-      "ta": "誤った",
-      "nai": "誤らない"
+      "dictionary": "禁じる",
+      "masu": "禁じります",
+      "te": "禁じって",
+      "ta": "禁じった",
+      "nai": "禁じらない"
     },
     "examples": [
       {
@@ -20493,7 +19692,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0499": {
+  "n2_egg_0498": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20505,7 +19704,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0500": {
+  "n2_egg_0499": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20517,7 +19716,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0501": {
+  "n2_egg_0500": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20527,11 +19726,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "作用する",
-      "masu": "作用します",
-      "te": "作用して",
-      "ta": "作用した",
-      "nai": "作用しない"
+      "dictionary": "家事する",
+      "masu": "家事します",
+      "te": "家事して",
+      "ta": "家事した",
+      "nai": "家事しない"
     },
     "examples": [
       {
@@ -20540,22 +19739,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0502": {
+  "n2_egg_0501": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "はまる",
-      "masu": "はまります",
-      "te": "はまって",
-      "ta": "はまった",
-      "nai": "はまらない"
-    },
     "examples": [
       {
         "ja": "指輪がはまらない",
@@ -20563,7 +19753,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0503": {
+  "n2_egg_0502": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20575,22 +19765,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0504": {
+  "n2_egg_0503": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "申し出る",
-      "masu": "申し出ます",
-      "te": "申し出て",
-      "ta": "申し出た",
-      "nai": "申し出ない"
-    },
     "examples": [
       {
         "ja": "先生に意見を申し出る",
@@ -20598,7 +19779,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0505": {
+  "n2_egg_0504": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20608,11 +19789,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "引き離す",
-      "masu": "引き離します",
-      "te": "引き離して",
-      "ta": "引き離した",
-      "nai": "引き離さない"
+      "dictionary": "申し出る",
+      "masu": "申し出ります",
+      "te": "申し出って",
+      "ta": "申し出った",
+      "nai": "申し出らない"
     },
     "examples": [
       {
@@ -20621,7 +19802,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0506": {
+  "n2_egg_0505": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20633,7 +19814,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0507": {
+  "n2_egg_0506": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20645,22 +19826,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0508": {
+  "n2_egg_0507": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "詰め込む",
-      "masu": "詰め込みます",
-      "te": "詰め込んで",
-      "ta": "詰め込んだ",
-      "nai": "詰め込まない"
-    },
     "examples": [
       {
         "ja": "服をトランクに詰め込む",
@@ -20668,7 +19840,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0509": {
+  "n2_egg_0508": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20680,7 +19852,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0510": {
+  "n2_egg_0509": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20692,22 +19864,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0511": {
+  "n2_egg_0510": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "惜しむ",
-      "masu": "惜しみます",
-      "te": "惜しんで",
-      "ta": "惜しんだ",
-      "nai": "惜しまない"
-    },
     "examples": [
       {
         "ja": "努力を惜しまない",
@@ -20715,13 +19878,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0512": {
+  "n2_egg_0511": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "惜しむする",
+      "masu": "惜しむします",
+      "te": "惜しむして",
+      "ta": "惜しむした",
+      "nai": "惜しむしない"
+    },
+    "examples": [
+      {
+        "ja": "土地を所有する",
+        "zh": "擁有土地"
+      }
+    ]
+  },
+  "n2_egg_0512": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自他動3",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -20733,35 +19919,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "土地を所有する",
-        "zh": "擁有土地"
-      }
-    ]
-  },
-  "n2_egg_0513": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "反発する",
-      "masu": "反発します",
-      "te": "反発して",
-      "ta": "反発した",
-      "nai": "反発しない"
-    },
-    "examples": [
-      {
         "ja": "磁石の同極は反発しあう",
         "zh": "磁石的同極互相排斥"
       }
     ]
   },
-  "n2_egg_0514": {
+  "n2_egg_0513": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20773,7 +19936,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0515": {
+  "n2_egg_0514": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20783,11 +19946,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "追及する",
-      "masu": "追及します",
-      "te": "追及して",
-      "ta": "追及した",
-      "nai": "追及しない"
+      "dictionary": "最大限する",
+      "masu": "最大限します",
+      "te": "最大限して",
+      "ta": "最大限した",
+      "nai": "最大限しない"
     },
     "examples": [
       {
@@ -20796,7 +19959,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0516": {
+  "n2_egg_0515": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20808,7 +19971,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0517": {
+  "n2_egg_0516": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20820,7 +19983,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0518": {
+  "n2_egg_0517": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20832,7 +19995,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0519": {
+  "n2_egg_0518": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20842,11 +20005,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "訂正する",
-      "masu": "訂正します",
-      "te": "訂正して",
-      "ta": "訂正した",
-      "nai": "訂正しない"
+      "dictionary": "保護者する",
+      "masu": "保護者します",
+      "te": "保護者して",
+      "ta": "保護者した",
+      "nai": "保護者しない"
     },
     "examples": [
       {
@@ -20855,22 +20018,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0520": {
+  "n2_egg_0519": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "触れ合う",
-      "masu": "触れ合います",
-      "te": "触れ合って",
-      "ta": "触れ合った",
-      "nai": "触れ合わない"
-    },
     "examples": [
       {
         "ja": "手と手が触れ合った",
@@ -20878,7 +20032,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0521": {
+  "n2_egg_0520": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20890,7 +20044,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0522": {
+  "n2_egg_0521": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20902,7 +20056,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0523": {
+  "n2_egg_0522": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20914,7 +20068,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0524": {
+  "n2_egg_0523": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20926,7 +20080,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0525": {
+  "n2_egg_0524": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20938,7 +20092,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0526": {
+  "n2_egg_0525": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20950,22 +20104,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0527": {
+  "n2_egg_0526": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "飛び上がる",
-      "masu": "飛び上がります",
-      "te": "飛び上がって",
-      "ta": "飛び上がった",
-      "nai": "飛び上がらない"
-    },
     "examples": [
       {
         "ja": "びっくりして飛び上がる",
@@ -20973,7 +20118,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0528": {
+  "n2_egg_0527": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20985,7 +20130,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0529": {
+  "n2_egg_0528": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -20997,7 +20142,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0530": {
+  "n2_egg_0529": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21009,7 +20154,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0531": {
+  "n2_egg_0530": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21021,7 +20166,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0532": {
+  "n2_egg_0531": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21031,7 +20176,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "きらきら",
+      "dictionary": "皆無",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -21044,7 +20189,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0533": {
+  "n2_egg_0532": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21056,7 +20201,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0534": {
+  "n2_egg_0533": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21066,11 +20211,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "公開する",
-      "masu": "公開します",
-      "te": "公開して",
-      "ta": "公開した",
-      "nai": "公開しない"
+      "dictionary": "価値観する",
+      "masu": "価値観します",
+      "te": "価値観して",
+      "ta": "価値観した",
+      "nai": "価値観しない"
     },
     "examples": [
       {
@@ -21079,7 +20224,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0535": {
+  "n2_egg_0534": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21091,7 +20236,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0536": {
+  "n2_egg_0535": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21103,7 +20248,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0537": {
+  "n2_egg_0536": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21115,7 +20260,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0538": {
+  "n2_egg_0537": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21125,11 +20270,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出世する",
-      "masu": "出世します",
-      "te": "出世して",
-      "ta": "出世した",
-      "nai": "出世しない"
+      "dictionary": "恐れする",
+      "masu": "恐れします",
+      "te": "恐れして",
+      "ta": "恐れした",
+      "nai": "恐れしない"
     },
     "examples": [
       {
@@ -21138,7 +20283,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0539": {
+  "n2_egg_0538": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21150,7 +20295,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0540": {
+  "n2_egg_0539": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21162,7 +20307,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0541": {
+  "n2_egg_0540": {
     "pos": "conjunction",
     "posLabel": "接續詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21174,7 +20319,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0542": {
+  "n2_egg_0541": {
     "pos": "suffix",
     "posLabel": "接尾語",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21186,7 +20331,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0543": {
+  "n2_egg_0542": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21198,7 +20343,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0544": {
+  "n2_egg_0543": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21210,7 +20355,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0545": {
+  "n2_egg_0544": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21222,7 +20367,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0546": {
+  "n2_egg_0545": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21234,7 +20379,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0547": {
+  "n2_egg_0546": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21244,11 +20389,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "願望する",
-      "masu": "願望します",
-      "te": "願望して",
-      "ta": "願望した",
-      "nai": "願望しない"
+      "dictionary": "有無する",
+      "masu": "有無します",
+      "te": "有無して",
+      "ta": "有無した",
+      "nai": "有無しない"
     },
     "examples": [
       {
@@ -21257,7 +20402,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0548": {
+  "n2_egg_0547": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21269,13 +20414,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0549": {
+  "n2_egg_0548": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "手早いする",
+      "masu": "手早いします",
+      "te": "手早いして",
+      "ta": "手早いした",
+      "nai": "手早いしない"
+    },
+    "examples": [
+      {
+        "ja": "犬が牙をむいて人を威嚇する",
+        "zh": "狗齜牙咧嘴地嚇唬人"
+      }
+    ]
+  },
+  "n2_egg_0549": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -21287,50 +20455,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "犬が牙をむいて人を威嚇する",
-        "zh": "狗齜牙咧嘴地嚇唬人"
-      }
-    ]
-  },
-  "n2_egg_0550": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "対決する",
-      "masu": "対決します",
-      "te": "対決して",
-      "ta": "対決した",
-      "nai": "対決しない"
-    },
-    "examples": [
-      {
         "ja": "両雄の対決",
         "zh": "雙雄對決"
       }
     ]
   },
-  "n2_egg_0551": {
+  "n2_egg_0550": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "旅立つ",
-      "masu": "旅立ちます",
-      "te": "旅立って",
-      "ta": "旅立った",
-      "nai": "旅立たない"
-    },
     "examples": [
       {
         "ja": "東京に旅立つ",
@@ -21338,7 +20474,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0552": {
+  "n2_egg_0551": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21350,7 +20486,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0553": {
+  "n2_egg_0552": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21360,7 +20496,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ぞっと",
+      "dictionary": "存在感",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -21373,7 +20509,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0554": {
+  "n2_egg_0553": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21385,7 +20521,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0555": {
+  "n2_egg_0554": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21397,7 +20533,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0556": {
+  "n2_egg_0555": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21407,11 +20543,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "欲求する",
-      "masu": "欲求します",
-      "te": "欲求して",
-      "ta": "欲求した",
-      "nai": "欲求しない"
+      "dictionary": "得する",
+      "masu": "得します",
+      "te": "得して",
+      "ta": "得した",
+      "nai": "得しない"
     },
     "examples": [
       {
@@ -21420,7 +20556,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0557": {
+  "n2_egg_0556": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21432,22 +20568,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0558": {
+  "n2_egg_0557": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "留まる",
-      "masu": "留まります",
-      "te": "留まって",
-      "ta": "留まった",
-      "nai": "留まらない"
-    },
     "examples": [
       {
         "ja": "チョウが花に留まっている",
@@ -21455,13 +20582,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0559": {
+  "n2_egg_0558": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自動3",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "留まるする",
+      "masu": "留まるします",
+      "te": "留まるして",
+      "ta": "留まるした",
+      "nai": "留まるしない"
+    },
+    "examples": [
+      {
+        "ja": "日本とアメリカを頻繁に行き来する",
+        "zh": "頻繁往返日本和美國"
+      }
+    ]
+  },
+  "n2_egg_0559": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -21473,35 +20623,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "日本とアメリカを頻繁に行き来する",
-        "zh": "頻繁往返日本和美國"
-      }
-    ]
-  },
-  "n2_egg_0560": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "調理する",
-      "masu": "調理します",
-      "te": "調理して",
-      "ta": "調理した",
-      "nai": "調理しない"
-    },
-    "examples": [
-      {
         "ja": "調理器具",
         "zh": "烹飪器具"
       }
     ]
   },
-  "n2_egg_0561": {
+  "n2_egg_0560": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21513,22 +20640,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0562": {
+  "n2_egg_0561": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "入れ替わる",
-      "masu": "入れ替わります",
-      "te": "入れ替わって",
-      "ta": "入れ替わった",
-      "nai": "入れ替わらない"
-    },
     "examples": [
       {
         "ja": "店頭の商品が冬物から春物に入れ替わる",
@@ -21536,7 +20654,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0563": {
+  "n2_egg_0562": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21548,22 +20666,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0564": {
+  "n2_egg_0563": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "にらむ",
-      "masu": "にらみます",
-      "te": "にらんで",
-      "ta": "にらんだ",
-      "nai": "にらまない"
-    },
     "examples": [
       {
         "ja": "彼は怒った目で私をにらんだ",
@@ -21571,7 +20680,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0565": {
+  "n2_egg_0564": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21583,7 +20692,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0566": {
+  "n2_egg_0565": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21595,7 +20704,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0567": {
+  "n2_egg_0566": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21607,7 +20716,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0568": {
+  "n2_egg_0567": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21619,7 +20728,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0569": {
+  "n2_egg_0568": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21631,7 +20740,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0570": {
+  "n2_egg_0569": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21643,22 +20752,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0571": {
+  "n2_egg_0570": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "欠かす",
-      "masu": "欠かします",
-      "te": "欠かして",
-      "ta": "欠かした",
-      "nai": "欠かさない"
-    },
     "examples": [
       {
         "ja": "毎日読書を欠かさない",
@@ -21666,22 +20766,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0572": {
+  "n2_egg_0571": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "決めつける",
-      "masu": "決めつけます",
-      "te": "決めつけて",
-      "ta": "決めつけた",
-      "nai": "決めつけない"
-    },
     "examples": [
       {
         "ja": "彼は早急に結論を決めつける",
@@ -21689,7 +20780,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0573": {
+  "n2_egg_0572": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21699,11 +20790,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "立ち寄る",
-      "masu": "立ち寄ります",
-      "te": "立ち寄って",
-      "ta": "立ち寄った",
-      "nai": "立ち寄らない"
+      "dictionary": "決めつける",
+      "masu": "決めつけります",
+      "te": "決めつけって",
+      "ta": "決めつけった",
+      "nai": "決めつけらない"
     },
     "examples": [
       {
@@ -21712,7 +20803,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0574": {
+  "n2_egg_0573": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21724,7 +20815,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0575": {
+  "n2_egg_0574": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21736,7 +20827,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0576": {
+  "n2_egg_0575": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21746,11 +20837,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "逃亡する",
-      "masu": "逃亡します",
-      "te": "逃亡して",
-      "ta": "逃亡した",
-      "nai": "逃亡しない"
+      "dictionary": "対等する",
+      "masu": "対等します",
+      "te": "対等して",
+      "ta": "対等した",
+      "nai": "対等しない"
     },
     "examples": [
       {
@@ -21759,7 +20850,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0577": {
+  "n2_egg_0576": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21769,11 +20860,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "反する",
-      "masu": "反します",
-      "te": "反して",
-      "ta": "反した",
-      "nai": "反しない"
+      "dictionary": "逃亡",
+      "masu": "します",
+      "te": "して",
+      "ta": "した",
+      "nai": "しない"
     },
     "examples": [
       {
@@ -21782,7 +20873,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0578": {
+  "n2_egg_0577": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21794,7 +20885,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0579": {
+  "n2_egg_0578": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21806,7 +20897,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0580": {
+  "n2_egg_0579": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21818,7 +20909,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0581": {
+  "n2_egg_0580": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21830,7 +20921,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0582": {
+  "n2_egg_0581": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21840,11 +20931,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "自嘲する",
-      "masu": "自嘲します",
-      "te": "自嘲して",
-      "ta": "自嘲した",
-      "nai": "自嘲しない"
+      "dictionary": "最適する",
+      "masu": "最適します",
+      "te": "最適して",
+      "ta": "最適した",
+      "nai": "最適しない"
     },
     "examples": [
       {
@@ -21853,7 +20944,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0583": {
+  "n2_egg_0582": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21865,7 +20956,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0584": {
+  "n2_egg_0583": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21877,22 +20968,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0585": {
+  "n2_egg_0584": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "使いこなす",
-      "masu": "使いこなします",
-      "te": "使いこなして",
-      "ta": "使いこなした",
-      "nai": "使いこなさない"
-    },
     "examples": [
       {
         "ja": "パソコンを使いこなす",
@@ -21900,7 +20982,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0586": {
+  "n2_egg_0585": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21912,22 +20994,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0587": {
+  "n2_egg_0586": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り除く",
-      "masu": "取り除きます",
-      "te": "取り除いて",
-      "ta": "取り除いた",
-      "nai": "取り除かない"
-    },
     "examples": [
       {
         "ja": "雑草を取り除く",
@@ -21935,7 +21008,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0588": {
+  "n2_egg_0587": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21947,22 +21020,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0589": {
+  "n2_egg_0588": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "駆け込む",
-      "masu": "駆け込みます",
-      "te": "駆け込んで",
-      "ta": "駆け込んだ",
-      "nai": "駆け込まない"
-    },
     "examples": [
       {
         "ja": "トイレに駆け込む",
@@ -21970,7 +21034,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0590": {
+  "n2_egg_0589": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -21980,11 +21044,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "専念する",
-      "masu": "専念します",
-      "te": "専念して",
-      "ta": "専念した",
-      "nai": "専念しない"
+      "dictionary": "駆け込むする",
+      "masu": "駆け込むします",
+      "te": "駆け込むして",
+      "ta": "駆け込むした",
+      "nai": "駆け込むしない"
     },
     "examples": [
       {
@@ -21993,7 +21057,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0591": {
+  "n2_egg_0590": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22005,22 +21069,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0592": {
+  "n2_egg_0591": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "費やす",
-      "masu": "費やします",
-      "te": "費やして",
-      "ta": "費やした",
-      "nai": "費やさない"
-    },
     "examples": [
       {
         "ja": "労力を費やす",
@@ -22028,7 +21083,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0593": {
+  "n2_egg_0592": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22038,11 +21093,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "開放する",
-      "masu": "開放します",
-      "te": "開放して",
-      "ta": "開放した",
-      "nai": "開放しない"
+      "dictionary": "費やすする",
+      "masu": "費やすします",
+      "te": "費やすして",
+      "ta": "費やすした",
+      "nai": "費やすしない"
     },
     "examples": [
       {
@@ -22051,7 +21106,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0594": {
+  "n2_egg_0593": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22063,7 +21118,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0595": {
+  "n2_egg_0594": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22073,7 +21128,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "わくわく",
+      "dictionary": "個性",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -22086,7 +21141,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0596": {
+  "n2_egg_0595": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22096,11 +21151,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "コメントする",
-      "masu": "コメントします",
-      "te": "コメントして",
-      "ta": "コメントした",
-      "nai": "コメントしない"
+      "dictionary": "わくわくする",
+      "masu": "わくわくします",
+      "te": "わくわくして",
+      "ta": "わくわくした",
+      "nai": "わくわくしない"
     },
     "examples": [
       {
@@ -22109,7 +21164,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0597": {
+  "n2_egg_0596": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22119,7 +21174,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ちらちら",
+      "dictionary": "コメント",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -22132,7 +21187,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0598": {
+  "n2_egg_0597": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22144,7 +21199,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0599": {
+  "n2_egg_0598": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22156,7 +21211,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0600": {
+  "n2_egg_0599": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22168,7 +21223,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0601": {
+  "n2_egg_0600": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22180,22 +21235,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0602": {
+  "n2_egg_0601": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "成し遂げる",
-      "masu": "成し遂げます",
-      "te": "成し遂げて",
-      "ta": "成し遂げた",
-      "nai": "成し遂げない"
-    },
     "examples": [
       {
         "ja": "偉大な事業を成し遂げる",
@@ -22203,7 +21249,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0603": {
+  "n2_egg_0602": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22215,22 +21261,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0604": {
+  "n2_egg_0603": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "名付ける",
-      "masu": "名付けます",
-      "te": "名付けて",
-      "ta": "名付けた",
-      "nai": "名付けない"
-    },
     "examples": [
       {
         "ja": "長女を花子と名付ける",
@@ -22238,13 +21275,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0605": {
+  "n2_egg_0604": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "名付けるする",
+      "masu": "名付けるします",
+      "te": "名付けるして",
+      "ta": "名付けるした",
+      "nai": "名付けるしない"
+    },
+    "examples": [
+      {
+        "ja": "独占インタビュー",
+        "zh": "獨家專訪"
+      }
+    ]
+  },
+  "n2_egg_0605": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -22256,35 +21316,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "独占インタビュー",
-        "zh": "獨家專訪"
-      }
-    ]
-  },
-  "n2_egg_0606": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "苦戦する",
-      "masu": "苦戦します",
-      "te": "苦戦して",
-      "ta": "苦戦した",
-      "nai": "苦戦しない"
-    },
-    "examples": [
-      {
         "ja": "強敵を相手に苦戦する",
         "zh": "與強敵苦戰"
       }
     ]
   },
-  "n2_egg_0607": {
+  "n2_egg_0606": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22296,7 +21333,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0608": {
+  "n2_egg_0607": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22308,7 +21345,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0609": {
+  "n2_egg_0608": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22320,22 +21357,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0610": {
+  "n2_egg_0609": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "正す",
-      "masu": "正します",
-      "te": "正して",
-      "ta": "正した",
-      "nai": "正さない"
-    },
     "examples": [
       {
         "ja": "間違いを正す",
@@ -22343,7 +21371,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0611": {
+  "n2_egg_0610": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22355,7 +21383,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0612": {
+  "n2_egg_0611": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22367,7 +21395,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0613": {
+  "n2_egg_0612": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22379,7 +21407,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0614": {
+  "n2_egg_0613": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22391,7 +21419,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0615": {
+  "n2_egg_0614": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22403,22 +21431,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0616": {
+  "n2_egg_0615": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "敗れる",
-      "masu": "敗れます",
-      "te": "敗れて",
-      "ta": "敗れた",
-      "nai": "敗れない"
-    },
     "examples": [
       {
         "ja": "決勝戦で敗れる",
@@ -22426,7 +21445,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0617": {
+  "n2_egg_0616": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22436,11 +21455,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "突き進む",
-      "masu": "突き進みます",
-      "te": "突き進んで",
-      "ta": "突き進んだ",
-      "nai": "突き進まない"
+      "dictionary": "敗れる",
+      "masu": "敗れります",
+      "te": "敗れって",
+      "ta": "敗れった",
+      "nai": "敗れらない"
     },
     "examples": [
       {
@@ -22449,7 +21468,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0618": {
+  "n2_egg_0617": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22459,11 +21478,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "一転する",
-      "masu": "一転します",
-      "te": "一転して",
-      "ta": "一転した",
-      "nai": "一転しない"
+      "dictionary": "突き進むする",
+      "masu": "突き進むします",
+      "te": "突き進むして",
+      "ta": "突き進むした",
+      "nai": "突き進むしない"
     },
     "examples": [
       {
@@ -22472,19 +21491,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0619": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
-    "examples": [
-      {
-        "ja": "快適な生活",
-        "zh": "舒適的生活"
-      }
-    ]
-  },
-  "n2_egg_0620": {
+  "n2_egg_0618": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22496,7 +21503,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0621": {
+  "n2_egg_0619": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22508,7 +21515,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0622": {
+  "n2_egg_0620": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22520,13 +21527,39 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0623": {
+  "n2_egg_0621": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "examples": [
+      {
+        "ja": "同じ経路をたどって目的地に達する",
+        "zh": "沿著同樣的路徑到達目的地"
+      }
+    ]
+  },
+  "n2_egg_0622": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "副",
+    "examples": [
+      {
+        "ja": "軽々と持ち上げる",
+        "zh": "輕輕地拿起來"
+      }
+    ]
+  },
+  "n2_egg_0623": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -22538,20 +21571,31 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "同じ経路をたどって目的地に達する",
-        "zh": "沿著同樣的路徑到達目的地"
+        "ja": "余白に書き込む",
+        "zh": "寫在空白處"
       }
     ]
   },
   "n2_egg_0624": {
-    "pos": "adverb",
-    "posLabel": "副詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "軽々する",
+      "masu": "軽々します",
+      "te": "軽々して",
+      "ta": "軽々した",
+      "nai": "軽々しない"
+    },
     "examples": [
       {
-        "ja": "軽々と持ち上げる",
-        "zh": "輕輕地拿起來"
+        "ja": "反抗期",
+        "zh": "（未成年人的）反抗期"
       }
     ]
   },
@@ -22573,58 +21617,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "余白に書き込む",
-        "zh": "寫在空白處"
-      }
-    ]
-  },
-  "n2_egg_0626": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "反抗する",
-      "masu": "反抗します",
-      "te": "反抗して",
-      "ta": "反抗した",
-      "nai": "反抗しない"
-    },
-    "examples": [
-      {
-        "ja": "反抗期",
-        "zh": "（未成年人的）反抗期"
-      }
-    ]
-  },
-  "n2_egg_0627": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見過ごす",
-      "masu": "見過ごします",
-      "te": "見過ごして",
-      "ta": "見過ごした",
-      "nai": "見過ごさない"
-    },
-    "examples": [
-      {
         "ja": "重大な点を見過ごす",
         "zh": "看漏重要的地方"
       }
     ]
   },
-  "n2_egg_0628": {
+  "n2_egg_0626": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22633,6 +21631,52 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "釣り糸に手応えがあった",
         "zh": "（魚上鉤時）釣魚線上有咬鉤的感覺"
+      }
+    ]
+  },
+  "n2_egg_0627": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "見過ごすする",
+      "masu": "見過ごすします",
+      "te": "見過ごすして",
+      "ta": "見過ごすした",
+      "nai": "見過ごすしない"
+    },
+    "examples": [
+      {
+        "ja": "資材を手当てする",
+        "zh": "準備資材"
+      }
+    ]
+  },
+  "n2_egg_0628": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "手応えする",
+      "masu": "手応えします",
+      "te": "手応えして",
+      "ta": "手応えした",
+      "nai": "手応えしない"
+    },
+    "examples": [
+      {
+        "ja": "理論を実践に移す",
+        "zh": "將理論付諸實踐"
       }
     ]
   },
@@ -22654,58 +21698,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "資材を手当てする",
-        "zh": "準備資材"
-      }
-    ]
-  },
-  "n2_egg_0630": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "実践する",
-      "masu": "実践します",
-      "te": "実践して",
-      "ta": "実践した",
-      "nai": "実践しない"
-    },
-    "examples": [
-      {
-        "ja": "理論を実践に移す",
-        "zh": "將理論付諸實踐"
-      }
-    ]
-  },
-  "n2_egg_0631": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "検索する",
-      "masu": "検索します",
-      "te": "検索して",
-      "ta": "検索した",
-      "nai": "検索しない"
-    },
-    "examples": [
-      {
         "ja": "インターネットで情報を検索する",
         "zh": "在網路上搜尋資訊"
       }
     ]
   },
-  "n2_egg_0632": {
+  "n2_egg_0630": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22717,7 +21715,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0633": {
+  "n2_egg_0631": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22729,22 +21727,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0634": {
+  "n2_egg_0632": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "組み合わせる",
-      "masu": "組み合わせます",
-      "te": "組み合わせて",
-      "ta": "組み合わせた",
-      "nai": "組み合わせない"
-    },
     "examples": [
       {
         "ja": "ノートと鉛筆を組み合わせて賞品にする",
@@ -22752,7 +21741,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0635": {
+  "n2_egg_0633": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22764,7 +21753,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0636": {
+  "n2_egg_0634": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22776,7 +21765,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0637": {
+  "n2_egg_0635": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22786,7 +21775,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "じりじり",
+      "dictionary": "要因",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -22799,7 +21788,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0638": {
+  "n2_egg_0636": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22811,7 +21800,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0639": {
+  "n2_egg_0637": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22823,7 +21812,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0640": {
+  "n2_egg_0638": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22835,7 +21824,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0641": {
+  "n2_egg_0639": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22847,7 +21836,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0642": {
+  "n2_egg_0640": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22859,7 +21848,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0643": {
+  "n2_egg_0641": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22869,11 +21858,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "更新する",
-      "masu": "更新します",
-      "te": "更新して",
-      "ta": "更新した",
-      "nai": "更新しない"
+      "dictionary": "居心地する",
+      "masu": "居心地します",
+      "te": "居心地して",
+      "ta": "居心地した",
+      "nai": "居心地しない"
     },
     "examples": [
       {
@@ -22882,7 +21871,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0644": {
+  "n2_egg_0642": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22894,7 +21883,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0645": {
+  "n2_egg_0643": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22906,7 +21895,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0646": {
+  "n2_egg_0644": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22918,7 +21907,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0647": {
+  "n2_egg_0645": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22930,7 +21919,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0648": {
+  "n2_egg_0646": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22940,11 +21929,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "補助する",
-      "masu": "補助します",
-      "te": "補助して",
-      "ta": "補助した",
-      "nai": "補助しない"
+      "dictionary": "同等する",
+      "masu": "同等します",
+      "te": "同等して",
+      "ta": "同等した",
+      "nai": "同等しない"
     },
     "examples": [
       {
@@ -22953,7 +21942,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0649": {
+  "n2_egg_0647": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -22965,22 +21954,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0650": {
+  "n2_egg_0648": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "束ねる",
-      "masu": "束ねます",
-      "te": "束ねて",
-      "ta": "束ねた",
-      "nai": "束ねない"
-    },
     "examples": [
       {
         "ja": "髪を束ねる",
@@ -22988,7 +21968,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0651": {
+  "n2_egg_0649": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23000,7 +21980,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0652": {
+  "n2_egg_0650": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23012,7 +21992,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0653": {
+  "n2_egg_0651": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23022,7 +22002,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "こそこそ",
+      "dictionary": "敬意",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -23035,7 +22015,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0654": {
+  "n2_egg_0652": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23045,11 +22025,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "リラックスする",
-      "masu": "リラックスします",
-      "te": "リラックスして",
-      "ta": "リラックスした",
-      "nai": "リラックスしない"
+      "dictionary": "プライベートする",
+      "masu": "プライベートします",
+      "te": "プライベートして",
+      "ta": "プライベートした",
+      "nai": "プライベートしない"
     },
     "examples": [
       {
@@ -23058,7 +22038,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0655": {
+  "n2_egg_0653": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23068,11 +22048,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "視察する",
-      "masu": "視察します",
-      "te": "視察して",
-      "ta": "視察した",
-      "nai": "視察しない"
+      "dictionary": "こそこそする",
+      "masu": "こそこそします",
+      "te": "こそこそして",
+      "ta": "こそこそした",
+      "nai": "こそこそしない"
     },
     "examples": [
       {
@@ -23081,7 +22061,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0656": {
+  "n2_egg_0654": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23093,7 +22073,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0657": {
+  "n2_egg_0655": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23105,7 +22085,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0658": {
+  "n2_egg_0656": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23115,11 +22095,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "葛藤する",
-      "masu": "葛藤します",
-      "te": "葛藤して",
-      "ta": "葛藤した",
-      "nai": "葛藤しない"
+      "dictionary": "見当する",
+      "masu": "見当します",
+      "te": "見当して",
+      "ta": "見当した",
+      "nai": "見当しない"
     },
     "examples": [
       {
@@ -23128,7 +22108,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0659": {
+  "n2_egg_0657": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23140,7 +22120,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0660": {
+  "n2_egg_0658": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23152,22 +22132,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0661": {
+  "n2_egg_0659": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "考え直す",
-      "masu": "考え直します",
-      "te": "考え直して",
-      "ta": "考え直した",
-      "nai": "考え直さない"
-    },
     "examples": [
       {
         "ja": "もう一度考え直してください",
@@ -23175,7 +22146,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0662": {
+  "n2_egg_0660": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23187,7 +22158,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0663": {
+  "n2_egg_0661": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23199,7 +22170,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0664": {
+  "n2_egg_0662": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23211,7 +22182,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0665": {
+  "n2_egg_0663": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23223,7 +22194,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0666": {
+  "n2_egg_0664": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23233,11 +22204,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "報道する",
-      "masu": "報道します",
-      "te": "報道して",
-      "ta": "報道した",
-      "nai": "報道しない"
+      "dictionary": "お越しする",
+      "masu": "お越しします",
+      "te": "お越しして",
+      "ta": "お越しした",
+      "nai": "お越ししない"
     },
     "examples": [
       {
@@ -23246,7 +22217,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0667": {
+  "n2_egg_0665": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23258,7 +22229,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0668": {
+  "n2_egg_0666": {
     "pos": "suffix",
     "posLabel": "接尾語",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23270,7 +22241,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0669": {
+  "n2_egg_0667": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23282,7 +22253,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0670": {
+  "n2_egg_0668": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23292,11 +22263,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "背伸びする",
-      "masu": "背伸びします",
-      "te": "背伸びして",
-      "ta": "背伸びした",
-      "nai": "背伸びしない"
+      "dictionary": "弱する",
+      "masu": "弱します",
+      "te": "弱して",
+      "ta": "弱した",
+      "nai": "弱しない"
     },
     "examples": [
       {
@@ -23305,22 +22276,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0671": {
+  "n2_egg_0669": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "引き込む",
-      "masu": "引き込みます",
-      "te": "引き込んで",
-      "ta": "引き込んだ",
-      "nai": "引き込まない"
-    },
     "examples": [
       {
         "ja": "電線を引き込む",
@@ -23328,22 +22290,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0672": {
+  "n2_egg_0670": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "探し出す",
-      "masu": "探し出します",
-      "te": "探し出して",
-      "ta": "探し出した",
-      "nai": "探し出さない"
-    },
     "examples": [
       {
         "ja": "犯人を探し出す",
@@ -23351,7 +22304,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0673": {
+  "n2_egg_0671": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23363,7 +22316,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0674": {
+  "n2_egg_0672": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23375,13 +22328,50 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0675": {
+  "n2_egg_0673": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "箱を積み重ねる",
+        "zh": "把箱子堆起來"
+      }
+    ]
+  },
+  "n2_egg_0674": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "つながりする",
+      "masu": "つながりします",
+      "te": "つながりして",
+      "ta": "つながりした",
+      "nai": "つながりしない"
+    },
+    "examples": [
+      {
+        "ja": "その言葉の定義を説明する",
+        "zh": "解釋那個詞的定義"
+      }
+    ]
+  },
+  "n2_egg_0675": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動2",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
@@ -23393,31 +22383,22 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "箱を積み重ねる",
-        "zh": "把箱子堆起來"
+        "ja": "草木が芽生える",
+        "zh": "草木發芽"
       }
     ]
   },
   "n2_egg_0676": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "定義する",
-      "masu": "定義します",
-      "te": "定義して",
-      "ta": "定義した",
-      "nai": "定義しない"
-    },
+    "sourcePos": "自他動1",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
     "examples": [
       {
-        "ja": "その言葉の定義を説明する",
-        "zh": "解釋那個詞的定義"
+        "ja": "収入に見合った生活をする",
+        "zh": "量入為出的生活"
       }
     ]
   },
@@ -23425,22 +22406,22 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
     "forms": {
       "dictionary": "芽生える",
-      "masu": "芽生えます",
-      "te": "芽生えて",
-      "ta": "芽生えた",
-      "nai": "芽生えない"
+      "masu": "芽生えります",
+      "te": "芽生えって",
+      "ta": "芽生えった",
+      "nai": "芽生えらない"
     },
     "examples": [
       {
-        "ja": "草木が芽生える",
-        "zh": "草木發芽"
+        "ja": "手術して胃を半分切り取る",
+        "zh": "手術切除一半胃部"
       }
     ]
   },
@@ -23448,9 +22429,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
@@ -23462,8 +22443,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "収入に見合った生活をする",
-        "zh": "量入為出的生活"
+        "ja": "人の心を惑わす",
+        "zh": "蠱惑人心"
       }
     ]
   },
@@ -23471,22 +22452,22 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
+    "sourcePos": "自動2",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "ichidan",
+    "verbClassLabel": "一段動詞",
     "forms": {
       "dictionary": "切り取る",
-      "masu": "切り取ります",
-      "te": "切り取って",
-      "ta": "切り取った",
-      "nai": "切り取らない"
+      "masu": "切り取ます",
+      "te": "切り取て",
+      "ta": "切り取た",
+      "nai": "切り取ない"
     },
     "examples": [
       {
-        "ja": "手術して胃を半分切り取る",
-        "zh": "手術切除一半胃部"
+        "ja": "人気が衰える",
+        "zh": "人氣衰減"
       }
     ]
   },
@@ -23508,58 +22489,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "人の心を惑わす",
-        "zh": "蠱惑人心"
-      }
-    ]
-  },
-  "n2_egg_0681": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "衰える",
-      "masu": "衰えます",
-      "te": "衰えて",
-      "ta": "衰えた",
-      "nai": "衰えない"
-    },
-    "examples": [
-      {
-        "ja": "人気が衰える",
-        "zh": "人氣衰減"
-      }
-    ]
-  },
-  "n2_egg_0682": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り巻く",
-      "masu": "取り巻きます",
-      "te": "取り巻いて",
-      "ta": "取り巻いた",
-      "nai": "取り巻かない"
-    },
-    "examples": [
-      {
         "ja": "環境を取り巻く諸問題",
         "zh": "圍繞環境的各種問題"
       }
     ]
   },
-  "n2_egg_0683": {
+  "n2_egg_0681": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23571,7 +22506,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0684": {
+  "n2_egg_0682": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23581,11 +22516,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "就く",
-      "masu": "就きます",
-      "te": "就いて",
-      "ta": "就いた",
-      "nai": "就かない"
+      "dictionary": "取り巻く",
+      "masu": "取り巻きます",
+      "te": "取り巻いて",
+      "ta": "取り巻いた",
+      "nai": "取り巻かない"
     },
     "examples": [
       {
@@ -23594,7 +22529,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0685": {
+  "n2_egg_0683": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23606,7 +22541,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0686": {
+  "n2_egg_0684": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23616,11 +22551,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "競う",
-      "masu": "競います",
-      "te": "競って",
-      "ta": "競った",
-      "nai": "競わない"
+      "dictionary": "就く",
+      "masu": "就きます",
+      "te": "就いて",
+      "ta": "就いた",
+      "nai": "就かない"
     },
     "examples": [
       {
@@ -23629,22 +22564,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0687": {
+  "n2_egg_0685": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "入れ替える",
-      "masu": "入れ替えます",
-      "te": "入れ替えて",
-      "ta": "入れ替えた",
-      "nai": "入れ替えない"
-    },
     "examples": [
       {
         "ja": "部屋の空気を入れ換える",
@@ -23652,7 +22578,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0688": {
+  "n2_egg_0686": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23664,7 +22590,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0689": {
+  "n2_egg_0687": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23674,11 +22600,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "規定する",
-      "masu": "規定します",
-      "te": "規定して",
-      "ta": "規定した",
-      "nai": "規定しない"
+      "dictionary": "入れ替えるする",
+      "masu": "入れ替えるします",
+      "te": "入れ替えるして",
+      "ta": "入れ替えるした",
+      "nai": "入れ替えるしない"
     },
     "examples": [
       {
@@ -23687,7 +22613,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0690": {
+  "n2_egg_0688": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23699,7 +22625,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0691": {
+  "n2_egg_0689": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23711,30 +22637,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0692": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "謙遜する",
-      "masu": "謙遜します",
-      "te": "謙遜して",
-      "ta": "謙遜した",
-      "nai": "謙遜しない"
-    },
-    "examples": [
-      {
-        "ja": "謙遜な態度",
-        "zh": "謙遜的態度"
-      }
-    ]
-  },
-  "n2_egg_0693": {
+  "n2_egg_0690": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23746,7 +22649,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0694": {
+  "n2_egg_0691": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23758,7 +22661,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0695": {
+  "n2_egg_0692": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23770,7 +22673,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0696": {
+  "n2_egg_0693": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23782,7 +22685,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0697": {
+  "n2_egg_0694": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23794,7 +22697,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0698": {
+  "n2_egg_0695": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23806,7 +22709,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0699": {
+  "n2_egg_0696": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23818,7 +22721,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0700": {
+  "n2_egg_0697": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23827,6 +22730,66 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "保護色",
         "zh": "保護色"
+      }
+    ]
+  },
+  "n2_egg_0698": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "話を途中でとどめる",
+        "zh": "中途把話停下"
+      }
+    ]
+  },
+  "n2_egg_0699": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "年代する",
+      "masu": "年代します",
+      "te": "年代して",
+      "ta": "年代した",
+      "nai": "年代しない"
+    },
+    "examples": [
+      {
+        "ja": "坑道にガスが充満する",
+        "zh": "礦井裡充滿了瓦斯"
+      }
+    ]
+  },
+  "n2_egg_0700": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "色する",
+      "masu": "色します",
+      "te": "色して",
+      "ta": "色した",
+      "nai": "色しない"
+    },
+    "examples": [
+      {
+        "ja": "理論派を自負する",
+        "zh": "自詡為理論派"
       }
     ]
   },
@@ -23848,31 +22811,22 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "話を途中でとどめる",
-        "zh": "中途把話停下"
+        "ja": "作文を読み上げる",
+        "zh": "朗讀作文"
       }
     ]
   },
   "n2_egg_0702": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
+    "pos": "verb",
+    "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "充満する",
-      "masu": "充満します",
-      "te": "充満して",
-      "ta": "充満した",
-      "nai": "充満しない"
-    },
+    "sourcePos": "自他動1",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
     "examples": [
       {
-        "ja": "坑道にガスが充満する",
-        "zh": "礦井裡充滿了瓦斯"
+        "ja": "手を取り合って泣く",
+        "zh": "手牽著手哭泣"
       }
     ]
   },
@@ -23880,9 +22834,9 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -23894,81 +22848,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "理論派を自負する",
-        "zh": "自詡為理論派"
-      }
-    ]
-  },
-  "n2_egg_0704": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "読み上げる",
-      "masu": "読み上げます",
-      "te": "読み上げて",
-      "ta": "読み上げた",
-      "nai": "読み上げない"
-    },
-    "examples": [
-      {
-        "ja": "作文を読み上げる",
-        "zh": "朗讀作文"
-      }
-    ]
-  },
-  "n2_egg_0705": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動1",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り合う",
-      "masu": "取り合います",
-      "te": "取り合って",
-      "ta": "取り合った",
-      "nai": "取り合わない"
-    },
-    "examples": [
-      {
-        "ja": "手を取り合って泣く",
-        "zh": "手牽著手哭泣"
-      }
-    ]
-  },
-  "n2_egg_0706": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "改良する",
-      "masu": "改良します",
-      "te": "改良して",
-      "ta": "改良した",
-      "nai": "改良しない"
-    },
-    "examples": [
-      {
         "ja": "品種改良",
         "zh": "改良品種"
       }
     ]
   },
-  "n2_egg_0707": {
+  "n2_egg_0704": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -23978,11 +22863,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "移行する",
-      "masu": "移行します",
-      "te": "移行して",
-      "ta": "移行した",
-      "nai": "移行しない"
+      "dictionary": "読み上げるする",
+      "masu": "読み上げるします",
+      "te": "読み上げるして",
+      "ta": "読み上げるした",
+      "nai": "読み上げるしない"
     },
     "examples": [
       {
@@ -23991,7 +22876,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0708": {
+  "n2_egg_0705": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24003,7 +22888,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0709": {
+  "n2_egg_0706": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24015,7 +22900,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0710": {
+  "n2_egg_0707": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24027,7 +22912,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0711": {
+  "n2_egg_0708": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24037,11 +22922,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "承認する",
-      "masu": "承認します",
-      "te": "承認して",
-      "ta": "承認した",
-      "nai": "承認しない"
+      "dictionary": "最小限する",
+      "masu": "最小限します",
+      "te": "最小限して",
+      "ta": "最小限した",
+      "nai": "最小限しない"
     },
     "examples": [
       {
@@ -24050,7 +22935,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0712": {
+  "n2_egg_0709": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24062,7 +22947,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0713": {
+  "n2_egg_0710": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24074,7 +22959,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0714": {
+  "n2_egg_0711": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24086,26 +22971,66 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0715": {
+  "n2_egg_0712": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "追い返す",
-      "masu": "追い返します",
-      "te": "追い返して",
-      "ta": "追い返した",
-      "nai": "追い返さない"
-    },
     "examples": [
       {
         "ja": "セールスマンを玄関先で追い返す",
         "zh": "把推銷員拒之門外；把推銷員趕走"
+      }
+    ]
+  },
+  "n2_egg_0713": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "川に沿ってサクラ並木が続いている",
+        "zh": "沿河兩岸櫻樹成排"
+      }
+    ]
+  },
+  "n2_egg_0714": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "世代間のギャップ",
+        "zh": "代溝"
+      }
+    ]
+  },
+  "n2_egg_0715": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "追い返すする",
+      "masu": "追い返すします",
+      "te": "追い返すして",
+      "ta": "追い返すした",
+      "nai": "追い返すしない"
+    },
+    "examples": [
+      {
+        "ja": "いろんな角度からアプローチする",
+        "zh": "從各種角度切入"
       }
     ]
   },
@@ -24127,85 +23052,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "川に沿ってサクラ並木が続いている",
-        "zh": "沿河兩岸櫻樹成排"
-      }
-    ]
-  },
-  "n2_egg_0717": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "世代間のギャップ",
-        "zh": "代溝"
-      }
-    ]
-  },
-  "n2_egg_0718": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "アプローチする",
-      "masu": "アプローチします",
-      "te": "アプローチして",
-      "ta": "アプローチした",
-      "nai": "アプローチしない"
-    },
-    "examples": [
-      {
-        "ja": "いろんな角度からアプローチする",
-        "zh": "從各種角度切入"
-      }
-    ]
-  },
-  "n2_egg_0719": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "次ぐ",
-      "masu": "次ぎます",
-      "te": "次いで",
-      "ta": "次いだ",
-      "nai": "次がない"
-    },
-    "examples": [
-      {
         "ja": "冷害に次ぐ冷害",
         "zh": "一次次凍災接踵而來"
       }
     ]
   },
-  "n2_egg_0720": {
+  "n2_egg_0717": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "早まる",
-      "masu": "早まります",
-      "te": "早まって",
-      "ta": "早まった",
-      "nai": "早まらない"
-    },
     "examples": [
       {
         "ja": "会期が早まる",
@@ -24213,7 +23071,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0721": {
+  "n2_egg_0718": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24225,7 +23083,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0722": {
+  "n2_egg_0719": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24237,7 +23095,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0723": {
+  "n2_egg_0720": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24247,11 +23105,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
-      "dictionary": "取り入れる",
-      "masu": "取り入れます",
-      "te": "取り入れて",
-      "ta": "取り入れた",
-      "nai": "取り入れない"
+      "dictionary": "早まる",
+      "masu": "早まます",
+      "te": "早まて",
+      "ta": "早また",
+      "nai": "早まない"
     },
     "examples": [
       {
@@ -24260,7 +23118,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0724": {
+  "n2_egg_0721": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24272,7 +23130,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0725": {
+  "n2_egg_0722": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24284,7 +23142,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0726": {
+  "n2_egg_0723": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24296,7 +23154,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0727": {
+  "n2_egg_0724": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24308,7 +23166,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0728": {
+  "n2_egg_0725": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24318,11 +23176,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "辞退する",
-      "masu": "辞退します",
-      "te": "辞退して",
-      "ta": "辞退した",
-      "nai": "辞退しない"
+      "dictionary": "過激する",
+      "masu": "過激します",
+      "te": "過激して",
+      "ta": "過激した",
+      "nai": "過激しない"
     },
     "examples": [
       {
@@ -24331,7 +23189,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0729": {
+  "n2_egg_0726": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24343,7 +23201,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0730": {
+  "n2_egg_0727": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24355,22 +23213,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0731": {
+  "n2_egg_0728": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "そろえる",
-      "masu": "そろえます",
-      "te": "そろえて",
-      "ta": "そろえた",
-      "nai": "そろえない"
-    },
     "examples": [
       {
         "ja": "靴をそろえる",
@@ -24378,7 +23227,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0732": {
+  "n2_egg_0729": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24388,11 +23237,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "表明する",
-      "masu": "表明します",
-      "te": "表明して",
-      "ta": "表明した",
-      "nai": "表明しない"
+      "dictionary": "人柄する",
+      "masu": "人柄します",
+      "te": "人柄して",
+      "ta": "人柄した",
+      "nai": "人柄しない"
     },
     "examples": [
       {
@@ -24401,7 +23250,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0733": {
+  "n2_egg_0730": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24411,11 +23260,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ステップする",
-      "masu": "ステップします",
-      "te": "ステップして",
-      "ta": "ステップした",
-      "nai": "ステップしない"
+      "dictionary": "視野する",
+      "masu": "視野します",
+      "te": "視野して",
+      "ta": "視野した",
+      "nai": "視野しない"
     },
     "examples": [
       {
@@ -24424,7 +23273,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0734": {
+  "n2_egg_0731": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24436,7 +23285,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0735": {
+  "n2_egg_0732": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24448,7 +23297,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0736": {
+  "n2_egg_0733": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24460,7 +23309,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0737": {
+  "n2_egg_0734": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24472,11 +23321,60 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0738": {
+  "n2_egg_0735": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "災害する",
+      "masu": "災害します",
+      "te": "災害して",
+      "ta": "災害した",
+      "nai": "災害しない"
+    },
+    "examples": [
+      {
+        "ja": "洗練された物腰",
+        "zh": "文雅的談吐"
+      }
+    ]
+  },
+  "n2_egg_0736": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "健康を損なう",
+        "zh": "損害健康"
+      }
+    ]
+  },
+  "n2_egg_0737": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "髪の乱れを直す",
+        "zh": "梳整蓬亂的頭髮"
+      }
+    ]
+  },
+  "n2_egg_0738": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -24490,70 +23388,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "洗練された物腰",
-        "zh": "文雅的談吐"
-      }
-    ]
-  },
-  "n2_egg_0739": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "損なう",
-      "masu": "損ないます",
-      "te": "損なって",
-      "ta": "損なった",
-      "nai": "損なわない"
-    },
-    "examples": [
-      {
-        "ja": "健康を損なう",
-        "zh": "損害健康"
-      }
-    ]
-  },
-  "n2_egg_0740": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "髪の乱れを直す",
-        "zh": "梳整蓬亂的頭髮"
-      }
-    ]
-  },
-  "n2_egg_0741": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "総合する",
-      "masu": "総合します",
-      "te": "総合して",
-      "ta": "総合した",
-      "nai": "総合しない"
-    },
-    "examples": [
-      {
         "ja": "総合病院",
         "zh": "綜合性醫院"
       }
     ]
   },
-  "n2_egg_0742": {
+  "n2_egg_0739": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24565,22 +23405,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0743": {
+  "n2_egg_0740": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "備わる",
-      "masu": "備わります",
-      "te": "備わって",
-      "ta": "備わった",
-      "nai": "備わらない"
-    },
     "examples": [
       {
         "ja": "最新の設備が備わっている",
@@ -24588,22 +23419,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0744": {
+  "n2_egg_0741": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "立ち上げる",
-      "masu": "立ち上げます",
-      "te": "立ち上げて",
-      "ta": "立ち上げた",
-      "nai": "立ち上げない"
-    },
     "examples": [
       {
         "ja": "新しいプロジェクトを立ち上げる",
@@ -24611,7 +23433,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0745": {
+  "n2_egg_0742": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24621,11 +23443,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "対話する",
-      "masu": "対話します",
-      "te": "対話して",
-      "ta": "対話した",
-      "nai": "対話しない"
+      "dictionary": "ありのままする",
+      "masu": "ありのままします",
+      "te": "ありのままして",
+      "ta": "ありのまました",
+      "nai": "ありのまましない"
     },
     "examples": [
       {
@@ -24634,7 +23456,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0746": {
+  "n2_egg_0743": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24644,11 +23466,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
-      "dictionary": "わきまえる",
-      "masu": "わきまえます",
-      "te": "わきまえて",
-      "ta": "わきまえた",
-      "nai": "わきまえない"
+      "dictionary": "備わる",
+      "masu": "備わます",
+      "te": "備わて",
+      "ta": "備わた",
+      "nai": "備わない"
     },
     "examples": [
       {
@@ -24657,7 +23479,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0747": {
+  "n2_egg_0744": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24669,7 +23491,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0748": {
+  "n2_egg_0745": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24679,11 +23501,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "同居する",
-      "masu": "同居します",
-      "te": "同居して",
-      "ta": "同居した",
-      "nai": "同居しない"
+      "dictionary": "対話する",
+      "masu": "対話します",
+      "te": "対話して",
+      "ta": "対話した",
+      "nai": "対話しない"
     },
     "examples": [
       {
@@ -24692,7 +23514,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0749": {
+  "n2_egg_0746": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24704,7 +23526,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0750": {
+  "n2_egg_0747": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24716,7 +23538,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0751": {
+  "n2_egg_0748": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24728,7 +23550,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0752": {
+  "n2_egg_0749": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24740,22 +23562,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0753": {
+  "n2_egg_0750": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "催す",
-      "masu": "催します",
-      "te": "催して",
-      "ta": "催した",
-      "nai": "催さない"
-    },
     "examples": [
       {
         "ja": "学校で文化祭を催す",
@@ -24763,7 +23576,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0754": {
+  "n2_egg_0751": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24775,7 +23588,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0755": {
+  "n2_egg_0752": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24787,7 +23600,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0756": {
+  "n2_egg_0753": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24799,22 +23612,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0757": {
+  "n2_egg_0754": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動2",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "転じる",
-      "masu": "転じます",
-      "te": "転じて",
-      "ta": "転じた",
-      "nai": "転じない"
-    },
     "examples": [
       {
         "ja": "話題を転じる",
@@ -24822,7 +23626,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0758": {
+  "n2_egg_0755": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24834,7 +23638,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0759": {
+  "n2_egg_0756": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24844,11 +23648,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "収集する",
-      "masu": "収集します",
-      "te": "収集して",
-      "ta": "収集した",
-      "nai": "収集しない"
+      "dictionary": "半数する",
+      "masu": "半数します",
+      "te": "半数して",
+      "ta": "半数した",
+      "nai": "半数しない"
     },
     "examples": [
       {
@@ -24857,7 +23661,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0760": {
+  "n2_egg_0757": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24867,11 +23671,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
-      "dictionary": "痛める",
-      "masu": "痛めます",
-      "te": "痛めて",
-      "ta": "痛めた",
-      "nai": "痛めない"
+      "dictionary": "転じる",
+      "masu": "転じます",
+      "te": "転じて",
+      "ta": "転じた",
+      "nai": "転じない"
     },
     "examples": [
       {
@@ -24880,7 +23684,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0761": {
+  "n2_egg_0758": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24892,22 +23696,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0762": {
+  "n2_egg_0759": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "改まる",
-      "masu": "改まります",
-      "te": "改まって",
-      "ta": "改まった",
-      "nai": "改まらない"
-    },
     "examples": [
       {
         "ja": "年が改まる",
@@ -24915,7 +23710,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0763": {
+  "n2_egg_0760": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24927,7 +23722,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0764": {
+  "n2_egg_0761": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24939,7 +23734,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0765": {
+  "n2_egg_0762": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24949,11 +23744,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "転換する",
-      "masu": "転換します",
-      "te": "転換して",
-      "ta": "転換した",
-      "nai": "転換しない"
+      "dictionary": "改まるする",
+      "masu": "改まるします",
+      "te": "改まるして",
+      "ta": "改まるした",
+      "nai": "改まるしない"
     },
     "examples": [
       {
@@ -24962,7 +23757,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0766": {
+  "n2_egg_0763": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24974,7 +23769,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0767": {
+  "n2_egg_0764": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24986,7 +23781,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0768": {
+  "n2_egg_0765": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -24996,11 +23791,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "定着する",
-      "masu": "定着します",
-      "te": "定着して",
-      "ta": "定着した",
-      "nai": "定着しない"
+      "dictionary": "転換する",
+      "masu": "転換します",
+      "te": "転換して",
+      "ta": "転換した",
+      "nai": "転換しない"
     },
     "examples": [
       {
@@ -25009,7 +23804,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0769": {
+  "n2_egg_0766": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25021,7 +23816,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0770": {
+  "n2_egg_0767": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25033,7 +23828,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0771": {
+  "n2_egg_0768": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25045,7 +23840,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0772": {
+  "n2_egg_0769": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25057,7 +23852,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0773": {
+  "n2_egg_0770": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25069,22 +23864,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0774": {
+  "n2_egg_0771": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "悩ます",
-      "masu": "悩まします",
-      "te": "悩まして",
-      "ta": "悩ました",
-      "nai": "悩まさない"
-    },
     "examples": [
       {
         "ja": "騒音に悩まされる",
@@ -25092,7 +23878,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0775": {
+  "n2_egg_0772": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25102,11 +23888,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "進出する",
-      "masu": "進出します",
-      "te": "進出して",
-      "ta": "進出した",
-      "nai": "進出しない"
+      "dictionary": "着実する",
+      "masu": "着実します",
+      "te": "着実して",
+      "ta": "着実した",
+      "nai": "着実しない"
     },
     "examples": [
       {
@@ -25115,7 +23901,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0776": {
+  "n2_egg_0773": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25127,7 +23913,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0777": {
+  "n2_egg_0774": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25139,22 +23925,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0778": {
+  "n2_egg_0775": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "つなげる",
-      "masu": "つなげます",
-      "te": "つなげて",
-      "ta": "つなげた",
-      "nai": "つなげない"
-    },
     "examples": [
       {
         "ja": "心と心をつなげる",
@@ -25162,7 +23939,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0779": {
+  "n2_egg_0776": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25172,11 +23949,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "掲載する",
-      "masu": "掲載します",
-      "te": "掲載して",
-      "ta": "掲載した",
-      "nai": "掲載しない"
+      "dictionary": "訴えする",
+      "masu": "訴えします",
+      "te": "訴えして",
+      "ta": "訴えした",
+      "nai": "訴えしない"
     },
     "examples": [
       {
@@ -25185,7 +23962,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0780": {
+  "n2_egg_0777": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25197,7 +23974,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0781": {
+  "n2_egg_0778": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25209,7 +23986,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0782": {
+  "n2_egg_0779": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25221,7 +23998,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0783": {
+  "n2_egg_0780": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25233,7 +24010,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0784": {
+  "n2_egg_0781": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25245,7 +24022,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0785": {
+  "n2_egg_0782": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25257,22 +24034,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0786": {
+  "n2_egg_0783": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "相次ぐ",
-      "masu": "相次ぎます",
-      "te": "相次いで",
-      "ta": "相次いだ",
-      "nai": "相次がない"
-    },
     "examples": [
       {
         "ja": "事故が相次ぐ",
@@ -25280,22 +24048,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0787": {
+  "n2_egg_0784": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "先立つ",
-      "masu": "先立ちます",
-      "te": "先立って",
-      "ta": "先立った",
-      "nai": "先立たない"
-    },
     "examples": [
       {
         "ja": "登山隊に先立ってシェルパが道案内をする",
@@ -25303,7 +24062,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0788": {
+  "n2_egg_0785": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25315,7 +24074,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0789": {
+  "n2_egg_0786": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25325,11 +24084,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "教訓する",
-      "masu": "教訓します",
-      "te": "教訓して",
-      "ta": "教訓した",
-      "nai": "教訓しない"
+      "dictionary": "相次ぐする",
+      "masu": "相次ぐします",
+      "te": "相次ぐして",
+      "ta": "相次ぐした",
+      "nai": "相次ぐしない"
     },
     "examples": [
       {
@@ -25338,7 +24097,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0790": {
+  "n2_egg_0787": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25350,7 +24109,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0791": {
+  "n2_egg_0788": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25362,7 +24121,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0792": {
+  "n2_egg_0789": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25374,7 +24133,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0793": {
+  "n2_egg_0790": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25384,11 +24143,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "会見する",
-      "masu": "会見します",
-      "te": "会見して",
-      "ta": "会見した",
-      "nai": "会見しない"
+      "dictionary": "観点する",
+      "masu": "観点します",
+      "te": "観点して",
+      "ta": "観点した",
+      "nai": "観点しない"
     },
     "examples": [
       {
@@ -25397,7 +24156,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0794": {
+  "n2_egg_0791": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25409,7 +24168,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0795": {
+  "n2_egg_0792": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25421,7 +24180,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0796": {
+  "n2_egg_0793": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25433,7 +24192,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0797": {
+  "n2_egg_0794": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25445,7 +24204,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0798": {
+  "n2_egg_0795": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25457,7 +24216,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0799": {
+  "n2_egg_0796": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25469,7 +24228,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0800": {
+  "n2_egg_0797": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25479,11 +24238,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "習得する",
-      "masu": "習得します",
-      "te": "習得して",
-      "ta": "習得した",
-      "nai": "習得しない"
+      "dictionary": "庭園する",
+      "masu": "庭園します",
+      "te": "庭園して",
+      "ta": "庭園した",
+      "nai": "庭園しない"
     },
     "examples": [
       {
@@ -25492,7 +24251,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0801": {
+  "n2_egg_0798": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25504,7 +24263,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0802": {
+  "n2_egg_0799": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25516,7 +24275,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0803": {
+  "n2_egg_0800": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25528,7 +24287,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0804": {
+  "n2_egg_0801": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25540,7 +24299,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0805": {
+  "n2_egg_0802": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25552,7 +24311,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0806": {
+  "n2_egg_0803": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25562,11 +24321,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "やけどする",
-      "masu": "やけどします",
-      "te": "やけどして",
-      "ta": "やけどした",
-      "nai": "やけどしない"
+      "dictionary": "革する",
+      "masu": "革します",
+      "te": "革して",
+      "ta": "革した",
+      "nai": "革しない"
     },
     "examples": [
       {
@@ -25575,7 +24334,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0807": {
+  "n2_egg_0804": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25587,7 +24346,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0808": {
+  "n2_egg_0805": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25599,7 +24358,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0809": {
+  "n2_egg_0806": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25611,7 +24370,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0810": {
+  "n2_egg_0807": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25623,7 +24382,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0811": {
+  "n2_egg_0808": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25633,11 +24392,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "新作する",
-      "masu": "新作します",
-      "te": "新作して",
-      "ta": "新作した",
-      "nai": "新作しない"
+      "dictionary": "蝶する",
+      "masu": "蝶します",
+      "te": "蝶して",
+      "ta": "蝶した",
+      "nai": "蝶しない"
     },
     "examples": [
       {
@@ -25646,7 +24405,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0812": {
+  "n2_egg_0809": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25658,7 +24417,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0813": {
+  "n2_egg_0810": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25670,7 +24429,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0814": {
+  "n2_egg_0811": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25682,22 +24441,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0815": {
+  "n2_egg_0812": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "駆け上がる",
-      "masu": "駆け上がります",
-      "te": "駆け上がって",
-      "ta": "駆け上がった",
-      "nai": "駆け上がらない"
-    },
     "examples": [
       {
         "ja": "子どもが階段を駆け上がった",
@@ -25705,7 +24455,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0816": {
+  "n2_egg_0813": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25715,11 +24465,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "正座する",
-      "masu": "正座します",
-      "te": "正座して",
-      "ta": "正座した",
-      "nai": "正座しない"
+      "dictionary": "個体する",
+      "masu": "個体します",
+      "te": "個体して",
+      "ta": "個体した",
+      "nai": "個体しない"
     },
     "examples": [
       {
@@ -25728,7 +24478,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0817": {
+  "n2_egg_0814": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25740,7 +24490,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0818": {
+  "n2_egg_0815": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25750,11 +24500,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "買い取る",
-      "masu": "買い取ります",
-      "te": "買い取って",
-      "ta": "買い取った",
-      "nai": "買い取らない"
+      "dictionary": "駆け上がる",
+      "masu": "駆け上がります",
+      "te": "駆け上がって",
+      "ta": "駆け上がった",
+      "nai": "駆け上がらない"
     },
     "examples": [
       {
@@ -25763,7 +24513,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0819": {
+  "n2_egg_0816": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25775,7 +24525,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0820": {
+  "n2_egg_0817": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25785,11 +24535,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "転校する",
-      "masu": "転校します",
-      "te": "転校して",
-      "ta": "転校した",
-      "nai": "転校しない"
+      "dictionary": "商会する",
+      "masu": "商会します",
+      "te": "商会して",
+      "ta": "商会した",
+      "nai": "商会しない"
     },
     "examples": [
       {
@@ -25798,7 +24548,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0821": {
+  "n2_egg_0818": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25808,7 +24558,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "きょろきょろ",
+      "dictionary": "買い取る",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -25821,7 +24571,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0822": {
+  "n2_egg_0819": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25833,7 +24583,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0823": {
+  "n2_egg_0820": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25845,7 +24595,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0824": {
+  "n2_egg_0821": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25857,7 +24607,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0825": {
+  "n2_egg_0822": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25869,7 +24619,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0826": {
+  "n2_egg_0823": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25881,7 +24631,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0827": {
+  "n2_egg_0824": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25893,7 +24643,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0828": {
+  "n2_egg_0825": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -25905,26 +24655,77 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0829": {
+  "n2_egg_0826": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動2",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "張り詰める",
-      "masu": "張り詰めます",
-      "te": "張り詰めて",
-      "ta": "張り詰めた",
-      "nai": "張り詰めない"
-    },
     "examples": [
       {
         "ja": "池に氷が張り詰める",
         "zh": "池塘結滿冰"
+      }
+    ]
+  },
+  "n2_egg_0827": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "車両する",
+      "masu": "車両します",
+      "te": "車両して",
+      "ta": "車両した",
+      "nai": "車両しない"
+    },
+    "examples": [
+      {
+        "ja": "金融商品の購入を勧誘する",
+        "zh": "推銷金融商品"
+      }
+    ]
+  },
+  "n2_egg_0828": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "畳に寝転がって本を読む",
+        "zh": "躺在榻榻米上看書"
+      }
+    ]
+  },
+  "n2_egg_0829": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "張り詰める",
+      "masu": "張り詰めります",
+      "te": "張り詰めって",
+      "ta": "張り詰めった",
+      "nai": "張り詰めらない"
+    },
+    "examples": [
+      {
+        "ja": "こらえていた涙があふれ出す",
+        "zh": "忍住的眼淚奪眶而出"
       }
     ]
   },
@@ -25946,54 +24747,43 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "金融商品の購入を勧誘する",
-        "zh": "推銷金融商品"
+        "ja": "ガードが堅い",
+        "zh": "防守嚴密"
       }
     ]
   },
   "n2_egg_0831": {
-    "pos": "verb",
-    "posLabel": "動詞",
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
+    "sourcePos": "名・自動3",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "寝転がる",
-      "masu": "寝転がります",
-      "te": "寝転がって",
-      "ta": "寝転がった",
-      "nai": "寝転がらない"
+      "dictionary": "寝転がるする",
+      "masu": "寝転がるします",
+      "te": "寝転がるして",
+      "ta": "寝転がるした",
+      "nai": "寝転がるしない"
     },
     "examples": [
       {
-        "ja": "畳に寝転がって本を読む",
-        "zh": "躺在榻榻米上看書"
+        "ja": "難問に相対する",
+        "zh": "面對難題"
       }
     ]
   },
   "n2_egg_0832": {
-    "pos": "verb",
-    "posLabel": "動詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "あふれ出す",
-      "masu": "あふれ出します",
-      "te": "あふれ出して",
-      "ta": "あふれ出した",
-      "nai": "あふれ出さない"
-    },
+    "sourcePos": "副・名",
     "examples": [
       {
-        "ja": "こらえていた涙があふれ出す",
-        "zh": "忍住的眼淚奪眶而出"
+        "ja": "おおよその見積もり",
+        "zh": "大概的估計"
       }
     ]
   },
@@ -26015,85 +24805,18 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "ガードが堅い",
-        "zh": "防守嚴密"
-      }
-    ]
-  },
-  "n2_egg_0834": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "相対する",
-      "masu": "相対します",
-      "te": "相対して",
-      "ta": "相対した",
-      "nai": "相対しない"
-    },
-    "examples": [
-      {
-        "ja": "難問に相対する",
-        "zh": "面對難題"
-      }
-    ]
-  },
-  "n2_egg_0835": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・名",
-    "examples": [
-      {
-        "ja": "おおよその見積もり",
-        "zh": "大概的估計"
-      }
-    ]
-  },
-  "n2_egg_0836": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "創造する",
-      "masu": "創造します",
-      "te": "創造して",
-      "ta": "創造した",
-      "nai": "創造しない"
-    },
-    "examples": [
-      {
         "ja": "創造力",
         "zh": "創造力"
       }
     ]
   },
-  "n2_egg_0837": {
+  "n2_egg_0834": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "飛び立つ",
-      "masu": "飛び立ちます",
-      "te": "飛び立って",
-      "ta": "飛び立った",
-      "nai": "飛び立たない"
-    },
     "examples": [
       {
         "ja": "ジェット機が飛び立つ",
@@ -26101,7 +24824,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0838": {
+  "n2_egg_0835": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26113,7 +24836,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0839": {
+  "n2_egg_0836": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26125,7 +24848,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0840": {
+  "n2_egg_0837": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26137,7 +24860,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0841": {
+  "n2_egg_0838": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26149,7 +24872,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0842": {
+  "n2_egg_0839": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26161,7 +24884,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0843": {
+  "n2_egg_0840": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26173,7 +24896,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0844": {
+  "n2_egg_0841": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26183,11 +24906,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "取得する",
-      "masu": "取得します",
-      "te": "取得して",
-      "ta": "取得した",
-      "nai": "取得しない"
+      "dictionary": "オリジナルする",
+      "masu": "オリジナルします",
+      "te": "オリジナルして",
+      "ta": "オリジナルした",
+      "nai": "オリジナルしない"
     },
     "examples": [
       {
@@ -26196,22 +24919,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0845": {
+  "n2_egg_0842": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "ひらめく",
-      "masu": "ひらめきます",
-      "te": "ひらめいて",
-      "ta": "ひらめいた",
-      "nai": "ひらめかない"
-    },
     "examples": [
       {
         "ja": "西の空でときどき稲妻がひらめいた",
@@ -26219,7 +24933,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0846": {
+  "n2_egg_0843": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26229,11 +24943,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "変形する",
-      "masu": "変形します",
-      "te": "変形して",
-      "ta": "変形した",
-      "nai": "変形しない"
+      "dictionary": "数値する",
+      "masu": "数値します",
+      "te": "数値して",
+      "ta": "数値した",
+      "nai": "数値しない"
     },
     "examples": [
       {
@@ -26242,22 +24956,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0847": {
+  "n2_egg_0844": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "すく",
-      "masu": "すきます",
-      "te": "すいて",
-      "ta": "すいた",
-      "nai": "すかない"
-    },
     "examples": [
       {
         "ja": "おなかがすく",
@@ -26265,7 +24970,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0848": {
+  "n2_egg_0845": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26277,7 +24982,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0849": {
+  "n2_egg_0846": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26289,7 +24994,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0850": {
+  "n2_egg_0847": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26301,7 +25006,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0851": {
+  "n2_egg_0848": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26313,7 +25018,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0852": {
+  "n2_egg_0849": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26325,7 +25030,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0853": {
+  "n2_egg_0850": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26337,22 +25042,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0854": {
+  "n2_egg_0851": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "組み込む",
-      "masu": "組み込みます",
-      "te": "組み込んで",
-      "ta": "組み込んだ",
-      "nai": "組み込まない"
-    },
     "examples": [
       {
         "ja": "予算に接待費を組み込む",
@@ -26360,7 +25056,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0855": {
+  "n2_egg_0852": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26372,7 +25068,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0856": {
+  "n2_egg_0853": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26382,11 +25078,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "合宿する",
-      "masu": "合宿します",
-      "te": "合宿して",
-      "ta": "合宿した",
-      "nai": "合宿しない"
+      "dictionary": "人混みする",
+      "masu": "人混みします",
+      "te": "人混みして",
+      "ta": "人混みした",
+      "nai": "人混みしない"
     },
     "examples": [
       {
@@ -26395,7 +25091,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0857": {
+  "n2_egg_0854": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26405,11 +25101,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "飛び回る",
-      "masu": "飛び回ります",
-      "te": "飛び回って",
-      "ta": "飛び回った",
-      "nai": "飛び回らない"
+      "dictionary": "組み込む",
+      "masu": "組み込みます",
+      "te": "組み込んで",
+      "ta": "組み込んだ",
+      "nai": "組み込まない"
     },
     "examples": [
       {
@@ -26418,7 +25114,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0858": {
+  "n2_egg_0855": {
     "pos": "conjunction",
     "posLabel": "接續詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26430,22 +25126,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0859": {
+  "n2_egg_0856": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "引き渡す",
-      "masu": "引き渡します",
-      "te": "引き渡して",
-      "ta": "引き渡した",
-      "nai": "引き渡さない"
-    },
     "examples": [
       {
         "ja": "柱と柱の間に綱を引き渡す",
@@ -26453,7 +25140,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0860": {
+  "n2_egg_0857": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26465,7 +25152,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0861": {
+  "n2_egg_0858": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26477,7 +25164,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0862": {
+  "n2_egg_0859": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26489,7 +25176,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0863": {
+  "n2_egg_0860": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26501,7 +25188,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0864": {
+  "n2_egg_0861": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26513,7 +25200,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0865": {
+  "n2_egg_0862": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26523,11 +25210,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "野生する",
-      "masu": "野生します",
-      "te": "野生して",
-      "ta": "野生した",
-      "nai": "野生しない"
+      "dictionary": "ごろごろする",
+      "masu": "ごろごろします",
+      "te": "ごろごろして",
+      "ta": "ごろごろした",
+      "nai": "ごろごろしない"
     },
     "examples": [
       {
@@ -26536,7 +25223,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0866": {
+  "n2_egg_0863": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26546,7 +25233,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "しっとり",
+      "dictionary": "雑草",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -26559,7 +25246,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0867": {
+  "n2_egg_0864": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26571,7 +25258,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0868": {
+  "n2_egg_0865": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26583,7 +25270,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0869": {
+  "n2_egg_0866": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26595,7 +25282,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0870": {
+  "n2_egg_0867": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26607,7 +25294,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0871": {
+  "n2_egg_0868": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26616,6 +25303,64 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "観客が劇場からぞろぞろ出てくる",
         "zh": "觀眾挨個從劇場出來"
+      }
+    ]
+  },
+  "n2_egg_0869": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "保険する",
+      "masu": "保険します",
+      "te": "保険して",
+      "ta": "保険した",
+      "nai": "保険しない"
+    },
+    "examples": [
+      {
+        "ja": "合格して大喜びする",
+        "zh": "合格後欣喜若狂"
+      }
+    ]
+  },
+  "n2_egg_0870": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "小物入れ",
+        "zh": "小物件收納盒"
+      }
+    ]
+  },
+  "n2_egg_0871": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "ぞろぞろする",
+      "masu": "ぞろぞろします",
+      "te": "ぞろぞろして",
+      "ta": "ぞろぞろした",
+      "nai": "ぞろぞろしない"
+    },
+    "examples": [
+      {
+        "ja": "自動車の部品を製作する会社",
+        "zh": "生產汽車零件的公司"
       }
     ]
   },
@@ -26637,70 +25382,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "合格して大喜びする",
-        "zh": "合格後欣喜若狂"
-      }
-    ]
-  },
-  "n2_egg_0873": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "小物入れ",
-        "zh": "小物件收納盒"
-      }
-    ]
-  },
-  "n2_egg_0874": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "製作する",
-      "masu": "製作します",
-      "te": "製作して",
-      "ta": "製作した",
-      "nai": "製作しない"
-    },
-    "examples": [
-      {
-        "ja": "自動車の部品を製作する会社",
-        "zh": "生產汽車零件的公司"
-      }
-    ]
-  },
-  "n2_egg_0875": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "寄り道する",
-      "masu": "寄り道します",
-      "te": "寄り道して",
-      "ta": "寄り道した",
-      "nai": "寄り道しない"
-    },
-    "examples": [
-      {
         "ja": "家に帰る途中で友達の家に寄り道する",
         "zh": "在回家的路上順道去朋友家"
       }
     ]
   },
-  "n2_egg_0876": {
+  "n2_egg_0873": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26712,7 +25399,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0877": {
+  "n2_egg_0874": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26724,7 +25411,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0878": {
+  "n2_egg_0875": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26736,7 +25423,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0879": {
+  "n2_egg_0876": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26748,7 +25435,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0880": {
+  "n2_egg_0877": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26758,11 +25445,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "補足する",
-      "masu": "補足します",
-      "te": "補足して",
-      "ta": "補足した",
-      "nai": "補足しない"
+      "dictionary": "もやもやする",
+      "masu": "もやもやします",
+      "te": "もやもやして",
+      "ta": "もやもやした",
+      "nai": "もやもやしない"
     },
     "examples": [
       {
@@ -26771,7 +25458,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0881": {
+  "n2_egg_0878": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26783,7 +25470,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0882": {
+  "n2_egg_0879": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26793,11 +25480,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "差し入れする",
-      "masu": "差し入れします",
-      "te": "差し入れして",
-      "ta": "差し入れした",
-      "nai": "差し入れしない"
+      "dictionary": "地帯する",
+      "masu": "地帯します",
+      "te": "地帯して",
+      "ta": "地帯した",
+      "nai": "地帯しない"
     },
     "examples": [
       {
@@ -26806,7 +25493,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0883": {
+  "n2_egg_0880": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26818,7 +25505,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0884": {
+  "n2_egg_0881": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26830,7 +25517,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0885": {
+  "n2_egg_0882": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26840,11 +25527,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "一段落する",
-      "masu": "一段落します",
-      "te": "一段落して",
-      "ta": "一段落した",
-      "nai": "一段落しない"
+      "dictionary": "差し入れする",
+      "masu": "差し入れします",
+      "te": "差し入れして",
+      "ta": "差し入れした",
+      "nai": "差し入れしない"
     },
     "examples": [
       {
@@ -26853,7 +25540,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0886": {
+  "n2_egg_0883": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26865,7 +25552,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0887": {
+  "n2_egg_0884": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26877,22 +25564,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0888": {
+  "n2_egg_0885": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "それる",
-      "masu": "それます",
-      "te": "それて",
-      "ta": "それた",
-      "nai": "それない"
-    },
     "examples": [
       {
         "ja": "話がそれる",
@@ -26900,7 +25578,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0889": {
+  "n2_egg_0886": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26912,7 +25590,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0890": {
+  "n2_egg_0887": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26924,7 +25602,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0891": {
+  "n2_egg_0888": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26934,11 +25612,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "埋め込む",
-      "masu": "埋め込みます",
-      "te": "埋め込んで",
-      "ta": "埋め込んだ",
-      "nai": "埋め込まない"
+      "dictionary": "それる",
+      "masu": "それります",
+      "te": "それって",
+      "ta": "それった",
+      "nai": "それらない"
     },
     "examples": [
       {
@@ -26947,22 +25625,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0892": {
+  "n2_egg_0889": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "行き着く",
-      "masu": "行き着きます",
-      "te": "行き着いて",
-      "ta": "行き着いた",
-      "nai": "行き着かない"
-    },
     "examples": [
       {
         "ja": "山頂に行き着く",
@@ -26970,7 +25639,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0893": {
+  "n2_egg_0890": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26982,7 +25651,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0894": {
+  "n2_egg_0891": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -26994,7 +25663,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0895": {
+  "n2_egg_0892": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27006,22 +25675,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0896": {
+  "n2_egg_0893": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "飛び出る",
-      "masu": "飛び出ます",
-      "te": "飛び出て",
-      "ta": "飛び出た",
-      "nai": "飛び出ない"
-    },
     "examples": [
       {
         "ja": "しかられて家を飛び出る",
@@ -27029,7 +25689,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0897": {
+  "n2_egg_0894": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27041,7 +25701,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0898": {
+  "n2_egg_0895": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27053,7 +25713,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0899": {
+  "n2_egg_0896": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27065,22 +25725,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0900": {
+  "n2_egg_0897": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "おごる",
-      "masu": "おごります",
-      "te": "おごって",
-      "ta": "おごった",
-      "nai": "おごらない"
-    },
     "examples": [
       {
         "ja": "おごった生活をする",
@@ -27088,22 +25739,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0901": {
+  "n2_egg_0898": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "絡まる",
-      "masu": "絡まります",
-      "te": "絡まって",
-      "ta": "絡まった",
-      "nai": "絡まらない"
-    },
     "examples": [
       {
         "ja": "糸が絡まる",
@@ -27111,22 +25753,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0902": {
+  "n2_egg_0899": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "立ち並ぶ",
-      "masu": "立ち並びます",
-      "te": "立ち並んで",
-      "ta": "立ち並んだ",
-      "nai": "立ち並ばない"
-    },
     "examples": [
       {
         "ja": "商家の立ち並ぶ町",
@@ -27134,7 +25767,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0903": {
+  "n2_egg_0900": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27146,7 +25779,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0904": {
+  "n2_egg_0901": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27158,7 +25791,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0905": {
+  "n2_egg_0902": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27168,11 +25801,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "待ち伏せする",
-      "masu": "待ち伏せします",
-      "te": "待ち伏せして",
-      "ta": "待ち伏せした",
-      "nai": "待ち伏せしない"
+      "dictionary": "立ち並ぶする",
+      "masu": "立ち並ぶします",
+      "te": "立ち並ぶして",
+      "ta": "立ち並ぶした",
+      "nai": "立ち並ぶしない"
     },
     "examples": [
       {
@@ -27181,7 +25814,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0906": {
+  "n2_egg_0903": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27193,22 +25826,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0907": {
+  "n2_egg_0904": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "鎮める",
-      "masu": "鎮めます",
-      "te": "鎮めて",
-      "ta": "鎮めた",
-      "nai": "鎮めない"
-    },
     "examples": [
       {
         "ja": "混乱を鎮める",
@@ -27216,7 +25840,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0908": {
+  "n2_egg_0905": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27228,7 +25852,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0909": {
+  "n2_egg_0906": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27238,11 +25862,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "続行する",
-      "masu": "続行します",
-      "te": "続行して",
-      "ta": "続行した",
-      "nai": "続行しない"
+      "dictionary": "芽する",
+      "masu": "芽します",
+      "te": "芽して",
+      "ta": "芽した",
+      "nai": "芽しない"
     },
     "examples": [
       {
@@ -27251,7 +25875,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0910": {
+  "n2_egg_0907": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27261,11 +25885,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "工作する",
-      "masu": "工作します",
-      "te": "工作して",
-      "ta": "工作した",
-      "nai": "工作しない"
+      "dictionary": "鎮めるする",
+      "masu": "鎮めるします",
+      "te": "鎮めるして",
+      "ta": "鎮めるした",
+      "nai": "鎮めるしない"
     },
     "examples": [
       {
@@ -27274,7 +25898,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0911": {
+  "n2_egg_0908": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27286,7 +25910,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0912": {
+  "n2_egg_0909": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27298,7 +25922,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0913": {
+  "n2_egg_0910": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27310,11 +25934,80 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0914": {
+  "n2_egg_0911": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "副・ナ形・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "協会",
+      "masu": "します",
+      "te": "して",
+      "ta": "した",
+      "nai": "しない"
+    },
+    "examples": [
+      {
+        "ja": "頭の中がごちゃごちゃだ",
+        "zh": "腦子裡亂成一團"
+      }
+    ]
+  },
+  "n2_egg_0912": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "誰一人する",
+      "masu": "誰一人します",
+      "te": "誰一人して",
+      "ta": "誰一人した",
+      "nai": "誰一人しない"
+    },
+    "examples": [
+      {
+        "ja": "旧制度から新制度にシフトさせる",
+        "zh": "從舊制度轉換到新制度"
+      }
+    ]
+  },
+  "n2_egg_0913": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "貝する",
+      "masu": "貝します",
+      "te": "貝して",
+      "ta": "貝した",
+      "nai": "貝しない"
+    },
+    "examples": [
+      {
+        "ja": "電波をキャッチする",
+        "zh": "接收電波"
+      }
+    ]
+  },
+  "n2_egg_0914": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "副・自動3",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
     "verbClass": "suru",
@@ -27328,81 +26021,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "頭の中がごちゃごちゃだ",
-        "zh": "腦子裡亂成一團"
-      }
-    ]
-  },
-  "n2_egg_0915": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "シフトする",
-      "masu": "シフトします",
-      "te": "シフトして",
-      "ta": "シフトした",
-      "nai": "シフトしない"
-    },
-    "examples": [
-      {
-        "ja": "旧制度から新制度にシフトさせる",
-        "zh": "從舊制度轉換到新制度"
-      }
-    ]
-  },
-  "n2_egg_0916": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "キャッチする",
-      "masu": "キャッチします",
-      "te": "キャッチして",
-      "ta": "キャッチした",
-      "nai": "キャッチしない"
-    },
-    "examples": [
-      {
-        "ja": "電波をキャッチする",
-        "zh": "接收電波"
-      }
-    ]
-  },
-  "n2_egg_0917": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ざわざわ",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
-    "examples": [
-      {
         "ja": "ざわざわとしていた場内は急に静かになった",
         "zh": "原本吵雜的場內突然安靜了下來"
       }
     ]
   },
-  "n2_egg_0918": {
+  "n2_egg_0915": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27414,7 +26038,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0919": {
+  "n2_egg_0916": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27426,7 +26050,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0920": {
+  "n2_egg_0917": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27438,7 +26062,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0921": {
+  "n2_egg_0918": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27450,7 +26074,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0922": {
+  "n2_egg_0919": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27460,11 +26084,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "味付けする",
-      "masu": "味付けします",
-      "te": "味付けして",
-      "ta": "味付けした",
-      "nai": "味付けしない"
+      "dictionary": "外れする",
+      "masu": "外れします",
+      "te": "外れして",
+      "ta": "外れした",
+      "nai": "外れしない"
     },
     "examples": [
       {
@@ -27473,22 +26097,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0923": {
+  "n2_egg_0920": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "見分ける",
-      "masu": "見分けます",
-      "te": "見分けて",
-      "ta": "見分けた",
-      "nai": "見分けない"
-    },
     "examples": [
       {
         "ja": "色で見分ける",
@@ -27496,7 +26111,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0924": {
+  "n2_egg_0921": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27508,22 +26123,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0925": {
+  "n2_egg_0922": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "打ち上げる",
-      "masu": "打ち上げます",
-      "te": "打ち上げて",
-      "ta": "打ち上げた",
-      "nai": "打ち上げない"
-    },
     "examples": [
       {
         "ja": "花火を打ち上げる",
@@ -27531,7 +26137,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0926": {
+  "n2_egg_0923": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27541,11 +26147,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "伝達する",
-      "masu": "伝達します",
-      "te": "伝達して",
-      "ta": "伝達した",
-      "nai": "伝達しない"
+      "dictionary": "見分けるする",
+      "masu": "見分けるします",
+      "te": "見分けるして",
+      "ta": "見分けるした",
+      "nai": "見分けるしない"
     },
     "examples": [
       {
@@ -27554,7 +26160,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0927": {
+  "n2_egg_0924": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27566,7 +26172,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0928": {
+  "n2_egg_0925": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27576,11 +26182,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "中継する",
-      "masu": "中継します",
-      "te": "中継して",
-      "ta": "中継した",
-      "nai": "中継しない"
+      "dictionary": "打ち上げるする",
+      "masu": "打ち上げるします",
+      "te": "打ち上げるして",
+      "ta": "打ち上げるした",
+      "nai": "打ち上げるしない"
     },
     "examples": [
       {
@@ -27589,7 +26195,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0929": {
+  "n2_egg_0926": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27599,11 +26205,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "憤慨する",
-      "masu": "憤慨します",
-      "te": "憤慨して",
-      "ta": "憤慨した",
-      "nai": "憤慨しない"
+      "dictionary": "伝達する",
+      "masu": "伝達します",
+      "te": "伝達して",
+      "ta": "伝達した",
+      "nai": "伝達しない"
     },
     "examples": [
       {
@@ -27612,7 +26218,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0930": {
+  "n2_egg_0927": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27624,7 +26230,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0931": {
+  "n2_egg_0928": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27636,19 +26242,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0932": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "夕飯のおかず",
-        "zh": "晚餐的菜"
-      }
-    ]
-  },
-  "n2_egg_0933": {
+  "n2_egg_0929": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27660,7 +26254,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0934": {
+  "n2_egg_0930": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27672,22 +26266,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0935": {
+  "n2_egg_0931": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "抜け落ちる",
-      "masu": "抜け落ちます",
-      "te": "抜け落ちて",
-      "ta": "抜け落ちた",
-      "nai": "抜け落ちない"
-    },
     "examples": [
       {
         "ja": "髪の毛が抜け落ちる",
@@ -27695,7 +26280,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0936": {
+  "n2_egg_0932": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27707,7 +26292,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0937": {
+  "n2_egg_0933": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27719,7 +26304,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0938": {
+  "n2_egg_0934": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27731,7 +26316,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0939": {
+  "n2_egg_0935": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27743,7 +26328,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0940": {
+  "n2_egg_0936": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27755,7 +26340,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0941": {
+  "n2_egg_0937": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27765,11 +26350,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "遠回りする",
-      "masu": "遠回りします",
-      "te": "遠回りして",
-      "ta": "遠回りした",
-      "nai": "遠回りしない"
+      "dictionary": "適性する",
+      "masu": "適性します",
+      "te": "適性して",
+      "ta": "適性した",
+      "nai": "適性しない"
     },
     "examples": [
       {
@@ -27778,7 +26363,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0942": {
+  "n2_egg_0938": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27788,11 +26373,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "育成する",
-      "masu": "育成します",
-      "te": "育成して",
-      "ta": "育成した",
-      "nai": "育成しない"
+      "dictionary": "構図する",
+      "masu": "構図します",
+      "te": "構図して",
+      "ta": "構図した",
+      "nai": "構図しない"
     },
     "examples": [
       {
@@ -27801,7 +26386,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0943": {
+  "n2_egg_0939": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27813,22 +26398,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0944": {
+  "n2_egg_0940": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "吸い取る",
-      "masu": "吸い取ります",
-      "te": "吸い取って",
-      "ta": "吸い取った",
-      "nai": "吸い取らない"
-    },
     "examples": [
       {
         "ja": "掃除機でほこりを吸い取る",
@@ -27836,7 +26412,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0945": {
+  "n2_egg_0941": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27848,22 +26424,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0946": {
+  "n2_egg_0942": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "むかつく",
-      "masu": "むかつきます",
-      "te": "むかついて",
-      "ta": "むかついた",
-      "nai": "むかつかない"
-    },
     "examples": [
       {
         "ja": "胸がむかついて吐き気を催す",
@@ -27871,7 +26438,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0947": {
+  "n2_egg_0943": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27881,11 +26448,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "咀嚼する",
-      "masu": "咀嚼します",
-      "te": "咀嚼して",
-      "ta": "咀嚼した",
-      "nai": "咀嚼しない"
+      "dictionary": "攻めする",
+      "masu": "攻めします",
+      "te": "攻めして",
+      "ta": "攻めした",
+      "nai": "攻めしない"
     },
     "examples": [
       {
@@ -27894,7 +26461,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0948": {
+  "n2_egg_0944": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27906,7 +26473,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0949": {
+  "n2_egg_0945": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27918,7 +26485,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0950": {
+  "n2_egg_0946": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27930,7 +26497,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0951": {
+  "n2_egg_0947": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27942,7 +26509,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0952": {
+  "n2_egg_0948": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27954,22 +26521,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0953": {
+  "n2_egg_0949": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "揚げる",
-      "masu": "揚げます",
-      "te": "揚げて",
-      "ta": "揚げた",
-      "nai": "揚げない"
-    },
     "examples": [
       {
         "ja": "天ぷらを揚げる",
@@ -27977,7 +26535,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0954": {
+  "n2_egg_0950": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -27987,7 +26545,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ふんわり",
+      "dictionary": "人前",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -28000,7 +26558,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0955": {
+  "n2_egg_0951": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28012,7 +26570,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0956": {
+  "n2_egg_0952": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28024,7 +26582,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0957": {
+  "n2_egg_0953": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28034,11 +26592,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "展示する",
-      "masu": "展示します",
-      "te": "展示して",
-      "ta": "展示した",
-      "nai": "展示しない"
+      "dictionary": "揚げるする",
+      "masu": "揚げるします",
+      "te": "揚げるして",
+      "ta": "揚げるした",
+      "nai": "揚げるしない"
     },
     "examples": [
       {
@@ -28047,7 +26605,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0958": {
+  "n2_egg_0954": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28059,7 +26617,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0959": {
+  "n2_egg_0955": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28071,7 +26629,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0960": {
+  "n2_egg_0956": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28081,11 +26639,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "分裂する",
-      "masu": "分裂します",
-      "te": "分裂して",
-      "ta": "分裂した",
-      "nai": "分裂しない"
+      "dictionary": "遠方する",
+      "masu": "遠方します",
+      "te": "遠方して",
+      "ta": "遠方した",
+      "nai": "遠方しない"
     },
     "examples": [
       {
@@ -28094,7 +26652,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0961": {
+  "n2_egg_0957": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28106,22 +26664,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0962": {
+  "n2_egg_0958": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "出回る",
-      "masu": "出回ります",
-      "te": "出回って",
-      "ta": "出回った",
-      "nai": "出回らない"
-    },
     "examples": [
       {
         "ja": "新製品が出回る",
@@ -28129,7 +26678,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0963": {
+  "n2_egg_0959": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28141,7 +26690,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0964": {
+  "n2_egg_0960": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28153,7 +26702,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0965": {
+  "n2_egg_0961": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28165,7 +26714,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0966": {
+  "n2_egg_0962": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28175,11 +26724,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "浸す",
-      "masu": "浸します",
-      "te": "浸して",
-      "ta": "浸した",
-      "nai": "浸さない"
+      "dictionary": "出回る",
+      "masu": "出回ります",
+      "te": "出回って",
+      "ta": "出回った",
+      "nai": "出回らない"
     },
     "examples": [
       {
@@ -28188,7 +26737,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0967": {
+  "n2_egg_0963": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28198,11 +26747,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "退場する",
-      "masu": "退場します",
-      "te": "退場して",
-      "ta": "退場した",
-      "nai": "退場しない"
+      "dictionary": "ごくごくする",
+      "masu": "ごくごくします",
+      "te": "ごくごくして",
+      "ta": "ごくごくした",
+      "nai": "ごくごくしない"
     },
     "examples": [
       {
@@ -28211,7 +26760,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0968": {
+  "n2_egg_0964": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28223,7 +26772,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0969": {
+  "n2_egg_0965": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28235,7 +26784,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0970": {
+  "n2_egg_0966": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28247,7 +26796,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0971": {
+  "n2_egg_0967": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28259,7 +26808,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0972": {
+  "n2_egg_0968": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28269,16 +26818,79 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "考察する",
-      "masu": "考察します",
-      "te": "考察して",
-      "ta": "考察した",
-      "nai": "考察しない"
+      "dictionary": "掟する",
+      "masu": "掟します",
+      "te": "掟して",
+      "ta": "掟した",
+      "nai": "掟しない"
     },
     "examples": [
       {
         "ja": "宗教の歴史的意味を考察する",
         "zh": "考察宗教的歷史意義"
+      }
+    ]
+  },
+  "n2_egg_0969": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "せっせとする",
+      "masu": "せっせとします",
+      "te": "せっせとして",
+      "ta": "せっせとした",
+      "nai": "せっせとしない"
+    },
+    "examples": [
+      {
+        "ja": "人気ドラマに出演する",
+        "zh": "出演人氣電視劇"
+      }
+    ]
+  },
+  "n2_egg_0970": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "準備に取りかかる",
+        "zh": "著手做準備工作"
+      }
+    ]
+  },
+  "n2_egg_0971": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動2",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "努力が結果に表れる",
+        "zh": "努力有了成果"
+      }
+    ]
+  },
+  "n2_egg_0972": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "山の麓",
+        "zh": "山腳下"
       }
     ]
   },
@@ -28300,105 +26912,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "人気ドラマに出演する",
-        "zh": "出演人氣電視劇"
-      }
-    ]
-  },
-  "n2_egg_0974": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取りかかる",
-      "masu": "取りかかります",
-      "te": "取りかかって",
-      "ta": "取りかかった",
-      "nai": "取りかからない"
-    },
-    "examples": [
-      {
-        "ja": "準備に取りかかる",
-        "zh": "著手做準備工作"
-      }
-    ]
-  },
-  "n2_egg_0975": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "偽ブランド",
-        "zh": "仿冒名牌"
-      }
-    ]
-  },
-  "n2_egg_0976": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "表れる",
-      "masu": "表れます",
-      "te": "表れて",
-      "ta": "表れた",
-      "nai": "表れない"
-    },
-    "examples": [
-      {
-        "ja": "努力が結果に表れる",
-        "zh": "努力有了成果"
-      }
-    ]
-  },
-  "n2_egg_0977": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "山の麓",
-        "zh": "山腳下"
-      }
-    ]
-  },
-  "n2_egg_0978": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "退出する",
-      "masu": "退出します",
-      "te": "退出して",
-      "ta": "退出した",
-      "nai": "退出しない"
-    },
-    "examples": [
-      {
         "ja": "規則を守らずに発言する者を退出させる",
         "zh": "讓不遵守規則進行發言的人退場"
       }
     ]
   },
-  "n2_egg_0979": {
+  "n2_egg_0974": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28410,7 +26929,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0980": {
+  "n2_egg_0975": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28420,11 +26939,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "リクエストする",
-      "masu": "リクエストします",
-      "te": "リクエストして",
-      "ta": "リクエストした",
-      "nai": "リクエストしない"
+      "dictionary": "ブランドする",
+      "masu": "ブランドします",
+      "te": "ブランドして",
+      "ta": "ブランドした",
+      "nai": "ブランドしない"
     },
     "examples": [
       {
@@ -28433,7 +26952,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0981": {
+  "n2_egg_0976": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28443,11 +26962,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "染み込む",
-      "masu": "染み込みます",
-      "te": "染み込んで",
-      "ta": "染み込んだ",
-      "nai": "染み込まない"
+      "dictionary": "表れる",
+      "masu": "表れります",
+      "te": "表れって",
+      "ta": "表れった",
+      "nai": "表れらない"
     },
     "examples": [
       {
@@ -28456,7 +26975,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0982": {
+  "n2_egg_0977": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28466,11 +26985,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "駆け引きする",
-      "masu": "駆け引きします",
-      "te": "駆け引きして",
-      "ta": "駆け引きした",
-      "nai": "駆け引きしない"
+      "dictionary": "麓する",
+      "masu": "麓します",
+      "te": "麓して",
+      "ta": "麓した",
+      "nai": "麓しない"
     },
     "examples": [
       {
@@ -28479,7 +26998,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0983": {
+  "n2_egg_0978": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28491,7 +27010,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0984": {
+  "n2_egg_0979": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28503,7 +27022,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0985": {
+  "n2_egg_0980": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28513,11 +27032,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "接客する",
-      "masu": "接客します",
-      "te": "接客して",
-      "ta": "接客した",
-      "nai": "接客しない"
+      "dictionary": "リクエストする",
+      "masu": "リクエストします",
+      "te": "リクエストして",
+      "ta": "リクエストした",
+      "nai": "リクエストしない"
     },
     "examples": [
       {
@@ -28526,7 +27045,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0986": {
+  "n2_egg_0981": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28538,7 +27057,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0987": {
+  "n2_egg_0982": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28548,11 +27067,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "抱っこする",
-      "masu": "抱っこします",
-      "te": "抱っこして",
-      "ta": "抱っこした",
-      "nai": "抱っこしない"
+      "dictionary": "駆け引きする",
+      "masu": "駆け引きします",
+      "te": "駆け引きして",
+      "ta": "駆け引きした",
+      "nai": "駆け引きしない"
     },
     "examples": [
       {
@@ -28561,7 +27080,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0988": {
+  "n2_egg_0983": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28573,7 +27092,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0989": {
+  "n2_egg_0984": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28585,22 +27104,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0990": {
+  "n2_egg_0985": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "言いつける",
-      "masu": "言いつけます",
-      "te": "言いつけて",
-      "ta": "言いつけた",
-      "nai": "言いつけない"
-    },
     "examples": [
       {
         "ja": "仕事を言いつける",
@@ -28608,7 +27118,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0991": {
+  "n2_egg_0986": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28620,7 +27130,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0992": {
+  "n2_egg_0987": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28632,7 +27142,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0993": {
+  "n2_egg_0988": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28644,7 +27154,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0994": {
+  "n2_egg_0989": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28656,7 +27166,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0995": {
+  "n2_egg_0990": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28668,7 +27178,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0996": {
+  "n2_egg_0991": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28678,11 +27188,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "指図する",
-      "masu": "指図します",
-      "te": "指図して",
-      "ta": "指図した",
-      "nai": "指図しない"
+      "dictionary": "近しいする",
+      "masu": "近しいします",
+      "te": "近しいして",
+      "ta": "近しいした",
+      "nai": "近しいしない"
     },
     "examples": [
       {
@@ -28691,7 +27201,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0997": {
+  "n2_egg_0992": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28701,7 +27211,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "しんと",
+      "dictionary": "ティッシュ",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -28714,7 +27224,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0998": {
+  "n2_egg_0993": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28726,22 +27236,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0999": {
+  "n2_egg_0994": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "腫れる",
-      "masu": "腫れます",
-      "te": "腫れて",
-      "ta": "腫れた",
-      "nai": "腫れない"
-    },
     "examples": [
       {
         "ja": "目が腫れる",
@@ -28749,7 +27250,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1000": {
+  "n2_egg_0995": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28761,7 +27262,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1001": {
+  "n2_egg_0996": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28773,7 +27274,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1002": {
+  "n2_egg_0997": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28785,7 +27286,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1003": {
+  "n2_egg_0998": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28797,7 +27298,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1004": {
+  "n2_egg_0999": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28809,7 +27310,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1005": {
+  "n2_egg_1000": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28821,7 +27322,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1006": {
+  "n2_egg_1001": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28833,7 +27334,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1007": {
+  "n2_egg_1002": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28843,16 +27344,89 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "発散する",
-      "masu": "発散します",
-      "te": "発散して",
-      "ta": "発散した",
-      "nai": "発散しない"
+      "dictionary": "逆効果する",
+      "masu": "逆効果します",
+      "te": "逆効果して",
+      "ta": "逆効果した",
+      "nai": "逆効果しない"
     },
     "examples": [
       {
         "ja": "ストレスを発散する",
         "zh": "消除壓力"
+      }
+    ]
+  },
+  "n2_egg_1003": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "反面する",
+      "masu": "反面します",
+      "te": "反面して",
+      "ta": "反面した",
+      "nai": "反面しない"
+    },
+    "examples": [
+      {
+        "ja": "息抜きにコーヒーを飲む",
+        "zh": "喝杯咖啡休息一下"
+      }
+    ]
+  },
+  "n2_egg_1004": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形",
+    "examples": [
+      {
+        "ja": "書類から書類へ機械的に目を通す",
+        "zh": "機械地瀏覽著文件"
+      }
+    ]
+  },
+  "n2_egg_1005": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "高校野球の名門校",
+        "zh": "高中棒球比賽的名校"
+      }
+    ]
+  },
+  "n2_egg_1006": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "クラスの名簿をチェックする",
+        "zh": "檢查班級名冊"
+      }
+    ]
+  },
+  "n2_egg_1007": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "乗り換える",
+        "zh": "換乘"
       }
     ]
   },
@@ -28874,94 +27448,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "息抜きにコーヒーを飲む",
-        "zh": "喝杯咖啡休息一下"
-      }
-    ]
-  },
-  "n2_egg_1009": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
-    "examples": [
-      {
-        "ja": "書類から書類へ機械的に目を通す",
-        "zh": "機械地瀏覽著文件"
-      }
-    ]
-  },
-  "n2_egg_1010": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "高校野球の名門校",
-        "zh": "高中棒球比賽的名校"
-      }
-    ]
-  },
-  "n2_egg_1011": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "クラスの名簿をチェックする",
-        "zh": "檢查班級名冊"
-      }
-    ]
-  },
-  "n2_egg_1012": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "換える",
-      "masu": "換えます",
-      "te": "換えて",
-      "ta": "換えた",
-      "nai": "換えない"
-    },
-    "examples": [
-      {
-        "ja": "乗り換える",
-        "zh": "換乘"
-      }
-    ]
-  },
-  "n2_egg_1013": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "比例する",
-      "masu": "比例します",
-      "te": "比例して",
-      "ta": "比例した",
-      "nai": "比例しない"
-    },
-    "examples": [
-      {
         "ja": "比例尺",
         "zh": "比例尺"
       }
     ]
   },
-  "n2_egg_1014": {
+  "n2_egg_1009": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28973,7 +27465,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1015": {
+  "n2_egg_1010": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -28983,11 +27475,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "点検する",
-      "masu": "点検します",
-      "te": "点検して",
-      "ta": "点検した",
-      "nai": "点検しない"
+      "dictionary": "名門する",
+      "masu": "名門します",
+      "te": "名門して",
+      "ta": "名門した",
+      "nai": "名門しない"
     },
     "examples": [
       {
@@ -28996,7 +27488,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1016": {
+  "n2_egg_1011": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29008,7 +27500,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1017": {
+  "n2_egg_1012": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29020,7 +27512,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1018": {
+  "n2_egg_1013": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29032,22 +27524,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1019": {
+  "n2_egg_1014": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "思い立つ",
-      "masu": "思い立ちます",
-      "te": "思い立って",
-      "ta": "思い立った",
-      "nai": "思い立たない"
-    },
     "examples": [
       {
         "ja": "急に旅行に思い立つ",
@@ -29055,22 +27538,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1020": {
+  "n2_egg_1015": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "結う",
-      "masu": "結います",
-      "te": "結って",
-      "ta": "結った",
-      "nai": "結わない"
-    },
     "examples": [
       {
         "ja": "垣根を結う",
@@ -29078,7 +27552,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1021": {
+  "n2_egg_1016": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29090,7 +27564,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1022": {
+  "n2_egg_1017": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29102,7 +27576,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1023": {
+  "n2_egg_1018": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29112,11 +27586,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "保障する",
-      "masu": "保障します",
-      "te": "保障して",
-      "ta": "保障した",
-      "nai": "保障しない"
+      "dictionary": "隠れ家する",
+      "masu": "隠れ家します",
+      "te": "隠れ家して",
+      "ta": "隠れ家した",
+      "nai": "隠れ家しない"
     },
     "examples": [
       {
@@ -29125,7 +27599,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1024": {
+  "n2_egg_1019": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29137,7 +27611,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1025": {
+  "n2_egg_1020": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29147,11 +27621,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "観戦する",
-      "masu": "観戦します",
-      "te": "観戦して",
-      "ta": "観戦した",
-      "nai": "観戦しない"
+      "dictionary": "結うする",
+      "masu": "結うします",
+      "te": "結うして",
+      "ta": "結うした",
+      "nai": "結うしない"
     },
     "examples": [
       {
@@ -29160,7 +27634,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1026": {
+  "n2_egg_1021": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29172,7 +27646,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1027": {
+  "n2_egg_1022": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29184,7 +27658,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1028": {
+  "n2_egg_1023": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29196,22 +27670,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1029": {
+  "n2_egg_1024": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "しびれる",
-      "masu": "しびれます",
-      "te": "しびれて",
-      "ta": "しびれた",
-      "nai": "しびれない"
-    },
     "examples": [
       {
         "ja": "足がしびれる",
@@ -29219,7 +27684,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1030": {
+  "n2_egg_1025": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29231,7 +27696,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1031": {
+  "n2_egg_1026": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29243,7 +27708,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1032": {
+  "n2_egg_1027": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29252,6 +27717,99 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "高度のテクニックを要する作業",
         "zh": "需要高超技術的作業"
+      }
+    ]
+  },
+  "n2_egg_1028": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "本社する",
+      "masu": "本社します",
+      "te": "本社して",
+      "ta": "本社した",
+      "nai": "本社しない"
+    },
+    "examples": [
+      {
+        "ja": "志望校",
+        "zh": "志願報考的學校"
+      }
+    ]
+  },
+  "n2_egg_1029": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "しびれるする",
+      "masu": "しびれるします",
+      "te": "しびれるして",
+      "ta": "しびれるした",
+      "nai": "しびれるしない"
+    },
+    "examples": [
+      {
+        "ja": "解決法を模索する",
+        "zh": "摸索解決的方法"
+      }
+    ]
+  },
+  "n2_egg_1030": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "味わいする",
+      "masu": "味わいします",
+      "te": "味わいして",
+      "ta": "味わいした",
+      "nai": "味わいしない"
+    },
+    "examples": [
+      {
+        "ja": "海外に移住する",
+        "zh": "移居海外"
+      }
+    ]
+  },
+  "n2_egg_1031": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "個々の意見を聞いてみよう",
+        "zh": "讓我們聽聽每個人的意見"
+      }
+    ]
+  },
+  "n2_egg_1032": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "これらが当社の主力商品です",
+        "zh": "這些是本公司的主要商品"
       }
     ]
   },
@@ -29273,66 +27831,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "志望校",
-        "zh": "志願報考的學校"
+        "ja": "ごみを分別する",
+        "zh": "垃圾分類"
       }
     ]
   },
   "n2_egg_1034": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "模索する",
-      "masu": "模索します",
-      "te": "模索して",
-      "ta": "模索した",
-      "nai": "模索しない"
-    },
+    "sourcePos": "副・名",
     "examples": [
       {
-        "ja": "解決法を模索する",
-        "zh": "摸索解決的方法"
+        "ja": "今時の若者ならみんな持っている",
+        "zh": "現在的年輕人幾乎人手一個"
       }
     ]
   },
   "n2_egg_1035": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "移住する",
-      "masu": "移住します",
-      "te": "移住して",
-      "ta": "移住した",
-      "nai": "移住しない"
-    },
+    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "海外に移住する",
-        "zh": "移居海外"
+        "ja": "ずうずうしく行列に割り込む",
+        "zh": "厚著臉皮插隊"
       }
     ]
   },
   "n2_egg_1036": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "expression",
+    "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "sourcePos": "成句",
     "examples": [
       {
-        "ja": "個々の意見を聞いてみよう",
-        "zh": "讓我們聽聽每個人的意見"
+        "ja": "すずしい顔で仕事をこなす",
+        "zh": "面不改色地完成工作"
       }
     ]
   },
@@ -29343,8 +27879,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "これらが当社の主力商品です",
-        "zh": "這些是本公司的主要商品"
+        "ja": "ニューヨークタイムズ",
+        "zh": "紐約時報"
       }
     ]
   },
@@ -29352,7 +27888,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
+    "sourcePos": "他動3・名",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -29366,83 +27902,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "ごみを分別する",
-        "zh": "垃圾分類"
-      }
-    ]
-  },
-  "n2_egg_1039": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・名",
-    "examples": [
-      {
-        "ja": "今時の若者ならみんな持っている",
-        "zh": "現在的年輕人幾乎人手一個"
-      }
-    ]
-  },
-  "n2_egg_1040": {
-    "pos": "i_adjective",
-    "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
-    "examples": [
-      {
-        "ja": "ずうずうしく行列に割り込む",
-        "zh": "厚著臉皮插隊"
-      }
-    ]
-  },
-  "n2_egg_1041": {
-    "pos": "expression",
-    "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "成句",
-    "examples": [
-      {
-        "ja": "すずしい顔で仕事をこなす",
-        "zh": "面不改色地完成工作"
-      }
-    ]
-  },
-  "n2_egg_1042": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ニューヨークタイムズ",
-        "zh": "紐約時報"
-      }
-    ]
-  },
-  "n2_egg_1043": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "分割する",
-      "masu": "分割します",
-      "te": "分割して",
-      "ta": "分割した",
-      "nai": "分割しない"
-    },
-    "examples": [
-      {
         "ja": "分割して統治する",
         "zh": "分而治之"
       }
     ]
   },
-  "n2_egg_1044": {
+  "n2_egg_1039": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29454,22 +27919,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1045": {
+  "n2_egg_1040": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "突き動かす",
-      "masu": "突き動かします",
-      "te": "突き動かして",
-      "ta": "突き動かした",
-      "nai": "突き動かさない"
-    },
     "examples": [
       {
         "ja": "恩師の一言に突き動かされて博士論文を完成した",
@@ -29477,7 +27933,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1046": {
+  "n2_egg_1041": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29487,11 +27943,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "制約する",
-      "masu": "制約します",
-      "te": "制約して",
-      "ta": "制約した",
-      "nai": "制約しない"
+      "dictionary": "涼しい顔する",
+      "masu": "涼しい顔します",
+      "te": "涼しい顔して",
+      "ta": "涼しい顔した",
+      "nai": "涼しい顔しない"
     },
     "examples": [
       {
@@ -29500,7 +27956,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1047": {
+  "n2_egg_1042": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29512,7 +27968,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1048": {
+  "n2_egg_1043": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29524,7 +27980,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1049": {
+  "n2_egg_1044": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29534,11 +27990,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "紅葉する",
-      "masu": "紅葉します",
-      "te": "紅葉して",
-      "ta": "紅葉した",
-      "nai": "紅葉しない"
+      "dictionary": "蜂する",
+      "masu": "蜂します",
+      "te": "蜂して",
+      "ta": "蜂した",
+      "nai": "蜂しない"
     },
     "examples": [
       {
@@ -29547,7 +28003,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1050": {
+  "n2_egg_1045": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29559,7 +28015,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1051": {
+  "n2_egg_1046": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29571,7 +28027,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1052": {
+  "n2_egg_1047": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29583,7 +28039,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1053": {
+  "n2_egg_1048": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29595,7 +28051,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1054": {
+  "n2_egg_1049": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29605,11 +28061,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "栽培する",
-      "masu": "栽培します",
-      "te": "栽培して",
-      "ta": "栽培した",
-      "nai": "栽培しない"
+      "dictionary": "紅葉する",
+      "masu": "紅葉します",
+      "te": "紅葉して",
+      "ta": "紅葉した",
+      "nai": "紅葉しない"
     },
     "examples": [
       {
@@ -29618,7 +28074,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1055": {
+  "n2_egg_1050": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29630,7 +28086,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1056": {
+  "n2_egg_1051": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29642,7 +28098,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1057": {
+  "n2_egg_1052": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29654,7 +28110,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1058": {
+  "n2_egg_1053": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29666,22 +28122,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1059": {
+  "n2_egg_1054": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "刻み込む",
-      "masu": "刻み込みます",
-      "te": "刻み込んで",
-      "ta": "刻み込んだ",
-      "nai": "刻み込まない"
-    },
     "examples": [
       {
         "ja": "模様を刻み込む",
@@ -29689,7 +28136,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1060": {
+  "n2_egg_1055": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29701,7 +28148,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1061": {
+  "n2_egg_1056": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29711,11 +28158,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "直結する",
-      "masu": "直結します",
-      "te": "直結して",
-      "ta": "直結した",
-      "nai": "直結しない"
+      "dictionary": "予選する",
+      "masu": "予選します",
+      "te": "予選して",
+      "ta": "予選した",
+      "nai": "予選しない"
     },
     "examples": [
       {
@@ -29724,22 +28171,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1062": {
+  "n2_egg_1057": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "取り寄せる",
-      "masu": "取り寄せます",
-      "te": "取り寄せて",
-      "ta": "取り寄せた",
-      "nai": "取り寄せない"
-    },
     "examples": [
       {
         "ja": "小皿を手元に取り寄せる",
@@ -29747,7 +28185,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1063": {
+  "n2_egg_1058": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29759,7 +28197,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1064": {
+  "n2_egg_1059": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29771,22 +28209,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1065": {
+  "n2_egg_1060": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見回る",
-      "masu": "見回ります",
-      "te": "見回って",
-      "ta": "見回った",
-      "nai": "見回らない"
-    },
     "examples": [
       {
         "ja": "ビルの中を見回る",
@@ -29794,7 +28223,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1066": {
+  "n2_egg_1061": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29806,7 +28235,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1067": {
+  "n2_egg_1062": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29818,7 +28247,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1068": {
+  "n2_egg_1063": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29830,7 +28259,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1069": {
+  "n2_egg_1064": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29842,7 +28271,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1070": {
+  "n2_egg_1065": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29852,11 +28281,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "横取りする",
-      "masu": "横取りします",
-      "te": "横取りして",
-      "ta": "横取りした",
-      "nai": "横取りしない"
+      "dictionary": "見回るする",
+      "masu": "見回るします",
+      "te": "見回るして",
+      "ta": "見回るした",
+      "nai": "見回るしない"
     },
     "examples": [
       {
@@ -29865,7 +28294,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1071": {
+  "n2_egg_1066": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29875,11 +28304,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "突起する",
-      "masu": "突起します",
-      "te": "突起して",
-      "ta": "突起した",
-      "nai": "突起しない"
+      "dictionary": "論理的する",
+      "masu": "論理的します",
+      "te": "論理的して",
+      "ta": "論理的した",
+      "nai": "論理的しない"
     },
     "examples": [
       {
@@ -29888,7 +28317,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1072": {
+  "n2_egg_1067": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29900,7 +28329,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1073": {
+  "n2_egg_1068": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29912,7 +28341,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1074": {
+  "n2_egg_1069": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29924,7 +28353,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1075": {
+  "n2_egg_1070": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29936,7 +28365,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1076": {
+  "n2_egg_1071": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29948,7 +28377,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1077": {
+  "n2_egg_1072": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29960,7 +28389,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1078": {
+  "n2_egg_1073": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29972,7 +28401,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1079": {
+  "n2_egg_1074": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29984,7 +28413,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1080": {
+  "n2_egg_1075": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -29996,7 +28425,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1081": {
+  "n2_egg_1076": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30008,7 +28437,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1082": {
+  "n2_egg_1077": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30020,7 +28449,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1083": {
+  "n2_egg_1078": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30032,7 +28461,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1084": {
+  "n2_egg_1079": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30044,7 +28473,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1085": {
+  "n2_egg_1080": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30056,7 +28485,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1086": {
+  "n2_egg_1081": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30066,11 +28495,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "短縮する",
-      "masu": "短縮します",
-      "te": "短縮して",
-      "ta": "短縮した",
-      "nai": "短縮しない"
+      "dictionary": "産物する",
+      "masu": "産物します",
+      "te": "産物して",
+      "ta": "産物した",
+      "nai": "産物しない"
     },
     "examples": [
       {
@@ -30079,22 +28508,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1087": {
+  "n2_egg_1082": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "積み重なる",
-      "masu": "積み重なります",
-      "te": "積み重なって",
-      "ta": "積み重なった",
-      "nai": "積み重ならない"
-    },
     "examples": [
       {
         "ja": "落ち葉が積み重なる",
@@ -30102,7 +28522,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1088": {
+  "n2_egg_1083": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30114,7 +28534,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1089": {
+  "n2_egg_1084": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30126,7 +28546,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1090": {
+  "n2_egg_1085": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30138,7 +28558,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1091": {
+  "n2_egg_1086": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30148,11 +28568,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "当惑する",
-      "masu": "当惑します",
-      "te": "当惑して",
-      "ta": "当惑した",
-      "nai": "当惑しない"
+      "dictionary": "短縮する",
+      "masu": "短縮します",
+      "te": "短縮して",
+      "ta": "短縮した",
+      "nai": "短縮しない"
     },
     "examples": [
       {
@@ -30161,7 +28581,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1092": {
+  "n2_egg_1087": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30173,7 +28593,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1093": {
+  "n2_egg_1088": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30185,7 +28605,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1094": {
+  "n2_egg_1089": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30197,7 +28617,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1095": {
+  "n2_egg_1090": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30209,7 +28629,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1096": {
+  "n2_egg_1091": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30221,7 +28641,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1097": {
+  "n2_egg_1092": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30233,7 +28653,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1098": {
+  "n2_egg_1093": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30245,7 +28665,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1099": {
+  "n2_egg_1094": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30255,11 +28675,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "自作する",
-      "masu": "自作します",
-      "te": "自作して",
-      "ta": "自作した",
-      "nai": "自作しない"
+      "dictionary": "オフする",
+      "masu": "オフします",
+      "te": "オフして",
+      "ta": "オフした",
+      "nai": "オフしない"
     },
     "examples": [
       {
@@ -30268,19 +28688,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1100": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "親切なのが彼の長所だ",
-        "zh": "熱心腸是他的優點"
-      }
-    ]
-  },
-  "n2_egg_1101": {
+  "n2_egg_1095": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30292,7 +28700,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1102": {
+  "n2_egg_1096": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30304,7 +28712,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1103": {
+  "n2_egg_1097": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30316,7 +28724,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1104": {
+  "n2_egg_1098": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30326,11 +28734,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "試行錯誤する",
-      "masu": "試行錯誤します",
-      "te": "試行錯誤して",
-      "ta": "試行錯誤した",
-      "nai": "試行錯誤しない"
+      "dictionary": "甘みする",
+      "masu": "甘みします",
+      "te": "甘みして",
+      "ta": "甘みした",
+      "nai": "甘みしない"
     },
     "examples": [
       {
@@ -30339,22 +28747,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1105": {
+  "n2_egg_1099": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "傷む",
-      "masu": "傷みます",
-      "te": "傷んで",
-      "ta": "傷んだ",
-      "nai": "傷まない"
-    },
     "examples": [
       {
         "ja": "屋根が傷む",
@@ -30362,7 +28761,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1106": {
+  "n2_egg_1100": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30374,7 +28773,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1107": {
+  "n2_egg_1101": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30384,11 +28783,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出店する",
-      "masu": "出店します",
-      "te": "出店して",
-      "ta": "出店した",
-      "nai": "出店しない"
+      "dictionary": "白黒する",
+      "masu": "白黒します",
+      "te": "白黒して",
+      "ta": "白黒した",
+      "nai": "白黒しない"
     },
     "examples": [
       {
@@ -30397,7 +28796,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1108": {
+  "n2_egg_1102": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30409,7 +28808,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1109": {
+  "n2_egg_1103": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30421,7 +28820,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1110": {
+  "n2_egg_1104": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30433,7 +28832,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1111": {
+  "n2_egg_1105": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30445,22 +28844,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1112": {
+  "n2_egg_1106": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "かがむ",
-      "masu": "かがみます",
-      "te": "かがんで",
-      "ta": "かがんだ",
-      "nai": "かがまない"
-    },
     "examples": [
       {
         "ja": "かがんで歩く",
@@ -30468,7 +28858,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1113": {
+  "n2_egg_1107": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30480,7 +28870,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1114": {
+  "n2_egg_1108": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30490,11 +28880,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "公演する",
-      "masu": "公演します",
-      "te": "公演して",
-      "ta": "公演した",
-      "nai": "公演しない"
+      "dictionary": "暦する",
+      "masu": "暦します",
+      "te": "暦して",
+      "ta": "暦した",
+      "nai": "暦しない"
     },
     "examples": [
       {
@@ -30503,7 +28893,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1115": {
+  "n2_egg_1109": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30515,7 +28905,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1116": {
+  "n2_egg_1110": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30527,7 +28917,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1117": {
+  "n2_egg_1111": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30537,11 +28927,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "勘定する",
-      "masu": "勘定します",
-      "te": "勘定して",
-      "ta": "勘定した",
-      "nai": "勘定しない"
+      "dictionary": "受け身する",
+      "masu": "受け身します",
+      "te": "受け身して",
+      "ta": "受け身した",
+      "nai": "受け身しない"
     },
     "examples": [
       {
@@ -30550,7 +28940,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1118": {
+  "n2_egg_1112": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30562,7 +28952,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1119": {
+  "n2_egg_1113": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30574,7 +28964,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1120": {
+  "n2_egg_1114": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30586,7 +28976,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1121": {
+  "n2_egg_1115": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30598,7 +28988,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1122": {
+  "n2_egg_1116": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30610,7 +29000,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1123": {
+  "n2_egg_1117": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30622,7 +29012,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1124": {
+  "n2_egg_1118": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30634,7 +29024,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1125": {
+  "n2_egg_1119": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30646,7 +29036,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1126": {
+  "n2_egg_1120": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30658,7 +29048,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1127": {
+  "n2_egg_1121": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30670,7 +29060,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1128": {
+  "n2_egg_1122": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30682,7 +29072,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1129": {
+  "n2_egg_1123": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30692,11 +29082,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "選抜する",
-      "masu": "選抜します",
-      "te": "選抜して",
-      "ta": "選抜した",
-      "nai": "選抜しない"
+      "dictionary": "依然する",
+      "masu": "依然します",
+      "te": "依然して",
+      "ta": "依然した",
+      "nai": "依然しない"
     },
     "examples": [
       {
@@ -30705,7 +29095,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1130": {
+  "n2_egg_1124": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30717,7 +29107,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1131": {
+  "n2_egg_1125": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30727,11 +29117,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "アレンジする",
-      "masu": "アレンジします",
-      "te": "アレンジして",
-      "ta": "アレンジした",
-      "nai": "アレンジしない"
+      "dictionary": "隣人する",
+      "masu": "隣人します",
+      "te": "隣人して",
+      "ta": "隣人した",
+      "nai": "隣人しない"
     },
     "examples": [
       {
@@ -30740,7 +29130,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1132": {
+  "n2_egg_1126": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30750,11 +29140,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "就寝する",
-      "masu": "就寝します",
-      "te": "就寝して",
-      "ta": "就寝した",
-      "nai": "就寝しない"
+      "dictionary": "根気する",
+      "masu": "根気します",
+      "te": "根気して",
+      "ta": "根気した",
+      "nai": "根気しない"
     },
     "examples": [
       {
@@ -30763,7 +29153,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1133": {
+  "n2_egg_1127": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30775,7 +29165,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1134": {
+  "n2_egg_1128": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30785,11 +29175,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "声援する",
-      "masu": "声援します",
-      "te": "声援して",
-      "ta": "声援した",
-      "nai": "声援しない"
+      "dictionary": "木造する",
+      "masu": "木造します",
+      "te": "木造して",
+      "ta": "木造した",
+      "nai": "木造しない"
     },
     "examples": [
       {
@@ -30798,7 +29188,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1135": {
+  "n2_egg_1129": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30810,7 +29200,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1136": {
+  "n2_egg_1130": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30822,22 +29212,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1137": {
+  "n2_egg_1131": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "使い果たす",
-      "masu": "使い果たします",
-      "te": "使い果たして",
-      "ta": "使い果たした",
-      "nai": "使い果たさない"
-    },
     "examples": [
       {
         "ja": "燃料を使い果たす",
@@ -30845,7 +29226,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1138": {
+  "n2_egg_1132": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30857,7 +29238,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1139": {
+  "n2_egg_1133": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30867,11 +29248,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "気兼ねする",
-      "masu": "気兼ねします",
-      "te": "気兼ねして",
-      "ta": "気兼ねした",
-      "nai": "気兼ねしない"
+      "dictionary": "多額する",
+      "masu": "多額します",
+      "te": "多額して",
+      "ta": "多額した",
+      "nai": "多額しない"
     },
     "examples": [
       {
@@ -30880,7 +29261,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1140": {
+  "n2_egg_1134": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -30890,16 +29271,92 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "後戻りする",
-      "masu": "後戻りします",
-      "te": "後戻りして",
-      "ta": "後戻りした",
-      "nai": "後戻りしない"
+      "dictionary": "声援する",
+      "masu": "声援します",
+      "te": "声援して",
+      "ta": "声援した",
+      "nai": "声援しない"
     },
     "examples": [
       {
         "ja": "今来た道を後戻りして捜す",
         "zh": "沿著剛才來的路回去找"
+      }
+    ]
+  },
+  "n2_egg_1135": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動2",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "汗がにじみ出る",
+        "zh": "滲出汗來"
+      }
+    ]
+  },
+  "n2_egg_1136": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "単身赴任",
+        "zh": "隻身赴任"
+      }
+    ]
+  },
+  "n2_egg_1137": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "手を差し伸べる",
+        "zh": "伸出手；伸出援手"
+      }
+    ]
+  },
+  "n2_egg_1138": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "学歴コンプレックス",
+        "zh": "因學歷低而感到自卑"
+      }
+    ]
+  },
+  "n2_egg_1139": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "少量でも死に至る猛毒",
+        "zh": "即使是很少的量也能致死的劇毒"
+      }
+    ]
+  },
+  "n2_egg_1140": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "含みのある言い方をする",
+        "zh": "話中有話"
       }
     ]
   },
@@ -30921,129 +29378,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "汗がにじみ出る",
-        "zh": "滲出汗來"
-      }
-    ]
-  },
-  "n2_egg_1142": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "単身赴任",
-        "zh": "隻身赴任"
-      }
-    ]
-  },
-  "n2_egg_1143": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "差し伸べる",
-      "masu": "差し伸べます",
-      "te": "差し伸べて",
-      "ta": "差し伸べた",
-      "nai": "差し伸べない"
-    },
-    "examples": [
-      {
-        "ja": "手を差し伸べる",
-        "zh": "伸出手；伸出援手"
-      }
-    ]
-  },
-  "n2_egg_1144": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "学歴コンプレックス",
-        "zh": "因學歷低而感到自卑"
-      }
-    ]
-  },
-  "n2_egg_1145": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "少量でも死に至る猛毒",
-        "zh": "即使是很少的量也能致死的劇毒"
-      }
-    ]
-  },
-  "n2_egg_1146": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "威張る",
-      "masu": "威張ります",
-      "te": "威張って",
-      "ta": "威張った",
-      "nai": "威張らない"
-    },
-    "examples": [
-      {
-        "ja": "そんなことは威張れた話ではない",
-        "zh": "那點事根本不值得吹"
-      }
-    ]
-  },
-  "n2_egg_1147": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "含みのある言い方をする",
-        "zh": "話中有話"
-      }
-    ]
-  },
-  "n2_egg_1148": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動2",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "ぶれる",
-      "masu": "ぶれます",
-      "te": "ぶれて",
-      "ta": "ぶれた",
-      "nai": "ぶれない"
-    },
-    "examples": [
-      {
         "ja": "観測位置がぶれる",
         "zh": "觀測位置偏移"
       }
     ]
   },
-  "n2_egg_1149": {
+  "n2_egg_1142": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31055,7 +29395,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1150": {
+  "n2_egg_1143": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31067,7 +29407,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1151": {
+  "n2_egg_1144": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31079,7 +29419,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1152": {
+  "n2_egg_1145": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31091,7 +29431,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1153": {
+  "n2_egg_1146": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31103,7 +29443,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1154": {
+  "n2_egg_1147": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31115,7 +29455,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1155": {
+  "n2_egg_1148": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31125,11 +29465,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "ichidan",
     "verbClassLabel": "一段動詞",
     "forms": {
-      "dictionary": "追い求める",
-      "masu": "追い求めます",
-      "te": "追い求めて",
-      "ta": "追い求めた",
-      "nai": "追い求めない"
+      "dictionary": "ぶれる",
+      "masu": "ぶれます",
+      "te": "ぶれて",
+      "ta": "ぶれた",
+      "nai": "ぶれない"
     },
     "examples": [
       {
@@ -31138,7 +29478,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1156": {
+  "n2_egg_1149": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31150,7 +29490,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1157": {
+  "n2_egg_1150": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31162,7 +29502,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1158": {
+  "n2_egg_1151": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31174,7 +29514,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1159": {
+  "n2_egg_1152": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31186,7 +29526,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1160": {
+  "n2_egg_1153": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31198,7 +29538,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1161": {
+  "n2_egg_1154": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31210,7 +29550,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1162": {
+  "n2_egg_1155": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31222,7 +29562,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1163": {
+  "n2_egg_1156": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31232,11 +29572,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "受賞する",
-      "masu": "受賞します",
-      "te": "受賞して",
-      "ta": "受賞した",
-      "nai": "受賞しない"
+      "dictionary": "打ち上げする",
+      "masu": "打ち上げします",
+      "te": "打ち上げして",
+      "ta": "打ち上げした",
+      "nai": "打ち上げしない"
     },
     "examples": [
       {
@@ -31245,22 +29585,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1164": {
+  "n2_egg_1157": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "助け合う",
-      "masu": "助け合います",
-      "te": "助け合って",
-      "ta": "助け合った",
-      "nai": "助け合わない"
-    },
     "examples": [
       {
         "ja": "友人は助け合うべきだ",
@@ -31268,7 +29599,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1165": {
+  "n2_egg_1158": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31280,22 +29611,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1166": {
+  "n2_egg_1159": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "呼び込む",
-      "masu": "呼び込みます",
-      "te": "呼び込んで",
-      "ta": "呼び込んだ",
-      "nai": "呼び込まない"
-    },
     "examples": [
       {
         "ja": "客を店に呼び込む",
@@ -31303,7 +29625,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1167": {
+  "n2_egg_1160": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31315,7 +29637,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1168": {
+  "n2_egg_1161": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31327,7 +29649,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1169": {
+  "n2_egg_1162": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31339,7 +29661,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1170": {
+  "n2_egg_1163": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31351,7 +29673,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1171": {
+  "n2_egg_1164": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31363,7 +29685,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1172": {
+  "n2_egg_1165": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31373,11 +29695,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "飼育する",
-      "masu": "飼育します",
-      "te": "飼育して",
-      "ta": "飼育した",
-      "nai": "飼育しない"
+      "dictionary": "レールする",
+      "masu": "レールします",
+      "te": "レールして",
+      "ta": "レールした",
+      "nai": "レールしない"
     },
     "examples": [
       {
@@ -31386,7 +29708,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1173": {
+  "n2_egg_1166": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31398,7 +29720,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1174": {
+  "n2_egg_1167": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31410,7 +29732,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1175": {
+  "n2_egg_1168": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31422,22 +29744,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1176": {
+  "n2_egg_1169": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "略す",
-      "masu": "略します",
-      "te": "略して",
-      "ta": "略した",
-      "nai": "略さない"
-    },
     "examples": [
       {
         "ja": "敬称は略す",
@@ -31445,7 +29758,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1177": {
+  "n2_egg_1170": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31457,7 +29770,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1178": {
+  "n2_egg_1171": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31469,7 +29782,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1179": {
+  "n2_egg_1172": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31481,7 +29794,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1180": {
+  "n2_egg_1173": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31493,22 +29806,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1181": {
+  "n2_egg_1174": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "湧き出る",
-      "masu": "湧き出ます",
-      "te": "湧き出て",
-      "ta": "湧き出た",
-      "nai": "湧き出ない"
-    },
     "examples": [
       {
         "ja": "泉がこんこんと湧き出る",
@@ -31516,7 +29820,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1182": {
+  "n2_egg_1175": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31528,19 +29832,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1183": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ひもの両端",
-        "zh": "繩子的兩端"
-      }
-    ]
-  },
-  "n2_egg_1184": {
+  "n2_egg_1176": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31550,7 +29842,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "うとうと",
+      "dictionary": "略す",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -31563,7 +29855,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1185": {
+  "n2_egg_1177": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31575,7 +29867,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1186": {
+  "n2_egg_1178": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31587,7 +29879,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1187": {
+  "n2_egg_1179": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31599,7 +29891,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1188": {
+  "n2_egg_1180": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31611,7 +29903,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1189": {
+  "n2_egg_1181": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31621,11 +29913,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "持続する",
-      "masu": "持続します",
-      "te": "持続して",
-      "ta": "持続した",
-      "nai": "持続しない"
+      "dictionary": "湧き出るする",
+      "masu": "湧き出るします",
+      "te": "湧き出るして",
+      "ta": "湧き出るした",
+      "nai": "湧き出るしない"
     },
     "examples": [
       {
@@ -31634,7 +29926,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1190": {
+  "n2_egg_1182": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31644,11 +29936,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "両立する",
-      "masu": "両立します",
-      "te": "両立して",
-      "ta": "両立した",
-      "nai": "両立しない"
+      "dictionary": "頂する",
+      "masu": "頂します",
+      "te": "頂して",
+      "ta": "頂した",
+      "nai": "頂しない"
     },
     "examples": [
       {
@@ -31657,7 +29949,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1191": {
+  "n2_egg_1183": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31667,11 +29959,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "課する",
-      "masu": "課します",
-      "te": "課して",
-      "ta": "課した",
-      "nai": "課しない"
+      "dictionary": "両端",
+      "masu": "します",
+      "te": "して",
+      "ta": "した",
+      "nai": "しない"
     },
     "examples": [
       {
@@ -31680,7 +29972,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1192": {
+  "n2_egg_1184": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31692,7 +29984,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1193": {
+  "n2_egg_1185": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31704,7 +29996,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1194": {
+  "n2_egg_1186": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31714,7 +30006,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "じたばた",
+      "dictionary": "恵み",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -31727,7 +30019,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1195": {
+  "n2_egg_1187": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31737,11 +30029,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "閲覧する",
-      "masu": "閲覧します",
-      "te": "閲覧して",
-      "ta": "閲覧した",
-      "nai": "閲覧しない"
+      "dictionary": "古風する",
+      "masu": "古風します",
+      "te": "古風して",
+      "ta": "古風した",
+      "nai": "古風しない"
     },
     "examples": [
       {
@@ -31750,7 +30042,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1196": {
+  "n2_egg_1188": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31762,7 +30054,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1197": {
+  "n2_egg_1189": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31774,7 +30066,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1198": {
+  "n2_egg_1190": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31786,7 +30078,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1199": {
+  "n2_egg_1191": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31798,22 +30090,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1200": {
+  "n2_egg_1192": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "読み返す",
-      "masu": "読み返します",
-      "te": "読み返して",
-      "ta": "読み返した",
-      "nai": "読み返さない"
-    },
     "examples": [
       {
         "ja": "初めから読み返す",
@@ -31821,22 +30104,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1201": {
+  "n2_egg_1193": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "追い立てる",
-      "masu": "追い立てます",
-      "te": "追い立てて",
-      "ta": "追い立てた",
-      "nai": "追い立てない"
-    },
     "examples": [
       {
         "ja": "羊の群れを追い立てる",
@@ -31844,7 +30118,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1202": {
+  "n2_egg_1194": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31854,11 +30128,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "転職する",
-      "masu": "転職します",
-      "te": "転職して",
-      "ta": "転職した",
-      "nai": "転職しない"
+      "dictionary": "じたばたする",
+      "masu": "じたばたします",
+      "te": "じたばたして",
+      "ta": "じたばたした",
+      "nai": "じたばたしない"
     },
     "examples": [
       {
@@ -31867,22 +30141,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1203": {
+  "n2_egg_1195": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "取り払う",
-      "masu": "取り払います",
-      "te": "取り払って",
-      "ta": "取り払った",
-      "nai": "取り払わない"
-    },
     "examples": [
       {
         "ja": "古い建物はほとんど取り払われた",
@@ -31890,7 +30155,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1204": {
+  "n2_egg_1196": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31900,11 +30165,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "得点する",
-      "masu": "得点します",
-      "te": "得点して",
-      "ta": "得点した",
-      "nai": "得点しない"
+      "dictionary": "主観する",
+      "masu": "主観します",
+      "te": "主観して",
+      "ta": "主観した",
+      "nai": "主観しない"
     },
     "examples": [
       {
@@ -31913,7 +30178,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1205": {
+  "n2_egg_1197": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31923,11 +30188,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "選別する",
-      "masu": "選別します",
-      "te": "選別して",
-      "ta": "選別した",
-      "nai": "選別しない"
+      "dictionary": "躍起する",
+      "masu": "躍起します",
+      "te": "躍起して",
+      "ta": "躍起した",
+      "nai": "躍起しない"
     },
     "examples": [
       {
@@ -31936,7 +30201,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1206": {
+  "n2_egg_1198": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31948,7 +30213,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1207": {
+  "n2_egg_1199": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31960,7 +30225,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1208": {
+  "n2_egg_1200": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31972,7 +30237,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1209": {
+  "n2_egg_1201": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31984,7 +30249,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1210": {
+  "n2_egg_1202": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -31996,7 +30261,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1211": {
+  "n2_egg_1203": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32008,7 +30273,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1212": {
+  "n2_egg_1204": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32020,7 +30285,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1213": {
+  "n2_egg_1205": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32032,7 +30297,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1214": {
+  "n2_egg_1206": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32044,7 +30309,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1215": {
+  "n2_egg_1207": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32056,22 +30321,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1216": {
+  "n2_egg_1208": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "嚙み合う",
-      "masu": "嚙み合います",
-      "te": "嚙み合って",
-      "ta": "嚙み合った",
-      "nai": "嚙み合わない"
-    },
     "examples": [
       {
         "ja": "歯車がうまく嚙み合う",
@@ -32079,7 +30335,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1217": {
+  "n2_egg_1209": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32091,7 +30347,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1218": {
+  "n2_egg_1210": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32101,11 +30357,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "従事する",
-      "masu": "従事します",
-      "te": "従事して",
-      "ta": "従事した",
-      "nai": "従事しない"
+      "dictionary": "麺する",
+      "masu": "麺します",
+      "te": "麺して",
+      "ta": "麺した",
+      "nai": "麺しない"
     },
     "examples": [
       {
@@ -32114,7 +30370,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1219": {
+  "n2_egg_1211": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32126,7 +30382,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1220": {
+  "n2_egg_1212": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32138,7 +30394,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1221": {
+  "n2_egg_1213": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32148,11 +30404,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "走行する",
-      "masu": "走行します",
-      "te": "走行して",
-      "ta": "走行した",
-      "nai": "走行しない"
+      "dictionary": "アクセルする",
+      "masu": "アクセルします",
+      "te": "アクセルして",
+      "ta": "アクセルした",
+      "nai": "アクセルしない"
     },
     "examples": [
       {
@@ -32161,7 +30417,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1222": {
+  "n2_egg_1214": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32173,7 +30429,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1223": {
+  "n2_egg_1215": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32185,7 +30441,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1224": {
+  "n2_egg_1216": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32195,11 +30451,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "試作する",
-      "masu": "試作します",
-      "te": "試作して",
-      "ta": "試作した",
-      "nai": "試作しない"
+      "dictionary": "嚙み合うする",
+      "masu": "嚙み合うします",
+      "te": "嚙み合うして",
+      "ta": "嚙み合うした",
+      "nai": "嚙み合うしない"
     },
     "examples": [
       {
@@ -32208,7 +30464,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1225": {
+  "n2_egg_1217": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32218,11 +30474,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "充電する",
-      "masu": "充電します",
-      "te": "充電して",
-      "ta": "充電した",
-      "nai": "充電しない"
+      "dictionary": "椀する",
+      "masu": "椀します",
+      "te": "椀して",
+      "ta": "椀した",
+      "nai": "椀しない"
     },
     "examples": [
       {
@@ -32231,7 +30487,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1226": {
+  "n2_egg_1218": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32243,7 +30499,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1227": {
+  "n2_egg_1219": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32255,7 +30511,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1228": {
+  "n2_egg_1220": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32267,7 +30523,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1229": {
+  "n2_egg_1221": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32279,7 +30535,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1230": {
+  "n2_egg_1222": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32291,7 +30547,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1231": {
+  "n2_egg_1223": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32303,22 +30559,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1232": {
+  "n2_egg_1224": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "見放す",
-      "masu": "見放します",
-      "te": "見放して",
-      "ta": "見放した",
-      "nai": "見放さない"
-    },
     "examples": [
       {
         "ja": "家族から見放される",
@@ -32326,7 +30573,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1233": {
+  "n2_egg_1225": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32338,22 +30585,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1234": {
+  "n2_egg_1226": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "捕らわれる",
-      "masu": "捕らわれます",
-      "te": "捕らわれて",
-      "ta": "捕らわれた",
-      "nai": "捕らわれない"
-    },
     "examples": [
       {
         "ja": "敵に捕らわれる",
@@ -32361,7 +30599,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1235": {
+  "n2_egg_1227": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32373,7 +30611,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1236": {
+  "n2_egg_1228": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32385,7 +30623,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1237": {
+  "n2_egg_1229": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32397,22 +30635,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1238": {
+  "n2_egg_1230": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "力む",
-      "masu": "力みます",
-      "te": "力んで",
-      "ta": "力んだ",
-      "nai": "力まない"
-    },
     "examples": [
       {
         "ja": "うんと力んで押す",
@@ -32420,7 +30649,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1239": {
+  "n2_egg_1231": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32432,7 +30661,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1240": {
+  "n2_egg_1232": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32444,7 +30673,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1241": {
+  "n2_egg_1233": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32456,7 +30685,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1242": {
+  "n2_egg_1234": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32468,7 +30697,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1243": {
+  "n2_egg_1235": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32480,7 +30709,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1244": {
+  "n2_egg_1236": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32492,7 +30721,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1245": {
+  "n2_egg_1237": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32504,7 +30733,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1246": {
+  "n2_egg_1238": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32516,7 +30745,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1247": {
+  "n2_egg_1239": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32526,11 +30755,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "開花する",
-      "masu": "開花します",
-      "te": "開花して",
-      "ta": "開花した",
-      "nai": "開花しない"
+      "dictionary": "なだらかする",
+      "masu": "なだらかします",
+      "te": "なだらかして",
+      "ta": "なだらかした",
+      "nai": "なだらかしない"
     },
     "examples": [
       {
@@ -32539,22 +30768,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1248": {
+  "n2_egg_1240": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "締めくくる",
-      "masu": "締めくくります",
-      "te": "締めくくって",
-      "ta": "締めくくった",
-      "nai": "締めくくらない"
-    },
     "examples": [
       {
         "ja": "柴を締めくくる",
@@ -32562,7 +30782,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1249": {
+  "n2_egg_1241": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32574,7 +30794,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1250": {
+  "n2_egg_1242": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32586,7 +30806,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1251": {
+  "n2_egg_1243": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32598,7 +30818,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1252": {
+  "n2_egg_1244": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32610,7 +30830,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1253": {
+  "n2_egg_1245": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32622,7 +30842,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1254": {
+  "n2_egg_1246": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32634,7 +30854,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1255": {
+  "n2_egg_1247": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32646,7 +30866,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1256": {
+  "n2_egg_1248": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32658,7 +30878,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1257": {
+  "n2_egg_1249": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32670,7 +30890,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1258": {
+  "n2_egg_1250": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32682,7 +30902,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1259": {
+  "n2_egg_1251": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32694,7 +30914,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1260": {
+  "n2_egg_1252": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32706,7 +30926,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1261": {
+  "n2_egg_1253": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32718,7 +30938,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1262": {
+  "n2_egg_1254": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32728,11 +30948,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "放浪する",
-      "masu": "放浪します",
-      "te": "放浪して",
-      "ta": "放浪した",
-      "nai": "放浪しない"
+      "dictionary": "丼する",
+      "masu": "丼します",
+      "te": "丼して",
+      "ta": "丼した",
+      "nai": "丼しない"
     },
     "examples": [
       {
@@ -32741,13 +30961,137 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1263": {
+  "n2_egg_1255": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・自他動3",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "くじする",
+      "masu": "くじします",
+      "te": "くじして",
+      "ta": "くじした",
+      "nai": "くじしない"
+    },
+    "examples": [
+      {
+        "ja": "カーブの手前で減速する",
+        "zh": "在轉彎之前減速"
+      }
+    ]
+  },
+  "n2_egg_1256": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "足を速める",
+        "zh": "加快步伐"
+      }
+    ]
+  },
+  "n2_egg_1257": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "解決策を考え出す",
+        "zh": "想出解決方案"
+      }
+    ]
+  },
+  "n2_egg_1258": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "アイスボックス",
+        "zh": "（用冰塊的）冷藏箱，冰箱"
+      }
+    ]
+  },
+  "n2_egg_1259": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "序列をつける",
+        "zh": "排序"
+      }
+    ]
+  },
+  "n2_egg_1260": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "アンテナする",
+      "masu": "アンテナします",
+      "te": "アンテナして",
+      "ta": "アンテナした",
+      "nai": "アンテナしない"
+    },
+    "examples": [
+      {
+        "ja": "舞台で気後れする",
+        "zh": "怯場"
+      }
+    ]
+  },
+  "n2_egg_1261": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "不安と期待が混じり合う",
+        "zh": "不安與期待交織在一起"
+      }
+    ]
+  },
+  "n2_egg_1262": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "モチベーションを高める",
+        "zh": "調動積極性，激發熱情"
+      }
+    ]
+  },
+  "n2_egg_1263": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
@@ -32759,8 +31103,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "カーブの手前で減速する",
-        "zh": "在轉彎之前減速"
+        "ja": "利益を分配する",
+        "zh": "分配利潤"
       }
     ]
   },
@@ -32782,163 +31126,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "足を速める",
-        "zh": "加快步伐"
-      }
-    ]
-  },
-  "n2_egg_1265": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "考え出す",
-      "masu": "考え出します",
-      "te": "考え出して",
-      "ta": "考え出した",
-      "nai": "考え出さない"
-    },
-    "examples": [
-      {
-        "ja": "解決策を考え出す",
-        "zh": "想出解決方案"
-      }
-    ]
-  },
-  "n2_egg_1266": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "アイスボックス",
-        "zh": "（用冰塊的）冷藏箱，冰箱"
-      }
-    ]
-  },
-  "n2_egg_1267": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "序列をつける",
-        "zh": "排序"
-      }
-    ]
-  },
-  "n2_egg_1268": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "気後れする",
-      "masu": "気後れします",
-      "te": "気後れして",
-      "ta": "気後れした",
-      "nai": "気後れしない"
-    },
-    "examples": [
-      {
-        "ja": "舞台で気後れする",
-        "zh": "怯場"
-      }
-    ]
-  },
-  "n2_egg_1269": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "混じり合う",
-      "masu": "混じり合います",
-      "te": "混じり合って",
-      "ta": "混じり合った",
-      "nai": "混じり合わない"
-    },
-    "examples": [
-      {
-        "ja": "不安と期待が混じり合う",
-        "zh": "不安與期待交織在一起"
-      }
-    ]
-  },
-  "n2_egg_1270": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "モチベーションを高める",
-        "zh": "調動積極性，激發熱情"
-      }
-    ]
-  },
-  "n2_egg_1271": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "分配する",
-      "masu": "分配します",
-      "te": "分配して",
-      "ta": "分配した",
-      "nai": "分配しない"
-    },
-    "examples": [
-      {
-        "ja": "利益を分配する",
-        "zh": "分配利潤"
-      }
-    ]
-  },
-  "n2_egg_1272": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "役立てる",
-      "masu": "役立てます",
-      "te": "役立てて",
-      "ta": "役立てた",
-      "nai": "役立てない"
-    },
-    "examples": [
-      {
         "ja": "この資料は調査研究に役立てたい",
         "zh": "希望這份資料能對調查研究有所幫助"
       }
     ]
   },
-  "n2_egg_1273": {
+  "n2_egg_1265": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32950,7 +31143,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1274": {
+  "n2_egg_1266": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32962,7 +31155,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1275": {
+  "n2_egg_1267": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -32974,22 +31167,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1276": {
+  "n2_egg_1268": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自他動1",
     "transitivity": "both",
     "transitivityLabel": "自他兩用",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "売り出す",
-      "masu": "売り出します",
-      "te": "売り出して",
-      "ta": "売り出した",
-      "nai": "売り出さない"
-    },
     "examples": [
       {
         "ja": "新製品を売り出す",
@@ -32997,7 +31181,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1277": {
+  "n2_egg_1269": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33009,19 +31193,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1278": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "錆がつく",
-        "zh": "生鏽"
-      }
-    ]
-  },
-  "n2_egg_1279": {
+  "n2_egg_1270": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33033,7 +31205,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1280": {
+  "n2_egg_1271": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33045,7 +31217,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1281": {
+  "n2_egg_1272": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33055,11 +31227,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出し入れする",
-      "masu": "出し入れします",
-      "te": "出し入れして",
-      "ta": "出し入れした",
-      "nai": "出し入れしない"
+      "dictionary": "役立てるする",
+      "masu": "役立てるします",
+      "te": "役立てるして",
+      "ta": "役立てるした",
+      "nai": "役立てるしない"
     },
     "examples": [
       {
@@ -33068,7 +31240,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1282": {
+  "n2_egg_1273": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33078,11 +31250,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "連結する",
-      "masu": "連結します",
-      "te": "連結して",
-      "ta": "連結した",
-      "nai": "連結しない"
+      "dictionary": "ラベルする",
+      "masu": "ラベルします",
+      "te": "ラベルして",
+      "ta": "ラベルした",
+      "nai": "ラベルしない"
     },
     "examples": [
       {
@@ -33091,7 +31263,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1283": {
+  "n2_egg_1274": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33101,11 +31273,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "開封する",
-      "masu": "開封します",
-      "te": "開封して",
-      "ta": "開封した",
-      "nai": "開封しない"
+      "dictionary": "メダルする",
+      "masu": "メダルします",
+      "te": "メダルして",
+      "ta": "メダルした",
+      "nai": "メダルしない"
     },
     "examples": [
       {
@@ -33114,7 +31286,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1284": {
+  "n2_egg_1275": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33126,7 +31298,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1285": {
+  "n2_egg_1276": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33136,11 +31308,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "見積もる",
-      "masu": "見積もります",
-      "te": "見積もって",
-      "ta": "見積もった",
-      "nai": "見積もらない"
+      "dictionary": "売り出す",
+      "masu": "売り出します",
+      "te": "売り出して",
+      "ta": "売り出した",
+      "nai": "売り出さない"
     },
     "examples": [
       {
@@ -33149,7 +31321,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1286": {
+  "n2_egg_1277": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33161,7 +31333,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1287": {
+  "n2_egg_1278": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33171,7 +31343,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "もたもた",
+      "dictionary": "錆",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -33181,6 +31353,127 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "もたもたして会議に遅れる",
         "zh": "拖拖拉拉結果開會遲到了"
+      }
+    ]
+  },
+  "n2_egg_1279": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "主流する",
+      "masu": "主流します",
+      "te": "主流して",
+      "ta": "主流した",
+      "nai": "主流しない"
+    },
+    "examples": [
+      {
+        "ja": "体重を計測する",
+        "zh": "測量體重"
+      }
+    ]
+  },
+  "n2_egg_1280": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形・名",
+    "examples": [
+      {
+        "ja": "動作が機敏だ",
+        "zh": "動作敏捷"
+      }
+    ]
+  },
+  "n2_egg_1281": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "猿に曲芸を教え込む",
+        "zh": "教猴子雜技"
+      }
+    ]
+  },
+  "n2_egg_1282": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "毎日の運動で足腰が強くなった",
+        "zh": "每天鍛鍊使得腿腳變得更強壯"
+      }
+    ]
+  },
+  "n2_egg_1283": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "スマホの過度な使用は子供に悪影響を及ぼす",
+        "zh": "手機的過度使用對孩子產生不良影響"
+      }
+    ]
+  },
+  "n2_egg_1284": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "資料はタブレットで確認できます",
+        "zh": "資料可以用平板電腦確認"
+      }
+    ]
+  },
+  "n2_egg_1285": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "手書きの原稿",
+        "zh": "手寫的原稿"
+      }
+    ]
+  },
+  "n2_egg_1286": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "やりがいのある仕事がしたい",
+        "zh": "想做有意義的工作"
+      }
+    ]
+  },
+  "n2_egg_1287": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "口座を開く",
+        "zh": "開設帳戶"
       }
     ]
   },
@@ -33202,142 +31495,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "体重を計測する",
-        "zh": "測量體重"
-      }
-    ]
-  },
-  "n2_egg_1289": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名",
-    "examples": [
-      {
-        "ja": "動作が機敏だ",
-        "zh": "動作敏捷"
-      }
-    ]
-  },
-  "n2_egg_1290": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "教え込む",
-      "masu": "教え込みます",
-      "te": "教え込んで",
-      "ta": "教え込んだ",
-      "nai": "教え込まない"
-    },
-    "examples": [
-      {
-        "ja": "猿に曲芸を教え込む",
-        "zh": "教猴子雜技"
-      }
-    ]
-  },
-  "n2_egg_1291": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "毎日の運動で足腰が強くなった",
-        "zh": "每天鍛鍊使得腿腳變得更強壯"
-      }
-    ]
-  },
-  "n2_egg_1292": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "スマホの過度な使用は子供に悪影響を及ぼす",
-        "zh": "手機的過度使用對孩子產生不良影響"
-      }
-    ]
-  },
-  "n2_egg_1293": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "資料はタブレットで確認できます",
-        "zh": "資料可以用平板電腦確認"
-      }
-    ]
-  },
-  "n2_egg_1294": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "手書きの原稿",
-        "zh": "手寫的原稿"
-      }
-    ]
-  },
-  "n2_egg_1295": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "やりがいのある仕事がしたい",
-        "zh": "想做有意義的工作"
-      }
-    ]
-  },
-  "n2_egg_1296": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "口座を開く",
-        "zh": "開設帳戶"
-      }
-    ]
-  },
-  "n2_egg_1297": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "選出する",
-      "masu": "選出します",
-      "te": "選出して",
-      "ta": "選出した",
-      "nai": "選出しない"
-    },
-    "examples": [
-      {
         "ja": "会長に選出された",
         "zh": "被選為會長"
       }
     ]
   },
-  "n2_egg_1298": {
+  "n2_egg_1289": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33349,7 +31512,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1299": {
+  "n2_egg_1290": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33361,7 +31524,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1300": {
+  "n2_egg_1291": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33373,7 +31536,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1301": {
+  "n2_egg_1292": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33385,22 +31548,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1302": {
+  "n2_egg_1293": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "入り交じる",
-      "masu": "入り交じります",
-      "te": "入り交じって",
-      "ta": "入り交じった",
-      "nai": "入り交じらない"
-    },
     "examples": [
       {
         "ja": "期待と不安の入り交じった気持ち",
@@ -33408,7 +31562,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1303": {
+  "n2_egg_1294": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33418,11 +31572,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "試着する",
-      "masu": "試着します",
-      "te": "試着して",
-      "ta": "試着した",
-      "nai": "試着しない"
+      "dictionary": "手書きする",
+      "masu": "手書きします",
+      "te": "手書きして",
+      "ta": "手書きした",
+      "nai": "手書きしない"
     },
     "examples": [
       {
@@ -33431,7 +31585,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1304": {
+  "n2_egg_1295": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33441,11 +31595,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "矯正する",
-      "masu": "矯正します",
-      "te": "矯正して",
-      "ta": "矯正した",
-      "nai": "矯正しない"
+      "dictionary": "やりがいする",
+      "masu": "やりがいします",
+      "te": "やりがいして",
+      "ta": "やりがいした",
+      "nai": "やりがいしない"
     },
     "examples": [
       {
@@ -33454,7 +31608,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1305": {
+  "n2_egg_1296": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33466,7 +31620,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1306": {
+  "n2_egg_1297": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33478,7 +31632,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1307": {
+  "n2_egg_1298": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33490,7 +31644,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1308": {
+  "n2_egg_1299": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33500,11 +31654,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "納品する",
-      "masu": "納品します",
-      "te": "納品して",
-      "ta": "納品した",
-      "nai": "納品しない"
+      "dictionary": "読み書きする",
+      "masu": "読み書きします",
+      "te": "読み書きして",
+      "ta": "読み書きした",
+      "nai": "読み書きしない"
     },
     "examples": [
       {
@@ -33513,7 +31667,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1309": {
+  "n2_egg_1300": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33525,7 +31679,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1310": {
+  "n2_egg_1301": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33535,11 +31689,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "開幕する",
-      "masu": "開幕します",
-      "te": "開幕して",
-      "ta": "開幕した",
-      "nai": "開幕しない"
+      "dictionary": "模型する",
+      "masu": "模型します",
+      "te": "模型して",
+      "ta": "模型した",
+      "nai": "模型しない"
     },
     "examples": [
       {
@@ -33548,7 +31702,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1311": {
+  "n2_egg_1302": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33558,11 +31712,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "半減する",
-      "masu": "半減します",
-      "te": "半減して",
-      "ta": "半減した",
-      "nai": "半減しない"
+      "dictionary": "入り交じるする",
+      "masu": "入り交じるします",
+      "te": "入り交じるして",
+      "ta": "入り交じるした",
+      "nai": "入り交じるしない"
     },
     "examples": [
       {
@@ -33571,7 +31725,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1312": {
+  "n2_egg_1303": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33583,7 +31737,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1313": {
+  "n2_egg_1304": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33595,7 +31749,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1314": {
+  "n2_egg_1305": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33607,7 +31761,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1315": {
+  "n2_egg_1306": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33619,7 +31773,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1316": {
+  "n2_egg_1307": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33631,7 +31785,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1317": {
+  "n2_egg_1308": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33643,7 +31797,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1318": {
+  "n2_egg_1309": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33655,7 +31809,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1319": {
+  "n2_egg_1310": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33667,7 +31821,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1320": {
+  "n2_egg_1311": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33677,11 +31831,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "死守する",
-      "masu": "死守します",
-      "te": "死守して",
-      "ta": "死守した",
-      "nai": "死守しない"
+      "dictionary": "半減する",
+      "masu": "半減します",
+      "te": "半減して",
+      "ta": "半減した",
+      "nai": "半減しない"
     },
     "examples": [
       {
@@ -33690,7 +31844,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1321": {
+  "n2_egg_1312": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33702,7 +31856,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1322": {
+  "n2_egg_1313": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33714,7 +31868,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1323": {
+  "n2_egg_1314": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33724,11 +31878,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "密接する",
-      "masu": "密接します",
-      "te": "密接して",
-      "ta": "密接した",
-      "nai": "密接しない"
+      "dictionary": "やぎする",
+      "masu": "やぎします",
+      "te": "やぎして",
+      "ta": "やぎした",
+      "nai": "やぎしない"
     },
     "examples": [
       {
@@ -33737,7 +31891,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1324": {
+  "n2_egg_1315": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33747,11 +31901,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "悲観する",
-      "masu": "悲観します",
-      "te": "悲観して",
-      "ta": "悲観した",
-      "nai": "悲観しない"
+      "dictionary": "ノルマする",
+      "masu": "ノルマします",
+      "te": "ノルマして",
+      "ta": "ノルマした",
+      "nai": "ノルマしない"
     },
     "examples": [
       {
@@ -33760,7 +31914,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1325": {
+  "n2_egg_1316": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33772,7 +31926,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1326": {
+  "n2_egg_1317": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33784,7 +31938,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1327": {
+  "n2_egg_1318": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33796,7 +31950,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1328": {
+  "n2_egg_1319": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33808,7 +31962,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1329": {
+  "n2_egg_1320": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33820,7 +31974,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1330": {
+  "n2_egg_1321": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33832,7 +31986,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1331": {
+  "n2_egg_1322": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33844,7 +31998,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1332": {
+  "n2_egg_1323": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33856,22 +32010,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1333": {
+  "n2_egg_1324": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "行き詰まる",
-      "masu": "行き詰まります",
-      "te": "行き詰まって",
-      "ta": "行き詰まった",
-      "nai": "行き詰まらない"
-    },
     "examples": [
       {
         "ja": "袋小路で行き詰まる",
@@ -33879,7 +32024,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1334": {
+  "n2_egg_1325": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33891,7 +32036,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1335": {
+  "n2_egg_1326": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33903,7 +32048,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1336": {
+  "n2_egg_1327": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33913,11 +32058,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "倍増する",
-      "masu": "倍増します",
-      "te": "倍増して",
-      "ta": "倍増した",
-      "nai": "倍増しない"
+      "dictionary": "要件する",
+      "masu": "要件します",
+      "te": "要件して",
+      "ta": "要件した",
+      "nai": "要件しない"
     },
     "examples": [
       {
@@ -33926,7 +32071,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1337": {
+  "n2_egg_1328": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33938,7 +32083,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1338": {
+  "n2_egg_1329": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33950,7 +32095,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1339": {
+  "n2_egg_1330": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33962,7 +32107,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1340": {
+  "n2_egg_1331": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33974,7 +32119,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1341": {
+  "n2_egg_1332": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33986,7 +32131,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1342": {
+  "n2_egg_1333": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -33998,7 +32143,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1343": {
+  "n2_egg_1334": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34010,7 +32155,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1344": {
+  "n2_egg_1335": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34022,7 +32167,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1345": {
+  "n2_egg_1336": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34032,11 +32177,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "圧勝する",
-      "masu": "圧勝します",
-      "te": "圧勝して",
-      "ta": "圧勝した",
-      "nai": "圧勝しない"
+      "dictionary": "倍増する",
+      "masu": "倍増します",
+      "te": "倍増して",
+      "ta": "倍増した",
+      "nai": "倍増しない"
     },
     "examples": [
       {
@@ -34045,7 +32190,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1346": {
+  "n2_egg_1337": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34055,11 +32200,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "団結する",
-      "masu": "団結します",
-      "te": "団結して",
-      "ta": "団結した",
-      "nai": "団結しない"
+      "dictionary": "フォームする",
+      "masu": "フォームします",
+      "te": "フォームして",
+      "ta": "フォームした",
+      "nai": "フォームしない"
     },
     "examples": [
       {
@@ -34068,7 +32213,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1347": {
+  "n2_egg_1338": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34080,7 +32225,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1348": {
+  "n2_egg_1339": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34092,7 +32237,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1349": {
+  "n2_egg_1340": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34104,22 +32249,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1350": {
+  "n2_egg_1341": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "根付く",
-      "masu": "根付きます",
-      "te": "根付いて",
-      "ta": "根付いた",
-      "nai": "根付かない"
-    },
     "examples": [
       {
         "ja": "根付いたのはわずか1本だ",
@@ -34127,7 +32263,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1351": {
+  "n2_egg_1342": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34139,7 +32275,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1352": {
+  "n2_egg_1343": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34151,7 +32287,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1353": {
+  "n2_egg_1344": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34161,11 +32297,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "進入する",
-      "masu": "進入します",
-      "te": "進入して",
-      "ta": "進入した",
-      "nai": "進入しない"
+      "dictionary": "公正する",
+      "masu": "公正します",
+      "te": "公正して",
+      "ta": "公正した",
+      "nai": "公正しない"
     },
     "examples": [
       {
@@ -34174,7 +32310,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1354": {
+  "n2_egg_1345": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34186,7 +32322,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1355": {
+  "n2_egg_1346": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34198,7 +32334,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1356": {
+  "n2_egg_1347": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34210,7 +32346,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1357": {
+  "n2_egg_1348": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34222,7 +32358,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1358": {
+  "n2_egg_1349": {
     "pos": "bound_morpheme",
     "posLabel": "造語成分",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34234,7 +32370,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1359": {
+  "n2_egg_1350": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34246,7 +32382,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1360": {
+  "n2_egg_1351": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34258,7 +32394,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1361": {
+  "n2_egg_1352": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34270,7 +32406,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1362": {
+  "n2_egg_1353": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34282,7 +32418,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1363": {
+  "n2_egg_1354": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34294,7 +32430,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1364": {
+  "n2_egg_1355": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34304,11 +32440,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "気配りする",
-      "masu": "気配りします",
-      "te": "気配りして",
-      "ta": "気配りした",
-      "nai": "気配りしない"
+      "dictionary": "落ち葉する",
+      "masu": "落ち葉します",
+      "te": "落ち葉して",
+      "ta": "落ち葉した",
+      "nai": "落ち葉しない"
     },
     "examples": [
       {
@@ -34317,22 +32453,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1365": {
+  "n2_egg_1356": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "備え付ける",
-      "masu": "備え付けます",
-      "te": "備え付けて",
-      "ta": "備え付けた",
-      "nai": "備え付けない"
-    },
     "examples": [
       {
         "ja": "すべての部屋に消火器を備え付ける必要がある",
@@ -34340,7 +32467,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1366": {
+  "n2_egg_1357": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34352,26 +32479,144 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1367": {
+  "n2_egg_1358": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "折り畳む",
-      "masu": "折り畳みます",
-      "te": "折り畳んで",
-      "ta": "折り畳んだ",
-      "nai": "折り畳まない"
-    },
     "examples": [
       {
         "ja": "着物をきちんと折り畳む",
         "zh": "把和服好好地疊起來"
+      }
+    ]
+  },
+  "n2_egg_1359": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "問題の本質を突き詰める",
+        "zh": "探究問題的本質"
+      }
+    ]
+  },
+  "n2_egg_1360": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "冷水で顔を洗う",
+        "zh": "用冷水洗臉"
+      }
+    ]
+  },
+  "n2_egg_1361": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "彼はそのうわさを本当だと信じ込んでいた",
+        "zh": "他堅信那個傳聞是真的"
+      }
+    ]
+  },
+  "n2_egg_1362": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "古文書を読み込む",
+        "zh": "研讀古文書"
+      }
+    ]
+  },
+  "n2_egg_1363": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "びっしょりする",
+      "masu": "びっしょりします",
+      "te": "びっしょりして",
+      "ta": "びっしょりした",
+      "nai": "びっしょりしない"
+    },
+    "examples": [
+      {
+        "ja": "このスマートフォンは大容量のバッテリーを内蔵している",
+        "zh": "這款智慧型手機內建大容量電池"
+      }
+    ]
+  },
+  "n2_egg_1364": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "テーマを絞り込む",
+        "zh": "縮小主題範圍"
+      }
+    ]
+  },
+  "n2_egg_1365": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "経験談",
+        "zh": "經驗之談"
+      }
+    ]
+  },
+  "n2_egg_1366": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "スタンプを押す",
+        "zh": "蓋章"
+      }
+    ]
+  },
+  "n2_egg_1367": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・ナ形",
+    "examples": [
+      {
+        "ja": "多様な商品を扱う",
+        "zh": "經營各式各樣的商品"
       }
     ]
   },
@@ -34393,175 +32638,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "問題の本質を突き詰める",
-        "zh": "探究問題的本質"
-      }
-    ]
-  },
-  "n2_egg_1369": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "冷水で顔を洗う",
-        "zh": "用冷水洗臉"
-      }
-    ]
-  },
-  "n2_egg_1370": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "信じ込む",
-      "masu": "信じ込みます",
-      "te": "信じ込んで",
-      "ta": "信じ込んだ",
-      "nai": "信じ込まない"
-    },
-    "examples": [
-      {
-        "ja": "彼はそのうわさを本当だと信じ込んでいた",
-        "zh": "他堅信那個傳聞是真的"
-      }
-    ]
-  },
-  "n2_egg_1371": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "読み込む",
-      "masu": "読み込みます",
-      "te": "読み込んで",
-      "ta": "読み込んだ",
-      "nai": "読み込まない"
-    },
-    "examples": [
-      {
-        "ja": "古文書を読み込む",
-        "zh": "研讀古文書"
-      }
-    ]
-  },
-  "n2_egg_1372": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "内蔵する",
-      "masu": "内蔵します",
-      "te": "内蔵して",
-      "ta": "内蔵した",
-      "nai": "内蔵しない"
-    },
-    "examples": [
-      {
-        "ja": "このスマートフォンは大容量のバッテリーを内蔵している",
-        "zh": "這款智慧型手機內建大容量電池"
-      }
-    ]
-  },
-  "n2_egg_1373": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "絞り込む",
-      "masu": "絞り込みます",
-      "te": "絞り込んで",
-      "ta": "絞り込んだ",
-      "nai": "絞り込まない"
-    },
-    "examples": [
-      {
-        "ja": "テーマを絞り込む",
-        "zh": "縮小主題範圍"
-      }
-    ]
-  },
-  "n2_egg_1374": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "経験談",
-        "zh": "經驗之談"
-      }
-    ]
-  },
-  "n2_egg_1375": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "スタンプを押す",
-        "zh": "蓋章"
-      }
-    ]
-  },
-  "n2_egg_1376": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・ナ形",
-    "examples": [
-      {
-        "ja": "多様な商品を扱う",
-        "zh": "經營各式各樣的商品"
-      }
-    ]
-  },
-  "n2_egg_1377": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "使い分ける",
-      "masu": "使い分けます",
-      "te": "使い分けて",
-      "ta": "使い分けた",
-      "nai": "使い分けない"
-    },
-    "examples": [
-      {
         "ja": "英独仏3か国語を使い分ける",
         "zh": "能靈活運用英德法三國語言"
       }
     ]
   },
-  "n2_egg_1378": {
+  "n2_egg_1369": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34573,22 +32655,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1379": {
+  "n2_egg_1370": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "供える",
-      "masu": "供えます",
-      "te": "供えて",
-      "ta": "供えた",
-      "nai": "供えない"
-    },
     "examples": [
       {
         "ja": "神棚にお供え物を供える",
@@ -34596,7 +32669,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1380": {
+  "n2_egg_1371": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34608,7 +32681,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1381": {
+  "n2_egg_1372": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34618,11 +32691,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "衰退する",
-      "masu": "衰退します",
-      "te": "衰退して",
-      "ta": "衰退した",
-      "nai": "衰退しない"
+      "dictionary": "内蔵する",
+      "masu": "内蔵します",
+      "te": "内蔵して",
+      "ta": "内蔵した",
+      "nai": "内蔵しない"
     },
     "examples": [
       {
@@ -34631,7 +32704,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1382": {
+  "n2_egg_1373": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34643,7 +32716,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1383": {
+  "n2_egg_1374": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34655,7 +32728,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1384": {
+  "n2_egg_1375": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34667,7 +32740,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1385": {
+  "n2_egg_1376": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34679,7 +32752,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1386": {
+  "n2_egg_1377": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34691,7 +32764,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1387": {
+  "n2_egg_1378": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34701,11 +32774,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "包装する",
-      "masu": "包装します",
-      "te": "包装して",
-      "ta": "包装した",
-      "nai": "包装しない"
+      "dictionary": "タレントする",
+      "masu": "タレントします",
+      "te": "タレントして",
+      "ta": "タレントした",
+      "nai": "タレントしない"
     },
     "examples": [
       {
@@ -34714,7 +32787,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1388": {
+  "n2_egg_1379": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34726,7 +32799,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1389": {
+  "n2_egg_1380": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34736,11 +32809,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "交信する",
-      "masu": "交信します",
-      "te": "交信して",
-      "ta": "交信した",
-      "nai": "交信しない"
+      "dictionary": "ライフする",
+      "masu": "ライフします",
+      "te": "ライフして",
+      "ta": "ライフした",
+      "nai": "ライフしない"
     },
     "examples": [
       {
@@ -34749,7 +32822,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1390": {
+  "n2_egg_1381": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34761,7 +32834,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1391": {
+  "n2_egg_1382": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34771,16 +32844,143 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "チャージする",
-      "masu": "チャージします",
-      "te": "チャージして",
-      "ta": "チャージした",
-      "nai": "チャージしない"
+      "dictionary": "安価する",
+      "masu": "安価します",
+      "te": "安価して",
+      "ta": "安価した",
+      "nai": "安価しない"
     },
     "examples": [
       {
         "ja": "バッテリーチャージ",
         "zh": "電池充電"
+      }
+    ]
+  },
+  "n2_egg_1383": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "身振りする",
+      "masu": "身振りします",
+      "te": "身振りして",
+      "ta": "身振りした",
+      "nai": "身振りしない"
+    },
+    "examples": [
+      {
+        "ja": "市販の薬",
+        "zh": "在市面上販售的藥"
+      }
+    ]
+  },
+  "n2_egg_1384": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "流行りを追う",
+        "zh": "追求時尚；趕時髦"
+      }
+    ]
+  },
+  "n2_egg_1385": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "トラックに建材を積み込む",
+        "zh": "將建材裝上貨車"
+      }
+    ]
+  },
+  "n2_egg_1386": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "人におだてられて、悪いことをする",
+        "zh": "受人慫恿做壞事"
+      }
+    ]
+  },
+  "n2_egg_1387": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "投影平面",
+        "zh": "投影平面"
+      }
+    ]
+  },
+  "n2_egg_1388": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "相手を負かす",
+        "zh": "擊敗對手"
+      }
+    ]
+  },
+  "n2_egg_1389": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "川にダムを造る",
+        "zh": "在河上建造攔河壩"
+      }
+    ]
+  },
+  "n2_egg_1390": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "苗を植える",
+        "zh": "種植幼苗"
+      }
+    ]
+  },
+  "n2_egg_1391": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "机がぐらついて書きにくい",
+        "zh": "桌子搖晃不好寫字"
       }
     ]
   },
@@ -34802,175 +33002,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "市販の薬",
-        "zh": "在市面上販售的藥"
-      }
-    ]
-  },
-  "n2_egg_1393": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "流行りを追う",
-        "zh": "追求時尚；趕時髦"
-      }
-    ]
-  },
-  "n2_egg_1394": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "積み込む",
-      "masu": "積み込みます",
-      "te": "積み込んで",
-      "ta": "積み込んだ",
-      "nai": "積み込まない"
-    },
-    "examples": [
-      {
-        "ja": "トラックに建材を積み込む",
-        "zh": "將建材裝上貨車"
-      }
-    ]
-  },
-  "n2_egg_1395": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "おだてる",
-      "masu": "おだてます",
-      "te": "おだてて",
-      "ta": "おだてた",
-      "nai": "おだてない"
-    },
-    "examples": [
-      {
-        "ja": "人におだてられて、悪いことをする",
-        "zh": "受人慫恿做壞事"
-      }
-    ]
-  },
-  "n2_egg_1396": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "投影平面",
-        "zh": "投影平面"
-      }
-    ]
-  },
-  "n2_egg_1397": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "負かす",
-      "masu": "負かします",
-      "te": "負かして",
-      "ta": "負かした",
-      "nai": "負かさない"
-    },
-    "examples": [
-      {
-        "ja": "相手を負かす",
-        "zh": "擊敗對手"
-      }
-    ]
-  },
-  "n2_egg_1398": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "川にダムを造る",
-        "zh": "在河上建造攔河壩"
-      }
-    ]
-  },
-  "n2_egg_1399": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "苗を植える",
-        "zh": "種植幼苗"
-      }
-    ]
-  },
-  "n2_egg_1400": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "ぐらつく",
-      "masu": "ぐらつきます",
-      "te": "ぐらついて",
-      "ta": "ぐらついた",
-      "nai": "ぐらつかない"
-    },
-    "examples": [
-      {
-        "ja": "机がぐらついて書きにくい",
-        "zh": "桌子搖晃不好寫字"
-      }
-    ]
-  },
-  "n2_egg_1401": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "感化する",
-      "masu": "感化します",
-      "te": "感化して",
-      "ta": "感化した",
-      "nai": "感化しない"
-    },
-    "examples": [
-      {
         "ja": "感化されやすい",
         "zh": "易受感化；容易受到影響"
       }
     ]
   },
-  "n2_egg_1402": {
+  "n2_egg_1393": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34982,7 +33019,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1403": {
+  "n2_egg_1394": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -34994,7 +33031,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1404": {
+  "n2_egg_1395": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35006,22 +33043,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1405": {
+  "n2_egg_1396": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "肥える",
-      "masu": "肥えます",
-      "te": "肥えて",
-      "ta": "肥えた",
-      "nai": "肥えない"
-    },
     "examples": [
       {
         "ja": "まるまると肥えた子犬",
@@ -35029,7 +33057,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1406": {
+  "n2_egg_1397": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35041,7 +33069,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1407": {
+  "n2_egg_1398": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35053,7 +33081,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1408": {
+  "n2_egg_1399": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35065,7 +33093,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1409": {
+  "n2_egg_1400": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35077,7 +33105,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1410": {
+  "n2_egg_1401": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35087,11 +33115,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "尻込みする",
-      "masu": "尻込みします",
-      "te": "尻込みして",
-      "ta": "尻込みした",
-      "nai": "尻込みしない"
+      "dictionary": "感化する",
+      "masu": "感化します",
+      "te": "感化して",
+      "ta": "感化した",
+      "nai": "感化しない"
     },
     "examples": [
       {
@@ -35100,7 +33128,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1411": {
+  "n2_egg_1402": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35112,7 +33140,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1412": {
+  "n2_egg_1403": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35124,7 +33152,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1413": {
+  "n2_egg_1404": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35134,11 +33162,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "軽視する",
-      "masu": "軽視します",
-      "te": "軽視して",
-      "ta": "軽視した",
-      "nai": "軽視しない"
+      "dictionary": "技巧する",
+      "masu": "技巧します",
+      "te": "技巧して",
+      "ta": "技巧した",
+      "nai": "技巧しない"
     },
     "examples": [
       {
@@ -35147,7 +33175,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1414": {
+  "n2_egg_1405": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35159,7 +33187,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1415": {
+  "n2_egg_1406": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35169,11 +33197,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "続出する",
-      "masu": "続出します",
-      "te": "続出して",
-      "ta": "続出した",
-      "nai": "続出しない"
+      "dictionary": "町長する",
+      "masu": "町長します",
+      "te": "町長して",
+      "ta": "町長した",
+      "nai": "町長しない"
     },
     "examples": [
       {
@@ -35182,7 +33210,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1416": {
+  "n2_egg_1407": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35194,7 +33222,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1417": {
+  "n2_egg_1408": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35206,7 +33234,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1418": {
+  "n2_egg_1409": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35218,7 +33246,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1419": {
+  "n2_egg_1410": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35230,7 +33258,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1420": {
+  "n2_egg_1411": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35242,7 +33270,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1421": {
+  "n2_egg_1412": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35254,7 +33282,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1422": {
+  "n2_egg_1413": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35264,11 +33292,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出生する",
-      "masu": "出生します",
-      "te": "出生して",
-      "ta": "出生した",
-      "nai": "出生しない"
+      "dictionary": "軽視する",
+      "masu": "軽視します",
+      "te": "軽視して",
+      "ta": "軽視した",
+      "nai": "軽視しない"
     },
     "examples": [
       {
@@ -35277,11 +33305,132 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1423": {
+  "n2_egg_1414": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "大都市する",
+      "masu": "大都市します",
+      "te": "大都市して",
+      "ta": "大都市した",
+      "nai": "大都市しない"
+    },
+    "examples": [
+      {
+        "ja": "ドルを円に換算する",
+        "zh": "將美元換算成日圓"
+      }
+    ]
+  },
+  "n2_egg_1415": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "ホテルの支配人",
+        "zh": "飯店經理"
+      }
+    ]
+  },
+  "n2_egg_1416": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "貴重品を金庫にしまう",
+        "zh": "把貴重物品收在保險櫃裡"
+      }
+    ]
+  },
+  "n2_egg_1417": {
+    "pos": "adverb",
+    "posLabel": "副詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "副",
+    "examples": [
+      {
+        "ja": "まんざらでたらめというわけでもない",
+        "zh": "並不完全是胡鬧的"
+      }
+    ]
+  },
+  "n2_egg_1418": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "条件に適う人",
+        "zh": "符合條件的人"
+      }
+    ]
+  },
+  "n2_egg_1419": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "データベースにアクセスする",
+        "zh": "存取資料庫"
+      }
+    ]
+  },
+  "n2_egg_1420": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "熱血を注いで祖国に尽くす",
+        "zh": "傾注熱血為祖國盡力"
+      }
+    ]
+  },
+  "n2_egg_1421": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "土俵に上がる",
+        "zh": "力士上場；決勝負"
+      }
+    ]
+  },
+  "n2_egg_1422": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "最寄りの駅",
+        "zh": "最近的車站"
+      }
+    ]
+  },
+  "n2_egg_1423": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -35295,8 +33444,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "ドルを円に換算する",
-        "zh": "將美元換算成日圓"
+        "ja": "密閉した容器",
+        "zh": "密封的容器"
       }
     ]
   },
@@ -35307,55 +33456,44 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "ホテルの支配人",
-        "zh": "飯店經理"
+        "ja": "伝票を切る",
+        "zh": "開票據"
       }
     ]
   },
   "n2_egg_1425": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形・名",
+    "examples": [
+      {
+        "ja": "多彩なデザイン",
+        "zh": "色彩繽紛的設計"
+      }
+    ]
+  },
+  "n2_egg_1426": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "貴重品を金庫にしまう",
-        "zh": "把貴重物品收在保險櫃裡"
-      }
-    ]
-  },
-  "n2_egg_1426": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "まんざらでたらめというわけでもない",
-        "zh": "並不完全是胡鬧的"
+        "ja": "米の落ちこぼれ",
+        "zh": "灑出來的米粒"
       }
     ]
   },
   "n2_egg_1427": {
-    "pos": "verb",
-    "posLabel": "動詞",
+    "pos": "noun",
+    "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "適う",
-      "masu": "適います",
-      "te": "適って",
-      "ta": "適った",
-      "nai": "適わない"
-    },
+    "sourcePos": "名",
     "examples": [
       {
-        "ja": "条件に適う人",
-        "zh": "符合條件的人"
+        "ja": "審議会の期日を決める",
+        "zh": "決定審議會的日期"
       }
     ]
   },
@@ -35366,8 +33504,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "データベースにアクセスする",
-        "zh": "存取資料庫"
+        "ja": "実り豊かな秋",
+        "zh": "豐收的秋天"
       }
     ]
   },
@@ -35378,8 +33516,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "熱血を注いで祖国に尽くす",
-        "zh": "傾注熱血為祖國盡力"
+        "ja": "高温の日が続く",
+        "zh": "高溫天氣持續"
       }
     ]
   },
@@ -35390,20 +33528,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "土俵に上がる",
-        "zh": "力士上場；決勝負"
+        "ja": "学問研究の道程は長くて険しい",
+        "zh": "研究學問的道路漫長而險峻"
       }
     ]
   },
   "n2_egg_1431": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "sourcePos": "副・ナ形",
     "examples": [
       {
-        "ja": "最寄りの駅",
-        "zh": "最近的車站"
+        "ja": "くたくたに疲れる",
+        "zh": "筋疲力盡"
       }
     ]
   },
@@ -35411,7 +33549,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
+    "sourcePos": "名・他動3",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -35425,131 +33563,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "密閉した容器",
-        "zh": "密封的容器"
-      }
-    ]
-  },
-  "n2_egg_1433": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "伝票を切る",
-        "zh": "開票據"
-      }
-    ]
-  },
-  "n2_egg_1434": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名",
-    "examples": [
-      {
-        "ja": "多彩なデザイン",
-        "zh": "色彩繽紛的設計"
-      }
-    ]
-  },
-  "n2_egg_1435": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "米の落ちこぼれ",
-        "zh": "灑出來的米粒"
-      }
-    ]
-  },
-  "n2_egg_1436": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "審議会の期日を決める",
-        "zh": "決定審議會的日期"
-      }
-    ]
-  },
-  "n2_egg_1437": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "実り豊かな秋",
-        "zh": "豐收的秋天"
-      }
-    ]
-  },
-  "n2_egg_1438": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "高温の日が続く",
-        "zh": "高溫天氣持續"
-      }
-    ]
-  },
-  "n2_egg_1439": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "学問研究の道程は長くて険しい",
-        "zh": "研究學問的道路漫長而險峻"
-      }
-    ]
-  },
-  "n2_egg_1440": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形",
-    "examples": [
-      {
-        "ja": "くたくたに疲れる",
-        "zh": "筋疲力盡"
-      }
-    ]
-  },
-  "n2_egg_1441": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "採集する",
-      "masu": "採集します",
-      "te": "採集して",
-      "ta": "採集した",
-      "nai": "採集しない"
-    },
-    "examples": [
-      {
         "ja": "標本を採集する",
         "zh": "採集標本"
       }
     ]
   },
-  "n2_egg_1442": {
+  "n2_egg_1433": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35559,11 +33578,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "抽選する",
-      "masu": "抽選します",
-      "te": "抽選して",
-      "ta": "抽選した",
-      "nai": "抽選しない"
+      "dictionary": "伝票する",
+      "masu": "伝票します",
+      "te": "伝票して",
+      "ta": "伝票した",
+      "nai": "伝票しない"
     },
     "examples": [
       {
@@ -35572,7 +33591,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1443": {
+  "n2_egg_1434": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35584,7 +33603,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1444": {
+  "n2_egg_1435": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35596,7 +33615,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1445": {
+  "n2_egg_1436": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35608,7 +33627,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1446": {
+  "n2_egg_1437": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35620,7 +33639,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1447": {
+  "n2_egg_1438": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35632,7 +33651,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1448": {
+  "n2_egg_1439": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35642,11 +33661,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "自問自答する",
-      "masu": "自問自答します",
-      "te": "自問自答して",
-      "ta": "自問自答した",
-      "nai": "自問自答しない"
+      "dictionary": "道程する",
+      "masu": "道程します",
+      "te": "道程して",
+      "ta": "道程した",
+      "nai": "道程しない"
     },
     "examples": [
       {
@@ -35655,7 +33674,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1449": {
+  "n2_egg_1440": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35667,22 +33686,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1450": {
+  "n2_egg_1441": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "並べ立てる",
-      "masu": "並べ立てます",
-      "te": "並べ立てて",
-      "ta": "並べ立てた",
-      "nai": "並べ立てない"
-    },
     "examples": [
       {
         "ja": "店頭に品物を並べ立てる",
@@ -35690,7 +33700,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1451": {
+  "n2_egg_1442": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35700,11 +33710,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "底上げする",
-      "masu": "底上げします",
-      "te": "底上げして",
-      "ta": "底上げした",
-      "nai": "底上げしない"
+      "dictionary": "抽選する",
+      "masu": "抽選します",
+      "te": "抽選して",
+      "ta": "抽選した",
+      "nai": "抽選しない"
     },
     "examples": [
       {
@@ -35713,22 +33723,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1452": {
+  "n2_egg_1443": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "問いかける",
-      "masu": "問いかけます",
-      "te": "問いかけて",
-      "ta": "問いかけた",
-      "nai": "問いかけない"
-    },
     "examples": [
       {
         "ja": "唐突に問いかける",
@@ -35736,7 +33737,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1453": {
+  "n2_egg_1444": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35748,7 +33749,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1454": {
+  "n2_egg_1445": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35760,7 +33761,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1455": {
+  "n2_egg_1446": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35772,7 +33773,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1456": {
+  "n2_egg_1447": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35784,7 +33785,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1457": {
+  "n2_egg_1448": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35796,7 +33797,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1458": {
+  "n2_egg_1449": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35806,11 +33807,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ダウンロードする",
-      "masu": "ダウンロードします",
-      "te": "ダウンロードして",
-      "ta": "ダウンロードした",
-      "nai": "ダウンロードしない"
+      "dictionary": "生きがいする",
+      "masu": "生きがいします",
+      "te": "生きがいして",
+      "ta": "生きがいした",
+      "nai": "生きがいしない"
     },
     "examples": [
       {
@@ -35819,7 +33820,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1459": {
+  "n2_egg_1450": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35831,7 +33832,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1460": {
+  "n2_egg_1451": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35843,7 +33844,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1461": {
+  "n2_egg_1452": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35853,11 +33854,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "冷え込む",
-      "masu": "冷え込みます",
-      "te": "冷え込んで",
-      "ta": "冷え込んだ",
-      "nai": "冷え込まない"
+      "dictionary": "問いかける",
+      "masu": "問いかけります",
+      "te": "問いかけって",
+      "ta": "問いかけった",
+      "nai": "問いかけらない"
     },
     "examples": [
       {
@@ -35866,7 +33867,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1462": {
+  "n2_egg_1453": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35878,7 +33879,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1463": {
+  "n2_egg_1454": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35890,7 +33891,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1464": {
+  "n2_egg_1455": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35902,7 +33903,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1465": {
+  "n2_egg_1456": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35914,7 +33915,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1466": {
+  "n2_egg_1457": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -35923,6 +33924,138 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "ほうきで部屋を掃く",
         "zh": "用掃帚打掃房間"
+      }
+    ]
+  },
+  "n2_egg_1458": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自動1",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "examples": [
+      {
+        "ja": "予想を下回る結果",
+        "zh": "不如預想的結果"
+      }
+    ]
+  },
+  "n2_egg_1459": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "組織を株式会社にする",
+        "zh": "把體制改為股份有限公司"
+      }
+    ]
+  },
+  "n2_egg_1460": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "総数する",
+      "masu": "総数します",
+      "te": "総数して",
+      "ta": "総数した",
+      "nai": "総数しない"
+    },
+    "examples": [
+      {
+        "ja": "二つの事例を対比する",
+        "zh": "比較兩個案例"
+      }
+    ]
+  },
+  "n2_egg_1461": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形・名",
+    "examples": [
+      {
+        "ja": "格安に売る",
+        "zh": "低價出售"
+      }
+    ]
+  },
+  "n2_egg_1462": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "会の日にちを決める",
+        "zh": "定下開會日期"
+      }
+    ]
+  },
+  "n2_egg_1463": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "相対的する",
+      "masu": "相対的します",
+      "te": "相対的して",
+      "ta": "相対的した",
+      "nai": "相対的しない"
+    },
+    "examples": [
+      {
+        "ja": "想像力を養成する",
+        "zh": "培養想像力"
+      }
+    ]
+  },
+  "n2_egg_1464": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "公正は議会政治の鉄則だ",
+        "zh": "公正乃議會政治之鐵則"
+      }
+    ]
+  },
+  "n2_egg_1465": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "家計を預かる",
+        "zh": "掌管家庭開支"
+      }
+    ]
+  },
+  "n2_egg_1466": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "月の裏面",
+        "zh": "月球背面"
       }
     ]
   },
@@ -35944,153 +34077,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "予想を下回る結果",
-        "zh": "不如預想的結果"
-      }
-    ]
-  },
-  "n2_egg_1468": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "組織を株式会社にする",
-        "zh": "把體制改為股份有限公司"
-      }
-    ]
-  },
-  "n2_egg_1469": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "対比する",
-      "masu": "対比します",
-      "te": "対比して",
-      "ta": "対比した",
-      "nai": "対比しない"
-    },
-    "examples": [
-      {
-        "ja": "二つの事例を対比する",
-        "zh": "比較兩個案例"
-      }
-    ]
-  },
-  "n2_egg_1470": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名",
-    "examples": [
-      {
-        "ja": "格安に売る",
-        "zh": "低價出售"
-      }
-    ]
-  },
-  "n2_egg_1471": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "会の日にちを決める",
-        "zh": "定下開會日期"
-      }
-    ]
-  },
-  "n2_egg_1472": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "養成する",
-      "masu": "養成します",
-      "te": "養成して",
-      "ta": "養成した",
-      "nai": "養成しない"
-    },
-    "examples": [
-      {
-        "ja": "想像力を養成する",
-        "zh": "培養想像力"
-      }
-    ]
-  },
-  "n2_egg_1473": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "公正は議会政治の鉄則だ",
-        "zh": "公正乃議會政治之鐵則"
-      }
-    ]
-  },
-  "n2_egg_1474": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "家計を預かる",
-        "zh": "掌管家庭開支"
-      }
-    ]
-  },
-  "n2_egg_1475": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "月の裏面",
-        "zh": "月球背面"
-      }
-    ]
-  },
-  "n2_egg_1476": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自動1",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "込み入る",
-      "masu": "込み入ります",
-      "te": "込み入って",
-      "ta": "込み入った",
-      "nai": "込み入らない"
-    },
-    "examples": [
-      {
         "ja": "込み入った事情",
         "zh": "錯綜複雜的情況"
       }
     ]
   },
-  "n2_egg_1477": {
+  "n2_egg_1468": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36102,22 +34094,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1478": {
+  "n2_egg_1469": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "流れ着く",
-      "masu": "流れ着きます",
-      "te": "流れ着いて",
-      "ta": "流れ着いた",
-      "nai": "流れ着かない"
-    },
     "examples": [
       {
         "ja": "木片が海岸に流れ着いた",
@@ -36125,7 +34108,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1479": {
+  "n2_egg_1470": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36137,7 +34120,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1480": {
+  "n2_egg_1471": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36149,7 +34132,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1481": {
+  "n2_egg_1472": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36161,7 +34144,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1482": {
+  "n2_egg_1473": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36173,7 +34156,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1483": {
+  "n2_egg_1474": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36185,7 +34168,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1484": {
+  "n2_egg_1475": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36197,7 +34180,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1485": {
+  "n2_egg_1476": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36209,7 +34192,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1486": {
+  "n2_egg_1477": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36221,7 +34204,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1487": {
+  "n2_egg_1478": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36231,11 +34214,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "貸し借りする",
-      "masu": "貸し借りします",
-      "te": "貸し借りして",
-      "ta": "貸し借りした",
-      "nai": "貸し借りしない"
+      "dictionary": "流れ着くする",
+      "masu": "流れ着くします",
+      "te": "流れ着くして",
+      "ta": "流れ着くした",
+      "nai": "流れ着くしない"
     },
     "examples": [
       {
@@ -36244,7 +34227,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1488": {
+  "n2_egg_1479": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36256,7 +34239,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1489": {
+  "n2_egg_1480": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36268,7 +34251,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1490": {
+  "n2_egg_1481": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36280,7 +34263,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1491": {
+  "n2_egg_1482": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36292,7 +34275,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1492": {
+  "n2_egg_1483": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36304,7 +34287,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1493": {
+  "n2_egg_1484": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36316,7 +34299,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1494": {
+  "n2_egg_1485": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36328,7 +34311,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1495": {
+  "n2_egg_1486": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36340,7 +34323,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1496": {
+  "n2_egg_1487": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36352,19 +34335,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1497": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "毛糸でセーターを編む",
-        "zh": "用毛線織毛衣"
-      }
-    ]
-  },
-  "n2_egg_1498": {
+  "n2_egg_1488": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36374,11 +34345,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "再発する",
-      "masu": "再発します",
-      "te": "再発して",
-      "ta": "再発した",
-      "nai": "再発しない"
+      "dictionary": "引き換えする",
+      "masu": "引き換えします",
+      "te": "引き換えして",
+      "ta": "引き換えした",
+      "nai": "引き換えしない"
     },
     "examples": [
       {
@@ -36387,7 +34358,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1499": {
+  "n2_egg_1489": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36397,11 +34368,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "完備する",
-      "masu": "完備します",
-      "te": "完備して",
-      "ta": "完備した",
-      "nai": "完備しない"
+      "dictionary": "航空機する",
+      "masu": "航空機します",
+      "te": "航空機して",
+      "ta": "航空機した",
+      "nai": "航空機しない"
     },
     "examples": [
       {
@@ -36410,22 +34381,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1500": {
+  "n2_egg_1490": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "生まれ持つ",
-      "masu": "生まれ持ちます",
-      "te": "生まれ持って",
-      "ta": "生まれ持った",
-      "nai": "生まれ持たない"
-    },
     "examples": [
       {
         "ja": "生まれ持った才能",
@@ -36433,7 +34395,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1501": {
+  "n2_egg_1491": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36443,11 +34405,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "多用する",
-      "masu": "多用します",
-      "te": "多用して",
-      "ta": "多用した",
-      "nai": "多用しない"
+      "dictionary": "ひまわりする",
+      "masu": "ひまわりします",
+      "te": "ひまわりして",
+      "ta": "ひまわりした",
+      "nai": "ひまわりしない"
     },
     "examples": [
       {
@@ -36456,7 +34418,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1502": {
+  "n2_egg_1492": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36468,7 +34430,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1503": {
+  "n2_egg_1493": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36480,7 +34442,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1504": {
+  "n2_egg_1494": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36492,7 +34454,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1505": {
+  "n2_egg_1495": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36504,7 +34466,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1506": {
+  "n2_egg_1496": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36516,7 +34478,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1507": {
+  "n2_egg_1497": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36528,7 +34490,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1508": {
+  "n2_egg_1498": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36540,7 +34502,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1509": {
+  "n2_egg_1499": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36552,7 +34514,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1510": {
+  "n2_egg_1500": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36562,11 +34524,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "関わり合う",
-      "masu": "関わり合います",
-      "te": "関わり合って",
-      "ta": "関わり合った",
-      "nai": "関わり合わない"
+      "dictionary": "生まれ持つ",
+      "masu": "生まれ持ちます",
+      "te": "生まれ持って",
+      "ta": "生まれ持った",
+      "nai": "生まれ持たない"
     },
     "examples": [
       {
@@ -36575,7 +34537,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1511": {
+  "n2_egg_1501": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36587,7 +34549,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1512": {
+  "n2_egg_1502": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36599,7 +34561,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1513": {
+  "n2_egg_1503": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36609,11 +34571,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "減点する",
-      "masu": "減点します",
-      "te": "減点して",
-      "ta": "減点した",
-      "nai": "減点しない"
+      "dictionary": "きのこする",
+      "masu": "きのこします",
+      "te": "きのこして",
+      "ta": "きのこした",
+      "nai": "きのこしない"
     },
     "examples": [
       {
@@ -36622,7 +34584,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1514": {
+  "n2_egg_1504": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36634,7 +34596,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1515": {
+  "n2_egg_1505": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36646,7 +34608,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1516": {
+  "n2_egg_1506": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36658,7 +34620,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1517": {
+  "n2_egg_1507": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36668,11 +34630,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "転勤する",
-      "masu": "転勤します",
-      "te": "転勤して",
-      "ta": "転勤した",
-      "nai": "転勤しない"
+      "dictionary": "判する",
+      "masu": "判します",
+      "te": "判して",
+      "ta": "判した",
+      "nai": "判しない"
     },
     "examples": [
       {
@@ -36681,7 +34643,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1518": {
+  "n2_egg_1508": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36693,7 +34655,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1519": {
+  "n2_egg_1509": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36705,7 +34667,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1520": {
+  "n2_egg_1510": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36717,7 +34679,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1521": {
+  "n2_egg_1511": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36729,7 +34691,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1522": {
+  "n2_egg_1512": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36741,7 +34703,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1523": {
+  "n2_egg_1513": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36753,7 +34715,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1524": {
+  "n2_egg_1514": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36765,7 +34727,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1525": {
+  "n2_egg_1515": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36777,7 +34739,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1526": {
+  "n2_egg_1516": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36787,11 +34749,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "乖離する",
-      "masu": "乖離します",
-      "te": "乖離して",
-      "ta": "乖離した",
-      "nai": "乖離しない"
+      "dictionary": "自然界する",
+      "masu": "自然界します",
+      "te": "自然界して",
+      "ta": "自然界した",
+      "nai": "自然界しない"
     },
     "examples": [
       {
@@ -36800,22 +34762,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1527": {
+  "n2_egg_1517": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "有り得る",
-      "masu": "有り得ます",
-      "te": "有り得て",
-      "ta": "有り得た",
-      "nai": "有り得ない"
-    },
     "examples": [
       {
         "ja": "それは有り得ることだ",
@@ -36823,22 +34776,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1528": {
+  "n2_egg_1518": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "乗り継ぐ",
-      "masu": "乗り継ぎます",
-      "te": "乗り継いで",
-      "ta": "乗り継いだ",
-      "nai": "乗り継がない"
-    },
     "examples": [
       {
         "ja": "飛行機に乗り継ぐ",
@@ -36846,7 +34790,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1529": {
+  "n2_egg_1519": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36858,22 +34802,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1530": {
+  "n2_egg_1520": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "差し迫る",
-      "masu": "差し迫ります",
-      "te": "差し迫って",
-      "ta": "差し迫った",
-      "nai": "差し迫らない"
-    },
     "examples": [
       {
         "ja": "期限が差し迫る",
@@ -36881,7 +34816,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1531": {
+  "n2_egg_1521": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36893,7 +34828,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1532": {
+  "n2_egg_1522": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36905,7 +34840,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1533": {
+  "n2_egg_1523": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36917,7 +34852,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1534": {
+  "n2_egg_1524": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36927,11 +34862,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "創立する",
-      "masu": "創立します",
-      "te": "創立して",
-      "ta": "創立した",
-      "nai": "創立しない"
+      "dictionary": "農作業する",
+      "masu": "農作業します",
+      "te": "農作業して",
+      "ta": "農作業した",
+      "nai": "農作業しない"
     },
     "examples": [
       {
@@ -36940,7 +34875,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1535": {
+  "n2_egg_1525": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36950,7 +34885,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ふさふさ",
+      "dictionary": "憲法",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -36963,7 +34898,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1536": {
+  "n2_egg_1526": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36975,7 +34910,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1537": {
+  "n2_egg_1527": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36987,7 +34922,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1538": {
+  "n2_egg_1528": {
     "pos": "suffix",
     "posLabel": "接尾語",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -36999,7 +34934,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1539": {
+  "n2_egg_1529": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37011,7 +34946,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1540": {
+  "n2_egg_1530": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37023,7 +34958,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1541": {
+  "n2_egg_1531": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37032,6 +34967,154 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "音に強弱の変化をつける",
         "zh": "為聲音添加強弱變化"
+      }
+    ]
+  },
+  "n2_egg_1532": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "ぐんとする",
+      "masu": "ぐんとします",
+      "te": "ぐんとして",
+      "ta": "ぐんとした",
+      "nai": "ぐんとしない"
+    },
+    "examples": [
+      {
+        "ja": "新設学部に人気が集まった",
+        "zh": "新設的專業很受歡迎"
+      }
+    ]
+  },
+  "n2_egg_1533": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "計画を推し進める",
+        "zh": "推行計劃"
+      }
+    ]
+  },
+  "n2_egg_1534": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "社名を刷り込んだ手帳",
+        "zh": "印有公司名稱的記事本"
+      }
+    ]
+  },
+  "n2_egg_1535": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "気象を観測する",
+        "zh": "觀測氣象"
+      }
+    ]
+  },
+  "n2_egg_1536": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形・名",
+    "examples": [
+      {
+        "ja": "ホットミルク",
+        "zh": "熱牛奶"
+      }
+    ]
+  },
+  "n2_egg_1537": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "汽笛を鳴らす",
+        "zh": "鳴汽笛"
+      }
+    ]
+  },
+  "n2_egg_1538": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動2",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "土地を買い求める",
+        "zh": "收購土地"
+      }
+    ]
+  },
+  "n2_egg_1539": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "心の触れ合い",
+        "zh": "心靈的交流"
+      }
+    ]
+  },
+  "n2_egg_1540": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "今年度する",
+      "masu": "今年度します",
+      "te": "今年度して",
+      "ta": "今年度した",
+      "nai": "今年度しない"
+    },
+    "examples": [
+      {
+        "ja": "新築マンション",
+        "zh": "新成屋"
+      }
+    ]
+  },
+  "n2_egg_1541": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "頭ごなしにしかりつける",
+        "zh": "劈頭蓋臉地訓斥"
       }
     ]
   },
@@ -37053,187 +35136,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "新設学部に人気が集まった",
-        "zh": "新設的專業很受歡迎"
-      }
-    ]
-  },
-  "n2_egg_1543": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "推し進める",
-      "masu": "推し進めます",
-      "te": "推し進めて",
-      "ta": "推し進めた",
-      "nai": "推し進めない"
-    },
-    "examples": [
-      {
-        "ja": "計画を推し進める",
-        "zh": "推行計劃"
-      }
-    ]
-  },
-  "n2_egg_1544": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "刷り込む",
-      "masu": "刷り込みます",
-      "te": "刷り込んで",
-      "ta": "刷り込んだ",
-      "nai": "刷り込まない"
-    },
-    "examples": [
-      {
-        "ja": "社名を刷り込んだ手帳",
-        "zh": "印有公司名稱的記事本"
-      }
-    ]
-  },
-  "n2_egg_1545": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "気象を観測する",
-        "zh": "觀測氣象"
-      }
-    ]
-  },
-  "n2_egg_1546": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・名",
-    "examples": [
-      {
-        "ja": "ホットミルク",
-        "zh": "熱牛奶"
-      }
-    ]
-  },
-  "n2_egg_1547": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "汽笛を鳴らす",
-        "zh": "鳴汽笛"
-      }
-    ]
-  },
-  "n2_egg_1548": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "買い求める",
-      "masu": "買い求めます",
-      "te": "買い求めて",
-      "ta": "買い求めた",
-      "nai": "買い求めない"
-    },
-    "examples": [
-      {
-        "ja": "土地を買い求める",
-        "zh": "收購土地"
-      }
-    ]
-  },
-  "n2_egg_1549": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "心の触れ合い",
-        "zh": "心靈的交流"
-      }
-    ]
-  },
-  "n2_egg_1550": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "新築する",
-      "masu": "新築します",
-      "te": "新築して",
-      "ta": "新築した",
-      "nai": "新築しない"
-    },
-    "examples": [
-      {
-        "ja": "新築マンション",
-        "zh": "新成屋"
-      }
-    ]
-  },
-  "n2_egg_1551": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "頭ごなしにしかりつける",
-        "zh": "劈頭蓋臉地訓斥"
-      }
-    ]
-  },
-  "n2_egg_1552": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "選考する",
-      "masu": "選考します",
-      "te": "選考して",
-      "ta": "選考した",
-      "nai": "選考しない"
-    },
-    "examples": [
-      {
         "ja": "大学入学の選考が始まった",
         "zh": "大學入學選拔開始了"
       }
     ]
   },
-  "n2_egg_1553": {
+  "n2_egg_1543": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37245,7 +35153,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1554": {
+  "n2_egg_1544": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37257,7 +35165,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1555": {
+  "n2_egg_1545": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37267,11 +35175,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出社する",
-      "masu": "出社します",
-      "te": "出社して",
-      "ta": "出社した",
-      "nai": "出社しない"
+      "dictionary": "気象する",
+      "masu": "気象します",
+      "te": "気象して",
+      "ta": "気象した",
+      "nai": "気象しない"
     },
     "examples": [
       {
@@ -37280,7 +35188,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1556": {
+  "n2_egg_1546": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37292,7 +35200,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1557": {
+  "n2_egg_1547": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37304,7 +35212,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1558": {
+  "n2_egg_1548": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37314,7 +35222,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "じめじめ",
+      "dictionary": "買い求める",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -37327,7 +35235,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1559": {
+  "n2_egg_1549": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37339,22 +35247,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1560": {
+  "n2_egg_1550": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "書き残す",
-      "masu": "書き残します",
-      "te": "書き残して",
-      "ta": "書き残した",
-      "nai": "書き残さない"
-    },
     "examples": [
       {
         "ja": "遺言を書き残す",
@@ -37362,7 +35261,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1561": {
+  "n2_egg_1551": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37374,22 +35273,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1562": {
+  "n2_egg_1552": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "結びつける",
-      "masu": "結びつけます",
-      "te": "結びつけて",
-      "ta": "結びつけた",
-      "nai": "結びつけない"
-    },
     "examples": [
       {
         "ja": "イヌをしっかり鎖に結びつける",
@@ -37397,7 +35287,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1563": {
+  "n2_egg_1553": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37407,11 +35297,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "区分する",
-      "masu": "区分します",
-      "te": "区分して",
-      "ta": "区分した",
-      "nai": "区分しない"
+      "dictionary": "買い手する",
+      "masu": "買い手します",
+      "te": "買い手して",
+      "ta": "買い手した",
+      "nai": "買い手しない"
     },
     "examples": [
       {
@@ -37420,7 +35310,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1564": {
+  "n2_egg_1554": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37432,7 +35322,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1565": {
+  "n2_egg_1555": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37444,7 +35334,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1566": {
+  "n2_egg_1556": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37454,11 +35344,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "討論する",
-      "masu": "討論します",
-      "te": "討論して",
-      "ta": "討論した",
-      "nai": "討論しない"
+      "dictionary": "事物する",
+      "masu": "事物します",
+      "te": "事物して",
+      "ta": "事物した",
+      "nai": "事物しない"
     },
     "examples": [
       {
@@ -37467,7 +35357,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1567": {
+  "n2_egg_1557": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37479,7 +35369,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1568": {
+  "n2_egg_1558": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37491,7 +35381,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1569": {
+  "n2_egg_1559": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37503,7 +35393,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1570": {
+  "n2_egg_1560": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37513,7 +35403,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "広々",
+      "dictionary": "書き残す",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -37526,7 +35416,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1571": {
+  "n2_egg_1561": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37538,7 +35428,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1572": {
+  "n2_egg_1562": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37550,7 +35440,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1573": {
+  "n2_egg_1563": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37559,6 +35449,192 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "花粉アレルギーがある",
         "zh": "對花粉過敏"
+      }
+    ]
+  },
+  "n2_egg_1564": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "漬物する",
+      "masu": "漬物します",
+      "te": "漬物して",
+      "ta": "漬物した",
+      "nai": "漬物しない"
+    },
+    "examples": [
+      {
+        "ja": "ご主人はご在宅ですか",
+        "zh": "您丈夫在家嗎？"
+      }
+    ]
+  },
+  "n2_egg_1565": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "年金する",
+      "masu": "年金します",
+      "te": "年金して",
+      "ta": "年金した",
+      "nai": "年金しない"
+    },
+    "examples": [
+      {
+        "ja": "憲法改正",
+        "zh": "修憲"
+      }
+    ]
+  },
+  "n2_egg_1566": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "副①・名⓪",
+    "examples": [
+      {
+        "ja": "ばりばりと仕事をする",
+        "zh": "努力工作"
+      }
+    ]
+  },
+  "n2_egg_1567": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "主観的する",
+      "masu": "主観的します",
+      "te": "主観的して",
+      "ta": "主観的した",
+      "nai": "主観的しない"
+    },
+    "examples": [
+      {
+        "ja": "赤道直下の島",
+        "zh": "赤道正下方的島嶼"
+      }
+    ]
+  },
+  "n2_egg_1568": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "履歴書を出す",
+        "zh": "提出履歷書，發簡歷"
+      }
+    ]
+  },
+  "n2_egg_1569": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "ナンセンスする",
+      "masu": "ナンセンスします",
+      "te": "ナンセンスして",
+      "ta": "ナンセンスした",
+      "nai": "ナンセンスしない"
+    },
+    "examples": [
+      {
+        "ja": "検察官",
+        "zh": "檢察官"
+      }
+    ]
+  },
+  "n2_egg_1570": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "うろ覚えに覚えているだけです",
+        "zh": "只是模模糊糊地記得"
+      }
+    ]
+  },
+  "n2_egg_1571": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "今一つする",
+      "masu": "今一つします",
+      "te": "今一つして",
+      "ta": "今一つした",
+      "nai": "今一つしない"
+    },
+    "examples": [
+      {
+        "ja": "くじ引きで順番を決める",
+        "zh": "抽籤決定先後順序"
+      }
+    ]
+  },
+  "n2_egg_1572": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自他動3",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "錠剤する",
+      "masu": "錠剤します",
+      "te": "錠剤して",
+      "ta": "錠剤した",
+      "nai": "錠剤しない"
+    },
+    "examples": [
+      {
+        "ja": "運航を休止する",
+        "zh": "停運"
+      }
+    ]
+  },
+  "n2_egg_1573": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "感受性が鋭い",
+        "zh": "感受性敏銳"
       }
     ]
   },
@@ -37580,198 +35656,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "ご主人はご在宅ですか",
-        "zh": "您丈夫在家嗎？"
-      }
-    ]
-  },
-  "n2_egg_1575": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "改正する",
-      "masu": "改正します",
-      "te": "改正して",
-      "ta": "改正した",
-      "nai": "改正しない"
-    },
-    "examples": [
-      {
-        "ja": "憲法改正",
-        "zh": "修憲"
-      }
-    ]
-  },
-  "n2_egg_1576": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副①・名⓪",
-    "examples": [
-      {
-        "ja": "ばりばりと仕事をする",
-        "zh": "努力工作"
-      }
-    ]
-  },
-  "n2_egg_1577": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "直下する",
-      "masu": "直下します",
-      "te": "直下して",
-      "ta": "直下した",
-      "nai": "直下しない"
-    },
-    "examples": [
-      {
-        "ja": "赤道直下の島",
-        "zh": "赤道正下方的島嶼"
-      }
-    ]
-  },
-  "n2_egg_1578": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "履歴書を出す",
-        "zh": "提出履歷書，發簡歷"
-      }
-    ]
-  },
-  "n2_egg_1579": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "検察する",
-      "masu": "検察します",
-      "te": "検察して",
-      "ta": "検察した",
-      "nai": "検察しない"
-    },
-    "examples": [
-      {
-        "ja": "検察官",
-        "zh": "檢察官"
-      }
-    ]
-  },
-  "n2_egg_1580": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "うろ覚えに覚えているだけです",
-        "zh": "只是模模糊糊地記得"
-      }
-    ]
-  },
-  "n2_egg_1581": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "くじ引きする",
-      "masu": "くじ引きします",
-      "te": "くじ引きして",
-      "ta": "くじ引きした",
-      "nai": "くじ引きしない"
-    },
-    "examples": [
-      {
-        "ja": "くじ引きで順番を決める",
-        "zh": "抽籤決定先後順序"
-      }
-    ]
-  },
-  "n2_egg_1582": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "休止する",
-      "masu": "休止します",
-      "te": "休止して",
-      "ta": "休止した",
-      "nai": "休止しない"
-    },
-    "examples": [
-      {
-        "ja": "運航を休止する",
-        "zh": "停運"
-      }
-    ]
-  },
-  "n2_egg_1583": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "感受性が鋭い",
-        "zh": "感受性敏銳"
-      }
-    ]
-  },
-  "n2_egg_1584": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "老化する",
-      "masu": "老化します",
-      "te": "老化して",
-      "ta": "老化した",
-      "nai": "老化しない"
-    },
-    "examples": [
-      {
         "ja": "ゴム製品の老化防止剤",
         "zh": "橡膠製品的老化防止劑"
       }
     ]
   },
-  "n2_egg_1585": {
+  "n2_egg_1575": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37783,7 +35673,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1586": {
+  "n2_egg_1576": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37795,7 +35685,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1587": {
+  "n2_egg_1577": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37805,11 +35695,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "宅配する",
-      "masu": "宅配します",
-      "te": "宅配して",
-      "ta": "宅配した",
-      "nai": "宅配しない"
+      "dictionary": "直下する",
+      "masu": "直下します",
+      "te": "直下して",
+      "ta": "直下した",
+      "nai": "直下しない"
     },
     "examples": [
       {
@@ -37818,7 +35708,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1588": {
+  "n2_egg_1578": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37830,22 +35720,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1589": {
+  "n2_egg_1579": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "織り込む",
-      "masu": "織り込みます",
-      "te": "織り込んで",
-      "ta": "織り込んだ",
-      "nai": "織り込まない"
-    },
     "examples": [
       {
         "ja": "金線を織り込んだ絹布",
@@ -37853,7 +35734,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1590": {
+  "n2_egg_1580": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37865,7 +35746,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1591": {
+  "n2_egg_1581": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37877,7 +35758,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1592": {
+  "n2_egg_1582": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37889,7 +35770,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1593": {
+  "n2_egg_1583": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37901,7 +35782,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1594": {
+  "n2_egg_1584": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37911,11 +35792,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "見積もりする",
-      "masu": "見積もりします",
-      "te": "見積もりして",
-      "ta": "見積もりした",
-      "nai": "見積もりしない"
+      "dictionary": "老化する",
+      "masu": "老化します",
+      "te": "老化して",
+      "ta": "老化した",
+      "nai": "老化しない"
     },
     "examples": [
       {
@@ -37924,7 +35805,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1595": {
+  "n2_egg_1585": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37934,11 +35815,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "目算する",
-      "masu": "目算します",
-      "te": "目算して",
-      "ta": "目算した",
-      "nai": "目算しない"
+      "dictionary": "蓄えする",
+      "masu": "蓄えします",
+      "te": "蓄えして",
+      "ta": "蓄えした",
+      "nai": "蓄えしない"
     },
     "examples": [
       {
@@ -37947,7 +35828,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1596": {
+  "n2_egg_1586": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37959,7 +35840,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1597": {
+  "n2_egg_1587": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -37971,22 +35852,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1598": {
+  "n2_egg_1588": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "染み付く",
-      "masu": "染み付きます",
-      "te": "染み付いて",
-      "ta": "染み付いた",
-      "nai": "染み付かない"
-    },
     "examples": [
       {
         "ja": "石油の匂いが染み付く",
@@ -37994,7 +35866,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1599": {
+  "n2_egg_1589": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38006,7 +35878,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1600": {
+  "n2_egg_1590": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38018,7 +35890,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1601": {
+  "n2_egg_1591": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38030,7 +35902,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1602": {
+  "n2_egg_1592": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38042,7 +35914,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1603": {
+  "n2_egg_1593": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38054,7 +35926,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1604": {
+  "n2_egg_1594": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38066,7 +35938,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1605": {
+  "n2_egg_1595": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38078,7 +35950,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1606": {
+  "n2_egg_1596": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38090,7 +35962,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1607": {
+  "n2_egg_1597": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38100,11 +35972,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "開設する",
-      "masu": "開設します",
-      "te": "開設して",
-      "ta": "開設した",
-      "nai": "開設しない"
+      "dictionary": "農園する",
+      "masu": "農園します",
+      "te": "農園して",
+      "ta": "農園した",
+      "nai": "農園しない"
     },
     "examples": [
       {
@@ -38113,7 +35985,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1608": {
+  "n2_egg_1598": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38125,7 +35997,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1609": {
+  "n2_egg_1599": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38134,6 +36006,152 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "定年退職",
         "zh": "退休"
+      }
+    ]
+  },
+  "n2_egg_1600": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "無断する",
+      "masu": "無断します",
+      "te": "無断して",
+      "ta": "無断した",
+      "nai": "無断しない"
+    },
+    "examples": [
+      {
+        "ja": "規則を厳守する",
+        "zh": "嚴格遵守規則"
+      }
+    ]
+  },
+  "n2_egg_1601": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "請求書が送付されてきた",
+        "zh": "寄來了帳單"
+      }
+    ]
+  },
+  "n2_egg_1602": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "配役表",
+        "zh": "演員表"
+      }
+    ]
+  },
+  "n2_egg_1603": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "塩分を控える",
+        "zh": "少吃鹽"
+      }
+    ]
+  },
+  "n2_egg_1604": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "貴社",
+        "zh": "（對他人公司的敬稱，常用於書面語）貴公司"
+      }
+    ]
+  },
+  "n2_egg_1605": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "ぬるま湯につかる",
+        "zh": "泡在溫水裡；待在舒適圈，安於現狀"
+      }
+    ]
+  },
+  "n2_egg_1606": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "種をまく",
+        "zh": "播種"
+      }
+    ]
+  },
+  "n2_egg_1607": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "開設する",
+      "masu": "開設します",
+      "te": "開設して",
+      "ta": "開設した",
+      "nai": "開設しない"
+    },
+    "examples": [
+      {
+        "ja": "入賞者",
+        "zh": "得獎者"
+      }
+    ]
+  },
+  "n2_egg_1608": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "家電製品",
+        "zh": "家電產品"
+      }
+    ]
+  },
+  "n2_egg_1609": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "自他動2",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "examples": [
+      {
+        "ja": "熱っぽく語りかける",
+        "zh": "熱情地傾訴"
       }
     ]
   },
@@ -38155,8 +36173,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "規則を厳守する",
-        "zh": "嚴格遵守規則"
+        "ja": "逆算して確かめる",
+        "zh": "為了確認再倒過來算一遍"
       }
     ]
   },
@@ -38167,8 +36185,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "請求書が送付されてきた",
-        "zh": "寄來了帳單"
+        "ja": "公務員は不景気に強い職種と思われるらしく、不況時に志願者が増える",
+        "zh": "公務員似乎被認為是在經濟不景氣時很穩定的職業，所以當經濟不好的時候報考人數就會增加"
       }
     ]
   },
@@ -38179,71 +36197,36 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "配役表",
-        "zh": "演員表"
+        "ja": "彼は大学は文系に進むことにしている",
+        "zh": "他決定大學要念文科"
       }
     ]
   },
   "n2_egg_1613": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "adverb",
+    "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "sourcePos": "副",
     "examples": [
       {
-        "ja": "塩分を控える",
-        "zh": "少吃鹽"
+        "ja": "ミミズがうじゃうじゃいる",
+        "zh": "蚯蚓密密麻麻地到處都是"
       }
     ]
   },
   "n2_egg_1614": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "i_adjective",
+    "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
+    "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "貴社",
-        "zh": "（對他人公司的敬稱，常用於書面語）貴公司"
+        "ja": "得難い古書",
+        "zh": "難得的古書"
       }
     ]
   },
   "n2_egg_1615": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ぬるま湯につかる",
-        "zh": "泡在溫水裡；待在舒適圈，安於現狀"
-      }
-    ]
-  },
-  "n2_egg_1616": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "まく",
-      "masu": "まきます",
-      "te": "まいて",
-      "ta": "まいた",
-      "nai": "まかない"
-    },
-    "examples": [
-      {
-        "ja": "種をまく",
-        "zh": "播種"
-      }
-    ]
-  },
-  "n2_egg_1617": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38253,16 +36236,40 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "入賞する",
-      "masu": "入賞します",
-      "te": "入賞して",
-      "ta": "入賞した",
-      "nai": "入賞しない"
+      "dictionary": "ぬるま湯する",
+      "masu": "ぬるま湯します",
+      "te": "ぬるま湯して",
+      "ta": "ぬるま湯した",
+      "nai": "ぬるま湯しない"
     },
     "examples": [
       {
-        "ja": "入賞者",
-        "zh": "得獎者"
+        "ja": "入居者募集",
+        "zh": "招募房客"
+      }
+    ]
+  },
+  "n2_egg_1616": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "波風を立てないでほしい",
+        "zh": "希望不要引起風波"
+      }
+    ]
+  },
+  "n2_egg_1617": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "念頭に置く",
+        "zh": "放在心上"
       }
     ]
   },
@@ -38273,31 +36280,20 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "sourcePos": "名",
     "examples": [
       {
-        "ja": "家電製品",
-        "zh": "家電產品"
+        "ja": "ライスの大盛り",
+        "zh": "大碗白飯"
       }
     ]
   },
   "n2_egg_1619": {
-    "pos": "verb",
-    "posLabel": "動詞",
+    "pos": "noun",
+    "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "自他動2",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "語りかける",
-      "masu": "語りかけます",
-      "te": "語りかけて",
-      "ta": "語りかけた",
-      "nai": "語りかけない"
-    },
+    "sourcePos": "名",
     "examples": [
       {
-        "ja": "熱っぽく語りかける",
-        "zh": "熱情地傾訴"
+        "ja": "シロアリは木造家屋の大敵だ",
+        "zh": "白蟻是木造房屋的大敵"
       }
     ]
   },
@@ -38319,154 +36315,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "逆算して確かめる",
-        "zh": "為了確認再倒過來算一遍"
-      }
-    ]
-  },
-  "n2_egg_1621": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "公務員は不景気に強い職種と思われるらしく、不況時に志願者が増える",
-        "zh": "公務員似乎被認為是在經濟不景氣時很穩定的職業，所以當經濟不好的時候報考人數就會增加"
-      }
-    ]
-  },
-  "n2_egg_1622": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "彼は大学は文系に進むことにしている",
-        "zh": "他決定大學要念文科"
-      }
-    ]
-  },
-  "n2_egg_1623": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副",
-    "examples": [
-      {
-        "ja": "ミミズがうじゃうじゃいる",
-        "zh": "蚯蚓密密麻麻地到處都是"
-      }
-    ]
-  },
-  "n2_egg_1624": {
-    "pos": "i_adjective",
-    "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
-    "examples": [
-      {
-        "ja": "得難い古書",
-        "zh": "難得的古書"
-      }
-    ]
-  },
-  "n2_egg_1625": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "入居する",
-      "masu": "入居します",
-      "te": "入居して",
-      "ta": "入居した",
-      "nai": "入居しない"
-    },
-    "examples": [
-      {
-        "ja": "入居者募集",
-        "zh": "招募房客"
-      }
-    ]
-  },
-  "n2_egg_1626": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "波風を立てないでほしい",
-        "zh": "希望不要引起風波"
-      }
-    ]
-  },
-  "n2_egg_1627": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "念頭に置く",
-        "zh": "放在心上"
-      }
-    ]
-  },
-  "n2_egg_1628": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ライスの大盛り",
-        "zh": "大碗白飯"
-      }
-    ]
-  },
-  "n2_egg_1629": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "シロアリは木造家屋の大敵だ",
-        "zh": "白蟻是木造房屋的大敵"
-      }
-    ]
-  },
-  "n2_egg_1630": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "列挙する",
-      "masu": "列挙します",
-      "te": "列挙して",
-      "ta": "列挙した",
-      "nai": "列挙しない"
-    },
-    "examples": [
-      {
         "ja": "罪状を列挙する",
         "zh": "列舉罪狀"
       }
     ]
   },
-  "n2_egg_1631": {
+  "n2_egg_1621": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38478,7 +36332,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1632": {
+  "n2_egg_1622": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38488,11 +36342,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "養育する",
-      "masu": "養育します",
-      "te": "養育して",
-      "ta": "養育した",
-      "nai": "養育しない"
+      "dictionary": "文系する",
+      "masu": "文系します",
+      "te": "文系して",
+      "ta": "文系した",
+      "nai": "文系しない"
     },
     "examples": [
       {
@@ -38501,7 +36355,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1633": {
+  "n2_egg_1623": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38513,7 +36367,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1634": {
+  "n2_egg_1624": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38525,7 +36379,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1635": {
+  "n2_egg_1625": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38537,7 +36391,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1636": {
+  "n2_egg_1626": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38549,22 +36403,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1637": {
+  "n2_egg_1627": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "洗い出す",
-      "masu": "洗い出します",
-      "te": "洗い出して",
-      "ta": "洗い出した",
-      "nai": "洗い出さない"
-    },
     "examples": [
       {
         "ja": "原因を洗い出して対策を立てる",
@@ -38572,7 +36417,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1638": {
+  "n2_egg_1628": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38584,7 +36429,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1639": {
+  "n2_egg_1629": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38596,7 +36441,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1640": {
+  "n2_egg_1630": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38608,7 +36453,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1641": {
+  "n2_egg_1631": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38620,7 +36465,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1642": {
+  "n2_egg_1632": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38632,7 +36477,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1643": {
+  "n2_egg_1633": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38644,7 +36489,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1644": {
+  "n2_egg_1634": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38656,7 +36501,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1645": {
+  "n2_egg_1635": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38668,7 +36513,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1646": {
+  "n2_egg_1636": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38680,7 +36525,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1647": {
+  "n2_egg_1637": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38692,7 +36537,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1648": {
+  "n2_egg_1638": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38704,7 +36549,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1649": {
+  "n2_egg_1639": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38714,11 +36559,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "喫煙する",
-      "masu": "喫煙します",
-      "te": "喫煙して",
-      "ta": "喫煙した",
-      "nai": "喫煙しない"
+      "dictionary": "生後する",
+      "masu": "生後します",
+      "te": "生後して",
+      "ta": "生後した",
+      "nai": "生後しない"
     },
     "examples": [
       {
@@ -38727,7 +36572,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1650": {
+  "n2_egg_1640": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38737,11 +36582,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "筆記する",
-      "masu": "筆記します",
-      "te": "筆記して",
-      "ta": "筆記した",
-      "nai": "筆記しない"
+      "dictionary": "不得意する",
+      "masu": "不得意します",
+      "te": "不得意して",
+      "ta": "不得意した",
+      "nai": "不得意しない"
     },
     "examples": [
       {
@@ -38750,7 +36595,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1651": {
+  "n2_egg_1641": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38760,11 +36605,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "放映する",
-      "masu": "放映します",
-      "te": "放映して",
-      "ta": "放映した",
-      "nai": "放映しない"
+      "dictionary": "電動する",
+      "masu": "電動します",
+      "te": "電動して",
+      "ta": "電動した",
+      "nai": "電動しない"
     },
     "examples": [
       {
@@ -38773,19 +36618,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1652": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "南極探検",
-        "zh": "南極探險"
-      }
-    ]
-  },
-  "n2_egg_1653": {
+  "n2_egg_1642": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38797,7 +36630,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1654": {
+  "n2_egg_1643": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38809,7 +36642,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1655": {
+  "n2_egg_1644": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38821,7 +36654,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1656": {
+  "n2_egg_1645": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38833,7 +36666,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1657": {
+  "n2_egg_1646": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38845,7 +36678,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1658": {
+  "n2_egg_1647": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38857,42 +36690,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1659": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "評論する",
-      "masu": "評論します",
-      "te": "評論して",
-      "ta": "評論した",
-      "nai": "評論しない"
-    },
-    "examples": [
-      {
-        "ja": "文芸評論",
-        "zh": "文藝評論"
-      }
-    ]
-  },
-  "n2_egg_1660": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "授業料を滞納する",
-        "zh": "拖欠學費"
-      }
-    ]
-  },
-  "n2_egg_1661": {
+  "n2_egg_1648": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38902,11 +36700,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "急増する",
-      "masu": "急増します",
-      "te": "急増して",
-      "ta": "急増した",
-      "nai": "急増しない"
+      "dictionary": "手振りする",
+      "masu": "手振りします",
+      "te": "手振りして",
+      "ta": "手振りした",
+      "nai": "手振りしない"
     },
     "examples": [
       {
@@ -38915,7 +36713,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1662": {
+  "n2_egg_1649": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38927,7 +36725,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1663": {
+  "n2_egg_1650": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38939,7 +36737,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1664": {
+  "n2_egg_1651": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38951,22 +36749,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1665": {
+  "n2_egg_1652": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "なぞらえる",
-      "masu": "なぞらえます",
-      "te": "なぞらえて",
-      "ta": "なぞらえた",
-      "nai": "なぞらえない"
-    },
     "examples": [
       {
         "ja": "人生を山登りになぞらえる",
@@ -38974,7 +36763,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1666": {
+  "n2_egg_1653": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38986,7 +36775,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1667": {
+  "n2_egg_1654": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -38998,7 +36787,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1668": {
+  "n2_egg_1655": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39010,7 +36799,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1669": {
+  "n2_egg_1656": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39022,7 +36811,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1670": {
+  "n2_egg_1657": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39034,7 +36823,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1671": {
+  "n2_egg_1658": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39044,11 +36833,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "配送する",
-      "masu": "配送します",
-      "te": "配送して",
-      "ta": "配送した",
-      "nai": "配送しない"
+      "dictionary": "見分けする",
+      "masu": "見分けします",
+      "te": "見分けして",
+      "ta": "見分けした",
+      "nai": "見分けしない"
     },
     "examples": [
       {
@@ -39057,7 +36846,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1672": {
+  "n2_egg_1659": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39067,7 +36856,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ぶかぶか",
+      "dictionary": "評論",
       "masu": "します",
       "te": "して",
       "ta": "した",
@@ -39080,7 +36869,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1673": {
+  "n2_egg_1660": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39090,11 +36879,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ライトアップする",
-      "masu": "ライトアップします",
-      "te": "ライトアップして",
-      "ta": "ライトアップした",
-      "nai": "ライトアップしない"
+      "dictionary": "授業料する",
+      "masu": "授業料します",
+      "te": "授業料して",
+      "ta": "授業料した",
+      "nai": "授業料しない"
     },
     "examples": [
       {
@@ -39103,7 +36892,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1674": {
+  "n2_egg_1661": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39115,7 +36904,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1675": {
+  "n2_egg_1662": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39127,7 +36916,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1676": {
+  "n2_egg_1663": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39139,7 +36928,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1677": {
+  "n2_egg_1664": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39151,7 +36940,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1678": {
+  "n2_egg_1665": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39161,11 +36950,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "godan",
     "verbClassLabel": "五段動詞",
     "forms": {
-      "dictionary": "締め切る",
-      "masu": "締め切ります",
-      "te": "締め切って",
-      "ta": "締め切った",
-      "nai": "締め切らない"
+      "dictionary": "なぞらえる",
+      "masu": "なぞらえります",
+      "te": "なぞらえって",
+      "ta": "なぞらえった",
+      "nai": "なぞらえらない"
     },
     "examples": [
       {
@@ -39174,7 +36963,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1679": {
+  "n2_egg_1666": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39186,7 +36975,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1680": {
+  "n2_egg_1667": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39198,7 +36987,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1681": {
+  "n2_egg_1668": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39210,7 +36999,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1682": {
+  "n2_egg_1669": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39222,7 +37011,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1683": {
+  "n2_egg_1670": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39234,7 +37023,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1684": {
+  "n2_egg_1671": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39246,11 +37035,222 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1685": {
+  "n2_egg_1672": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "ぶかぶかする",
+      "masu": "ぶかぶかします",
+      "te": "ぶかぶかして",
+      "ta": "ぶかぶかした",
+      "nai": "ぶかぶかしない"
+    },
+    "examples": [
+      {
+        "ja": "アウトプット",
+        "zh": "（output）（電腦）輸出"
+      }
+    ]
+  },
+  "n2_egg_1673": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自他動3",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "ライトアップする",
+      "masu": "ライトアップします",
+      "te": "ライトアップして",
+      "ta": "ライトアップした",
+      "nai": "ライトアップしない"
+    },
+    "examples": [
+      {
+        "ja": "買ったものを返品する",
+        "zh": "退貨"
+      }
+    ]
+  },
+  "n2_egg_1674": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "遊び心で油絵を始める",
+        "zh": "因為好玩而開始畫油畫"
+      }
+    ]
+  },
+  "n2_egg_1675": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "印鑑を彫る",
+        "zh": "雕刻印章"
+      }
+    ]
+  },
+  "n2_egg_1676": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "二酸化炭素の排出量を減らす必要がある",
+        "zh": "需要減少二氧化碳的排放量"
+      }
+    ]
+  },
+  "n2_egg_1677": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "多種多様する",
+      "masu": "多種多様します",
+      "te": "多種多様して",
+      "ta": "多種多様した",
+      "nai": "多種多様しない"
+    },
+    "examples": [
+      {
+        "ja": "実践を通じて知識を体得する",
+        "zh": "透過實踐掌握知識"
+      }
+    ]
+  },
+  "n2_egg_1678": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "一句一句はっきり読む",
+        "zh": "一句一句地清清楚楚地唸"
+      }
+    ]
+  },
+  "n2_egg_1679": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "プロジェクトの成否は彼の努力にかかっている",
+        "zh": "專案的成敗取決於他的努力"
+      }
+    ]
+  },
+  "n2_egg_1680": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "カルシウムが豊富な食品",
+        "zh": "富含鈣質的食品"
+      }
+    ]
+  },
+  "n2_egg_1681": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "決断力に富む",
+        "zh": "富有決策能力"
+      }
+    ]
+  },
+  "n2_egg_1682": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・他動3",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "日当たりする",
+      "masu": "日当たりします",
+      "te": "日当たりして",
+      "ta": "日当たりした",
+      "nai": "日当たりしない"
+    },
+    "examples": [
+      {
+        "ja": "医学事典を監修する",
+        "zh": "監修醫學百科全書"
+      }
+    ]
+  },
+  "n2_egg_1683": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "抗体を獲得する",
+        "zh": "獲得抗體"
+      }
+    ]
+  },
+  "n2_egg_1684": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "原材料する",
+      "masu": "原材料します",
+      "te": "原材料して",
+      "ta": "原材料した",
+      "nai": "原材料しない"
+    },
+    "examples": [
+      {
+        "ja": "父のオーバーを子供服にリフォームする",
+        "zh": "把父親的大衣改作成孩子服裝"
+      }
+    ]
+  },
+  "n2_egg_1685": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形・他動3・名",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
     "verbClass": "suru",
@@ -39264,223 +37264,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "アウトプット",
-        "zh": "（output）（電腦）輸出"
-      }
-    ]
-  },
-  "n2_egg_1686": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "返品する",
-      "masu": "返品します",
-      "te": "返品して",
-      "ta": "返品した",
-      "nai": "返品しない"
-    },
-    "examples": [
-      {
-        "ja": "買ったものを返品する",
-        "zh": "退貨"
-      }
-    ]
-  },
-  "n2_egg_1687": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "遊び心で油絵を始める",
-        "zh": "因為好玩而開始畫油畫"
-      }
-    ]
-  },
-  "n2_egg_1688": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "印鑑を彫る",
-        "zh": "雕刻印章"
-      }
-    ]
-  },
-  "n2_egg_1689": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "二酸化炭素の排出量を減らす必要がある",
-        "zh": "需要減少二氧化碳的排放量"
-      }
-    ]
-  },
-  "n2_egg_1690": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "体得する",
-      "masu": "体得します",
-      "te": "体得して",
-      "ta": "体得した",
-      "nai": "体得しない"
-    },
-    "examples": [
-      {
-        "ja": "実践を通じて知識を体得する",
-        "zh": "透過實踐掌握知識"
-      }
-    ]
-  },
-  "n2_egg_1691": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "一句一句はっきり読む",
-        "zh": "一句一句地清清楚楚地唸"
-      }
-    ]
-  },
-  "n2_egg_1692": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "プロジェクトの成否は彼の努力にかかっている",
-        "zh": "專案的成敗取決於他的努力"
-      }
-    ]
-  },
-  "n2_egg_1693": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "カルシウムが豊富な食品",
-        "zh": "富含鈣質的食品"
-      }
-    ]
-  },
-  "n2_egg_1694": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "決断力に富む",
-        "zh": "富有決策能力"
-      }
-    ]
-  },
-  "n2_egg_1695": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "監修する",
-      "masu": "監修します",
-      "te": "監修して",
-      "ta": "監修した",
-      "nai": "監修しない"
-    },
-    "examples": [
-      {
-        "ja": "医学事典を監修する",
-        "zh": "監修醫學百科全書"
-      }
-    ]
-  },
-  "n2_egg_1696": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "抗体を獲得する",
-        "zh": "獲得抗體"
-      }
-    ]
-  },
-  "n2_egg_1697": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "リフォームする",
-      "masu": "リフォームします",
-      "te": "リフォームして",
-      "ta": "リフォームした",
-      "nai": "リフォームしない"
-    },
-    "examples": [
-      {
-        "ja": "父のオーバーを子供服にリフォームする",
-        "zh": "把父親的大衣改作成孩子服裝"
-      }
-    ]
-  },
-  "n2_egg_1698": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形・他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "トータルする",
-      "masu": "トータルします",
-      "te": "トータルして",
-      "ta": "トータルした",
-      "nai": "トータルしない"
-    },
-    "examples": [
-      {
         "ja": "得点をトータルする",
         "zh": "總計得分"
       }
     ]
   },
-  "n2_egg_1699": {
+  "n2_egg_1686": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39492,7 +37281,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1700": {
+  "n2_egg_1687": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39504,7 +37293,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1701": {
+  "n2_egg_1688": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39516,7 +37305,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1702": {
+  "n2_egg_1689": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39528,7 +37317,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1703": {
+  "n2_egg_1690": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39540,7 +37329,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1704": {
+  "n2_egg_1691": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39552,7 +37341,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1705": {
+  "n2_egg_1692": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39562,11 +37351,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "減衰する",
-      "masu": "減衰します",
-      "te": "減衰して",
-      "ta": "減衰した",
-      "nai": "減衰しない"
+      "dictionary": "成否する",
+      "masu": "成否します",
+      "te": "成否して",
+      "ta": "成否した",
+      "nai": "成否しない"
     },
     "examples": [
       {
@@ -39575,7 +37364,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1706": {
+  "n2_egg_1693": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39587,7 +37376,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1707": {
+  "n2_egg_1694": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39599,7 +37388,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1708": {
+  "n2_egg_1695": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39611,7 +37400,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1709": {
+  "n2_egg_1696": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39623,7 +37412,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1710": {
+  "n2_egg_1697": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39635,7 +37424,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1711": {
+  "n2_egg_1698": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39647,22 +37436,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1712": {
+  "n2_egg_1699": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "立て替える",
-      "masu": "立て替えます",
-      "te": "立て替えて",
-      "ta": "立て替えた",
-      "nai": "立て替えない"
-    },
     "examples": [
       {
         "ja": "家賃を立て替えてあげる",
@@ -39670,7 +37450,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1713": {
+  "n2_egg_1700": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39680,11 +37460,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "梱包する",
-      "masu": "梱包します",
-      "te": "梱包して",
-      "ta": "梱包した",
-      "nai": "梱包しない"
+      "dictionary": "えてしてする",
+      "masu": "えてしてします",
+      "te": "えてしてして",
+      "ta": "えてしてした",
+      "nai": "えてしてしない"
     },
     "examples": [
       {
@@ -39693,7 +37473,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1714": {
+  "n2_egg_1701": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39703,11 +37483,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "同封する",
-      "masu": "同封します",
-      "te": "同封して",
-      "ta": "同封した",
-      "nai": "同封しない"
+      "dictionary": "工学する",
+      "masu": "工学します",
+      "te": "工学して",
+      "ta": "工学した",
+      "nai": "工学しない"
     },
     "examples": [
       {
@@ -39716,7 +37496,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1715": {
+  "n2_egg_1702": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39726,11 +37506,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "検診する",
-      "masu": "検診します",
-      "te": "検診して",
-      "ta": "検診した",
-      "nai": "検診しない"
+      "dictionary": "自社する",
+      "masu": "自社します",
+      "te": "自社して",
+      "ta": "自社した",
+      "nai": "自社しない"
     },
     "examples": [
       {
@@ -39739,7 +37519,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1716": {
+  "n2_egg_1703": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39749,11 +37529,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "結実する",
-      "masu": "結実します",
-      "te": "結実して",
-      "ta": "結実した",
-      "nai": "結実しない"
+      "dictionary": "寝苦しいする",
+      "masu": "寝苦しいします",
+      "te": "寝苦しいして",
+      "ta": "寝苦しいした",
+      "nai": "寝苦しいしない"
     },
     "examples": [
       {
@@ -39762,7 +37542,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1717": {
+  "n2_egg_1704": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39774,7 +37554,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1718": {
+  "n2_egg_1705": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39786,7 +37566,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1719": {
+  "n2_egg_1706": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39796,11 +37576,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "共働きする",
-      "masu": "共働きします",
-      "te": "共働きして",
-      "ta": "共働きした",
-      "nai": "共働きしない"
+      "dictionary": "人工衛星する",
+      "masu": "人工衛星します",
+      "te": "人工衛星して",
+      "ta": "人工衛星した",
+      "nai": "人工衛星しない"
     },
     "examples": [
       {
@@ -39809,7 +37589,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1720": {
+  "n2_egg_1707": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39821,7 +37601,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1721": {
+  "n2_egg_1708": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39833,22 +37613,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1722": {
+  "n2_egg_1709": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "買い与える",
-      "masu": "買い与えります",
-      "te": "買い与えって",
-      "ta": "買い与えった",
-      "nai": "買い与えらない"
-    },
     "examples": [
       {
         "ja": "ゲーム機を買い与える",
@@ -39856,7 +37627,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1723": {
+  "n2_egg_1710": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39868,7 +37639,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1724": {
+  "n2_egg_1711": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39880,7 +37651,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1725": {
+  "n2_egg_1712": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39892,7 +37663,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1726": {
+  "n2_egg_1713": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39904,7 +37675,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1727": {
+  "n2_egg_1714": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39916,22 +37687,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1728": {
+  "n2_egg_1715": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "くるむ",
-      "masu": "くるみます",
-      "te": "くるんで",
-      "ta": "くるんだ",
-      "nai": "くるまない"
-    },
     "examples": [
       {
         "ja": "子どもを毛布にくるむ",
@@ -39939,7 +37701,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1729": {
+  "n2_egg_1716": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39951,7 +37713,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1730": {
+  "n2_egg_1717": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -39961,11 +37723,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "類推する",
-      "masu": "類推します",
-      "te": "類推して",
-      "ta": "類推した",
-      "nai": "類推しない"
+      "dictionary": "ベストセラーする",
+      "masu": "ベストセラーします",
+      "te": "ベストセラーして",
+      "ta": "ベストセラーした",
+      "nai": "ベストセラーしない"
     },
     "examples": [
       {
@@ -39974,22 +37736,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1731": {
+  "n2_egg_1718": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "擦れ違う",
-      "masu": "擦れ違います",
-      "te": "擦れ違って",
-      "ta": "擦れ違った",
-      "nai": "擦れ違わない"
-    },
     "examples": [
       {
         "ja": "廊下で擦れ違う",
@@ -39997,7 +37750,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1732": {
+  "n2_egg_1719": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40007,11 +37760,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "代筆する",
-      "masu": "代筆します",
-      "te": "代筆して",
-      "ta": "代筆した",
-      "nai": "代筆しない"
+      "dictionary": "共働きする",
+      "masu": "共働きします",
+      "te": "共働きして",
+      "ta": "共働きした",
+      "nai": "共働きしない"
     },
     "examples": [
       {
@@ -40020,22 +37773,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1733": {
+  "n2_egg_1720": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "就ける",
-      "masu": "就けます",
-      "te": "就けて",
-      "ta": "就けた",
-      "nai": "就けない"
-    },
     "examples": [
       {
         "ja": "職に就ける",
@@ -40043,7 +37787,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1734": {
+  "n2_egg_1721": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40055,7 +37799,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1735": {
+  "n2_egg_1722": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40067,7 +37811,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1736": {
+  "n2_egg_1723": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40079,7 +37823,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1737": {
+  "n2_egg_1724": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40089,11 +37833,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "投函する",
-      "masu": "投函します",
-      "te": "投函して",
-      "ta": "投函した",
-      "nai": "投函しない"
+      "dictionary": "地下水する",
+      "masu": "地下水します",
+      "te": "地下水して",
+      "ta": "地下水した",
+      "nai": "地下水しない"
     },
     "examples": [
       {
@@ -40102,7 +37846,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1738": {
+  "n2_egg_1725": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40114,7 +37858,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1739": {
+  "n2_egg_1726": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40126,7 +37870,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1740": {
+  "n2_egg_1727": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40138,7 +37882,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1741": {
+  "n2_egg_1728": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40150,7 +37894,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1742": {
+  "n2_egg_1729": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40162,22 +37906,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1743": {
+  "n2_egg_1730": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "もうかる",
-      "masu": "もうかります",
-      "te": "もうかって",
-      "ta": "もうかった",
-      "nai": "もうからない"
-    },
     "examples": [
       {
         "ja": "100万円もうかる",
@@ -40185,7 +37920,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1744": {
+  "n2_egg_1731": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40197,22 +37932,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1745": {
+  "n2_egg_1732": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "結びつく",
-      "masu": "結びつきます",
-      "te": "結びついて",
-      "ta": "結びついた",
-      "nai": "結びつかない"
-    },
     "examples": [
       {
         "ja": "政治家に結びついた商人",
@@ -40220,7 +37946,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1746": {
+  "n2_egg_1733": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40230,11 +37956,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "道草する",
-      "masu": "道草します",
-      "te": "道草して",
-      "ta": "道草した",
-      "nai": "道草しない"
+      "dictionary": "就けるする",
+      "masu": "就けるします",
+      "te": "就けるして",
+      "ta": "就けるした",
+      "nai": "就けるしない"
     },
     "examples": [
       {
@@ -40243,7 +37969,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1747": {
+  "n2_egg_1734": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40253,11 +37979,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "解約する",
-      "masu": "解約します",
-      "te": "解約して",
-      "ta": "解約した",
-      "nai": "解約しない"
+      "dictionary": "防災する",
+      "masu": "防災します",
+      "te": "防災して",
+      "ta": "防災した",
+      "nai": "防災しない"
     },
     "examples": [
       {
@@ -40266,7 +37992,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1748": {
+  "n2_egg_1735": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40278,7 +38004,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1749": {
+  "n2_egg_1736": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40288,11 +38014,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "休眠する",
-      "masu": "休眠します",
-      "te": "休眠して",
-      "ta": "休眠した",
-      "nai": "休眠しない"
+      "dictionary": "ステーションする",
+      "masu": "ステーションします",
+      "te": "ステーションして",
+      "ta": "ステーションした",
+      "nai": "ステーションしない"
     },
     "examples": [
       {
@@ -40301,7 +38027,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1750": {
+  "n2_egg_1737": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40313,7 +38039,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1751": {
+  "n2_egg_1738": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40325,7 +38051,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1752": {
+  "n2_egg_1739": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40335,11 +38061,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "ストライキする",
-      "masu": "ストライキします",
-      "te": "ストライキして",
-      "ta": "ストライキした",
-      "nai": "ストライキしない"
+      "dictionary": "フレッシュする",
+      "masu": "フレッシュします",
+      "te": "フレッシュして",
+      "ta": "フレッシュした",
+      "nai": "フレッシュしない"
     },
     "examples": [
       {
@@ -40348,7 +38074,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1753": {
+  "n2_egg_1740": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40358,11 +38084,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "来場する",
-      "masu": "来場します",
-      "te": "来場して",
-      "ta": "来場した",
-      "nai": "来場しない"
+      "dictionary": "作風する",
+      "masu": "作風します",
+      "te": "作風して",
+      "ta": "作風した",
+      "nai": "作風しない"
     },
     "examples": [
       {
@@ -40371,7 +38097,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1754": {
+  "n2_egg_1741": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40383,7 +38109,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1755": {
+  "n2_egg_1742": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40393,11 +38119,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "押し売りする",
-      "masu": "押し売りします",
-      "te": "押し売りして",
-      "ta": "押し売りした",
-      "nai": "押し売りしない"
+      "dictionary": "和紙する",
+      "masu": "和紙します",
+      "te": "和紙して",
+      "ta": "和紙した",
+      "nai": "和紙しない"
     },
     "examples": [
       {
@@ -40406,7 +38132,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1756": {
+  "n2_egg_1743": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40416,11 +38142,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "発送する",
-      "masu": "発送します",
-      "te": "発送して",
-      "ta": "発送した",
-      "nai": "発送しない"
+      "dictionary": "もうかるする",
+      "masu": "もうかるします",
+      "te": "もうかるして",
+      "ta": "もうかるした",
+      "nai": "もうかるしない"
     },
     "examples": [
       {
@@ -40429,7 +38155,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1757": {
+  "n2_egg_1744": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40439,11 +38165,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "退社する",
-      "masu": "退社します",
-      "te": "退社して",
-      "ta": "退社した",
-      "nai": "退社しない"
+      "dictionary": "無重力する",
+      "masu": "無重力します",
+      "te": "無重力して",
+      "ta": "無重力した",
+      "nai": "無重力しない"
     },
     "examples": [
       {
@@ -40452,7 +38178,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1758": {
+  "n2_egg_1745": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40462,11 +38188,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "クラッシュする",
-      "masu": "クラッシュします",
-      "te": "クラッシュして",
-      "ta": "クラッシュした",
-      "nai": "クラッシュしない"
+      "dictionary": "結びつくする",
+      "masu": "結びつくします",
+      "te": "結びつくして",
+      "ta": "結びつくした",
+      "nai": "結びつくしない"
     },
     "examples": [
       {
@@ -40475,7 +38201,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1759": {
+  "n2_egg_1746": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40487,7 +38213,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1760": {
+  "n2_egg_1747": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40499,7 +38225,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1761": {
+  "n2_egg_1748": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40509,11 +38235,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "探究する",
-      "masu": "探究します",
-      "te": "探究して",
-      "ta": "探究した",
-      "nai": "探究しない"
+      "dictionary": "長編する",
+      "masu": "長編します",
+      "te": "長編して",
+      "ta": "長編した",
+      "nai": "長編しない"
     },
     "examples": [
       {
@@ -40522,7 +38248,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1762": {
+  "n2_egg_1749": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40534,7 +38260,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1763": {
+  "n2_egg_1750": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40546,7 +38272,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1764": {
+  "n2_egg_1751": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40558,7 +38284,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1765": {
+  "n2_egg_1752": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40568,11 +38294,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "入金する",
-      "masu": "入金します",
-      "te": "入金して",
-      "ta": "入金した",
-      "nai": "入金しない"
+      "dictionary": "ストライキする",
+      "masu": "ストライキします",
+      "te": "ストライキして",
+      "ta": "ストライキした",
+      "nai": "ストライキしない"
     },
     "examples": [
       {
@@ -40581,7 +38307,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1766": {
+  "n2_egg_1753": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40593,7 +38319,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1767": {
+  "n2_egg_1754": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40605,7 +38331,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1768": {
+  "n2_egg_1755": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40617,7 +38343,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1769": {
+  "n2_egg_1756": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40627,11 +38353,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "発芽する",
-      "masu": "発芽します",
-      "te": "発芽して",
-      "ta": "発芽した",
-      "nai": "発芽しない"
+      "dictionary": "発送する",
+      "masu": "発送します",
+      "te": "発送して",
+      "ta": "発送した",
+      "nai": "発送しない"
     },
     "examples": [
       {
@@ -40640,7 +38366,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1770": {
+  "n2_egg_1757": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40652,7 +38378,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1771": {
+  "n2_egg_1758": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40662,11 +38388,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "中略する",
-      "masu": "中略します",
-      "te": "中略して",
-      "ta": "中略した",
-      "nai": "中略しない"
+      "dictionary": "クラッシュする",
+      "masu": "クラッシュします",
+      "te": "クラッシュして",
+      "ta": "クラッシュした",
+      "nai": "クラッシュしない"
     },
     "examples": [
       {
@@ -40675,7 +38401,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1772": {
+  "n2_egg_1759": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40687,7 +38413,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1773": {
+  "n2_egg_1760": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40699,7 +38425,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1774": {
+  "n2_egg_1761": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40711,7 +38437,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1775": {
+  "n2_egg_1762": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40723,22 +38449,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1776": {
+  "n2_egg_1763": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "飛びつく",
-      "masu": "飛びつきます",
-      "te": "飛びついて",
-      "ta": "飛びついた",
-      "nai": "飛びつかない"
-    },
     "examples": [
       {
         "ja": "子供が親に飛びつく",
@@ -40746,22 +38463,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1777": {
+  "n2_egg_1764": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "届け出る",
-      "masu": "届け出ます",
-      "te": "届け出て",
-      "ta": "届け出た",
-      "nai": "届け出ない"
-    },
     "examples": [
       {
         "ja": "警察に被害を届け出る",
@@ -40769,7 +38477,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1778": {
+  "n2_egg_1765": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40781,7 +38489,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1779": {
+  "n2_egg_1766": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40793,7 +38501,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1780": {
+  "n2_egg_1767": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40803,11 +38511,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "熟読する",
-      "masu": "熟読します",
-      "te": "熟読して",
-      "ta": "熟読した",
-      "nai": "熟読しない"
+      "dictionary": "ファクターする",
+      "masu": "ファクターします",
+      "te": "ファクターして",
+      "ta": "ファクターした",
+      "nai": "ファクターしない"
     },
     "examples": [
       {
@@ -40816,7 +38524,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1781": {
+  "n2_egg_1768": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40828,7 +38536,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1782": {
+  "n2_egg_1769": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40838,11 +38546,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "値引きする",
-      "masu": "値引きします",
-      "te": "値引きして",
-      "ta": "値引きした",
-      "nai": "値引きしない"
+      "dictionary": "発芽する",
+      "masu": "発芽します",
+      "te": "発芽して",
+      "ta": "発芽した",
+      "nai": "発芽しない"
     },
     "examples": [
       {
@@ -40851,7 +38559,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1783": {
+  "n2_egg_1770": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40863,7 +38571,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1784": {
+  "n2_egg_1771": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40875,7 +38583,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1785": {
+  "n2_egg_1772": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40885,11 +38593,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "求人する",
-      "masu": "求人します",
-      "te": "求人して",
-      "ta": "求人した",
-      "nai": "求人しない"
+      "dictionary": "折り返しする",
+      "masu": "折り返しします",
+      "te": "折り返しして",
+      "ta": "折り返しした",
+      "nai": "折り返ししない"
     },
     "examples": [
       {
@@ -40898,22 +38606,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1786": {
+  "n2_egg_1773": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "剝ける",
-      "masu": "剝けます",
-      "te": "剝けて",
-      "ta": "剝けた",
-      "nai": "剝けない"
-    },
     "examples": [
       {
         "ja": "手の皮がむける",
@@ -40921,7 +38620,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1787": {
+  "n2_egg_1774": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40933,7 +38632,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1788": {
+  "n2_egg_1775": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40945,7 +38644,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1789": {
+  "n2_egg_1776": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40957,7 +38656,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1790": {
+  "n2_egg_1777": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40969,7 +38668,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1791": {
+  "n2_egg_1778": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40981,7 +38680,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1792": {
+  "n2_egg_1779": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -40993,7 +38692,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1793": {
+  "n2_egg_1780": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41005,22 +38704,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1794": {
+  "n2_egg_1781": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "くみ取る",
-      "masu": "くみ取ります",
-      "te": "くみ取って",
-      "ta": "くみ取った",
-      "nai": "くみ取らない"
-    },
     "examples": [
       {
         "ja": "海水をくみ取って塩を作る",
@@ -41028,7 +38718,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1795": {
+  "n2_egg_1782": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41040,7 +38730,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1796": {
+  "n2_egg_1783": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41052,22 +38742,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1797": {
+  "n2_egg_1784": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "さびる",
-      "masu": "さびます",
-      "te": "さびて",
-      "ta": "さびた",
-      "nai": "さびない"
-    },
     "examples": [
       {
         "ja": "包丁がさびる",
@@ -41075,7 +38756,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1798": {
+  "n2_egg_1785": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41087,7 +38768,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1799": {
+  "n2_egg_1786": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41099,22 +38780,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1800": {
+  "n2_egg_1787": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "聞き直す",
-      "masu": "聞き直します",
-      "te": "聞き直して",
-      "ta": "聞き直した",
-      "nai": "聞き直さない"
-    },
     "examples": [
       {
         "ja": "質問を聞き直す",
@@ -41122,7 +38794,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1801": {
+  "n2_egg_1788": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41134,7 +38806,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1802": {
+  "n2_egg_1789": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41146,7 +38818,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1803": {
+  "n2_egg_1790": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41156,11 +38828,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "受講する",
-      "masu": "受講します",
-      "te": "受講して",
-      "ta": "受講した",
-      "nai": "受講しない"
+      "dictionary": "名産する",
+      "masu": "名産します",
+      "te": "名産して",
+      "ta": "名産した",
+      "nai": "名産しない"
     },
     "examples": [
       {
@@ -41169,7 +38841,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1804": {
+  "n2_egg_1791": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41181,7 +38853,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1805": {
+  "n2_egg_1792": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41191,11 +38863,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "大別する",
-      "masu": "大別します",
-      "te": "大別して",
-      "ta": "大別した",
-      "nai": "大別しない"
+      "dictionary": "働き手する",
+      "masu": "働き手します",
+      "te": "働き手して",
+      "ta": "働き手した",
+      "nai": "働き手しない"
     },
     "examples": [
       {
@@ -41204,7 +38876,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1806": {
+  "n2_egg_1793": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41216,7 +38888,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1807": {
+  "n2_egg_1794": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41226,11 +38898,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "募金する",
-      "masu": "募金します",
-      "te": "募金して",
-      "ta": "募金した",
-      "nai": "募金しない"
+      "dictionary": "くみ取るする",
+      "masu": "くみ取るします",
+      "te": "くみ取るして",
+      "ta": "くみ取るした",
+      "nai": "くみ取るしない"
     },
     "examples": [
       {
@@ -41239,22 +38911,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1808": {
+  "n2_egg_1795": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "力づける",
-      "masu": "力づけます",
-      "te": "力づけて",
-      "ta": "力づけた",
-      "nai": "力づけない"
-    },
     "examples": [
       {
         "ja": "ファンの声援に力づけられた",
@@ -41262,7 +38925,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1809": {
+  "n2_egg_1796": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41274,7 +38937,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1810": {
+  "n2_egg_1797": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41286,7 +38949,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1811": {
+  "n2_egg_1798": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41298,7 +38961,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1812": {
+  "n2_egg_1799": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41310,7 +38973,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1813": {
+  "n2_egg_1800": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41322,7 +38985,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1814": {
+  "n2_egg_1801": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41334,7 +38997,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1815": {
+  "n2_egg_1802": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41344,11 +39007,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "試行する",
-      "masu": "試行します",
-      "te": "試行して",
-      "ta": "試行した",
-      "nai": "試行しない"
+      "dictionary": "書き手する",
+      "masu": "書き手します",
+      "te": "書き手して",
+      "ta": "書き手した",
+      "nai": "書き手しない"
     },
     "examples": [
       {
@@ -41357,7 +39020,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1816": {
+  "n2_egg_1803": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41369,7 +39032,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1817": {
+  "n2_egg_1804": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41381,7 +39044,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1818": {
+  "n2_egg_1805": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41393,7 +39056,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1819": {
+  "n2_egg_1806": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41405,7 +39068,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1820": {
+  "n2_egg_1807": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41417,7 +39080,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1821": {
+  "n2_egg_1808": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41429,22 +39092,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1822": {
+  "n2_egg_1809": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "伸び悩む",
-      "masu": "伸び悩みます",
-      "te": "伸び悩んで",
-      "ta": "伸び悩んだ",
-      "nai": "伸び悩まない"
-    },
     "examples": [
       {
         "ja": "記録が伸び悩む",
@@ -41452,7 +39106,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1823": {
+  "n2_egg_1810": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41464,7 +39118,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1824": {
+  "n2_egg_1811": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41476,7 +39130,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1825": {
+  "n2_egg_1812": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41488,7 +39142,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1826": {
+  "n2_egg_1813": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41500,7 +39154,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1827": {
+  "n2_egg_1814": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41512,7 +39166,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1828": {
+  "n2_egg_1815": {
     "pos": "i_adjective",
     "posLabel": "い形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41524,7 +39178,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1829": {
+  "n2_egg_1816": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41536,22 +39190,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1830": {
+  "n2_egg_1817": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "裏付ける",
-      "masu": "裏付けます",
-      "te": "裏付けて",
-      "ta": "裏付けた",
-      "nai": "裏付けない"
-    },
     "examples": [
       {
         "ja": "犯行を裏付ける証拠",
@@ -41559,7 +39204,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1831": {
+  "n2_egg_1818": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41569,11 +39214,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "受診する",
-      "masu": "受診します",
-      "te": "受診して",
-      "ta": "受診した",
-      "nai": "受診しない"
+      "dictionary": "運賃する",
+      "masu": "運賃します",
+      "te": "運賃して",
+      "ta": "運賃した",
+      "nai": "運賃しない"
     },
     "examples": [
       {
@@ -41582,7 +39227,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1832": {
+  "n2_egg_1819": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41592,11 +39237,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "送付する",
-      "masu": "送付します",
-      "te": "送付して",
-      "ta": "送付した",
-      "nai": "送付しない"
+      "dictionary": "慈善する",
+      "masu": "慈善します",
+      "te": "慈善して",
+      "ta": "慈善した",
+      "nai": "慈善しない"
     },
     "examples": [
       {
@@ -41605,7 +39250,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1833": {
+  "n2_egg_1820": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41617,7 +39262,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1834": {
+  "n2_egg_1821": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41629,7 +39274,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1835": {
+  "n2_egg_1822": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41641,7 +39286,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1836": {
+  "n2_egg_1823": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41653,7 +39298,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1837": {
+  "n2_egg_1824": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41665,7 +39310,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1838": {
+  "n2_egg_1825": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41677,7 +39322,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1839": {
+  "n2_egg_1826": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41687,11 +39332,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "偏食する",
-      "masu": "偏食します",
-      "te": "偏食して",
-      "ta": "偏食した",
-      "nai": "偏食しない"
+      "dictionary": "下がりする",
+      "masu": "下がりします",
+      "te": "下がりして",
+      "ta": "下がりした",
+      "nai": "下がりしない"
     },
     "examples": [
       {
@@ -41700,7 +39345,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1840": {
+  "n2_egg_1827": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41712,7 +39357,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1841": {
+  "n2_egg_1828": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41724,7 +39369,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1842": {
+  "n2_egg_1829": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41736,7 +39381,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1843": {
+  "n2_egg_1830": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41748,7 +39393,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1844": {
+  "n2_egg_1831": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41760,7 +39405,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1845": {
+  "n2_egg_1832": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41770,11 +39415,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "返金する",
-      "masu": "返金します",
-      "te": "返金して",
-      "ta": "返金した",
-      "nai": "返金しない"
+      "dictionary": "送付する",
+      "masu": "送付します",
+      "te": "送付して",
+      "ta": "送付した",
+      "nai": "送付しない"
     },
     "examples": [
       {
@@ -41783,7 +39428,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1846": {
+  "n2_egg_1833": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41795,7 +39440,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1847": {
+  "n2_egg_1834": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41807,7 +39452,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1848": {
+  "n2_egg_1835": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41817,11 +39462,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "改訂する",
-      "masu": "改訂します",
-      "te": "改訂して",
-      "ta": "改訂した",
-      "nai": "改訂しない"
+      "dictionary": "生計する",
+      "masu": "生計します",
+      "te": "生計して",
+      "ta": "生計した",
+      "nai": "生計しない"
     },
     "examples": [
       {
@@ -41830,7 +39475,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1849": {
+  "n2_egg_1836": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41842,7 +39487,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1850": {
+  "n2_egg_1837": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41854,7 +39499,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1851": {
+  "n2_egg_1838": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41866,22 +39511,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1852": {
+  "n2_egg_1839": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動2",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "繰り上げる",
-      "masu": "繰り上げます",
-      "te": "繰り上げて",
-      "ta": "繰り上げた",
-      "nai": "繰り上げない"
-    },
     "examples": [
       {
         "ja": "次点を繰り上げて当選にする",
@@ -41889,7 +39525,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1853": {
+  "n2_egg_1840": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41901,7 +39537,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1854": {
+  "n2_egg_1841": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41913,7 +39549,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1855": {
+  "n2_egg_1842": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41925,7 +39561,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1856": {
+  "n2_egg_1843": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41937,7 +39573,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1857": {
+  "n2_egg_1844": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41947,11 +39583,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "読解する",
-      "masu": "読解します",
-      "te": "読解して",
-      "ta": "読解した",
-      "nai": "読解しない"
+      "dictionary": "錯誤する",
+      "masu": "錯誤します",
+      "te": "錯誤して",
+      "ta": "錯誤した",
+      "nai": "錯誤しない"
     },
     "examples": [
       {
@@ -41960,7 +39596,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1858": {
+  "n2_egg_1845": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41972,7 +39608,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1859": {
+  "n2_egg_1846": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -41982,11 +39618,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "再検討する",
-      "masu": "再検討します",
-      "te": "再検討して",
-      "ta": "再検討した",
-      "nai": "再検討しない"
+      "dictionary": "語り手する",
+      "masu": "語り手します",
+      "te": "語り手して",
+      "ta": "語り手した",
+      "nai": "語り手しない"
     },
     "examples": [
       {
@@ -41995,7 +39631,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1860": {
+  "n2_egg_1847": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42007,7 +39643,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1861": {
+  "n2_egg_1848": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42019,7 +39655,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1862": {
+  "n2_egg_1849": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42028,6 +39664,208 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "地球温暖化",
         "zh": "全球變暖"
+      }
+    ]
+  },
+  "n2_egg_1850": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "光合成する",
+      "masu": "光合成します",
+      "te": "光合成して",
+      "ta": "光合成した",
+      "nai": "光合成しない"
+    },
+    "examples": [
+      {
+        "ja": "先着順",
+        "zh": "以到達先後的順序"
+      }
+    ]
+  },
+  "n2_egg_1851": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自動3",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "インストラクターする",
+      "masu": "インストラクターします",
+      "te": "インストラクターして",
+      "ta": "インストラクターした",
+      "nai": "インストラクターしない"
+    },
+    "examples": [
+      {
+        "ja": "政策について論戦する",
+        "zh": "針對政策展開辯論"
+      }
+    ]
+  },
+  "n2_egg_1852": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "重電機",
+        "zh": "重型電機"
+      }
+    ]
+  },
+  "n2_egg_1853": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "バイオリンの名器",
+        "zh": "名貴的小提琴"
+      }
+    ]
+  },
+  "n2_egg_1854": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形",
+    "examples": [
+      {
+        "ja": "主体的に行動する",
+        "zh": "主動行動"
+      }
+    ]
+  },
+  "n2_egg_1855": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "確度が高い",
+        "zh": "準確度高"
+      }
+    ]
+  },
+  "n2_egg_1856": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動3・名",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "酸性する",
+      "masu": "酸性します",
+      "te": "酸性して",
+      "ta": "酸性した",
+      "nai": "酸性しない"
+    },
+    "examples": [
+      {
+        "ja": "金銭の授受",
+        "zh": "金錢的往來"
+      }
+    ]
+  },
+  "n2_egg_1857": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "人を迷わすような問題",
+        "zh": "讓人困惑的問題"
+      }
+    ]
+  },
+  "n2_egg_1858": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "大学病院のインターン",
+        "zh": "大學醫院的實習醫師"
+      }
+    ]
+  },
+  "n2_egg_1859": {
+    "pos": "suru_noun",
+    "posLabel": "する名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名・自他動3",
+    "transitivity": "both",
+    "transitivityLabel": "自他兩用",
+    "verbClass": "suru",
+    "verbClassLabel": "する動詞",
+    "forms": {
+      "dictionary": "再検討する",
+      "masu": "再検討します",
+      "te": "再検討して",
+      "ta": "再検討した",
+      "nai": "再検討しない"
+    },
+    "examples": [
+      {
+        "ja": "減量して試合に臨む",
+        "zh": "減重後參加比賽"
+      }
+    ]
+  },
+  "n2_egg_1860": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "計画の具体案をプレゼンテーションする",
+        "zh": "演示計劃的具體方案"
+      }
+    ]
+  },
+  "n2_egg_1861": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "コンピューターの台数を増やした",
+        "zh": "增加了電腦的數量"
+      }
+    ]
+  },
+  "n2_egg_1862": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "能を引き合いに日本文化を語る",
+        "zh": "以能劇為例談論日本文化"
       }
     ]
   },
@@ -42049,223 +39887,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "先着順",
-        "zh": "以到達先後的順序"
-      }
-    ]
-  },
-  "n2_egg_1864": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "論戦する",
-      "masu": "論戦します",
-      "te": "論戦して",
-      "ta": "論戦した",
-      "nai": "論戦しない"
-    },
-    "examples": [
-      {
-        "ja": "政策について論戦する",
-        "zh": "針對政策展開辯論"
-      }
-    ]
-  },
-  "n2_egg_1865": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "重電機",
-        "zh": "重型電機"
-      }
-    ]
-  },
-  "n2_egg_1866": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "バイオリンの名器",
-        "zh": "名貴的小提琴"
-      }
-    ]
-  },
-  "n2_egg_1867": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
-    "examples": [
-      {
-        "ja": "主体的に行動する",
-        "zh": "主動行動"
-      }
-    ]
-  },
-  "n2_egg_1868": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "確度が高い",
-        "zh": "準確度高"
-      }
-    ]
-  },
-  "n2_egg_1869": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "授受する",
-      "masu": "授受します",
-      "te": "授受して",
-      "ta": "授受した",
-      "nai": "授受しない"
-    },
-    "examples": [
-      {
-        "ja": "金銭の授受",
-        "zh": "金錢的往來"
-      }
-    ]
-  },
-  "n2_egg_1870": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "迷わす",
-      "masu": "迷わします",
-      "te": "迷わして",
-      "ta": "迷わした",
-      "nai": "迷わさない"
-    },
-    "examples": [
-      {
-        "ja": "人を迷わすような問題",
-        "zh": "讓人困惑的問題"
-      }
-    ]
-  },
-  "n2_egg_1871": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "大学病院のインターン",
-        "zh": "大學醫院的實習醫師"
-      }
-    ]
-  },
-  "n2_egg_1872": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自他動3",
-    "transitivity": "both",
-    "transitivityLabel": "自他兩用",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "減量する",
-      "masu": "減量します",
-      "te": "減量して",
-      "ta": "減量した",
-      "nai": "減量しない"
-    },
-    "examples": [
-      {
-        "ja": "減量して試合に臨む",
-        "zh": "減重後參加比賽"
-      }
-    ]
-  },
-  "n2_egg_1873": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "計画の具体案をプレゼンテーションする",
-        "zh": "演示計劃的具體方案"
-      }
-    ]
-  },
-  "n2_egg_1874": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "コンピューターの台数を増やした",
-        "zh": "增加了電腦的數量"
-      }
-    ]
-  },
-  "n2_egg_1875": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "能を引き合いに日本文化を語る",
-        "zh": "以能劇為例談論日本文化"
-      }
-    ]
-  },
-  "n2_egg_1876": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "乗り降りする",
-      "masu": "乗り降りします",
-      "te": "乗り降りして",
-      "ta": "乗り降りした",
-      "nai": "乗り降りしない"
-    },
-    "examples": [
-      {
         "ja": "どの駅でも乗り降りの客が多かった",
         "zh": "各站的上下乘客都很多"
       }
     ]
   },
-  "n2_egg_1877": {
+  "n2_egg_1864": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42277,7 +39904,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1878": {
+  "n2_egg_1865": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42289,7 +39916,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1879": {
+  "n2_egg_1866": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42301,7 +39928,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1880": {
+  "n2_egg_1867": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42311,11 +39938,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "参観する",
-      "masu": "参観します",
-      "te": "参観して",
-      "ta": "参観した",
-      "nai": "参観しない"
+      "dictionary": "主体的する",
+      "masu": "主体的します",
+      "te": "主体的して",
+      "ta": "主体的した",
+      "nai": "主体的しない"
     },
     "examples": [
       {
@@ -42324,7 +39951,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1881": {
+  "n2_egg_1868": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42336,7 +39963,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1882": {
+  "n2_egg_1869": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42348,7 +39975,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1883": {
+  "n2_egg_1870": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42357,6 +39984,164 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "今日のテストはとりわけ難しかった",
         "zh": "今天的考試格外難"
+      }
+    ]
+  },
+  "n2_egg_1871": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "他動1",
+    "transitivity": "transitive",
+    "transitivityLabel": "他動詞",
+    "examples": [
+      {
+        "ja": "くぎを打ち直す",
+        "zh": "重新釘釘子"
+      }
+    ]
+  },
+  "n2_egg_1872": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "盗品がフリーマーケットで売られている",
+        "zh": "贓物在自由市場出售"
+      }
+    ]
+  },
+  "n2_egg_1873": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "ご出席の各位に申し上げます",
+        "zh": "向出席的諸位講幾句話"
+      }
+    ]
+  },
+  "n2_egg_1874": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "古代歌謡",
+        "zh": "古代歌謠"
+      }
+    ]
+  },
+  "n2_egg_1875": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "林業に従事する",
+        "zh": "從事林業"
+      }
+    ]
+  },
+  "n2_egg_1876": {
+    "pos": "na_adjective",
+    "posLabel": "な形容詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "ナ形",
+    "examples": [
+      {
+        "ja": "質的に低下する",
+        "zh": "品質降低"
+      }
+    ]
+  },
+  "n2_egg_1877": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "専業農家",
+        "zh": "專業農戶"
+      }
+    ]
+  },
+  "n2_egg_1878": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "賛否を問う",
+        "zh": "詢問贊成與否；提交表決"
+      }
+    ]
+  },
+  "n2_egg_1879": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "園芸",
+        "zh": "園藝"
+      }
+    ]
+  },
+  "n2_egg_1880": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "アポイントメントを取る",
+        "zh": "預約"
+      }
+    ]
+  },
+  "n2_egg_1881": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "徒競走でびりになる",
+        "zh": "在賽跑中墊底"
+      }
+    ]
+  },
+  "n2_egg_1882": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "三箇条の要求",
+        "zh": "三條要求"
+      }
+    ]
+  },
+  "n2_egg_1883": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "source": "eggrolls-JLPT10k-v3.5",
+    "sourcePos": "名",
+    "examples": [
+      {
+        "ja": "強火で煮る",
+        "zh": "用大火煮"
       }
     ]
   },
@@ -42378,179 +40163,12 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     },
     "examples": [
       {
-        "ja": "くぎを打ち直す",
-        "zh": "重新釘釘子"
-      }
-    ]
-  },
-  "n2_egg_1885": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "盗品がフリーマーケットで売られている",
-        "zh": "贓物在自由市場出售"
-      }
-    ]
-  },
-  "n2_egg_1886": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ご出席の各位に申し上げます",
-        "zh": "向出席的諸位講幾句話"
-      }
-    ]
-  },
-  "n2_egg_1887": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "古代歌謡",
-        "zh": "古代歌謠"
-      }
-    ]
-  },
-  "n2_egg_1888": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "林業に従事する",
-        "zh": "從事林業"
-      }
-    ]
-  },
-  "n2_egg_1889": {
-    "pos": "na_adjective",
-    "posLabel": "な形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "ナ形",
-    "examples": [
-      {
-        "ja": "質的に低下する",
-        "zh": "品質降低"
-      }
-    ]
-  },
-  "n2_egg_1890": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "専業農家",
-        "zh": "專業農戶"
-      }
-    ]
-  },
-  "n2_egg_1891": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "賛否を問う",
-        "zh": "詢問贊成與否；提交表決"
-      }
-    ]
-  },
-  "n2_egg_1892": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "園芸",
-        "zh": "園藝"
-      }
-    ]
-  },
-  "n2_egg_1893": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "アポイントメントを取る",
-        "zh": "預約"
-      }
-    ]
-  },
-  "n2_egg_1894": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "徒競走でびりになる",
-        "zh": "在賽跑中墊底"
-      }
-    ]
-  },
-  "n2_egg_1895": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "三箇条の要求",
-        "zh": "三條要求"
-      }
-    ]
-  },
-  "n2_egg_1896": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "強火で煮る",
-        "zh": "用大火煮"
-      }
-    ]
-  },
-  "n2_egg_1897": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動1",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "やり抜く",
-      "masu": "やり抜きます",
-      "te": "やり抜いて",
-      "ta": "やり抜いた",
-      "nai": "やり抜かない"
-    },
-    "examples": [
-      {
         "ja": "どんな困難でもやり抜くと決心した",
         "zh": "決心無論遇到什麼困難都要堅持到底"
       }
     ]
   },
-  "n2_egg_1898": {
+  "n2_egg_1885": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42562,7 +40180,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1899": {
+  "n2_egg_1886": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42574,7 +40192,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1900": {
+  "n2_egg_1887": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42584,11 +40202,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "植林する",
-      "masu": "植林します",
-      "te": "植林して",
-      "ta": "植林した",
-      "nai": "植林しない"
+      "dictionary": "歌謡する",
+      "masu": "歌謡します",
+      "te": "歌謡して",
+      "ta": "歌謡した",
+      "nai": "歌謡しない"
     },
     "examples": [
       {
@@ -42597,7 +40215,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1901": {
+  "n2_egg_1888": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42609,7 +40227,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1902": {
+  "n2_egg_1889": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42619,11 +40237,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "高齢化する",
-      "masu": "高齢化します",
-      "te": "高齢化して",
-      "ta": "高齢化した",
-      "nai": "高齢化しない"
+      "dictionary": "質的する",
+      "masu": "質的します",
+      "te": "質的して",
+      "ta": "質的した",
+      "nai": "質的しない"
     },
     "examples": [
       {
@@ -42632,7 +40250,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1903": {
+  "n2_egg_1890": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42644,7 +40262,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1904": {
+  "n2_egg_1891": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42656,7 +40274,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1905": {
+  "n2_egg_1892": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42668,7 +40286,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1906": {
+  "n2_egg_1893": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42680,7 +40298,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1907": {
+  "n2_egg_1894": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42692,7 +40310,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1908": {
+  "n2_egg_1895": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42704,7 +40322,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1909": {
+  "n2_egg_1896": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42716,7 +40334,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1910": {
+  "n2_egg_1897": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42726,11 +40344,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "アウトプットする",
-      "masu": "アウトプットします",
-      "te": "アウトプットして",
-      "ta": "アウトプットした",
-      "nai": "アウトプットしない"
+      "dictionary": "やり抜くする",
+      "masu": "やり抜くします",
+      "te": "やり抜くして",
+      "ta": "やり抜くした",
+      "nai": "やり抜くしない"
     },
     "examples": [
       {
@@ -42739,7 +40357,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1911": {
+  "n2_egg_1898": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42751,7 +40369,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1912": {
+  "n2_egg_1899": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42761,11 +40379,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "誤用する",
-      "masu": "誤用します",
-      "te": "誤用して",
-      "ta": "誤用した",
-      "nai": "誤用しない"
+      "dictionary": "たんぱく質する",
+      "masu": "たんぱく質します",
+      "te": "たんぱく質して",
+      "ta": "たんぱく質した",
+      "nai": "たんぱく質しない"
     },
     "examples": [
       {
@@ -42774,7 +40392,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1913": {
+  "n2_egg_1900": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42786,7 +40404,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1914": {
+  "n2_egg_1901": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42798,7 +40416,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1915": {
+  "n2_egg_1902": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42810,7 +40428,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1916": {
+  "n2_egg_1903": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42820,11 +40438,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "節電する",
-      "masu": "節電します",
-      "te": "節電して",
-      "ta": "節電した",
-      "nai": "節電しない"
+      "dictionary": "粉薬する",
+      "masu": "粉薬します",
+      "te": "粉薬して",
+      "ta": "粉薬した",
+      "nai": "粉薬しない"
     },
     "examples": [
       {
@@ -42833,7 +40451,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1917": {
+  "n2_egg_1904": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42845,7 +40463,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1918": {
+  "n2_egg_1905": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42857,7 +40475,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1919": {
+  "n2_egg_1906": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42869,7 +40487,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1920": {
+  "n2_egg_1907": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42881,7 +40499,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1921": {
+  "n2_egg_1908": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42893,7 +40511,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1922": {
+  "n2_egg_1909": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42905,7 +40523,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1923": {
+  "n2_egg_1910": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42917,7 +40535,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1924": {
+  "n2_egg_1911": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42929,7 +40547,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1925": {
+  "n2_egg_1912": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42941,7 +40559,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1926": {
+  "n2_egg_1913": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42953,22 +40571,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1927": {
+  "n2_egg_1914": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動1",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "込み合う",
-      "masu": "込み合います",
-      "te": "込み合って",
-      "ta": "込み合った",
-      "nai": "込み合わない"
-    },
     "examples": [
       {
         "ja": "通勤者で車内が混み合う",
@@ -42976,7 +40585,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1928": {
+  "n2_egg_1915": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -42988,7 +40597,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1929": {
+  "n2_egg_1916": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43000,7 +40609,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1930": {
+  "n2_egg_1917": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43010,11 +40619,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "添加する",
-      "masu": "添加します",
-      "te": "添加して",
-      "ta": "添加した",
-      "nai": "添加しない"
+      "dictionary": "ニッチする",
+      "masu": "ニッチします",
+      "te": "ニッチして",
+      "ta": "ニッチした",
+      "nai": "ニッチしない"
     },
     "examples": [
       {
@@ -43023,7 +40632,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1931": {
+  "n2_egg_1918": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43033,11 +40642,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "相関する",
-      "masu": "相関します",
-      "te": "相関して",
-      "ta": "相関した",
-      "nai": "相関しない"
+      "dictionary": "名著する",
+      "masu": "名著します",
+      "te": "名著して",
+      "ta": "名著した",
+      "nai": "名著しない"
     },
     "examples": [
       {
@@ -43046,22 +40655,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1932": {
+  "n2_egg_1919": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "持て成す",
-      "masu": "持て成します",
-      "te": "持て成して",
-      "ta": "持て成した",
-      "nai": "持て成さない"
-    },
     "examples": [
       {
         "ja": "客を丁寧にもてなす",
@@ -43069,7 +40669,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1933": {
+  "n2_egg_1920": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43079,11 +40679,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "小売りする",
-      "masu": "小売りします",
-      "te": "小売りして",
-      "ta": "小売りした",
-      "nai": "小売りしない"
+      "dictionary": "送り先する",
+      "masu": "送り先します",
+      "te": "送り先して",
+      "ta": "送り先した",
+      "nai": "送り先しない"
     },
     "examples": [
       {
@@ -43092,7 +40692,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1934": {
+  "n2_egg_1921": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43104,7 +40704,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1935": {
+  "n2_egg_1922": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43116,7 +40716,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1936": {
+  "n2_egg_1923": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43128,7 +40728,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1937": {
+  "n2_egg_1924": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43140,7 +40740,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1938": {
+  "n2_egg_1925": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43152,7 +40752,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1939": {
+  "n2_egg_1926": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43162,11 +40762,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "出願する",
-      "masu": "出願します",
-      "te": "出願して",
-      "ta": "出願した",
-      "nai": "出願しない"
+      "dictionary": "冊数する",
+      "masu": "冊数します",
+      "te": "冊数して",
+      "ta": "冊数した",
+      "nai": "冊数しない"
     },
     "examples": [
       {
@@ -43175,7 +40775,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1940": {
+  "n2_egg_1927": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43187,7 +40787,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1941": {
+  "n2_egg_1928": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43197,11 +40797,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "回覧する",
-      "masu": "回覧します",
-      "te": "回覧して",
-      "ta": "回覧した",
-      "nai": "回覧しない"
+      "dictionary": "至言する",
+      "masu": "至言します",
+      "te": "至言して",
+      "ta": "至言した",
+      "nai": "至言しない"
     },
     "examples": [
       {
@@ -43210,7 +40810,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1942": {
+  "n2_egg_1929": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43222,7 +40822,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1943": {
+  "n2_egg_1930": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43234,7 +40834,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1944": {
+  "n2_egg_1931": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43246,7 +40846,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1945": {
+  "n2_egg_1932": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43258,7 +40858,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1946": {
+  "n2_egg_1933": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43270,7 +40870,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1947": {
+  "n2_egg_1934": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43282,7 +40882,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1948": {
+  "n2_egg_1935": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43294,7 +40894,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1949": {
+  "n2_egg_1936": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43306,7 +40906,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1950": {
+  "n2_egg_1937": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43318,7 +40918,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1951": {
+  "n2_egg_1938": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43330,7 +40930,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1952": {
+  "n2_egg_1939": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43342,7 +40942,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1953": {
+  "n2_egg_1940": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43354,7 +40954,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1954": {
+  "n2_egg_1941": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43366,7 +40966,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1955": {
+  "n2_egg_1942": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43378,7 +40978,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1956": {
+  "n2_egg_1943": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43390,7 +40990,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1957": {
+  "n2_egg_1944": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43402,7 +41002,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1958": {
+  "n2_egg_1945": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43414,7 +41014,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1959": {
+  "n2_egg_1946": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43424,11 +41024,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "誤読する",
-      "masu": "誤読します",
-      "te": "誤読して",
-      "ta": "誤読した",
-      "nai": "誤読しない"
+      "dictionary": "擦れ違いする",
+      "masu": "擦れ違いします",
+      "te": "擦れ違いして",
+      "ta": "擦れ違いした",
+      "nai": "擦れ違いしない"
     },
     "examples": [
       {
@@ -43437,7 +41037,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1960": {
+  "n2_egg_1947": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43449,7 +41049,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1961": {
+  "n2_egg_1948": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43461,7 +41061,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1962": {
+  "n2_egg_1949": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43473,7 +41073,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1963": {
+  "n2_egg_1950": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43485,7 +41085,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1964": {
+  "n2_egg_1951": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43497,7 +41097,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1965": {
+  "n2_egg_1952": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43509,7 +41109,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1966": {
+  "n2_egg_1953": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43521,7 +41121,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1967": {
+  "n2_egg_1954": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43533,7 +41133,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1968": {
+  "n2_egg_1955": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43545,7 +41145,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1969": {
+  "n2_egg_1956": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43557,7 +41157,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1970": {
+  "n2_egg_1957": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43569,7 +41169,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1971": {
+  "n2_egg_1958": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43579,11 +41179,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "修整する",
-      "masu": "修整します",
-      "te": "修整して",
-      "ta": "修整した",
-      "nai": "修整しない"
+      "dictionary": "エコノミーする",
+      "masu": "エコノミーします",
+      "te": "エコノミーして",
+      "ta": "エコノミーした",
+      "nai": "エコノミーしない"
     },
     "examples": [
       {
@@ -43592,7 +41192,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1972": {
+  "n2_egg_1959": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43604,7 +41204,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1973": {
+  "n2_egg_1960": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43616,7 +41216,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1974": {
+  "n2_egg_1961": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43626,11 +41226,11 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
     "verbClass": "suru",
     "verbClassLabel": "する動詞",
     "forms": {
-      "dictionary": "促成する",
-      "masu": "促成します",
-      "te": "促成して",
-      "ta": "促成した",
-      "nai": "促成しない"
+      "dictionary": "ショーウインドーする",
+      "masu": "ショーウインドーします",
+      "te": "ショーウインドーして",
+      "ta": "ショーウインドーした",
+      "nai": "ショーウインドーしない"
     },
     "examples": [
       {
@@ -43639,7 +41239,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1975": {
+  "n2_egg_1962": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43651,7 +41251,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1976": {
+  "n2_egg_1963": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43663,7 +41263,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1977": {
+  "n2_egg_1964": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43675,7 +41275,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1978": {
+  "n2_egg_1965": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43687,7 +41287,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1979": {
+  "n2_egg_1966": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43699,22 +41299,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1980": {
+  "n2_egg_1967": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "他動1",
     "transitivity": "transitive",
     "transitivityLabel": "他動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "書き表す",
-      "masu": "書き表します",
-      "te": "書き表して",
-      "ta": "書き表した",
-      "nai": "書き表さない"
-    },
     "examples": [
       {
         "ja": "印象を絵で書き表す",
@@ -43722,7 +41313,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1981": {
+  "n2_egg_1968": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43734,7 +41325,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1982": {
+  "n2_egg_1969": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43746,7 +41337,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1983": {
+  "n2_egg_1970": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43758,7 +41349,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1984": {
+  "n2_egg_1971": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43770,7 +41361,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1985": {
+  "n2_egg_1972": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43782,7 +41373,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1986": {
+  "n2_egg_1973": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43794,7 +41385,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1987": {
+  "n2_egg_1974": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43806,7 +41397,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1988": {
+  "n2_egg_1975": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43818,7 +41409,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1989": {
+  "n2_egg_1976": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43830,7 +41421,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1990": {
+  "n2_egg_1977": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43842,7 +41433,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1991": {
+  "n2_egg_1978": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43854,7 +41445,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1992": {
+  "n2_egg_1979": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43866,7 +41457,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1993": {
+  "n2_egg_1980": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43878,7 +41469,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1994": {
+  "n2_egg_1981": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43890,7 +41481,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1995": {
+  "n2_egg_1982": {
     "pos": "pronoun",
     "posLabel": "代名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43902,7 +41493,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1996": {
+  "n2_egg_1983": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43914,7 +41505,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1997": {
+  "n2_egg_1984": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43926,7 +41517,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1998": {
+  "n2_egg_1985": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43938,7 +41529,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1999": {
+  "n2_egg_1986": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43950,7 +41541,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_2000": {
+  "n2_egg_1987": {
     "pos": "expression",
     "posLabel": "慣用表現",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43962,7 +41553,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_2001": {
+  "n2_egg_1988": {
     "pos": "noun",
     "posLabel": "名詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43974,7 +41565,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_2002": {
+  "n2_egg_1989": {
     "pos": "determiner",
     "posLabel": "連體詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -43986,22 +41577,13 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_2003": {
+  "n2_egg_1990": {
     "pos": "verb",
     "posLabel": "動詞",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "自動2",
     "transitivity": "intransitive",
     "transitivityLabel": "自動詞",
-    "verbClass": "ichidan",
-    "verbClassLabel": "一段動詞",
-    "forms": {
-      "dictionary": "もてる",
-      "masu": "もてます",
-      "te": "もてて",
-      "ta": "もてた",
-      "nai": "もてない"
-    },
     "examples": [
       {
         "ja": "異性にもてる",
@@ -44009,7 +41591,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_2004": {
+  "n2_egg_1991": {
     "pos": "adverb",
     "posLabel": "副詞",
     "source": "eggrolls-JLPT10k-v3.5",
@@ -44018,6 +41600,136 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "よくもここまでやってきた",
         "zh": "居然能做到這一步"
+      }
+    ]
+  },
+  "n2_egg_1992": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これはかなわないです。",
+        "zh": "這是「不能實現;比不上;受不了」。"
+      }
+    ]
+  },
+  "n2_egg_1993": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これはくだらないです。",
+        "zh": "這是「無聊的,沒用的」。"
+      }
+    ]
+  },
+  "n2_egg_1994": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは知らずです。",
+        "zh": "這是「(「...は知らず」の形で)不在乎⋯⋯,對......毫無感覺」。"
+      }
+    ]
+  },
+  "n2_egg_1995": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これはそこらです。",
+        "zh": "這是「那裡;大約,左右」。"
+      }
+    ]
+  },
+  "n2_egg_1996": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは絶えずです。",
+        "zh": "這是「不斷地,總是」。"
+      }
+    ]
+  },
+  "n2_egg_1997": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これはたまらないです。",
+        "zh": "這是「(好壞事均可用)不堪的,忍受不了的」。"
+      }
+    ]
+  },
+  "n2_egg_1998": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは努めてです。",
+        "zh": "這是「盡量,盡可能」。"
+      }
+    ]
+  },
+  "n2_egg_1999": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは腹が立つです。",
+        "zh": "這是「生氣」。"
+      }
+    ]
+  },
+  "n2_egg_2000": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは引かれるです。",
+        "zh": "這是「被吸引,被迷住」。"
+      }
+    ]
+  },
+  "n2_egg_2001": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは分です。",
+        "zh": "這是「(優劣的)形勢;厚度;十分之一;百分之一」。"
+      }
+    ]
+  },
+  "n2_egg_2002": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これは見知らぬです。",
+        "zh": "這是「不曾見過的,不認識的」。"
+      }
+    ]
+  },
+  "n2_egg_2003": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これはもてるです。",
+        "zh": "這是「受歡迎,有人緣」。"
+      }
+    ]
+  },
+  "n2_egg_2004": {
+    "pos": "noun",
+    "posLabel": "名詞",
+    "examples": [
+      {
+        "ja": "これはよくもです。",
+        "zh": "這是「居然,竟敢」。"
       }
     ]
   }

@@ -4,6 +4,9 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "../..");
 const OUT_DIR = path.join(ROOT, "web/data");
 const SOURCE_WORD_DIR = path.join(ROOT, "tools/dictionary/sources/words");
+// 每個等級可各自有一份人工排除清單 n{level}_review.csv（如 n3_review.csv、n2_review.csv）。
+// 檔案存在才會被讀取，所以未來要加 n1_review.csv 直接放檔案就生效，不用改程式。
+const REVIEW_CSV_DIR = path.join(ROOT, "tools/dictionary");
 const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
 const REQUIRED_FIELDS = ["id", "reading", "writing", "normalizedReading", "playReading", "zh", "level", "script"];
 
@@ -38,13 +41,13 @@ function parseCsvLine(line) {
   return values;
 }
 
-function readCsvRows(filePath) {
+function readCsvRows(filePath, requiredFields = REQUIRED_FIELDS) {
   const text = fs.readFileSync(filePath, "utf8").replace(/^\uFEFF/, "").trim();
   if (!text) return [];
 
   const [headerLine, ...lines] = text.split(/\r?\n/);
   const headers = parseCsvLine(headerLine);
-  for (const field of REQUIRED_FIELDS) {
+  for (const field of requiredFields) {
     if (!headers.includes(field)) {
       throw new Error(`${filePath} is missing required field ${field}`);
     }
@@ -65,6 +68,17 @@ function readCsvRows(filePath) {
 function wordFileNamesForLevel(level) {
   const prefix = level.toLowerCase();
   return [`${prefix}_core.csv`, `${prefix}_eggrolls.csv`];
+}
+
+function loadReviewIdsForLevel(level) {
+  // 例如 level="N3" 對到 tools/dictionary/n3_review.csv。
+  const reviewCsvPath = path.join(REVIEW_CSV_DIR, `${level.toLowerCase()}_review.csv`);
+  if (!fs.existsSync(reviewCsvPath)) return new Set();
+  return new Set(
+    readCsvRows(reviewCsvPath, ["id"])
+      .map((row) => String(row.id || "").trim())
+      .filter(Boolean)
+  );
 }
 
 function normalizeSourceWord(row, expectedLevel, fileName) {
@@ -94,10 +108,14 @@ function uniqueFirstWordByReadingAndWriting(words) {
 
 function loadWordsByLevel() {
   return LEVEL_ORDER.reduce((map, level) => {
+    // 排除清單要在去重「之前」套用。
+    // 為什麼：若被排除的詞剛好是重複組的第一筆，先排除
+    // 才能讓後面同音同字的另一個詞正常留下來（Python 端同此順序）。
+    const reviewIds = loadReviewIdsForLevel(level);
     const rows = wordFileNamesForLevel(level).flatMap((fileName) => {
       const filePath = path.join(SOURCE_WORD_DIR, fileName);
       return readCsvRows(filePath).map((row) => normalizeSourceWord(row, level, fileName));
-    });
+    }).filter((word) => !reviewIds.has(word.id));
     map[level] = uniqueFirstWordByReadingAndWriting(rows);
     return map;
   }, {});
