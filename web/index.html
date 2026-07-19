@@ -2307,7 +2307,7 @@
     </section>
 
     <section class="status-panel" id="statusPanel" aria-live="polite" hidden>
-      <p class="message" id="message">點選棋盤上的假名拼出當前等級單字，低階複習詞會跳卡但不計過站。</p>
+      <p class="message" id="message">點選棋盤上的假名拼出當前等級單字，低階複習詞會顯示命中但不計過站。</p>
       <div class="word-card" id="wordCard">
         <strong class="word-main" id="wordMain"></strong>
         <span class="word-zh" id="wordZh"></span>
@@ -5459,17 +5459,10 @@
         return best ? best.message : "";
       }
 
-      function showWordCard(word, submittedReading = "") {
+      function hideWordCard() {
         window.clearTimeout(wordCardTimer);
         wordCardTimer = 0;
-        els.wordMain.textContent = wordDisplay(word, submittedReading);
-        els.wordZh.textContent = word.zh;
-        els.wordLevel.textContent = word.level;
-        els.wordCard.classList.add("show");
-        wordCardTimer = window.setTimeout(() => {
-          els.wordCard.classList.remove("show");
-          wordCardTimer = 0;
-        }, WORD_CARD_VISIBLE_MS);
+        els.wordCard.classList.remove("show");
       }
 
       function scheduleNextRoundIfNeeded(station) {
@@ -5524,9 +5517,9 @@
         rotateReviewWord(word.id);
 
         playBark();
-        showWordCard(word, spell);
+        hideWordCard();
         if (!isCurrentLevelWord) {
-          setMessage(`命中：${wordDisplay(word)}。這是 ${word.level} 複習詞，會跳卡但不計入 ${currentLevel()} 過站。`);
+          setMessage(`命中：${wordDisplay(word)}。這是 ${word.level} 複習詞，不計入 ${currentLevel()} 過站。`);
         } else {
           setMessage(isNewForStation ? `命中：${wordDisplay(word)}。呷胖離下一口飯更近了。` : `命中：${wordDisplay(word)}。這站已經算過這個詞了。`);
         }
