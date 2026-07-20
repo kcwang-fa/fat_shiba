@@ -1726,25 +1726,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
       }
     ]
   },
-  "n3_0125": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "verbClass": "godan",
-    "verbClassLabel": "五段動詞",
-    "forms": {
-      "dictionary": "行う",
-      "masu": "行います",
-      "te": "行って",
-      "ta": "行った",
-      "nai": "行わない"
-    },
-    "examples": [
-      {
-        "ja": "来月大きなイベントを行います。",
-        "zh": "下個月會舉辦大型活動。"
-      }
-    ]
-  },
   "n3_0126": {
     "pos": "verb",
     "posLabel": "動詞",
@@ -7300,16 +7281,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
       }
     ]
   },
-  "n3_0546": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは明です。",
-        "zh": "這是「更明」。"
-      }
-    ]
-  },
   "n3_0547": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -7494,16 +7465,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
       {
         "ja": "祖母は田舎で一人で暮らしています。",
         "zh": "祖母在鄉下一個人生活。"
-      }
-    ]
-  },
-  "n3_0563": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは晴です。",
-        "zh": "這是「塊、得、重時」。"
       }
     ]
   },
@@ -7966,16 +7927,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
       {
         "ja": "この店ではいろいろな種類の酒を売っています。",
         "zh": "這家店販售各種酒類。"
-      }
-    ]
-  },
-  "n3_0603": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "これは食料です。",
-        "zh": "這是「食物、食品」。"
       }
     ]
   },
@@ -9435,14 +9386,15 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     ]
   },
   "n3_0717": {
-    "pos": "noun",
-    "posLabel": "名詞",
+    "pos": "bound_morpheme",
+    "posLabel": "造語成分",
     "examples": [
       {
-        "ja": "これは防です。",
-        "zh": "這是「防備、防止、堤防」。"
+        "ja": "防火の「防」は、危険を防ぐ意味を表します。",
+        "zh": "「防火」的「防」表示防止危險的意思。"
       }
-    ]
+    ],
+    "note": "Used mainly as a bound morpheme in compounds such as 防火 防水 予防 消防 堤防."
   },
   "n3_0718": {
     "pos": "noun",
@@ -9602,7 +9554,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "examples": [
       {
         "ja": "これはミスです。",
-        "zh": "這是「小姐、姑娘」。"
+        "zh": "這是「失誤、錯誤；小姐、女士（Miss）」。"
       }
     ]
   },
@@ -17520,7 +17472,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
         "ja": "御中は会社や団体宛ての手紙で使います。",
         "zh": "「御中」用在寄給公司或團體的信件上。"
       }
-    ]
+    ],
+    "note": "Playable reading kept as おん for current single-reading schema; general honorific prefix readings are usually お or ご"
   },
   "n3_1386": {
     "pos": "noun",
@@ -17769,7 +17722,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "posLabel": "名詞",
     "examples": [
       {
-        "ja": "駅前で店のぴらを配っていました。",
+        "ja": "駅前で店のビラを配っていました。",
         "zh": "車站前有人在發店家的傳單。"
       }
     ]
@@ -33582,7 +33535,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     "examples": [
       {
         "ja": "サッカー部の部員が増えました。",
-        "zh": "足球社的社員增加了。"
+        "zh": "足球社的成員增加了。"
       }
     ]
   },

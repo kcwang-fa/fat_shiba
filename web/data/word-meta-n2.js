@@ -1391,27 +1391,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_0091": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "省略する",
-      "masu": "省略します",
-      "te": "省略して",
-      "ta": "省略した",
-      "nai": "省略しない"
-    },
-    "examples": [
-      {
-        "ja": "時間がないので、細かい説明は省略します。",
-        "zh": "因為沒有時間，細節說明就省略。"
-      }
-    ]
-  },
   "n2_0092": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -3483,16 +3462,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "彼の説明は前に言ったことと矛盾しています。",
         "zh": "他的說明和之前說過的事互相矛盾。"
-      }
-    ]
-  },
-  "n2_0218": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "examples": [
-      {
-        "ja": "車を運転するには免許が必要です。",
-        "zh": "開車需要駕照。"
       }
     ]
   },
@@ -14265,29 +14234,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0136": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "強力する",
-      "masu": "強力します",
-      "te": "強力して",
-      "ta": "強力した",
-      "nai": "強力しない"
-    },
-    "examples": [
-      {
-        "ja": "「二酸化炭素」と「炭酸ガス」とは、同意の言葉だ",
-        "zh": "「二酸化炭素」和「炭酸ガス」是同義詞"
-      }
-    ]
-  },
   "n2_egg_0137": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -21503,18 +21449,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0619": {
-    "pos": "i_adjective",
-    "posLabel": "い形容詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "イ形",
-    "examples": [
-      {
-        "ja": "尊い命",
-        "zh": "寶貴的生命"
-      }
-    ]
-  },
   "n2_egg_0620": {
     "pos": "na_adjective",
     "posLabel": "な形容詞",
@@ -22658,18 +22592,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "最近寝不足気味だ",
         "zh": "最近感覺睡眠不足"
-      }
-    ]
-  },
-  "n2_egg_0692": {
-    "pos": "expression",
-    "posLabel": "慣用表現",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "連語",
-    "examples": [
-      {
-        "ja": "説明が物足りない",
-        "zh": "說明不到位"
       }
     ]
   },
@@ -26280,18 +26202,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_0932": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "青森名物のリンゴ",
-        "zh": "青森特產的蘋果"
-      }
-    ]
-  },
   "n2_egg_0933": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -26926,29 +26836,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "党を組む",
         "zh": "結黨"
-      }
-    ]
-  },
-  "n2_egg_0975": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "ブランドする",
-      "masu": "ブランドします",
-      "te": "ブランドして",
-      "ta": "ブランドした",
-      "nai": "ブランドしない"
-    },
-    "examples": [
-      {
-        "ja": "聴衆のリクエストに応じる",
-        "zh": "滿足聽眾的要求"
       }
     ]
   },
@@ -28761,18 +28648,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1100": {
-    "pos": "adverb",
-    "posLabel": "副詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名・副",
-    "examples": [
-      {
-        "ja": "平常どおり営業する",
-        "zh": "照常營業"
-      }
-    ]
-  },
   "n2_egg_1101": {
     "pos": "suru_noun",
     "posLabel": "する名詞",
@@ -29431,18 +29306,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1146": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "ひと区切りつく",
-        "zh": "告一段落"
-      }
-    ]
-  },
   "n2_egg_1147": {
     "pos": "adverb",
     "posLabel": "副詞",
@@ -29946,29 +29809,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "仕事と家事を両立させる",
         "zh": "兼顧工作與家務"
-      }
-    ]
-  },
-  "n2_egg_1183": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "両端",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
-    "examples": [
-      {
-        "ja": "学生に宿題を課する",
-        "zh": "給學生布置作業"
       }
     ]
   },
@@ -31330,29 +31170,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "先入観を持たずに話を聞くべきだ",
         "zh": "應該拋開成見來聽這個話題"
-      }
-    ]
-  },
-  "n2_egg_1278": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "錆",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
-    "examples": [
-      {
-        "ja": "もたもたして会議に遅れる",
-        "zh": "拖拖拉拉結果開會遲到了"
       }
     ]
   },
@@ -34478,18 +34295,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1497": {
-    "pos": "noun",
-    "posLabel": "名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "名",
-    "examples": [
-      {
-        "ja": "判を彫る",
-        "zh": "刻圖章"
-      }
-    ]
-  },
   "n2_egg_1498": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -36749,20 +36554,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       }
     ]
   },
-  "n2_egg_1652": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動2",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "examples": [
-      {
-        "ja": "人生を山登りになぞらえる",
-        "zh": "把人生比作登山"
-      }
-    ]
-  },
   "n2_egg_1653": {
     "pos": "noun",
     "posLabel": "名詞",
@@ -36843,52 +36634,6 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N2 = {
       {
         "ja": "無料配送",
         "zh": "免費送貨"
-      }
-    ]
-  },
-  "n2_egg_1659": {
-    "pos": "verb",
-    "posLabel": "動詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "副・ナ形・自動3",
-    "transitivity": "intransitive",
-    "transitivityLabel": "自動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "評論",
-      "masu": "します",
-      "te": "して",
-      "ta": "した",
-      "nai": "しない"
-    },
-    "examples": [
-      {
-        "ja": "スカートのウエストがぶかぶかだ",
-        "zh": "裙子的腰圍鬆鬆垮垮的"
-      }
-    ]
-  },
-  "n2_egg_1660": {
-    "pos": "suru_noun",
-    "posLabel": "する名詞",
-    "source": "eggrolls-JLPT10k-v3.5",
-    "sourcePos": "他動3・名",
-    "transitivity": "transitive",
-    "transitivityLabel": "他動詞",
-    "verbClass": "suru",
-    "verbClassLabel": "する動詞",
-    "forms": {
-      "dictionary": "授業料する",
-      "masu": "授業料します",
-      "te": "授業料して",
-      "ta": "授業料した",
-      "nai": "授業料しない"
-    },
-    "examples": [
-      {
-        "ja": "庭園をライトアップする",
-        "zh": "照亮庭園"
       }
     ]
   },

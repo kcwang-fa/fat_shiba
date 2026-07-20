@@ -1,0 +1,62 @@
+id,reading,writing,reason,suggested_reading,suggested_writing,note
+n1_egg_2146,かなづち,金槌,duplicate_lower_level,かなづち,金槌,Already present as N3 n3_1120.
+n1_egg_2220,しつぎょう,失業,duplicate_lower_level,しつぎょう,失業,Already present as N3 n3_1159.
+n1_egg_1498,まかなう,賄う,duplicate_lower_level,まかなう,賄う,Already present as N3 n3_1556.
+n1_egg_0265,みっともない,みっともない,duplicate_lower_level,みっともない,みっともない,Already present as N3 n3_1815.
+n1_0842,やみ,闇,duplicate_lower_level,やみ,闇,Already present as N2 n2_egg_0047.
+n1_1783,なやみ,悩み,duplicate_lower_level,なやみ,悩み,Already present as N2 n2_egg_0164.
+n1_1235,ふきん,付近,duplicate_lower_level,ふきん,付近,Already present as N2 n2_egg_0170.
+n1_0844,いちめん,一面,duplicate_lower_level,いちめん,一面,Already present as N2 n2_egg_0175.
+n1_1467,けんりょく,権力,duplicate_lower_level,けんりょく,権力,Already present as N2 n2_egg_0316.
+n1_1958,しんそう,真相,duplicate_lower_level,しんそう,真相,Already present as N2 n2_egg_0416.
+n1_1668,はじ,恥,duplicate_lower_level,はじ,恥,Already present as N2 n2_egg_0434.
+n1_0865,てんじる,転じる,duplicate_lower_level,てんじる,転じる,Already present as N2 n2_egg_0757.
+n1_1238,ポット,ポット,duplicate_lower_level,ポット,ポット,Already present as N2 n2_egg_1119.
+n1_0908,きょうせい,矯正,duplicate_lower_level,きょうせい,矯正,Already present as N2 n2_egg_1304.
+n1_2043,さんぴ,賛否,duplicate_lower_level,さんぴ,賛否,Already present as N2 n2_egg_1891.
+n1_1671,ふじゅん,不順,duplicate_lower_level,ふじゅん,不順,Already present as N2 n2_egg_1956.
+n1_egg_0701,しょくりょう,食糧,duplicate_lower_level,しょくりょう,食糧,Already present as N3 n3_0604 after the N3 polluted reading was corrected.
+n1_egg_0869,ちょう,長,duplicate_lower_level,ちょう,長,Already present as N3 n3_0746 after the N1 reading was corrected.
+n1_1201,そり,機,source_row_polluted,そり,橇,Reading / writing / zh do not align; keep out of the playable dictionary until the original source is checked.
+n1_1447,じゅうほう,重宝,duplicate_corrected_by_eggrolls,ちょうほう,重宝,Kept as n1_egg_1229 with the correct everyday reading and meaning.
+n1_egg_1661,あっせん,斡旋,duplicate_same_n1_word,あっせん,斡旋,Already present as n1_1247.
+n1_egg_2537,いちりつ,一律,duplicate_same_n1_word,いちりつ,一律,Already present as n1_1925.
+n1_egg_0687,おそれいる,恐れ入る,duplicate_same_n1_word,おそれいる,恐れ入る,Already present as n1_1788.
+n1_egg_0056,おびる,帯びる,duplicate_same_n1_word,おびる,帯びる,Already present as n1_1249.
+n1_egg_0981,おもいつめる,思い詰める,duplicate_same_n1_word,おもいつめる,思い詰める,Already present as n1_1622.
+n1_egg_0673,かんがい,感慨,duplicate_same_n1_word,かんがい,感慨,Already present as n1_1345.
+n1_egg_0023,かんべん,勘弁,duplicate_same_n1_word,かんべん,勘弁,Already present as n1_1808.
+n1_egg_2123,がいとう,街頭,duplicate_same_n1_word,がいとう,街頭,Already present as n1_0790.
+n1_egg_0334,きゅうきょく,究極,duplicate_same_n1_word,きゅうきょく,究極,Already present as n1_1939.
+n1_egg_0020,ぎせい,犠牲,duplicate_same_n1_word,ぎせい,犠牲,Already present as n1_1296.
+n1_egg_1789,ごい,語彙,duplicate_same_n1_word,ごい,語彙,Already present as n1_1995.
+n1_egg_1922,さんがく,山岳,duplicate_same_n1_word,さんがく,山岳,Already present as n1_0772.
+n1_egg_1931,ざっか,雑貨,duplicate_same_n1_word,ざっか,雑貨,Already present as n1_1196.
+n1_egg_0359,しっかく,失格,duplicate_same_n1_word,しっかく,失格,Already present as n1_0998.
+n1_egg_0746,しゃめん,斜面,duplicate_same_n1_word,しゃめん,斜面,Already present as n1_1106.
+n1_egg_0947,しょうきょ,消去,duplicate_same_n1_word,しょうきょ,消去,Already present as n1_1712.
+n1_egg_0494,しんぼう,辛抱,duplicate_same_n1_word,しんぼう,辛抱,Already present as n1_1713.
+n1_egg_1124,じそんしん,自尊心,duplicate_same_n1_word,じそんしん,自尊心,Already present as n1_1639.
+n1_egg_0717,そうじゅう,操縦,duplicate_same_n1_word,そうじゅう,操縦,Already present as n1_0942.
+n1_egg_0055,そうび,装備,duplicate_same_n1_word,そうび,装備,Already present as n1_1548.
+n1_egg_0740,ちゅうすう,中枢,duplicate_same_n1_word,ちゅうすう,中枢,Already present as n1_0860.
+n1_egg_0267,とみ,富,duplicate_same_n1_word,とみ,富,Already present as n1_1459.
+n1_egg_1930,とりつぐ,取り次ぐ,duplicate_same_n1_word,とりつぐ,取り次ぐ,Already present as n1_0956.
+n1_egg_0220,にせもの,偽物,duplicate_same_n1_word,にせもの,偽物,Already present as n1_1970.
+n1_egg_0453,はんぱ,半端,duplicate_same_n1_word,はんぱ,半端,Already present as n1_1110.
+n1_egg_0348,ばくぜん,漠然,duplicate_same_n1_word,ばくぜん,漠然,Already present as n1_1910.
+n1_egg_0800,ばくろ,暴露,duplicate_same_n1_word,ばくろ,暴露,Already present as n1_2069.
+n1_1125,ひんぱん,頻繁,duplicate_same_n1_word,ひんぱん,頻繁,Already present as n1_0039.
+n1_egg_0883,びょうしゃ,描写,duplicate_same_n1_word,びょうしゃ,描写,Already present as n1_1066.
+n1_egg_2317,ふうど,風土,duplicate_same_n1_word,ふうど,風土,Already present as n1_0833.
+n1_egg_2597,ぶんかざい,文化財,duplicate_same_n1_word,ぶんかざい,文化財,Already present as n1_1067.
+n1_egg_0499,へいさ,閉鎖,duplicate_same_n1_word,へいさ,閉鎖,Already present as n1_1158.
+n1_egg_0063,ほうかい,崩壊,duplicate_same_n1_word,ほうかい,崩壊,Already present as n1_0628.
+n1_egg_0124,ほろぼす,滅ぼす,duplicate_same_n1_word,ほろぼす,滅ぼす,Already present as n1_1558.
+n1_egg_0537,むかんしん,無関心,duplicate_same_n1_word,むかんしん,無関心,Already present as n1_1684.
+n1_egg_0743,めつぼう,滅亡,duplicate_same_n1_word,めつぼう,滅亡,Already present as n1_1559.
+n1_egg_1499,めんじょ,免除,duplicate_same_n1_word,めんじょ,免除,Already present as n1_1160.
+n1_egg_1199,もほう,模倣,duplicate_same_n1_word,もほう,模倣,Already present as n1_1601.
+n1_egg_0727,やりとげる,やり遂げる,duplicate_same_n1_word,やりとげる,やり遂げる,Already present as n1_1737.
+n1_egg_0534,やわらぐ,和らぐ,duplicate_same_n1_word,やわらぐ,和らぐ,Already present as n1_1689.
+n1_egg_2883,らくのう,酪農,duplicate_same_n1_word,らくのう,酪農,Already present as n1_1354.

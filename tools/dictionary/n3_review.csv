@@ -1,3 +1,7 @@
 id,reading,writing,reason,suggested_reading,suggested_writing,note
+n3_0125,おこなう,行う,duplicate_with_lower_level,おこなう,行う,Same lemma is kept as N4 n4_0724; exclude the N3 duplicate so the canonical writing can be 行う without cross-level duplicate keys.
+n3_0546,みょう,明,source_data_corrupt,,,Reading and zh meaning are not a reliable standalone N3 entry; keep excluded until the original source is confirmed.
+n3_0563,じょう,晴,source_data_corrupt,,,Reading and zh meaning are visibly polluted; keep excluded until the original source is confirmed.
+n3_0603,しょくりょう,食料,duplicate_with_lower_level,しょくりょう,食料,Same lemma is kept as N4 n4_egg_0122; exclude the N3 duplicate after correcting the polluted reading.
 n3_egg_0357,たまる,たまる,lemma_semantics_uncertain,たまる,たまる,Raw meaning points to 堪る or たまらない usage rather than the common 溜まる sense; confirm intended lemma before adding example/meta.
 n3_egg_0618,グランド,グランド,lemma_semantics_uncertain,グランド,グランド,Standalone グランド with source meaning grand/large is not natural enough to confirm; it may also be confused with グラウンド already present as n2_0281.

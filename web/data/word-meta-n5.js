@@ -6829,8 +6829,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0580": {
-    "pos": "katakana",
-    "posLabel": "外來語",
+    "pos": "noun",
+    "posLabel": "名詞",
     "examples": [
       {
         "ja": "カタカナで名前を書いてください。",
@@ -10965,6 +10965,27 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
       {
         "ja": "電話番号を教えてください",
         "zh": "請告訴我您的電話號碼"
+      }
+    ]
+  },
+  "n5_egg_0164": {
+    "pos": "verb",
+    "posLabel": "動詞",
+    "transitivity": "intransitive",
+    "transitivityLabel": "自動詞",
+    "verbClass": "godan",
+    "verbClassLabel": "五段動詞",
+    "forms": {
+      "dictionary": "泊まる",
+      "masu": "泊まります",
+      "te": "泊まって",
+      "ta": "泊まった",
+      "nai": "泊まらない"
+    },
+    "examples": [
+      {
+        "ja": "ホテルに泊まります。",
+        "zh": "住在飯店。"
       }
     ]
   }

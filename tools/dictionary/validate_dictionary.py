@@ -268,6 +268,13 @@ def print_missing_examples(rows: list[dict[str, str]], output_format: str, limit
         print(f"  {row['level']} {row['id']}  {row['display']}  - {row['zh']} [{row['source']}]")
 
 
+def manual_example_issue_count(
+    manual_example_stats: dict[str, dict[str, int]],
+    stat_name: str,
+) -> int:
+    return sum(stats[stat_name] for stats in manual_example_stats.values())
+
+
 def main() -> int:
     args = parse_args()
     project_root = args.project_root.resolve()
@@ -344,6 +351,18 @@ def main() -> int:
         issue_counts["unknown_meta_id"] = len(unknown_meta_ids)
     if manual_warnings:
         issue_counts["manual_example_warning"] = len(manual_warnings)
+    manual_hard_issue_names = (
+        ("manual_example_duplicate_id", "duplicate_ids"),
+        ("manual_example_blank_id", "blank_ids"),
+        ("manual_example_unknown_id", "unknown_ids"),
+    )
+    manual_soft_issue_names = (
+        ("manual_example_blank_example", "blank_examples"),
+    )
+    for issue_name, stat_name in manual_hard_issue_names + manual_soft_issue_names:
+        count = manual_example_issue_count(manual_example_stats, stat_name)
+        if count:
+            issue_counts[issue_name] = count
 
     if issue_counts:
         for kind, count in sorted(issue_counts.items()):
@@ -370,8 +389,22 @@ def main() -> int:
         if args.limit and total_missing_examples > args.limit:
             print(f"  ... {total_missing_examples - args.limit} more not shown. Use --limit 0 to show all.")
 
-    has_hard_errors = bool(word_issues or unknown_meta_ids)
-    has_warnings = bool(manual_warnings or all_missing_examples or any(missing_meta_by_level.values()))
+    manual_hard_errors = any(
+        stats["duplicate_ids"] or stats["blank_ids"] or stats["unknown_ids"]
+        for stats in manual_example_stats.values()
+    )
+    manual_soft_warnings = any(
+        stats["blank_examples"]
+        for stats in manual_example_stats.values()
+    )
+
+    has_hard_errors = bool(word_issues or unknown_meta_ids or manual_hard_errors)
+    has_warnings = bool(
+        manual_warnings
+        or manual_soft_warnings
+        or all_missing_examples
+        or any(missing_meta_by_level.values())
+    )
     if has_hard_errors or (args.strict and has_warnings):
         return 1
     return 0

@@ -4252,7 +4252,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "posLabel": "い形容詞",
     "examples": [
       {
-        "ja": "彼は料理がうまいです。",
+        "ja": "彼は料理が上手いです。",
         "zh": "他很擅長做菜。"
       }
     ]
@@ -8815,7 +8815,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "examples": [
       {
         "ja": "電車は三番線から出ます。",
-        "zh": "電車從第三月台線出發。"
+        "zh": "電車從第三月台發車。"
       }
     ]
   },
@@ -9258,7 +9258,7 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "examples": [
       {
         "ja": "来月、今の会社を辞めます。",
-        "zh": "我下個月要辭掉現在的公司。"
+        "zh": "我下個月要從現在的公司離職。"
       }
     ]
   },
@@ -10725,8 +10725,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N4 = {
     "sourcePos": "イ形",
     "examples": [
       {
-        "ja": "彼は料理がうまいです。",
-        "zh": "他很會做菜。"
+        "ja": "このラーメンはうまいです。",
+        "zh": "這碗拉麵很好吃。"
       }
     ]
   },
