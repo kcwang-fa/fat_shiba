@@ -100,6 +100,15 @@ N1 的學習例句集中維護在 `tools/dictionary/n1_examples.csv`；修改後
 
 WAV 母檔集中放在 `generated_audio/source_audio/`，`web/assets/audio/` 只保留瀏覽器實際播放的 OGG/MP3。重新產生 WAV 後，如需更新網站音訊，請再用 ffmpeg 轉出對應的 `.ogg` 與 `.mp3` 到 `web/assets/audio/`。
 
+音訊分析工具需要本機可執行 `ffmpeg`／`ffprobe`，Python 套件請裝在專案虛擬環境內：
+
+```bash
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements-dev.txt
+python audio_analysis/analyze_fireplace_audio.py generated_audio/source_audio/fireplace-white-noise-bgm.wav
+```
+
 重新產生 N5 沖繩複習專注背景音樂 WAV：
 
 ```bash

@@ -18,11 +18,7 @@ import numpy as np
 
 
 CONFIG = {
-    "input_path": Path(
-        "/Users/kcwang/Downloads/"
-        "asmr-flame!！fire！3-Minute Fireplace Sound for Sleep［三分鐘火爐音效幫助睡眠］_128k.mp3"
-    ),
-    "output_dir": Path("/Users/kcwang/workspace/dev/fat_shiba/audio_analysis"),
+    "output_dir": Path(__file__).resolve().parent,
     "output_prefix": "fireplace",
     "sample_rate": 44_100,
     "channels": 2,
@@ -275,11 +271,21 @@ def band_energy_table(bands: list[tuple[int, int]], energy: np.ndarray) -> list[
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, default=CONFIG["input_path"])
-    parser.add_argument("--output-dir", type=Path, default=CONFIG["output_dir"])
-    parser.add_argument("--prefix", default=CONFIG["output_prefix"])
-    parser.add_argument("--skip-images", action="store_true")
-    return parser.parse_args()
+    parser.add_argument("input_path", nargs="?", type=Path, help="要分析的音訊檔。")
+    parser.add_argument("--input", dest="legacy_input_path", type=Path, help=argparse.SUPPRESS)
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=CONFIG["output_dir"],
+        help="分析報告與圖片輸出資料夾，預設為 audio_analysis/。",
+    )
+    parser.add_argument("--prefix", default=CONFIG["output_prefix"], help="輸出檔名前綴。")
+    parser.add_argument("--skip-images", action="store_true", help="只輸出 JSON 分析報告，不產生波形與頻譜圖。")
+    args = parser.parse_args()
+    args.input_path = args.input_path or args.legacy_input_path
+    if not args.input_path:
+        parser.error("the following argument is required: input_path")
+    return args
 
 
 def main() -> None:
@@ -291,23 +297,23 @@ def main() -> None:
     report_path = args.output_dir / f"{args.prefix}_analysis_report.json"
 
     config = dict(CONFIG)
-    config["input_path"] = args.input
+    config["input_path"] = args.input_path
     config["output_dir"] = args.output_dir
     config["output_prefix"] = args.prefix
 
     if not args.skip_images:
-        export_waveform(args.input, waveform_path, str(config["waveform_size"]))
-        export_spectrogram(args.input, spectrogram_path, str(config["spectrogram_size"]))
+        export_waveform(args.input_path, waveform_path, str(config["waveform_size"]))
+        export_spectrogram(args.input_path, spectrogram_path, str(config["spectrogram_size"]))
 
-    audio = decode_audio(args.input, int(config["sample_rate"]), int(config["channels"]))
+    audio = decode_audio(args.input_path, int(config["sample_rate"]), int(config["channels"]))
     report = {
         "config": {
             key: str(value) if isinstance(value, Path) else value
             for key, value in config.items()
         },
-        "probe": probe_audio(args.input),
+        "probe": probe_audio(args.input_path),
         "silence_events": detect_silence(
-            args.input,
+            args.input_path,
             int(config["silence_noise_db"]),
             float(config["silence_min_duration_sec"]),
         ),
