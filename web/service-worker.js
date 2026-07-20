@@ -1,4 +1,4 @@
-const CACHE_NAME = "fat-shiba-pwa-v16";
+const CACHE_NAME = "fat-shiba-pwa-v17";
 const DATA_PATHS = [
   "/data/word-level-n5.js",
   "/data/word-level-n4.js",

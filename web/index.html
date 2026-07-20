@@ -2544,7 +2544,7 @@
       const N1_REGION_ID = "n1_tohoku_hokkaido";
       const KANA_SMALL = new Set(["ゃ", "ゅ", "ょ", "っ", "ぁ", "ぃ", "ぅ", "ぇ", "ぉ", "ャ", "ュ", "ョ", "ッ", "ァ", "ィ", "ゥ", "ェ", "ォ"]);
       const KANA_VOICED = /[がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽゔガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポヴ]/;
-      const POSTCARD_SHIBA_IMAGES = Array.from({ length: 10 }, (_, index) => `assets/postcard-shiba/shiba-postcard-${String(index + 1).padStart(2, "0")}.png`);
+      const POSTCARD_SHIBA_IMAGES = Array.from({ length: 10 }, (_, index) => `assets/postcard-shiba/shiba-postcard-${String(index + 1).padStart(2, "0")}.webp`);
       const POSTCARD_POSE_LIMIT = 5;
       const POSTCARD_SHIBA_LAYOUTS = [
         { width: "24%", right: "3%", bottom: "20%", modalWidth: "21%", modalRight: "7%", modalBottom: "15%" },
@@ -3085,6 +3085,8 @@
       let ALL_WORDS = [];
       let WORDS_BY_READING = new Map();
       let wordIndexVersion = 0;
+      let wordIndexBatchDepth = 0;
+      let wordIndexNeedsRebuild = false;
 
       function loadedWordLevelData(level) {
         return window.FAT_SHIBA_WORD_LEVELS && Array.isArray(window.FAT_SHIBA_WORD_LEVELS[level])
@@ -3133,11 +3135,41 @@
         wordIndexVersion += 1;
       }
 
+      function requestWordIndexRebuild() {
+        if (wordIndexBatchDepth > 0) {
+          wordIndexNeedsRebuild = true;
+          return;
+        }
+        rebuildWordIndexes();
+      }
+
+      function withWordIndexBatch(loadPromiseFactory) {
+        wordIndexBatchDepth += 1;
+        let promise;
+        try {
+          promise = Promise.resolve(loadPromiseFactory());
+        } catch (error) {
+          wordIndexBatchDepth -= 1;
+          if (wordIndexBatchDepth === 0 && wordIndexNeedsRebuild) {
+            wordIndexNeedsRebuild = false;
+            rebuildWordIndexes();
+          }
+          throw error;
+        }
+        return promise.finally(() => {
+          wordIndexBatchDepth -= 1;
+          if (wordIndexBatchDepth === 0 && wordIndexNeedsRebuild) {
+            wordIndexNeedsRebuild = false;
+            rebuildWordIndexes();
+          }
+        });
+      }
+
       function ingestWordLevel(level, words) {
         WORDS_BY_LEVEL[level] = (words || [])
           .map((word) => normalizeLoadedWord(word, level))
           .filter(Boolean);
-        rebuildWordIndexes();
+        requestWordIndexRebuild();
       }
 
       function loadWordLevel(level) {
@@ -3175,14 +3207,18 @@
         return promise;
       }
 
-      function ensureWordsForLevel(level) {
+      function ensureCurrentLevelWords(level) {
+        return loadWordLevel(level);
+      }
+
+      function ensureCumulativeWordsForLevel(level) {
         const rank = Math.max(0, LEVEL_ORDER.indexOf(level));
-        return Promise.all(LEVEL_ORDER.slice(0, rank + 1).map(loadWordLevel));
+        return withWordIndexBatch(() => Promise.all(LEVEL_ORDER.slice(0, rank + 1).map(loadWordLevel)));
       }
 
       function ensureWordsForLevels(levels) {
-        const maxRank = Math.max(0, ...levels.map((level) => LEVEL_ORDER.indexOf(level)).filter((rank) => rank >= 0));
-        return ensureWordsForLevel(LEVEL_ORDER[maxRank]);
+        const uniqueLevels = [...new Set(levels.filter((level) => LEVEL_ORDER.includes(level)))];
+        return withWordIndexBatch(() => Promise.all(uniqueLevels.map(loadWordLevel)));
       }
 
       const initialN5Words = loadedWordLevelData("N5");
@@ -3289,11 +3325,11 @@
       let rootSave = loadRootSave();
       try {
         const bootRegion = REGION_BY_ID.get(rootSave.currentRegionId) || REGIONS[0];
-        await ensureWordsForLevel(bootRegion.level);
+        await ensureCurrentLevelWords(bootRegion.level);
       } catch (error) {
         console.warn("Current level word data failed to load, falling back to N5.", error);
         rootSave.currentRegionId = REGIONS[0].id;
-        await ensureWordsForLevel(REGIONS[0].level);
+        await ensureCurrentLevelWords(REGIONS[0].level);
         setMessage("詞庫載入不完整，先回到 N5。請重新整理後再試一次。");
       }
       let save = loadRegionSave(currentRegion().id);
@@ -3399,7 +3435,7 @@
         if (n4BgmAudio) return n4BgmAudio;
         n4BgmAudio = document.createElement("audio");
         n4BgmAudio.loop = true;
-        n4BgmAudio.preload = "auto";
+        n4BgmAudio.preload = "metadata";
         n4BgmAudio.volume = 0.34;
         N4_GAME_BGM_SOURCES.forEach((sourceConfig) => {
           const source = document.createElement("source");
@@ -3414,7 +3450,7 @@
         if (n1BgmAudio) return n1BgmAudio;
         n1BgmAudio = document.createElement("audio");
         n1BgmAudio.loop = true;
-        n1BgmAudio.preload = "auto";
+        n1BgmAudio.preload = "metadata";
         n1BgmAudio.volume = 0.32;
         N1_GAME_BGM_SOURCES.forEach((sourceConfig) => {
           const source = document.createElement("source");
@@ -3429,7 +3465,7 @@
         if (n3BgmAudio) return n3BgmAudio;
         n3BgmAudio = document.createElement("audio");
         n3BgmAudio.loop = true;
-        n3BgmAudio.preload = "auto";
+        n3BgmAudio.preload = "metadata";
         n3BgmAudio.volume = 0.33;
         N3_GAME_BGM_SOURCES.forEach((sourceConfig) => {
           const source = document.createElement("source");
@@ -3444,7 +3480,7 @@
         if (n5GameBgmAudio) return n5GameBgmAudio;
         n5GameBgmAudio = document.createElement("audio");
         n5GameBgmAudio.loop = true;
-        n5GameBgmAudio.preload = "auto";
+        n5GameBgmAudio.preload = "metadata";
         n5GameBgmAudio.volume = 0.34;
         N5_GAME_BGM_SOURCES.forEach((sourceConfig) => {
           const source = document.createElement("source");
@@ -3461,7 +3497,7 @@
         if (reviewBgmAudioByLevel[level]) return reviewBgmAudioByLevel[level];
         const audio = document.createElement("audio");
         audio.loop = true;
-        audio.preload = "auto";
+        audio.preload = "metadata";
         audio.volume = 0.32;
         config.bgmSources.forEach((sourceConfig) => {
           const source = document.createElement("source");
@@ -3799,7 +3835,7 @@
         if (!region || !isRegionOpen(region)) return;
         setMessage(`準備 ${region.level} 詞庫中...`);
         try {
-          await ensureWordsForLevel(region.level);
+          await ensureCurrentLevelWords(region.level);
         } catch (error) {
           console.warn(`${region.level} word data failed to load.`, error);
           setMessage(`${region.level} 詞庫暫時載入失敗，請重新整理後再試一次。`);
@@ -4346,7 +4382,7 @@
         updateReviewFocusMusicButton();
         closePostcardAlbum();
         try {
-          await ensureWordsForLevel(reviewLevel);
+          await ensureCurrentLevelWords(reviewLevel);
         } catch (error) {
           console.warn(`${reviewLevel} review word data failed to load.`, error);
           setMessage(`${reviewLevel} 詞庫暫時載入失敗，請重新整理後再試一次。`);
