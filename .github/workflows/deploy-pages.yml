@@ -16,7 +16,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild dictionary
+        run: |
+          node tools/dictionary/build_word_level_data.js
+          python tools/dictionary/build_word_meta.py
+
+      - name: Validate dictionary
+        run: python tools/dictionary/validate_dictionary.py --strict
+
+      - name: Ensure generated files are committed
+        run: |
+          git diff --exit-code -- \
+            web/data \
+            tools/dictionary/build_warnings.txt
+
   deploy:
+    needs: quality
     runs-on: ubuntu-latest
     environment:
       name: github-pages
