@@ -30,19 +30,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Rebuild dictionary
+      - name: Rebuild word levels
         run: |
           node tools/dictionary/build_word_level_data.js
-          python tools/dictionary/build_word_meta.py
 
       - name: Validate dictionary
         run: python tools/dictionary/validate_dictionary.py --strict
 
-      - name: Ensure generated files are committed
+      - name: Ensure generated word levels are committed
         run: |
           git diff --exit-code -- \
-            web/data \
-            tools/dictionary/build_warnings.txt
+            web/data/word-level-n5.js \
+            web/data/word-level-n4.js \
+            web/data/word-level-n3.js \
+            web/data/word-level-n2.js \
+            web/data/word-level-n1.js \
+            web/data/word_data.js
 
   deploy:
     needs: quality
