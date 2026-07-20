@@ -5472,8 +5472,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0447": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "どうぞ、入ってください。",
@@ -5482,8 +5482,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0448": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "どうもありがとうございます。",
@@ -8211,8 +8211,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0684": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "もしもし、田中さんですか。",
@@ -8221,8 +8221,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0685": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "こんにちは。山田です。",
@@ -8231,8 +8231,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0686": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "こんばんは。今、時間がありますか。",
@@ -8241,8 +8241,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0687": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "おはよう、よく寝ましたか。",
@@ -8251,8 +8251,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0688": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "手伝ってくれてありがとう。",
@@ -8261,8 +8261,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0689": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "駅で友達にさようならと言いました。",
@@ -8271,8 +8271,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0690": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "すみません、駅はどこですか。",
@@ -8281,8 +8281,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0691": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "遅れてごめんなさい。",
@@ -8291,8 +8291,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0692": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "水をお願いします。",
@@ -8301,8 +8301,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0693": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "いただきます。",
@@ -8311,8 +8311,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0694": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "ごちそうさまでした。",
@@ -8321,8 +8321,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0695": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "いってきます。",
@@ -8331,8 +8331,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0696": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "ただいま。",
@@ -8341,8 +8341,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_0697": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "おかえり、疲れましたか。",
@@ -9073,8 +9073,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_egg_0017": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "感",
     "examples": [
@@ -10591,8 +10591,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N5 = {
     ]
   },
   "n5_egg_0138": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "名・副・感",
     "examples": [

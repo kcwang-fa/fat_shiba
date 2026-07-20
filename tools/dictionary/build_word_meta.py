@@ -50,6 +50,7 @@ POS_LABELS = {
     "particle": "助詞",
     "conjunction": "接續詞",
     "interjection": "感動詞",
+    "greeting": "社交表現",
     "expression": "慣用表現",
     "katakana": "外來語",
     "suru_noun": "する名詞",
@@ -208,6 +209,28 @@ N5_INTERJECTION_IDS = (
     n5_ids(684, 699)
     | {"n5_0447", "n5_0448"}
 )
+
+GREETING_READINGS = {
+    "どうぞ",
+    "どうも",
+    "もしもし",
+    "こんにちは",
+    "こんばんは",
+    "おはよう",
+    "ありがとう",
+    "さようなら",
+    "すみません",
+    "ごめんなさい",
+    "おねがいします",
+    "いただきます",
+    "ごちそうさま",
+    "いってきます",
+    "ただいま",
+    "おかえり",
+    "いらっしゃいませ",
+    "ようこそ",
+    "やあ",
+}
 
 N5_PARTICLE_IDS = n5_ids(704, 709)
 N5_CONJUNCTION_IDS = n5_ids(710, 712)
@@ -532,6 +555,8 @@ def infer_pos(row: dict[str, str]) -> str:
         return "numeric"
     if word_id in N5_ADVERB_IDS:
         return "adverb"
+    if is_greeting_expression(row):
+        return "greeting"
     if word_id in N5_INTERJECTION_IDS:
         return "interjection"
     if word_id in N5_PARTICLE_IDS:
@@ -541,6 +566,10 @@ def infer_pos(row: dict[str, str]) -> str:
     if row["script"] == "katakana":
         return "katakana"
     return "noun"
+
+
+def is_greeting_expression(row: dict[str, str]) -> bool:
+    return row["normalizedReading"] in GREETING_READINGS
 
 
 def is_n4_verb(row: dict[str, str]) -> bool:
@@ -696,7 +725,7 @@ def auto_example(row: dict[str, str], pos: str, forms: dict[str, str] | None = N
             "ja": f"これは{display}です。",
             "zh": f"這個是「{zh}」。",
         }
-    if pos in {"particle", "conjunction", "interjection", "expression", "adverb", "determiner"}:
+    if pos in {"particle", "conjunction", "interjection", "greeting", "expression", "adverb", "determiner"}:
         return {
             "ja": f"「{display}」を使います。",
             "zh": f"使用「{display}」這個詞。",
@@ -980,6 +1009,10 @@ def load_eggrolls_metadata(
         note = notes[note_id]
         source_pos = (note.get("VocabPoS") or "").strip()
         pos, verb_class, transitivity = eggrolls_pos_config(source_pos)
+        if is_greeting_expression(words[word_id]):
+            pos = "greeting"
+            verb_class = ""
+            transitivity = ""
         item: dict[str, object] = {
             "pos": pos,
             "posLabel": POS_LABELS[pos],

@@ -31540,8 +31540,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N3 = {
     ]
   },
   "n3_egg_0177": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "examples": [
       {
         "ja": "ようこそ台湾へいらっしゃいました。",

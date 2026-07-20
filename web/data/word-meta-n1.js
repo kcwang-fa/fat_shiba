@@ -20382,8 +20382,8 @@ window.FAT_SHIBA_WORD_META_BY_LEVEL.N1 = {
     ]
   },
   "n1_egg_0012": {
-    "pos": "interjection",
-    "posLabel": "感動詞",
+    "pos": "greeting",
+    "posLabel": "社交表現",
     "source": "eggrolls-JLPT10k-v3.5",
     "sourcePos": "感",
     "examples": [
