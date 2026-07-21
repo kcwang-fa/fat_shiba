@@ -4798,7 +4798,6 @@
         const spacedReviewWords = preferWordsNotInRecentRound(currentSpacedReviewWords(maxLength), recentIds);
         const reviewWords = preferWordsNotInRecentRound(currentReviewWords(maxLength), recentIds);
         const unseen = preferWordsNotInRecentRound(currentWords.filter((word) => !foundGlobal.has(word.id)), recentIds, true);
-        const seen = preferWordsNotInRecentRound(currentWords.filter((word) => foundGlobal.has(word.id)), recentIds, true);
         const desiredCount = 3 + Math.floor(Math.random() * 3);
         const targets = [];
 
@@ -4817,7 +4816,7 @@
           if (!targets.some((target) => target.id === word.id)) targets.push(word);
         }
 
-        for (const word of [...unseen, ...seen]) {
+        for (const word of unseen) {
           if (targets.length >= desiredCount) break;
           if (!targets.some((target) => target.id === word.id)) targets.push(word);
         }
@@ -4839,8 +4838,7 @@
         const recentIds = currentRecentRoundWordIds();
         const currentWords = currentLevelWords().filter((word) => kanaUnits(word.playReading).length <= maxLength);
         const unseen = preferWordsNotInRecentRound(currentWords.filter((word) => !foundGlobal.has(word.id)), recentIds, true);
-        const seen = preferWordsNotInRecentRound(currentWords.filter((word) => foundGlobal.has(word.id)), recentIds, true);
-        return uniqueWords([...priorityWords, ...unseen, ...seen]);
+        return uniqueWords([...priorityWords, ...unseen]);
       }
 
       function tryPlaceWord(grid, word) {
