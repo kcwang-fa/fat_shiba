@@ -1,5 +1,5 @@
 const CACHE_PREFIX = "fat-shiba-pwa-";
-const CACHE_NAME = `${CACHE_PREFIX}v19`;
+const CACHE_NAME = `${CACHE_PREFIX}v20`;
 const DATA_PATHS = [
   "/data/word-level-n5.js",
   "/data/word-level-n4.js",

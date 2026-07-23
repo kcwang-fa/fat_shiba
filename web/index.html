@@ -151,11 +151,78 @@
     }
 
     .home-actions {
-      width: min(62vw, 240px);
+      width: min(74vw, 280px);
       margin-right: clamp(12px, 9vw, 150px);
       margin-bottom: clamp(42px, 14vh, 128px);
       display: grid;
       gap: 10px;
+    }
+
+    .home-auth-panel {
+      width: 100%;
+      display: grid;
+      gap: 8px;
+      padding: 10px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(255, 253, 248, 0.76);
+      background: rgba(255, 253, 248, 0.76);
+      box-shadow: 0 10px 24px rgba(79, 55, 31, 0.13);
+      backdrop-filter: blur(8px);
+    }
+
+    .home-auth-status {
+      margin: 0;
+      color: #4c596c;
+      font-size: 0.82rem;
+      font-weight: 800;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .home-auth-actions {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .google-login-button,
+    .auth-logout-button {
+      min-height: 42px;
+      width: 100%;
+      border-radius: 999px;
+      padding: 0 16px;
+      font-size: 0.9rem;
+      font-weight: 900;
+      letter-spacing: 0;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    }
+
+    .google-login-button {
+      color: #fffdf8;
+      background: linear-gradient(180deg, #4f76c7 0%, #334f96 100%);
+      border: 2px solid rgba(255, 253, 248, 0.9);
+      box-shadow: 0 10px 22px rgba(51, 79, 150, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+    }
+
+    .google-login-button:hover {
+      background: linear-gradient(180deg, #4169bd 0%, #2b437f 100%);
+      box-shadow: 0 12px 26px rgba(51, 79, 150, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.26);
+    }
+
+    .auth-logout-button {
+      color: #4c596c;
+      background: rgba(255, 253, 248, 0.7);
+      border: 2px solid rgba(105, 115, 134, 0.3);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.42);
+    }
+
+    .auth-logout-button:hover {
+      background: rgba(255, 253, 248, 0.94);
+    }
+
+    .google-login-button:active,
+    .auth-logout-button:active {
+      transform: translateY(1px);
     }
 
     .start-journey-button {
@@ -2185,6 +2252,13 @@
     <div class="home-actions">
       <button class="start-journey-button" type="button" id="startJourneyButton">開始遊戲</button>
       <button class="start-review-button" type="button" id="startReviewButton">複習單字</button>
+      <div class="home-auth-panel" aria-label="雲端同步登入">
+        <p class="home-auth-status" id="authStatusText">未登入也可以遊玩。</p>
+        <div class="home-auth-actions">
+          <button class="google-login-button" type="button" id="googleLoginButton">使用 Google 登入同步</button>
+          <button class="auth-logout-button" type="button" id="authLogoutButton" hidden>登出</button>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -2369,6 +2443,7 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="data/word-level-n5.js?v=20260720-n1-cleanup"></script>
 
   <script>
@@ -2387,6 +2462,8 @@
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
       const AUDIO_SAVE_KEY = "fatShiba.phase2.audio.v1";
+      const SUPABASE_URL = "https://ztsmpvxbvpycogfuhooi.supabase.co";
+      const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_oQ4o8G3wxFftfJPOrQnrug_F2BR3ivu";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
       const WORD_META_VERSION = "20260720-n1-cleanup";
       const WORD_META_SRC = LEVEL_ORDER.reduce((map, level) => {
@@ -3277,6 +3354,9 @@
         gameApp: document.getElementById("gameApp"),
         startJourneyButton: document.getElementById("startJourneyButton"),
         startReviewButton: document.getElementById("startReviewButton"),
+        authStatusText: document.getElementById("authStatusText"),
+        googleLoginButton: document.getElementById("googleLoginButton"),
+        authLogoutButton: document.getElementById("authLogoutButton"),
         mapSelectPanel: document.getElementById("mapSelectPanel"),
         reviewPanel: document.getElementById("reviewPanel"),
         reviewTitle: document.getElementById("reviewTitle"),
@@ -3365,6 +3445,163 @@
         modalNextButton: document.getElementById("modalNextButton"),
         modalCloseButton: document.getElementById("modalCloseButton")
       };
+
+      let supabaseClient = null;
+      let authUser = null;
+      let authBusy = false;
+      let authReady = false;
+      let authErrorMessage = "";
+
+      function isSupabaseSdkAvailable() {
+        return Boolean(window.supabase && typeof window.supabase.createClient === "function");
+      }
+
+      function getSupabaseClient() {
+        if (supabaseClient) return supabaseClient;
+        if (!isSupabaseSdkAvailable()) return null;
+        supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
+          auth: {
+            persistSession: true,
+            autoRefreshToken: true,
+            detectSessionInUrl: true
+          }
+        });
+        return supabaseClient;
+      }
+
+      function currentAuthRedirectUrl() {
+        const url = new URL(window.location.href);
+        url.search = "";
+        url.hash = "";
+        return url.toString();
+      }
+
+      function authUserLabel(user) {
+        return user && user.email
+          ? user.email
+          : "Google 帳號";
+      }
+
+      function updateAuthUi() {
+        const hasClient = Boolean(getSupabaseClient());
+        if (!hasClient) {
+          els.authStatusText.textContent = "未登入也可以遊玩。同步登入目前無法載入。";
+          els.googleLoginButton.textContent = "同步登入暫時不可用";
+          els.googleLoginButton.disabled = true;
+          els.authLogoutButton.hidden = true;
+          return;
+        }
+
+        els.googleLoginButton.disabled = authBusy;
+        els.authLogoutButton.disabled = authBusy;
+
+        if (authBusy) {
+          els.authStatusText.textContent = "正在處理 Google 登入狀態。";
+          els.googleLoginButton.textContent = "處理中";
+          els.authLogoutButton.hidden = !authUser;
+          return;
+        }
+
+        if (authUser) {
+          els.authStatusText.textContent = `已登入：${authUserLabel(authUser)}。進度仍會先保留在這台裝置。`;
+          els.googleLoginButton.hidden = true;
+          els.authLogoutButton.hidden = false;
+          els.authLogoutButton.textContent = "登出";
+          return;
+        }
+
+        els.googleLoginButton.hidden = false;
+        els.authLogoutButton.hidden = true;
+        els.googleLoginButton.textContent = "使用 Google 登入同步";
+        els.authStatusText.textContent = authErrorMessage || (authReady
+          ? "未登入也可以遊玩；登入後才會開啟雲端同步。"
+          : "正在確認登入狀態。");
+      }
+
+      async function refreshAuthSession() {
+        const client = getSupabaseClient();
+        if (!client) {
+          authReady = true;
+          updateAuthUi();
+          return null;
+        }
+
+        try {
+          const { data, error } = await client.auth.getSession();
+          if (error) throw error;
+          authUser = data.session ? data.session.user : null;
+          authErrorMessage = "";
+        } catch (error) {
+          console.warn("Cannot read Supabase auth session.", error);
+          authUser = null;
+          authErrorMessage = "暫時無法確認登入狀態；本機遊玩不受影響。";
+        } finally {
+          authReady = true;
+          updateAuthUi();
+        }
+
+        return authUser;
+      }
+
+      async function signInWithGoogle() {
+        const client = getSupabaseClient();
+        if (!client || authBusy) return;
+        authBusy = true;
+        authErrorMessage = "";
+        updateAuthUi();
+
+        const { error } = await client.auth.signInWithOAuth({
+          provider: "google",
+          options: {
+            redirectTo: currentAuthRedirectUrl(),
+            queryParams: {
+              prompt: "select_account"
+            }
+          }
+        });
+
+        if (error) {
+          console.warn("Google login failed.", error);
+          authBusy = false;
+          authErrorMessage = "Google 登入沒有完成；你仍然可以直接遊玩。";
+          updateAuthUi();
+        }
+      }
+
+      async function signOutAuth() {
+        const client = getSupabaseClient();
+        if (!client || authBusy) return;
+        authBusy = true;
+        authErrorMessage = "";
+        updateAuthUi();
+
+        const { error } = await client.auth.signOut();
+        if (error) {
+          console.warn("Supabase sign out failed.", error);
+          authErrorMessage = "登出失敗，請稍後再試。";
+        } else {
+          authUser = null;
+        }
+
+        authBusy = false;
+        updateAuthUi();
+      }
+
+      function initAuth() {
+        const client = getSupabaseClient();
+        updateAuthUi();
+        if (!client) return;
+
+        client.auth.onAuthStateChange((_event, session) => {
+          authUser = session ? session.user : null;
+          authBusy = false;
+          authReady = true;
+          authErrorMessage = "";
+          updateAuthUi();
+        });
+
+        refreshAuthSession();
+      }
 
       let rootSave = loadRootSave();
       try {
@@ -5912,6 +6149,8 @@
       });
       els.startJourneyButton.addEventListener("click", startJourney);
       els.startReviewButton.addEventListener("click", showReviewLevelSelect);
+      els.googleLoginButton.addEventListener("click", signInWithGoogle);
+      els.authLogoutButton.addEventListener("click", signOutAuth);
       els.reviewFocusMusicButton.addEventListener("click", toggleReviewFocusMusic);
       els.reviewRevealButton.addEventListener("click", revealReviewAnswer);
       els.reviewKnownButton.addEventListener("click", () => markReviewWord("known"));
@@ -5920,6 +6159,7 @@
       els.reviewPlayButton.addEventListener("click", startJourney);
       els.reviewHomeButton.addEventListener("click", showHomeScreen);
 
+      initAuth();
       updateAudioToggle();
       updateReviewFocusMusicButton();
       renderAll();
@@ -5975,6 +6215,17 @@
         getReviewStats: (level = reviewLevel) => JSON.parse(JSON.stringify(loadReviewStats(level))),
         getN5ReviewStats: () => JSON.parse(JSON.stringify(loadReviewStats("N5"))),
         postcardVisuals: () => currentStations().map((station) => postcardVisual(station))
+      };
+
+      window.__fatShibaAuthTest = {
+        clientReady: () => Boolean(getSupabaseClient()),
+        ready: () => authReady,
+        busy: () => authBusy,
+        user: () => authUser ? { id: authUser.id, email: authUser.email } : null,
+        statusText: () => els.authStatusText.textContent,
+        refresh: refreshAuthSession,
+        signInWithGoogle,
+        signOut: signOutAuth
       };
     })();
   </script>
