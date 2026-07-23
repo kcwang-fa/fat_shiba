@@ -185,8 +185,32 @@
       gap: 8px;
     }
 
+    .sync-conflict-panel {
+      display: grid;
+      gap: 8px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(105, 115, 134, 0.22);
+    }
+
+    .sync-conflict-title {
+      margin: 0;
+      color: #253042;
+      font-size: 0.88rem;
+      font-weight: 900;
+      line-height: 1.3;
+    }
+
+    .sync-conflict-summary {
+      margin: 0;
+      color: #4c596c;
+      font-size: 0.78rem;
+      font-weight: 750;
+      line-height: 1.4;
+    }
+
     .google-login-button,
-    .auth-logout-button {
+    .auth-logout-button,
+    .sync-choice-button {
       min-height: 42px;
       width: 100%;
       border-radius: 999px;
@@ -221,8 +245,29 @@
     }
 
     .google-login-button:active,
-    .auth-logout-button:active {
+    .auth-logout-button:active,
+    .sync-choice-button:active {
       transform: translateY(1px);
+    }
+
+    .sync-choice-button.local {
+      color: #fffdf8;
+      background: linear-gradient(180deg, #e9744d 0%, #bd4b36 100%);
+      border: 2px solid rgba(255, 253, 248, 0.9);
+      box-shadow: 0 10px 22px rgba(137, 71, 34, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+    }
+
+    .sync-choice-button.cloud {
+      color: #fffdf8;
+      background: linear-gradient(180deg, #3babb0 0%, #1d7076 100%);
+      border: 2px solid rgba(255, 253, 248, 0.9);
+      box-shadow: 0 10px 22px rgba(29, 112, 118, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.28);
+    }
+
+    .sync-choice-button.later {
+      color: #4c596c;
+      background: rgba(255, 253, 248, 0.7);
+      border: 2px solid rgba(105, 115, 134, 0.3);
     }
 
     .start-journey-button {
@@ -2258,6 +2303,13 @@
           <button class="google-login-button" type="button" id="googleLoginButton">使用 Google 登入同步</button>
           <button class="auth-logout-button" type="button" id="authLogoutButton" hidden>登出</button>
         </div>
+        <div class="sync-conflict-panel" id="syncConflictPanel" hidden>
+          <p class="sync-conflict-title">這台裝置和雲端都有進度</p>
+          <p class="sync-conflict-summary" id="syncConflictSummary">請選擇要保留哪一份。</p>
+          <button class="sync-choice-button local" type="button" id="syncUseLocalButton">保留這台裝置</button>
+          <button class="sync-choice-button cloud" type="button" id="syncUseCloudButton">使用雲端進度</button>
+          <button class="sync-choice-button later" type="button" id="syncLaterButton">稍後再說</button>
+        </div>
       </div>
     </div>
   </section>
@@ -2462,6 +2514,9 @@
       const ROOT_SAVE_KEY = "fatShiba.phase2.root.v1";
       const LEGACY_SAVE_KEY = "fatShiba.phase1.save.v1";
       const AUDIO_SAVE_KEY = "fatShiba.phase2.audio.v1";
+      const CLOUD_SAVE_TABLE = "user_saves";
+      const CLOUD_SAVE_SCHEMA_VERSION = 1;
+      const LOCAL_CLOUD_IMPORT_BACKUP_KEY = "fatShiba.phase2.backupBeforeCloudImport.v1";
       const SUPABASE_URL = "https://ztsmpvxbvpycogfuhooi.supabase.co";
       const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_oQ4o8G3wxFftfJPOrQnrug_F2BR3ivu";
       const LEVEL_ORDER = ["N5", "N4", "N3", "N2", "N1"];
@@ -3101,6 +3156,15 @@
             console.warn(`Cannot write localStorage key: ${key}`, error);
             return false;
           }
+        },
+        removeItem(key) {
+          try {
+            window.localStorage.removeItem(key);
+            return true;
+          } catch (error) {
+            console.warn(`Cannot remove localStorage key: ${key}`, error);
+            return false;
+          }
         }
       };
 
@@ -3357,6 +3421,11 @@
         authStatusText: document.getElementById("authStatusText"),
         googleLoginButton: document.getElementById("googleLoginButton"),
         authLogoutButton: document.getElementById("authLogoutButton"),
+        syncConflictPanel: document.getElementById("syncConflictPanel"),
+        syncConflictSummary: document.getElementById("syncConflictSummary"),
+        syncUseLocalButton: document.getElementById("syncUseLocalButton"),
+        syncUseCloudButton: document.getElementById("syncUseCloudButton"),
+        syncLaterButton: document.getElementById("syncLaterButton"),
         mapSelectPanel: document.getElementById("mapSelectPanel"),
         reviewPanel: document.getElementById("reviewPanel"),
         reviewTitle: document.getElementById("reviewTitle"),
@@ -3451,6 +3520,13 @@
       let authBusy = false;
       let authReady = false;
       let authErrorMessage = "";
+      let cloudSyncBusy = false;
+      let cloudSyncPaused = false;
+      let cloudSyncMessage = "";
+      let cloudSyncTimer = 0;
+      let cloudSyncInitialUserId = "";
+      let pendingCloudSaveBundle = null;
+      let pendingLocalSaveBundle = null;
 
       function isSupabaseSdkAvailable() {
         return Boolean(window.supabase && typeof window.supabase.createClient === "function");
@@ -3482,6 +3558,125 @@
           : "Google 帳號";
       }
 
+      function allRegionSaveKeys() {
+        return REGIONS.map((region) => regionSaveKey(region.id));
+      }
+
+      function allReviewSaveKeys() {
+        return REVIEW_LEVELS.map((level) => reviewSaveKey(level));
+      }
+
+      function syncManagedSaveKeys() {
+        return [
+          ROOT_SAVE_KEY,
+          LEGACY_SAVE_KEY,
+          AUDIO_SAVE_KEY,
+          ...allRegionSaveKeys(),
+          ...allReviewSaveKeys()
+        ];
+      }
+
+      function exportLocalSaveBundle() {
+        const keys = {};
+        for (const key of syncManagedSaveKeys()) {
+          const value = safeStorage.getItem(key);
+          if (value !== null) keys[key] = value;
+        }
+        return {
+          schemaVersion: CLOUD_SAVE_SCHEMA_VERSION,
+          app: "fat-shiba",
+          exportedAt: new Date().toISOString(),
+          wordDataVersion: WORD_DATA_VERSION,
+          keys
+        };
+      }
+
+      function isSaveBundle(value) {
+        return Boolean(value && typeof value === "object" && !Array.isArray(value) && value.keys && typeof value.keys === "object" && !Array.isArray(value.keys));
+      }
+
+      function saveBundleHasData(bundle) {
+        return isSaveBundle(bundle) && Object.keys(bundle.keys).length > 0;
+      }
+
+      function comparableSaveBundle(bundle) {
+        if (!isSaveBundle(bundle)) return {};
+        return syncManagedSaveKeys().reduce((output, key) => {
+          if (Object.prototype.hasOwnProperty.call(bundle.keys, key)) output[key] = bundle.keys[key];
+          return output;
+        }, {});
+      }
+
+      function saveBundlesMatch(left, right) {
+        return JSON.stringify(comparableSaveBundle(left)) === JSON.stringify(comparableSaveBundle(right));
+      }
+
+      function parseBundleJson(bundle, key) {
+        if (!isSaveBundle(bundle) || !Object.prototype.hasOwnProperty.call(bundle.keys, key)) return null;
+        try {
+          return JSON.parse(bundle.keys[key]);
+        } catch (_error) {
+          return null;
+        }
+      }
+
+      function summarizeSaveBundle(bundle) {
+        if (!saveBundleHasData(bundle)) return "沒有可辨識的本機進度";
+
+        const root = parseBundleJson(bundle, ROOT_SAVE_KEY);
+        let selectedRegion = root && REGION_BY_ID.has(root.currentRegionId)
+          ? REGION_BY_ID.get(root.currentRegionId)
+          : null;
+
+        if (!selectedRegion) {
+          selectedRegion = REGIONS
+            .map((region) => ({
+              region,
+              save: parseBundleJson(bundle, regionSaveKey(region.id))
+            }))
+            .filter((item) => item.save)
+            .sort((a, b) => {
+              const bCount = Array.isArray(b.save.collectedPostcardIds) ? b.save.collectedPostcardIds.length : 0;
+              const aCount = Array.isArray(a.save.collectedPostcardIds) ? a.save.collectedPostcardIds.length : 0;
+              return bCount - aCount;
+            })[0]?.region || REGIONS[0];
+        }
+
+        const regionSave = parseBundleJson(bundle, regionSaveKey(selectedRegion.id)) || {};
+        const stationIds = selectedRegion.stations.map((station) => station.id);
+        const currentStationId = stationIds.includes(regionSave.currentStationId) ? regionSave.currentStationId : stationIds[0];
+        const stationIndex = Math.max(0, stationIds.indexOf(currentStationId));
+        const collectedCount = Array.isArray(regionSave.collectedPostcardIds)
+          ? regionSave.collectedPostcardIds.filter((id) => stationIds.includes(id)).length
+          : 0;
+        const foundCount = Array.isArray(regionSave.foundWordIds) ? regionSave.foundWordIds.length : 0;
+        const reviewCount = REVIEW_LEVELS.reduce((total, level) => {
+          const stats = parseBundleJson(bundle, reviewSaveKey(level));
+          return total + (stats && stats.words && typeof stats.words === "object" ? Object.keys(stats.words).length : 0);
+        }, 0);
+
+        return `${selectedRegion.level} ${selectedRegion.name}，第 ${stationIndex + 1} / ${selectedRegion.stations.length} 站，明信片 ${collectedCount} 張，找到 ${foundCount} 個字，複習紀錄 ${reviewCount} 個字`;
+      }
+
+      function setSyncConflict(localBundle, cloudBundle) {
+        pendingLocalSaveBundle = localBundle;
+        pendingCloudSaveBundle = cloudBundle;
+        cloudSyncPaused = true;
+        els.syncConflictSummary.textContent = `這台裝置：${summarizeSaveBundle(localBundle)}。雲端：${summarizeSaveBundle(cloudBundle)}。`;
+        updateAuthUi();
+      }
+
+      function clearSyncConflict() {
+        pendingLocalSaveBundle = null;
+        pendingCloudSaveBundle = null;
+        els.syncConflictPanel.hidden = true;
+      }
+
+      function updateCloudSyncMessage(message) {
+        cloudSyncMessage = message;
+        updateAuthUi();
+      }
+
       function updateAuthUi() {
         const hasClient = Boolean(getSupabaseClient());
         if (!hasClient) {
@@ -3494,28 +3689,238 @@
 
         els.googleLoginButton.disabled = authBusy;
         els.authLogoutButton.disabled = authBusy;
+        els.syncUseLocalButton.disabled = cloudSyncBusy;
+        els.syncUseCloudButton.disabled = cloudSyncBusy;
+        els.syncLaterButton.disabled = cloudSyncBusy;
 
         if (authBusy) {
           els.authStatusText.textContent = "正在處理 Google 登入狀態。";
           els.googleLoginButton.textContent = "處理中";
           els.authLogoutButton.hidden = !authUser;
+          els.syncConflictPanel.hidden = true;
           return;
         }
 
         if (authUser) {
-          els.authStatusText.textContent = `已登入：${authUserLabel(authUser)}。進度仍會先保留在這台裝置。`;
+          const syncText = cloudSyncBusy
+            ? "正在同步進度。"
+            : cloudSyncPaused
+              ? "同步已暫停，請先選擇要保留哪一份進度。"
+              : cloudSyncMessage || "登入後會先保留本機進度，再同步到雲端。";
+          els.authStatusText.textContent = `已登入：${authUserLabel(authUser)}。${syncText}`;
           els.googleLoginButton.hidden = true;
           els.authLogoutButton.hidden = false;
           els.authLogoutButton.textContent = "登出";
+          els.syncConflictPanel.hidden = !(cloudSyncPaused && pendingCloudSaveBundle && pendingLocalSaveBundle);
           return;
         }
 
         els.googleLoginButton.hidden = false;
         els.authLogoutButton.hidden = true;
+        els.syncConflictPanel.hidden = true;
         els.googleLoginButton.textContent = "使用 Google 登入同步";
         els.authStatusText.textContent = authErrorMessage || (authReady
           ? "未登入也可以遊玩；登入後才會開啟雲端同步。"
           : "正在確認登入狀態。");
+      }
+
+      async function fetchCloudSaveBundle() {
+        const client = getSupabaseClient();
+        if (!client || !authUser) return null;
+        const { data, error } = await client
+          .from(CLOUD_SAVE_TABLE)
+          .select("save_data")
+          .eq("user_id", authUser.id)
+          .maybeSingle();
+        if (error) throw error;
+        return isSaveBundle(data && data.save_data) ? data.save_data : null;
+      }
+
+      async function uploadCloudSaveBundle(bundle = exportLocalSaveBundle()) {
+        const client = getSupabaseClient();
+        if (!client || !authUser) return false;
+        const { error } = await client
+          .from(CLOUD_SAVE_TABLE)
+          .upsert({
+            user_id: authUser.id,
+            save_data: bundle,
+            save_version: CLOUD_SAVE_SCHEMA_VERSION
+          }, { onConflict: "user_id" });
+        if (error) throw error;
+        return true;
+      }
+
+      async function syncLocalSaveToCloud(reason = "auto") {
+        if (!authUser || cloudSyncPaused || cloudSyncBusy) return false;
+        cloudSyncBusy = true;
+        updateAuthUi();
+        try {
+          const localBundle = exportLocalSaveBundle();
+          await uploadCloudSaveBundle(localBundle);
+          updateCloudSyncMessage(reason === "choice" ? "已使用這台裝置的進度更新雲端。" : "進度已同步到雲端。");
+          return true;
+        } catch (error) {
+          console.warn("Cloud save upload failed.", error);
+          updateCloudSyncMessage("雲端同步失敗；本機進度已保留。");
+          return false;
+        } finally {
+          cloudSyncBusy = false;
+          updateAuthUi();
+        }
+      }
+
+      function scheduleCloudSaveSync() {
+        if (!authUser || cloudSyncPaused) return;
+        window.clearTimeout(cloudSyncTimer);
+        cloudSyncTimer = window.setTimeout(() => {
+          cloudSyncTimer = 0;
+          syncLocalSaveToCloud();
+        }, 1200);
+      }
+
+      async function restoreRuntimeFromLocalStorage() {
+        const nextRootSave = loadRootSave();
+        const nextRegion = REGION_BY_ID.get(nextRootSave.currentRegionId) || REGIONS[0];
+        try {
+          await ensureCurrentLevelWords(nextRegion.level);
+        } catch (error) {
+          console.warn("Cloud-imported word data failed to load, falling back to N5.", error);
+          nextRootSave.currentRegionId = REGIONS[0].id;
+          await ensureCurrentLevelWords(REGIONS[0].level);
+        }
+
+        rootSave = nextRootSave;
+        save = loadRegionSave(currentRegion().id);
+        audioEnabled = loadAudioPreference();
+        selectedCells = [];
+        roundFoundIds = new Set();
+        hintedTargetIds = new Set();
+        hintsLeft = HINTS_PER_ROUND;
+        updateAudioToggle();
+        renderAll();
+        generateRound();
+        showHomeScreen();
+      }
+
+      async function importCloudSaveBundle(bundle) {
+        if (!isSaveBundle(bundle)) return false;
+        const backup = exportLocalSaveBundle();
+        safeStorage.setItem(LOCAL_CLOUD_IMPORT_BACKUP_KEY, JSON.stringify({
+          backedUpAt: new Date().toISOString(),
+          bundle: backup
+        }));
+
+        const keys = syncManagedSaveKeys();
+        for (const key of keys) {
+          if (Object.prototype.hasOwnProperty.call(bundle.keys, key) && typeof bundle.keys[key] === "string") {
+            safeStorage.setItem(key, bundle.keys[key]);
+          } else {
+            safeStorage.removeItem(key);
+          }
+        }
+
+        await restoreRuntimeFromLocalStorage();
+        return true;
+      }
+
+      async function reconcileCloudSaveAfterLogin() {
+        if (!authUser || cloudSyncBusy) return;
+        cloudSyncPaused = false;
+        clearSyncConflict();
+        cloudSyncBusy = true;
+        updateAuthUi();
+
+        try {
+          const localBundle = exportLocalSaveBundle();
+          const cloudBundle = await fetchCloudSaveBundle();
+          const hasLocal = saveBundleHasData(localBundle);
+          const hasCloud = saveBundleHasData(cloudBundle);
+
+          if (!hasLocal && !hasCloud) {
+            updateCloudSyncMessage("目前還沒有可同步的進度。");
+            return;
+          }
+
+          if (hasLocal && !hasCloud) {
+            await uploadCloudSaveBundle(localBundle);
+            updateCloudSyncMessage("已把這台裝置的進度備份到雲端。");
+            return;
+          }
+
+          if (!hasLocal && hasCloud) {
+            await importCloudSaveBundle(cloudBundle);
+            updateCloudSyncMessage("已從雲端恢復進度。");
+            return;
+          }
+
+          if (saveBundlesMatch(localBundle, cloudBundle)) {
+            updateCloudSyncMessage("本機和雲端進度一致。");
+            return;
+          }
+
+          setSyncConflict(localBundle, cloudBundle);
+        } catch (error) {
+          console.warn("Cloud save reconciliation failed.", error);
+          updateCloudSyncMessage("雲端同步檢查失敗；本機進度已保留。");
+        } finally {
+          cloudSyncBusy = false;
+          updateAuthUi();
+        }
+      }
+
+      function queueInitialCloudSyncForUser() {
+        if (!authUser) return;
+        if (cloudSyncInitialUserId === authUser.id) return;
+        cloudSyncInitialUserId = authUser.id;
+        reconcileCloudSaveAfterLogin();
+      }
+
+      async function useLocalSaveForSyncConflict() {
+        if (!pendingLocalSaveBundle || !authUser || cloudSyncBusy) return;
+        const cloudBundle = pendingCloudSaveBundle;
+        cloudSyncPaused = false;
+        const bundle = pendingLocalSaveBundle;
+        clearSyncConflict();
+        cloudSyncBusy = true;
+        updateAuthUi();
+        try {
+          await uploadCloudSaveBundle(bundle);
+          updateCloudSyncMessage("已保留這台裝置的進度，並更新雲端。");
+        } catch (error) {
+          console.warn("Cannot upload selected local save.", error);
+          cloudSyncPaused = true;
+          setSyncConflict(bundle, cloudBundle || bundle);
+          updateCloudSyncMessage("雲端更新失敗；尚未覆蓋任何進度。");
+        } finally {
+          cloudSyncBusy = false;
+          updateAuthUi();
+        }
+      }
+
+      async function useCloudSaveForSyncConflict() {
+        if (!pendingCloudSaveBundle || !authUser || cloudSyncBusy) return;
+        const bundle = pendingCloudSaveBundle;
+        cloudSyncPaused = false;
+        clearSyncConflict();
+        cloudSyncBusy = true;
+        updateAuthUi();
+        try {
+          await importCloudSaveBundle(bundle);
+          updateCloudSyncMessage("已使用雲端進度；原本本機進度已先備份。");
+          await uploadCloudSaveBundle(exportLocalSaveBundle());
+        } catch (error) {
+          console.warn("Cannot import selected cloud save.", error);
+          updateCloudSyncMessage("雲端進度匯入失敗；本機進度已盡量保留。");
+        } finally {
+          cloudSyncBusy = false;
+          updateAuthUi();
+        }
+      }
+
+      function pauseCloudSyncConflict() {
+        cloudSyncPaused = true;
+        cloudSyncMessage = "已暫停同步；本機進度會繼續保留。";
+        updateAuthUi();
       }
 
       async function refreshAuthSession() {
@@ -3531,6 +3936,7 @@
           if (error) throw error;
           authUser = data.session ? data.session.user : null;
           authErrorMessage = "";
+          if (authUser) queueInitialCloudSyncForUser();
         } catch (error) {
           console.warn("Cannot read Supabase auth session.", error);
           authUser = null;
@@ -3581,6 +3987,10 @@
           authErrorMessage = "登出失敗，請稍後再試。";
         } else {
           authUser = null;
+          cloudSyncInitialUserId = "";
+          cloudSyncPaused = false;
+          cloudSyncMessage = "";
+          clearSyncConflict();
         }
 
         authBusy = false;
@@ -3597,6 +4007,14 @@
           authBusy = false;
           authReady = true;
           authErrorMessage = "";
+          if (authUser) {
+            queueInitialCloudSyncForUser();
+          } else {
+            cloudSyncInitialUserId = "";
+            cloudSyncPaused = false;
+            cloudSyncMessage = "";
+            clearSyncConflict();
+          }
           updateAuthUi();
         });
 
@@ -3646,7 +4064,9 @@
       }
 
       function persistAudioPreference() {
-        safeStorage.setItem(AUDIO_SAVE_KEY, audioEnabled ? "on" : "off");
+        if (safeStorage.setItem(AUDIO_SAVE_KEY, audioEnabled ? "on" : "off")) {
+          scheduleCloudSaveSync();
+        }
       }
 
       function ensureAudioGraph() {
@@ -4210,7 +4630,9 @@
       function persistRootSave() {
         if (!safeStorage.setItem(ROOT_SAVE_KEY, JSON.stringify(rootSave))) {
           setMessage(STORAGE_WARNING_MESSAGE);
+          return;
         }
+        scheduleCloudSaveSync();
       }
 
       function normalizePoseIds(value) {
@@ -4365,7 +4787,9 @@
         save = normalizeRegionSave(currentRegion(), save);
         if (!safeStorage.setItem(regionSaveKey(currentRegion().id), JSON.stringify(save))) {
           setMessage(STORAGE_WARNING_MESSAGE);
+          return;
         }
+        scheduleCloudSaveSync();
       }
 
       function currentStation() {
@@ -4473,7 +4897,9 @@
       function persistReviewStats(level, stats) {
         if (!safeStorage.setItem(reviewSaveKey(level), JSON.stringify(normalizeReviewStats(level, stats)))) {
           setMessage(STORAGE_WARNING_MESSAGE);
+          return;
         }
+        scheduleCloudSaveSync();
       }
 
       function nextReviewIntervalDays(result, correctStreak) {
@@ -4536,8 +4962,10 @@
         }
         if (!safeStorage.setItem(regionSaveKey(region.id), JSON.stringify(normalizeRegionSave(region, regionSave)))) {
           setMessage(STORAGE_WARNING_MESSAGE);
+          return;
         }
         if (currentRegion().id === region.id) save = normalizeRegionSave(region, regionSave);
+        scheduleCloudSaveSync();
       }
 
       function pickReviewWords(level = reviewLevel) {
@@ -6151,6 +6579,9 @@
       els.startReviewButton.addEventListener("click", showReviewLevelSelect);
       els.googleLoginButton.addEventListener("click", signInWithGoogle);
       els.authLogoutButton.addEventListener("click", signOutAuth);
+      els.syncUseLocalButton.addEventListener("click", useLocalSaveForSyncConflict);
+      els.syncUseCloudButton.addEventListener("click", useCloudSaveForSyncConflict);
+      els.syncLaterButton.addEventListener("click", pauseCloudSyncConflict);
       els.reviewFocusMusicButton.addEventListener("click", toggleReviewFocusMusic);
       els.reviewRevealButton.addEventListener("click", revealReviewAnswer);
       els.reviewKnownButton.addEventListener("click", () => markReviewWord("known"));
@@ -6223,6 +6654,17 @@
         busy: () => authBusy,
         user: () => authUser ? { id: authUser.id, email: authUser.email } : null,
         statusText: () => els.authStatusText.textContent,
+        localSaveBundle: exportLocalSaveBundle,
+        localSaveSummary: () => summarizeSaveBundle(exportLocalSaveBundle()),
+        fetchCloudSaveBundle,
+        syncNow: () => syncLocalSaveToCloud("manual"),
+        reconcile: reconcileCloudSaveAfterLogin,
+        conflict: () => ({
+          paused: cloudSyncPaused,
+          hasLocal: Boolean(pendingLocalSaveBundle),
+          hasCloud: Boolean(pendingCloudSaveBundle),
+          summary: els.syncConflictSummary.textContent
+        }),
         refresh: refreshAuthSession,
         signInWithGoogle,
         signOut: signOutAuth
